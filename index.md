@@ -30,7 +30,7 @@ Thanks to Covid-19, video lectures by O'Reilly @ UC Davis are being recorded: [Y
 
 Please use this citation for the text:
 
-O'Reilly, R. C., Munakata, Y., Frank, M. J., Hazy, T. E., and Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 4th Edition (2020). URL: https://github.com/CompCogNeuro/ed4
+O'Reilly, R. C., Munakata, Y., Frank, M. J., Hazy, T. E., and Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 4th Edition (2020). URL: https://CompCogNeuro.org
 
 (you could update year to 2020 but maybe better to just keep using the 2012 citation --- either way is fine)
 
@@ -41,7 +41,7 @@ BibTeX:
   author={Randall C. O'Reilly and Yuko Munakata and Michael J. Frank and Thomas E. Hazy and Contributors},
   title={Computational Cognitive Neuroscience},
   year={2012},
-  publisher={Online Book, 4th Edition, URL: \url{https://github.com/CompCogNeuro/ed4}},
+  publisher={Online Book, 4th Edition, URL: \url{https://CompCogNeuro.org}},
   url={https://github.com/CompCogNeuro/ed4},
 }
 ```
@@ -51,3 +51,8 @@ BibTeX:
 * UC Davis (O'Reilly): https://ccnlab.org/teaching/ccn
 
 * Brown (Frank): http://ski.clps.brown.edu/cogsim.html
+
+# GitHub Source
+
+The source for this book is at: https://github.com/CompCogNeuro/ed4
+
