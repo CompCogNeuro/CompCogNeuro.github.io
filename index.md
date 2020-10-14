@@ -1,6 +1,6 @@
-This is the 4th edition of the online, freely available textbook, originally written in MediaWiki and hosted on [grey.colorado.edu]([https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main)
+This is the 4th edition of the online, freely available textbook, providing a complete, self-contained introduction to the field of **Computational Cognitive Neuroscience**, where computer models of the brain are used to understand a wide range of cognitive functions, including perception, attention, motor control, learning, memory, language, and executive function.
 
-This version is written in markdown format, and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of the https://github.com/bmc/ebook-template python script.
+The first part of this textbook develops a coherent set of computational and neural principles that capture the behavior of networks of interconnected neurons, and the second part applies these principles to understand the above-listed cognitive functions.
 
 # Formats
 
@@ -24,7 +24,7 @@ These are updated with the new Go / Python version of *emergent*: https://github
 
 # Lecture Videos
 
-Thanks to Covid-19, video lectures by O'Reilly @ UC Davis are being recorded: [YouTube Playlist](https://www.youtube.com/playlist?list=PLu02O8xRZn7xtNx03Rlq6xMRdYcQgEpar)
+Thanks to Covid-19, video lectures by O'Reilly @ UC Davis have been recorded: [YouTube Playlist](https://www.youtube.com/playlist?list=PLu02O8xRZn7xtNx03Rlq6xMRdYcQgEpar)
 
 # Citation
 
@@ -48,11 +48,15 @@ BibTeX:
 
 # Syllabi
 
-* UC Davis (O'Reilly): https://ccnlab.org/teaching/ccn
+* UC Davis (O'Reilly): [https://ccnlab.org/teaching/ccn](https://ccnlab.org/teaching/ccn)
 
-* Brown (Frank): http://ski.clps.brown.edu/cogsim.html
+* Brown (Frank): [http://ski.clps.brown.edu/cogsim.html](http://ski.clps.brown.edu/cogsim.html)
 
 # GitHub Source
 
-The source for this book is at: https://github.com/CompCogNeuro/ed4
+The source for this book is at: [https://github.com/CompCogNeuro/ed4](https://github.com/CompCogNeuro/ed4)
+
+It was originally written in MediaWiki and hosted on [grey.colorado.edu]([https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main)
+
+This version is written in markdown format, and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of the [https://github.com/bmc/ebook-template](https://github.com/bmc/ebook-template) python script.
 
