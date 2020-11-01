@@ -10,7 +10,7 @@ Please use the following links to download the formatted version of the book:
 
 * [ePub](https://github.com/CompCogNeuro/ed4/releases/download/v1.0.0/ccnbook_ed4.epub) --- opens in e.g., Mac iBooks
 
-* [Kindle / MOBI](https://github.com/CompCogNeuro/ed4/releases/download/v1.0.0/ccnbook_ed4.mobi) --- you can email this to yourself at your amazon kindle account to get it on your device: https://www.amazon.com/gp/sendtokindle/email
+* [Kindle / MOBI](https://github.com/CompCogNeuro/ed4/releases/download/v1.0.0/ccnbook_ed4.mobi) --- you can email this to yourself at your amazon kindle account to get it on your device: [https://www.amazon.com/gp/sendtokindle/email](https://www.amazon.com/gp/sendtokindle/email)
 
 * [Amazon.com](https://www.amazon.com//dp/B007H9YWAG) --- you can pay $2.99 (lowest price possible) to have Amazon upload the book to your kindle, or roughly $35 for them to send you an on-demand paperback print version (in color)
 
@@ -18,9 +18,9 @@ Please use the following links to download the formatted version of the book:
 
 # Simulation Exercises
 
-The simulation exercises that go with the book are available under this same organization in github, in the `sims` repository: https://github.com/CompCogNeuro/sims
+The simulation exercises that go with the book are available under this same organization in github, in the `sims` repository: [https://github.com/CompCogNeuro/sims](https://github.com/CompCogNeuro/sims)
 
-These are updated with the new Go / Python version of *emergent*: https://github.com/emer/emergent
+These are updated with the new Go / Python version of *emergent*: [https://github.com/emer/emergent](https://github.com/emer/emergent)
 
 # Lecture Videos
 
