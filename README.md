@@ -1,2 +1,3 @@
 # CompCogNeuro.github.io
-web page for accessing book content
+
+This is the web page for the textbook: https://CompCogNeuro.org
