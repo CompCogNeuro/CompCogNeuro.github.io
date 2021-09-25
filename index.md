@@ -20,7 +20,7 @@ Please use the following links to download the formatted version of the book:
 
 The simulation exercises that go with the book are available under this same organization in github, in the `sims` repository: [https://github.com/CompCogNeuro/sims](https://github.com/CompCogNeuro/sims)
 
-If you want more background information and to see the underlying code, the simulations are implemented with the Go / Python version of *emergent*: [https://github.com/emer/emergent](https://github.com/emer/emergent)
+If you want more background information and to see the underlying code, the simulations are implemented with the Go / Python version of the *emergent* framework / toolkit: [https://github.com/emer/emergent](https://github.com/emer/emergent)
 
 # Lecture Videos
 
