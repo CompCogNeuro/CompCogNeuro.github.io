@@ -1,3 +1,3 @@
 # CompCogNeuro.github.io
 
-This is the web page for the textbook: https://CompCogNeuro.org
+The [website](https://CompCogNeuro.org) for the Computational Cognitive Neuroscience textbook.
