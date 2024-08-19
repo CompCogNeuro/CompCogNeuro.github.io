@@ -16,7 +16,7 @@ Please use the following links to download the formatted version of the book:
 
 Please use this citation for the text:
 
-O'Reilly, R. C., Munakata, Y., Frank, M. J., Hazy, T. E., and Contributors (2024). Computational Cognitive Neuroscience. Wiki Book, 5th Edition (2024). URL: https://compcogneuro.org
+O'Reilly, R. C., Munakata, Y., Frank, M. J., Hazy, T. E., and Contributors (2024). Computational Cognitive Neuroscience. Wiki Book, 5th Edition. URL: https://compcogneuro.org
 
 BibTeX:
 
