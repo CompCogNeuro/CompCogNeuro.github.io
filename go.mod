@@ -2,7 +2,7 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 
 go 1.22
 
-require cogentcore.org/core v0.3.2
+require cogentcore.org/core v0.3.3-0.20240819012653-ef520c78b96f
 
 require (
 	github.com/Bios-Marcel/wastebasket v0.0.4-0.20240213135800-f26f1ae0a7c4 // indirect
