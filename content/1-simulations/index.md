@@ -16,13 +16,13 @@ You can always access more detailed parameters by clicking on the button to the 
 
 ## List of sims and exercise questions
 
-Here's a full list of all the simulations and the textbook exercise questions associated with them. Note: sims that are currently available on the web have links below. The remaining sims will be available by the time they are needed.
+Here's a full list of all the simulations and the textbook exercise questions associated with them. Sims that are currently available on the web have links below. The remaining sims will be available by the time they are needed.
 
 ## Chapter 2: Neuron
 
 * [neuron](https://compcogneuro.org/sims/ch2/neuron): Integration, spiking and rate code activation. (Questions **2.1 -- 2.7**)
 
-* `detector`: The neuron as a detector -- demonstrates the critical function of synaptic weights in determining what a neuron detects. (Questions **2.8 -- 2.10**)
+* [detector](https://compcogneuro.org/sims/ch2/detector): The neuron as a detector -- demonstrates the critical function of synaptic weights in determining what a neuron detects. (Questions **2.8 -- 2.10**)
 
 ## Chapter 3: Networks
 
