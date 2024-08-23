@@ -26,7 +26,7 @@ Here's a full list of all the simulations and the textbook exercise questions as
 
 ## Chapter 3: Networks
 
-* `face_categ`: Face categorization, including bottom-up and top-down processing (used for multiple explorations in Networks chapter) (Questions **3.1 -- 3.3**)
+* [faces](https://compcogneuro.org/sims/ch3/faces): Face categorization, including bottom-up and top-down processing (used for multiple explorations in Networks chapter) (Questions **3.1 -- 3.3**)
 
 * `cats_dogs`: Constraint satisfaction in the Cats and Dogs model. (Question **3.4**)
 
