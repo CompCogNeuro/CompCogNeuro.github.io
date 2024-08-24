@@ -16,7 +16,7 @@ This is an open source textbook, available on [GitHub](https://github.com/CompCo
 
 Copyright © 2024 Randall C. O'Reilly, Yuko Munakata, Michael J. Frank, Thomas E. Hazy, and Contributors
 
-All rights reserved. Book licensed under [CC-BY-4.0](https://github.com/CompCogNeuro/book/blob/main/LICENSE).
+All rights reserved. Licensed under [CC-BY-4.0](https://github.com/CompCogNeuro/book/blob/main/LICENSE).
 
 It is written in markdown and converted into end-user formats using [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
 
