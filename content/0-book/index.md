@@ -2,7 +2,7 @@
 
 Please use the following links to download the formatted version of the book:
 
-* [PDF](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.pdf)
+* [PDF](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.pdf) --- This version has the best formatting.
 
 * [ePub](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.epub) --- You can download this file and email it to yourself at your [Amazon Kindle account](https://www.amazon.com/gp/sendtokindle/email) to get it on your Kindle. You can also open it in the macOS Books app.
 
