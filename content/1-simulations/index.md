@@ -1,6 +1,6 @@
 We recommend that you run the simulation exercises associated with this book on the web using the links below. This currently only fully works on recent versions of Chrome on macOS and Windows, so if you are on Linux, please see the alternative instructions at the bottom of this page.
 
-If you want more background information and the underlying code, the simulations are implemented with the Go version of the [emergent](https://github.com/emer/emergent) framework in the [sims](https://github.com/CompCogNeuro/sims) repository.
+If you want more background information and the underlying code, the simulations are implemented with the Go version of the [emergent](https://github.com/emer/emergent) framework in the [sims](https://github.com/CompCogNeuro/sims) repository using [Cogent Core](https://cogentcore.org/core). This website is also built with Cogent Core.
 
 ## Usage
 

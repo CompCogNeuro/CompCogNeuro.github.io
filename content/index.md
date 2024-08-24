@@ -2,7 +2,7 @@
 
 # Computational Cognitive Neuroscience, 5th Edition
 
-### R. C. O'Reilly, Y. Munakata, M. J. Frank, T. E. Hazy, & Contributors
+### Randall C. O'Reilly, Yuko Munakata, Michael J. Frank, Thomas E. Hazy, and Contributors
 
 This is the 5th edition of the online, freely available textbook, providing a complete, self-contained introduction to the field of **Computational Cognitive Neuroscience**, where computer models of the brain are used to understand a wide range of cognitive functions, including perception, attention, learning, memory, motor control, executive function, and language.
 

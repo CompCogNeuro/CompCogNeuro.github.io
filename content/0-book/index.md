@@ -32,6 +32,4 @@ BibTeX:
 
 The source for this book is at: [https://github.com/CompCogNeuro/book](https://github.com/CompCogNeuro/book)
 
-It was originally written in MediaWiki and hosted on [grey.colorado.edu]([https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main)
-
-This version is written in markdown format, and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
+This version is written in markdown and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
