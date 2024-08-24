@@ -24,12 +24,12 @@ BibTeX:
   title={Computational Cognitive Neuroscience},
   year={2024},
   publisher={Online Book, 5th Edition, URL: \url{https://compcogneuro.org}},
-  url={https://github.com/CompCogNeuro/book},
+  url={https://compcogneuro.org/book},
 }
 ```
 
 ## GitHub Source
 
-The source for this book is at: [https://github.com/CompCogNeuro/book](https://github.com/CompCogNeuro/book)
+The source for this book is on [GitHub](https://github.com/CompCogNeuro/book).
 
 This version is written in markdown and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
