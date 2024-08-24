@@ -10,6 +10,16 @@ Please use the following links to download the formatted version of the book:
 
 * [HTML](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.html) --- This does not display all of the math correctly, so you should use one of the other formats above for Chapters 2 and 4.
 
+## Copyright
+
+This is an open source textbook, available on [GitHub](https://github.com/CompCogNeuro/book).
+
+Copyright © 2024 Randall C. O'Reilly, Yuko Munakata, Michael J. Frank, Thomas E. Hazy, and Contributors
+
+All rights reserved. Book licensed under [CC-BY-4.0](https://github.com/CompCogNeuro/book/blob/main/LICENSE).
+
+It is written in markdown and converted into end-user formats using [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
+
 ## Citation
 
 Please use this citation for the text:
@@ -27,9 +37,3 @@ BibTeX:
   url={https://compcogneuro.org/book},
 }
 ```
-
-## GitHub Source
-
-The source for this book is on [GitHub](https://github.com/CompCogNeuro/book).
-
-This version is written in markdown and converted into various other end-user formats using [pandoc](https://pandoc.org/index.html) with the assistance of [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
