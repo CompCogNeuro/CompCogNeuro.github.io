@@ -1,4 +1,4 @@
-![Brain Slice Image](media/ccn_brain_slice.png)
+<img src="media/icon.png" style="width:256px;height:256px">
 
 # Computational Cognitive Neuroscience, 5th Edition
 
