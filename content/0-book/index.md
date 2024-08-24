@@ -6,7 +6,7 @@ Please use the following links to download the formatted version of the book:
 
 * [ePub](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.epub) --- you can [email](https://www.amazon.com/gp/sendtokindle/email) this to yourself at your Amazon Kindle account to get it on your device; you can also open it in the macOS Books app
 
-* [Amazon.com](https://www.amazon.com/dp/B007H9YWAG) --- you can pay \$2.99 (lowest price possible) to have Amazon upload the book to your kindle, or roughly \$35 for them to send you an on-demand paperback print version (in color)
+<!-- * [Amazon](https://www.amazon.com/dp/B007H9YWAG) --- you can pay \$2.99 (lowest price possible) to have Amazon upload the book to your kindle, or roughly \$35 for them to send you an on-demand paperback print version (in color) -->
 
 * [HTML](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.html) --- single big HTML file --- NOTE: this does not display all of the math correctly, so you should use one of the other formats above for Chapters 2 and 4.
 

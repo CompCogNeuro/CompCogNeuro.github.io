@@ -1,4 +1,4 @@
-<img src="media/icon.png" style="width:256px;height:256px">
+<img src="media/icon.png" style="width:128px;height:128px">
 
 # Computational Cognitive Neuroscience, 5th Edition
 
