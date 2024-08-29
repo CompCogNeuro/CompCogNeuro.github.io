@@ -34,7 +34,7 @@ Here's a full list of all the simulations and the textbook exercise questions as
 
 * [cats_dogs](https://compcogneuro.org/sims/ch3/cats_dogs): Constraint satisfaction in the Cats and Dogs model. (Question **3.4**)
 
-* [necker_cube]([faces](https://compcogneuro.org/sims/ch3/necker_cube): Constraint satisfaction and the role of noise and accommodation in the Necker Cube model. (Question **3.5**)
+* [necker_cube](https://compcogneuro.org/sims/ch3/necker_cube): Constraint satisfaction and the role of noise and accommodation in the Necker Cube model. (Question **3.5**)
 
 * [inhib](https://compcogneuro.org/sims/ch3/inhib): Inhibitory interactions via inhibitory interneurons, and FFFB approximation. (Questions **3.6 -- 3.8**)
 
