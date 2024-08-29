@@ -32,19 +32,19 @@ Here's a full list of all the simulations and the textbook exercise questions as
 
 * [faces](https://compcogneuro.org/sims/ch3/faces): Face categorization, including bottom-up and top-down processing (used for multiple explorations in Networks chapter) (Questions **3.1 -- 3.3**)
 
-* `cats_dogs`: Constraint satisfaction in the Cats and Dogs model. (Question **3.4**)
+* [cats_dogs](https://compcogneuro.org/sims/ch3/cats_dogs): Constraint satisfaction in the Cats and Dogs model. (Question **3.4**)
 
-* `necker_cube`: Constraint satisfaction and the role of noise and accommodation in the Necker Cube model. (Question **3.5**)
+* [necker_cube]([faces](https://compcogneuro.org/sims/ch3/necker_cube): Constraint satisfaction and the role of noise and accommodation in the Necker Cube model. (Question **3.5**)
 
-* `inhib`: Inhibitory interactions via inhibitory interneurons, and FFFB approximation. (Questions **3.6 -- 3.8**)
+* [inhib](https://compcogneuro.org/sims/ch3/inhib): Inhibitory interactions via inhibitory interneurons, and FFFB approximation. (Questions **3.6 -- 3.8**)
 
 ## Chapter 4: Learning
 
 * `self_org`: Self organizing learning using BCM-like dynamic of XCAL (Questions **4.1 -- 4.2**).
 
-* `pat_assoc`: Basic two-layer network learning simple input/output mapping tasks (pattern associator) with Hebbian and Error-driven mechanisms (Questions **4.3 -- 4.6**).
+* [pat_assoc](https://compcogneuro.org/sims/ch4/pat_assoc): Basic two-layer network learning simple input/output mapping tasks (pattern associator) with Hebbian and Error-driven mechanisms (Questions **4.3 -- 4.6**).
 
-* `err_driven_hidden`: Full error-driven learning with a hidden layer, can solve any input output mapping (Question **4.7**).
+* [err_driven_hidden](https://compcogneuro.org/sims/ch4/err_driven_hidden): Full error-driven learning with a hidden layer, can solve any input output mapping (Question **4.7**).
 
 * `family_trees`: Learning in a deep (multi-hidden-layer) network, showing advantages of combination of self-organizing and error-driven learning (Questions **4.8 -- 4.9**).
 
