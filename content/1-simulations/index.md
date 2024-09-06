@@ -10,7 +10,7 @@ If you want more background information and the underlying code, the simulations
 
 Each simulation has a `README` button, which directs your browser to open the corresponding `README.md` file on github.  This contains full step-by-step instructions for running the model, and questions to answer for classroom usage of the models.  See your syllabus etc for more info.
 
-Use standard `Ctrl+` and `Ctrl-` key sequences to zoom the display to the desired scale, and the Cogent Core settings menu has more display options (click on the three dots in the toolbar at the top).
+You can use standard `Ctrl+` and `Ctrl-` key sequences to zoom the display to the desired scale, and the Cogent Core settings window has more display options such as light/dark mode (this can be accessed through right click / two finger click / control click).
 
 The main actions for running are in the `Toolbar` at the top, while the parameters of most relevance to the model are in the `Control panel` on the left.  Different output displays are selectable in the `Tabbed views` on the right of the window.
 
