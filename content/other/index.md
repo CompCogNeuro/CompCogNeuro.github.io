@@ -1,8 +1,7 @@
 ## Syllabi
 
+* UC Davis (Munakata): https://docs.google.com/document/d/1nyhGDJozEiitDx6G-vxm-pwc6VvX7NqUzitLub9C2rw/edit
 * UC Davis (O'Reilly): [https://ccnlab.org/teaching/ccn](https://ccnlab.org/teaching/ccn)
-* UC Davis (Munakata):
-[https://docs.google.com/document/d/1C4qsshNJlmRDqkgk6gqY9yCe4SCHnrsnrUeA79JmMmA/edit](https://docs.google.com/document/d/1C4qsshNJlmRDqkgk6gqY9yCe4SCHnrsnrUeA79JmMmA/edit)
 * Brown (Frank): [http://ski.clps.brown.edu/cogsim.html](http://ski.clps.brown.edu/cogsim.html)
 
 ## Lecture Videos
