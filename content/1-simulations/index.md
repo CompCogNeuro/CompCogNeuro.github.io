@@ -54,9 +54,9 @@ Note: no sims for chapter 5
 
 ## Chapter 6: Perception and Attention
 
-* `v1rf`: V1 receptive fields from Hebbian learning, with lateral topography. (Questions **6.1 -- 6.2**)
+* [v1rf](https://compcogneuro.org/sims/ch6/v1rf): V1 receptive fields from Hebbian learning, with lateral topography. (Questions **6.1 -- 6.2**)
 
-* `objrec`: Invariant object recognition over hierarchical transforms. (Questions **6.3 -- 6.5**)
+* [objrec](https://compcogneuro.org/sims/ch6/objrec): Invariant object recognition over hierarchical transforms. (Questions **6.3 -- 6.5**)
 
 * `attn`: Spatial attention interacting with object recognition pathway, in a small-scale model. (Questions **6.6 -- 6.11**)
 
