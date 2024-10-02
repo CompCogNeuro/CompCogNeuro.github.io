@@ -58,7 +58,7 @@ Note: no sims for chapter 5
 
 * [objrec](https://compcogneuro.org/sims/ch6/objrec): Invariant object recognition over hierarchical transforms. (Questions **6.3 -- 6.5**)
 
-* `attn`: Spatial attention interacting with object recognition pathway, in a small-scale model. (Questions **6.6 -- 6.11**)
+* [attn](https://compcogneuro.org/sims/ch6/attn): Spatial attention interacting with object recognition pathway, in a small-scale model. (Questions **6.6 -- 6.11**)
 
 ## Chapter 7: Motor Control and Reinforcement Learning
 
