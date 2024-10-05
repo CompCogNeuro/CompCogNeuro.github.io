@@ -60,41 +60,41 @@ Note: no sims for chapter 5
 
 * [attn](https://compcogneuro.org/sims/ch6/attn): Spatial attention interacting with object recognition pathway, in a small-scale model. (Questions **6.6 -- 6.11**)
 
-## Chapter 7: Motor Control and Reinforcement Learning
+## Chapter 7: Learning and Memory
 
-* `bg`: Action selection / gating and reinforcement learning in the basal ganglia. (Questions **7.1 -- 7.4**)
+* `abac`: Paired associate AB-AC learning and catastrophic interference. (Questions **7.1 -- 7.3**)
 
-* `rl_cond`: Pavlovian Conditioning using Temporal Differences Reinforcement Learning. (Questions **7.5 -- 7.6**)
+* `hip`: Hippocampus model and overcoming interference. (Questions **7.4 -- 7.6**)
 
-* `pvlv`: Pavlovian Conditioning with the PVLV model (Questions **7.7 -- 7.9**)
+* `priming`: Weight and Activation-based priming. (Questions **7.7 -- 7.8**)
 
-* `cereb`: Cerebellum role in motor learning, learning from errors. (Questions **7.10 -- 7.11**) **NOT YET AVAIL!**
+## Chapter 8: Motor Control and Reinforcement Learning
 
-## Chapter 8: Learning and Memory
+* `bg`: Action selection / gating and reinforcement learning in the basal ganglia. (Questions **8.1 -- 8.4**)
 
-* `abac`: Paired associate AB-AC learning and catastrophic interference. (Questions **8.1 -- 8.3**)
+* `rl_cond`: Pavlovian Conditioning using Temporal Differences Reinforcement Learning. (Questions **8.5 -- 8.6**)
 
-* `hip`: Hippocampus model and overcoming interference. (Questions **8.4 -- 8.6**)
+* `pvlv`: Pavlovian Conditioning with the PVLV model (Questions **8.7 -- 8.9**)
 
-* `priming`: Weight and Activation-based priming. (Questions **8.7 -- 8.8**)
+* `cereb`: Cerebellum role in motor learning, learning from errors. (Questions **8.10 -- 8.11**) **NOT YET AVAIL!**
 
-## Chapter 9: Language
+## Chapter 9: Executive Function
 
-* `dyslex`: Normal and disordered reading and the distributed lexicon. (Questions **9.1 -- 9.6**)
+* `stroop`: The Stroop effect and PFC top-down biasing (Questions **9.1 -- 9.3**)
 
-* `ss`: Orthography to Phonology mapping and regularity, frequency effects. (Questions **9.7 -- 9.8**)
+* `a_not_b`: Development of PFC active maintenance and the A-not-B task (Questions **9.4 -- 9.6**)
 
-* `sem`: Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **9.9 -- 9.11**)
+* `sir`: Store/Ignore/Recall Task - Updating and Maintenance in more complex PFC model (Questions **9.7 -- 9.8**)
 
-* `sg`:  The Sentence Gestalt model. (Question **9.12**)
+## Chapter 10: Language
 
-## Chapter 10: Executive Function
+* `dyslex`: Normal and disordered reading and the distributed lexicon. (Questions **10.1 -- 10.6**)
 
-* `stroop`: The Stroop effect and PFC top-down biasing (Questions **10.1 -- 10.3**)
+* `ss`: Orthography to Phonology mapping and regularity, frequency effects. (Questions **10.7 -- 10.8**)
 
-* `a_not_b`: Development of PFC active maintenance and the A-not-B task (Questions **10.4 -- 10.6**)
+* `sem`: Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **10.9 -- 10.11**)
 
-* `sir`: Store/Ignore/Recall Task - Updating and Maintenance in more complex PFC model (Questions **10.7 -- 10.8**)
+* `sg`:  The Sentence Gestalt model. (Question **10.12**)
 
 ## Alternative ways to run
 
