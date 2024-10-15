@@ -62,7 +62,7 @@ Note: no sims for chapter 5
 
 ## Chapter 7: Learning and Memory
 
-* `abac`: Paired associate AB-AC learning and catastrophic interference. (Questions **7.1 -- 7.3**)
+* [abac](https://compcogneuro.org/sims/ch7/abac): Paired associate AB-AC learning and catastrophic interference. (Questions **7.1 -- 7.3**)
 
 * `hip`: Hippocampus model and overcoming interference. (Questions **7.4 -- 7.6**)
 
