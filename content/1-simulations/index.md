@@ -66,7 +66,7 @@ Note: no sims for chapter 5
 
 * [hip](https://compcogneuro.org/sims/ch7/hip): Hippocampus model and overcoming interference. (Questions **7.4 -- 7.6**)
 
-* `priming`: Weight and Activation-based priming. (Questions **7.7 -- 7.8**)
+* [priming](https://compcogneuro.org/sims/ch7/priming): Weight and Activation-based priming. (Questions **7.7 -- 7.8**)
 
 ## Chapter 8: Motor Control and Reinforcement Learning
 
