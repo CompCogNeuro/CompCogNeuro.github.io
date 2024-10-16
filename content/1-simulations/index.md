@@ -64,7 +64,7 @@ Note: no sims for chapter 5
 
 * [abac](https://compcogneuro.org/sims/ch7/abac): Paired associate AB-AC learning and catastrophic interference. (Questions **7.1 -- 7.3**)
 
-* `hip`: Hippocampus model and overcoming interference. (Questions **7.4 -- 7.6**)
+* [hip](https://compcogneuro.org/sims/ch7/hip): Hippocampus model and overcoming interference. (Questions **7.4 -- 7.6**)
 
 * `priming`: Weight and Activation-based priming. (Questions **7.7 -- 7.8**)
 
