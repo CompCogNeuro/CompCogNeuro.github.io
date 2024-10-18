@@ -70,11 +70,11 @@ Note: no sims for chapter 5
 
 ## Chapter 8: Motor Control and Reinforcement Learning
 
-* `bg`: Action selection / gating and reinforcement learning in the basal ganglia. (Questions **8.1 -- 8.4**)
+* [bg](https://compcogneuro.org/sims/ch8/bg): Action selection / gating and reinforcement learning in the basal ganglia. (Questions **8.1 -- 8.4**)
 
-* `rl_cond`: Pavlovian Conditioning using Temporal Differences Reinforcement Learning. (Questions **8.5 -- 8.6**)
+* [rl](https://compcogneuro.org/sims/ch8/rl): Pavlovian Conditioning using Temporal Differences Reinforcement Learning. (Questions **8.5 -- 8.6**)
 
-* `pvlv`: Pavlovian Conditioning with the PVLV model (Questions **8.7 -- 8.9**)
+* `pvlv`: Pavlovian Conditioning with the PVLV model (Questions **8.7 -- 8.9**)  **NOT YET AVAIL!**
 
 * `cereb`: Cerebellum role in motor learning, learning from errors. (Questions **8.10 -- 8.11**) **NOT YET AVAIL!**
 
