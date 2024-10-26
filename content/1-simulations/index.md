@@ -80,11 +80,11 @@ Note: no sims for chapter 5
 
 ## Chapter 9: Executive Function
 
-* `stroop`: The Stroop effect and PFC top-down biasing (Questions **9.1 -- 9.3**)
+* [stroop](https://compcogneuro.org/sims/ch9/stroop): The Stroop effect and PFC top-down biasing (Questions **9.1 -- 9.3**)
 
-* `a_not_b`: Development of PFC active maintenance and the A-not-B task (Questions **9.4 -- 9.6**)
+* [a_not_b](https://compcogneuro.org/sims/ch9/a_not_b): Development of PFC active maintenance and the A-not-B task (Questions **9.4 -- 9.6**)
 
-* `sir`: Store/Ignore/Recall Task - Updating and Maintenance in more complex PFC model (Questions **9.7 -- 9.8**)
+* [sir](https://compcogneuro.org/sims/ch9/sir): Store/Ignore/Recall Task - Updating and Maintenance in more complex PFC model (Questions **9.7 -- 9.8**)
 
 ## Chapter 10: Language
 
