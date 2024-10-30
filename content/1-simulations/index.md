@@ -88,13 +88,13 @@ Note: no sims for chapter 5
 
 ## Chapter 10: Language
 
-* `dyslex`: Normal and disordered reading and the distributed lexicon. (Questions **10.1 -- 10.6**)
+* [dyslexia](https://compcogneuro.org/sims/ch10/dyslexia): Normal and disordered reading and the distributed lexicon. (Questions **10.1 -- 10.6**)
 
-* `ss`: Orthography to Phonology mapping and regularity, frequency effects. (Questions **10.7 -- 10.8**)
+* [ss](https://compcogneuro.org/sims/ch10/ss): Orthography to Phonology mapping and regularity, frequency effects. (Questions **10.7 -- 10.8**)
 
-* `sem`: Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **10.9 -- 10.11**)
+* [sem](https://compcogneuro.org/sims/ch10/sem): Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **10.9 -- 10.11**)
 
-* `sg`:  The Sentence Gestalt model. (Question **10.12**)
+* [sg](https://compcogneuro.org/sims/ch10/sg):  The Sentence Gestalt model. (Question **10.12**)
 
 ## Alternative ways to run
 
