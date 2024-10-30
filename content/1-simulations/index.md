@@ -20,7 +20,7 @@ You can always access more detailed parameters by clicking on the button to the 
 
 ## List of sims and exercise questions
 
-Here's a full list of all the simulations and the textbook exercise questions associated with them. Sims that are currently available on the web have links below. The remaining sims will be available by the time they are needed.
+Here's a full list of all the simulations and the textbook exercise questions associated with them.
 
 ## Chapter 2: Neuron
 
