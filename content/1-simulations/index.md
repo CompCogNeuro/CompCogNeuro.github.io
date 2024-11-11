@@ -80,19 +80,19 @@ Note: no sims for chapter 5
 
 ## Chapter 9: Executive Function
 
-* [stroop](https://compcogneuro.org/sims/ch9/stroop): The Stroop effect and PFC top-down biasing (Questions **9.1 -- 9.3**)
+* [a_not_b](https://compcogneuro.org/sims/ch9/a_not_b): Development of PFC active maintenance and the A-not-B task (Questions **9.1 -- 9.3**)
 
-* [a_not_b](https://compcogneuro.org/sims/ch9/a_not_b): Development of PFC active maintenance and the A-not-B task (Questions **9.4 -- 9.6**)
+* [stroop](https://compcogneuro.org/sims/ch9/stroop): The Stroop effect and PFC top-down biasing (Questions **9.4 -- 9.6**)
 
 * [sir](https://compcogneuro.org/sims/ch9/sir): Store/Ignore/Recall Task - Updating and Maintenance in more complex PFC model (Questions **9.7 -- 9.8**)
 
 ## Chapter 10: Language
 
-* [dyslexia](https://compcogneuro.org/sims/ch10/dyslexia): Normal and disordered reading and the distributed lexicon. (Questions **10.1 -- 10.6**)
+* [sem](https://compcogneuro.org/sims/ch10/sem): Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **10.1 -- 10.3**)
 
-* [ss](https://compcogneuro.org/sims/ch10/ss): Orthography to Phonology mapping and regularity, frequency effects. (Questions **10.7 -- 10.8**)
+* [ss](https://compcogneuro.org/sims/ch10/ss): Orthography to Phonology mapping and regularity, frequency effects. (Questions **10.4 -- 10.5**)
 
-* [sem](https://compcogneuro.org/sims/ch10/sem): Semantic Representations from World Co-occurrences and Hebbian Learning. (Questions **10.9 -- 10.11**)
+* [dyslexia](https://compcogneuro.org/sims/ch10/dyslexia): Normal and disordered reading and the distributed lexicon. (Questions **10.6 -- 10.11**)
 
 * [sg](https://compcogneuro.org/sims/ch10/sg):  The Sentence Gestalt model. (Question **10.12**)
 
