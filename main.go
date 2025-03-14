@@ -5,6 +5,7 @@ import (
 
 	"cogentcore.org/core/content"
 	"cogentcore.org/core/core"
+	_ "cogentcore.org/lab/yaegilab"
 )
 
 //go:embed content
