@@ -1,3 +1,8 @@
++++
+URL = ""
+Title = ""
++++
+
 <img src="media/icon.png" style="width:128px;height:128px">
 
 # Computational Cognitive Neuroscience, 5th Edition
@@ -8,4 +13,4 @@ This is the 5th edition of the online, freely available textbook, providing a co
 
 The first part of this textbook develops a coherent set of computational and neural principles that capture the behavior of networks of interconnected neurons, and the second part applies these principles to understand the cognitive functions listed above.
 
-For more information, see the pages for the [book](book) and [simulations](simulations).
+For more information, see the pages for the [[book]] and [[simulations]].

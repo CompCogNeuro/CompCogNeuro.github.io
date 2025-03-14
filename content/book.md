@@ -1,3 +1,7 @@
++++
+Categories = ["Leabra"]
++++
+
 ## Formats
 
 Please use the following links to download the formatted version of the book:
@@ -37,3 +41,7 @@ BibTeX:
   url={https://compcogneuro.org/book},
 }
 ```
+
+## Teaching
+
+See [[teaching]].

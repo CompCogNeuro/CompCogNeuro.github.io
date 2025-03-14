@@ -1,3 +1,7 @@
++++
+Categories = ["Leabra"]
++++
+
 We recommend that you run the simulation exercises associated with this book on the web using the links in the list of sims below.
 
 **IMPORTANT:** This currently only fully works on recent versions of Chrome on macOS and Windows, so if you are on Linux, please see the alternative instructions at the bottom of this page.
