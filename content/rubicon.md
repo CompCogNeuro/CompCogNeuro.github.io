@@ -1,6 +1,7 @@
 +++
 Categories = ["Axon", "Rubicon"]
+bibfile = "ccnlab.bib"
 +++
 
-**Rubicon** is a theory originally developed by [@HeckhausenGolwitzer87] that has been elaborated in [@OReillyEtAl14] and [@OReilly21] and forms the basis of a systems-neuroscience model of goal-driven learning and cognition, which has been a major focus of initial research using the [[axon]] model.
+**Rubicon** is a theory originally developed by [@HeckhausenGollwitzer87] that has been elaborated in [@OReillyHazyMollickEtAl14] and [@OReilly20] and forms the basis of a systems-neuroscience model of goal-driven learning and cognition, which has been a major focus of initial research using the [[axon]] model.
 

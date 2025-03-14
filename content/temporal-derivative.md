@@ -1,19 +1,26 @@
 +++
-Categories = ["Axon"]
+Categories = ["Axon", "Learning"]
+bibfile = "ccnlab.bib"
 +++
 
-The **temporal derivative** is the central mechanism for [[error-driven-learning]] in [[axon]]. It computes a _difference_ or _change_ (i.e., _derivative_) over _time_, instead of more standard differences computed between different state variables (e.g., top-down vs. bottom-up signals, conveyed by different anatomical pathways). A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
+The **temporal derivative** is the central mechanism for [[error-driven-learning]] in [[axon]], via the [[kinase-algorithm]]. It computes a _difference_ or _change_ (i.e., _derivative_) over _time_, instead of more standard differences computed between different state variables (e.g., top-down vs. bottom-up signals, conveyed by different anatomical pathways). A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
 
 Thus, a temporal derivative is a very robust, general-purpose mechanism of the sort that one might be particularly suited to the messy, organic world of biology.
 
-Another appealing property of the temporal derivative is that it can be computed _locally_ at each neuron and synapse, through a _competition between two chemical processes with different rate constants_. Specifically, if you subtract a _slower_ process from a _faster_ one, then this automatically computes a temporal derivative. This is illustrated in the following simple simulation:
+Another appealing property of the temporal derivative is that it can be computed _locally_ at each neuron and synapse, through a _competition between two chemical processes with different rate constants_. Specifically, if you subtract a _slower_ process from a _faster_ one, then this automatically computes a temporal derivative. 
+
+This is illustrated in the following simple simulation, which shows the response to a "driver" input that drives the fast and slow chemical processes. In the brain, this driver is neural activity in the form of pre and post-synaptic spiking, which is integrated by a series of chemical pathways driven mainly by the influx of _Calcium_ ions (see the [[kinase-algorithm]] for details).
+
+In this simulation, the driver input changes over time in a manner consistent with [[predictive-learning]]: there is an initial _prediction_ value, and then a subsequent _outcome_ value. Think of the prediction as the local neural activity associated with the brain state present when generating a prediction of what will happen next, and the outcome as this local activity when experiencing the actual outcome, immediately after making the prediction.
+
+The key result to focus on is the difference between the fast and slow traces _at the end of the time window_ when the sequence of prediction and outcome has occurred. If this difference is positive, then that reflects a positive-valued error gradient, and synaptic weights should correspondingly increase (known as **LTP** in the [[synaptic-plasticity]] literature). Likewise, if it is negative, the synaptic weights should decrease (**LTD**).
 
 ```Goal
 fastTau := 10.0 // time constant for fast integration
-slowTau := 10.0 // for slow, which compounds on top of fast
-drive1 := 50.0
-drive2 := 80.0
-var fastStr, slowStr, drive1Str, drive2Str string
+slowTau := 20.0 // time constant for slow integration
+pred := 50.0
+out := 80.0
+var fastStr, slowStr, predStr, outStr string
 ##
 totalTime := 100
 driver := zeros(totalTime) // driver is what is driving the system
@@ -23,10 +30,10 @@ slow := zeros(totalTime) // slow is a slow integrator of driver
 func td() {
     fastStr = fmt.Sprintf("Fast Tau: %g", fastTau)
     slowStr = fmt.Sprintf("Slow Tau: %g", slowTau)
-    drive1Str = fmt.Sprintf("Drive 1: %g", drive1)
-    drive2Str = fmt.Sprintf("Drive 2: %g", drive2)
+    predStr = fmt.Sprintf("Prediction: %g", pred)
+    outStr = fmt.Sprintf("Outcome: %g", out)
     ##
-    d := tensor.NewFloat64Scalar(drive1) // current drive
+    d := tensor.NewFloat64Scalar(pred) // current drive
     f := 0.0 // current fast
     s := 0.0 // current slow
     fTau := tensor.NewFloat64Scalar(fastTau)
@@ -35,11 +42,11 @@ func td() {
     for t := range 100 {
         tt := tensor.NewFloat64Scalar(float64(t))
         if t == 75 {
-            # d = tensor.NewFloat64Scalar(drive2)
+            # d = tensor.NewFloat64Scalar(out)
         }
         ##
         f += (1.0 / fTau) * (d - f) // f moves toward d
-        s += (1.0 / sTau) * (f - s) // s moves toward f
+        s += (1.0 / sTau) * (d - s) // s moves toward f
         driver[t] = d
         fast[t] = f
         slow[t] = s
@@ -50,11 +57,14 @@ func td() {
 td()
 
 styMax := func(s *plot.Style) {
-    s.Range.SetMax(100)
+    s.Range.SetMax(100).SetMin(0)
+    s.Plot.XAxis.Label = "Time"
+    s.Plot.XAxis.Range.SetMax(100).SetMin(0)
+	s.Plot.Legend.Position.Left = true
 }
 plot.SetStyler(driver, styMax) 
 
-fig1 := lab.NewPlot(b)
+fig1, pw := lab.NewPlotWidget(b)
 dl := plots.NewLine(fig1, driver)
 fl := plots.NewLine(fig1, fast)
 sl := plots.NewLine(fig1, slow)
@@ -67,25 +77,38 @@ func updt() {
     dl.SetData(driver)
     fl.SetData(fast)
     sl.SetData(slow)
-    b.Update()
+    pw.NeedsRender()
 }
 
-core.Bind(&drive1Str, core.NewText(b))
-core.Bind(&drive1, core.NewSlider(b)).SetMin(1).SetMax(100).
-    SetStep(1).SetEnforceStep(true).OnChange(func(e events.Event) {
+ptx := core.NewText(b)
+core.Bind(&predStr, ptx)
+core.Bind(&pred, core.NewSlider(b)).SetMin(1).SetMax(100).
+    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
 	updt()
+    ptx.UpdateRender()
 })
-core.Bind(&drive2Str, core.NewText(b))
-core.Bind(&drive2, core.NewSlider(b)).SetMin(1).SetMax(100).SetStep(1).SetEnforceStep(true).OnChange(func(e events.Event) {
+otx := core.NewText(b)
+core.Bind(&outStr, otx)
+core.Bind(&out, core.NewSlider(b)).SetMin(1).SetMax(100).
+    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
 	updt()
+    otx.UpdateRender()
 })
-core.Bind(&fastStr, core.NewText(b))
-core.Bind(&fastTau, core.NewSlider(b)).SetMin(1).SetMax(100).SetStep(1).SetEnforceStep(true).OnChange(func(e events.Event) {
+ftx := core.NewText(b)
+core.Bind(&fastStr, ftx)
+core.Bind(&fastTau, core.NewSlider(b)).SetMin(1).SetMax(50).
+    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
 	updt()
+    ftx.UpdateRender()
 })
-core.Bind(&slowStr, core.NewText(b))
-core.Bind(&slowTau, core.NewSlider(b)).SetMin(1).SetMax(100).SetStep(1).SetEnforceStep(true).OnChange(func(e events.Event) {
+stx := core.NewText(b)
+core.Bind(&slowStr, stx)
+core.Bind(&slowTau, core.NewSlider(b)).SetMin(1).SetMax(50).
+    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
 	updt()
+    stx.UpdateRender()
 })
 ```
+
+TODO: print difference at end, instructions to change overall levels without changing relative levels and observe only sensitive to relative, zero for no change despite all these changes in raw level, etc.
 
