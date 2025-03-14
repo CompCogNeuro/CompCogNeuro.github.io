@@ -10,7 +10,11 @@ import (
 //go:embed content
 var econtent embed.FS
 
+//go:embed icon.svg
+var icon string
+
 func main() {
+	core.AppIcon = icon
 	b := core.NewBody("CompCogNeuro")
 	ct := content.NewContent(b).SetContent(econtent)
 	b.AddTopBar(func(bar *core.Frame) {
