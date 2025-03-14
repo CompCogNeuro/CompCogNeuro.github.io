@@ -3,18 +3,18 @@ package main
 import (
 	"embed"
 
+	"cogentcore.org/core/content"
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/pages"
 )
 
 //go:embed content
-var content embed.FS
+var econtent embed.FS
 
 func main() {
 	b := core.NewBody("CompCogNeuro")
-	pg := pages.NewPage(b).SetContent(content)
+	ct := content.NewContent(b).SetContent(econtent)
 	b.AddTopBar(func(bar *core.Frame) {
-		core.NewToolbar(bar).Maker(pg.MakeToolbar)
+		core.NewToolbar(bar).Maker(ct.MakeToolbar)
 	})
 	b.RunMainWindow()
 }
