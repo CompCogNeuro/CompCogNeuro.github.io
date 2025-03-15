@@ -1,5 +1,4 @@
 +++
-Categories = ["Leabra"]
 bibfile = "ccnlab.bib"
 +++
 

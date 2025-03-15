@@ -21,28 +21,29 @@ slowTau := 20.0 // time constant for slow integration
 pred := 50.0
 out := 80.0
 var fastStr, slowStr, predStr, outStr string
+
 ##
 totalTime := 100
 driver := zeros(totalTime) // driver is what is driving the system
 fast := zeros(totalTime) // fast is a fast integrator of driver
 slow := zeros(totalTime) // slow is a slow integrator of driver
 ##
+
 func td() {
     fastStr = fmt.Sprintf("Fast Tau: %g", fastTau)
     slowStr = fmt.Sprintf("Slow Tau: %g", slowTau)
     predStr = fmt.Sprintf("Prediction: %g", pred)
     outStr = fmt.Sprintf("Outcome: %g", out)
     ##
-    d := tensor.NewFloat64Scalar(pred) // current drive
+    d := array(pred) // current drive
     f := 0.0 // current fast
     s := 0.0 // current slow
-    fTau := tensor.NewFloat64Scalar(fastTau)
-    sTau := tensor.NewFloat64Scalar(slowTau)
+    fTau := array(fastTau)
+    sTau := array(slowTau)
     ##
     for t := range 100 {
-        tt := tensor.NewFloat64Scalar(float64(t))
         if t == 75 {
-            # d = tensor.NewFloat64Scalar(out)
+            # d = array(out)
         }
         ##
         f += (1.0 / fTau) * (d - f) // f moves toward d
@@ -56,13 +57,13 @@ func td() {
 
 td()
 
-styMax := func(s *plot.Style) {
+plotStyler := func(s *plot.Style) {
     s.Range.SetMax(100).SetMin(0)
     s.Plot.XAxis.Label = "Time"
     s.Plot.XAxis.Range.SetMax(100).SetMin(0)
 	s.Plot.Legend.Position.Left = true
 }
-plot.SetStyler(driver, styMax) 
+plot.SetStyler(driver, plotStyler) 
 
 fig1, pw := lab.NewPlotWidget(b)
 dl := plots.NewLine(fig1, driver)
@@ -80,34 +81,20 @@ func updt() {
     pw.NeedsRender()
 }
 
-ptx := core.NewText(b)
-core.Bind(&predStr, ptx)
-core.Bind(&pred, core.NewSlider(b)).SetMin(1).SetMax(100).
-    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-	updt()
-    ptx.UpdateRender()
-})
-otx := core.NewText(b)
-core.Bind(&outStr, otx)
-core.Bind(&out, core.NewSlider(b)).SetMin(1).SetMax(100).
-    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-	updt()
-    otx.UpdateRender()
-})
-ftx := core.NewText(b)
-core.Bind(&fastStr, ftx)
-core.Bind(&fastTau, core.NewSlider(b)).SetMin(1).SetMax(50).
-    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-	updt()
-    ftx.UpdateRender()
-})
-stx := core.NewText(b)
-core.Bind(&slowStr, stx)
-core.Bind(&slowTau, core.NewSlider(b)).SetMin(1).SetMax(50).
-    SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-	updt()
-    stx.UpdateRender()
-})
+func addSlider(label *string, val *float64, mxVal float32) {
+    tx := core.NewText(b)
+    core.Bind(label, tx)
+    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
+        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
+    	updt()
+        tx.UpdateRender()
+    })
+}
+
+addSlider(&predStr, &pred, 100)
+addSlider(&outStr, &out, 100)
+addSlider(&fastStr, &fastTau, 50)
+addSlider(&slowStr, &slowTau, 50)
 ```
 
 TODO: print difference at end, instructions to change overall levels without changing relative levels and observe only sensitive to relative, zero for no change despite all these changes in raw level, etc.
