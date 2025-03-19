@@ -79,6 +79,9 @@ fig1.Legend.Add("Slow", sl)
 
 
 diffTx := core.NewText(b)
+diffTx.Styler(func(s *styles.Style) {
+    s.Min.X.Ch(80) // clean rendering with variable width content
+})
 core.Bind(&diffStr, diffTx)
 
 func updt() {
@@ -92,6 +95,9 @@ func updt() {
 
 func addSlider(label *string, val *float64, mxVal float32) {
     tx := core.NewText(b)
+    tx.Styler(func(s *styles.Style) {
+        s.Min.X.Ch(40)  // clean rendering with variable width content
+    })
     core.Bind(label, tx)
     core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
         SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
@@ -114,6 +120,9 @@ This equation causes the variable (fast or slow) to move toward the driver value
 
 Some things you can try:
 
-* Increase or decrease both Prediction and Outcome by the same amount: observe that the weight change is only sensitive to the _relative_ differences. 
-* , zero for no change despite all these changes in raw level, etc.
+* Increase or decrease both `Prediction` and `Outcome` by the same amount: observe that the weight change is only sensitive to the _relative_ differences, due to the competitive, subtraction logic between `Fast - Slow`.
+
+* Set both `Prediction` and `Outcome` to the same value (e.g., 50), and observe that this results in _zero_ weight change, which is consistent with there being no error in the prediction relative to the outcome. This holds even when you significantly increase or decrease the raw values, e.g., both 20 or both 80. This is a critical point of contrast with [[hebbian]] forms of learning, which are typically driven by the overall levels of activity, such that you would expect (larger) weight increases with more activity.
+
+* There are important constraints on the `Tau` factors too. For example, with `Prediction` and `Outcome` both at 50, increase `Slow Tau` up to 35. You can see that the weight change is positive now, even though there is no prediction error, just because the Slow factor is too slow to catch up at the end. This means that the local chemical rate constants that produce these `Tau` factors must be properly tuned for the actual temporal dynamics of the network-level error signals. Although this might be considered biologically implausible, in fact there is strong evidence of prominent [[oscillatory-rhythms]] in the brain at different characteristic frequencies, including the [[alpha cycle]] at roughly 10Hz and the [[theta cycle]] at roughly 5Hz. These rhythms have been shown to strongly influence learning, in a manner consistent with this simple model and the [[kinase algorithm]] more generally.
 

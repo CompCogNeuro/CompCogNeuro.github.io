@@ -1,6 +1,6 @@
 +++
 Categories = ["Axon", "Learning"]
-bibfile = "ccnlab.bib"
+bibfile = "ccnlab.json"
 +++
 
 **Error-driven learning** is a powerful form of learning that drives changes in synaptic weights to reduce _errors_. In [[axon]], these errors are generally _prediction errors_: the differences between a prediction and what actually happens (see [[predictive learning]]). Prediction-error-driven learning is what drives learning in the [[large language models]] (LLMs) that power Chat GPT and related models.
