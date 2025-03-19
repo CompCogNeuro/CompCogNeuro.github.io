@@ -1,6 +1,6 @@
 +++
 Categories = ["Axon", "Learning"]
-bibfile = "ccnlab.bib"
+bibfile = "ccnlab.json"
 +++
 
 **Predictive learning** refers to a form of [[error driven learning]] where the error signals derive from **prediction errors**: errors in the ability to predict what will happen next. This form of learning has been explored by many researchers in many forms over the years, and is the primary driver of learning in the current generation of [[large language models]] (LLMs) that power Chat GPT and related models, which demonstrate the key advantages of this form of learning. Specifically, predictive learning works with raw, _unlabled data_, because learning is driven simply by predicting what will happen next in a sequence of raw data.

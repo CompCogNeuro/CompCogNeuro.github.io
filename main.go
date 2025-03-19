@@ -8,6 +8,8 @@ import (
 	_ "cogentcore.org/lab/yaegilab"
 )
 
+//go:generate mdcite -refs /Users/oreilly/ccnlab_bib/ccnlab.json -d ./content -vv
+
 //go:embed content
 var econtent embed.FS
 
