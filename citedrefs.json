@@ -1,0 +1,585 @@
+[
+	{
+		"type": "article-journal",
+		"id": "AckleyHintonSejnowski85",
+		"citation-key": "AckleyHintonSejnowski85",
+		"author": [
+			{
+				"family": "Ackley",
+				"given": "David H."
+			},
+			{
+				"family": "Hinton",
+				"given": "G. E."
+			},
+			{
+				"family": "Sejnowski",
+				"given": "T. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cognitive Science",
+		"issue": "1",
+		"page": "147-169",
+		"title": "A learning algorithm for Boltzmann machines",
+		"volume": "9"
+	},
+	{
+		"type": "chapter",
+		"id": "HintonSejnowski86",
+		"citation-key": "HintonSejnowski86",
+		"author": [
+			{
+				"family": "Hinton",
+				"given": "G. E."
+			},
+			{
+				"family": "Sejnowski",
+				"given": "T. J."
+			}
+		],
+		"editor": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
+		"event-place": "Cambridge, MA",
+		"page": "282-317",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Learning and Relearning in Boltzmann Machines"
+	},
+	{
+		"type": "article-journal",
+		"id": "Hopfield82",
+		"citation-key": "Hopfield82",
+		"author": [
+			{
+				"family": "Hopfield",
+				"given": "J. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences of the United States of America",
+		"issue": "8",
+		"page": "2554-2558",
+		"title": "Neural networks and physical systems with emergent collective computational abilities.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6953413",
+		"volume": "79"
+	},
+	{
+		"type": "article-journal",
+		"id": "Hopfield84",
+		"citation-key": "Hopfield84",
+		"author": [
+			{
+				"family": "Hopfield",
+				"given": "J. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences USA",
+		"page": "3088-3092",
+		"title": "Neurons with graded response have collective computational properties like those of two-state neurons.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6587342",
+		"volume": "81"
+	},
+	{
+		"type": "article-journal",
+		"id": "MovellanMcClelland93",
+		"citation-key": "MovellanMcClelland93",
+		"author": [
+			{
+				"family": "Movellan",
+				"given": "J. R."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1993",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cognitive Science",
+		"page": "463-496",
+		"title": "Learning Continuous Probability Distributions with Symmetric Diffusion Networks",
+		"volume": "17"
+	},
+	{
+		"type": "article-journal",
+		"id": "OReilly96",
+		"citation-key": "OReilly96",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural Computation",
+		"DOI": "https://doi.org/10.1162/neco.1996.8.5.895",
+		"issue": "5",
+		"page": "895-938",
+		"title": "Biologically plausible error-driven learning using local activation differences: The generalized recirculation algorithm",
+		"URL": "https://www.mitpressjournals.org/doi/abs/10.1162/neco.1996.8.5.895",
+		"volume": "8"
+	},
+	{
+		"type": "paper-conference",
+		"id": "WidrowHoff60",
+		"citation-key": "WidrowHoff60",
+		"author": [
+			{
+				"family": "Widrow",
+				"given": "B."
+			},
+			{
+				"family": "Hoff",
+				"given": "M. E."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1960"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4",
+		"page": "96-104",
+		"title": "Adaptive Switching Circuits"
+	},
+	{
+		"type": "thesis",
+		"id": "Werbos74",
+		"citation-key": "Werbos74",
+		"author": [
+			{
+				"family": "Werbos",
+				"given": "P."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1974",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"publisher": "Harvard University",
+		"title": "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences"
+	},
+	{
+		"type": "chapter",
+		"id": "RumelhartMcClelland86",
+		"citation-key": "RumelhartMcClelland86",
+		"author": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			}
+		],
+		"editor": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
+		"event-place": "Cambridge, MA",
+		"page": "110-146",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "PDP Models and General Issues in Cognitive Science"
+	},
+	{
+		"type": "chapter",
+		"id": "McClellandRumelhart86",
+		"citation-key": "McClellandRumelhart86",
+		"author": [
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			}
+		],
+		"editor": [
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 2: Psychological and Biological Models",
+		"event-place": "Cambridge, MA",
+		"page": "170-215",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "A Distributed Model of Human Learning and Memory"
+	},
+	{
+		"type": "article-journal",
+		"id": "LillicrapSantoroMarrisEtAl20",
+		"citation-key": "LillicrapSantoroMarrisEtAl20",
+		"language": "en",
+		"author": [
+			{
+				"family": "Lillicrap",
+				"given": "Timothy P."
+			},
+			{
+				"family": "Santoro",
+				"given": "Adam"
+			},
+			{
+				"family": "Marris",
+				"given": "Luke"
+			},
+			{
+				"family": "Akerman",
+				"given": "Colin J."
+			},
+			{
+				"family": "Hinton",
+				"given": "Geoffrey"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					29
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Reviews Neuroscience",
+		"DOI": "10.1038/s41583-020-0277-3",
+		"ISSN": "1471-0048",
+		"issue": "6",
+		"number": "6",
+		"page": "335-346",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "Backpropagation and the brain",
+		"URL": "https://www.nature.com/articles/s41583-020-0277-3",
+		"volume": "21"
+	},
+	{
+		"type": "article-journal",
+		"id": "GoodellZaegelCoultrapEtAl17",
+		"citation-key": "GoodellZaegelCoultrapEtAl17",
+		"author": [
+			{
+				"family": "Goodell",
+				"given": "Dayton J."
+			},
+			{
+				"family": "Zaegel",
+				"given": "Vincent"
+			},
+			{
+				"family": "Coultrap",
+				"given": "Steven J."
+			},
+			{
+				"family": "Hell",
+				"given": "Johannes W."
+			},
+			{
+				"family": "Bayer",
+				"given": "K. Ulrich"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					11,
+					13
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6,
+					13
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cell Reports",
+		"container-title-short": "Cell Reports",
+		"DOI": "10.1016/j.celrep.2017.05.068",
+		"ISSN": "2211-1247",
+		"issue": "11",
+		"page": "2231-2243",
+		"source": "ScienceDirect",
+		"title": "DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S2211124717307258",
+		"volume": "19"
+	},
+	{
+		"type": "book",
+		"id": "OReillyMunakataFrankEtAl12",
+		"citation-key": "OReillyMunakataFrankEtAl12",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Munakata",
+				"given": "Yuko"
+			},
+			{
+				"family": "Frank",
+				"given": "Michael J."
+			},
+			{
+				"family": "Hazy",
+				"given": "Thomas E."
+			},
+			{
+				"literal": "Contributors"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"publisher": "Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu",
+		"title": "Computational Cognitive Neuroscience",
+		"URL": "http://ccnbook.colorado.edu"
+	},
+	{
+		"type": "book",
+		"id": "OReillyMunakata00",
+		"citation-key": "OReillyMunakata00",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Munakata",
+				"given": "Y."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Cambridge, MA",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
+		"type": "article-journal",
+		"id": "BearMalenka94",
+		"citation-key": "BearMalenka94",
+		"author": [
+			{
+				"family": "Bear",
+				"given": "M. F."
+			},
+			{
+				"family": "Malenka",
+				"given": "R. C."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current Opinion in Neurobiology",
+		"page": "389-399",
+		"title": "Synaptic Plasticity: LTP and LTD",
+		"volume": "4"
+	}
+]

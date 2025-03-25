@@ -13,13 +13,16 @@ The most commonly used technique to perform gradient descent in backprop models,
 
 ## Derivation of backprop
 
+{id="figure_bp-compute-delta"}
 ![Illustration of backpropgation computation in three-layer network.  First, the feedforward activation pass generates a pattern of activations across the units in the network, cascading from input, to hidden to output.  Then, "delta" values are propagated *backward* in the reverse direction across the same weights.  The delta sum is broken out in the hidden layer to facilitate comparison with the GeneRec algorithm as shown in the next figure.](media/fig_bp_compute_delta.png)
 
 TODO: cleanup the following, convoluted derivation from CCN text:
 
 The essence of the backpropagation (also called "backprop") algorithm is captured in this *delta backpropagation equation*:
 $$ \Delta w = x \left( \sum_k \delta_k w_k \right) y' $$
-where *x* is again the sending activity value, $\delta$ is the error derivative for the units in the next layer *above* the layer containing the current receiving unit *y* (with each such unit indexed by the subscript *k*), and $w_k$ is the weight *from* the receiving unit y to the k'th such unit in the next layer above (see [@fig:fig-bp-compute-delta]).  Ignore the $y'$ term for the time being  --- it is the derivative of the receiving unit's activation function, and it will come in handy in a bit.
+where *x* is again the sending activity value, $\delta$ is the error derivative for the units in the next layer *above* the layer containing the current receiving unit *y* (with each such unit indexed by the subscript *k*), and $w_k$ is the weight *from* the receiving unit y to the k'th such unit in the next layer above (see [[#figure_bp-compute-delta]] ).  Ignore the $y'$ term for the time being  --- it is the derivative of the receiving unit's activation function, and it will come in handy in a bit.
+
+This is a link to [[#figure_bp-compute-delta]].
 
 So we're propagating this "delta" (error) value *backward* across the weights, in the opposite direction that the activation typically flows in the "feedforward" direction, which is from the input to the hidden to the output (backprop networks are typically feedforward, though bidirectional versions have been developed as discussed below).  This is the origin of the "backpropagation" name.
 

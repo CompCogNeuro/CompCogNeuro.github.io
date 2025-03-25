@@ -15,6 +15,7 @@ The driver input changes over time in a manner consistent with [[predictive lear
 
 The key result is the difference between the fast and slow traces _at the end of the time window_ when the sequence of prediction-then-outcome has completed. If this difference is positive, that reflects a positive-valued error gradient, and synaptic weights should correspondingly increase (known as **LTP** in the [[synaptic plasticity]] literature). Likewise, if it is negative, the synaptic weights should decrease (**LTD**).
 
+{id="sim_td" title="Temporal Derivative from Fast - Slow"}
 ```Goal
 fastTau := 10.0 // time constant for fast integration
 slowTau := 20.0 // time constant for slow integration
@@ -114,7 +115,7 @@ addSlider(&slowStr, &slowTau, 50)
 
 The code for this simulation updates the fast and slow variables according to a simple running-average update equation, e.g., for the $fast$ variable:
 
-$$ fast += (1 / fastTau) * (driver - fast) $$
+$ fast += (1 / fastTau) * (driver - fast) $
 
 This equation causes the variable (fast or slow) to move toward the driver value at a rate determined by the "tau" factor. For example, if the driver is larger than fast, then $driver - fast$ is positive, so fast will increase to approach the value of the driver. If $fastTau = 10$, then it moves a 10th of the way toward the driver at each update. This very simple type of update equation is used throughout [[axon]] and is likewise very prevalent in biology.
 
@@ -125,4 +126,6 @@ Some things you can try:
 * Set both `Prediction` and `Outcome` to the same value (e.g., 50), and observe that this results in _zero_ weight change, which is consistent with there being no error in the prediction relative to the outcome. This holds even when you significantly increase or decrease the raw values, e.g., both 20 or both 80. This is a critical point of contrast with [[hebbian]] forms of learning, which are typically driven by the overall levels of activity, such that you would expect (larger) weight increases with more activity.
 
 * There are important constraints on the `Tau` factors too. For example, with `Prediction` and `Outcome` both at 50, increase `Slow Tau` up to 35. You can see that the weight change is positive now, even though there is no prediction error, just because the Slow factor is too slow to catch up at the end. This means that the local chemical rate constants that produce these `Tau` factors must be properly tuned for the actual temporal dynamics of the network-level error signals. Although this might be considered biologically implausible, in fact there is strong evidence of prominent [[oscillatory-rhythms]] in the brain at different characteristic frequencies, including the [[alpha cycle]] at roughly 10Hz and the [[theta cycle]] at roughly 5Hz. These rhythms have been shown to strongly influence learning, in a manner consistent with this simple model and the [[kinase algorithm]] more generally.
+
+In summary, [[#sim_td]] demonstrates that a locally computed temporal derivative can drive synaptic changes in a manner consistent with an error signal that emerges over time.
 

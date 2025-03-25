@@ -15,7 +15,7 @@ import (
 // Must configure using BetterBibTeX for zotero: https://retorque.re/zotero-better-bibtex/
 // todo: include link for configuring here
 
-//go:generate mdcite -refs ./ccnlab.json -d ./content -vv
+//go:generate mdcite -refs ./ccnlab.json -d ./content
 
 //go:embed content
 var econtent embed.FS
@@ -27,7 +27,7 @@ func main() {
 	core.AppIcon = icon
 	b := core.NewBody("CompCogNeuro")
 	ct := content.NewContent(b).SetContent(econtent)
-	refs, err := csl.Open("ccnlab.json")
+	refs, err := csl.Open("citedrefs.json")
 	if err == nil {
 		ct.References = csl.NewKeyList(refs)
 	}
