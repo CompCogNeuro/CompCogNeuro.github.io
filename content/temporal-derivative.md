@@ -15,7 +15,7 @@ The driver input changes over time in a manner consistent with [[predictive lear
 
 The key result is the difference between the fast and slow traces _at the end of the time window_ when the sequence of prediction-then-outcome has completed. If this difference is positive, that reflects a positive-valued error gradient, and synaptic weights should correspondingly increase (known as **LTP** in the [[synaptic plasticity]] literature). Likewise, if it is negative, the synaptic weights should decrease (**LTD**).
 
-{id="sim_td" title="Temporal Derivative from Fast - Slow"}
+{id="sim_td" title="Temporal Derivative from Fast - Slow" collapsed="true"}
 ```Goal
 fastTau := 10.0 // time constant for fast integration
 slowTau := 20.0 // time constant for slow integration

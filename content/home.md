@@ -19,3 +19,5 @@ For more information, see the pages for the [[book]] and [[simulations]].
 
 This site hosts a growing library of interactive documentation and simulations based on the [[axon]] framework, which is the successor to the [[leabra]] framework used in the above textbook. Axon features discrete spiking instead of the rate code activations used in [[leabra]], and supports a systems-neuroscience model of goal-driven learning and cognition, named [[rubicon]].
 
+This work is supported primarily by the [Astera Institute](https://astera.org/) (Randall O'Reilly & Thomas Hazy), the University of California Davis (O'Reilly and Yuko Munakata), and Brown University (Michael Frank).
+

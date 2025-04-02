@@ -7,6 +7,7 @@ import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/text/csl"
 	_ "cogentcore.org/lab/yaegilab"
+	_ "github.com/emer/axon/v2/yaegiaxon"
 )
 
 // NOTE: you must make a symbolic link to the zotero CCNLab CSL file as ccnlab.json
