@@ -19,49 +19,101 @@ The most commonly used technique to perform gradient descent in backprop models,
 TODO: cleanup the following, convoluted derivation from CCN text:
 
 The essence of the backpropagation (also called "backprop") algorithm is captured in this *delta backpropagation equation*:
-$$ \Delta w = x \left( \sum_k \delta_k w_k \right) y' $$
-where *x* is again the sending activity value, $\delta$ is the error derivative for the units in the next layer *above* the layer containing the current receiving unit *y* (with each such unit indexed by the subscript *k*), and $w_k$ is the weight *from* the receiving unit y to the k'th such unit in the next layer above (see [[#figure_bp-compute-delta]] ).  Ignore the $y'$ term for the time being  --- it is the derivative of the receiving unit's activation function, and it will come in handy in a bit.
 
-This is a link to [[#figure_bp-compute-delta]].
+{id="eq_delta_bp"}
+$$
+\Delta w = x \left( \sum_k \delta_k w_k \right) y'
+$$
+
+where *x* is again the sending activity value, $\delta$ is the error derivative for the units in the next layer *above* the layer containing the current receiving unit *y* (with each such unit indexed by the subscript *k*), and $w_k$ is the weight *from* the receiving unit y to the k'th such unit in the next layer above (see [[#figure_bp-compute-delta]] ).  Ignore the $y'$ term for the time being  --- it is the derivative of the receiving unit's activation function, and it will come in handy in a bit.
 
 So we're propagating this "delta" (error) value *backward* across the weights, in the opposite direction that the activation typically flows in the "feedforward" direction, which is from the input to the hidden to the output (backprop networks are typically feedforward, though bidirectional versions have been developed as discussed below).  This is the origin of the "backpropagation" name.
 
 Before we unpack this equation a bit more, let's consider what happens at the *output* layer in a standard three-layer backprop network like that pictured in the Figure.  In these networks, there is no outcome/plus phase, but instead we just compare the output activity of units in the output layer (effectively the expectation) and compute externally the difference between these activities and the *target* activity values *t*. The difference is the *delta* value:
-$$ \delta = t - z $$
+
+{id="eq_delta"}
+$$
+\delta = t - z
+$$
+
 and is used to drive learning by changing the weight from sending unit y in the hidden layer to a given output unit z is:
-$$ \Delta w = y \delta = y (t - z) $$
+
+{id="eq_delta_w"}
+$$
+\Delta w = y \delta = y (t - z)
+$$
+
 You should recognize that this is exactly the *delta rule* as described above (where we keep in mind that y is now a sending activation to the output units).  The delta rule is really the essence of all error-driven learning methods.
 
 For the time being, we assume a linear activation function of activations from sending units *y*, and that we just have a simple two-layer network with these sending units projecting directly to the output units:
-$$ z_k = \left. \sum_j y_j w_{jk} \right. $$
+
+{id="eq_zk"}
+$$
+z_k = \left. \sum_j y_j w_{jk} \right.
+$$
 
 Taking the negative of the derivative of SSE with respect to the weight *w*, which is more easily computed by breaking it down into two parts using the *chain rule* to first get the derivative of SSE with respect to the output activation *z*, and multiplying that by the derivative of *z* with respect to the weight:
-$$ \Delta w_{jk} = -\frac{\partial SSE}{\partial w_{jk}} = -\frac{\partial SSE}{\partial z_k} \frac{\partial z_k}{\partial w_{jk}}$$
-$$ = 2 (t_k - z_k) y_j $$
+
+{id="eq_dw_jk"}
+$$
+\Delta w_{jk} = -\frac{\partial SSE}{\partial w_{jk}} = -\frac{\partial SSE}{\partial z_k} \frac{\partial z_k}{\partial w_{jk}}
+
+= 2 (t_k - z_k) y_j
+$$
  
 When you break down each step separately, it is all very straightforward:
-$$ \frac{\partial SSE}{\partial z_k}  = -2 (t_k - z_k) $$
-$$ \frac{\partial z_k}{\partial w_{jk}} = y_j $$
+
+{id="eq_pSSE_pz"}
+$$
+\frac{\partial SSE}{\partial z_k}  = -2 (t_k - z_k)
+$$
+
+$$
+\frac{\partial z_k}{\partial w_{jk}} = y_j
+$$
+
 (the other elements of the sums drop out because the first partial derivative is with respect to $z_k$ so derivative for all other $z$'s is zero, and similarly the second partial derivative is with respect to $y_j$ so the derivative for the other $y$'s is zero.)
 
 First, we define the _activation function_ in terms of $\eta_j$ as the _net input_ to unit $j$, i.e., the product of sending activity $x_i$ and weights:
-$$ \eta_j = \sum x_i w_{ij} $$
+
+{id="eq_netin"}
+$$
+\eta_j = \sum x_i w_{ij}
+$$
 
 and then the unit activity is a function of this net input:
-$$ y_j = f(\eta_j) $$
+
+{id="eq_y_act"}
+$$
+y_j = f(\eta_j)
+$$
 
 The goal is to again minimize the error (SSE) as a function of the weights, 
-$$ \Delta w_{ij} = -\frac{\partial SSE}{\partial w_{ij}} $$.
+
+{id="eq_bp_chain_dw"}
+$$
+\Delta w_{ij} = -\frac{\partial SSE}{\partial w_{ij}}
+$$
 
 The chain rule expansion of the basic activation function through hidden units $j$ and output units $k$ is thus:
 
-$$ = -\frac{\partial SSE}{\partial z_k} \frac{\partial z_k}{\partial \eta_k} \frac{\partial \eta_k}{\partial y_j} \frac{\partial y_j}{\partial \eta_j} \frac{\partial \eta_j}{\partial w_{ij}} $$
+{id="eq_bp_chain_expand"}
+$$
+= -\frac{\partial SSE}{\partial z_k} \frac{\partial z_k}{\partial \eta_k} \frac{\partial \eta_k}{\partial y_j} \frac{\partial y_j}{\partial \eta_j} \frac{\partial \eta_j}{\partial w_{ij}}
+$$
 
 Although this looks like a lot, it is really just applying the same chain rule as above repeatedly. To know how to change the weights from input unit $x_i$ to hidden unit $y_j$, we have to know how changes in this weight $w_{ij}$ are related to changes in the SSE. This involves computing how the SSE changes with output activity, how output activity changes with its net input, how this net input changes with hidden unit activity $y_j$, how in turn this activity changes with its net input $\eta_j$, and finally, how this net input changes with the weights from sending unit $x_i$ to hidden unit $y_j$. Once all of these factors are computed, they can be multiplied together to determine how the weight $w_{ij}$ should be adjusted to minimize error, and this can be done for all sending units to all hidden units (and also as derived earlier, for all hidden units to all output units). 
 
 We again assume a linear activation function at the output for simplicity, so that $\partial z_k / \partial \eta_k = 1$. We allow for non-linear activation functions in the hidden units *y*, and simply refer to the derivative of this activation function as $y'$ (which for the common sigmoidal activation functions turns out to be $y (1-y)$ but we leave it in generic form here so that it can be applied to any differentiable activation function.  The solution to the above equation is then, applying each step in order,
-$$ -\frac{\partial SSE}{\partial w_{ij}} = \sum_k (t_k - z_k) * 1 * w_{jk} * y' * x_i $$
-$$ = x \left( \sum_k \delta_k w_{jk} \right) y' $$
+
+{id="eq_bp_chain_wij"}
+$$
+-\frac{\partial SSE}{\partial w_{ij}} = \sum_k (t_k - z_k) * 1 * w_{jk} * y' * x_i \rightarrow 
+$$
+$$
+= x \left( \sum_k \delta_k w_{jk} \right) y'
+$$
+
 as specified earlier.
 
 Thus, the negative of $\partial SSE / \partial w_{jk}$ is $2 (t_k -z_k)$ and since 2 is a constant, we can just absorb it into the learning rate parameter. 
