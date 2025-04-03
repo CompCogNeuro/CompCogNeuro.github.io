@@ -2,7 +2,11 @@
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
 
+<p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
+
 <p id="BretteGerstner05">Brette, R., & Gerstner, W. (2005). Adaptive exponential integrate-and-fire model as an effective description of neuronal activity. Journal of Neurophysiology, 94, 3637-3642. http://jn.physiology.org/content/94/5/3637 http://doi.org/10.1152/jn.00686.2005</p>
+
+<p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
@@ -26,11 +30,17 @@
 
 <p id="OReilly96">O'Reilly, R.C. (1996). Biologically plausible error-driven learning using local activation differences: The generalized recirculation algorithm. Neural Computation, 8, 895-938. https://www.mitpressjournals.org/doi/abs/10.1162/neco.1996.8.5.895 http://doi.org/https://doi.org/10.1162/neco.1996.8.5.895</p>
 
+<p id="OReilly96a">O'Reilly, R.C. (1996). The Leabra Model of Neural Interactions and Learning in the Neocortex. [unpublished Ph.D. Thesis, Carnegie Mellon University]. </p>
+
 <p id="OReillyHazyMollickEtAl14">O'Reilly, R.C., Hazy, T.E., Mollick, J., Mackie, P., & Herd, S.A. (2014). Goal-driven cognition in the brain: A computational framework. arXiv:1404.7591 [q-bio], http://arxiv.org/abs/1404.7591</p>
 
 <p id="OReillyMunakata00">O'Reilly, R.C., & Munakata, Y. (2000). Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain. MIT Press. </p>
 
 <p id="OReillyMunakataFrankEtAl12">O'Reilly, R.C., Munakata, Y., Frank, M.J., Hazy, T.E., & Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu. http://ccnbook.colorado.edu</p>
+
+<p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
+
+<p id="RumelhartHintonWilliams86">Rumelhart, D.E., Hinton, G.E., & Williams, R.J. (1986). Learning representations by back-propagating errors. Nature, 323, 533–536. </p>
 
 <p id="RumelhartMcClelland86">Rumelhart, D.E., & McClelland, J.L. (1986). PDP Models and General Issues in Cognitive Science. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 110-146). MIT Press. </p>
 

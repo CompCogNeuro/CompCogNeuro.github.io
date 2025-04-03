@@ -358,6 +358,43 @@
 		"title": "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences"
 	},
 	{
+		"type": "article-journal",
+		"id": "RumelhartHintonWilliams86",
+		"citation-key": "RumelhartHintonWilliams86",
+		"author": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "Hinton",
+				"given": "G. E."
+			},
+			{
+				"family": "Williams",
+				"given": "R. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"issue": "9",
+		"page": "533–536",
+		"title": "Learning representations by back-propagating errors",
+		"volume": "323"
+	},
+	{
 		"type": "chapter",
 		"id": "RumelhartMcClelland86",
 		"citation-key": "RumelhartMcClelland86",
@@ -452,6 +489,35 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "A Distributed Model of Human Learning and Memory"
+	},
+	{
+		"type": "article-journal",
+		"id": "Crick89",
+		"citation-key": "Crick89",
+		"author": [
+			{
+				"family": "Crick",
+				"given": "F."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1989",
+					2
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"page": "129-132",
+		"title": "The recent excitement about neural networks.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/2911347",
+		"volume": "337"
 	},
 	{
 		"type": "article-journal",
@@ -573,6 +639,35 @@
 		"volume": "19"
 	},
 	{
+		"type": "thesis",
+		"id": "OReilly96a",
+		"citation-key": "OReilly96a",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Pittsburgh, PA",
+		"genre": "Ph.D. Thesis",
+		"publisher": "Carnegie Mellon University",
+		"publisher-place": "Pittsburgh, PA",
+		"title": "The Leabra Model of Neural Interactions and Learning in the Neocortex"
+	},
+	{
 		"type": "book",
 		"id": "OReillyMunakataFrankEtAl12",
 		"citation-key": "OReillyMunakataFrankEtAl12",
@@ -644,6 +739,39 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
+		"type": "article-journal",
+		"id": "Papez37",
+		"citation-key": "Papez37",
+		"author": [
+			{
+				"family": "Papez",
+				"given": "J. W."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1937"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Archives of Neurology \u0026 Psychiatry",
+		"DOI": "10.1001/archneurpsyc.1937.02260220069003",
+		"event-place": "US",
+		"ISSN": "0096-6754",
+		"page": "725-743",
+		"publisher": "American Medical Association",
+		"publisher-place": "US",
+		"source": "APA PsycNet",
+		"title": "A proposed mechanism of emotion",
+		"volume": "38"
 	},
 	{
 		"type": "article-journal",
@@ -787,6 +915,39 @@
 		"source": "ScienceDirect",
 		"title": "Unraveling the Mysteries of Motivation",
 		"URL": "http://www.sciencedirect.com/science/article/pii/S1364661320300681"
+	},
+	{
+		"type": "article-journal",
+		"id": "BlissLomo73",
+		"citation-key": "BlissLomo73",
+		"author": [
+			{
+				"family": "Bliss",
+				"given": "T. V."
+			},
+			{
+				"family": "Lomo",
+				"given": "T."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1973",
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of physiology",
+		"page": "331-356",
+		"title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/4727084",
+		"volume": "232"
 	},
 	{
 		"type": "article-journal",
