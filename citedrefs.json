@@ -1,6 +1,101 @@
 [
 	{
 		"type": "article-journal",
+		"id": "BretteGerstner05",
+		"citation-key": "BretteGerstner05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Brette",
+				"given": "Romain"
+			},
+			{
+				"family": "Gerstner",
+				"given": "Wulfram"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					5,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					11,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00686.2005",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "3637-3642",
+		"PMID": "16014787",
+		"source": "jn.physiology.org",
+		"title": "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity",
+		"URL": "http://jn.physiology.org/content/94/5/3637",
+		"volume": "94"
+	},
+	{
+		"type": "article-journal",
+		"id": "HodgkinHuxley52",
+		"citation-key": "HodgkinHuxley52",
+		"language": "en",
+		"author": [
+			{
+				"family": "Hodgkin",
+				"given": "A. L."
+			},
+			{
+				"family": "Huxley",
+				"given": "A. F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					7
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1952",
+					8,
+					28
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Physiology",
+		"DOI": "10.1113/jphysiol.1952.sp004764",
+		"ISSN": "1469-7793",
+		"issue": "4",
+		"page": "500-544",
+		"source": "Wiley Online Library",
+		"title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+		"URL": "https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764",
+		"volume": "117"
+	},
+	{
+		"type": "article-journal",
 		"id": "AckleyHintonSejnowski85",
 		"citation-key": "AckleyHintonSejnowski85",
 		"author": [
@@ -549,6 +644,149 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
+		"type": "article-journal",
+		"id": "HeckhausenGollwitzer87",
+		"citation-key": "HeckhausenGollwitzer87",
+		"language": "en",
+		"author": [
+			{
+				"family": "Heckhausen",
+				"given": "Heinz"
+			},
+			{
+				"family": "Gollwitzer",
+				"given": "Peter M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					2,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Motivation and Emotion",
+		"container-title-short": "Motiv Emot",
+		"DOI": "10.1007/BF00992338",
+		"ISSN": "1573-6644",
+		"issue": "2",
+		"page": "101-120",
+		"source": "Springer Link",
+		"title": "Thought contents and cognitive functioning in motivational versus volitional states of mind",
+		"URL": "https://doi.org/10.1007/BF00992338",
+		"volume": "11"
+	},
+	{
+		"type": "article-journal",
+		"id": "OReillyHazyMollickEtAl14",
+		"citation-key": "OReillyHazyMollickEtAl14",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Hazy",
+				"given": "Thomas E."
+			},
+			{
+				"family": "Mollick",
+				"given": "Jessica"
+			},
+			{
+				"family": "Mackie",
+				"given": "Prescott"
+			},
+			{
+				"family": "Herd",
+				"given": "Seth A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					5,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					4,
+					30
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "arXiv:1404.7591 [q-bio]",
+		"source": "arXiv.org",
+		"title": "Goal-driven cognition in the brain: A computational framework",
+		"title-short": "Goal-driven cognition in the brain",
+		"URL": "http://arxiv.org/abs/1404.7591"
+	},
+	{
+		"type": "article-journal",
+		"id": "OReilly20",
+		"citation-key": "OReilly20",
+		"language": "en",
+		"author": [
+			{
+				"family": "O’Reilly",
+				"given": "R. C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Cognitive Sciences",
+		"container-title-short": "Trends in Cognitive Sciences",
+		"DOI": "10.1016/j.tics.2020.03.001",
+		"ISSN": "1364-6613",
+		"source": "ScienceDirect",
+		"title": "Unraveling the Mysteries of Motivation",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S1364661320300681"
 	},
 	{
 		"type": "article-journal",

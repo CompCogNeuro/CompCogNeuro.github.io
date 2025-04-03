@@ -2,9 +2,15 @@
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
 
+<p id="BretteGerstner05">Brette, R., & Gerstner, W. (2005). Adaptive exponential integrate-and-fire model as an effective description of neuronal activity. Journal of Neurophysiology, 94, 3637-3642. http://jn.physiology.org/content/94/5/3637 http://doi.org/10.1152/jn.00686.2005</p>
+
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
+<p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
+
 <p id="HintonSejnowski86">Hinton, G.E., & Sejnowski, T.J. (1986). Learning and Relearning in Boltzmann Machines. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
+
+<p id="HodgkinHuxley52">Hodgkin, A.L., & Huxley, A.F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117, 500-544. https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764 http://doi.org/10.1113/jphysiol.1952.sp004764</p>
 
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
@@ -16,7 +22,11 @@
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
+<p id="OReilly20">O’Reilly, R.C. (2020). Unraveling the Mysteries of Motivation. Trends in Cognitive Sciences, http://www.sciencedirect.com/science/article/pii/S1364661320300681 http://doi.org/10.1016/j.tics.2020.03.001</p>
+
 <p id="OReilly96">O'Reilly, R.C. (1996). Biologically plausible error-driven learning using local activation differences: The generalized recirculation algorithm. Neural Computation, 8, 895-938. https://www.mitpressjournals.org/doi/abs/10.1162/neco.1996.8.5.895 http://doi.org/https://doi.org/10.1162/neco.1996.8.5.895</p>
+
+<p id="OReillyHazyMollickEtAl14">O'Reilly, R.C., Hazy, T.E., Mollick, J., Mackie, P., & Herd, S.A. (2014). Goal-driven cognition in the brain: A computational framework. arXiv:1404.7591 [q-bio], http://arxiv.org/abs/1404.7591</p>
 
 <p id="OReillyMunakata00">O'Reilly, R.C., & Munakata, Y. (2000). Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain. MIT Press. </p>
 
