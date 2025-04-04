@@ -13,11 +13,11 @@ The ability to train an LLM on essentially the entire corpus of human-generated 
 
 In general, the progress of ANN models is consistent with the [bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) articulated by Rich Sutton, which is essentially that _big data_ consumed by relatively simple, general-purpose models ultimately prevails over attempts to develop more complex, bespoke algorithms and representations. This is an instance of the [[bias-variance tradeoff]], which is a basic statistical principle governing the tradeoff between building in stronger biases into a learning system, vs using more general-purpose, unbiased models. Stronger biases are beneficial when data is scarce, to reduce the amount of variance in learning outcomes (which is essentially a measure of the ability of the model to generalize to novel inputs). But when data is plentiful, biases are unnecessary and even harmful.
 
-One of the most important differences between the Axon framework and the vast majority of these ANN models is that these models use strictly [[feedforward connections]], such that information only flows in one direction throughout the network ("forward"). This constraint enables error gradients to be efficiently computed, and also greatly simplifies the activation dynamics of the models. Whenever you include [[bidirectional excitatatory connectivity]] in a network, which is a core feature of Axon, the resulting _positive feedback loops_ create significant problems for both error backpropagation and the overall behavior of the network.
+One of the most important differences between the Axon framework and the vast majority of these ANN models is that these models use strictly [[feedforward connections]], such that information only flows in one direction throughout the network ("forward"). This constraint enables error gradients to be efficiently computed, and also greatly simplifies the activation dynamics of the models. Whenever you include [[bidirectional connectivity]] in a network, which is a core feature of Axon, the resulting _positive feedback loops_ create significant problems for both error backpropagation and the overall behavior of the network.
 
 Thus, a major scientific question motivating this work is to understand why the brain is based on bidirectional connectivity, and how that changes the nature of the computations performed relative to feedforward ANNs. One central hypothesis is that bidirectional connectivity is critical for [[conscious awareness]], which allows the system to access its own state of knowledge in ways that a strictly feedforward model cannot. The computational benefits of consciousness thus represent one potential answer to this question, and potentially could limit the problems of confabulation and "unnatural" failures revealed by "adversarial attacks" that continue to plague LLMs and other models.
 
-## Key advances in ANNs
+## Key advances in ANNs in relation to neuroscience
 
 The following are some of the key advances in modern ANN models relative to the original 1980s backprop nets. Some of these advances align with biological properties in Axon, but others do not.
 
@@ -31,4 +31,4 @@ Shortcut connections are a prominent feature of the brain and are often used in 
 
 * **Attentional mechanisms as in the transformer.** Perhaps the single most dramatic recent innovation relative to the original backpropagation networks is the introduction of "attention" mechanisms in the [[transformer]] architecture that is used in LLMs. Certainly, [[attention]] is a critical aspect of human cognition, but the transformer architecture may be capturing more about the [[episodic memory]] functions of the [[hippocampus]] rather than attention as it operates in the brain.
 
-TODO: deep rl: 
+
