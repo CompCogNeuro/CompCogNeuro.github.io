@@ -33,3 +33,5 @@ In summary, as postulated by [John McCarthy](http://jmc.stanford.edu/artificial-
 
 And yet, most existing AI systems lack any significant goal-driven executive control and learning functionality, so it is unclear how they could achieve "true" intelligence. While the Axon framework has yet to demonstrate true intelligence either, at least it has a clear sense of some of the necessary ingredients and can work toward understanding these aspects better.
 
+In summary, the concern for those pursing LLMs and other current ANN technology for AGI is that they are "climbing a tree to get to the moon" --- yeah they are getting closer, but if there are fundamental limitations in the mechanisms being used, it is just never going to actually work in the end. If the real foundation of the intelligence that these models exhibit is just an impressive ability to remix the existing ideas they have absorbed from the "true" human source, then it seems clear that they will never truly be able to think for themselves and solve truly novel problems.
+
