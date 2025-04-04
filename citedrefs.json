@@ -1,5 +1,438 @@
 [
 	{
+		"type": "paper-conference",
+		"id": "Rosenblatt59",
+		"citation-key": "Rosenblatt59",
+		"author": [
+			{
+				"family": "Rosenblatt",
+				"given": "F.."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1959"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1",
+		"event-place": "London",
+		"page": "421-456",
+		"publisher": "HM Stationary Office",
+		"publisher-place": "London",
+		"title": "Two theorems of statistical separability in the Perceptron"
+	},
+	{
+		"type": "book",
+		"id": "Rosenblatt62",
+		"citation-key": "Rosenblatt62",
+		"author": [
+			{
+				"family": "Rosenblatt",
+				"given": "F.."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1962"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "New York",
+		"publisher": "Spartan",
+		"publisher-place": "New York",
+		"title": "Principles of Neurodynamics"
+	},
+	{
+		"type": "book",
+		"id": "MinskyPapert69",
+		"citation-key": "MinskyPapert69",
+		"author": [
+			{
+				"family": "Minsky",
+				"given": "M."
+			},
+			{
+				"family": "Papert",
+				"given": "S. A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1969",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Cambridge, MA",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Perceptrons"
+	},
+	{
+		"type": "article-journal",
+		"id": "RumelhartHintonWilliams86",
+		"citation-key": "RumelhartHintonWilliams86",
+		"author": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "Hinton",
+				"given": "G. E."
+			},
+			{
+				"family": "Williams",
+				"given": "R. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"issue": "9",
+		"page": "533–536",
+		"title": "Learning representations by back-propagating errors",
+		"volume": "323"
+	},
+	{
+		"type": "chapter",
+		"id": "KrizhevskySutskeverHinton12",
+		"citation-key": "KrizhevskySutskeverHinton12",
+		"author": [
+			{
+				"family": "Krizhevsky",
+				"given": "Alex"
+			},
+			{
+				"family": "Sutskever",
+				"given": "Ilya"
+			},
+			{
+				"family": "Hinton",
+				"given": "Geoffrey E."
+			}
+		],
+		"editor": [
+			{
+				"family": "Pereira",
+				"given": "F."
+			},
+			{
+				"family": "Burges",
+				"given": "C. J. C."
+			},
+			{
+				"family": "Bottou",
+				"given": "L."
+			},
+			{
+				"family": "Weinberger",
+				"given": "K. Q."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					4,
+					6
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Advances in Neural Information Processing Systems 25",
+		"page": "1097–1105",
+		"publisher": "Curran Associates, Inc.",
+		"source": "Neural Information Processing Systems",
+		"title": "ImageNet Classification with Deep Convolutional Neural Networks",
+		"URL": "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
+	},
+	{
+		"type": "article-journal",
+		"id": "LeCunBengioHinton15",
+		"citation-key": "LeCunBengioHinton15",
+		"language": "en",
+		"author": [
+			{
+				"family": "LeCun",
+				"given": "Yann"
+			},
+			{
+				"family": "Bengio",
+				"given": "Yoshua"
+			},
+			{
+				"family": "Hinton",
+				"given": "Geoffrey"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					10,
+					21
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					5,
+					28
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"container-title-short": "Nature",
+		"DOI": "10.1038/nature14539",
+		"ISSN": "0028-0836",
+		"issue": "7553",
+		"page": "436-444",
+		"source": "www.nature.com",
+		"title": "Deep learning",
+		"URL": "http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html",
+		"volume": "521"
+	},
+	{
+		"type": "article-journal",
+		"id": "Schmidhuber15a",
+		"citation-key": "Schmidhuber15a",
+		"author": [
+			{
+				"family": "Schmidhuber",
+				"given": "Jürgen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					9,
+					18
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					1,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural Networks",
+		"container-title-short": "Neural Networks",
+		"DOI": "10.1016/j.neunet.2014.09.003",
+		"ISSN": "0893-6080",
+		"page": "85-117",
+		"source": "ScienceDirect",
+		"title": "Deep learning in neural networks: An overview",
+		"title-short": "Deep learning in neural networks",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0893608014002135",
+		"volume": "61"
+	},
+	{
+		"type": "chapter",
+		"id": "RumelhartMcClelland86",
+		"citation-key": "RumelhartMcClelland86",
+		"author": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			}
+		],
+		"editor": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
+		"event-place": "Cambridge, MA",
+		"page": "110-146",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "PDP Models and General Issues in Cognitive Science"
+	},
+	{
+		"type": "chapter",
+		"id": "Schraudolph98",
+		"citation-key": "Schraudolph98",
+		"language": "en",
+		"author": [
+			{
+				"family": "Schraudolph",
+				"given": "Nicol N."
+			}
+		],
+		"editor": [
+			{
+				"family": "Orr",
+				"given": "Genevieve B."
+			},
+			{
+				"family": "Müller",
+				"given": "Klaus-Robert"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					8
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"collection-title": "Lecture Notes in Computer Science",
+		"container-title": "Neural Networks: Tricks of the Trade",
+		"DOI": "10.1007/3-540-49430-8_11",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-540-49430-0",
+		"page": "207-226",
+		"publisher": "Springer",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "Springer Link",
+		"title": "Centering Neural Network Gradient Factors",
+		"URL": "https://doi.org/10.1007/3-540-49430-8_11"
+	},
+	{
+		"type": "article-journal",
+		"id": "HeZhangRenEtAl15",
+		"citation-key": "HeZhangRenEtAl15",
+		"author": [
+			{
+				"family": "He",
+				"given": "Kaiming"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiangyu"
+			},
+			{
+				"family": "Ren",
+				"given": "Shaoqing"
+			},
+			{
+				"family": "Sun",
+				"given": "Jian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					8,
+					17
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					12,
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "arXiv:1512.03385 [cs]",
+		"source": "arXiv.org",
+		"title": "Deep residual learning for image recognition",
+		"URL": "http://arxiv.org/abs/1512.03385"
+	},
+	{
 		"type": "article-journal",
 		"id": "BretteGerstner05",
 		"citation-key": "BretteGerstner05",
@@ -93,6 +526,231 @@
 		"title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
 		"URL": "https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764",
 		"volume": "117"
+	},
+	{
+		"type": "article-journal",
+		"id": "Chollet19",
+		"citation-key": "Chollet19",
+		"author": [
+			{
+				"family": "Chollet",
+				"given": "François"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					26
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					11,
+					25
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "arXiv:1911.01547 [cs]",
+		"source": "arXiv.org",
+		"title": "On the measure of intelligence",
+		"URL": "http://arxiv.org/abs/1911.01547"
+	},
+	{
+		"type": "article-journal",
+		"id": "RussinJoOReillyEtAl19",
+		"citation-key": "RussinJoOReillyEtAl19",
+		"author": [
+			{
+				"family": "Russin",
+				"given": "Jacob L."
+			},
+			{
+				"family": "Jo",
+				"given": "Jason"
+			},
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Bengio",
+				"given": "Yoshua"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					10,
+					14
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					4,
+					21
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "arXiv:1904.09708 [cs, stat]",
+		"source": "arXiv.org",
+		"title": "Compositional generalization in a deep seq2seq model by separating syntax and semantics",
+		"URL": "http://arxiv.org/abs/1904.09708"
+	},
+	{
+		"type": "book",
+		"id": "Kahneman11",
+		"citation-key": "Kahneman11",
+		"language": "en",
+		"author": [
+			{
+				"family": "Kahneman",
+				"given": "Daniel"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					10,
+					25
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"ISBN": "978-0-374-27563-1",
+		"number-of-pages": "511",
+		"publisher": "Macmillan",
+		"source": "Google Books",
+		"title": "Thinking, Fast and Slow"
+	},
+	{
+		"type": "article-journal",
+		"id": "Lamme06",
+		"citation-key": "Lamme06",
+		"language": "English",
+		"author": [
+			{
+				"family": "Lamme",
+				"given": "Victor A. F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					6,
+					26
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					1,
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Cognitive Sciences",
+		"DOI": "10.1016/j.tics.2006.09.001",
+		"ISSN": "1364-6613",
+		"issue": "11",
+		"page": "494-501",
+		"PMID": "16997611",
+		"source": "www.cell.com",
+		"title": "Towards a true neural stance on consciousness",
+		"URL": "http://www.cell.com/article/S1364661306002373/abstract",
+		"volume": "10"
+	},
+	{
+		"type": "article-journal",
+		"id": "GemanGeman84",
+		"citation-key": "GemanGeman84",
+		"author": [
+			{
+				"family": "Geman",
+				"given": "S."
+			},
+			{
+				"family": "Geman",
+				"given": "D."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+		"page": "721-741",
+		"title": "Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images",
+		"volume": "PAMI-6"
+	},
+	{
+		"type": "article-journal",
+		"id": "VapnikChervonenkis71",
+		"citation-key": "VapnikChervonenkis71",
+		"author": [
+			{
+				"family": "Vapnik",
+				"given": "V. N."
+			},
+			{
+				"family": "Chervonenkis",
+				"given": "A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1971",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Theory of Probability and Its Applications",
+		"page": "264-280",
+		"title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+		"volume": "16"
 	},
 	{
 		"type": "article-journal",
@@ -302,6 +960,65 @@
 		"volume": "8"
 	},
 	{
+		"type": "article-journal",
+		"id": "Marr77",
+		"citation-key": "Marr77",
+		"author": [
+			{
+				"family": "Marr",
+				"given": "David"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Artificial Intelligence",
+		"page": "37-48",
+		"title": "Artificial Intelligence—A Personal View"
+	},
+	{
+		"type": "book",
+		"id": "OReillyMunakata00",
+		"citation-key": "OReillyMunakata00",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Munakata",
+				"given": "Y."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Cambridge, MA",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
 		"type": "paper-conference",
 		"id": "WidrowHoff60",
 		"citation-key": "WidrowHoff60",
@@ -356,91 +1073,6 @@
 		"submitted": {},
 		"publisher": "Harvard University",
 		"title": "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences"
-	},
-	{
-		"type": "article-journal",
-		"id": "RumelhartHintonWilliams86",
-		"citation-key": "RumelhartHintonWilliams86",
-		"author": [
-			{
-				"family": "Rumelhart",
-				"given": "D. E."
-			},
-			{
-				"family": "Hinton",
-				"given": "G. E."
-			},
-			{
-				"family": "Williams",
-				"given": "R. J."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1986",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Nature",
-		"issue": "9",
-		"page": "533–536",
-		"title": "Learning representations by back-propagating errors",
-		"volume": "323"
-	},
-	{
-		"type": "chapter",
-		"id": "RumelhartMcClelland86",
-		"citation-key": "RumelhartMcClelland86",
-		"author": [
-			{
-				"family": "Rumelhart",
-				"given": "D. E."
-			},
-			{
-				"family": "McClelland",
-				"given": "J. L."
-			}
-		],
-		"editor": [
-			{
-				"family": "Rumelhart",
-				"given": "D. E."
-			},
-			{
-				"family": "McClelland",
-				"given": "J. L."
-			},
-			{
-				"family": "Group",
-				"given": "PDP Research"
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1986",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
-		"event-place": "Cambridge, MA",
-		"page": "110-146",
-		"publisher": "MIT Press",
-		"publisher-place": "Cambridge, MA",
-		"title": "PDP Models and General Issues in Cognitive Science"
 	},
 	{
 		"type": "chapter",
@@ -707,38 +1339,6 @@
 		"publisher": "Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu",
 		"title": "Computational Cognitive Neuroscience",
 		"URL": "http://ccnbook.colorado.edu"
-	},
-	{
-		"type": "book",
-		"id": "OReillyMunakata00",
-		"citation-key": "OReillyMunakata00",
-		"author": [
-			{
-				"family": "O'Reilly",
-				"given": "R. C."
-			},
-			{
-				"family": "Munakata",
-				"given": "Y."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2000",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"event-place": "Cambridge, MA",
-		"publisher": "MIT Press",
-		"publisher-place": "Cambridge, MA",
-		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
 	},
 	{
 		"type": "article-journal",

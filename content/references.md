@@ -6,9 +6,15 @@
 
 <p id="BretteGerstner05">Brette, R., & Gerstner, W. (2005). Adaptive exponential integrate-and-fire model as an effective description of neuronal activity. Journal of Neurophysiology, 94, 3637-3642. http://jn.physiology.org/content/94/5/3637 http://doi.org/10.1152/jn.00686.2005</p>
 
+<p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
+
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
+<p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
+
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
+
+<p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
 
@@ -20,9 +26,21 @@
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
 
+<p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
+
+<p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
+
+<p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
+
+<p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
+
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
+<p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
+
 <p id="McClellandRumelhart86">McClelland, J.L., & Rumelhart, D.E. (1986). A Distributed Model of Human Learning and Memory. In J.L. McClelland, D.E. Rumelhart, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 2: Psychological and Biological Models (pp. 170-215). MIT Press. </p>
+
+<p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
@@ -40,9 +58,21 @@
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
+<p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
+
+<p id="Rosenblatt62">Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan. </p>
+
 <p id="RumelhartHintonWilliams86">Rumelhart, D.E., Hinton, G.E., & Williams, R.J. (1986). Learning representations by back-propagating errors. Nature, 323, 533–536. </p>
 
 <p id="RumelhartMcClelland86">Rumelhart, D.E., & McClelland, J.L. (1986). PDP Models and General Issues in Cognitive Science. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 110-146). MIT Press. </p>
+
+<p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
+
+<p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
+
+<p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
+
+<p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
 

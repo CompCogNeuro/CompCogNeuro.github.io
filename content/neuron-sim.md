@@ -3,17 +3,19 @@ Categories = ["Axon", "Activation", "Sims"]
 bibfile = "ccnlab.json"
 +++
 
+{id="sim_neuron" collapsed="true"}
+```Goal
+neuron.EmbedSim(b)
+```
+
+<div>
+
 ## Introduction
 
 This simulation illustrates the basic properties of neural spiking and rate-code activation, reflecting a balance of excitatory and inhibitory influences (including leak and synaptic inhibition).
 
 In this model, the `Network` only shows a single neuron which is "injected" with excitatory current (as neuroscientists might do with an electrode injecting current into a single neuron).  If you do `Run Cycles` in the toolbar you will see it get activated, but to really understand what is going on, we need to see the relationship among multiple variables as shown in the `Test Cycle Plot`.
- 
 
-{id="sim_neuron" title="Neuron integration and spiking" collapsed="true"}
-```Goal
-neuron.EmbedSim(b)
-```
 
 ## Plot of Neuron variables over time
 
@@ -57,6 +59,8 @@ First, we will focus on `Gbar E`, which controls the amount of excitatory conduc
 
 > **Question 2.1:** Describe the effects on the rate of neural spiking of increasing Gbar E to .4, and of decreasing it to .2, compared to the initial value of .3 (this is should have a simple answer).
 
+---
+
 > **Question 2.2:** Is there a qualitative difference in the neural spiking when Gbar E is decreased to .1, compared to the higher values -- what important aspect of the neuron's behavior does this reveal?
 
 By systematically searching the parameter range for `Gbar E` between .1 and .2, you should be able to locate the point at which the membrane potential just reaches threshold.
@@ -74,6 +78,8 @@ You can also manipulate the value of the leak conductance, , which controls the 
 * Click the [[#sim_neuron:toolbar/Defaults]] button in the toolbar to restore the default parameters, then manipulate the [[#sim_neuron:Gbar L]] parameter in .1 increments (.4, .5, .2 etc) and observe the effects on neural spiking. 
 
 > **Question 2.5:** What value of Gbar L just prevents the neuron from being able to spike (in .1 increments) -- explain this result in terms of the tug-of-war model relative to the Gbar E excitatory conductance.
+
+---
 
 > **Question 2.6 (advanced):** Use the same technique as in question 2.4 to directly solve for the value of Gbar L that should put the neuron right at it's spiking threshold using the default values of other parameters -- show your math.
  
@@ -106,5 +112,5 @@ You should observe that spiking is perfectly regular throughout the entire perio
 
 For those who want to explore the software a bit more: If you want to make the adaptation effect more extreme, you can click on the "Neuron" label in the Netview, and a dialog box will open up. If you scroll down, you will see various parameters associated with the neuron layer, including `Gbar E` and `Gbar L` (which should be the same values as those you altered in the control panel). But you will also see others that were not in the control panel. To increase the effect of adaptation you can increase `Gbar K` -- the magnitude of KNA adaptation effect as a conductance. Increase that from the default of 1 to a much larger value (e.g., 10) and you should see much stronger adaptation effects.
 
-This is concluding text after the detailed instructions.
+</div>
 
