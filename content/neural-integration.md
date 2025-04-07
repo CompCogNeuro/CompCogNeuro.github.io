@@ -3,16 +3,112 @@ Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
+This page describes the electrical and chemical processes involved in integrating different types of inputs, the primary ones being **excitation**, **inhibition**, and **leak**. We provide a conceptual, intuitive understanding of this process, and then show how it relates to the underlying electrical properties of neurons. Then, we'll see how to translate this process into mathematical equations that can actually be simulated on the computer.
+
 {id="figure_tug-of-war"}
 ![The neuron is a tug-of-war battleground between inhibition and excitation --- the relative strength of each is what determines the membrane potential, Vm, which is what must get over threshold to fire an action potential output from the neuron.](media/fig_vm_as_tug_of_war.png)
-
-The process of integrating the three different types of input signals (excitation, inhibition, leak) lies at the heart of neural computation. This section provides a conceptual, intuitive understanding of this process, and how it relates to the underlying electrical properties of neurons. Later, we'll see how to translate this process into mathematical equations that can actually be simulated on the computer.
 
 The integration process can be understood in terms of a **tug-of-war** ([[#figure_tug-of-war]]). This tug-of-war takes place in the space of **electrical potentials** that exist in the neuron relative to the surrounding extracellular medium in which neurons live (interestingly, this medium, and the insides of neurons and other cells as well, is basically salt water with sodium ($Na^+$), chloride ($Cl^-$) and other ions floating around --- we carry our remote evolutionary environment around within us at all times). The core function of a neuron can be understood entirely in electrical terms: voltages (electrical potentials) and currents (flow of electrically charged ions in and out of the neuron through tiny pores called **ion channels**).
 
 To see how this works, let's just consider excitation versus inhibition (inhibition and leak are effectively the same for our purposes at this time). The key point is that **the integration process reflects the relative strength of excitation versus inhibition** --- if excitation is stronger than inhibition, then the neuron's electrical potential (voltage) increases, perhaps to the point of getting over threshold and firing an output action potential. If inhibition is stronger, then the neuron's electrical potential decreases, and thus moves further away from getting over the threshold for firing.
 
-Before we consider specific cases, let's introduce some obscure terminology that neuroscientists use to label the various actors in our tug-of-war drama (going from left to right in the Figure):
+{id="sim_vm_gbar" title="Membrane potential tug-of-war: gbar" collapsed="true"}
+```Goal
+vmTau := 10.0 // time constant for vm integration
+gbarE := 0.2
+gbarI := 0.4
+var gbarEStr, gbarIStr, vmTauStr string
+
+##
+totalTime := 100
+gE := zeros(totalTime) // excitatory conductance
+gI := zeros(totalTime) // inhibitory conductance
+Vm := zeros(totalTime) // membrane potential
+##
+
+func vmRun() {
+    gbarEStr = fmt.Sprintf("gbar E: %7.4g", gbarE)
+    gbarIStr = fmt.Sprintf("gbar I: %7.4g", gbarI)
+    vmTauStr = fmt.Sprintf("Vm Tau: %7.4g", vmTau)
+    ##
+    vm := 0.0 // current excitation
+    tau := array(vmTau)
+    gbE := array(gbarE)
+    gbI := array(gbarI)
+    ##
+    for t := range 100 {
+        ##
+        ge := gbE * (1.0 - vm)
+        gi := gbI * (0.0 - vm)
+        dvm := (1.0 / tau) * (ge + gi)
+		vm += dvm
+        Vm[t] = vm
+        gE[t] = gbE
+        gI[t] = gbI
+        ##
+    }
+}
+
+vmRun()
+
+plotStyler := func(s *plot.Style) {
+    s.Range.SetMax(1).SetMin(0)
+    s.Plot.XAxis.Label = "Time"
+    s.Plot.XAxis.Range.SetMax(100).SetMin(0)
+	s.Plot.Legend.Position.Left = true
+}
+plot.SetStyler(Vm, plotStyler) 
+
+fig1, pw := lab.NewPlotWidget(b)
+Vml := plots.NewLine(fig1, Vm)
+gEl := plots.NewLine(fig1, gE)
+gIl := plots.NewLine(fig1, gI)
+fig1.Legend.Add("Vm", Vml)
+fig1.Legend.Add("gE", gEl)
+fig1.Legend.Add("gI", gIl)
+
+func updt() {
+    vmRun()
+    Vml.SetData(Vm)
+    gEl.SetData(gE)
+    gIl.SetData(gI)
+    pw.NeedsRender()
+}
+
+func addTauSlider(label *string, val *float64, mxVal float32) {
+    tx := core.NewText(b)
+    tx.Styler(func(s *styles.Style) {
+        s.Min.X.Ch(40)  // clean rendering with variable width content
+    })
+    core.Bind(label, tx)
+    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
+        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
+    	updt()
+        tx.UpdateRender()
+    })
+}
+
+func addSlider(label *string, val *float64, mxVal float32) {
+    tx := core.NewText(b)
+    tx.Styler(func(s *styles.Style) {
+        s.Min.X.Ch(40)  // clean rendering with variable width content
+    })
+    core.Bind(label, tx)
+    core.Bind(val, core.NewSlider(b)).SetMin(0.02).SetMax(mxVal).
+        SetStep(0.02).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
+    	updt()
+        tx.UpdateRender()
+    })
+}
+
+addSlider(&gbarEStr, &gbarE, 1)
+addSlider(&gbarIStr, &gbarI, 1)
+addTauSlider(&vmTauStr, &vmTau, 50)
+```
+
+[[#sim_vm_gbar]] provides an interactive exploration of this tug-of-war dynamic. As you drag the `gbar E` and `gbar I` sliders, you control the strength of excitation (E) and inhibition (I), and can observe the impact on the membrane potential `Vm`. You should see that the Vm settles to a value that reflects the relative strengths of excitation and inhibition.
+
+The standard neuroscience notation in [[#figure_tug-of-war]] is as follows:
 
 *  $g_i$ --- the **inhibitory conductance** (*g* is the symbol for a conductance, and *i* indicates inhibition) --- this is the total strength of the inhibitory input (i.e., how strong the inhibitory guy is tugging), and plays a major role in determining how strong of an inhibitory current there is. This corresponds biologically to the proportion of inhibitory ion channels that are currently open and allowing inhibitory ions to flow (these are **chloride** or **$Cl^-$** ions in the case of GABA **inhibition**, and **potassium** or **$K^+$** ions in the case of **leak** currents). For electricity buffs, the conductance is the inverse of resistance --- most people find conductance more intuitive than resistance, so we'll stick with it.
 
@@ -34,6 +130,102 @@ Before we consider specific cases, let's introduce some obscure terminology that
 In the next case (b), the excitation is as strong as the inhibition, and this means that it can pull the membrane potential up to about the middle of the range. Because the firing threshold is toward the lower-end of the range, this is enough to get over threshold and fire a spike! The neuron will now communicate its signal to other neurons, and contribute to the overall flow of information in the brain's network.
 
 The last case (c) is particularly interesting, because it illustrates that the integration process is fundamentally **relative** --- what matters is how strong excitation is *relative* to the inhibition. If both are overall weaker, then neurons can still get over firing threshold. Can you think of any real-world example where this might be important? Consider the neurons in your visual system, which can experience huge variation in the overall amount of light coming into them depending on what you're looking at (e.g., compare snowboarding on a bright sunny day versus walking through thick woods after sunset). It turns out that the total amount of light coming into the visual system drives a "background" level of inhibition, in addition to the amount of excitation that visual neurons experience. Thus, when it's bright, neurons get greater amounts of both excitation and inhibition compared to when it is dark. *This enables the neurons to remain in their sensitive range for detecting things* despite large differences in overall input levels.
+
+## Exploring neural integration
+
+{id="sim_vm_g" title="Membrane potential tug-of-war: g's" collapsed="true"}
+```Goal
+vmTau := 10.0 // time constant for vm integration
+gbarE := 0.2
+gbarI := 0.4
+var gbarEStr, gbarIStr, vmTauStr string
+
+##
+totalTime := 100
+gE := zeros(totalTime) // excitatory conductance
+gI := zeros(totalTime) // inhibitory conductance
+Vm := zeros(totalTime) // membrane potential
+##
+
+func vmRun() {
+    gbarEStr = fmt.Sprintf("gbar E: %7.4g", gbarE)
+    gbarIStr = fmt.Sprintf("gbar I: %7.4g", gbarI)
+    vmTauStr = fmt.Sprintf("Vm Tau: %7.4g", vmTau)
+    ##
+    vm := 0.0 // current excitation
+    tau := array(vmTau)
+    gbE := array(gbarE)
+    gbI := array(gbarI)
+    ##
+    for t := range 100 {
+        ##
+        ge := gbE * (1.0 - vm)
+        gi := gbI * (0.0 - vm)
+        dvm := (1.0 / tau) * (ge + gi)
+		vm += dvm
+        Vm[t] = vm
+        gE[t] = ge
+        gI[t] = -gi
+        ##
+    }
+}
+
+vmRun()
+
+plotStyler := func(s *plot.Style) {
+    s.Range.SetMax(1).SetMin(0)
+    s.Plot.XAxis.Label = "Time"
+    s.Plot.XAxis.Range.SetMax(100).SetMin(0)
+	s.Plot.Legend.Position.Left = true
+}
+plot.SetStyler(Vm, plotStyler) 
+
+fig1, pw := lab.NewPlotWidget(b)
+Vml := plots.NewLine(fig1, Vm)
+gEl := plots.NewLine(fig1, gE)
+gIl := plots.NewLine(fig1, gI)
+fig1.Legend.Add("Vm", Vml)
+fig1.Legend.Add("gE", gEl)
+fig1.Legend.Add("gI", gIl)
+
+func updt() {
+    vmRun()
+    Vml.SetData(Vm)
+    gEl.SetData(gE)
+    gIl.SetData(gI)
+    pw.NeedsRender()
+}
+
+func addTauSlider(label *string, val *float64, mxVal float32) {
+    tx := core.NewText(b)
+    tx.Styler(func(s *styles.Style) {
+        s.Min.X.Ch(40)  // clean rendering with variable width content
+    })
+    core.Bind(label, tx)
+    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
+        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
+    	updt()
+        tx.UpdateRender()
+    })
+}
+
+func addSlider(label *string, val *float64, mxVal float32) {
+    tx := core.NewText(b)
+    tx.Styler(func(s *styles.Style) {
+        s.Min.X.Ch(40)  // clean rendering with variable width content
+    })
+    core.Bind(label, tx)
+    core.Bind(val, core.NewSlider(b)).SetMin(0.02).SetMax(mxVal).
+        SetStep(0.02).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
+    	updt()
+        tx.UpdateRender()
+    })
+}
+
+addSlider(&gbarEStr, &gbarE, 1)
+addSlider(&gbarIStr, &gbarI, 1)
+addTauSlider(&vmTauStr, &vmTau, 50)
+```
 
 ## Computing Activation Output
 

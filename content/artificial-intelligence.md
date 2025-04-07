@@ -3,7 +3,7 @@ Categories = ["Axon"]
 bibfile = "ccnlab.json"
 +++
 
-**Artificial intellignce** (AI) has been used to describe a very wide range of different computational frameworks over the years, including symbolic reasoning systems developed from the 1950s to the 1990s, and the current [[abstract neural network]] (ANN) models including [[large language models]] (LLMs).
+**Artificial intellignce** (AI) has been used to describe a very wide range of different computational frameworks over the years, including symbolic reasoning systems developed from the 1950s to the 1990s, and the current [[abstract neural network]] (ANN) models including [[large language model]]s (LLMs).
 
 The question of what "counts" as "intelligent" is tricky, because mostly we use humans as the only available point of reference, while also not wanting to be too directly tied to the quirks of our own particular brand of intelligence. The attempt to define a clear set of criteria for what counts as intelligent is notoriously difficult, with the Turing test providing an unsatisfyingly pragmatic approach: if we can't tell the difference between it and a human, it must be intelligent.
 

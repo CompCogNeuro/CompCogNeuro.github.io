@@ -1,11 +1,11 @@
 module github.com/CompCogNeuro/CompCogNeuro.github.io
 
-go 1.22
+go 1.23.0
 
 require (
-	cogentcore.org/core v0.3.9-0.20250402182034-99b63fc362e0
-	cogentcore.org/lab v0.1.1-0.20250402183515-f23e1a9f4b34
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250402200633-eef3e4da3ff2
+	cogentcore.org/core v0.3.9-0.20250406033103-abf571a3ef6c
+	cogentcore.org/lab v0.1.1-0.20250406034000-173465805348
+	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250406055418-5cfbe6077b83
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/cogentcore/webgpu v0.0.0-20250118183535-3dd1436165cf // indirect
 	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56 // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250402192849-9edadf2bd7be // indirect
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250406034731-f3d3ebb44a9d // indirect
 	github.com/ericchiang/css v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-fonts/latin-modern v0.3.3 // indirect
@@ -38,7 +38,6 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
-	github.com/mattn/go-shellwords v1.0.12 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.2-0.20240227203013-2b69615b5d55 // indirect
@@ -47,7 +46,7 @@ require (
 	github.com/tdewolff/parse/v2 v2.7.19 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
-	golang.org/x/image v0.23.0 // indirect
+	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/net v0.37.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
@@ -55,5 +54,7 @@ require (
 	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	gonum.org/v1/gonum v0.15.0 // indirect
-	star-tex.org/x/tex v0.5.0 // indirect
+	modernc.org/knuth v0.5.4 // indirect
+	modernc.org/token v1.1.0 // indirect
+	star-tex.org/x/tex v0.6.0 // indirect
 )
