@@ -1,15 +1,15 @@
 module github.com/CompCogNeuro/CompCogNeuro.github.io
 
-go 1.23.0
+go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.9-0.20250406033103-abf571a3ef6c
-	cogentcore.org/lab v0.1.1-0.20250406034000-173465805348
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250406055418-5cfbe6077b83
+	cogentcore.org/core v0.3.10-0.20250408183414-88aeaf0ee692
+	cogentcore.org/lab v0.1.1-0.20250408195441-4a25ebd4ab5e
+	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250408201452-ced245a8c109
 )
 
 require (
-	github.com/Bios-Marcel/wastebasket v0.0.4-0.20240213135800-f26f1ae0a7c4 // indirect
+	github.com/Bios-Marcel/wastebasket/v2 v2.0.2 // indirect
 	github.com/Masterminds/vcs v1.13.3 // indirect
 	github.com/adrg/strutil v0.3.1 // indirect
 	github.com/alecthomas/chroma/v2 v2.13.0 // indirect
@@ -22,12 +22,13 @@ require (
 	github.com/cogentcore/webgpu v0.0.0-20250118183535-3dd1436165cf // indirect
 	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56 // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250406034731-f3d3ebb44a9d // indirect
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250408201249-4888feb38176 // indirect
 	github.com/ericchiang/css v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-fonts/latin-modern v0.3.3 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a // indirect
 	github.com/go-text/typesetting v0.3.1-0.20250402122313-7a0f05577ff5 // indirect
+	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gomarkdown/markdown v0.0.0-20250311123330-531bef5e742b // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/h2non/filetype v1.1.3 // indirect
