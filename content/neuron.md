@@ -158,15 +158,17 @@ The last case (c) illustrates how the integration process is sensitive to the _r
 
 ## Spiking output
 
-The membrane potential $Vm$ is not communicated directly to other neurons; instead it is subject to a **threshold**, so that only the strongest relative levels of excitation are then communicated , resulting in a more efficient and compact encoding of information in the brain. In human terms, neurons avoid sharing "TMI" (too much information), and instead communicate only relevant, important information, as if they were following ["Gricean maxims"](https://en.wikipedia.org/wiki/Cooperative_principle).
+The membrane potential $Vm$ is not communicated directly to other neurons; instead it is subject to a **threshold**, so that only the strongest relative levels of excitation are then communicated, resulting in a more efficient and compact encoding of information in the brain. In human terms, neurons avoid sharing "TMI" (too much information), and instead communicate only relevant, important information, as if they were following ["Gricean maxims"](https://en.wikipedia.org/wiki/Cooperative_principle).
 
-Actual neurons in the Neocortex compute discrete **spikes** or **action potentials**, which are very brief ( &lt; 1 ms) and trigger the release of neurotransmitter that then drives the excitation or inhibition of the neurons they are sending to. After the spike, the membrane potential $Vm$ is reset back to a low value (at or even below the resting potential), and it must then climb back up again to the level of the threshold before another spike can occur. This process results in different *rates of spiking* associated with different levels of excitation --- it is clear from eletrophysiological recordings of neurons all over the neocortex that this **spike rate** information is highly informative about behaviorally and cognitively relevant information. There remains considerable debate about the degree to which more precise differences in spike timing contain additional useful information.
+As described above, the firing of discrete spikes when $Vm$ gets above threshold occurs in biological neurons via the fast $Na^+$ and $K^+$ channels as first described by [[@HodgkinHuxley52]], and we use the [[AdEx]] ( _Adaptive Exponential_; [[@BretteGerstner05]]) model to approximate these fast dynamics. The overall cycle of spiking followed by after-hyperpolarization (AHP) and the subsequent rise in $Vm$ driven by continued excitation results in an overall **spike rate** that reflects the relative balance of excitation vs. inhibition.
 
-In our computer models, we can simulate discrete spiking behavior directly in a very straightforward way (see below for details). However, we often use a **rate code** approximation instead, where the activation output of the neuron is a *real valued number* between 0-1 that corresponds to the overall rate of neural spiking. We typically think of this rate code as reflecting the net output of a small population of roughly 100 neurons that all respond to similar information --- the neocortex is organized anatomically with **microcolumns** of roughly this number of neurons, where all of the neurons do indeed code for similar information. Use of this rate code activation enables smaller-scale models that converge on a stable interpretation of the input patterns rapidly, with an overall savings in computational time and model complexity. Nevertheless, there are tradeoffs in using these approximations, which we will discuss more in the Networks and other chapters. Getting the rate code to produce a good approximation to discrete spiking behavior has been somewhat challenging in the Leabra framework, and only recently has a truly satisfactory solution been developed, which is now the standard in the [emergent](https://github.com/emer) software.
+In [[rate code activation]] models, this expected rate of spiking is computed directly from the inputs to a neuron, and is then computed as an overall **activation** value to other neurons. The validity of this rate code approximation is a matter of considerable debate, which is discussed further in the [[rate code activation]] page. Briefly, the [[Leabra]] model used rate code signaling, and direct comparisons with the discrete spiking [[Axon]] model show that rate codes can capture many of the same functional and cognitive phenomena as a discrete spiking model, but overall they are more brittle and require a significant tradeoff between representing graded, probabilistic information, and the speed and responsiveness of the network overall.
 
-## Mathematical Formulations
+Specifically, a key functional advantage of discrete spiking is that considerable information about a new stimulus input can be rapidly propagated throughout the network via a cascade of _first spike_ responses [[@ThorpeDelormeVanRullen01]]. Electrophysiological recordings show that this initial wave of responding conveys significant information about the stimulus within a relatively short window of roughly 50-70 msec after it first hits the neocortex, with the relative timing of these first spikes being strongly correlated with the subsequent rate of firing. However, the subsequent firing is also critical for resolving many important properties of the stimulus, and provides a window for top-down and bottom-up signals to converge on a consistent interpretation. Thus, discrete spiking enables this "best of both worlds" of fast initial responding plus effective subsequent integration of more graded signals.
 
-Now you've got an intuitive understanding of how the neuron integrates excitation and inhibition. We can capture this dynamic in a set of mathematical equations that can be used to simulate neurons on the computer. The first set of equations focuses on the effects of inputs to a neuron. The second set focuses on generating outputs from the neuron. We will cover a fair amount of mathematical ground here. Don't worry if you don't follow all of the details. As long as you follow conceptually what the equations are doing, you should be able to build on this understanding when you get your hands on the actual equations themselves and explore how they behave with different inputs and parameters. You will see that despite all the math, the neuron's behavior is indeed simple: the amount of excitatory input determines how excited it gets, in balance with the amount of inhibition and leak. And the resulting output signals behave pretty much as you would expect.
+## Mathematical formulation
+
+With the above intuitive understanding of how the neuron integrates excitation and inhibition, we can now see how a set of mathematical equations can be used to simulate this behavior in our models.
 
 ### Computing Inputs
 
@@ -174,16 +176,18 @@ We begin by formalizing the "strength" by which each side of the tug-of-war pull
 
 #### Neural Integration
 
-The key idea behind these equations is that each guy in the tug-of-war pulls with a strength that is proportional to both its overall strength (conductance), and how far the "flag" ($Vm$) is away from its position (indicated by the driving potential E). Imagine that the tuggers are planted in their position, and their arms are fully contracted when the $Vm$ flag gets to their position (E), and they can't re-grip the rope, such that they can't pull any more at this point. To put this idea into an equation, we can write the "force" or **current** that the excitatory guy exerts as:
+The key idea behind these equations is that each side in the tug-of-war pulls with a strength that is proportional to both its overall strength (conductance), and how far the "flag" ($Vm$) is away from its position (indicated by the driving potential E). Imagine that the tuggers are planted in their position, and their arms are fully contracted when the $Vm$ flag gets to their position (E), and they can't re-grip the rope, such that they can't pull any more at this point. To put this idea into an equation, we can write the "force" or **current** that the excitatory side exerts as:
 
 {id="eq_Ie"}
 $$
 I_e = g_e \left(E_e-V_m\right)
 $$
 
-The excitatory current is $I_e$ (I is the traditional term for an electrical current, and e again for excitation), and it is the product of the conductance $g_e$ times *how far the membrane potential is away from the excitatory driving potential*. If $V_m = E_e$ then the excitatory guy has "won" the tug of war, and it no longer pulls anymore, and the current goes to zero (regardless of how big the conductance might be --- anything times 0 is 0). Interestingly, this also means that the excitatory guy pulls the strongest when the $Vm$ "flag" is furthest away from it --- i.e., when the neuron is at its resting potential. Thus, it is easiest to excite a neuron when it's well rested.
+The excitatory current is $I_e$ (_I_ is the traditional term for an electrical current, and _e_ again for excitation), and it is the product of the conductance $g_e$ times how far the membrane potential is away from the excitatory driving potential. If $V_m = E_e$ then the excitatory side has "won" the tug of war, and it no longer pulls anymore, and the current goes to zero (regardless of how big the conductance might be --- anything times 0 is 0). Interestingly, this also means that the excitatory side pulls the strongest when the $Vm$ "flag" is furthest away from it --- i.e., when the neuron is at its resting potential. Thus, it is easiest to excite a neuron when it's well rested.
 
-The same basic equation can be written for the inhibition guy, and also separately for the leak guy (which we can now reintroduce as a basic clone of the inhibition term):
+This equation is known as **Ohm's Law**, one of the most basic laws of electricity, which you might have learned about in terms of _resistance_, which is 1 / conductance. Conductance is more intuitive in this case because it can be directly understood as the size and number of the channel openings that allow ions to flow.
+
+The same basic equation can be written for the inhibition side, and also separately for the leak "side" (which we can now reintroduce as a clone of the inhibition term):
 
 {id="eq_Ii"}
 $$
@@ -197,7 +201,7 @@ $$
 I_l = g_l \left(E_l-V_m\right)
 $$
 
-(only the subscripts are different).
+(only the subscripts are different in all of these equations).
 
 Next, we can add together these three different currents to get the **net current**, which represents the net flow of charged ions across the neuron's membrane (through the ion channels):
 
@@ -217,9 +221,9 @@ $$
 V_m\left(t\right) = V_m\left(t-1\right) + dt_{vm} I_{net}
 $$
 
-$V_m(t)$ is the current value of $Vm$, which is updated from value on the previous time step $V_m(t-1)$, and the $dt_{vm}$ is a **rate constant** that determines how fast the membrane potential changes --- it mainly reflects the capacitance of the neuron's membrane).
+$V_m(t)$ is the current value of $Vm$, which is updated from value on the previous time step $V_m(t-1)$, and the $dt_{vm}$ is a **rate constant** that determines how fast the membrane potential changes. It mainly reflects the capacitance of the neuron's membrane.
 
-The above two equations are the essence of what we need to be able to simulate a neuron on a computer! It tells us how the membrane potential changes as a function of the inhibitory, leak and excitatory inputs --- given specific numbers for these input conductances, and a starting $Vm$ value, we can then **iteratively** compute the new $Vm$ value according to the above equations, and this will accurately reflect how a real neuron would respond to similar such inputs!
+The above two equations are the most essential tools we need to simulate a neuron on a computer. It tells us how the membrane potential changes as a function of the inhibitory, leak and excitatory inputs --- given specific numbers for these input conductances, and a starting $Vm$ value, we can then **iteratively** compute the new $Vm$ value according to the above equations, and this will accurately reflect how a real neuron would respond to similar such inputs.
 
 To summarize, here's a single version of the above equations that does everything:
 
@@ -228,7 +232,7 @@ $$
 V_m(t) = V_m(t-1) + dt_{vm} \left[ g_e (E_e-V_m) + g_i (E_i-V_m) + g_l (E_l-V_m) \right]
 $$
 
-For those of you who noticed the issue with the minus sign above, or are curious how all of this relates to **Ohm's law** and the process of diffusion, please see the Chapter Appendix section *Electrophysiology of the Neuron*. If you're happy enough with where we've come, feel free to move along to finding out how we compute these input conductances, and what we then do with the $Vm$ value to drive the output signal of the neuron.
+For those of you who noticed the issue with the minus sign above, or are curious know more details about where these equations come from see , please see the Chapter Appendix section *Electrophysiology of the Neuron*. If you're happy enough with where we've come, feel free to move along to finding out how we compute these input conductances, and what we then do with the $Vm$ value to drive the output signal of the neuron.
 
 #### Computing Input Conductances
 
@@ -370,54 +374,9 @@ addSlider(&gbarEStr, &gbarE, 1)
 addTauSlider(&vmTauStr, &vmTau, 50)
 ```
 
-[[#sim_vm_g]] shows the same excitatory vs inhibitory integration as in [[#sim_vm_gbar]], but it plots the total current
+[[#sim_vm_g]] shows the same excitatory vs inhibitory integration as in [[#sim_vm_gbar]], but instead plots the total current for each of these channels, with the inhibitory current shown as an absolute value (it actually has a negative sign).
 
-#### Equilibrium Membrane Potential
-
-Before finishing up the final step in the detection process (generating an output), we will need to use the concept of the **equilibrium membrane potential**, which is the value of $Vm$ that the neuron will settle into and stay at, *given a fixed set of excitatory and inhibitory input conductances* (if these aren't steady, then the the $Vm$ will likely be constantly changing as they change). This equilibrium value is interesting because it tells us more clearly how the tug-of-war process inside the neuron actually balances out in the end. Also, we will see in the next section that it is useful mathematically.
-
-To compute the equilibrium membrane potential ($V_m^{eq}$), we can use an important mathematical technique: set the change in membrane potential (according to the iterative $Vm$ updating equation from above) to 0, and then solve the equation for the value of $Vm$ under this condition. In other words, if we want to find out what the equilibrium state is, we simply compute what the numbers need to be such that $Vm$ is no longer changing (i.e., its rate of change is 0). Here are the mathematical steps that do this:
-
-$$
-V_m(t) = V_m(t-1) + dt_{vm} \left[ g_e (E_e-V_m) + g_i (E_i-V_m) + g_l (E_l-V_m) \right]
-$$
-
-(the **iterative $Vm$ update equation:**)
-
-This is the part that is driving the changes (time constant omitted as we are looking for equilibrium):
-
-$$
-\Delta V_m = g_e \left(E_e-V_m\right) + g_i (E_i-V_m) + g_l (E_l-V_m)
-$$
-
-which we set to zero to find when it stops changing:
-$$
-0 = g_e \left(E_e-V_m\right) + g_i (E_i-V_m) + g_l (E_l-V_m)
-$$
-
-and then do some algebra to solve for $Vm$:
-
-$$
-V_m = \frac{g_e}{g_e + g_i + g_l} E_e + \frac{g_i}{g_e + g_i + g_l} E_i + \frac{g_l}{g_e + g_i + g_l} E_l
-$$
-
-The detailed math is shown in the Chapter Appendix section *Math Derivations*.
-
-In words, this says that the excitatory drive $E_e$ contributes to the overall $Vm$ as a function of the proportion of the excitatory conductance $g_e$ relative to the sum of all the conductances ($g_e + g_i + g_l$). And the same for each of the others (inhibition, leak). This is just what we expect from the tug-of-war picture: if we ignore $g_l$, then the $Vm$ "flag" is positioned as a function of the relative balance between $g_e$ and $g_i$ --- if they are equal, then $g_e / (g_e + g_i)$ is .5 (e.g., just put a "1" in for each of the g's --- 1/2 = .5), which means that the $Vm$ flag is half-way between $E_i$ and $E_e$. So, all this math just to rediscover what we knew already intuitively! (Actually, that is the best way to do math --- if you draw the right picture, it should tell you the answers before you do all the algebra). But we'll see that this math will come in handy next.
-
-Here is a version with the conductance terms explicitly broken out into the "g-bar" constants and the time-varying "g(t)" parts:
-
-$$
-V_m = \frac{\overline{g}_e g_e(t)}{\overline{g}_e g_e(t) + \overline{g}_i g_i(t) + \overline{g}_l} E_e  \frac{\overline{g}_i g_i(t)}{\overline{g}_e g_e(t) + \overline{g}_i g_i(t) + \overline{g}_l} E_i + \frac{\overline{g}_l}{\overline{g}_e g_e(t) + \overline{g}_i g_i(t) + \overline{g}_l} E_l
-$$
-
-For those who really like math, the equilibrium membrane potential equation is shown to be a Bayesian Optimal Detector in the Appendix.
-
-### Generating Outputs
-
-The output of the neuron can be simulated at two different levels: discrete spiking (which is how neurons actually behave biologically), or using a rate code approximation. We cover each in turn, and show how the rate code must be derived to match the behavior of the discrete spiking neuron, when averaged over time (it is important that our approximations are valid in the sense that they match the more detailed biological behavior where possible, even as they provide some simplification).
-
-#### Discrete Spiking
+## AdEx equations
 
 To compute discrete action potential spiking behavior from the neural equations we have so far, we need to determine when the membrane potential gets above the firing threshold, and then emit a spike, and subsequently reset the membrane potential back down to a value, from which it can then climb back up and trigger another spike again, etc. This is actually best expressed as a kind of simple computer program:
 
@@ -428,6 +387,24 @@ if (Vm > Theta) then: y = 1; Vm = Vm_r; else y = 0
 where y is the activation output value of the neuron, and $Vm_r$ is the *reset potential* that the membrane potential is reset to after a spike is triggered. Biologically, there are special potassium ($K^+$) channels that bring the membrane potential back down after a spike.
 
 This simplest of spiking models is not *quite* sufficient to account for the detailed spiking behavior of actual cortical neurons. However, a slightly more complex model can account for actual spiking data with great accuracy (as shown by Gerstner and colleagues [[@BretteGerstner05]], even winning several international competitions!). This model is known as the *Adaptive Exponential* or AdEx model ([Scholarpedia Article on AdEx](http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model). We typically use this AdEx model when simulating discrete spiking, although the simpler model described above is also still an option. The critical feature of the AdEx model is that the effective firing threshold adapts over time, as a function of the excitation coming into the cell, and its recent firing history. The net result is a phenomenon called **spike rate adaptation**, where the rate of spiking tends to decrease over time for otherwise static input levels. Otherwise, however, the AdEx model is identical to the one described above.
+
+## Channel zoo
+
+* all the other channel types and plots for each, and key discussion of issue of stability over time.
+
+[[neuron channels]] has all the details.
+
+## Additional details
+
+There are a number of optional in-depth pages providing more details about biological and computational neurons.
+
+* [[Neuron electrophysiology]]: more detailed description of the electrophysiology of the neuron, and how the underlying concentration gradients of ions give rise to the electrical integration properties of the neuron.
+
+* [[Neuron input scaling]]: details on how excitatory and other neural inputs are computed and scaled across multiple different input projections.
+
+* [[Neuron equilibrium potential]]: shows how to derive the _equilibrium_ (steady-state) $Vm$ equation, which clearly exhibits the relative tug-of-war dynamic.
+
+* [[Neuron bayesian|Neuron as a Bayesian optimal detector]]: shows how the equilibrium membrane potential represents a Bayesian optimal way of integrating the different inputs to the neuron.
 
 
 
