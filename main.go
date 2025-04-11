@@ -6,7 +6,6 @@ import (
 	"cogentcore.org/core/content"
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/text/csl"
-	_ "cogentcore.org/lab/yaegilab"
 	_ "github.com/emer/axon/v2/yaegiaxon"
 )
 

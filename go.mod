@@ -3,12 +3,12 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.10-0.20250408183414-88aeaf0ee692
-	cogentcore.org/lab v0.1.1-0.20250408195441-4a25ebd4ab5e
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250408201452-ced245a8c109
+	cogentcore.org/core v0.3.10-0.20250411061709-1b6548f8878f
+	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250411080227-70ca2b30994f
 )
 
 require (
+	cogentcore.org/lab v0.1.1-0.20250409042104-35852a6a2965 // indirect
 	github.com/Bios-Marcel/wastebasket/v2 v2.0.2 // indirect
 	github.com/Masterminds/vcs v1.13.3 // indirect
 	github.com/adrg/strutil v0.3.1 // indirect
@@ -22,7 +22,7 @@ require (
 	github.com/cogentcore/webgpu v0.0.0-20250118183535-3dd1436165cf // indirect
 	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56 // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250408201249-4888feb38176 // indirect
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250411080022-207257f96380 // indirect
 	github.com/ericchiang/css v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-fonts/latin-modern v0.3.3 // indirect

@@ -9,19 +9,11 @@ This page provides details for the full range of channel types that are availabl
 
 {id="sim_nmda" title="NMDA Channels" collapsed="true"}
 ```Goal
-tb := core.NewToolbar(b)
-br := lab.NewBasic(b)
-br.Styler(func(s *styles.Style) {
-    s.Min.Y.Em(30)
-})
-root, _ := tensorfs.NewDir("Root")
 pl := &chanplots.NMDAPlot{}
-br.Maker(func(p *tree.Plan) {
-    pl.Config(root, br.Tabs)
-})
-tb.Maker(func(p *tree.Plan) {
-    pl.MakeToolbar(p)
-})
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "NMDA", "NMDA Channel", "NMDA Channel equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
 ```
 
 ## Sodium-Gated Potassium Channels for Adaptation (kNa Adapt)
