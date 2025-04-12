@@ -1374,6 +1374,378 @@
 		"volume": "38"
 	},
 	{
+		"type": "paper-conference",
+		"id": "HintonSejnowski83",
+		"citation-key": "HintonSejnowski83",
+		"author": [
+			{
+				"family": "Hinton",
+				"given": "G. E."
+			},
+			{
+				"family": "Sejnowski",
+				"given": "T. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+		"event-place": "Washington, DC",
+		"publisher-place": "Washington, DC",
+		"title": "Optimal perceptual inference"
+	},
+	{
+		"type": "chapter",
+		"id": "McClelland98",
+		"citation-key": "McClelland98",
+		"author": [
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			}
+		],
+		"editor": [
+			{
+				"family": "Chater",
+				"given": "N."
+			},
+			{
+				"family": "Oaksford",
+				"given": "M."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Rational Models of Cognitive Processes.",
+		"event-place": "Oxford",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford",
+		"title": "Connectionist Models and Bayesian Inference."
+	},
+	{
+		"type": "article-journal",
+		"id": "BrunelWang01",
+		"citation-key": "BrunelWang01",
+		"author": [
+			{
+				"family": "Brunel",
+				"given": "N."
+			},
+			{
+				"family": "Wang",
+				"given": "X. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Computational Neuroscience",
+		"page": "63-85",
+		"title": "Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11524578",
+		"volume": "11"
+	},
+	{
+		"type": "article-journal",
+		"id": "Kaczmarek13",
+		"citation-key": "Kaczmarek13",
+		"author": [
+			{
+				"family": "Kaczmarek",
+				"given": "Leonard K."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					5,
+					13
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "ISRN Neuroscience",
+		"container-title-short": "ISRN Neurosci",
+		"DOI": "10.1155/2013/354262",
+		"ISSN": "2314-4661",
+		"PMCID": "PMC3850776",
+		"PMID": "24319675",
+		"source": "PubMed Central",
+		"title": "Slack, Slick, and Sodium-Activated Potassium Channels",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850776/",
+		"volume": "2013"
+	},
+	{
+		"type": "article-journal",
+		"id": "Kohn07",
+		"citation-key": "Kohn07",
+		"language": "en",
+		"author": [
+			{
+				"family": "Kohn",
+				"given": "Adam"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					5,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00086.2007",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "3155-3164",
+		"PMID": "17344377",
+		"source": "jn.physiology.org.colorado.idm.oclc.org",
+		"title": "Visual Adaptation: Physiology, Mechanisms, and Functional Benefits",
+		"title-short": "Visual Adaptation",
+		"URL": "http://jn.physiology.org/content/97/5/3155",
+		"volume": "97"
+	},
+	{
+		"type": "article-journal",
+		"id": "Sanchez-VivesNowakMcCormick00a",
+		"citation-key": "Sanchez-VivesNowakMcCormick00a",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sanchez-Vives",
+				"given": "Maria V."
+			},
+			{
+				"family": "Nowak",
+				"given": "Lionel G."
+			},
+			{
+				"family": "McCormick",
+				"given": "David A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "11",
+		"page": "4286-4299",
+		"PMID": "10818164",
+		"source": "www.jneurosci.org.colorado.idm.oclc.org",
+		"title": "Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro",
+		"URL": "http://www.jneurosci.org/content/20/11/4286",
+		"volume": "20"
+	},
+	{
+		"type": "article-journal",
+		"id": "BendaMalerLongtin10",
+		"citation-key": "BendaMalerLongtin10",
+		"language": "en",
+		"author": [
+			{
+				"family": "Benda",
+				"given": "Jan"
+			},
+			{
+				"family": "Maler",
+				"given": "Leonard"
+			},
+			{
+				"family": "Longtin",
+				"given": "André"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					11,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00240.2010",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "2806-2820",
+		"PMID": "21045213",
+		"source": "jn.physiology.org.colorado.idm.oclc.org",
+		"title": "Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds",
+		"URL": "http://jn.physiology.org/content/104/5/2806",
+		"volume": "104"
+	},
+	{
+		"type": "article-journal",
+		"id": "ThorpeDelormeVanRullen01",
+		"citation-key": "ThorpeDelormeVanRullen01",
+		"author": [
+			{
+				"family": "Thorpe",
+				"given": "S"
+			},
+			{
+				"family": "Delorme",
+				"given": "A"
+			},
+			{
+				"family": "Van Rullen",
+				"given": "R"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural networks",
+		"page": "715–725",
+		"title": "Spike-based strategies for rapid processing.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11665765",
+		"volume": "14"
+	},
+	{
+		"type": "article-journal",
+		"id": "Brette15",
+		"citation-key": "Brette15",
+		"author": [
+			{
+				"family": "Brette",
+				"given": "Romain"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					16
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Systems Neuroscience",
+		"DOI": "10.3389/fnsys.2015.00151",
+		"ISSN": "1662-5137",
+		"page": "151",
+		"source": "Frontiers",
+		"title": "Philosophy of the Spike: Rate-Based vs. Spike-Based Theories of the Brain",
+		"title-short": "Philosophy of the Spike",
+		"URL": "https://www.frontiersin.org/article/10.3389/fnsys.2015.00151",
+		"volume": "9"
+	},
+	{
 		"type": "article-journal",
 		"id": "HeckhausenGollwitzer87",
 		"citation-key": "HeckhausenGollwitzer87",
