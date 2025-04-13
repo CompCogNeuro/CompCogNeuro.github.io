@@ -1446,6 +1446,47 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "HestrinNicollPerkelEtAl90",
+		"citation-key": "HestrinNicollPerkelEtAl90",
+		"author": [
+			{
+				"family": "Hestrin",
+				"given": "S"
+			},
+			{
+				"family": "Nicoll",
+				"given": "R A"
+			},
+			{
+				"family": "Perkel",
+				"given": "D J"
+			},
+			{
+				"family": "Sah",
+				"given": "P"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Physiology",
+		"page": "203-225",
+		"title": "Analysis of excitatory synaptic action in pyramidal cells using whole-cell recording from rat hippocampal slices.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/1972190",
+		"volume": "422"
+	},
+	{
+		"type": "article-journal",
 		"id": "BrunelWang01",
 		"citation-key": "BrunelWang01",
 		"author": [

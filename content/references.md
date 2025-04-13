@@ -24,6 +24,8 @@
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
 
+<p id="HestrinNicollPerkelEtAl90">Hestrin, S., Nicoll, R.A., Perkel, D.J., & Sah, P. (1990). Analysis of excitatory synaptic action in pyramidal cells using whole-cell recording from rat hippocampal slices. The Journal of Physiology, 422, 203-225. http://www.ncbi.nlm.nih.gov/pubmed/1972190</p>
+
 <p id="HintonSejnowski83">Hinton, G.E., & Sejnowski, T.J. (1983). Optimal perceptual inference. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. </p>
 
 <p id="HintonSejnowski86">Hinton, G.E., & Sejnowski, T.J. (1986). Learning and Relearning in Boltzmann Machines. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
