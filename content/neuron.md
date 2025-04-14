@@ -388,6 +388,39 @@ where y is the activation output value of the neuron, and $Vm_r$ is the *reset p
 
 This simplest of spiking models is not *quite* sufficient to account for the detailed spiking behavior of actual cortical neurons. However, a slightly more complex model can account for actual spiking data with great accuracy (as shown by Gerstner and colleagues [[@BretteGerstner05]], even winning several international competitions!). This model is known as the *Adaptive Exponential* or AdEx model ([Scholarpedia Article on AdEx](http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model). We typically use this AdEx model when simulating discrete spiking, although the simpler model described above is also still an option. The critical feature of the AdEx model is that the effective firing threshold adapts over time, as a function of the excitation coming into the cell, and its recent firing history. The net result is a phenomenon called **spike rate adaptation**, where the rate of spiking tends to decrease over time for otherwise static input levels. Otherwise, however, the AdEx model is identical to the one described above.
 
+## Normalized parameters
+
+Managing the actual biological units for voltages, conductances and currents introduces a bit of additional complexity, which we avoid by using normalized values as in the following table:
+
+{id="table_norms" title="Normalized units"}
+| Dimension | Unit | Multiplier   | Norm range  |
+|-----------|------------|--------------|--------|
+| current   | amp | $10^{-8}$  | 1 = 1 nA |
+| potential | volt  | 0.1 | 0..1 $\rightarrow$ -100..0 mV |
+| time      | second, s $\rightarrow$ ms | 0.001 | 1 = 1 ms  |
+| conductance | siemens = amp / volt | $10^{-7}$ | 1 = 100 nS |
+| capacitance | farad = (sec * amp) / volt | $10^{-10}$ | 1 = 0.1 nF |
+
+The key difference here is transforming the natural mV range of -100 to 0 mV into normalized units between 0 and 1. This transforms the reversal potentials for the standard channels as shown in the following table:
+
+{id="table_erev" title="Reversal potentials"}
+| Parameter | Bio value | Norm value |
+|-----------|-----------|------------|
+| Resting potential | -70 mV | 0.3   |
+| Leak $E_l$        | -70 mV | 0.3   |
+| Excitatory $E_e$  |   0 mV | 1.0   |
+| Inhibition $E_i$  | -90 mV | 0.1   |
+| Spiking threshold | -50 mV | 0.5   |
+
+{id="table_gbar" title="g-bar conductances"}
+| Parameter | Bio value | Norm value |
+|-----------|-----------|------------|
+| Leak $\overline{g}_l$ | 10 nS | 0.1 |
+| Total excitatory $\overline{g}_e$ | 100 nS | 1.0 |
+| Total inhibitory $\overline{g}_i$ | 100 nS | 1.0 |
+| Nominal excitatory per synapse | 1 nS | 0.01 |
+
+
 ## Channel zoo
 
 * all the other channel types and plots for each, and key discussion of issue of stability over time.

@@ -1446,6 +1446,225 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "MiglioreHoffmanMageeEtAl99",
+		"citation-key": "MiglioreHoffmanMageeEtAl99",
+		"language": "en",
+		"author": [
+			{
+				"family": "Migliore",
+				"given": "M."
+			},
+			{
+				"family": "Hoffman",
+				"given": "D.A."
+			},
+			{
+				"family": "Magee",
+				"given": "J.C."
+			},
+			{
+				"family": "Johnston",
+				"given": "D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					12,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					7,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Computational Neuroscience",
+		"container-title-short": "J Comput Neurosci",
+		"DOI": "10.1023/A:1008906225285",
+		"ISSN": "1573-6873",
+		"issue": "1",
+		"page": "5-15",
+		"source": "Springer Link",
+		"title": "Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons",
+		"URL": "https://doi.org/10.1023/A:1008906225285",
+		"volume": "7"
+	},
+	{
+		"type": "article-journal",
+		"id": "PoiraziBrannonMel03",
+		"citation-key": "PoiraziBrannonMel03",
+		"language": "en",
+		"author": [
+			{
+				"family": "Poirazi",
+				"given": "Panayiota"
+			},
+			{
+				"family": "Brannon",
+				"given": "Terrence"
+			},
+			{
+				"family": "Mel",
+				"given": "Bartlett W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					22
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					3,
+					27
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/S0896-6273(03)00148-X",
+		"ISSN": "0896-6273",
+		"issue": "6",
+		"page": "977-987",
+		"source": "ScienceDirect",
+		"title": "Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S089662730300148X",
+		"volume": "37"
+	},
+	{
+		"type": "article-journal",
+		"id": "UrakuboHondaFroemkeEtAl08",
+		"citation-key": "UrakuboHondaFroemkeEtAl08",
+		"author": [
+			{
+				"family": "Urakubo",
+				"given": "Hidetoshi"
+			},
+			{
+				"family": "Honda",
+				"given": "Minoru"
+			},
+			{
+				"family": "Froemke",
+				"given": "Robert C."
+			},
+			{
+				"family": "Kuroda",
+				"given": "Shinya"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Neuroscience",
+		"issue": "13",
+		"page": "3310-3323",
+		"title": "Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/18367598",
+		"volume": "28"
+	},
+	{
+		"type": "article-journal",
+		"id": "BretteRudolphCarnevaleEtAl07",
+		"citation-key": "BretteRudolphCarnevaleEtAl07",
+		"author": [
+			{
+				"family": "Brette",
+				"given": "R."
+			},
+			{
+				"family": "Rudolph",
+				"given": "M."
+			},
+			{
+				"family": "Carnevale",
+				"given": "T."
+			},
+			{
+				"family": "Hines",
+				"given": "M."
+			},
+			{
+				"family": "Beeman",
+				"given": "D."
+			},
+			{
+				"family": "Bower",
+				"given": "J. M."
+			},
+			{
+				"family": "Diesmann",
+				"given": "M."
+			},
+			{
+				"family": "Morrison",
+				"given": "A."
+			},
+			{
+				"family": "Goodman",
+				"given": "P. H."
+			},
+			{
+				"family": "Harris",
+				"given": "F. C."
+			},
+			{
+				"literal": "Others"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Computational Neuroscience",
+		"issue": "3",
+		"page": "349-398",
+		"title": "Simulation of networks of spiking neurons: A review of tools and strategies",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/17629781",
+		"volume": "23"
+	},
+	{
+		"type": "article-journal",
 		"id": "HestrinNicollPerkelEtAl90",
 		"citation-key": "HestrinNicollPerkelEtAl90",
 		"author": [
@@ -1484,6 +1703,44 @@
 		"title": "Analysis of excitatory synaptic action in pyramidal cells using whole-cell recording from rat hippocampal slices.",
 		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/1972190",
 		"volume": "422"
+	},
+	{
+		"type": "article-journal",
+		"id": "XiangHuguenardPrince98",
+		"citation-key": "XiangHuguenardPrince98",
+		"author": [
+			{
+				"family": "Xiang",
+				"given": "Z."
+			},
+			{
+				"family": "Huguenard",
+				"given": "J. R."
+			},
+			{
+				"family": "Prince",
+				"given": "D. A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science (New York, N.Y.)",
+		"issue": "5379",
+		"page": "985–988",
+		"title": "Cholinergic switching within neocortical inhibitory networks.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/9703513",
+		"volume": "281"
 	},
 	{
 		"type": "article-journal",

@@ -10,6 +10,8 @@
 
 <p id="BretteGerstner05">Brette, R., & Gerstner, W. (2005). Adaptive exponential integrate-and-fire model as an effective description of neuronal activity. Journal of Neurophysiology, 94, 3637-3642. http://jn.physiology.org/content/94/5/3637 http://doi.org/10.1152/jn.00686.2005</p>
 
+<p id="BretteRudolphCarnevaleEtAl07">Brette, R., Rudolph, M., Carnevale, T., Hines, M., Beeman, D., Bower, J.M., Diesmann, M., Morrison, A., Goodman, P.H., Harris, F.C., & Others (2007). Simulation of networks of spiking neurons: A review of tools and strategies. Journal of Computational Neuroscience, 23, 349-398. http://www.ncbi.nlm.nih.gov/pubmed/17629781</p>
+
 <p id="BrunelWang01">Brunel, N., & Wang, X.J. (2001). Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition. Journal of Computational Neuroscience, 11, 63-85. http://www.ncbi.nlm.nih.gov/pubmed/11524578</p>
 
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
@@ -56,6 +58,8 @@
 
 <p id="McClellandRumelhart86">McClelland, J.L., & Rumelhart, D.E. (1986). A Distributed Model of Human Learning and Memory. In J.L. McClelland, D.E. Rumelhart, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 2: Psychological and Biological Models (pp. 170-215). MIT Press. </p>
 
+<p id="MiglioreHoffmanMageeEtAl99">Migliore, M., Hoffman, D., Magee, J., & Johnston, D. (1999). Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons. Journal of Computational Neuroscience, 7, 5-15. https://doi.org/10.1023/A:1008906225285 http://doi.org/10.1023/A:1008906225285</p>
+
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
@@ -73,6 +77,8 @@
 <p id="OReillyMunakataFrankEtAl12">O'Reilly, R.C., Munakata, Y., Frank, M.J., Hazy, T.E., & Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu. http://ccnbook.colorado.edu</p>
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
+
+<p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
 
@@ -92,9 +98,13 @@
 
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
 
+<p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
+
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
 
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
+
+<p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
 

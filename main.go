@@ -15,7 +15,7 @@ import (
 // Must configure using BetterBibTeX for zotero: https://retorque.re/zotero-better-bibtex/
 // todo: include link for configuring here
 
-//go:generate mdcite -refs ./ccnlab.json -d ./content
+//go:generate mdcite -vv -refs ./ccnlab.json -d ./content
 
 //go:embed content
 var econtent embed.FS
