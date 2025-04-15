@@ -3,7 +3,7 @@ Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
-This page provides details for the full range of channel types that are available in an [[Axon]] [[neuron]] to drive specific biologically-based and functionally important behavior in specific neuron types. Every neuron uses the basic excitatory, inhibitory, and leak channels discussed in detail in the [[neuron]] page, and some of the following channels are used in most other neurons, while some are only used in specific neuron types where they are particularly important.
+This page provides details for the full range of channel types that are available in an [[Axon]] [[neuron]] to drive specific biologically-based and functionally important behavior in specific neuron types. Every neuron uses the basic excitatory, inhibitory, and leak channels discussed in detail in the [[neuron]] and [[neuron electrophysiology]] pages, and some of the following channels are used in most other neurons, while some are only used in specific neuron types where they are particularly important.
 
 The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview. Also see [ModelDB Currents](https://senselab.med.yale.edu/NeuronDB/NeuronalCurrents) and [ModelDB Current Search](https://senselab.med.yale.edu/ModelDB/FindByCurrent) and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
 
@@ -13,7 +13,7 @@ The AMPA (α-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid) channel is the 
 
 The AMPA receptor conductance can be modeled using the _double-exponential_ function, where _t_ is the time since the binding of glutamate to the receptor: 
 
-{id="eq_double_e"}
+{id="eq_double_e" title="Double exponential"}
 $$
 g(t) = e^{-t / \tau_1} - e^{-t / \tau_2}
 $$
@@ -22,28 +22,28 @@ $\tau_1$ is a fast _rise_ time constant for the increase in conductance when the
 
 The _alpha_ function as introduced by [[@^Rall67]] has also been used to model relatively fast conductances:
 
-{id="eq_alpha"}
+{id="eq_alpha" title="Alpha function"}
 $$
 g(t) = \frac{t}{\tau} e^{-t / \tau}
 $$
 
 In the [[Axon]] model we use a time step of 1 ms for integrating all of the [[neuron]] level equations, so the relatively fast rise time constant happens too quickly to be of relevance. Thus, the AMPA conductance increases discretely in the 1 ms time step, and we use a single exponential decay function with a time constant of 5 ms, which can be computed using an online exponential decay function:
 
-{id="eq_ampa_g"}
+{id="eq_ampa_g" title="AMPA conductance"}
 $$
 g_{ampa}(t) = g_{ampa}(t-1) \left(1 - \frac{1}{\tau_{ampa}} \right)
 $$
 
 As with all channels, this conductance then drives a corresponding current as a function of the reversal potential for AMPA ($E_{ampa}$), which is estimated at 0 mV:
 
-{id="eq_ampa_i"}
+{id="eq_ampa_i" title="AMPA current"}
 $$
 I_{ampa} = g_{ampa} \left(E_{ampa} - Vm\right)
 $$
 
 ## GABA-A
 
-The GABA-A (todo) channel is the standard inhibitory synaptic input channel discussed in [[neuron]] and [[inhibition]]. It is opened by the binding of the GABA neurotransmitter, released by special populations of inhibitory interneurons. It primarily allows negatively-charged chloride ions $Cl^-$ to flow into the cell, which act to keep the electrical potential negative.
+The GABA-A channel is the standard inhibitory synaptic input channel discussed in [[neuron]] and [[inhibition]]. It is opened by the binding of the GABA (gamma-aminobutyric acid) neurotransmitter, released by special populations of inhibitory interneurons. It primarily allows negatively-charged chloride ions $Cl^-$ to flow into the cell, which act to keep the electrical potential negative.
 
 We model GABA-A conductances in the same way as AMPA, with a single exponential decay function ([[#eq_ampa_g]], using a time constant $\tau$ of 7 ms [[@XiangHuguenardPrince98]]. The reversal potential for GABA-A ($E_{gaba_a}$) is -75 mV.
 
@@ -117,5 +117,15 @@ The default parameters, which were fit to various empirical firing patterns and 
 | Fast (M-type)    | 50       | 0.05  | 0.1   |
 | Medium (Slick)   | 200      | 0.02  | 0.1   |
 | Slow (Slack)     | 1000     | 0.001 | 1.0   |
+
+## Normalized parameters
+
+The [[neuron#normalized parameters]] for the above channel types are shown in the following tables.
+
+{id="table_gbar-other" title="g-bar conductances"}
+| Parameter | Bio value | Norm value |
+|-----------|-----------|------------|
+| NMDA      | 50 nS     | 0.50       |
+| VGCC_{distal} | 146 nS     | 1.46  |
 
 

@@ -3,19 +3,19 @@ Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
-This page shows how the [[neuron equilibrium potential]] equation, derived based on the biology of the neuron, can also be understood in terms of Bayesian hypothesis testing ([[@HintonSejnowski83]]; [[@McClelland98]]). In this framework, one is comparing different hypotheses in the face of relevant data, which is analogous to how the detector is testing whether the signal it is looking for is present ($h$), or not ($\bar{h}$).  The probability of $h$ given the current input data $d$ (which is written as $P(h|d)$) is a simple ratio function of two other functions of the relationship between the hypotheses and the data (written here as $f(h,d)$ and $f(\bar{h},d)$):
+This page shows how the [[neuron equilibrium potential]] equation, derived based on the biology of the neuron, can also be understood in terms of Bayesian hypothesis testing ([[@HintonSejnowski83]]; [[@McClelland98]]). In this framework, one is comparing different hypotheses in the face of relevant data, which is analogous to how the detector is testing whether the signal it is looking for is present ($h$), or not ($\overline{h}$).  The probability of $h$ given the current input data $d$ (which is written as $P(h|d)$) is a simple ratio function of two other functions of the relationship between the hypotheses and the data (written here as $f(h,d)$ and $f(\overline{h},d)$):
 
 {id="eq_phd"}
 $$
-P(h|d) = \frac{f(h,d)}{f(h,d) + f(\bar{h},d)}
+P(h|d) = \frac{f(h,d)}{f(h,d) + f(\overline{h},d)}
 $$
 
-Thus, the resulting probability is just a function of how strong the support for the detection hypothesis $h$ is over the support for the *null hypothesis* $\bar{h}$.  This ratio function may be familiar to some psychologists as the **Luce choice ratio** used in mathematical psychology models for a number of years.
+Thus, the resulting probability is just a function of how strong the support for the detection hypothesis $h$ is over the support for the *null hypothesis* $\overline{h}$.  This ratio function may be familiar to some psychologists as the **Luce choice ratio** used in mathematical psychology models for a number of years.
 
 {id="figure_vert-line-detector-probs"}
 ![Simple example data to compute probabilities from, for line detecto --- just add up number of cases where a given condition is true, and divide by the total number of cases (24): **a** $P(h=1) = 12/24 = .5$.  **b** $P(d=1 1 0) = 3/24 = .125.$ $$c** $P(h=1, d=1 1 0) = 2/24 = .0833.$](media/fig_vert_line_detector_probs.png)
 
-To have a concrete example to work with, consider a detector that receives inputs from three sources, such that when a vertical line is present (which is what it is trying to detect), all three sources are likely to be activated (([#figure_vert-line-detector-probs]]). The hypothesis $h$ is thus that a vertical line is actually present in the world, and $\bar{h}$ is that it is not. $h$ and $\bar{h}$ are *mutually exclusive* alternatives: their summed probability is always 1. There are three basic probabilities that we are interested in that can be computed directly from the world state table --- you just add up the number of cases where a given situation is true, and divide by the total number of cases (with explicit and complete data, probability computations are just accounting):
+To have a concrete example to work with, consider a detector that receives inputs from three sources, such that when a vertical line is present (which is what it is trying to detect), all three sources are likely to be activated (([#figure_vert-line-detector-probs]]). The hypothesis $h$ is thus that a vertical line is actually present in the world, and $\overline{h}$ is that it is not. $h$ and $\overline{h}$ are *mutually exclusive* alternatives: their summed probability is always 1. There are three basic probabilities that we are interested in that can be computed directly from the world state table --- you just add up the number of cases where a given situation is true, and divide by the total number of cases (with explicit and complete data, probability computations are just accounting):
 
 * The probability that the hypothesis $h$ is true, or $P(h=1)$ or just $P(h)$ for short = 12/24 or .5.
 
@@ -73,28 +73,28 @@ $$
 
 It allows you to write $P(h|d)$, which is called the *posterior* in Bayesian terminology, in terms of the likelihood times the *prior*, which is what $P(h)$ is called.  The prior indicates how likely the hypothesis is to be true without having seen any data at all --- some hypotheses are just more plausible (true more often) than others, and this can be reflected in this term.  Priors are often used to favor *simpler* hypotheses as more likely, but this is not necessary.  In our application here, the prior terms will end up being constants, which can actually be measured (at least approximately) from the underlying biology.
 
-The last barrier to actually using Bayes formula is the denominator $P(d)$, which requires somehow knowing how likely this data is compared to any other.  Conveniently, we can replace $P(d)$ with an expression involving only likelihood and prior terms if we make use of the null hypothesis $\bar{h}$. Because the hypothesis and null hypothesis are mutually exclusive and sum to 1, we can write the probability of the data in terms of the part of it that overlaps with the hypothesis plus the part that overlaps with the null hypothesis:
+The last barrier to actually using Bayes formula is the denominator $P(d)$, which requires somehow knowing how likely this data is compared to any other.  Conveniently, we can replace $P(d)$ with an expression involving only likelihood and prior terms if we make use of the null hypothesis $\overline{h}$. Because the hypothesis and null hypothesis are mutually exclusive and sum to 1, we can write the probability of the data in terms of the part of it that overlaps with the hypothesis plus the part that overlaps with the null hypothesis:
 
 {id="eq_pd"}
 $$
-P(d) = P(h,d) + P(\bar{h},d)
+P(d) = P(h,d) + P(\overline{h},d)
 $$
 
 In [[#figure_vert-line-detector-probs]], this amounts to computing $P(d)$ in the top and bottom halves separately, and then adding these results to get the overall result:
 
 {id="eq_pd_hv"}
 $$
-P(d) = P(d|h) P(h) + P(d|\bar{h}) P(\bar{h})
+P(d) = P(d|h) P(h) + P(d|\overline{h}) P(\overline{h})
 $$
 
 which can then be substituted into Bayes formula, resulting in:
 
 {id="eq_pd_hv2"}
 $$
-P(h|d) = \frac{P(d|h) P(h)}{P(d|h) P(h) + P(d|\bar{h}) P(\bar{h})}
+P(h|d) = \frac{P(d|h) P(h)}{P(d|h) P(h) + P(d|\overline{h}) P(\overline{h})}
 $$
 
-This is now an expression that is strictly in terms of just the likelihoods and priors for the two hypotheses!  Furthermore, it is this is the same equation that we showed at the outset, with $f(h,d) = P(d|h) P(h)$ and $f(\bar{h},d) = P(d|\bar{h}) P(\bar{h})$. It has a very simple $\frac{h}{h+\bar{h}}$ form, which reflects a *balancing* of the likelihood in favor of the hypothesis with that against it.  It is this form that the biological properties of the neuron implement.  You can use the table in [[#figure_vert-line-detector-probs]] to verify that this equation gives the same results (.67) as we got using the joint probability directly.
+This is now an expression that is strictly in terms of just the likelihoods and priors for the two hypotheses!  Furthermore, it is this is the same equation that we showed at the outset, with $f(h,d) = P(d|h) P(h)$ and $f(\overline{h},d) = P(d|\overline{h}) P(\overline{h})$. It has a very simple $\frac{h}{h+\overline{h}}$ form, which reflects a *balancing* of the likelihood in favor of the hypothesis with that against it.  It is this form that the biological properties of the neuron implement.  You can use the table in [[#figure_vert-line-detector-probs]] to verify that this equation gives the same results (.67) as we got using the joint probability directly.
 
 The reason we cannot use something like the table in [[#figure_vert-line-detector-probs]] in the real world is that it quickly becomes intractably large due to the huge number of different unique combinations of input states.  For example, if the inputs are binary (which is not actually true for neurons, so it's even worse), the table requires $2^{n+1}$ entries for $n$ inputs, with the extra factor of two (accounting for the $+1$ in the exponent) reflecting the fact that all possibilities must be considered twice, once under each hypothesis.  This is roughly $1.1 x 10^{301}$ for just 1,000 inputs (and our calculator gives $Inf$ as a result if we plug in a conservative guess of 5,000 inputs for a cortical neuron).
 
@@ -120,16 +120,16 @@ and similarly for the null hypothesis, which is effectively the negation:
 
 {id="eq_pdh_sum12_1m"}
 $$
-P(d|\bar{h}) = \frac{1}{12} \sum_i (1 - x_i) w_i
+P(d|\overline{h}) = \frac{1}{12} \sum_i (1 - x_i) w_i
 $$
 
-If you plug these into the Bayesian equation, together with the simple assumption that the prior probabilities are equal, $P(h) = P(\bar{h}) = .5$, you get the same results we got from the table.
+If you plug these into the Bayesian equation, together with the simple assumption that the prior probabilities are equal, $P(h) = P(\overline{h}) = .5$, you get the same results we got from the table.
 
 Finally, we compare the equilibrium membrane potential equation:
 
 {id="eq_vm-eq"}
 $$
-V_m = \frac{g_e \bar{g}_e E_e + g_i \bar{g}_i E_i + \bar{g}_l E_l} {g_e \bar{g}_e + g_i \bar{g}_i + \bar{g}_l}
+V_m = \frac{g_e \overline{g}_e E_e + g_i \overline{g}_i E_i + \overline{g}_l E_l} {g_e \overline{g}_e + g_i \overline{g}_i + \overline{g}_l}
 $$
 
 to the Bayesian formula, where the excitatory input plays the role of the likelihood or support for the hypothesis, and the inhibitory input and leak current both play the role of support for null hypotheses.  Because we have considered only one null hypothesis in the preceding analysis (though it is easy to extend it to two), we will just ignore the leak current for the time being, so that the inhibitory input will play the role of the null hypothesis.
@@ -137,11 +137,11 @@ to the Bayesian formula, where the excitatory input plays the role of the likeli
 Interestingly, the reversal potentials have to be 0's and 1's to fit the numerical values of probabilities, such that excitatory input drives the potential toward 1 (i.e., $E_e = 1$), and that the inhibitory (and leak) currents drive the potential toward 0 (i.e., $E_i = E_l = 0$).
 
 $$
-V_m \approx P(h|d)\frac{g_e \bar{g}_e}{g_e \bar{g}_e + g_i \bar{g}_i}
+V_m \approx P(h|d)\frac{g_e \overline{g}_e}{g_e \overline{g}_e + g_i \overline{g}_i}
 $$
 
 $$
-V_m \approx \frac{P(d|h) P(h)}{P(d|h) P(h) + P(d|\bar{h}) P(\bar{h})}
+V_m \approx \frac{P(d|h) P(h)}{P(d|h) P(h) + P(d|\overline{h}) P(\overline{h})}
 $$
 
 The full equation for $V_m$ with the leak current can be interpreted as reflecting the case where there are two different (and independent) null hypotheses, represented by inhibition and leak.  As we will see in more detail in the *Network* Chapter, inhibition dynamically changes as a function of the activation of other units in the network, whereas leak is a constant that sets a basic minimum standard against which the detection hypothesis is compared.  Thus, each of these can be seen as supporting a different kind of null hypothesis.

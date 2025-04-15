@@ -18,6 +18,10 @@
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
+<p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
+
+<p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
+
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
@@ -37,6 +41,8 @@
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
+
+<p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
 
 <p id="Kaczmarek13">Kaczmarek, L.K. (2013). Slack, Slick, and Sodium-Activated Potassium Channels. ISRN Neuroscience, 2013, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850776/ http://doi.org/10.1155/2013/354262</p>
 
@@ -80,6 +86,8 @@
 
 <p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
 
+<p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
+
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
 
 <p id="Rosenblatt62">Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan. </p>
@@ -91,6 +99,8 @@
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
+
+<p id="SandersBerendsMajorEtAl13">Sanders, H., Berends, M., Major, G., Goldman, M.S., & Lisman, J.E. (2013). NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability. Journal of Neuroscience, 33, 424-429. http://www.jneurosci.org/content/33/2/424 http://doi.org/10.1523/JNEUROSCI.1854-12.2013</p>
 
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 

@@ -331,6 +331,67 @@
 		"title": "PDP Models and General Issues in Cognitive Science"
 	},
 	{
+		"type": "paper-conference",
+		"id": "DengDongSocherEtAl09",
+		"citation-key": "DengDongSocherEtAl09",
+		"author": [
+			{
+				"family": "Deng",
+				"given": "Jia"
+			},
+			{
+				"family": "Dong",
+				"given": "Wei"
+			},
+			{
+				"family": "Socher",
+				"given": "Richard"
+			},
+			{
+				"family": "Li",
+				"given": "Li-Jia"
+			},
+			{
+				"family": "Li",
+				"given": "Kai"
+			},
+			{
+				"family": "Fei-Fei",
+				"given": "Li"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+		"DOI": "10.1109/CVPR.2009.5206848",
+		"event-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+		"ISSN": "1063-6919",
+		"page": "248-255",
+		"source": "IEEE Xplore",
+		"title": "ImageNet: A large-scale hierarchical image database",
+		"title-short": "ImageNet",
+		"URL": "https://ieeexplore.ieee.org/abstract/document/5206848"
+	},
+	{
 		"type": "chapter",
 		"id": "Schraudolph98",
 		"citation-key": "Schraudolph98",
@@ -1706,6 +1767,48 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Rall67",
+		"citation-key": "Rall67",
+		"author": [
+			{
+				"family": "Rall",
+				"given": "W"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					13
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					9
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.1967.30.5.1138",
+		"ISSN": "0022-3077",
+		"issue": "5",
+		"page": "1138-1168",
+		"publisher": "American Physiological Society",
+		"source": "journals.physiology.org (Atypon)",
+		"title": "Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input.",
+		"URL": "https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138",
+		"volume": "30"
+	},
+	{
+		"type": "article-journal",
 		"id": "XiangHuguenardPrince98",
 		"citation-key": "XiangHuguenardPrince98",
 		"author": [
@@ -1774,6 +1877,70 @@
 		"title": "Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition.",
 		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11524578",
 		"volume": "11"
+	},
+	{
+		"type": "article-journal",
+		"id": "SandersBerendsMajorEtAl13",
+		"citation-key": "SandersBerendsMajorEtAl13",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sanders",
+				"given": "Honi"
+			},
+			{
+				"family": "Berends",
+				"given": "Michiel"
+			},
+			{
+				"family": "Major",
+				"given": "Guy"
+			},
+			{
+				"family": "Goldman",
+				"given": "Mark S."
+			},
+			{
+				"family": "Lisman",
+				"given": "John E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					21
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					1,
+					9
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.1854-12.2013",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "2",
+		"page": "424-429",
+		"PMID": "23303922",
+		"publisher": "Society for Neuroscience",
+		"section": "Brief Communications",
+		"source": "www-jneurosci-org.colorado.idm.oclc.org",
+		"title": "NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability",
+		"title-short": "NMDA and GABAB (KIR) Conductances",
+		"URL": "http://www.jneurosci.org/content/33/2/424",
+		"volume": "33"
 	},
 	{
 		"type": "article-journal",
@@ -2002,6 +2169,107 @@
 		"title": "Spike-based strategies for rapid processing.",
 		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11665765",
 		"volume": "14"
+	},
+	{
+		"type": "article-journal",
+		"id": "JarskyRoxinKathEtAl05",
+		"citation-key": "JarskyRoxinKathEtAl05",
+		"author": [
+			{
+				"family": "Jarsky",
+				"given": "Tim"
+			},
+			{
+				"family": "Roxin",
+				"given": "Alex"
+			},
+			{
+				"family": "Kath",
+				"given": "William L"
+			},
+			{
+				"family": "Spruston",
+				"given": "Nelson"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nat Neurosci",
+		"page": "1667-1676",
+		"title": "Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons",
+		"URL": "http://dx.doi.org/10.1038/nn1599",
+		"volume": "8"
+	},
+	{
+		"type": "article-journal",
+		"id": "Fourcaud-TrocmeHanselVreeswijkEtAl03",
+		"citation-key": "Fourcaud-TrocmeHanselVreeswijkEtAl03",
+		"language": "en",
+		"author": [
+			{
+				"family": "Fourcaud-Trocmé",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Hansel",
+				"given": "David"
+			},
+			{
+				"family": "Vreeswijk",
+				"given": "Carl",
+				"dropping-particle": "van"
+			},
+			{
+				"family": "Brunel",
+				"given": "Nicolas"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					12,
+					17
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.23-37-11628.2003",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "37",
+		"page": "11628-11640",
+		"PMID": "14684865",
+		"publisher": "Society for Neuroscience",
+		"section": "Behavioral/Systems/Cognitive",
+		"source": "www.jneurosci.org",
+		"title": "How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs",
+		"URL": "https://www.jneurosci.org/content/23/37/11628",
+		"volume": "23"
 	},
 	{
 		"type": "article-journal",
