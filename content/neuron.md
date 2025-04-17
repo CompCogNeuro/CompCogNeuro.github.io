@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 This page describes the computational model of spiking neurons used in [[Axon]], which accurately characterizes the behavior of neurons in the [[neocortex]] and other brain areas, and enables many different types of [[channels]] to be used to modify the [[#neural-integration]] behavior to capture a wide range of neurobiologically identified neuron types.
 
-Conceptually these neural integration dynamics can be understood in terms of the [[detector model]] of the neuron, where each neuron is continuously monitoring its synaptic inputs, looking for specific patterns that, when detected, cause it to signal the finding to other neurons.
+Conceptually these neural integration dynamics can be understood in terms of the [[neuron detector|detector model]] of the neuron, where each neuron is continuously monitoring its synaptic inputs, looking for specific patterns that, when detected, cause it to signal the finding to other neurons.
 
 {id="figure_cortical-neuron" style="height:30em"}
 ![Tracing of a cortical pyramidal neuron, showing the major components: dendrites where synaptic inputs come into the neuron; the cell body (soma) where these inputs are integrated, and the axon which communicates the output of the neuron.](media/fig_cortical_neuron.png)
@@ -271,7 +271,7 @@ $$
 g_e(t) = \frac{1}{n} \sum_i x_i w_i
 $$
 
-where $x_i$ is the **activity** of a particular sending neuron indexed by the subscript *i*, $w_i$ is the **synaptic weight strength** that connects sending neuron *i* to the receiving neuron, and *n* is the total number of channels of that type (in this case, excitatory) across all synaptic inputs to the cell. As discussed in [[detector model]], the synaptic weight determines what patterns the receiving neuron is sensitive to, and is what adapts with learning --- this equation shows how it enters mathematically into computing the total amount of excitatory conductance.
+where $x_i$ is the **activity** of a particular sending neuron indexed by the subscript *i*, $w_i$ is the **synaptic weight strength** that connects sending neuron *i* to the receiving neuron, and *n* is the total number of channels of that type (in this case, excitatory) across all synaptic inputs to the cell. As discussed in [[neuron detector]], the synaptic weight determines what patterns the receiving neuron is sensitive to, and is what adapts with learning --- this equation shows how it enters mathematically into computing the total amount of excitatory conductance.
 
 The above equation suggests that the neuron performs a very simple function to determine how much input it is getting: it just adds it all up from all of its different sources (and takes the average to compute a proportion instead of a sum). Each input source contributes in proportion to how active the sender is, multiplied by how much the receiving neuron cares about that information, determined by the synaptic weight value. We also refer to this average total input as the **net input**.
 

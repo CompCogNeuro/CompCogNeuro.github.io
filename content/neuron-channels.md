@@ -122,7 +122,7 @@ Press the [[#plot_gabab:GV run]] button above to see the conductance (_g_) (and 
 
 The implementation of the GABA-B channel is based on [[@^SandersBerendsMajorEtAl13]] and [[@^ThomsonDestexhe99]], with the following sigmoidal voltage-gated conductance function from [[@^YamadaInanobeKurachi98]]:
 
-{id="eq_gabab_g" title="GABA-B voltage-gated conductance"}
+{id="eq_gabab_gv" title="GABA-B voltage-gated conductance"}
 $$
 g_{gaba_b}(V) = \overline{g}_{gaba_b} \frac{1}{1 + e^{0.1(V-E_{gaba_b}+10)}}
 $$
@@ -134,7 +134,7 @@ $$
 x = \frac{1}{1 + e^{-(s - 7.1) / 1.4}}
 $$
 
-Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _x_ drives increases in GABA-B conductance according to this update equation with separate rise ($\tau_r$) and decay ($\tau_d$) factors (45 and 50 ms respectively; [[#table_taus]]):
+Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _x_ drives increases in GABA-B conductance according to this double-exponential update equation with separate rise ($\tau_r$) and decay ($\tau_d$) factors (45 and 50 ms respectively, which fit the timecourse data from [[@ThomsonDestexhe99]] well; [[#table_taus]]):
 
 {id="eq_gabab_dg" title="GABA-B conductance over time"}
 $$
@@ -145,7 +145,7 @@ $$
 x(t) = \left( \frac{1}{1 + e^{-(s - 7.1) / 1.4}} - x(t-1) \right) - \tau_d x(t-1)
 $$
 
-The final GABA-B conductance is a product of this time-integration factor above in [[#eq_gabab_dg]] and the voltage gating factor shown in [[#eq_gabab_g]]:
+The final GABA-B conductance is a product of this time-integration factor above in [[#eq_gabab_dg]] and the voltage gating factor shown in [[#eq_gabab_gv]]:
 
 {id="eq_gabab_tg" title="GABA-B net conductance over time"}
 $$
@@ -153,6 +153,78 @@ g_{gaba_b}(t) = g_{gaba_b}(V) g_{gaba_b}(t)
 $$
 
 Do [[#plot_gabab:Time run]] to see these time dynamics play out over a 500 ms window with a pulse of input at the start.
+
+## VGCC: Voltage-gated calcium channels
+
+Voltage gated calcium channels (VGCC) are similar to NMDA channels in that their conductance to $Ca^{++}$ has a voltage dependency, but they do _not_ have a neurotransmitter binding property, and their voltage dependency is typically at higher threshold than NMDA (and is not caused by $Mg^{++}$ block). Due to this higher threshold, the VGCC channels are typically only open during backpropagating action potentials (see [[neuron dendrites]] for details), and thus they provide a calcium signal that is closely tied to postsynaptic spiking. We leverage this property in the [[kinase algorithm]] learning rule. Because VGCCs also close very quickly once the spike is over, they do not have a big impact on activation dynamics --- they are mostly important for learning.
+
+There are a large number of VGCCs types ([[@Dolphin18]]; [[@CainSnutch12]]) denoted by letters in descending order of the voltage threshold for activation: L, PQ, N, R, T, which have corresponding Ca_v names: Ca_v1.1, 1.2, 1.3. 1.4 are all L type, 2.1, 2.2, 2.3 are PQ, N, and R, respectively, and T type (low threshold) comprise 3.1, 3.2, and 3.3. Each channel is characterized by the voltage dependency and inactivation functions. 
+
+{id="table_vgcc" title="VGCC channel types"}
+| Letter | Ca_v    | V Threshold  | Inactivation | Location | Function              |
+| ------ | ------- | ------------ | ------------ | -------- | --------------------- |
+|  L     | 1.1-1.4 | high (-40mV) | fast         | Cortex + | closely tracks spikes |
+|  PQ    | 2.1     | high         | ?            | Cerebellum (Purk, Gran) | ?      |
+|  N     | 2.2     | high         | ?            | everywhere? | ?                  |
+|  R     | 2.3     | med          | ?            | Cerebellum Gran | ?              | 
+|  T     | 3.1-.3  | low          | ?            | 5IB, subcortical  | low-freq osc |
+
+* The L type is the classic "VGCC" in dendritic spines in pyramidal cells, which we plot below.
+
+* PQ and R are specific to cerebellum.
+
+* The T type is the most important for low frequency oscillations, and is absent in pyramidal neurons outside of the 5IB layer 5 neurons, which are the primary bursting type. It is most important for subcortical neurons, such as in TRN. See [Destexhe et al, 1998 model in BRIAN](https://brian2.readthedocs.io/en/stable/examples/frompapers.Destexhe_et_al_1998.html) for an implementation.
+
+{id="plot_vgcc" title="VGCC L-type Channels" collapsed="true"}
+```Goal
+pl := &chanplots.VGCCPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "VGCC", "VGCC Channel", "VGCC L-type channel equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+```
+
+Our implementation of the L-type VGCC is based on [[@UrakuboHondaFroemkeEtAl08]], using source code available at this [link](http://kurodalab.bs.s.u-tokyo.ac.jp/info/STDP/Urakubo2008.tar.gz).
+
+First, there is a temporally-invariant aspect of the voltage gating defined by a sigmoidal function similar to those seen above:
+
+{id="eq_vgcc_gv" title="VGCC L voltage-gated conductance"}
+$$
+g_{vgcc}(V) = -\overline{g}_{vgcc} \frac{1}{1 - e^{0.0756 V}}
+$$
+
+And there are two additional opponent gating factors denoted _M_ (activating) and _H_ (inactivating) that have a strong time dependency, and sigmoidal driving functions as follows:
+
+{id="eq_vgcc_m" title="VGCC M gate voltage-based max"}
+$$
+M_{max}(V) = \frac{1}{1 + e^{-(V + 37)}}
+$$
+
+{id="eq_vgcc_h" title="VGCC H gate voltage-based max"}
+$$
+H_{max}(V) = \frac{1}{1 + e^{2(V + 41)}}
+$$
+
+The update equations just move toward these max values with associated time constants:
+
+{id="eq_vgcc_dm" title="VGCC M gate update"}
+$$
+M(t) = M(t-1) + \frac{1}{3.6} \left( M_{max}(V) - M(t-1) \right)
+$$
+
+{id="eq_vgcc_dh" title="VGCC H gate update"}
+$$
+H(t) = H(t-1) + \frac{1}{29} \left( H_{max}(V) - H(t-1) \right)
+$$
+
+The final conductance over time reflects the activation vs. inactivating binding sites in a 3 to 1 ratio:
+
+{id="eq_vgcc_gt" title="VGCC L conductance over time"}
+$$
+g_{vgcc}(t) = g_{vgcc}(V) M^3(t) H(t)
+$$
+
+To see the static voltage-gated sigmoidal functions, do [[#plot_vgcc:GV run]]. To see the response of the M and H channels to discrete spiking inputs, do [[#plot_vgcc:Time run]]. In both cases you will need to deselect variables to be able to see the values with smaller ranges. You should observe that the M activating channel rises up quickly at every action potential, and drops quickly back down, consistent with its 3.6 ms time constant. By contrast, the H inactivating factor builds up over time and slowly decreases the overall conductance value.
 
 ## Sodium-gated potassium channels for adaptation (kNa adapt)
 

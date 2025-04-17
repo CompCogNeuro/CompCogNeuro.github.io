@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	cogentcore.org/core v0.3.10-0.20250411061709-1b6548f8878f
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250411080227-70ca2b30994f
+	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250417082253-25c8b8961dcf
 )
 
 require (
