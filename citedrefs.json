@@ -495,101 +495,6 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "BretteGerstner05",
-		"citation-key": "BretteGerstner05",
-		"language": "en",
-		"author": [
-			{
-				"family": "Brette",
-				"given": "Romain"
-			},
-			{
-				"family": "Gerstner",
-				"given": "Wulfram"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2015",
-					5,
-					15
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2005",
-					11,
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Journal of Neurophysiology",
-		"DOI": "10.1152/jn.00686.2005",
-		"ISSN": "0022-3077, 1522-1598",
-		"issue": "5",
-		"page": "3637-3642",
-		"PMID": "16014787",
-		"source": "jn.physiology.org",
-		"title": "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity",
-		"URL": "http://jn.physiology.org/content/94/5/3637",
-		"volume": "94"
-	},
-	{
-		"type": "article-journal",
-		"id": "HodgkinHuxley52",
-		"citation-key": "HodgkinHuxley52",
-		"language": "en",
-		"author": [
-			{
-				"family": "Hodgkin",
-				"given": "A. L."
-			},
-			{
-				"family": "Huxley",
-				"given": "A. F."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2018",
-					10,
-					7
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1952",
-					8,
-					28
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "The Journal of Physiology",
-		"DOI": "10.1113/jphysiol.1952.sp004764",
-		"ISSN": "1469-7793",
-		"issue": "4",
-		"page": "500-544",
-		"source": "Wiley Online Library",
-		"title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
-		"URL": "https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764",
-		"volume": "117"
-	},
-	{
-		"type": "article-journal",
 		"id": "Chollet19",
 		"citation-key": "Chollet19",
 		"author": [
@@ -1944,6 +1849,108 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "ThomsonDestexhe99",
+		"citation-key": "ThomsonDestexhe99",
+		"language": "en",
+		"author": [
+			{
+				"family": "Thomson",
+				"given": "A. M"
+			},
+			{
+				"family": "Destexhe",
+				"given": "A"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					28
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuroscience",
+		"container-title-short": "Neuroscience",
+		"DOI": "10.1016/S0306-4522(99)00021-4",
+		"ISSN": "0306-4522",
+		"issue": "4",
+		"page": "1193-1215",
+		"source": "ScienceDirect",
+		"title": "Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0306452299000214",
+		"volume": "92"
+	},
+	{
+		"type": "article-journal",
+		"id": "YamadaInanobeKurachi98",
+		"citation-key": "YamadaInanobeKurachi98",
+		"language": "en",
+		"author": [
+			{
+				"family": "Yamada",
+				"given": "Mitsuhiko"
+			},
+			{
+				"family": "Inanobe",
+				"given": "Atsushi"
+			},
+			{
+				"family": "Kurachi",
+				"given": "Yoshihisa"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					20
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					12,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Pharmacological Reviews",
+		"container-title-short": "Pharmacol Rev",
+		"ISSN": "0031-6997, 1521-0081",
+		"issue": "4",
+		"page": "723-757",
+		"PMID": "9860808",
+		"publisher": "American Society for Pharmacology and Experimental Therapeutics",
+		"section": "Review",
+		"source": "pharmrev.aspetjournals.org",
+		"title": "G protein regulation of potassium ion channels",
+		"URL": "https://pharmrev.aspetjournals.org/content/50/4/723",
+		"volume": "50"
+	},
+	{
+		"type": "article-journal",
 		"id": "Kaczmarek13",
 		"citation-key": "Kaczmarek13",
 		"author": [
@@ -2136,20 +2143,16 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "ThorpeDelormeVanRullen01",
-		"citation-key": "ThorpeDelormeVanRullen01",
+		"id": "HausserMel03",
+		"citation-key": "HausserMel03",
 		"author": [
 			{
-				"family": "Thorpe",
-				"given": "S"
+				"family": "Hausser",
+				"given": "M."
 			},
 			{
-				"family": "Delorme",
-				"given": "A"
-			},
-			{
-				"family": "Van Rullen",
-				"given": "R"
+				"family": "Mel",
+				"given": "B."
 			}
 		],
 		"accessed": {},
@@ -2158,17 +2161,17 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2001"
+					"2003",
+					1
 				]
 			]
 		},
 		"original-date": {},
 		"submitted": {},
-		"container-title": "Neural networks",
-		"page": "715–725",
-		"title": "Spike-based strategies for rapid processing.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11665765",
-		"volume": "14"
+		"container-title": "Current Opinion in Neurobiology",
+		"page": "372-383",
+		"title": "Dendrites: bug or feature?",
+		"volume": "13"
 	},
 	{
 		"type": "article-journal",
@@ -2210,6 +2213,424 @@
 		"title": "Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons",
 		"URL": "http://dx.doi.org/10.1038/nn1599",
 		"volume": "8"
+	},
+	{
+		"type": "article-journal",
+		"id": "Spruston08",
+		"citation-key": "Spruston08",
+		"author": [
+			{
+				"family": "Spruston",
+				"given": "Nelson"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Reviews. Neuroscience",
+		"issue": "3",
+		"page": "201–221",
+		"title": "Pyramidal neurons: dendritic structure and synaptic integration",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/18270515",
+		"volume": "9"
+	},
+	{
+		"type": "article-journal",
+		"id": "PoiraziPapoutsi20",
+		"citation-key": "PoiraziPapoutsi20",
+		"language": "en",
+		"author": [
+			{
+				"family": "Poirazi",
+				"given": "Panayiota"
+			},
+			{
+				"family": "Papoutsi",
+				"given": "Athanasia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					12
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Reviews Neuroscience",
+		"container-title-short": "Nat Rev Neurosci",
+		"DOI": "10.1038/s41583-020-0301-7",
+		"ISSN": "1471-0048",
+		"issue": "6",
+		"note": "Bandiera_abtest: a\nCg_type: Nature Research Journals\nPrimary_atype: Reviews\nSubject_term: Computational neuroscience;Dendritic excitability;Learning and memory;Spine regulation and structure\nSubject_term_id: computational-neuroscience;dendritic-excitability;learning-and-memory;spine-regulation-and-structure",
+		"number": "6",
+		"page": "303-321",
+		"publisher": "Nature Publishing Group",
+		"source": "www-nature-com.colorado.idm.oclc.org",
+		"title": "Illuminating dendritic function with computational models",
+		"URL": "http://www.nature.com/articles/s41583-020-0301-7",
+		"volume": "21"
+	},
+	{
+		"type": "article-journal",
+		"id": "BretteGerstner05",
+		"citation-key": "BretteGerstner05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Brette",
+				"given": "Romain"
+			},
+			{
+				"family": "Gerstner",
+				"given": "Wulfram"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					5,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					11,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00686.2005",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "3637-3642",
+		"PMID": "16014787",
+		"source": "jn.physiology.org",
+		"title": "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity",
+		"URL": "http://jn.physiology.org/content/94/5/3637",
+		"volume": "94"
+	},
+	{
+		"type": "article-journal",
+		"id": "BeniaguevSegevLondon21",
+		"citation-key": "BeniaguevSegevLondon21",
+		"language": "en",
+		"author": [
+			{
+				"family": "Beniaguev",
+				"given": "David"
+			},
+			{
+				"family": "Segev",
+				"given": "Idan"
+			},
+			{
+				"family": "London",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2021.07.002",
+		"ISSN": "0896-6273",
+		"source": "ScienceDirect",
+		"title": "Single cortical neurons as deep artificial neural networks",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0896627321005018"
+	},
+	{
+		"type": "article-journal",
+		"id": "LarkumZhuSakmann99",
+		"citation-key": "LarkumZhuSakmann99",
+		"language": "en",
+		"author": [
+			{
+				"family": "Larkum",
+				"given": "Matthew E."
+			},
+			{
+				"family": "Zhu",
+				"given": "J. Julius"
+			},
+			{
+				"family": "Sakmann",
+				"given": "Bert"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					4
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/18686",
+		"ISSN": "1476-4687",
+		"issue": "6725",
+		"page": "338-341",
+		"source": "www.nature.com",
+		"title": "A new cellular mechanism for coupling inputs arriving at different cortical layers",
+		"URL": "https://www.nature.com/articles/18686",
+		"volume": "398"
+	},
+	{
+		"type": "article-journal",
+		"id": "HodgkinHuxley52",
+		"citation-key": "HodgkinHuxley52",
+		"language": "en",
+		"author": [
+			{
+				"family": "Hodgkin",
+				"given": "A. L."
+			},
+			{
+				"family": "Huxley",
+				"given": "A. F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					7
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1952",
+					8,
+					28
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Physiology",
+		"DOI": "10.1113/jphysiol.1952.sp004764",
+		"ISSN": "1469-7793",
+		"issue": "4",
+		"page": "500-544",
+		"source": "Wiley Online Library",
+		"title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+		"URL": "https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764",
+		"volume": "117"
+	},
+	{
+		"type": "article-journal",
+		"id": "ThorpeDelormeVanRullen01",
+		"citation-key": "ThorpeDelormeVanRullen01",
+		"author": [
+			{
+				"family": "Thorpe",
+				"given": "S"
+			},
+			{
+				"family": "Delorme",
+				"given": "A"
+			},
+			{
+				"family": "Van Rullen",
+				"given": "R"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural networks",
+		"page": "715–725",
+		"title": "Spike-based strategies for rapid processing.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11665765",
+		"volume": "14"
+	},
+	{
+		"type": "article-journal",
+		"id": "FerrainaPareWurtz02",
+		"citation-key": "FerrainaPareWurtz02",
+		"author": [
+			{
+				"family": "Ferraina",
+				"given": "Stefano"
+			},
+			{
+				"family": "Pare",
+				"given": "Martin"
+			},
+			{
+				"family": "Wurtz",
+				"given": "Robert H."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					2
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"issue": "2",
+		"page": "845-858",
+		"title": "Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11826051",
+		"volume": "87"
+	},
+	{
+		"type": "article-journal",
+		"id": "Swadlow90",
+		"citation-key": "Swadlow90",
+		"author": [
+			{
+				"family": "Swadlow",
+				"given": "H. A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					16
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.1990.63.6.1477",
+		"ISSN": "0022-3077",
+		"issue": "6",
+		"page": "1477-1498",
+		"publisher": "American Physiological Society",
+		"source": "journals.physiology.org (Atypon)",
+		"title": "Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties",
+		"title-short": "Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit",
+		"URL": "https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477",
+		"volume": "63"
+	},
+	{
+		"type": "chapter",
+		"id": "Swadlow00",
+		"citation-key": "Swadlow00",
+		"author": [
+			{
+				"family": "Swadlow",
+				"given": "Harvey A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Time and the Brain",
+		"ISBN": "978-0-429-17831-3",
+		"number-of-pages": "31",
+		"publisher": "CRC Press",
+		"title": "Information Flow along Neocortical Axons"
 	},
 	{
 		"type": "article-journal",

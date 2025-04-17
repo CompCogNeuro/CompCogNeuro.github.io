@@ -5,6 +5,7 @@ bibfile = "ccnlab.json"
 
 {id="sim_neuron" collapsed="true"}
 ```Goal
+// see https://github.com/emer/axon/tree/main/sims/neuron for source code
 neuron.EmbedSim(b)
 ```
 
@@ -12,10 +13,9 @@ neuron.EmbedSim(b)
 
 ## Introduction
 
-This simulation illustrates the basic properties of neural spiking and rate-code activation, reflecting a balance of excitatory and inhibitory influences (including leak and synaptic inhibition).
+This simulation illustrates the basic properties of neural spiking and rate-code activation, reflecting a balance of excitatory and inhibitory influences (including leak and synaptic inhibition). See [axon/sims/neuron](https://github.com/emer/axon/tree/main/sims/neuron) for the source code.
 
 In this model, the `Network` only shows a single neuron which is "injected" with excitatory current (as neuroscientists might do with an electrode injecting current into a single neuron).  If you do `Run Cycles` in the toolbar you will see it get activated, but to really understand what is going on, we need to see the relationship among multiple variables as shown in the `Test Cycle Plot`.
-
 
 ## Plot of Neuron variables over time
 

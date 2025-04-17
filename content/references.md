@@ -4,6 +4,8 @@
 
 <p id="BendaMalerLongtin10">Benda, J., Maler, L., & Longtin, A. (2010). Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds. Journal of Neurophysiology, 104, 2806-2820. http://jn.physiology.org/content/104/5/2806 http://doi.org/10.1152/jn.00240.2010</p>
 
+<p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
+
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
 <p id="Brette15">Brette, R. (2015). Philosophy of the Spike: Rate-Based vs. Spike-Based Theories of the Brain. Frontiers in Systems Neuroscience, 9, 151. https://www.frontiersin.org/article/10.3389/fnsys.2015.00151 http://doi.org/10.3389/fnsys.2015.00151</p>
@@ -20,11 +22,15 @@
 
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
 
+<p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
+
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
+
+<p id="HausserMel03">Hausser, M., & Mel, B. (2003). Dendrites: bug or feature? Current Opinion in Neurobiology, 13, 372-383. </p>
 
 <p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
 
@@ -53,6 +59,8 @@
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
+
+<p id="LarkumZhuSakmann99">Larkum, M.E., Zhu, J.J., & Sakmann, B. (1999). A new cellular mechanism for coupling inputs arriving at different cortical layers. Nature, 398, 338-341. https://www.nature.com/articles/18686 http://doi.org/10.1038/18686</p>
 
 <p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
 
@@ -86,6 +94,8 @@
 
 <p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
 
+<p id="PoiraziPapoutsi20">Poirazi, P., & Papoutsi, A. (2020). Illuminating dendritic function with computational models. Nature Reviews Neuroscience, 21(6), 303-321. http://www.nature.com/articles/s41583-020-0301-7 http://doi.org/10.1038/s41583-020-0301-7</p>
+
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
@@ -106,6 +116,14 @@
 
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
 
+<p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
+
+<p id="Swadlow00">Swadlow, H.A. (2000). Information Flow along Neocortical Axons. In Time and the Brain. CRC Press. </p>
+
+<p id="Swadlow90">Swadlow, H.A. (1990). Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties. Journal of Neurophysiology, 63, 1477-1498. https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477 http://doi.org/10.1152/jn.1990.63.6.1477</p>
+
+<p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
+
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
 
 <p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
@@ -117,4 +135,6 @@
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
 
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
+
+<p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
 

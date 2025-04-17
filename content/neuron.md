@@ -277,11 +277,21 @@ The above equation suggests that the neuron performs a very simple function to d
 
 The same equation holds for inhibitory input conductances, which are computed in terms of the activations of inhibitory sending neurons, times the inhibitory weight values.
 
-The _activity_ factor $x_i$ in [[#eq_gbar-e-sum]] reflects the time-varying synaptic conductance after the sending neuron fires a spike (action potential), which is described in more detail in [[neuron channels]] for the different channel types. For example, the excitatory _AMPA_ channels open when the sending neuron releases the neurotransmitter _glutamate_ (as shown in [[#figure_synapse]]), and this conductance decays exponentially with a time constant of about 5 ms.
+The _activity_ factor $x_i$ in [[#eq_gbar-e-sum]] reflects the time-varying synaptic conductance after the sending neuron fires a spike (action potential), which is described in more detail in [[neuron channels]] for the different channel types. For example, the excitatory _AMPA_ channels open when the sending neuron releases the neurotransmitter _glutamate_ (as shown in [[#figure_synapse]]), and this conductance decays exponentially with a time constant of about 5 ms ([[HestrinNicollPerkelEtAl90]]). _GABA_ inhibitory channels have a time constant of around 7 ms ([[@XiangHuguenardPrince98]]).
 
 Functionally, this extra trace of discrete spiking inputs supports the _temporal summation_ of inputs over time, so that inputs arriving within this temporal integration window can add together to drive larger overall excitatory conductances.
 
-There are some further complexities about how we integrate inputs from different categories of input sources (i.e., projections from different source brain areas into a given receiving neuron), which we deal with in [[neuron input scaling]]. These mechanisms account in part for the biological complexities associated with inputs coming into different branches on the dendrites ([[@MiglioreHoffmanMageeEtAl99]]; [[@PoiraziBrannonMel03]]; [[@JarskyRoxinKathEtAl05]]). 
+{id="table_conduction" title="Axonal conduction delays"}
+| Pathway          | Minimum   | Mean or Median |
+|------------------|-----------|------------------------------|
+| Corticocortical  | 2 ms      | 2.3 (magno visual) -- ~10 ms |
+| Corticothalamic  | 2 ms      | ~10 ms     |
+| Thalamocortical  | 0.5 ms    | ~1 ms      |
+| Collosal         | ~2 ms     | ~10 ms     |
+
+It takes time for action potentials to propagate down the axon, which is generally a function of the distance travelled and also the extent of _myelination_ of the axon, where the myelin acts as an insulator that speeds conduction velocities by reducing the capacitance of the axonal membrane. [[#table_conduction]] shows approximate values from [scholarpedia](http://www.scholarpedia.org/article/Axonal_conduction_delay) assembled from various sources and species (e.g., [[@FerrainaPareWurtz02]]; [[@Swadlow90]]; [[@Swadlow00]]). We include this axonal conduction delay in the model, with a default value of 2 ms, under the assumption that most of our models represent relatively small brains at this point. In practice, using a value of 10 ms does not significantly affect the performance of the models.
+
+There are some further complexities about how we integrate inputs from different input sources (i.e., projections from different source brain areas into a given receiving neuron), which we discuss in [[neuron dendrites]]. These mechanisms account in part for the biological complexities associated with inputs coming into different branches on the dendrites ([[@MiglioreHoffmanMageeEtAl99]]; [[@PoiraziBrannonMel03]]; [[@JarskyRoxinKathEtAl05]]). 
 
 {id="sim_vm_g" title="Membrane potential tug-of-war: currents" collapsed="true"}
 ```Goal
@@ -411,33 +421,35 @@ The other main feature of the AdEx model is [[adaptation]] which makes it harder
 Managing the actual biological units for voltage, conductance and current introduces a bit of additional complexity, which we avoid by using normalized 0..1 range values as in the following table:
 
 {id="table_norms" title="Normalized units"}
-| Dimension | Unit | Multiplier   | Norm range  |
-|-----------|------------|--------------|--------|
-| potential | volt  | 0.1 | 0..1 $\rightarrow$ -100..0 mV |
-| current   | amp | $10^{-8}$  | 1 = 1 nA |
-| time      | second, s $\rightarrow$ ms | 0.001 | 1 = 1 ms  |
-| conductance | siemens = amp / volt | $10^{-7}$ | 1 = 100 nS |
-| capacitance | farad = (sec * amp) / volt | $10^{-10}$ | 1 = 0.1 nF |
+| Dimension   | Unit                         | Multiplier | Norm range |
+|-------------|------------------------------|------------|------------|
+| potential   | volt                         | 0.1        | 0..1 $\rightarrow$ -100..0 mV |
+| current     | amp                          | $10^{-8}$  | 1 = 1 nA   |
+| time        | second, s $\rightarrow$ ms   | 0.001      | 1 = 1 ms   |
+| conductance | siemens = amp / volt         | $10^{-7}$  | 1 = 100 nS |
+| capacitance | farad = (sec * amp) / volt   | $10^{-10}$ | 1 = 0.1 nF |
 
 The key difference here is transforming the natural mV range of -100 to 0 mV into normalized units between 0 and 1. This transforms the reversal potentials for the standard channels as shown in the following table:
 
 {id="table_erev" title="Electrical potentials"}
-| Parameter | Bio value | Norm value |
-|-----------|-----------|------------|
-| Resting potential | -70 mV | 0.3   |
-| Leak $E_l$        | -70 mV | 0.3   |
-| Excitatory $E_e$  |   0 mV | 1.0   |
-| Inhibition $E_i$  | -90 mV | 0.1   |
-| Spiking threshold $\Theta$ | -50 mV | 0.5   |
-| Exp Slope $\Delta_T$ | 2 mv | 0.02 |
+| Parameter                  | Bio value | Norm value |
+|----------------------------|-----------|------------|
+| Resting potential          | -70 mV    | 0.3        |
+| Leak $E_l$                 | -70 mV    | 0.3        |
+| Excitatory $E_e$           |   0 mV    | 1.0        |
+| Inhibition $E_i$           | -90 mV    | 0.1        |
+| Spiking threshold $\Theta$ | -50 mV    | 0.5        |
+| Exp Slope $\Delta_T$       | 2 mv      | 0.02       |
 
 {id="table_gbar-lei" title="g-bar conductances"}
-| Parameter | Bio value | Norm value |
-|-----------|-----------|------------|
-| Leak $\overline{g}_l$ | 10 nS | 0.1 |
-| Total excitatory $\overline{g}_e$ | 100 nS | 1.0 |
-| Total inhibitory $\overline{g}_i$ | 100 nS | 1.0 |
-| Nominal excitatory per synapse | 1 nS | 0.01 |
+| Parameter                         | Bio value | Norm value |
+|-----------------------------------|-----------|------------|
+| Leak $\overline{g}_l$             | 10 nS     | 0.1        |
+| Total excitatory $\overline{g}_e$ | 100 nS    | 1.0        |
+| Total inhibitory $\overline{g}_i$ | 100 nS    | 1.0        |
+| Nominal excitatory per synapse    | 1 nS      | 0.01       |
+
+The standard capacitance value used in AdEx is 281 pF which is 2.81 nF in our normalized units.
 
 ## Other channels
 
@@ -453,7 +465,7 @@ There are several additional in-depth pages providing more details about biologi
 
 * [[Neuron electrophysiology]]: more detailed description of the electrophysiology of the neuron, and how the underlying concentration gradients of ions give rise to the electrical integration properties of the neuron.
 
-* [[Neuron input scaling]]: details on how excitatory and other neural inputs are computed and scaled across multiple different input projections.
+* [[Neuron dendrites]]: details on how excitatory and other neural inputs are computed and scaled across multiple different input projections, in ways that capture some of the additional computational power of dendritic processing within individual neurons.
 
 * [[Neuron equilibrium potential]]: shows how to derive the _equilibrium_ (steady-state) $V_m$ equation, which clearly exhibits the relative tug-of-war dynamic.
 
