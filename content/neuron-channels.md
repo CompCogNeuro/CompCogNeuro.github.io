@@ -12,24 +12,24 @@ The implementation of several of these channels comes from standard biophysicall
 The [[neuron#normalized parameters]] for all of the channel types covered here are shown in the following tables.
 
 {id="table_taus" title="Time constants"}
-| Parameter            | Bio value | Norm value |
-|----------------------|-----------|------------|
-| $\tau_{AMPA}         | 5 ms      | 5          |
-| $\tau_{GABA-A}       | 7 ms      | 7          |
-| $\tau_{NMDA}         | 100 ms    | 100        |
-| $\tau_{GABA_B} Rise  | 45 ms     | 45         |
-| $\tau_{GABA_B} Decay | 50 ms     | 50         |
+| Parameter                        | Bio value | Norm value |
+|----------------------------------|-----------|------------|
+| $\tau_{ampa}$                    | 5 ms      | 5          |
+| $\tau_{gaba_a}$                  | 7 ms      | 7          |
+| $\tau_{nmda}$                    | 100 ms    | 100        |
+| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms     | 45         |
+| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms     | 50         |
 
 
 {id="table_gbar-other" title="g-bar conductances"}
 | Parameter        | Bio value | Norm value |
-|------------------|-----------|------------|
-| NMDA             | 50 nS     | 0.50       |
-| VGCC_{distal}    | 146 nS    | 1.46       |
-| VGCC_{proximal}  | 3.2 nS    | 0.032      |
-| VGCC_{soma}      | 93 nS     | 0.93       |
-| aK_{distal}      | 49 nS     | 0.49       |
-| aK_{proximal}    | 7.5 nS    | 0.075      |
+|---------------------------|-----------|------------|
+| NMDA                      | 50 nS     | 0.50       |
+| $\rm{VGCC}_{distal}$      | 146 nS    | 1.46       |
+| $\rm{VGCC}_{proximal}$    | 3.2 nS    | 0.032      |
+| $\rm{VGCC}_{soma}$        | 93 nS     | 0.93       |
+| $aK_{distal}$             | 49 nS     | 0.49       |
+| $aK_{proximal}$           | 7.5 nS    | 0.075      |
 
 ## AMPA
 
@@ -92,11 +92,11 @@ The other critical functional property of the NMDA channel is that it also requi
 
 To see the unblocking in action, press the [[#plot_nmda:GV run]] button above, which generates a conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot, assuming that there is plenty of glutamate around so that factor is not relevant. As the voltage increases above the -90 hyperpolarized starting point, the conductance steadily rises, reflecting the progressively increased likelihood that the $Mg^{++}$ ions will not be blocking the channel opening. The _reversal potential_ for the NMDA channel is around 0 mV, so as the voltage approaches this point, the net force pulling the ions through the channel gets progressively weaker (as explained by the tug-of-war analogy in [[neuron]]), so the current _I_ decreases as the voltage approaches 0.
 
-NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow into the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
+NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow inanto the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
 
-[[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the _Tau_ time constant parameter (greek $\tau$) is much longer than most other channels, on the order of 100 ms or more. This parameter describes the amount of time that the channel stays open and conducting, once it has been unblocked and activated by glutamate. This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
+[[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the _Tau_ time constant parameter (greek $\tau$) is much longer than most other channels, on the order of 100 ms or more. This parameter describes the exponential decay constant (of the same form as [[#eq_ampa_g]]) for the NMDA conductance, which like AMPA has a sufficiently fast rise time that it can be ignored. This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
 
-The equations we use are the same as in the widely-cited [[@BrunelWang01]] model, starting with the voltage gating dependence of the NMDA conductance:
+The equation we use for the voltage-gated conductance is from the widely-cited [[@BrunelWang01]] model:
 
 {id="eq_nmda_g" title="NMDA voltage-gated conductance"}
 $$
@@ -116,9 +116,9 @@ pl.Config(root, br.Tabs)
 br.FinalizeGUI(false)
 ```
 
-The GABA-B channel has a much slower decay time constant compared to the standard GABA-A inhibitory channel, because it is coupled to the GIRK channel: _G-protein coupled inwardly rectifying potassium (K) channel_. It is ubiquitous in the brain, and is likely essential for basic neural function. The _inward rectification_ is caused by a $Mg^{++}$ ion block from the _inside_ of the neuron, which means that these channels are most open when the neuron is hyperpolarized (inactive), and thus it serves to _keep inactive neurons inactive_. This is complementary to the effect of NMDA channels, and [[@^SandersBerendsMajorEtAl13]] emphasized the synergistic nature of these two channels in producing [[stable activation]] patterns: NMDA keeps active neurons active, while GABA-B keeps inactive neurons inactive.af
+The GABA-B channel has a much slower decay time constant compared to the standard GABA-A inhibitory channel, because it is coupled to the GIRK channel: _G-protein coupled inwardly rectifying potassium (K) channel_. It is ubiquitous in the brain, and is likely essential for basic neural function. The _inward rectification_ is caused by a $Mg^{++}$ ion block from the _inside_ of the neuron, which means that these channels are most open when the neuron is hyperpolarized (inactive), and thus it serves to _keep inactive neurons inactive_. This is complementary to the effect of NMDA channels, and [[@^SandersBerendsMajorEtAl13]] emphasized the synergistic nature of these two channels in producing [[stable activation]] patterns: NMDA keeps active neurons active, while GABA-B keeps inactive neurons inactive.
 
-Press the [[#plot_gabab:GV run]] button above to see the conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot. In comparison with the comparable NMDA plot, you can see that GABA-B and NMDA are mirror-images of each other. Furthermore, the I value plotted here is the absolute value (positive) whereas the actual current has the opposite sign as NMDA, due to its reversal potential $E_{gaba_b}$ being that of chloride (-90 mV).
+Press the [[#plot_gabab:GV run]] button above to see the conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot. In comparison with the comparable NMDA plot, you can see that GABA-B and NMDA are mirror-images of each other. Furthermore, the I value plotted here is the pabsolute value (positive) whereas the actual current has the opposite sign as NMDA, due to its reversal potential $E_{gaba_b}$ being that of chloride (-90 mV).
 
 The implementation of the GABA-B channel is based on [[@^SandersBerendsMajorEtAl13]] and [[@^ThomsonDestexhe99]], with the following sigmoidal voltage-gated conductance function from [[@^YamadaInanobeKurachi98]]:
 
@@ -127,30 +127,32 @@ $$
 g_{gaba_b}(V) = \overline{g}_{gaba_b} \frac{1}{1 + e^{0.1(V-E_{gaba_b}+10)}}
 $$
 
-There is an additional exponential function needed for computing the time dynamics of the GABA-B conductance as a function of the GABA binding from inhibitory input spikes over time (in Figure 16 of [[@^ThomsonDestexhe99]]):
+There is an additional sigmoidal function needed for computing the time dynamics of the GABA-B conductance as a function of the GABA binding from inhibitory input spikes over time (in Figure 16 of [[@ThomsonDestexhe99]]):
 
 {id="eq_gabab_x" title="GABA-B spiking rate integration"}
 $$
 x = \frac{1}{1 + e^{-(s - 7.1) / 1.4}}
 $$
 
-Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _x_ drives increases in GABA-B conductance according to this update equation:
+Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _x_ drives increases in GABA-B conductance according to this update equation with separate rise ($\tau_r$) and decay ($\tau_d$) factors (45 and 50 ms respectively; [[#table_taus]]):
 
 {id="eq_gabab_dg" title="GABA-B conductance over time"}
 $$
-g_{gaba_b}(t) = \tau_r \left( \tau_d / \tau_r)^{(\tau_r / (\tau_d - \tau_r))} x(t) - g_{gaba_b}(t-1) \right)
+g_{gaba_b}(t) = \tau_r \left( \left[(\tau_d / \tau_r)^{(\tau_r / (\tau_d - \tau_r))} \right] x(t) - g_{gaba_b}(t-1) \right)
 $$
 
 $$
 x(t) = \left( \frac{1}{1 + e^{-(s - 7.1) / 1.4}} - x(t-1) \right) - \tau_d x(t-1)
 $$
 
-The final GABA-B conductance is a product of this time-integration factor above in [[#eq_gabab_dg]] and the voltage gating factor shown in [[#eq_gabab_g]]
+The final GABA-B conductance is a product of this time-integration factor above in [[#eq_gabab_dg]] and the voltage gating factor shown in [[#eq_gabab_g]]:
 
 {id="eq_gabab_tg" title="GABA-B net conductance over time"}
 $$
 g_{gaba_b}(t) = g_{gaba_b}(V) g_{gaba_b}(t)
 $$
+
+Do [[#plot_gabab:Time run]] to see these time dynamics play out over a 500 ms window with a pulse of input at the start.
 
 ## Sodium-gated potassium channels for adaptation (kNa adapt)
 
