@@ -7,29 +7,41 @@ This page provides details for the full range of channel types that are availabl
 
 The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview, and [ModelDB Currents](https://modeldb.science/NeuronDB/NeuronalCurrents), [ModelDB Current Search](https://modeldb.science/ModelDB/FindByCurrent), and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
 
-## Normalized parameters
+## Parameters
 
-The [[neuron#normalized parameters]] for all of the channel types covered here are shown in the following tables.
+The default parameters for each of the channel types covered here are shown in the following tables, using the [[neuron#units and parameters|standard units]].
 
 {id="table_taus" title="Time constants"}
-| Parameter                        | Bio value | Norm value |
-|----------------------------------|-----------|------------|
-| $\tau_{ampa}$                    | 5 ms      | 5          |
-| $\tau_{gaba_a}$                  | 7 ms      | 7          |
-| $\tau_{nmda}$                    | 100 ms    | 100        |
-| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms     | 45         |
-| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms     | 50         |
+| Parameter                        | Value  |
+|----------------------------------|--------|
+| $\tau_{ampa}$                    | 5 ms   |
+| $\tau_{gaba_a}$                  | 7 ms   |
+| $\tau_{nmda}$                    | 100 ms |
+| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms  |
+| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms  |
 
 
-{id="table_gbar-other" title="g-bar conductances"}
-| Parameter        | Bio value | Norm value |
-|---------------------------|-----------|------------|
-| NMDA                      | 50 nS     | 0.50       |
-| $\rm{VGCC}_{distal}$      | 146 nS    | 1.46       |
-| $\rm{VGCC}_{proximal}$    | 3.2 nS    | 0.032      |
-| $\rm{VGCC}_{soma}$        | 93 nS     | 0.93       |
-| $aK_{distal}$             | 49 nS     | 0.49       |
-| $aK_{proximal}$           | 7.5 nS    | 0.075      |
+{id="table_gs" title="Conductances (total)"}
+| Parameter                 | Value     |
+|---------------------------|-----------|
+| NMDA posterior cortex     | ~50 nS    |
+| GABA-B                    | ~50 nS    |
+| VGCC                      | ~4 nS     |
+| Mahp                      | 2 nS      |
+| Sahp                      | 5 nS      |
+| aK                        | 10 nS     |
+
+
+{id="table_gs-refs" title="Conductances from other models"}
+| Parameter                            | Value            |
+|--------------------------------------|------------------|
+| NMDA PFC (Brunel & Wang, 2001)       | 0.327 nS per syn |
+| VGCC distal (Urakubo et al., 2008)   | 146 nS   |
+| VGCC proximal (Urakubo et al., 2008) | 3.2 nS   |
+| VGCC soma (Urakubo et al., 2008)     | 93 nS    |
+| aK distal (Urakubo et al., 2008)     | 49 nS    |
+| aK proximal (Urakubo et al., 2008)   | 7.5 nS   |
+
 
 ## AMPA
 
@@ -126,7 +138,7 @@ pl.GVRun()
 
 The GABA-B channel has a much slower decay time constant compared to the standard GABA-A inhibitory channel, because it is coupled to the GIRK channel: _G-protein coupled inwardly rectifying potassium (K) channel_. It is ubiquitous in the brain, and is likely essential for basic neural function. The _inward rectification_ is caused by a $Mg^{++}$ ion block from the _inside_ of the neuron, which means that these channels are most open when the neuron is hyperpolarized (inactive), and thus it serves to _keep inactive neurons inactive_. This is complementary to the effect of NMDA channels, and [[@^SandersBerendsMajorEtAl13]] emphasized the synergistic nature of these two channels in producing [[stable activation]] patterns: NMDA keeps active neurons active, while GABA-B keeps inactive neurons inactive.
 
-Press the [[#plot_gabab:GV run]] button above to see the conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot. In comparison with the comparable NMDA plot, you can see that GABA-B and NMDA are mirror-images of each other. Furthermore, the I value plotted here is the pabsolute value (positive) whereas the actual current has the opposite sign as NMDA, due to its reversal potential $E_{gaba_b}$ being that of chloride (-90 mV).
+Press the [[#plot_gabab:GV run]] button above to see the conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot. In comparison with the comparable NMDA plot, you can see that GABA-B and NMDA are mirror-images of each other. Furthermore, the _I_ value plotted here is the absolute value (positive) whereas the actual current has the opposite sign as NMDA, due to its reversal potential $E_{gaba_b}$ being that of potassium (-90 mV).
 
 The implementation of the GABA-B channel is based on [[@^SandersBerendsMajorEtAl13]] and [[@^ThomsonDestexhe99]], with the following sigmoidal voltage-gated conductance function from [[@^YamadaInanobeKurachi98]]:
 
@@ -139,25 +151,25 @@ There is an additional sigmoidal function needed for computing the time dynamics
 
 {id="eq_gabab_x" title="GABA-B spiking rate integration"}
 $$
-x = \frac{1}{1 + e^{-(s - 7.1) / 1.4}}
+X = \frac{1}{1 + e^{-(s - 7.1) / 1.4}}
 $$
 
-Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _x_ drives increases in GABA-B conductance according to this double-exponential update equation with separate rise ($\tau_r$) and decay ($\tau_d$) factors (45 and 50 ms respectively, which fit the timecourse data from [[@ThomsonDestexhe99]] well; [[#table_taus]]):
+Where _s_ is the rate of spiking over the recent time window, which we compute based on the $g_i$ inhibition factor from the [[inhibition]] function used in [[Axon]], and _X_ drives increases in GABA-B activation (labeled _M_) according to the following double-exponential update equations with separate rise ($\tau_r$) and decay ($\tau_d$) factors (45 and 50 ms respectively, which fit the timecourse data from [[@ThomsonDestexhe99]] well; [[#table_taus]]):
 
-{id="eq_gabab_dg" title="GABA-B conductance over time"}
+{id="eq_gabab_m" title="GABA-B activation M over time"}
 $$
-g_{gaba_b}(t) = \tau_r \left( \left[(\tau_d / \tau_r)^{(\tau_r / (\tau_d - \tau_r))} \right] x(t) - g_{gaba_b}(t-1) \right)
-$$
-
-$$
-x(t) = \left( \frac{1}{1 + e^{-(s - 7.1) / 1.4}} - x(t-1) \right) - \tau_d x(t-1)
+M(t) = \frac{1}{\tau_r} \left( \left[(\tau_d / \tau_r)^{(\tau_r / (\tau_d - \tau_r))} \right] X(t) - M(t-1) \right)
 $$
 
-The final GABA-B conductance is a product of this time-integration factor above in [[#eq_gabab_dg]] and the voltage gating factor shown in [[#eq_gabab_gv]]:
+$$
+X(t) = \left( \frac{1}{1 + e^{-(s - 7.1) / 1.4}} - X(t-1) \right) - \tau_d X(t-1)
+$$
+
+The final GABA-B conductance is a product of the M activation factor above in [[#eq_gabab_m]] and the voltage gating factor shown in [[#eq_gabab_gv]]:
 
 {id="eq_gabab_tg" title="GABA-B net conductance over time"}
 $$
-g_{gaba_b}(t) = g_{gaba_b}(V) g_{gaba_b}(t)
+g_{gaba_b}(t) = g_{gaba_b}(V) M(t)
 $$
 
 Do [[#plot_gabab:Time run]] to see these time dynamics play out over a 500 ms window with a pulse of input at the start.

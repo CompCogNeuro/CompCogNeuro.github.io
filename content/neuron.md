@@ -167,7 +167,10 @@ The last case (c) illustrates how the integration process is sensitive to the _r
 
 The membrane potential $V_m$ is not communicated directly to other neurons; instead it is subject to a **threshold**, so that only the strongest relative levels of excitation are then communicated, resulting in a more efficient and compact encoding of information in the brain. In human terms, neurons avoid sharing "TMI" (too much information), and instead communicate only relevant, important information, as if they were following ["Gricean maxims"](https://en.wikipedia.org/wiki/Cooperative_principle).
 
-As described above, the firing of discrete spikes when $V_m$ gets above threshold occurs in biological neurons via the fast $Na^+$ and $K^+$ channels as first described by [[@HodgkinHuxley52]], and we use the _AdEx_ ( _Adaptive Exponential_; [[@BretteGerstner05]]) model to approximate these fast dynamics. The overall cycle of spiking followed by after-hyperpolarization (AHP) and the subsequent rise in $V_m$ driven by continued excitation results in an overall **spike rate** that reflects the relative balance of excitation vs. inhibition.
+{id="figure_spiking" style="height:30em"}
+![Trace of an Axon neuron spiking action potentials in response to an excitatory input. The Vm line shows the membrane potential and its spikes, with resetting after each spike (after-hyperpolarization or AHP) and the climb back up to spike again, as a function of the relative excitatory and inhibitory currents. The spikes increase in frequency over time as the NMDA current shown in Gnmda increases in strength. The Act line shows an integrated rate of spiking based on the average inter-spike-interval (ISI).](media/fig_neuron_spiking.png)
+
+As described above, the firing of discrete spikes when $V_m$ gets above threshold occurs in biological neurons via the fast $Na^+$ and $K^+$ channels as first described by [[@HodgkinHuxley52]], and we use the _AdEx_ ( _Adaptive Exponential_; [[@BretteGerstner05]]) model to approximate these fast dynamics. There is an overall cycle of spiking followed by after-hyperpolarization (AHP) and a subsequent rise in $V_m$ driven by continued excitation ([[#figure_spiking]]), which results in an overall **spike rate** that reflects the relative balance of excitation vs. inhibition.
 
 In [[rate code activation]] models, this expected rate of spiking is computed directly from the inputs to a neuron, and is then computed as an overall **activation** value to other neurons. The validity of this rate code approximation is a matter of considerable debate, which is discussed further in the [[rate code activation]] page. Briefly, the [[Leabra]] model used rate code signaling, and direct comparisons with the discrete spiking [[Axon]] model show that rate codes can capture many of the same functional and cognitive phenomena as a discrete spiking model, but overall they are more brittle and require a significant tradeoff between representing graded, probabilistic information, and the speed and responsiveness of the network overall.
 
@@ -427,7 +430,7 @@ The other main feature of the AdEx model is [[adaptation]] which makes it harder
 | conductance | siemens S = A / V            | $10^{-9}$  | nS nanosiemens |
 | capacitance | farad F = (s ⋅A) / V         | $10^{-12}$ | pF picofarads  |
 
-[[#table_units]] shows the standard neural-scale units that are used in [[Axon]] for all of the electrical parameters. [[#table_units_ex]] shows some example parameters in these units.
+[[#table_units]] shows the standard neural-scale units that are used in [[Axon]] for all of the electrical parameters. [[#table_units-ex]] shows some example parameters in these units, with relevant values from [[@^DestexheMainenSejnowski98]] and [[@^MiglioreHoffmanMageeEtAl99]].
 
 {id="table_units-ex" title="Neural scale parameters"}
 | Parameter                                                       | Value   |
