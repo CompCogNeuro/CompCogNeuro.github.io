@@ -243,7 +243,7 @@ The excitatory and inhibitory input conductances represent the total number of i
 
 * $\overline{g}$ ("g-bar") --- a constant value that determines the **maximum conductance** that would occur if every ion channel were to be open, and:
 
-* $g\left(t\right)$ --- a dynamically changing variable that indicates at the present moment, what fraction of the total number of ion channels are currently open (goes between 0 and 1).
+* $g\left(t\right)$ --- a dynamically changing variable that indicates at the present moment, what fraction of the total number of ion channels are currently open (goes between 0 and 1). All of the computed values in simulations go into this value, with the $\overline{g}$ effectively just providing a conversion of these normalized 0..1 values into the appropriate neurobiological units, as shown in [[#Units and parameters]].
 
 Thus, the total conductances of interest are written as:
 
@@ -416,40 +416,43 @@ where $\Delta_T = 2 mV$ is the _slope factor_ for the exponential function, and 
 
 The other main feature of the AdEx model is [[adaptation]] which makes it harder for the neuron to fire spikes as a function of ongoing activity. This is implemented in [[Axon]] using specialized [[neuron channels|channels]].
 
-## Normalized parameters
+## Units and parameters
 
-Managing the actual biological units for voltage, conductance and current introduces a bit of additional complexity, which we avoid by using normalized 0..1 range values as in the following table:
+{id="table_units" title="Neural scale units"}
+| Dimension   | Unit                         | Multiplier | Axon Unit      |
+|-------------|------------------------------|------------|----------------|
+| potential   | volt (V)                     | 0.001      | mV millivolt   |
+| current     | ampere (A)                   | $10^{-12}$ | pA picoamperes |
+| time        | second (s)                   | 0.001      | ms millisecond |
+| conductance | siemens S = A / V            | $10^{-9}$  | nS nanosiemens |
+| capacitance | farad F = (s ⋅A) / V         | $10^{-12}$ | pF picofarads  |
 
-{id="table_norms" title="Normalized units"}
-| Dimension   | Unit                         | Multiplier | Norm range |
-|-------------|------------------------------|------------|------------|
-| potential   | volt                         | 0.1        | 0..1 $\rightarrow$ -100..0 mV |
-| current     | amp                          | $10^{-8}$  | 1 = 1 nA   |
-| time        | second, s $\rightarrow$ ms   | 0.001      | 1 = 1 ms   |
-| conductance | siemens = amp / volt         | $10^{-7}$  | 1 = 100 nS |
-| capacitance | farad = (sec * amp) / volt   | $10^{-10}$ | 1 = 0.1 nF |
+[[#table_units]] shows the standard neural-scale units that are used in [[Axon]] for all of the electrical parameters. [[#table_units_ex]] shows some example parameters in these units.
 
-The key difference here is transforming the natural mV range of -100 to 0 mV into normalized units between 0 and 1. This transforms the reversal potentials for the standard channels as shown in the following table:
+{id="table_units-ex" title="Neural scale parameters"}
+| Parameter                                                       | Value   |
+|-----------------------------------------------------------------|---------|
+| Resting potential                                               | -70 mV  |
+| Spiking threshold $\Theta$                                      | -50 mV  |
+| $g_{ampa}$ = conductance per excitatory AMPA channel            | 0.05 nS |
+| $g_{syn}$ = conductance per excitatory synapse = ~20 channels   |   1 nS  |
+| $\overline{g}_e$ = ~ max total excitatory input = ~100 synapses | 100 nS  |
+| $\overline{g}_{leak}$                                           |  20 nS  |
+| max $I_e(V=-70 mV)$                                             | 7000 pA |
+| standard membrane capacitance C                                 |  281 pF |
+| change in V over 1 ms from $I_e(V=-70 mV)$ = I_e / C            |   25 mV |
+
+[[#table_erev]] shows the full set of reversal potentials for the basic channels:
 
 {id="table_erev" title="Electrical potentials"}
-| Parameter                  | Bio value | Norm value |
-|----------------------------|-----------|------------|
-| Resting potential          | -70 mV    | 0.3        |
-| Leak $E_l$                 | -70 mV    | 0.3        |
-| Excitatory $E_e$           |   0 mV    | 1.0        |
-| Inhibition $E_i$           | -90 mV    | 0.1        |
-| Spiking threshold $\Theta$ | -50 mV    | 0.5        |
-| Exp Slope $\Delta_T$       | 2 mv      | 0.02       |
-
-{id="table_gbar-lei" title="g-bar conductances"}
-| Parameter                         | Bio value | Norm value |
-|-----------------------------------|-----------|------------|
-| Leak $\overline{g}_l$             | 10 nS     | 0.1        |
-| Total excitatory $\overline{g}_e$ | 100 nS    | 1.0        |
-| Total inhibitory $\overline{g}_i$ | 100 nS    | 1.0        |
-| Nominal excitatory per synapse    | 1 nS      | 0.01       |
-
-The standard capacitance value used in AdEx is 281 pF which is 2.81 nF in our normalized units.
+| Parameter                  | Value   |
+|----------------------------|---------|
+| Resting potential          | -70 mV  |
+| Leak $E_l$                 | -70 mV  |
+| Excitatory $E_e$           |   0 mV  |
+| Inhibition $E_i$           | -90 mV  |
+| Spiking threshold $\Theta$ | -50 mV  |
+| Exp Slope $\Delta_T$       | 2 mv    |
 
 ## Other channels
 

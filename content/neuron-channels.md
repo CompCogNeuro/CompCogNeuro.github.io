@@ -84,6 +84,10 @@ root, _ := tensorfs.NewDir("Root")
 br := egui.NewGUIBody(b, pl, root, "NMDA", "NMDA Channel", "NMDA Channel equations")
 pl.Config(root, br.Tabs)
 br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+pl.GVRun()
 ```
 
 NMDA (N-methyl-D-aspartate) channels are found throughout the brain, and play a critical role in learning as captured in the [[kinase algorithm]] used in [[Axon]]. The opening of NMDA channels is typically blocked by positively-charged magnesium ions ($Mg^{++}$) when the membrane potential is close to the resting potential. The removal of this block as a result of membrane depolarization above this resting potential (known as an _outward rectification_, because the $Mg^{++}$ ions are on the outside of the cell) is one of two key functional features of this channel. This unblocking dynamic is important both for learning and for its important contributions to the activation dynamics of the neuron.
@@ -92,11 +96,11 @@ The other critical functional property of the NMDA channel is that it also requi
 
 To see the unblocking in action, press the [[#plot_nmda:GV run]] button above, which generates a conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot, assuming that there is plenty of glutamate around so that factor is not relevant. As the voltage increases above the -90 hyperpolarized starting point, the conductance steadily rises, reflecting the progressively increased likelihood that the $Mg^{++}$ ions will not be blocking the channel opening. The _reversal potential_ for the NMDA channel is around 0 mV, so as the voltage approaches this point, the net force pulling the ions through the channel gets progressively weaker (as explained by the tug-of-war analogy in [[neuron]]), so the current _I_ decreases as the voltage approaches 0.
 
-NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow inanto the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
+NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow into the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
 
 [[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the _Tau_ time constant parameter (greek $\tau$) is much longer than most other channels, on the order of 100 ms or more. This parameter describes the exponential decay constant (of the same form as [[#eq_ampa_g]]) for the NMDA conductance, which like AMPA has a sufficiently fast rise time that it can be ignored. This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
 
-The equation we use for the voltage-gated conductance is from the widely-cited [[@BrunelWang01]] model:
+The equation we use for the voltage-gated conductance is due to [[@JahrStevens90]], and is used in the widely-cited [[@BrunelWang01]] model:
 
 {id="eq_nmda_g" title="NMDA voltage-gated conductance"}
 $$
@@ -114,6 +118,10 @@ root, _ := tensorfs.NewDir("Root")
 br := egui.NewGUIBody(b, pl, root, "GABA-B", "GABA-B Channel", "GABA-B Channel equations")
 pl.Config(root, br.Tabs)
 br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+pl.GVRun()
 ```
 
 The GABA-B channel has a much slower decay time constant compared to the standard GABA-A inhibitory channel, because it is coupled to the GIRK channel: _G-protein coupled inwardly rectifying potassium (K) channel_. It is ubiquitous in the brain, and is likely essential for basic neural function. The _inward rectification_ is caused by a $Mg^{++}$ ion block from the _inside_ of the neuron, which means that these channels are most open when the neuron is hyperpolarized (inactive), and thus it serves to _keep inactive neurons inactive_. This is complementary to the effect of NMDA channels, and [[@^SandersBerendsMajorEtAl13]] emphasized the synergistic nature of these two channels in producing [[stable activation]] patterns: NMDA keeps active neurons active, while GABA-B keeps inactive neurons inactive.
@@ -182,6 +190,9 @@ root, _ := tensorfs.NewDir("Root")
 br := egui.NewGUIBody(b, pl, root, "VGCC", "VGCC Channel", "VGCC L-type channel equations")
 pl.Config(root, br.Tabs)
 br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
 ```
 
 Our implementation of the L-type VGCC is based on [[@UrakuboHondaFroemkeEtAl08]], using source code available at this [link](http://kurodalab.bs.s.u-tokyo.ac.jp/info/STDP/Urakubo2008.tar.gz).
