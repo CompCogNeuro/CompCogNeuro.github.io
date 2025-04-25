@@ -5,6 +5,8 @@ bibfile = "ccnlab.json"
 
 This page provides details for the full range of channel types that are available in an [[Axon]] [[neuron]] to drive biologically-based and functionally important behavior in specific neuron types. Every neuron uses the basic excitatory, inhibitory, and leak channels discussed in detail in the [[neuron]] and [[neuron electrophysiology]] pages, and some of the following channels are used in most other neurons, while some are only used in specific neuron types where they are particularly important.
 
+These biologically-grounded channels provide accurate fits to the detailed electrophysiological properties of real neurons, based on the sources listed below. Although this results in a large number of parameters relative to the units in [[abstract neural networks]], we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so. Furthermore, extensive testing across a wide range of models has shown that these biologically-grounded mechanisms, and parameter values, actually produce the best functional results.
+
 The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview, and [ModelDB Currents](https://modeldb.science/NeuronDB/NeuronalCurrents), [ModelDB Current Search](https://modeldb.science/ModelDB/FindByCurrent), and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
 
 ## Parameters
@@ -249,7 +251,12 @@ $$
 
 To see the static voltage-gated sigmoidal functions, do [[#plot_vgcc:GV run]]. To see the response of the M and H channels to discrete spiking inputs, do [[#plot_vgcc:Time run]]. In both cases you will need to deselect variables to be able to see the values with smaller ranges. You should observe that the M activating channel rises up quickly at every action potential, and drops quickly back down, consistent with its 3.6 ms time constant. By contrast, the H inactivating factor builds up over time and slowly decreases the overall conductance value.
 
-## Sodium-gated potassium channels for adaptation (kNa adapt)
+## Adaptation channels
+
+### Mahp
+
+
+### Sodium-gated potassium channels for adaptation (kNa adapt)
 
 The longer-term adaptation (accommodation / fatigue) dynamics of neural firing in our models are based on sodium (Na) gated potassium (K) currents. As neurons spike, driving an influx of Na, this activates the K channels, which, like leak channels, pull the membrane potential back down toward rest (or even below).  Multiple different time constants have been identified and this implementation supports 3: M-type (fast), Slick (medium), and Slack (slow) ([[@Kaczmarek13]]; [[@Kohn07]]; [[@Sanchez-VivesNowakMcCormick00a]]; [[@BendaMalerLongtin10]]).
 

@@ -1,12 +1,20 @@
+<p id="AbbottVarelaSenEtAl97">Abbott, L.F., Varela, J.A., Sen, K., & Nelson, S.B. (1997). Synaptic depression and cortical gain control. Science, 275, 220. </p>
+
 <p id="AckleyHintonSejnowski85">Ackley, D.H., Hinton, G.E., & Sejnowski, T.J. (1985). A learning algorithm for Boltzmann machines. Cognitive Science, 9, 147-169. </p>
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
+
+<p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
 
 <p id="BendaMalerLongtin10">Benda, J., Maler, L., & Longtin, A. (2010). Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds. Journal of Neurophysiology, 104, 2806-2820. http://jn.physiology.org/content/104/5/2806 http://doi.org/10.1152/jn.00240.2010</p>
 
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
 
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
+
+<p id="Borst10">Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends in Neurosciences, 33, 259-266. http://www.sciencedirect.com/science/article/pii/S0166223610000457 http://doi.org/10.1016/j.tins.2010.03.003</p>
+
+<p id="BoudreauFerster05">Boudreau, C.E., & Ferster, D. (2005). Short-Term Depression in Thalamocortical Synapses of Cat Primary Visual Cortex. Journal of Neuroscience, 25, 7179-7190. https://www.jneurosci.org/content/25/31/7179 http://doi.org/10.1523/JNEUROSCI.1445-05.2005</p>
 
 <p id="Brette15">Brette, R. (2015). Philosophy of the Spike: Rate-Based vs. Spike-Based Theories of the Brain. Frontiers in Systems Neuroscience, 9, 151. https://www.frontiersin.org/article/10.3389/fnsys.2015.00151 http://doi.org/10.3389/fnsys.2015.00151</p>
 
@@ -16,11 +24,19 @@
 
 <p id="BrunelWang01">Brunel, N., & Wang, X.J. (2001). Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition. Journal of Computational Neuroscience, 11, 63-85. http://www.ncbi.nlm.nih.gov/pubmed/11524578</p>
 
+<p id="BuchholzGuilabertEhretEtAl23">Buchholz, M.O., Guilabert, A.G., Ehret, B., & Schuhknecht, G.F.P. (2023). How synaptic strength, short-term plasticity, and input synchrony contribute to neuronal spike output. PLOS Computational Biology, 19, e1011046. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011046 http://doi.org/10.1371/journal.pcbi.1011046</p>
+
+<p id="CainSnutch12">Cain, S.M., & Snutch, T.P. (2012). Voltage-Gated Calcium Channels in Epilepsy. In J.L. Noebels, M. Avoli, M.A. Rogawski, R.W. Olsen, & A.V. Delgado-Escueta (Eds.), Jasper's Basic Mechanisms of the Epilepsies (4th ed.). National Center for Biotechnology Information (US) http://www.ncbi.nlm.nih.gov/books/NBK98147/</p>
+
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
+
+<p id="DestexheMainenSejnowski98">Destexhe, A., Mainen, Z.F., & Sejnowski, T.J. (1998). Kinetic models of synaptic transmission. Methods in neuronal modeling, 2, 1–25. https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf</p>
+
+<p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
@@ -47,6 +63,8 @@
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
+
+<p id="JahrStevens90">Jahr, C.E., & Stevens, C.F. (1990). A quantitative description of NMDA receptor-channel kinetic behavior. Journal of Neuroscience, 10, 1830-1837. http://www.jneurosci.org/content/10/6/1830 http://doi.org/10.1523/JNEUROSCI.10-06-01830.1990</p>
 
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
 
@@ -77,6 +95,8 @@
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
+
+<p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
 <p id="OReilly20">O’Reilly, R.C. (2020). Unraveling the Mysteries of Motivation. Trends in Cognitive Sciences, http://www.sciencedirect.com/science/article/pii/S1364661320300681 http://doi.org/10.1016/j.tics.2020.03.001</p>
 

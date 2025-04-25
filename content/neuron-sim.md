@@ -13,13 +13,34 @@ neuron.EmbedSim(b)
 
 ## Introduction
 
-This simulation illustrates the basic properties of neural spiking and rate-code activation, reflecting a balance of excitatory and inhibitory influences (including leak and synaptic inhibition). See [axon/sims/neuron](https://github.com/emer/axon/tree/main/sims/neuron) for the source code.
+This simulation gives an in-depth view inside the processing within an individual [[neuron]], including the various [[neuron channels]] that shape its dynamics in important ways. See [axon/sims/neuron](https://github.com/emer/axon/tree/main/sims/neuron) for the source code.
 
-In this model, the `Network` only shows a single neuron which is "injected" with excitatory current (as neuroscientists might do with an electrode injecting current into a single neuron).  If you do `Run Cycles` in the toolbar you will see it get activated, but to really understand what is going on, we need to see the relationship among multiple variables as shown in the `Test Cycle Plot`.
+In this model, the `Network` shows a single `Neuron`, which is "injected" with excitatory and inhibitory currents, as neuroscientists might do with an electrode injecting current into a single neuron. If you do `Run Cycles` in the toolbar you will see it get activated, but to really understand what is going on, we need to see the relationship among multiple variables as shown in the `Test Cycle Plot`.
 
 ## Plot of Neuron variables over time
 
-* Click the [[#sim_neuron:Test Cycle Plot]] tab in the right panel to display the graph view display.  If you haven't done [[#sim_neuron:Run Cycles]] yet, do it now so you can see the results of running with the default parameters.
+* Click the [[#sim_neuron:Test Cycle Plot]] tab in the right panel to display the graph view display. If you haven't done [[#sim_neuron:Run Cycles]] yet, do it now so you can see the results of running with the default parameters, with the left panel showing the level of excitatory (`Ge`) and inhibitory (`Gi`) conductances being injected, along with some other parameters that we'll manipulate soon.
+
+We'll start by first understanding the behavior of this neuron at an overall, qualitative level, with all the parameters at their standard default values, which are the values used in most of the other simulations in [[Axon]]. Although these neurons have a lot of parameters relative to the units in [[abstract neural network]]s, we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so.
+
+You can see that the level of injected input causes the neuron to fire a series of spikes, which are visible in the `Vm` membrane potential plot, and are also recorded discretely in the [[#sim_neuron:Test Cycle Plot/Spike]] variable (toggle that off to better see `Vm` alone). The `Act` value plots the rate-code activation value that is computed from a running-average of the inter-spike-intervals (`ISIAvg`), which is the number of milliseconds between each spike. This `Act` value shows what you can hopefully see in the spikes themselves: the rate of spiking is going up over time!
+
+Why would the rate of spiking increase, when we are only injecting a constant amount of excitation and inhibition?
+
+* Click on [[#sim_neuron:Test Cycle Plot/Gnmda]] to see the overall NMDA channel conductance (see [[neuron channels#NMDA]] for details), which is steadily increasing over time. This channel has slower dynamics that result [[stable activation]] patterns, and you can see that in the plot. This is what is driving the increase in firing rate over time. You can see the total excitatory conductance that includes this NMDA contribution by clicking on [[#sim_neuron:Test Cycle Plot/Ge]].
+
+* To test the impact of NMDA, set the [[#sim_neuron:NmdaGe]] value to 0 instead of the default of 0.006, and then do [[#sim_neuron:Init]] (to clear the plot) and [[#sim_neuron:Run Cycles]] again.
+
+This parameter determines the strength of the NMDA channel contribution to the overall `Ge(t)` value (i.e., the `Ge` value in the plot), which is the time-varying excitatory conductance (because NMDA channels have the same reversal potential as the standard excitatory AMPA channels, we just add their conductance to this overall `Ge(t)` value). When NMDA is now gone entirely, you should see that the neuron actually fails to spike at all.
+
+* The neuron is also receiving a significant amount of inhibition from the GABA-B inhibitory channels (see [[neuron channels#GABA-B]] for details), so let's remove those too. Set the [[#sim_neuron:GababGk]] value to 0 instead of the default of 0.015, and then do [[#sim_neuron:Init]] and [[#sim_neuron:Run Cycles]] again. Note that this conductance goes into the overall `Gk(t)` potassium (K) conductance value because the GABA-B channel is coupled to a K channel.
+
+You should now see that the neuron can make a couple of spikes, but that its rate of spiking decreases over time, and soon stops. This is because the Neuron is also subject to [[adaptation]], which is driven by several different channels that operate over different time scales and in response to different activating signals.
+
+TODO: do channels, describe here.
+
+
+## OLD BELOW:
 
 Only the excitatory and leak currents are operating here, with their conductances (Gbar E, Gbar L) as shown in the control panel.  You should see various lines plotted over 200 time steps (*cycles*) on the X axis.
 

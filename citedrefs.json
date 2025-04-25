@@ -495,6 +495,291 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Benda21",
+		"citation-key": "Benda21",
+		"language": "English",
+		"author": [
+			{
+				"family": "Benda",
+				"given": "Jan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current Biology",
+		"container-title-short": "Current Biology",
+		"DOI": "10.1016/j.cub.2020.11.054",
+		"ISSN": "0960-9822",
+		"issue": "3",
+		"page": "R110-R116",
+		"PMID": "33561404",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "Neural adaptation",
+		"URL": "https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X",
+		"volume": "31"
+	},
+	{
+		"type": "article-journal",
+		"id": "AbbottVarelaSenEtAl97",
+		"citation-key": "AbbottVarelaSenEtAl97",
+		"author": [
+			{
+				"family": "Abbott",
+				"given": "L. F."
+			},
+			{
+				"family": "Varela",
+				"given": "J. A."
+			},
+			{
+				"family": "Sen",
+				"given": "K."
+			},
+			{
+				"family": "Nelson",
+				"given": "S. B."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1997",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science",
+		"page": "220",
+		"title": "Synaptic depression and cortical gain control",
+		"volume": "275"
+	},
+	{
+		"type": "article-journal",
+		"id": "BoudreauFerster05",
+		"citation-key": "BoudreauFerster05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Boudreau",
+				"given": "C. Elizabeth"
+			},
+			{
+				"family": "Ferster",
+				"given": "David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					8,
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.1445-05.2005",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "31",
+		"page": "7179-7190",
+		"source": "www.jneurosci.org",
+		"title": "Short-Term Depression in Thalamocortical Synapses of Cat Primary Visual Cortex",
+		"URL": "https://www.jneurosci.org/content/25/31/7179",
+		"volume": "25"
+	},
+	{
+		"type": "article-journal",
+		"id": "Borst10",
+		"citation-key": "Borst10",
+		"language": "en",
+		"author": [
+			{
+				"family": "Borst",
+				"given": "J. Gerard G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					8,
+					1
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Neurosciences",
+		"container-title-short": "Trends in Neurosciences",
+		"DOI": "10.1016/j.tins.2010.03.003",
+		"ISSN": "0166-2236",
+		"issue": "6",
+		"page": "259-266",
+		"source": "ScienceDirect",
+		"title": "The low synaptic release probability in vivo",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0166223610000457",
+		"volume": "33"
+	},
+	{
+		"type": "article-journal",
+		"id": "BuchholzGuilabertEhretEtAl23",
+		"citation-key": "BuchholzGuilabertEhretEtAl23",
+		"language": "en",
+		"author": [
+			{
+				"family": "Buchholz",
+				"given": "Moritz O."
+			},
+			{
+				"family": "Guilabert",
+				"given": "Alexandra Gastone"
+			},
+			{
+				"family": "Ehret",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Schuhknecht",
+				"given": "Gregor F. P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					17
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "PLOS Computational Biology",
+		"container-title-short": "PLOS Computational Biology",
+		"DOI": "10.1371/journal.pcbi.1011046",
+		"ISSN": "1553-7358",
+		"issue": "4",
+		"page": "e1011046",
+		"publisher": "Public Library of Science",
+		"source": "PLoS Journals",
+		"title": "How synaptic strength, short-term plasticity, and input synchrony contribute to neuronal spike output",
+		"URL": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011046",
+		"volume": "19"
+	},
+	{
+		"type": "article-journal",
+		"id": "NeherSakaba08",
+		"citation-key": "NeherSakaba08",
+		"language": "English",
+		"author": [
+			{
+				"family": "Neher",
+				"given": "Erwin"
+			},
+			{
+				"family": "Sakaba",
+				"given": "Takeshi"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					9,
+					25
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2008.08.019",
+		"ISSN": "0896-6273",
+		"issue": "6",
+		"page": "861-872",
+		"PMID": "18817727",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release",
+		"URL": "https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3",
+		"volume": "59"
+	},
+	{
+		"type": "article-journal",
 		"id": "Chollet19",
 		"citation-key": "Chollet19",
 		"author": [
@@ -1752,6 +2037,57 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "JahrStevens90",
+		"citation-key": "JahrStevens90",
+		"language": "en",
+		"author": [
+			{
+				"family": "Jahr",
+				"given": "C. E."
+			},
+			{
+				"family": "Stevens",
+				"given": "C. F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					7
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.10-06-01830.1990",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "6",
+		"page": "1830-1837",
+		"PMID": "1693952",
+		"publisher": "Society for Neuroscience",
+		"section": "Articles",
+		"source": "www-jneurosci-org.colorado.idm.oclc.org",
+		"title": "A quantitative description of NMDA receptor-channel kinetic behavior",
+		"URL": "http://www.jneurosci.org/content/10/6/1830",
+		"volume": "10"
+	},
+	{
+		"type": "article-journal",
 		"id": "BrunelWang01",
 		"citation-key": "BrunelWang01",
 		"author": [
@@ -1948,6 +2284,119 @@
 		"title": "G protein regulation of potassium ion channels",
 		"URL": "https://pharmrev.aspetjournals.org/content/50/4/723",
 		"volume": "50"
+	},
+	{
+		"type": "article-journal",
+		"id": "Dolphin18",
+		"citation-key": "Dolphin18",
+		"language": "en",
+		"author": [
+			{
+				"family": "Dolphin",
+				"given": "Annette C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					31
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					1,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Brain and Neuroscience Advances",
+		"container-title-short": "Brain and Neuroscience Advances",
+		"DOI": "10.1177/2398212818794805",
+		"ISSN": "2398-2128",
+		"page": "2398212818794805",
+		"publisher": "SAGE Publications Ltd STM",
+		"source": "SAGE Journals",
+		"title": "Voltage-gated calcium channels: Their discovery, function and importance as drug targets",
+		"title-short": "Voltage-gated calcium channels",
+		"URL": "https://doi.org/10.1177/2398212818794805",
+		"volume": "2"
+	},
+	{
+		"type": "chapter",
+		"id": "CainSnutch12",
+		"citation-key": "CainSnutch12",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Cain",
+				"given": "Stuart M."
+			},
+			{
+				"family": "Snutch",
+				"given": "Terrance P."
+			}
+		],
+		"editor": [
+			{
+				"family": "Noebels",
+				"given": "Jeffrey L."
+			},
+			{
+				"family": "Avoli",
+				"given": "Massimo"
+			},
+			{
+				"family": "Rogawski",
+				"given": "Michael A."
+			},
+			{
+				"family": "Olsen",
+				"given": "Richard W."
+			},
+			{
+				"family": "Delgado-Escueta",
+				"given": "Antonio V."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					31
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"call-number": "NBK98147",
+		"container-title": "Jasper's Basic Mechanisms of the Epilepsies",
+		"edition": "4th",
+		"event-place": "Bethesda (MD)",
+		"PMID": "22787663",
+		"publisher": "National Center for Biotechnology Information (US)",
+		"publisher-place": "Bethesda (MD)",
+		"source": "PubMed",
+		"title": "Voltage-Gated Calcium Channels in Epilepsy",
+		"URL": "http://www.ncbi.nlm.nih.gov/books/NBK98147/"
 	},
 	{
 		"type": "article-journal",
@@ -2691,6 +3140,52 @@
 		"title": "How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs",
 		"URL": "https://www.jneurosci.org/content/23/37/11628",
 		"volume": "23"
+	},
+	{
+		"type": "article-journal",
+		"id": "DestexheMainenSejnowski98",
+		"citation-key": "DestexheMainenSejnowski98",
+		"author": [
+			{
+				"family": "Destexhe",
+				"given": "Alain"
+			},
+			{
+				"family": "Mainen",
+				"given": "Zachary F."
+			},
+			{
+				"family": "Sejnowski",
+				"given": "Terrence J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Methods in neuronal modeling",
+		"page": "1–25",
+		"publisher": "MIT press Cambridge, MA",
+		"source": "Google Scholar",
+		"title": "Kinetic models of synaptic transmission",
+		"URL": "https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf",
+		"volume": "2"
 	},
 	{
 		"type": "article-journal",
