@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 This page provides details for the full range of channel types that are available in an [[Axon]] [[neuron]] to drive biologically-based and functionally important behavior in specific neuron types. Every neuron uses the basic excitatory, inhibitory, and leak channels discussed in detail in the [[neuron]] and [[neuron electrophysiology]] pages, and some of the following channels are used in most other neurons, while some are only used in specific neuron types where they are particularly important.
 
-These biologically-grounded channels provide accurate fits to the detailed electrophysiological properties of real neurons, based on the sources listed below. Although this results in a large number of parameters relative to the units in [[abstract neural networks]], we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so. Furthermore, extensive testing across a wide range of models has shown that these biologically-grounded mechanisms, and parameter values, actually produce the best functional results.
+These biologically-grounded channels provide accurate fits to the detailed electrophysiological properties of real neurons, based on the sources listed below. Although this results in a large number of parameters relative to the units in [[abstract neural network]]s, we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so. Furthermore, extensive testing across a wide range of models has shown that these biologically-grounded mechanisms, and parameter values, actually produce the best functional results.
 
 The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview, and [ModelDB Currents](https://modeldb.science/NeuronDB/NeuronalCurrents), [ModelDB Current Search](https://modeldb.science/ModelDB/FindByCurrent), and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
 
@@ -14,24 +14,36 @@ The implementation of several of these channels comes from standard biophysicall
 The default parameters for each of the channel types covered here are shown in the following tables, using the [[neuron#units and parameters|standard units]].
 
 {id="table_taus" title="Time constants"}
-| Parameter                        | Value  |
-|----------------------------------|--------|
-| $\tau_{ampa}$                    | 5 ms   |
-| $\tau_{gaba_a}$                  | 7 ms   |
-| $\tau_{nmda}$                    | 100 ms |
-| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms  |
-| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms  |
+| Parameter                        | Value    |
+|----------------------------------|----------|
+| $\tau_{ampa}$                    | 5 ms     |
+| $\tau_{gaba_a}$                  | 7 ms     |
+| $\tau_{nmda}$                    | 100 ms   |
+| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms    |
+| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms    |
+| mAHP $\tau_{max}$                | 1,000 ms |
 
 
-{id="table_gs" title="Conductances (total)"}
+{id="table_gs" title="Conductance scaling factors"}
+| Parameter                 | Value   |
+|---------------------------|---------|
+| $\overline{g}_{nmda}      | 0.006   |
+| $\overline{g}_{gabab}     | 0.015   |
+| $\overline{g}_{vgcc}      | 0.02    |
+| $\overline{g}_{ak}        | 0.1     |
+| $\overline{g}_{mahp}      | 0.02    |
+| $\overline{g}_{sahp}      | 0.05    |
+
+
+{id="table_gs" title="Typical max conductances"}
 | Parameter                 | Value     |
 |---------------------------|-----------|
-| NMDA posterior cortex     | ~50 nS    |
-| GABA-B                    | ~50 nS    |
-| VGCC                      | ~4 nS     |
+| NMDA posterior cortex     | 50 nS     |
+| GABA-B                    | 50 nS     |
+| VGCC                      | 4 nS      |
+| aK                        | 10 nS     |
 | Mahp                      | 2 nS      |
 | Sahp                      | 5 nS      |
-| aK                        | 10 nS     |
 
 
 {id="table_gs-refs" title="Conductances from other models"}
@@ -91,7 +103,7 @@ The $K^+$ leak channel is always open, so it just has a constant conductance par
 
 ## NMDA
 
-{id="plot_nmda" title="NMDA Channels" collapsed="true"}
+{id="plot_nmda" title="NMDA channel" collapsed="true"}
 ```Goal
 pl := &chanplots.NMDAPlot{}
 root, _ := tensorfs.NewDir("Root")
@@ -125,7 +137,7 @@ where $\overline{g}_{nmda}$ is the overall "g-bar" maximum conductance factor, a
 
 ## GABA-B
 
-{id="plot_gabab" title="GABA-B Channels" collapsed="true"}
+{id="plot_gabab" title="GABA-B channel" collapsed="true"}
 ```Goal
 pl := &chanplots.GABABPlot{}
 root, _ := tensorfs.NewDir("Root")
@@ -197,7 +209,7 @@ There are a large number of VGCCs types ([[@Dolphin18]]; [[@CainSnutch12]]) deno
 
 * The T type is the most important for low frequency oscillations, and is absent in pyramidal neurons outside of the 5IB layer 5 neurons, which are the primary bursting type. It is most important for subcortical neurons, such as in TRN. See [Destexhe et al, 1998 model in BRIAN](https://brian2.readthedocs.io/en/stable/examples/frompapers.Destexhe_et_al_1998.html) for an implementation.
 
-{id="plot_vgcc" title="VGCC L-type Channels" collapsed="true"}
+{id="plot_vgcc" title="VGCC L-type channel" collapsed="true"}
 ```Goal
 pl := &chanplots.VGCCPlot{}
 root, _ := tensorfs.NewDir("Root")
@@ -251,10 +263,108 @@ $$
 
 To see the static voltage-gated sigmoidal functions, do [[#plot_vgcc:GV run]]. To see the response of the M and H channels to discrete spiking inputs, do [[#plot_vgcc:Time run]]. In both cases you will need to deselect variables to be able to see the values with smaller ranges. You should observe that the M activating channel rises up quickly at every action potential, and drops quickly back down, consistent with its 3.6 ms time constant. By contrast, the H inactivating factor builds up over time and slowly decreases the overall conductance value.
 
+## A-type K
+
+{id="plot_ak" title="A-type K channel" collapsed="true"}
+```Goal
+pl := &chanplots.AKPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "AK", "A-type K Channel", "A-type K channel equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+```
+
+The A-type K channel is voltage-gated with maximal activation around -37 mV ([[@HoffmanMageeColbertEtAl97]]). It is particularly important for counteracting the excitatory effects of the VGCC L-type channels (with which they are co-localized) which can otherwise drive runaway excitatory currents. Think of it as an "emergency brake" and is needed for this reason whenever adding VGCC to a model.
+
+It has two state variables, M (V-gated opening) and H (V-gated closing), which integrate with fast and slow time constants, respectively. H relatively quickly hits an asymptotic level of inactivation for sustained activity patterns, so we can actually ignore it with minimal consequences, and also simplify some of the faster time dynamics because we are not implementing the fast Hodgkin-Huxley spiking channels. Thus, in our simulations we just use a single sigmoidal function for the M activating component, with parameters that fit the rising portion of the more complex function:
+
+{id="eq_ak_m" title="A-type M activation"}
+$$
+M = \frac{0.076}{1 + e^{0.075(V + 2)}}
+$$
+
+This function is missing the declining values beyond the -37 mV peak, but given our spiking dynamics and 1 ms time step of integration, this is not relevant. The comparison between this simplified conductance and the full model from [[@^HoffmanMageeColbertEtAl97]] and [[@^MiglioreHoffmanMageeEtAl99]] can be seen in the [[#plot_ak:GV run]] plot. You can also see the time dynamics in the [[#plot_ak:Time run]] plot.
+
 ## Adaptation channels
 
-### Mahp
+There are a number of different channels that drive an [[adaptation]] effect in neurons (also known as _accommodation_ or _neural fatigue_), over different time scales and in response to different activity signals. These channels cause neurons to decrease their responsiveness over time, as a function of how active they have been, which results in an overall suppression of responses to ongoing activity patterns, and a relative enhancement to novel ones (i.e., a _novelty filter_). All of these channels conduct $K^+$ ions, like the leak channel, and we add their conductances together in an overall `Gk(t)` value.
 
+Functionally, these are also known as _afterhyperpolarization (AHP)_ channels, because they cause neurons to become refractory (less responsive) to further excitatory inputs for different time windows, from fast (fAHP; 2-5 ms), to medium (mAHP; 50-100 ms), and slow (sAHP; 0.1-2 s).
+
+### M-type mAHP
+
+{id="plot_mahp" title="mAHP M-type channel" collapsed="true"}
+```Goal
+pl := &chanplots.MahpPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "mAHP", "mAHP Channel", "mAHP M-type equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+```
+
+There are a large number of different K channels that were historically called _M-type_ due to their muscarinic acetylcholine (ACh) response in the bullfrog sympathetic ganglion cells. These are now classified as Kv7 KCNQ channels, which have been identified throughout the brain, with responsiveness to a wide range of different neurotransmitters and other factors ([[@GreeneHoshi17]]). One such M-type channel is a major contributor to the mAHP K current, which we describe here. It is voltage sensitive, but starts to open at low voltages (-60 mV), and can be closed by different neurotransmitters or other factors. In general it takes a while to activate, with a time constant of around 50 msec or so, and it also deactivates on that same timescale.
+
+Relative to the kNA channels described below, which respond to $Na^+$ influx from spikes, the broadly-tuned voltage sensitivity of the M-type mAHP channel produces a stronger _anticipatory_ conductance prior to the spike. Thus, it will "head off" incipient spikes in a way that the KNa channels do not.
+
+The original characterization of the M-type current in most models derives from [[@^GutfreundYaromSegev95]], as implemented in NEURON by [[@^MainenSejnowski96]], see these ModelDB entries: [2488](https://modeldb.science/2488?tab=2&file=cells/km.mod), and [181967](https://modeldb.science/181967?tab=2&file=CutsuridisPoirazi2015/km.mod) from [[@CutsuridisPoirazi15]], and [ICGeneology](https://icg.neurotheory.ox.ac.uk/viewer/?family=1&channel=1706) for the widespread use of this code.
+
+There is a voltage gating factor _N_ (often labeled _M_ for other channels) which has an asymptotic drive value ($N_{infty}$) and a time constant $\tau$ which are both composed from two sigmoidal functions of potential V, centered at -30 mV with a slope of 9 mV:
+
+{id="eq_mahp_ab" title="mAHP functions"}
+$$
+V_o = V + 30
+$$
+
+$$
+A = \frac{V_o}{\tau_{max} \left(1 - e^{-V_o/9} \right)}
+$$
+
+$$
+B = \frac{-V_o}{\tau_{max} \left(1 - e^{V_o/9} \right)}
+$$
+
+$$
+N_{\infty} = \frac{A}{A + B}
+$$
+
+$$
+\tau = \frac{1}{A + B}
+$$
+
+{id="eq_mahp_dn" title="mAHP N update"}
+$$
+N(t) = N(t-1) + \frac{1}{\tau} \left( N_{\infty} - N(t-1) \right)
+$$
+
+$$
+g_{mahp} = \overline{g}_{mahp} 2.3^{(37-23)/10} N(t)
+$$
+
+You can see these functions in [[#plot_mahp:GV run]], and the time-course dynamics in [[#plot_mahp:Time run]].
+
+### sAHP: slow afterhyperpolarization
+
+{id="plot_sahp" title="sAHP M-type channel" collapsed="true"}
+```Goal
+pl := &chanplots.SahpPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "sAHP", "sAHP Channel", "sAHP M-type equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+```
+
+It is difficult to identify the origin of a slow, long-lasting sAHP current, which has been observed in hippocampal and other neurons ([[@Larsson13]]). It appears to be yet another modulator on the M-type channels driven by calcium sensor pathways that have longer time constants. There is more research to be done here, but we can safely use a mechanism that takes a long time to build up before activating the K+ channels, and then takes a long time to decay as well.
+
+The above equations ([[#eq_mahp_ab]]) are used for sAHP, driven by a normalized integrated Ca value, with an offset of 0.8 and slope of 0.02. Unlike mAHP which is updated at the standard 1 ms time step, we update sAHP at the theta cycle interval, which automatically extends the temporal dynamics.
 
 ### Sodium-gated potassium channels for adaptation (kNa adapt)
 
