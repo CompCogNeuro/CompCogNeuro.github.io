@@ -17,7 +17,7 @@ This simulation gives an in-depth view inside the processing within an individua
 
 In this model, the `Network` shows a single `Neuron`, which is "injected" with excitatory and inhibitory currents, as neuroscientists might do with an electrode injecting current into a single neuron. If you do `Run Cycles` in the toolbar you will see it get activated, but to really understand what is going on, we need to see the relationship among multiple variables as shown in the `Test Cycle Plot`.
 
-## Plot of Neuron variables over time
+## Overall phenomenology
 
 * Click the [[#sim_neuron:Test Cycle Plot]] tab in the right panel to display the graph view display. If you haven't done [[#sim_neuron:Run Cycles]] yet, do it now so you can see the results of running with the default parameters, with the left panel showing the level of excitatory (`Ge`) and inhibitory (`Gi`) conductances being injected, along with some other parameters that we'll manipulate soon.
 
@@ -35,20 +35,30 @@ This parameter determines the strength of the NMDA channel contribution to the o
 
 * The neuron is also receiving a significant amount of inhibition from the GABA-B inhibitory channels (see [[neuron channels#GABA-B]] for details), so let's remove those too. Set the [[#sim_neuron:GababGk]] value to 0 instead of the default of 0.015, and then do [[#sim_neuron:Init]] and [[#sim_neuron:Run Cycles]] again. Note that this conductance goes into the overall `Gk(t)` potassium (K) conductance value because the GABA-B channel is coupled to a K channel.
 
+## Adaptation
+
 You should now see that the neuron can make a couple of spikes, but that its rate of spiking decreases over time, and soon stops. This is because the Neuron is also subject to [[adaptation]], which is driven by several different channels that operate over different time scales and in response to different activating signals.
 
-TODO: do channels, describe here.
+* First, turn off [[#sim_neuron:KNa]] which will turn off the [[neuron channels#KNa]] sodium-gated K channels, which are one source of adaptation. [[#sim_neuron:Run Cycles]] to see the effect (if you don't hit Init then it will overlay on top of previous). You should see more spikes making it through.
 
+* Next, set [[#sim_neuron:MahpGk]] to 0, which will turn off the [[neuron channels#Mahp]] M-type voltage-gated K channel, which drives medium timescale afterhyperpolarization (AHP) dynamics. [[#sim_neuron:Run Cycles]] to see the effect. You should see now that the rate of spiking is perfectly consistent over time, as you would expect from the constant level of excitatory and inhibitory inputs.
 
-## OLD BELOW:
+## Basic conductances
 
-Only the excitatory and leak currents are operating here, with their conductances (Gbar E, Gbar L) as shown in the control panel.  You should see various lines plotted over 200 time steps (*cycles*) on the X axis.
+Now that things are simpler, we can drill down and understand the basic excitatory, inhibitory, and leak conductances, and how they drive the current which updates the membrane potential Vm.
 
-Here is a quick overview of each of the variables -- we'll go through them individually next (see for more details on how to determine what is being graphed, and how to configure it):
+* Turn on [[#sim_neuron:Test Cycle Plot/Ge]] = total excitatory input conductance to the neuron, which is generally a function of the number of open excitatory synaptic input channels at any given point in time (`Ge(t)`) and the overall strength of these input channels, which is given by `Gbar E`.  In this simple model, `Ge(t)` goes from 0 prior to cycle 10, to .75 from 10-160, and back to 0 thereafter.
 
-* [[#sim_neuron:Test Cycle Plot/Ge]] = total excitatory input conductance to the neuron, which is generally a function of the number of open excitatory synaptic input channels at any given point in time (`Ge(t)`) and the overall strength of these input channels, which is given by `Gbar E`.  In this simple model, `Ge(t)` goes from 0 prior to cycle 10, to 1 from 10-160, and back to 0 thereafter. Because `Gbar E = .3` (by default), the net value goes up to .3 from cycle 10-160. The timing of the input is controlled by the `OnCycle` and `OffCycle` parameters.
+The [[#sim_neuron:Ge]] parameter is set to 0.15 -- why are we getting 0.75 in the plot? The reason is that we're injecting 0.15 of _raw_ new synapse-level conductance that is supposed to be coming from AMPA channels. However, these AMPA channels stay open for 5 ms, i.e., 5 time steps, so they effectively accumulate 5x this per-step input, and indeed $5 x 0.15 = 0.75$.
 
-* [[#sim_neuron:Test Cycle Plot/Inet]] = net current (sum of individual excitation and leak currents), which is excitatory (upward) when the excitatory input comes on, and then oscillates as the action potential spikes fire. In general this reflects the net balance between the excitatory net input and the constant leak current (plus inhibition, which is not present in this simulation).
+{id="question_gi"}
+> Now you should be able to explain the value of [[#sim_neuron:Test Cycle Plot/Gi]] in the plot, in relation to the [[#sim_neuron:Gi]] parameter of 0.1 (hint: the decay time constant for GABA-A inhibitory channels is 7 ms).
+
+* Turn off `Ge` and `Gi`, and turn on [[#sim_neuron:Test Cycle Plot/Inet]] which shows the net current as the sum of excitatory, inhibitory and leak currents. Note that its values are rather large, especially during the spike, so it will swamp anything else on the left axis; Vm is plotted on the right axis, so you can see both at the same time.
+
+{id="question_inet"}
+> Based on what you've learned about the relationship between Inet and Vm, can you explain why Inet "spikes" as the Vm first rises when the input first comes on, and after each spike, and then it goes back toward 0 as the Vm stops changing as much, as it approaches the threshold level of -50 mV. 
+
 
 * [[#sim_neuron:Test Cycle Plot/Vm]] = membrane potential, which represents integration of all inputs into neuron. This starts out at the resting potential of .3 (= -70mV in biological units), and then increases with the excitatory input. As you can see, the net current (Inet) shows the *rate of change* of the membrane potential while it is elevated prior to spiking. When Vm gets above about .5, a spike is fired, and Vm is then reset back to .3, starting the cycle over again.
 

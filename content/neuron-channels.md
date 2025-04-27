@@ -432,7 +432,7 @@ br.Splits.Styler(func(s *styles.Style) {
 
 It is difficult to identify the origin of a slow, long-lasting sAHP current, which has been observed in hippocampal and other neurons ([[@Larsson13]]). It appears to be yet another modulator on the M-type channels driven by calcium sensor pathways that have longer time constants. There is more research to be done here, but we can safely use a mechanism that takes a long time to build up before activating the K+ channels, and then takes a long time to decay as well.
 
-The above equations ([[#eq_mahp_ab]]) are used for sAHP, driven by a normalized integrated Ca value, with an offset of 0.8 and slope of 0.02. Unlike mAHP which is updated at the standard 1 ms time step, we update sAHP at the theta cycle interval (every 200 ms), which automatically extends the temporal dynamics. [[#plot_sahp:GV run]] and [[#plot_sahp:Time run]] show you the functions.
+The above equations ([[#eq_mahp_ab]]) are used for sAHP, driven by a normalized integrated Ca value, with an offset of 0.8 and slope of 0.02. Unlike mAHP which is updated at the standard 1 ms time step, we update sAHP at the theta cycle interval (every 200 ms), which automatically extends the temporal dynamics. [[#plot_sahp:G ca run]] and [[#plot_sahp:Time run]] show you the functions.
 
 ### KNa
 
@@ -481,7 +481,7 @@ $$
 M_{\infty} = \frac{([Ca]_i / C_{50})^4}{1 + ([Ca]_i / C_{50})^4}
 $$
 
-If $M_{\infty}$ is greater than the current M activation value, M increases with a rise time constant of 15 ms, and otherwise it decays with a time constant of 30 ms. See [[#plot_skca:GV run]] and [[#plot_skda:Time run]] for plots.
+If $M_{\infty}$ is greater than the current M activation value, M increases with a rise time constant of 15 ms, and otherwise it decays with a time constant of 30 ms. See [[#plot_skca:G ca run]] and [[#plot_skca:Time run]] for plots.
 
 
 

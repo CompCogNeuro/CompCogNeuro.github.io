@@ -3,7 +3,7 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.10-0.20250424173140-98b1f1ea8624
+	cogentcore.org/core v0.3.10-0.20250427014623-de19631808dc
 	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250425080423-752e50abc27c
 )
 
