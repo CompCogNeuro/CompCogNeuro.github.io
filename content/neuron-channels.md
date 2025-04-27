@@ -16,35 +16,51 @@ The default parameters for each of the channel types covered here are shown in t
 {id="table_taus" title="Time constants"}
 | Parameter                        | Value    |
 |----------------------------------|----------|
-| $\tau_{ampa}$                    | 5 ms     |
-| $\tau_{gaba_a}$                  | 7 ms     |
-| $\tau_{nmda}$                    | 100 ms   |
-| $\tau_{gaba_b}$ rise ($\tau_r$)  | 45 ms    |
-| $\tau_{gaba_b}$ decay ($\tau_d$) | 50 ms    |
-| mAHP $\tau_{max}$                | 1,000 ms |
-
+| AMPA decay $\tau_d$              | 5 ms     |
+| GABA-A decay $\tau_d$            | 7 ms     |
+| NMDA decay $\tau_d$              | 100 ms   |
+| GABA-B rise $\tau_r$             | 45 ms    |
+| GABA-B decay $\tau_d$            | 50 ms    |
+| mAHP, sAHP max $\tau_{max}$      | 1 s      |
+| KNa_m rise $\tau_r$              | 50 ms    |
+| KNa_m decay $\tau_d$             | 100 ms   |
+| KNa_s rise $\tau_r$              | 1 s      |
+| KNa_s decay $\tau_d$             | 1 s      |
+| Kir rise $\tau_r$                | 14 ms    |
+| Kir decay $\tau_d$               | 23 ms    |
+| SKCa rise $\tau_r$               | 15 ms    |
+| SKCa decay $\tau_d$              | 30 ms    |
 
 {id="table_gs" title="Conductance scaling factors"}
-| Parameter                 | Value   |
-|---------------------------|---------|
-| $\overline{g}_{nmda}      | 0.006   |
-| $\overline{g}_{gabab}     | 0.015   |
-| $\overline{g}_{vgcc}      | 0.02    |
-| $\overline{g}_{ak}        | 0.1     |
-| $\overline{g}_{mahp}      | 0.02    |
-| $\overline{g}_{sahp}      | 0.05    |
+| Parameter        | Value   |
+|------------------|---------|
+| NMDA             | 0.006   |
+| GABA-B           | 0.015   |
+| VGCC             | 0.02    |
+| A-type K         | 0.1     |
+| mAHP             | 0.02    |
+| sAPH             | 0.05    |
+| KNa              | 0.2     |
+| Kir (default 0)  | 10      |
+| SKCa (default 0) | 2       |
 
+The above [[#table_gs]] are the conductance scaling factors for each channel. These are not in the same units as the overall g-bar factors that convert the roughly normalized time-varying conductance values into the final nS conductance values, because we add these channels to the overall time-varying `Ge(t)` or `Gk(t)` conductances that are then multiplied by the g-bar factors in the end (which are set to 100 nS by default). Furthermore, these scaling factors multiply values that are not themselves normalized quantities, so they are not directly interpretable, and are included here just to document the full set of standard parameters. See the following table for values that give a better sense of overall relative magnitudes of conductances.
 
-{id="table_gs" title="Typical max conductances"}
-| Parameter                 | Value     |
-|---------------------------|-----------|
-| NMDA posterior cortex     | 50 nS     |
-| GABA-B                    | 50 nS     |
-| VGCC                      | 4 nS      |
-| aK                        | 10 nS     |
-| Mahp                      | 2 nS      |
-| Sahp                      | 5 nS      |
+{id="table_max-gs" title="Typical max conductances"}
+| Parameter                 | Value      |
+|---------------------------|------------|
+| AMPA                      | 1-200 nS   |
+| GABA-A                    | 3-400 nS   |
+| NMDA posterior cortex     | 50 nS      |
+| GABA-B                    | 50 nS      |
+| VGCC                      | 4 nS       |
+| aK                        | 10 nS      |
+| Mahp                      | 2 nS       |
+| Sahp                      | 5 nS       |
+| KNa med                   | 3 nS       |
+| KNa slow                  | 1 nS       |
 
+The above [[#table_max-gs]] shows the typical maximum conductances for each type of channel, including all the various factors that go into computing the final time-varying conductance values. These are all approximate values and depend on various network level parameters and dynamics (especially the AMPA, GABA-A inhibition, and NMDA), so they are just for getting an overall sense of relative magnitude. 
 
 {id="table_gs-refs" title="Conductances from other models"}
 | Parameter                            | Value            |
@@ -65,12 +81,12 @@ The AMPA receptor conductance can be modeled using the _double-exponential_ func
 
 {id="eq_double_e" title="Double exponential"}
 $$
-g(t) = e^{-t / \tau_1} - e^{-t / \tau_2}
+g(t) = e^{-t / \tau_r} - e^{-t / \tau_d}
 $$
 
-$\tau_1$ is a fast _rise_ time constant for the increase in conductance when the glutamate first binds to the AMPA receptor (less than 1 ms according to [[@HestrinNicollPerkelEtAl90]]), and $\tau_2$ is a slower _decay_ time constant reflecting the inactivation of the AMPA receptor over time, estimated at 4.4 ms by [[@^HestrinNicollPerkelEtAl90]].
+$\tau_r$ is a fast _rise_ time constant for the increase in conductance when the glutamate first binds to the AMPA receptor (less than 1 ms according to [[@HestrinNicollPerkelEtAl90]]), and $\tau_d$ is a slower _decay_ time constant reflecting the inactivation of the AMPA receptor over time, estimated at 4.4 ms by [[@^HestrinNicollPerkelEtAl90]].
 
-The _alpha_ function as introduced by [[@^Rall67]] has also been used to model relatively fast conductances:
+The _alpha_ function as introduced by [[@^Rall67]] has also been used to model relatively fast conductances, using a single time constant:
 
 {id="eq_alpha" title="Alpha function"}
 $$
@@ -81,7 +97,7 @@ In the [[Axon]] model we use a time step of 1 ms for integrating all of the [[ne
 
 {id="eq_ampa_g" title="AMPA conductance"}
 $$
-g_{ampa}(t) = g_{ampa}(t-1) \left(1 - \frac{1}{\tau_{ampa}} \right)
+g_{ampa}(t) = g_{ampa}(t-1) \left(1 - \frac{1}{\tau_d} \right)
 $$
 
 As with all channels, this conductance then drives a corresponding current as a function of the reversal potential for AMPA ($E_{ampa}$), which is estimated at 0 mV:
@@ -95,7 +111,7 @@ $$
 
 The GABA-A channel is the standard inhibitory synaptic input channel discussed in [[neuron]] and [[inhibition]]. It is opened by the binding of the GABA (gamma-aminobutyric acid) neurotransmitter, released by special populations of inhibitory interneurons. It primarily allows negatively-charged chloride ions $Cl^-$ to flow into the cell, which act to keep the electrical potential negative.
 
-We model GABA-A conductances in the same way as AMPA, with a single exponential decay function ([[#eq_ampa_g]], using a time constant $\tau$ of 7 ms [[@XiangHuguenardPrince98]]. The reversal potential for GABA-A ($E_{gaba_a}$) is -75 mV.
+We model GABA-A conductances in the same way as AMPA, with a single exponential decay function ([[#eq_ampa_g]], using a time constant $\tau_d$ of 7 ms [[@XiangHuguenardPrince98]]. The reversal potential for GABA-A ($E_{gaba_a}$) is -75 mV.
 
 ## K Leak
 
@@ -124,7 +140,7 @@ To see the unblocking in action, press the [[#plot_nmda:GV run]] button above, w
 
 NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow into the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
 
-[[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the _Tau_ time constant parameter (greek $\tau$) is much longer than most other channels, on the order of 100 ms or more. This parameter describes the exponential decay constant (of the same form as [[#eq_ampa_g]]) for the NMDA conductance, which like AMPA has a sufficiently fast rise time that it can be ignored. This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
+[[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the $\tau_d$ decay time constant parameter (see [[#eq_ampa_g]]) is much longer than most other channels, on the order of 100 ms or more (like AMPA, NMDA has a sufficiently fast rise time that it can be ignored). This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
 
 The equation we use for the voltage-gated conductance is due to [[@JahrStevens90]], and is used in the widely-cited [[@BrunelWang01]] model:
 
@@ -187,6 +203,52 @@ g_{gaba_b}(t) = g_{gaba_b}(V) M(t)
 $$
 
 Do [[#plot_gabab:Time run]] to see these time dynamics play out over a 500 ms window with a pulse of input at the start.
+
+### Kir
+
+{id="plot_kir" title="Kir channel" collapsed="true"}
+```Goal
+pl := &chanplots.KirPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "Kir", "Kir channel", "Kir channel equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
+```
+
+The _Kir_ channel that GABA-B couples to is also available as a separate standalone channel, using the same form of inwardly-rectifying voltage dependence, but in a persistently active form. These channels are not used by default, but are critical for certain cell types. The inward rectification results in an additional threshold-like bistable behavior, where neurons that are not activated much above the resting potential get additional leak conductance from this Kir channel, but once they start to get activated, the Kir is inactivated and they can then fire more easily. This is critical for the behavior of medium spiny neurons (MSNs) in the striatum of the basal ganglia, which tend to be very quiet, but then fire in discrete bursts when sufficiently activated.
+
+We use equations from [[@^LindroosDorstDuEtAl18]] parameterized for MSN neurons, with an activating factor M, which can be seen in [[#plot_kir:GV run]] and [[#plot_kir:Time run]]:
+
+{id="eq_kir_m" title="Kir voltage-gated activation M"}
+$$
+M_{\infty} = \frac{1}{1 + e^{(V+102)/13}}
+$$
+
+{id="eq_kir_tau" title="Kir variable time constant"}
+$$
+A = 0.1 e^{-(V+60)/14}
+$$
+
+$$
+B = \frac{0.27}{1 + e^{-(V+31)/23}}
+$$
+
+$$
+\tau = \frac{1}{A + B}
+$$
+
+{id="eq_kir_dm" title="Kir M update"}
+$$
+M(t) = M(t-1) + \frac{1}{3 \tau(t)} \left(M_{\infty} - M(t-1) \right)
+$$
+
+{id="eq_kir_g" title="Kir conductance"}
+$$
+g_{kir} = \overline{g}_{kir} M(t)
+$$
 
 ## VGCC: Voltage-gated calcium channels
 
@@ -294,7 +356,15 @@ There are a number of different channels that drive an [[adaptation]] effect in 
 
 Functionally, these are also known as _afterhyperpolarization (AHP)_ channels, because they cause neurons to become refractory (less responsive) to further excitatory inputs for different time windows, from fast (fAHP; 2-5 ms), to medium (mAHP; 50-100 ms), and slow (sAHP; 0.1-2 s).
 
-### M-type mAHP
+Biologically, there are a great variety of K channels, which are typically composed from 4 different α (alpha) subunits, of which there are voltage-dependent (Kv), inward rectifier (Kir), calcium (KCa), and sodium (KNa) types. [[@^BendaMalerLongtin10]] provide a detailed computational comparison of several of these different types, in relation to another adaptation mechanism based on the Na channels that drive the Hodgkin-Huxley action potential spiking itself. They discovered important qualitative differences between the K-based adaptation channels and the spiking threshold adaptation.
+
+### M-type channels
+
+There are a large number of different K channels that were historically called _M-type_ due to their muscarinic acetylcholine (ACh) response in the bullfrog sympathetic ganglion cells. These are now classified as Kv7 KCNQ channels, which have been identified throughout the brain, with responsiveness to a wide range of different neurotransmitters and other factors ([[@GreeneHoshi17]]). One well-characterized M-type channel is a major contributor to the mAHP K current, which we use in Axon as described below. It is voltage sensitive, but starts to open at low voltages (-60 mV), and can be closed by different neurotransmitters or other factors. In general it takes a while to activate, with a time constant of around 50 msec or so, and it also deactivates on that same timescale.
+
+Functionally, the neurotransmitter binding to these M-type channels typically turns them _off_, not on, producing a disinhibitory effect which is fundamentally modulatory or multiplicative in nature: removing extra K leak conductance does not directly activate the neuron, but it makes it more responsive to other inputs, and less susceptible to adaptation effects.
+
+### mAHP
 
 {id="plot_mahp" title="mAHP M-type channel" collapsed="true"}
 ```Goal
@@ -308,13 +378,11 @@ br.Splits.Styler(func(s *styles.Style) {
 })
 ```
 
-There are a large number of different K channels that were historically called _M-type_ due to their muscarinic acetylcholine (ACh) response in the bullfrog sympathetic ganglion cells. These are now classified as Kv7 KCNQ channels, which have been identified throughout the brain, with responsiveness to a wide range of different neurotransmitters and other factors ([[@GreeneHoshi17]]). One such M-type channel is a major contributor to the mAHP K current, which we describe here. It is voltage sensitive, but starts to open at low voltages (-60 mV), and can be closed by different neurotransmitters or other factors. In general it takes a while to activate, with a time constant of around 50 msec or so, and it also deactivates on that same timescale.
-
-Relative to the kNA channels described below, which respond to $Na^+$ influx from spikes, the broadly-tuned voltage sensitivity of the M-type mAHP channel produces a stronger _anticipatory_ conductance prior to the spike. Thus, it will "head off" incipient spikes in a way that the KNa channels do not.
+Relative to the KNA channels described below, which respond to $Na^+$ influx from spikes, the broadly-tuned voltage sensitivity of the M-type mAHP channel produces a stronger _anticipatory_ conductance prior to the spike. Thus, it will "head off" incipient spikes in a way that the KNa channels do not.
 
 The original characterization of the M-type current in most models derives from [[@^GutfreundYaromSegev95]], as implemented in NEURON by [[@^MainenSejnowski96]], see these ModelDB entries: [2488](https://modeldb.science/2488?tab=2&file=cells/km.mod), and [181967](https://modeldb.science/181967?tab=2&file=CutsuridisPoirazi2015/km.mod) from [[@CutsuridisPoirazi15]], and [ICGeneology](https://icg.neurotheory.ox.ac.uk/viewer/?family=1&channel=1706) for the widespread use of this code.
 
-There is a voltage gating factor _N_ (often labeled _M_ for other channels) which has an asymptotic drive value ($N_{infty}$) and a time constant $\tau$ which are both composed from two sigmoidal functions of potential V, centered at -30 mV with a slope of 9 mV:
+There is a voltage gating factor _N_ (often labeled _M_ for other channels) which has an asymptotic drive value ($N_{infty}$) and a time-dependent time constant $\tau$ which are both composed from two sigmoidal functions of potential V, centered at -30 mV with a slope of 9 mV:
 
 {id="eq_mahp_ab" title="mAHP functions"}
 $$
@@ -348,7 +416,7 @@ $$
 
 You can see these functions in [[#plot_mahp:GV run]], and the time-course dynamics in [[#plot_mahp:Time run]].
 
-### sAHP: slow afterhyperpolarization
+### sAHP
 
 {id="plot_sahp" title="sAHP M-type channel" collapsed="true"}
 ```Goal
@@ -364,36 +432,56 @@ br.Splits.Styler(func(s *styles.Style) {
 
 It is difficult to identify the origin of a slow, long-lasting sAHP current, which has been observed in hippocampal and other neurons ([[@Larsson13]]). It appears to be yet another modulator on the M-type channels driven by calcium sensor pathways that have longer time constants. There is more research to be done here, but we can safely use a mechanism that takes a long time to build up before activating the K+ channels, and then takes a long time to decay as well.
 
-The above equations ([[#eq_mahp_ab]]) are used for sAHP, driven by a normalized integrated Ca value, with an offset of 0.8 and slope of 0.02. Unlike mAHP which is updated at the standard 1 ms time step, we update sAHP at the theta cycle interval, which automatically extends the temporal dynamics.
+The above equations ([[#eq_mahp_ab]]) are used for sAHP, driven by a normalized integrated Ca value, with an offset of 0.8 and slope of 0.02. Unlike mAHP which is updated at the standard 1 ms time step, we update sAHP at the theta cycle interval (every 200 ms), which automatically extends the temporal dynamics. [[#plot_sahp:GV run]] and [[#plot_sahp:Time run]] show you the functions.
 
-### Sodium-gated potassium channels for adaptation (kNa adapt)
+### KNa
 
-The longer-term adaptation (accommodation / fatigue) dynamics of neural firing in our models are based on sodium (Na) gated potassium (K) currents. As neurons spike, driving an influx of Na, this activates the K channels, which, like leak channels, pull the membrane potential back down toward rest (or even below).  Multiple different time constants have been identified and this implementation supports 3: M-type (fast), Slick (medium), and Slack (slow) ([[@Kaczmarek13]]; [[@Kohn07]]; [[@Sanchez-VivesNowakMcCormick00a]]; [[@BendaMalerLongtin10]]).
+Another source of adaptation are a family of sodium (Na) gated potassium (K) currents, _KNa_. As neurons spike, driving an influx of Na, this activates the K channels. Although synaptic Na from AMPA channels could also activate such channels, various considerations suggest that these channels are localized around the axon hillock in the soma and respond mostly to spiking-generated Na ([[@Sanchez-VivesNowakMcCormick00a]]; [[@WangLiuHaditschEtAl03]]). Thus, contrasting with the voltage-gated mAHP M-type channel above, these KNa channels respond to above-theshold spiking, and are therefore more "reactive" to activity rather than anticipatory. Multiple different time constants have been identified, including _Slick_ (medium), and _Slack_ (slow) ([[@Kaczmarek13]]; [[@Kohn07]]; [[@Sanchez-VivesNowakMcCormick00a]]; [[@WangLiuHaditschEtAl03]]; [[@BendaMalerLongtin10]]).
 
-The logic is simplest for the spiking case, and can be expressed in conditional program code:
-```
+Due to the discrete nature of spiking and our 1 ms time scale of updating, we can use a simplified exponential update dynamic as a function of spiking:
+```go
 	if spike {
-		gKNa += Rise * (Max - gKNa)
+		gKNa += 1/Rise * (Max - gKNa)
 	} else {
-		gKNa -= 1/Tau * gKNa
+		gKNa -= 1/Decay * gKNa
 	}
 ```
 
-The KNa conductance ($g_{kna}$ in mathematical terminology, `gKNa` in the program) rises to a `Max` value with a `Rise` rate constant, when the neuron spikes, and otherwise it decays back down to zero with another time constant `Tau`.
+### SKCa
 
-The equivalent rate-code equation just substitutes the rate-coded activation variable in as a multiplier on the rise term:
-
+{id="plot_skca" title="SKCa channel" collapsed="true"}
+```Goal
+pl := &chanplots.SKCaPlot{}
+root, _ := tensorfs.NewDir("Root")
+br := egui.NewGUIBody(b, pl, root, "SKCa", "SKCa Channel", "SKCa equations")
+pl.Config(root, br.Tabs)
+br.FinalizeGUI(false)
+br.Splits.Styler(func(s *styles.Style) {
+	s.Min.Y.Em(25)
+})
 ```
-	gKNa += act * Rise * (Max - gKNa) - (1/Tau * gKNa)
-```
 
-{id="table_kna" title="kNA adaptation time constants"}
-| Channel Type     | Tau (ms) | Rise  |  Max  |
-|------------------|----------|-------|-------|
-| Fast (M-type)    | 50       | 0.05  | 0.1   |
-| Medium (Slick)   | 200      | 0.02  | 0.1   |
-| Slow (Slack)     | 1000     | 0.001 | 1.0   |
+There are two major types of Ca-gated K channels: "small" K (SK, SKCa) and "big" K (BK, BKCa). BK channels are high conductance with fast dynamics, and play a role in shaping the action potential, which we therefore ignore due to our use of the AdEx approximation and 1 ms time step (and they are not widely implemented in biophysical models according to [ModelDB](https://modeldb.science/modellist/243504)).
 
-The default parameters, which were fit to various empirical firing patterns and also have proven useful in simulations, are shown in [[#table_kna]].
+The SK channel is not turned on by default, but is critical for our model of the subthalamic nucleus (STN), which exhibits a distinct pausing pattern of activity after an initial burst of firing. SKCa is activated by intracellular Ca stores that are released during the initial burst of firing, and the subsequent pause in firing induced by the additional K conductance allows these Ca to be re-buffered, thereby deactivating the SKCa current.
+
+Our implementation is based on [[@^FujitaFukaiKitano12]], which is in turn based on [[@^GunayEdgertonJaeger08]], using a simple Hill equation which takes the form of:
+
+{eq="eq_hill" title="Hill equation"}
+$$
+Y = \frac{X}{X + C_{50}} = \frac{\frac{X}{C_{50}}}{1 + \frac{X}{C_{50}}}
+$$
+
+where $C_{50}$ is the concentration at which the value is at 50%. This Hill equation, raised to various power factors reflecting a requirement for multiple elements to be in the same place and state, can be used to model many different chemical processes, and is used behind the scenes to derive various equations used above. A different sigmoidal exponential equation was given in [[@^GilliesWillshaw06]] in a model of the subthalamic nucleus (STN) cell. [[@^AdelmanMaylieSah12]] and [[@^DwivediBhalla21]] give an activation time constant of 5-15 ms and decay constant of around 30 ms for the SKCa.
+
+As usual, we use an M activation factor, governed by the asymptotic Hill equation, operating on a normalized intracellular Ca concentration factor $[Ca]_i$:
+
+{eq="eq_skca_m" title="SKCa M activation factor"}
+$$
+M_{\infty} = \frac{([Ca]_i / C_{50})^4}{1 + ([Ca]_i / C_{50})^4}
+$$
+
+If $M_{\infty}$ is greater than the current M activation value, M increases with a rise time constant of 15 ms, and otherwise it decays with a time constant of 30 ms. See [[#plot_skca:GV run]] and [[#plot_skda:Time run]] for plots.
+
 
 

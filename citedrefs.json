@@ -2287,6 +2287,98 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "LindroosDorstDuEtAl18",
+		"citation-key": "LindroosDorstDuEtAl18",
+		"language": "English",
+		"author": [
+			{
+				"family": "Lindroos",
+				"given": "Robert"
+			},
+			{
+				"family": "Dorst",
+				"given": "Matthijs C."
+			},
+			{
+				"family": "Du",
+				"given": "Kai"
+			},
+			{
+				"family": "Filipović",
+				"given": "Marko"
+			},
+			{
+				"family": "Keller",
+				"given": "Daniel"
+			},
+			{
+				"family": "Ketzef",
+				"given": "Maya"
+			},
+			{
+				"family": "Kozlov",
+				"given": "Alexander K."
+			},
+			{
+				"family": "Kumar",
+				"given": "Arvind"
+			},
+			{
+				"family": "Lindahl",
+				"given": "Mikael"
+			},
+			{
+				"family": "Nair",
+				"given": "Anu G."
+			},
+			{
+				"family": "Pérez-Fernández",
+				"given": "Juan"
+			},
+			{
+				"family": "Grillner",
+				"given": "Sten"
+			},
+			{
+				"family": "Silberberg",
+				"given": "Gilad"
+			},
+			{
+				"family": "Hellgren Kotaleski",
+				"given": "Jeanette"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					11,
+					22
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Neural Circuits",
+		"container-title-short": "Front. Neural Circuits",
+		"DOI": "10.3389/fncir.2018.00003",
+		"ISSN": "1662-5110",
+		"source": "Frontiers",
+		"title": "Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2",
+		"URL": "https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full",
+		"volume": "12"
+	},
+	{
+		"type": "article-journal",
 		"id": "Dolphin18",
 		"citation-key": "Dolphin18",
 		"language": "en",
@@ -2452,6 +2544,58 @@
 		"title": "K+ channel regulation of signal propagation in dendrites of hippocampal pyramidal neurons",
 		"URL": "https://www.nature.com/articles/43119",
 		"volume": "387"
+	},
+	{
+		"type": "article-journal",
+		"id": "BendaMalerLongtin10",
+		"citation-key": "BendaMalerLongtin10",
+		"language": "en",
+		"author": [
+			{
+				"family": "Benda",
+				"given": "Jan"
+			},
+			{
+				"family": "Maler",
+				"given": "Leonard"
+			},
+			{
+				"family": "Longtin",
+				"given": "André"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					11,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00240.2010",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "2806-2820",
+		"PMID": "21045213",
+		"source": "jn.physiology.org.colorado.idm.oclc.org",
+		"title": "Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds",
+		"URL": "http://jn.physiology.org/content/104/5/2806",
+		"volume": "104"
 	},
 	{
 		"type": "article-journal",
@@ -2632,6 +2776,167 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Larsson13",
+		"citation-key": "Larsson13",
+		"author": [
+			{
+				"family": "Larsson",
+				"given": "H. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					1,
+					22
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Biophysical Journal",
+		"container-title-short": "Biophys J",
+		"DOI": "10.1016/j.bpj.2012.11.3832",
+		"ISSN": "0006-3495",
+		"issue": "2",
+		"page": "281-283",
+		"PMCID": "PMC3552283",
+		"PMID": "23442848",
+		"source": "PubMed Central",
+		"title": "What Determines the Kinetics of the Slow Afterhyperpolarization (sAHP) in Neurons?",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552283/",
+		"volume": "104"
+	},
+	{
+		"type": "article-journal",
+		"id": "Sanchez-VivesNowakMcCormick00a",
+		"citation-key": "Sanchez-VivesNowakMcCormick00a",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sanchez-Vives",
+				"given": "Maria V."
+			},
+			{
+				"family": "Nowak",
+				"given": "Lionel G."
+			},
+			{
+				"family": "McCormick",
+				"given": "David A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "11",
+		"page": "4286-4299",
+		"PMID": "10818164",
+		"source": "www.jneurosci.org.colorado.idm.oclc.org",
+		"title": "Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro",
+		"URL": "http://www.jneurosci.org/content/20/11/4286",
+		"volume": "20"
+	},
+	{
+		"type": "article-journal",
+		"id": "WangLiuHaditschEtAl03",
+		"citation-key": "WangLiuHaditschEtAl03",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "J."
+			},
+			{
+				"family": "Liu",
+				"given": "S. H."
+			},
+			{
+				"family": "Haditsch",
+				"given": "U."
+			},
+			{
+				"family": "Tu",
+				"given": "W. H."
+			},
+			{
+				"family": "Cochrane",
+				"given": "K."
+			},
+			{
+				"family": "Ahmadian",
+				"given": "G."
+			},
+			{
+				"family": "Tran",
+				"given": "L."
+			},
+			{
+				"family": "Paw",
+				"given": "J."
+			},
+			{
+				"family": "Wang",
+				"given": "Y. T."
+			},
+			{
+				"family": "Mansuy",
+				"given": "I."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"page": "826-836",
+		"title": "Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses",
+		"volume": "23"
+	},
+	{
+		"type": "article-journal",
 		"id": "Kaczmarek13",
 		"citation-key": "Kaczmarek13",
 		"author": [
@@ -2720,29 +3025,72 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "Sanchez-VivesNowakMcCormick00a",
-		"citation-key": "Sanchez-VivesNowakMcCormick00a",
+		"id": "FujitaFukaiKitano12",
+		"citation-key": "FujitaFukaiKitano12",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Fujita",
+				"given": "Tomohiro"
+			},
+			{
+				"family": "Fukai",
+				"given": "Tomoki"
+			},
+			{
+				"family": "Kitano",
+				"given": "Katsunori"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Computational Neuroscience",
+		"container-title-short": "J Comput Neurosci",
+		"DOI": "10.1007/s10827-011-0368-2",
+		"ISSN": "1573-6873",
+		"issue": "3",
+		"page": "539-553",
+		"PMID": "21993572",
+		"source": "PubMed",
+		"title": "Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron",
+		"volume": "32"
+	},
+	{
+		"type": "article-journal",
+		"id": "GunayEdgertonJaeger08",
+		"citation-key": "GunayEdgertonJaeger08",
 		"language": "en",
 		"author": [
 			{
-				"family": "Sanchez-Vives",
-				"given": "Maria V."
+				"family": "Günay",
+				"given": "Cengiz"
 			},
 			{
-				"family": "Nowak",
-				"given": "Lionel G."
+				"family": "Edgerton",
+				"given": "Jeremy R."
 			},
 			{
-				"family": "McCormick",
-				"given": "David A."
+				"family": "Jaeger",
+				"given": "Dieter"
 			}
 		],
 		"accessed": {
 			"date-parts": [
 				[
-					"2017",
-					11,
-					30
+					"2022",
+					9,
+					1
 				]
 			]
 		},
@@ -2751,9 +3099,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2000",
-					6,
-					1
+					"2008",
+					7,
+					23
 				]
 			]
 		},
@@ -2761,40 +3109,39 @@
 		"submitted": {},
 		"container-title": "Journal of Neuroscience",
 		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.4198-07.2008",
 		"ISSN": "0270-6474, 1529-2401",
-		"issue": "11",
-		"page": "4286-4299",
-		"PMID": "10818164",
-		"source": "www.jneurosci.org.colorado.idm.oclc.org",
-		"title": "Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro",
-		"URL": "http://www.jneurosci.org/content/20/11/4286",
-		"volume": "20"
+		"issue": "30",
+		"page": "7476-7491",
+		"PMID": "18650326",
+		"publisher": "Society for Neuroscience",
+		"section": "Articles",
+		"source": "www.jneurosci.org",
+		"title": "Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach",
+		"title-short": "Channel Density Distributions Explain Spiking Variability in the Globus Pallidus",
+		"URL": "https://www.jneurosci.org/content/28/30/7476",
+		"volume": "28"
 	},
 	{
 		"type": "article-journal",
-		"id": "BendaMalerLongtin10",
-		"citation-key": "BendaMalerLongtin10",
-		"language": "en",
+		"id": "GilliesWillshaw06",
+		"citation-key": "GilliesWillshaw06",
 		"author": [
 			{
-				"family": "Benda",
-				"given": "Jan"
+				"family": "Gillies",
+				"given": "Andrew"
 			},
 			{
-				"family": "Maler",
-				"given": "Leonard"
-			},
-			{
-				"family": "Longtin",
-				"given": "André"
+				"family": "Willshaw",
+				"given": "David"
 			}
 		],
 		"accessed": {
 			"date-parts": [
 				[
-					"2017",
-					11,
-					30
+					"2020",
+					7,
+					9
 				]
 			]
 		},
@@ -2803,8 +3150,8 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2010",
-					11,
+					"2006",
+					4,
 					1
 				]
 			]
@@ -2812,15 +3159,98 @@
 		"original-date": {},
 		"submitted": {},
 		"container-title": "Journal of Neurophysiology",
-		"DOI": "10.1152/jn.00240.2010",
-		"ISSN": "0022-3077, 1522-1598",
-		"issue": "5",
-		"page": "2806-2820",
-		"PMID": "21045213",
-		"source": "jn.physiology.org.colorado.idm.oclc.org",
-		"title": "Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds",
-		"URL": "http://jn.physiology.org/content/104/5/2806",
-		"volume": "104"
+		"DOI": "10.1152/jn.00525.2005",
+		"ISSN": "0022-3077",
+		"issue": "4",
+		"page": "2352-2365",
+		"publisher": "American Physiological Society",
+		"source": "journals-physiology-org.colorado.idm.oclc.org (Atypon)",
+		"title": "Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity",
+		"URL": "http://journals.physiology.org/doi/full/10.1152/jn.00525.2005",
+		"volume": "95"
+	},
+	{
+		"type": "article-journal",
+		"id": "AdelmanMaylieSah12",
+		"citation-key": "AdelmanMaylieSah12",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Adelman",
+				"given": "John P."
+			},
+			{
+				"family": "Maylie",
+				"given": "James"
+			},
+			{
+				"family": "Sah",
+				"given": "Pankaj"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Annual Review of Physiology",
+		"container-title-short": "Annu Rev Physiol",
+		"DOI": "10.1146/annurev-physiol-020911-153336",
+		"ISSN": "1545-1585",
+		"page": "245-269",
+		"PMID": "21942705",
+		"source": "PubMed",
+		"title": "Small-conductance Ca2+-activated K+ channels: form and function",
+		"title-short": "Small-conductance Ca2+-activated K+ channels",
+		"volume": "74"
+	},
+	{
+		"type": "article-journal",
+		"id": "DwivediBhalla21",
+		"citation-key": "DwivediBhalla21",
+		"author": [
+			{
+				"family": "Dwivedi",
+				"given": "Deepanjali"
+			},
+			{
+				"family": "Bhalla",
+				"given": "Upinder S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					4
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Molecular Neuroscience",
+		"ISSN": "1662-5099",
+		"source": "Frontiers",
+		"title": "Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels",
+		"URL": "https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435",
+		"volume": "14"
 	},
 	{
 		"type": "article-journal",

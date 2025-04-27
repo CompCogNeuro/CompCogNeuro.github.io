@@ -2,6 +2,8 @@
 
 <p id="AckleyHintonSejnowski85">Ackley, D.H., Hinton, G.E., & Sejnowski, T.J. (1985). A learning algorithm for Boltzmann machines. Cognitive Science, 9, 147-169. </p>
 
+<p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
+
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
@@ -40,15 +42,23 @@
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
+<p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
+
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
+<p id="FujitaFukaiKitano12">Fujita, T., Fukai, T., & Kitano, K. (2012). Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron. Journal of Computational Neuroscience, 32, 539-553.  http://doi.org/10.1007/s10827-011-0368-2</p>
+
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
+
+<p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
 <p id="GreeneHoshi17">Greene, D.L., & Hoshi, N. (2017). Modulation of Kv7 channels and excitability in the brain. Cellular and molecular life sciences : CMLS, 74, 495-508. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5243414/ http://doi.org/10.1007/s00018-016-2359-y</p>
+
+<p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
 
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
@@ -88,9 +98,13 @@
 
 <p id="LarkumZhuSakmann99">Larkum, M.E., Zhu, J.J., & Sakmann, B. (1999). A new cellular mechanism for coupling inputs arriving at different cortical layers. Nature, 398, 338-341. https://www.nature.com/articles/18686 http://doi.org/10.1038/18686</p>
 
+<p id="Larsson13">Larsson, H.P. (2013). What Determines the Kinetics of the Slow Afterhyperpolarization (sAHP) in Neurons? Biophysical Journal, 104, 281-283. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552283/ http://doi.org/10.1016/j.bpj.2012.11.3832</p>
+
 <p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
 
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
+
+<p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
 
 <p id="MainenSejnowski96">Mainen, Z.F., & Sejnowski, T.J. (1996). Influence of dendritic structure on firing pattern in model neocortical neurons. Nature, 382, 363. http://www.ncbi.nlm.nih.gov/pubmed/8684467</p>
 
@@ -159,6 +173,8 @@
 <p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
 
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
+
+<p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
 
