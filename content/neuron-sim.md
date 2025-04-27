@@ -23,7 +23,11 @@ In this model, the `Network` shows a single `Neuron`, which is "injected" with e
 
 We'll start by first understanding the behavior of this neuron at an overall, qualitative level, with all the parameters at their standard default values, which are the values used in most of the other simulations in [[Axon]]. Although these neurons have a lot of parameters relative to the units in [[abstract neural network]]s, we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so.
 
-You can see that the level of injected input causes the neuron to fire a series of spikes, which are visible in the `Vm` membrane potential plot, and are also recorded discretely in the [[#sim_neuron:Test Cycle Plot/Spike]] variable (toggle that off to better see `Vm` alone). The `Act` value plots the rate-code activation value that is computed from a running-average of the inter-spike-intervals (`ISIAvg`), which is the number of milliseconds between each spike. This `Act` value shows what you can hopefully see in the spikes themselves: the rate of spiking is going up over time!
+You can see that the level of injected input causes the neuron to fire a series of spikes, which are visible in the [[#sim_neuron:Test Cycle Plot/Vm]] membrane potential plot, and are also recorded discretely in the [[#sim_neuron:Test Cycle Plot/Spike]] variable (toggle that off to better see `Vm` alone). At the broadest level, you can see the periodic spikes that fire as the membrane potential gets over the firing threshold, and it is then reset back to the rest level, from which it then climbs back up again, to repeat the process again and again.
+
+Because the excitation and inhibition are relatively closely balanced, you can see that the Vm starts to level off around the range just above -50 mV, due to the tug-of-war dynamics discussed in [[neuron]]. This is where the AdEx exponential function starts to contribute, due to the exponential offset value being set at -50. This allows you to see the gradual impact of the exponential spiking function over the course of a few cycles, as it drives what then becomes a clear spike in membrane potential as the exponential function does its exponential thing. This exponential dynamic is what the positive feedback loop of voltage-gated Na channels produces, as captured in the Hodgkin-Huxley model that the exponential function approximates.
+
+The [[#sim_neuron:Test Cycle Plot/Act]] value plots the rate-code activation value that is computed from a running-average of the inter-spike-intervals (`ISIAvg`), which is the number of milliseconds between each spike. This `Act` value shows what you can hopefully see in the spikes themselves: the rate of spiking is going up over time!
 
 Why would the rate of spiking increase, when we are only injecting a constant amount of excitation and inhibition?
 
@@ -39,9 +43,11 @@ This parameter determines the strength of the NMDA channel contribution to the o
 
 You should now see that the neuron can make a couple of spikes, but that its rate of spiking decreases over time, and soon stops. This is because the Neuron is also subject to [[adaptation]], which is driven by several different channels that operate over different time scales and in response to different activating signals.
 
+* All of these adaptation channels contribute to the [[#sim_neuron:Test Cycle Plot/Gk]] conductance, which you can see increasing over time, and this additional leak current is what stops the neuron from firing.
+
 * First, turn off [[#sim_neuron:KNa]] which will turn off the [[neuron channels#KNa]] sodium-gated K channels, which are one source of adaptation. [[#sim_neuron:Run Cycles]] to see the effect (if you don't hit Init then it will overlay on top of previous). You should see more spikes making it through.
 
-* Next, set [[#sim_neuron:MahpGk]] to 0, which will turn off the [[neuron channels#Mahp]] M-type voltage-gated K channel, which drives medium timescale afterhyperpolarization (AHP) dynamics. [[#sim_neuron:Run Cycles]] to see the effect. You should see now that the rate of spiking is perfectly consistent over time, as you would expect from the constant level of excitatory and inhibitory inputs.
+* Next, set [[#sim_neuron:MahpGk]] to 0, which will turn off the [[neuron channels#mAHP]] M-type voltage-gated K channel, which drives medium timescale afterhyperpolarization (AHP) dynamics. [[#sim_neuron:Run Cycles]] to see the effect. You should see now that the rate of spiking is perfectly consistent over time, as you would expect from the constant level of excitatory and inhibitory inputs.
 
 ## Basic conductances
 
@@ -59,89 +65,35 @@ The [[#sim_neuron:Ge]] parameter is set to 0.15 -- why are we getting 0.75 in th
 {id="question_inet"}
 > Based on what you've learned about the relationship between Inet and Vm, can you explain why Inet "spikes" as the Vm first rises when the input first comes on, and after each spike, and then it goes back toward 0 as the Vm stops changing as much, as it approaches the threshold level of -50 mV. 
 
-
-* [[#sim_neuron:Test Cycle Plot/Vm]] = membrane potential, which represents integration of all inputs into neuron. This starts out at the resting potential of .3 (= -70mV in biological units), and then increases with the excitatory input. As you can see, the net current (Inet) shows the *rate of change* of the membrane potential while it is elevated prior to spiking. When Vm gets above about .5, a spike is fired, and Vm is then reset back to .3, starting the cycle over again.
-
-* [[#sim_neuron:Test Cycle Plot/Act]] = activation. This shows the amount of activation (rate of firing) -- by default the model is set to discrete spiking, so this value is computed from the running-average measured inter-spike-interval (*ISI*).  It is first computed after the *second* spike, as that is the only point when the ISI is available.  If you turn the [[#sim_neuron:sim-form/Spike]] setting to off, then the Act value is computed directly.
-
-* [[#sim_neuron:Test Cycle Plot/Spike]] = discrete spiking -- this goes to 1 when the neuron fires a discrete spike, and 0 otherwise.
-
-* [[#sim_neuron:Test Cycle Plot/Gk]] = conductance of sodium-gated potassium (k) channels, which drives adaptation -- this conductance increases during spikes, and decays somewhat in between, building up over time to cause the rate of spiking to adapt or slow down over time.
-
-## Spiking Behavior
-
-The default parameters that you just ran show the spiking behavior of a neuron. This is implementing a modified version of the Adaptive Exponential function (see [CCN Textbook](https://compcogneuro.org/book)) or AdEx model, which has been shown to provide a very good reproduction of the firing behavior of real cortical pyramidal neurons. As such, this is a good representation of what real neurons do. We have turned off the exponential aspect of the AdEx model here to make parameter manipulations more reliable -- a spike is triggered when the membrane potential Vm crosses a simple threshold of .5. (In contrast, when exponential is activated (you can find it in the [[#sim_neuron:Spike params]]), the triggering of a spike is more of a dynamic exponential process around this .5 threshold level, reflecting the strong nonlinearity of the sodium channels that drive spiking.)
-
-At the broadest level, you can see the periodic spikes that fire as the membrane potential gets over the firing threshold, and it is then reset back to the rest level, from which it then climbs back up again, to repeat the process again and again. Looking at the overall rate of spiking as indexed by the spacing between spikes (i.e., the *ISI* or inter-spike-interval), you can see that the spacing increases over time, and thus the rate decreases over time.  This is due to the **adaptation** property of the AdEx model -- the spike rate adapts over time.
+## Balance of excitation and inhibition
 
 From the tug-of-war model, you should expect that increasing the amount of excitation coming into the neuron will increase the rate of firing, by enabling the membrane potential to reach threshold faster, and conversely decreasing it will decrease the rate of firing. Furthermore, increasing the leak or inhibitory conductance will tug more strongly against a given level of excitation, causing it to reach threshold more slowly, and thus decreasing the rate of firing.
 
-This intuitive behavior is the essence of what you need to understand about how the neuron operates -- now let's see it in action.
+This intuitive behavior is the essence of what you need to understand about how the neuron operates. 
 
-## Manipulating Parameters
+* Increase the [[#sim_neuron:Ge]] excitation from 0.15 to 0.16 (and then do Init and Run to see the effects). Then observe the effects of increasing [[#sim_neuron:Gi]] inhibition from 0.1 to 0.11. Go further and increase inhibition to 0.012.
 
-Now we will use some of the parameters in the control panel to explore the properties of the point neuron activation function.
+{id="question_ge-gi"}
+> Describe the qualitative effects on the rate of neural spiking of increasing Ge from 0.15 to 0.16, and then increasing Gi 0.1 to 0.11.
 
-### Excitatory
-
-First, we will focus on `Gbar E`, which controls the amount of excitatory conductance. In general, we are interested in seeing how the neuron membrane potential reflects a balance of the different inputs coming into it (here just excitation and leak), and how the spiking rate responds to the resulting membrane potential.
-
-* Increase [[#sim_neuron:Gbar E]] from .3 to .4 (and then do [[#sim_neuron:Run Cycles]] to see the effects). Then observe the effects of decreasing Gbar E to .2 and all the way down to .1. 
-
-> **Question 2.1:** Describe the effects on the rate of neural spiking of increasing Gbar E to .4, and of decreasing it to .2, compared to the initial value of .3 (this is should have a simple answer).
-
----
-
-> **Question 2.2:** Is there a qualitative difference in the neural spiking when Gbar E is decreased to .1, compared to the higher values -- what important aspect of the neuron's behavior does this reveal?
-
-By systematically searching the parameter range for `Gbar E` between .1 and .2, you should be able to locate the point at which the membrane potential just reaches threshold.
-
-> **Question 2.3:** To 2 decimal places (e.g., 0.15), what value of `Gbar E` puts the neuron just over threshold, such that it spikes at this value, but not at the next value below it?
-
-* Note: you can see the specific numerical values for any point in the graph by hovering the mouse over the point.  It will report which variable is being reported as well as the value.
-
-> **Question 2.4 (advanced):** Using one of the equations for the equilibrium membrane potential from the Neuron chapter, compute the exact value of excitatory input conductance required to keep Vm in equilibrium at the spiking threshold. Show your math. This means rearranging the equation to have excitatory conductance on one side, then substituting in known values. (note that: Gl is a constant = .3; Ge is 1 when the input is on; inhibition is not present here and can be ignored) -- this should agree with your empirically determined value.
-
-### Leak
-
-You can also manipulate the value of the leak conductance, , which controls the size of the leak current -- recall that this pulls the opposite direction as the excitatory conductance in the neural tug-of-war.
-
-* Click the [[#sim_neuron:toolbar/Defaults]] button in the toolbar to restore the default parameters, then manipulate the [[#sim_neuron:Gbar L]] parameter in .1 increments (.4, .5, .2 etc) and observe the effects on neural spiking. 
-
-> **Question 2.5:** What value of Gbar L just prevents the neuron from being able to spike (in .1 increments) -- explain this result in terms of the tug-of-war model relative to the Gbar E excitatory conductance.
-
----
-
-> **Question 2.6 (advanced):** Use the same technique as in question 2.4 to directly solve for the value of Gbar L that should put the neuron right at it's spiking threshold using the default values of other parameters -- show your math.
- 
+{id="question_gi-hi"}
+> Is there a qualitative difference in the neural spiking when Gi is increased to 0.12 -- what important aspect of the neuron's behavior does this reveal?
 
 ### Driving / Reversal Potentials
 
-* Click [[#sim_neuron:Defaults]] in the toolbar to restore the default parameters. Then manipulate the [[#sim_neuron:Erev E]] and [[#sim_neuron:Erev L]] parameters and observe their effects on the spiking rate. 
-
-You should see that decreasing `Erev E` reduces the spiking rate, because it makes the excitatory input pull less strongly up on the membrane potential. Increasing `Erev L` produces greater spiking by making leak pull less strongly down.
+* Set Ge back to .15 and Gi to .1, then set [[#sim_neuron:ErevE]] to -1 instead of 0, and Run. Surprisingly, this small change prevents the neuron from spiking, by reducing the driving potential of excitation. Likewise, lowering [[#sim_neuron:ErevI]] from -90 to -92 is sufficient to eliminate spiking.
 
 ## Noise
 
-An important aspect of spiking in real neurons is that the timing and intervals between spikes can be quite random, although the overall rate of firing remains predictable. This is obviously not evident with the single constant input used so far, which results in regular firing.  However, if we introduce noise by adding randomly generated values to the net input, then we can see a more realistic level of variability in neural firing. Note that this additional noise plays a similar role as the convolution of noise with the XX1 function in the noisy XX1 function, but in the case of the noisy XX1 we have a deterministic function that incorporates the averaged effects of noise, while here we are actually adding in the random values themselves, making the behavior stochastic.
+An important aspect of spiking in real neurons is that the timing and intervals between spikes can be quite random, generally obeying a Poisson distribution, which has the highest variance for a given rate of spiking. As in the example here, most excitatory neurons in the cortex receive closely balanced excitation and inhibition, due to the mechanisms covered in [[inhibition]], and thus even relatively small differences in the timing and relative strength of inputs can make a big difference in the neural response, due to the strong threshold nonlinearities present. For example, the parameter manipulations above demonstrated how relatively small changes resulted in the difference between spiking and not spiking at all.
 
-* Change the variance of the noise generator ([[#sim_neuron:Noise]] in the control panel) from 0 to .2, and do [[#sim_neuron:Run Cycles]]. You should see the `Ge` line is now perturbed significantly with the noise.
+To simulate a population of noisy inputs, the noise mechanism we use adds discrete excitatory and inhibitory conductances generated from a Poisson distribution of a given frequency (100 Hz for excitation, 200 Hz for inhibition, reflecting the general differences in their spike rates).
 
-It can be difficult to tell from a single run whether the spike timing is random -- the neuron still fires with some regularity.
+* First, do [[#sim_neuron:Defaults]] to return to default parameters, and then set the strength of these noisy conductances via the [[#sim_neuron:Noise]] parameter: set it to 0.05 instead of 0, and then do Run multiple times without doing Init.
 
-* Do many [[#sim_neuron:Run Cycles]] and observe the extent of variability in spikes as the plot updates.
+You should observe that the timing of the spikes varies significantly across the different runs, such that the plot starts to fill in, especially after the first couple of spikes. You can switch to only plotting `Spike` to see this more clearly. Then switch to plotting `Ge` to see the magnitude of the noise being added to the excitatory conductance. Try doing Init and comparing Noise of 0 to 0.05 to better see the difference.
 
-Even with this relatively high level of noise, the spike timing is not completely uniform -- the spikes still form clusters at relatively regularly-spaced intervals. If you increase `Noise` all the way to .5, the spikes will be more uniformly distributed. However, note that even with the high levels of variability in the specific spike timing, the overall rate of spiking recorded by `Act` at the end of the input does not change that much. Thus, the rate code is a highly robust reflection of the overall net input.
-
-In the brain (or large networks of simulated spiking neurons), there are high levels of variability in the net input due to variability in the spike firing of the different inputs coming into a given neuron. As measured in the brain, the statistics of spike firing are captured well by a *Poisson* distribution, which has variability equal to the mean rate of spiking, and reflects essentially the maximum level of noise for a given rate of spiking. Neurons are noisy.
-
-## Adaptation
-
-Cortical pyramidal neurons exhibit the property of spike rate adaptation. We are now using a more advanced form of adaptation than the form from the original AdEx model, based on sodium-gated potassium channels (K_na), which is turned on by the [[#sim_neuron:K na adapt]] parameter in the control panel. You can explore the basic effect of adaptation by turning this on and off. 
-
-You should observe that spiking is perfectly regular throughout the entire period of activity without adaptation, whereas with adaptation the rate decreases significantly over time. One benefit of adaptation is to make the system overall more sensitive to changes in the input -- the biggest signal strength is present at the onset of a new input, and then it "habituates" to any constant input. This is also more efficient, by not continuing to communicate spikes at a high rate for a constant input signal that presumably has already been processed after some point. As we will see in some other simulations later on, this adaptation also allows us to account for various perceptual and cognitive phenomena. 
-
-For those who want to explore the software a bit more: If you want to make the adaptation effect more extreme, you can click on the "Neuron" label in the Netview, and a dialog box will open up. If you scroll down, you will see various parameters associated with the neuron layer, including `Gbar E` and `Gbar L` (which should be the same values as those you altered in the control panel). But you will also see others that were not in the control panel. To increase the effect of adaptation you can increase `Gbar K` -- the magnitude of KNA adaptation effect as a conductance. Increase that from the default of 1 to a much larger value (e.g., 10) and you should see much stronger adaptation effects.
+Thus, even a relatively modest amount of noise can produce significant differences in spike timing, due to the nonlinear positive feedback loops involved in neural spiking. If you increase the Noise conductance level further, you can get even more uniform (i.e., highly variable) distributions of spike timings across runs.
 
 </div>
 
