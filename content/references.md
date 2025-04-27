@@ -42,6 +42,8 @@
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
+<p id="DriesenMcCarthyBhagwagarEtAl13">Driesen, N.R., McCarthy, G., Bhagwagar, Z., Bloch, M., Calhoun, V., D'Souza, D.C., Gueorguieva, R., He, G., Ramachandran, R., Suckow, R.F., Anticevic, A., Morgan, P.T., & Krystal, J.H. (2013). Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans. Molecular Psychiatry, 18, 1199-1204. https://www.nature.com/articles/mp2012194 http://doi.org/10.1038/mp.2012.194</p>
+
 <p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
@@ -53,6 +55,8 @@
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
 
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
+
+<p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
@@ -94,6 +98,8 @@
 
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
+<p id="KrystalAnticevicYangEtAl17">Krystal, J.H., Anticevic, A., Yang, G.J., Dragoi, G., Driesen, N.R., Wang, X., & Murray, J.D. (2017). Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia: A Translational and Computational Neuroscience Perspective. Biological Psychiatry, 81, 874-885. https://www.sciencedirect.com/science/article/pii/S0006322317300367 http://doi.org/10.1016/j.biopsych.2017.01.004</p>
+
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
 
 <p id="LarkumZhuSakmann99">Larkum, M.E., Zhu, J.J., & Sakmann, B. (1999). A new cellular mechanism for coupling inputs arriving at different cortical layers. Nature, 398, 338-341. https://www.nature.com/articles/18686 http://doi.org/10.1038/18686</p>
@@ -105,6 +111,8 @@
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
+
+<p id="LismanFellousWang99">Lisman, J.E., Fellous, J.M., & Wang, X.J. (1999). A role for {NMDA}-receptor channels in working memory. Nature Neuroscience, 1, 273-275. http://www.ncbi.nlm.nih.gov/pubmed/10195158</p>
 
 <p id="MainenSejnowski96">Mainen, Z.F., & Sejnowski, T.J. (1996). Influence of dendritic structure on firing pattern in model neocortical neurons. Nature, 382, 363. http://www.ncbi.nlm.nih.gov/pubmed/8684467</p>
 
@@ -121,6 +129,8 @@
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
+
+<p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
 
 <p id="OReilly20">O’Reilly, R.C. (2020). Unraveling the Mysteries of Motivation. Trends in Cognitive Sciences, http://www.sciencedirect.com/science/article/pii/S1364661320300681 http://doi.org/10.1016/j.tics.2020.03.001</p>
 

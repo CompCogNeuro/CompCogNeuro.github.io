@@ -9,6 +9,8 @@ The _rate code approximation_ can be an important way of simplifying the complex
 
 As emphasized in the [[neuron]] chapter, discrete spiking has advantages in representing graded, probabilistic information, while also supporting a fast initial propagation of new stimulus information via the first spike responses of neurons. By contrast, rate code neurons, at least with the additional biologically-motivated properties of the [[Leabra]] model, could either respond quickly but in a not very graded manner, or slowly and with graded responding.
 
+Furthermore, discrete spiking creates gaps between these spike communication events that enable other inputs to influence a given receiving neuron, and for the network overall to alternatively represent different interpretations of an input. By contrast, rate-code neurons are continuously communicating their signals, which makes them more monolithic and rigid in their responding. This difference is evident in the [[stable activation]] mechanisms required for spiking, but not rate code activations. Overall, it means that spiking networks are better at integrating disparate inputs and generating a sensible graded response to ambiguous signals.
+
 {id="figure_rate-code-approx" style="height:30em"}
 ![Quality of the rate code approximation (rate line) to actual spiking rate (Spike line), over a range of excitatory input levels (GBarE). The rate code approximation is based on the "gelin" (linear in Ge) model comparing $Ge$ to $g_e^{\Theta}$, using the Noisy XX1 sigmoidal function, and also including spike rate adaptation as included in the AdEx model.](media/fig_neuron_rate_code_approx.png)
 

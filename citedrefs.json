@@ -4034,6 +4034,304 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Goldman-Rakic95",
+		"citation-key": "Goldman-Rakic95",
+		"author": [
+			{
+				"family": "Goldman-Rakic",
+				"given": ".P S."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1995",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Annals of the New York Academy of Sciences",
+		"page": "71-84",
+		"title": "Architecture of the prefrontal cortex and the central executive.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/8595045",
+		"volume": "769"
+	},
+	{
+		"type": "article-journal",
+		"id": "LismanFellousWang99",
+		"citation-key": "LismanFellousWang99",
+		"author": [
+			{
+				"family": "Lisman",
+				"given": "J. E."
+			},
+			{
+				"family": "Fellous",
+				"given": "J. M."
+			},
+			{
+				"family": "Wang",
+				"given": "X. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					4
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Neuroscience",
+		"page": "273-275",
+		"title": "A role for {NMDA}-receptor channels in working memory.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/10195158",
+		"volume": "1"
+	},
+	{
+		"type": "article-journal",
+		"id": "DriesenMcCarthyBhagwagarEtAl13",
+		"citation-key": "DriesenMcCarthyBhagwagarEtAl13",
+		"language": "en",
+		"author": [
+			{
+				"family": "Driesen",
+				"given": "N. R."
+			},
+			{
+				"family": "McCarthy",
+				"given": "G."
+			},
+			{
+				"family": "Bhagwagar",
+				"given": "Z."
+			},
+			{
+				"family": "Bloch",
+				"given": "M."
+			},
+			{
+				"family": "Calhoun",
+				"given": "V."
+			},
+			{
+				"family": "D'Souza",
+				"given": "D. C."
+			},
+			{
+				"family": "Gueorguieva",
+				"given": "R."
+			},
+			{
+				"family": "He",
+				"given": "G."
+			},
+			{
+				"family": "Ramachandran",
+				"given": "R."
+			},
+			{
+				"family": "Suckow",
+				"given": "R. F."
+			},
+			{
+				"family": "Anticevic",
+				"given": "A."
+			},
+			{
+				"family": "Morgan",
+				"given": "P. T."
+			},
+			{
+				"family": "Krystal",
+				"given": "J. H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Molecular Psychiatry",
+		"container-title-short": "Mol Psychiatry",
+		"DOI": "10.1038/mp.2012.194",
+		"ISSN": "1476-5578",
+		"issue": "11",
+		"page": "1199-1204",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans",
+		"URL": "https://www.nature.com/articles/mp2012194",
+		"volume": "18"
+	},
+	{
+		"type": "article-journal",
+		"id": "NewcomerFarberJevtovic-TodorovicEtAl99",
+		"citation-key": "NewcomerFarberJevtovic-TodorovicEtAl99",
+		"author": [
+			{
+				"family": "Newcomer",
+				"given": "John W"
+			},
+			{
+				"family": "Farber",
+				"given": "Nuri B"
+			},
+			{
+				"family": "Jevtovic-Todorovic",
+				"given": "Vesna"
+			},
+			{
+				"family": "Selke",
+				"given": "Gregg"
+			},
+			{
+				"family": "Melson",
+				"given": "Angela Kelly"
+			},
+			{
+				"family": "Hershey",
+				"given": "Tamara"
+			},
+			{
+				"family": "Craft",
+				"given": "Suzanne"
+			},
+			{
+				"family": "Olney",
+				"given": "John W"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					2,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuropsychopharmacology",
+		"container-title-short": "Neuropsychopharmacology",
+		"DOI": "10.1016/S0893-133X(98)00067-0",
+		"ISSN": "0893-133X",
+		"issue": "2",
+		"page": "106-118",
+		"source": "ScienceDirect",
+		"title": "Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0893133X98000670",
+		"volume": "20"
+	},
+	{
+		"type": "article-journal",
+		"id": "KrystalAnticevicYangEtAl17",
+		"citation-key": "KrystalAnticevicYangEtAl17",
+		"author": [
+			{
+				"family": "Krystal",
+				"given": "John H."
+			},
+			{
+				"family": "Anticevic",
+				"given": "Alan"
+			},
+			{
+				"family": "Yang",
+				"given": "Genevieve J."
+			},
+			{
+				"family": "Dragoi",
+				"given": "George"
+			},
+			{
+				"family": "Driesen",
+				"given": "Naomi R."
+			},
+			{
+				"family": "Wang",
+				"given": "Xiao-Jing"
+			},
+			{
+				"family": "Murray",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					5,
+					15
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"collection-title": "Cortical Excitation-Inhibition Balance and Dysfunction in Psychiatric Disorders",
+		"container-title": "Biological Psychiatry",
+		"container-title-short": "Biological Psychiatry",
+		"DOI": "10.1016/j.biopsych.2017.01.004",
+		"ISSN": "0006-3223",
+		"issue": "10",
+		"page": "874-885",
+		"source": "ScienceDirect",
+		"title": "Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia: A Translational and Computational Neuroscience Perspective",
+		"title-short": "Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0006322317300367",
+		"volume": "81"
+	},
+	{
+		"type": "article-journal",
 		"id": "BlissLomo73",
 		"citation-key": "BlissLomo73",
 		"author": [
