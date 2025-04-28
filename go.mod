@@ -3,12 +3,14 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.10-0.20250427014623-de19631808dc
+	cogentcore.org/core v0.3.10-0.20250428074925-3b9d6f44021b
+	cogentcore.org/lab v0.1.1-0.20250417215607-52af09a8ee8f
+	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56
 	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250427090318-fe87ac2fa88e
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250421193715-8ee934c6c0f6
 )
 
 require (
-	cogentcore.org/lab v0.1.1-0.20250417215607-52af09a8ee8f // indirect
 	github.com/Bios-Marcel/wastebasket/v2 v2.0.2 // indirect
 	github.com/Masterminds/vcs v1.13.3 // indirect
 	github.com/adrg/strutil v0.3.1 // indirect
@@ -20,9 +22,7 @@ require (
 	github.com/chewxy/math32 v1.10.1 // indirect
 	github.com/cogentcore/readline v0.1.3 // indirect
 	github.com/cogentcore/webgpu v0.0.0-20250118183535-3dd1436165cf // indirect
-	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56 // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250421193715-8ee934c6c0f6 // indirect
 	github.com/ericchiang/css v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-fonts/latin-modern v0.3.3 // indirect
@@ -39,6 +39,7 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/mattn/go-shellwords v1.0.12 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.2-0.20240227203013-2b69615b5d55 // indirect

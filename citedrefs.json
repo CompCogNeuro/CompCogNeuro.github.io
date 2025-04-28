@@ -1625,6 +1625,267 @@
 		"volume": "38"
 	},
 	{
+		"type": "article-journal",
+		"id": "CritcherHuberHoEtAl09",
+		"citation-key": "CritcherHuberHoEtAl09",
+		"language": "en",
+		"author": [
+			{
+				"family": "Critcher",
+				"given": "Clayton R."
+			},
+			{
+				"family": "Huber",
+				"given": "Michaela"
+			},
+			{
+				"family": "Ho",
+				"given": "Arnold K."
+			},
+			{
+				"family": "Koleva",
+				"given": "Spassena P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					9,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Social Justice Research",
+		"container-title-short": "Soc Just Res",
+		"DOI": "10.1007/s11211-009-0096-1",
+		"ISSN": "1573-6725",
+		"issue": "2",
+		"page": "181-205",
+		"source": "Springer Link",
+		"title": "Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs",
+		"title-short": "Political Orientation and Ideological Inconsistencies",
+		"URL": "https://doi.org/10.1007/s11211-009-0096-1",
+		"volume": "22"
+	},
+	{
+		"type": "article-journal",
+		"id": "NamJostBavel13",
+		"citation-key": "NamJostBavel13",
+		"language": "en",
+		"author": [
+			{
+				"family": "Nam",
+				"given": "H. Hannah"
+			},
+			{
+				"family": "Jost",
+				"given": "John T."
+			},
+			{
+				"family": "Bavel",
+				"given": "Jay J. Van"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					4,
+					19
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "PLOS ONE",
+		"container-title-short": "PLOS ONE",
+		"DOI": "10.1371/journal.pone.0059837",
+		"ISSN": "1932-6203",
+		"issue": "4",
+		"page": "e59837",
+		"publisher": "Public Library of Science",
+		"source": "PLoS Journals",
+		"title": "“Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations",
+		"URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837",
+		"volume": "8"
+	},
+	{
+		"type": "article-journal",
+		"id": "HaxbyGobbiniFureyEtAl01",
+		"citation-key": "HaxbyGobbiniFureyEtAl01",
+		"author": [
+			{
+				"family": "Haxby",
+				"given": "J. V."
+			},
+			{
+				"family": "Gobbini",
+				"given": "M. I."
+			},
+			{
+				"family": "Furey",
+				"given": "M. L."
+			},
+			{
+				"family": "Ishai",
+				"given": "A."
+			},
+			{
+				"family": "Schouten",
+				"given": "J. L."
+			},
+			{
+				"family": "Pietrini",
+				"given": "P."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					9
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science (New York, N.Y.)",
+		"page": "2425-2429",
+		"title": "Distributed and overlapping representations of faces and objects in ventral temporal cortex.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11577229",
+		"volume": "293"
+	},
+	{
+		"type": "article-journal",
+		"id": "QuirogaReddyKreimanEtAl05",
+		"citation-key": "QuirogaReddyKreimanEtAl05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Quiroga",
+				"given": "R. Quian"
+			},
+			{
+				"family": "Reddy",
+				"given": "L."
+			},
+			{
+				"family": "Kreiman",
+				"given": "G."
+			},
+			{
+				"family": "Koch",
+				"given": "C."
+			},
+			{
+				"family": "Fried",
+				"given": "I."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					7,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/nature03687",
+		"ISSN": "1476-4687",
+		"issue": "7045",
+		"page": "1102-1107",
+		"source": "www.nature.com",
+		"title": "Invariant visual representation by single neurons in the human brain",
+		"URL": "https://www.nature.com/articles/nature03687",
+		"volume": "435"
+	},
+	{
+		"type": "chapter",
+		"id": "Smolensky86",
+		"citation-key": "Smolensky86",
+		"author": [
+			{
+				"family": "Smolensky",
+				"given": "P."
+			}
+		],
+		"editor": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
+		"event-place": "Cambridge, MA",
+		"page": "282-317",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Information Processing in Dynamical Systems: Foundations of Harmony Theory"
+	},
+	{
 		"type": "paper-conference",
 		"id": "HintonSejnowski83",
 		"citation-key": "HintonSejnowski83",

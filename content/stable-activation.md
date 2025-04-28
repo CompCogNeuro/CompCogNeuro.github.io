@@ -39,5 +39,18 @@ Hopefully you can see that overall there is a relatively consistent pattern of a
 
 * Now let's see what happens when we eliminate NMDA and GABA-B channels. Set [[#sim_stability:Nmda ge]] and [[#sim_stability:Gabab gk]] to 0, then do [[#sim_stability:Init]] and [[#sim_stability:Step]] again, while still viewing `Spike` state.
 
+You should see a row of spiking activity at almost the same cycle in the top layer for most of the neurons, followed by a long pause and then some sporadic spiking after that. This increase in neural _synchrony_ is also characteristic of unconscious states, whereas waking, conscious brain states are characterized by much weaker levels of synchrony and sparser overall activity levels, with only a fraction of the excitatory neurons active (10-15% in general).
+
+Because the NMDA channels provide additional excitation (as you can see in the [[neuron sim]]), we can try reducing the inhibition level, to allow more overall excitation.
+
+* Set [[#sim_stability:Inhib gi]] to 0.8 instead of 0.85, which reduces the strength of the GABA-A conductance computed as described in [[inhibition]]. Then do `Init` and `Step` again. Keep reducing it, and also try doing multiple `Step`s to see what happens over different input patterns. The network activity state carries over across different inputs, which will sometimes disrupt the synchronous firing.
+
+{id="question_gi"}
+> Were you able to find a level of inhibition that resulted in level of activity and sparseness that was comparable to the state with NMDA and GABA-B conductances at their default values? Were you able to get it to exhibit a _stable_ pattern of activity, where the same sparse subset of neurons remains active across the 200 ms trial?
+
+In summary, you should have observed that NMDA and GABA-B conductances are critical for supporting a stable activity pattern. This effect is especially critical as activity cascades across multiple layers, due to a diffusion-like process where activity spreads out as a result of the random initial synaptic weights. Thus, we saw in this model that the diffuse activity patterns were more pronounced the 2nd hidden layer.
+
+If you repeat this experiment in any of the other learning models explored on other pages here, you'll readily see that turning off NMDA and GABA-B dramatically impairs learning, because these diffuse, unstable activity patterns undermine the learning signals.
+
 </div>
 

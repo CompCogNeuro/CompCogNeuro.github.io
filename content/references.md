@@ -34,6 +34,8 @@
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
+<p id="CritcherHuberHoEtAl09">Critcher, C.R., Huber, M., Ho, A.K., & Koleva, S.P. (2009). Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs. Social Justice Research, 22, 181-205. https://doi.org/10.1007/s11211-009-0096-1 http://doi.org/10.1007/s11211-009-0096-1</p>
+
 <p id="CutsuridisPoirazi15">Cutsuridis, V., & Poirazi, P. (2015). A computational study on how theta modulated inhibition can account for the long temporal windows in the entorhinal–hippocampal loop. Neurobiology of Learning and Memory, 120, 69-83. https://www.sciencedirect.com/science/article/pii/S1074742715000234 http://doi.org/10.1016/j.nlm.2015.02.002</p>
 
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
@@ -67,6 +69,8 @@
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
 <p id="HausserMel03">Hausser, M., & Mel, B. (2003). Dendrites: bug or feature? Current Opinion in Neurobiology, 13, 372-383. </p>
+
+<p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
 
 <p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
 
@@ -128,6 +132,8 @@
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
+<p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
+
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
 <p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
@@ -150,6 +156,8 @@
 
 <p id="PoiraziPapoutsi20">Poirazi, P., & Papoutsi, A. (2020). Illuminating dendritic function with computational models. Nature Reviews Neuroscience, 21(6), 303-321. http://www.nature.com/articles/s41583-020-0301-7 http://doi.org/10.1038/s41583-020-0301-7</p>
 
+<p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
+
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
@@ -169,6 +177,8 @@
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
+
+<p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
 

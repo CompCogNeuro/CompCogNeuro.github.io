@@ -1,5 +1,5 @@
-cogentcore.org/core v0.3.10-0.20250427014623-de19631808dc h1:jWa+DfOjY4IzFMjI7awVdM9Jn4kGEnF/EvaeyrQN4OU=
-cogentcore.org/core v0.3.10-0.20250427014623-de19631808dc/go.mod h1:dSb8eH/6CsC7Y9S7ZdqLf0TUbvbgPgrBGCUCn/Z1b/0=
+cogentcore.org/core v0.3.10-0.20250428074925-3b9d6f44021b h1:Aew00rFHpdXv9XGs31/3/qlOGRwPSosyque5eV7zrmo=
+cogentcore.org/core v0.3.10-0.20250428074925-3b9d6f44021b/go.mod h1:dSb8eH/6CsC7Y9S7ZdqLf0TUbvbgPgrBGCUCn/Z1b/0=
 cogentcore.org/lab v0.1.1-0.20250417215607-52af09a8ee8f h1:PbnQxiBw82zPlQ7+wtyf+BY/x3pAsgm50SOPtgpMIVM=
 cogentcore.org/lab v0.1.1-0.20250417215607-52af09a8ee8f/go.mod h1:g1O98Mxg0ke7P2D7bUR4XCSJQvQ6sIpo6vj/XoTWHwg=
 github.com/Bios-Marcel/wastebasket/v2 v2.0.2 h1:zOgACjeSca1lvhGDRN/dbcpFkY6FT85f5F2CImywPh4=
@@ -89,6 +89,8 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mattn/go-runewidth v0.0.15 h1:UNAjwbU9l54TA3KzvqLGxwWjHmMgBUVhBiTjelZgg3U=
 github.com/mattn/go-runewidth v0.0.15/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
+github.com/mattn/go-shellwords v1.0.12 h1:M2zGm7EW6UQJvDeQxo4T51eKPurbeFbe8WtebGE2xrk=
+github.com/mattn/go-shellwords v1.0.12/go.mod h1:EZzvwXDESEeg03EKmM+RmDnNOPKG4lLtQsUlTZDWQ8Y=
 github.com/mitchellh/go-homedir v1.1.0 h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y=
 github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=

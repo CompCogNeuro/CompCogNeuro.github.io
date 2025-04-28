@@ -11,7 +11,7 @@ Axon is the successor to [[Leabra]], featuring more realistic discrete spiking d
 
 These are the central elements of Axon in terms of general neural mechanisms which are well established properties of the mammalian [[neocortex]]:
 
-* [[neuron|Spiking neurons]] with long-lasting [[neuron#NMDA]] and [[neuron#GABA-B]] channels that support relatively [[stable activation]] states over the course of a roughly 200 msec [[theta cycle]], which is essential for establishing a coherent representation of the current input state. This stability is necessary to drive effective learning as described next. 
+* [[neuron|Spiking neurons]] with long-lasting [[neuron channels#NMDA]] and [[neuron channels#GABA-B]] channels that support relatively [[stable activation]] states over the course of a roughly 200 msec [[theta cycle]], which is essential for establishing a coherent representation of the current input state. This stability is necessary to drive effective learning as described next. 
 
 	Spiking also enables effective graded information integration over time in a way that continuous [[rate code activation]] communication does not, by allowing many different signals to be communicated over time, competing for the overall control of the network activation state as a function of the collective integration of spikes within the neurons in the network. As a result, Axon models are overall much more robust and well-behaved overall compared to their Leabra rate-code based counterparts.
 
