@@ -1,10 +1,10 @@
 +++
-Categories = ["Leabra"]
+Categories = ["Leabra", "Textbooks"]
 +++
 
-## Formats
+## Computational Cognitive Neuroscience
 
-Please use the following links to download the formatted version of the book:
+This is an open and free textbook available for download in a variety of formats:
 
 * [PDF](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.pdf) --- This version has the best formatting.
 

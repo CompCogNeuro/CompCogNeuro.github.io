@@ -60,15 +60,15 @@ Historically, the "ignore the brain" approaches have taken an interesting trajec
 
 However, the actual mathematics of Bayesian probability computations are not a particularly good fit to how the brain operates at the neural level, and much of this research operates without much consideration for how the brain actually functions. Instead, a version of Marr's computational level has been adopted, by assuming that whatever the brain is doing, it must be at least close to optimal, and Bayesian models can often tell us how to optimally combine uncertain pieces of information. Regardless of the validity of this optimality assumption, it is definitely useful to know what the optimal computations are for given problems, so this approach certainly has a lot of value in general. However, optimality is typically conditional on a number of assumptions, and it is often difficult to decide among these different assumptions.
 
-{id="figure_puzzle-blue-sky"}
+{id="figure_puzzle-blue-sky" style="height:30em"}
 ![Models that are relatively unconstrained, e.g., by not addressing biological constraints, or detailed behavioral data, are like jigsaw puzzles of a featureless blue sky --- very hard to solve --- you just don't have enough clues to how everything fits together.](media/fig_brain_puzzle_blue_sky_pieces.png)
 
 If you really want to know for sure how the brain is actually producing cognition, clearly you need to know how the brain actually functions. Yes, this is hard. But it is not impossible, and the state of neuroscience these days is such that there is a wealth of useful information to inform all manner of insights into how the brain actually works. It is like working on a jigsaw puzzle --- the easiest puzzles are full of distinctive textures and junk everywhere, so you can really see when the pieces fit together [[#figure_puzzle-clutter]]). The rich tableau of neuroscience data provides all this distinctive junk to constrain the process of puzzling together cognition. In contrast, abstract, purely cognitive models are like a jigsaw puzzle with only a big featureless blue sky [[#figure_puzzle-blue-sky]]. You only have the logical constraints of the piece shapes, which are all highly similar and difficult to discriminate. It takes forever.
 
-{id="figure_puzzle-clutter"}
+{id="figure_puzzle-clutter" style="height:30em"}
 ![Adding constraints from biology and detailed consideration of behavior provide a rich set of clues for figuring out how to solve the puzzle of the brain!](media/fig_brain_puzzle_behav_bio_data.png)
 
-Here are a couple of the most satisfying instances where all the pieces come together to complete a puzzle:
+Here are a couple of the most satisfying instances where all the pieces come together to complete a puzzle (see [[synergies]] for a collection):
 
 * The detailed biology of the [[hippocampus]], including high levels of inhibition and broad diffuse connectivity, fit together with its unique role in rapidly learning new [[episodic memory|episodic memories]], and the remarkable data from patient HM who had his hippocampus resected to prevent intractable epilepsy. The computational models of the hippocampus ([[hippocampus-sim]])) show how these biological details produce high levels of _pattern separation_ which keep memories highly distinct, and thus enable rapid learning without creating catastrophic levels of interference.
 

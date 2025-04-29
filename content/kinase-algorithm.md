@@ -7,6 +7,6 @@ The **kinase** learning algorithm is an abstraction of the detailed chemical pat
 
 See the [[temporal derivative]] page for a critical illustration of how a competitive interaction between fast and slow pathways can compute the _error gradient_ at the heart of error-driven learning. This approach to computing the error gradient was pioneered in the [[boltzmann machine]] ([[@AckleyHintonSejnowski85]]; [[@HintonSejnowski86]]), and the _GeneRec_ (generalized recirculation) algorithm ([[@OReilly96]]) shows how the [[error backpropagagion]] algorithm can be computed via a temporal derivative.
 
-There is initial direct evidence showing that the direction of synaptic plasticity in neurons recorded in the mouse hippocampal area is consistent with this temporal derivative hypothesis ([[@JiangEtAlIP]]).
+There is initial direct evidence showing that the direction of synaptic plasticity in neurons recorded in the mouse hippocampal area is consistent with this temporal derivative hypothesis ([[Jiang et al 2025]]).
 
 

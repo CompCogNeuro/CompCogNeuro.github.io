@@ -4,6 +4,12 @@
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
 
+<p id="AngelucciBressloff06">Angelucci, A., & Bressloff, P.C. (2006). Contribution of feedforward, lateral and feedback connections to the classical receptive field center and extra-classical receptive field surround of primate V1 neurons. In S.L.M. S. Martinez-Conde (Ed.), Progress in Brain Research (pp. 93-120). Elsevier. http://www.sciencedirect.com/science/article/pii/S0079612306540051 http://doi.org/10.1016/S0079-6123(06)54005-1</p>
+
+<p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
+
+<p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
+
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
@@ -37,6 +43,10 @@
 <p id="CritcherHuberHoEtAl09">Critcher, C.R., Huber, M., Ho, A.K., & Koleva, S.P. (2009). Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs. Social Justice Research, 22, 181-205. https://doi.org/10.1007/s11211-009-0096-1 http://doi.org/10.1007/s11211-009-0096-1</p>
 
 <p id="CutsuridisPoirazi15">Cutsuridis, V., & Poirazi, P. (2015). A computational study on how theta modulated inhibition can account for the long temporal windows in the entorhinal–hippocampal loop. Neurobiology of Learning and Memory, 120, 69-83. https://www.sciencedirect.com/science/article/pii/S1074742715000234 http://doi.org/10.1016/j.nlm.2015.02.002</p>
+
+<p id="DehaeneKerszbergChangeux98">Dehaene, S., Kerszberg, M., & Changeux, J.P. (1998). A neuronal model of a global workspace in effortful cognitive tasks. Proceedings of the National Academy of Sciences of the United States of America, 95, 14529. http://www.ncbi.nlm.nih.gov/pubmed/9826734</p>
+
+<p id="DehaeneLauKouider17">Dehaene, S., Lau, H., & Kouider, S. (2017). What is consciousness, and could machines have it? Science, 358, 486-492. https://www.science.org/doi/abs/10.1126/science.aan8871 http://doi.org/10.1126/science.aan8871</p>
 
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
 
@@ -150,6 +160,8 @@
 
 <p id="OReillyMunakataFrankEtAl12">O'Reilly, R.C., Munakata, Y., Frank, M.J., Hazy, T.E., & Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu. http://ccnbook.colorado.edu</p>
 
+<p id="OReillyWyatteHerdEtAl13">O'Reilly, R.C., Wyatte, D., Herd, S.A., Mingus, B., & Jilk, D.J. (2013). Recurrent Processing during Object Recognition. Frontiers in Psychology, 4, http://www.ncbi.nlm.nih.gov/pubmed/23554596</p>
+
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
 <p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
@@ -177,6 +189,8 @@
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
+
+<p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
 
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
 

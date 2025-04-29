@@ -117,7 +117,7 @@ The code for this simulation updates the fast and slow variables according to a 
 
 {id="eq_fast-slow"}
 $$
-\mathrm{fast} += \frac{1}{\mathrm{fastTau}} (\mathrm{driver} - \mathrm{fast})
+\rm{fast} += \frac{1}{\rm{fastTau}} (\rm{driver} - \rm{fast})
 $$
 
 This equation causes the variable (fast or slow) to move toward the driver value at a rate determined by the "tau" factor. For example, if the driver is larger than fast, then $driver - fast$ is positive, so fast will increase to approach the value of the driver. If $fastTau = 10$, then it moves a 10th of the way toward the driver at each update. This very simple type of update equation is used throughout [[axon]] and is likewise very prevalent in biology.

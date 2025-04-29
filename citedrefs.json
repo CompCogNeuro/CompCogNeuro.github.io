@@ -897,6 +897,109 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Hopfield82",
+		"citation-key": "Hopfield82",
+		"author": [
+			{
+				"family": "Hopfield",
+				"given": "J. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences of the United States of America",
+		"issue": "8",
+		"page": "2554-2558",
+		"title": "Neural networks and physical systems with emergent collective computational abilities.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6953413",
+		"volume": "79"
+	},
+	{
+		"type": "article-journal",
+		"id": "Hopfield84",
+		"citation-key": "Hopfield84",
+		"author": [
+			{
+				"family": "Hopfield",
+				"given": "J. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences USA",
+		"page": "3088-3092",
+		"title": "Neurons with graded response have collective computational properties like those of two-state neurons.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6587342",
+		"volume": "81"
+	},
+	{
+		"type": "chapter",
+		"id": "Smolensky86",
+		"citation-key": "Smolensky86",
+		"author": [
+			{
+				"family": "Smolensky",
+				"given": "P."
+			}
+		],
+		"editor": [
+			{
+				"family": "Rumelhart",
+				"given": "D. E."
+			},
+			{
+				"family": "McClelland",
+				"given": "J. L."
+			},
+			{
+				"family": "Group",
+				"given": "PDP Research"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
+		"event-place": "Cambridge, MA",
+		"page": "282-317",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Information Processing in Dynamical Systems: Foundations of Harmony Theory"
+	},
+	{
+		"type": "article-journal",
 		"id": "Lamme06",
 		"citation-key": "Lamme06",
 		"language": "English",
@@ -1005,6 +1108,311 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "Baars02",
+		"citation-key": "Baars02",
+		"author": [
+			{
+				"family": "Baars",
+				"given": "B. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					2
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in cognitive sciences",
+		"page": "47-52",
+		"title": "The conscious access hypothesis: origins and recent evidence.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11849615",
+		"volume": "6"
+	},
+	{
+		"type": "article-journal",
+		"id": "DehaeneLauKouider17",
+		"citation-key": "DehaeneLauKouider17",
+		"author": [
+			{
+				"family": "Dehaene",
+				"given": "Stanislas"
+			},
+			{
+				"family": "Lau",
+				"given": "Hakwan"
+			},
+			{
+				"family": "Kouider",
+				"given": "Sid"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					12,
+					18
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					10,
+					27
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science",
+		"DOI": "10.1126/science.aan8871",
+		"issue": "6362",
+		"page": "486-492",
+		"publisher": "American Association for the Advancement of Science",
+		"source": "science.org (Atypon)",
+		"title": "What is consciousness, and could machines have it?",
+		"URL": "https://www.science.org/doi/abs/10.1126/science.aan8871",
+		"volume": "358"
+	},
+	{
+		"type": "article-journal",
+		"id": "DehaeneKerszbergChangeux98",
+		"citation-key": "DehaeneKerszbergChangeux98",
+		"author": [
+			{
+				"family": "Dehaene",
+				"given": "S."
+			},
+			{
+				"family": "Kerszberg",
+				"given": "M."
+			},
+			{
+				"family": "Changeux",
+				"given": "J. P."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences of the United States of America",
+		"page": "14529",
+		"title": "A neuronal model of a global workspace in effortful cognitive tasks.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/9826734",
+		"volume": "95"
+	},
+	{
+		"type": "article-journal",
+		"id": "SethBayne22",
+		"citation-key": "SethBayne22",
+		"language": "en",
+		"author": [
+			{
+				"family": "Seth",
+				"given": "Anil K."
+			},
+			{
+				"family": "Bayne",
+				"given": "Tim"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					25
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Reviews Neuroscience",
+		"container-title-short": "Nat Rev Neurosci",
+		"DOI": "10.1038/s41583-022-00587-4",
+		"ISSN": "1471-0048",
+		"issue": "7",
+		"number": "7",
+		"page": "439-452",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "Theories of consciousness",
+		"URL": "https://www.nature.com/articles/s41583-022-00587-4",
+		"volume": "23"
+	},
+	{
+		"type": "chapter",
+		"id": "AngelucciBressloff06",
+		"citation-key": "AngelucciBressloff06",
+		"author": [
+			{
+				"family": "Angelucci",
+				"given": "Alessandra"
+			},
+			{
+				"family": "Bressloff",
+				"given": "Paul C."
+			}
+		],
+		"editor": [
+			{
+				"family": "S. Martinez-Conde",
+				"given": "S. L. Macknik",
+				"suffix": "L. M. Martinez, J. -M. Alonso and P. U. Tse"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					4,
+					18
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"collection-title": "Visual PerceptionFundamentals of Vision: Low and Mid-Level Processes in Perception",
+		"container-title": "Progress in Brain Research",
+		"DOI": "10.1016/S0079-6123(06)54005-1",
+		"page": "93-120",
+		"publisher": "Elsevier",
+		"source": "ScienceDirect",
+		"title": "Contribution of feedforward, lateral and feedback connections to the classical receptive field center and extra-classical receptive field surround of primate V1 neurons",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0079612306540051",
+		"volume": "154, Part A"
+	},
+	{
+		"type": "article-journal",
+		"id": "BarKassamGhumanEtAl06",
+		"citation-key": "BarKassamGhumanEtAl06",
+		"author": [
+			{
+				"family": "Bar",
+				"given": "M."
+			},
+			{
+				"family": "Kassam",
+				"given": "K."
+			},
+			{
+				"family": "Ghuman",
+				"given": "A."
+			},
+			{
+				"family": "Boshyan",
+				"given": "J."
+			},
+			{
+				"family": "Schmidt",
+				"given": "A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences",
+		"page": "449–454",
+		"title": "Top-down facilitation of visual recognition",
+		"URL": "http://www.pnas.org/cgi/content/abstract/103/2/449",
+		"volume": "103"
+	},
+	{
+		"type": "article-journal",
+		"id": "OReillyWyatteHerdEtAl13",
+		"citation-key": "OReillyWyatteHerdEtAl13",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Wyatte",
+				"given": "Dean"
+			},
+			{
+				"family": "Herd",
+				"given": "Seth A."
+			},
+			{
+				"family": "Mingus",
+				"given": "Brian"
+			},
+			{
+				"family": "Jilk",
+				"given": "David J"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Psychology",
+		"issue": "124",
+		"title": "Recurrent Processing during Object Recognition.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/23554596",
+		"volume": "4"
+	},
+	{
+		"type": "article-journal",
 		"id": "AckleyHintonSejnowski85",
 		"citation-key": "AckleyHintonSejnowski85",
 		"author": [
@@ -1090,65 +1498,6 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "Hopfield82",
-		"citation-key": "Hopfield82",
-		"author": [
-			{
-				"family": "Hopfield",
-				"given": "J. J."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1982",
-					8
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Proceedings of the National Academy of Sciences of the United States of America",
-		"issue": "8",
-		"page": "2554-2558",
-		"title": "Neural networks and physical systems with emergent collective computational abilities.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6953413",
-		"volume": "79"
-	},
-	{
-		"type": "article-journal",
-		"id": "Hopfield84",
-		"citation-key": "Hopfield84",
-		"author": [
-			{
-				"family": "Hopfield",
-				"given": "J. J."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1984",
-					7
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Proceedings of the National Academy of Sciences USA",
-		"page": "3088-3092",
-		"title": "Neurons with graded response have collective computational properties like those of two-state neurons.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6587342",
-		"volume": "81"
-	},
-	{
-		"type": "article-journal",
 		"id": "MovellanMcClelland93",
 		"citation-key": "MovellanMcClelland93",
 		"author": [
@@ -1212,6 +1561,116 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "CritcherHuberHoEtAl09",
+		"citation-key": "CritcherHuberHoEtAl09",
+		"language": "en",
+		"author": [
+			{
+				"family": "Critcher",
+				"given": "Clayton R."
+			},
+			{
+				"family": "Huber",
+				"given": "Michaela"
+			},
+			{
+				"family": "Ho",
+				"given": "Arnold K."
+			},
+			{
+				"family": "Koleva",
+				"given": "Spassena P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					9,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Social Justice Research",
+		"container-title-short": "Soc Just Res",
+		"DOI": "10.1007/s11211-009-0096-1",
+		"ISSN": "1573-6725",
+		"issue": "2",
+		"page": "181-205",
+		"source": "Springer Link",
+		"title": "Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs",
+		"title-short": "Political Orientation and Ideological Inconsistencies",
+		"URL": "https://doi.org/10.1007/s11211-009-0096-1",
+		"volume": "22"
+	},
+	{
+		"type": "article-journal",
+		"id": "NamJostBavel13",
+		"citation-key": "NamJostBavel13",
+		"language": "en",
+		"author": [
+			{
+				"family": "Nam",
+				"given": "H. Hannah"
+			},
+			{
+				"family": "Jost",
+				"given": "John T."
+			},
+			{
+				"family": "Bavel",
+				"given": "Jay J. Van"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					4,
+					19
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "PLOS ONE",
+		"container-title-short": "PLOS ONE",
+		"DOI": "10.1371/journal.pone.0059837",
+		"ISSN": "1932-6203",
+		"issue": "4",
+		"page": "e59837",
+		"publisher": "Public Library of Science",
+		"source": "PLoS Journals",
+		"title": "“Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations",
+		"URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837",
+		"volume": "8"
+	},
+	{
+		"type": "article-journal",
 		"id": "Marr77",
 		"citation-key": "Marr77",
 		"author": [
@@ -1268,6 +1727,113 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
+		"type": "article-journal",
+		"id": "HaxbyGobbiniFureyEtAl01",
+		"citation-key": "HaxbyGobbiniFureyEtAl01",
+		"author": [
+			{
+				"family": "Haxby",
+				"given": "J. V."
+			},
+			{
+				"family": "Gobbini",
+				"given": "M. I."
+			},
+			{
+				"family": "Furey",
+				"given": "M. L."
+			},
+			{
+				"family": "Ishai",
+				"given": "A."
+			},
+			{
+				"family": "Schouten",
+				"given": "J. L."
+			},
+			{
+				"family": "Pietrini",
+				"given": "P."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					9
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science (New York, N.Y.)",
+		"page": "2425-2429",
+		"title": "Distributed and overlapping representations of faces and objects in ventral temporal cortex.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11577229",
+		"volume": "293"
+	},
+	{
+		"type": "article-journal",
+		"id": "QuirogaReddyKreimanEtAl05",
+		"citation-key": "QuirogaReddyKreimanEtAl05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Quiroga",
+				"given": "R. Quian"
+			},
+			{
+				"family": "Reddy",
+				"given": "L."
+			},
+			{
+				"family": "Kreiman",
+				"given": "G."
+			},
+			{
+				"family": "Koch",
+				"given": "C."
+			},
+			{
+				"family": "Fried",
+				"given": "I."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					7,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/nature03687",
+		"ISSN": "1476-4687",
+		"issue": "7045",
+		"page": "1102-1107",
+		"source": "www.nature.com",
+		"title": "Invariant visual representation by single neurons in the human brain",
+		"URL": "https://www.nature.com/articles/nature03687",
+		"volume": "435"
 	},
 	{
 		"type": "paper-conference",
@@ -1623,267 +2189,6 @@
 		"source": "APA PsycNet",
 		"title": "A proposed mechanism of emotion",
 		"volume": "38"
-	},
-	{
-		"type": "article-journal",
-		"id": "CritcherHuberHoEtAl09",
-		"citation-key": "CritcherHuberHoEtAl09",
-		"language": "en",
-		"author": [
-			{
-				"family": "Critcher",
-				"given": "Clayton R."
-			},
-			{
-				"family": "Huber",
-				"given": "Michaela"
-			},
-			{
-				"family": "Ho",
-				"given": "Arnold K."
-			},
-			{
-				"family": "Koleva",
-				"given": "Spassena P."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2024",
-					8,
-					23
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2009",
-					9,
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Social Justice Research",
-		"container-title-short": "Soc Just Res",
-		"DOI": "10.1007/s11211-009-0096-1",
-		"ISSN": "1573-6725",
-		"issue": "2",
-		"page": "181-205",
-		"source": "Springer Link",
-		"title": "Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs",
-		"title-short": "Political Orientation and Ideological Inconsistencies",
-		"URL": "https://doi.org/10.1007/s11211-009-0096-1",
-		"volume": "22"
-	},
-	{
-		"type": "article-journal",
-		"id": "NamJostBavel13",
-		"citation-key": "NamJostBavel13",
-		"language": "en",
-		"author": [
-			{
-				"family": "Nam",
-				"given": "H. Hannah"
-			},
-			{
-				"family": "Jost",
-				"given": "John T."
-			},
-			{
-				"family": "Bavel",
-				"given": "Jay J. Van"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2024",
-					8,
-					23
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2013",
-					4,
-					19
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "PLOS ONE",
-		"container-title-short": "PLOS ONE",
-		"DOI": "10.1371/journal.pone.0059837",
-		"ISSN": "1932-6203",
-		"issue": "4",
-		"page": "e59837",
-		"publisher": "Public Library of Science",
-		"source": "PLoS Journals",
-		"title": "“Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations",
-		"URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837",
-		"volume": "8"
-	},
-	{
-		"type": "article-journal",
-		"id": "HaxbyGobbiniFureyEtAl01",
-		"citation-key": "HaxbyGobbiniFureyEtAl01",
-		"author": [
-			{
-				"family": "Haxby",
-				"given": "J. V."
-			},
-			{
-				"family": "Gobbini",
-				"given": "M. I."
-			},
-			{
-				"family": "Furey",
-				"given": "M. L."
-			},
-			{
-				"family": "Ishai",
-				"given": "A."
-			},
-			{
-				"family": "Schouten",
-				"given": "J. L."
-			},
-			{
-				"family": "Pietrini",
-				"given": "P."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2001",
-					9
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Science (New York, N.Y.)",
-		"page": "2425-2429",
-		"title": "Distributed and overlapping representations of faces and objects in ventral temporal cortex.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11577229",
-		"volume": "293"
-	},
-	{
-		"type": "article-journal",
-		"id": "QuirogaReddyKreimanEtAl05",
-		"citation-key": "QuirogaReddyKreimanEtAl05",
-		"language": "en",
-		"author": [
-			{
-				"family": "Quiroga",
-				"given": "R. Quian"
-			},
-			{
-				"family": "Reddy",
-				"given": "L."
-			},
-			{
-				"family": "Kreiman",
-				"given": "G."
-			},
-			{
-				"family": "Koch",
-				"given": "C."
-			},
-			{
-				"family": "Fried",
-				"given": "I."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2018",
-					7,
-					27
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2005",
-					6
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Nature",
-		"DOI": "10.1038/nature03687",
-		"ISSN": "1476-4687",
-		"issue": "7045",
-		"page": "1102-1107",
-		"source": "www.nature.com",
-		"title": "Invariant visual representation by single neurons in the human brain",
-		"URL": "https://www.nature.com/articles/nature03687",
-		"volume": "435"
-	},
-	{
-		"type": "chapter",
-		"id": "Smolensky86",
-		"citation-key": "Smolensky86",
-		"author": [
-			{
-				"family": "Smolensky",
-				"given": "P."
-			}
-		],
-		"editor": [
-			{
-				"family": "Rumelhart",
-				"given": "D. E."
-			},
-			{
-				"family": "McClelland",
-				"given": "J. L."
-			},
-			{
-				"family": "Group",
-				"given": "PDP Research"
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1986",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Parallel Distributed Processing. Volume 1: Foundations",
-		"event-place": "Cambridge, MA",
-		"page": "282-317",
-		"publisher": "MIT Press",
-		"publisher-place": "Cambridge, MA",
-		"title": "Information Processing in Dynamical Systems: Foundations of Harmony Theory"
 	},
 	{
 		"type": "paper-conference",

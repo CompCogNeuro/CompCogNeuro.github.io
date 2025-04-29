@@ -3,7 +3,7 @@ Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
-This page provides a high-level conceptual understanding of [[neuron|neural]] function in terms of the process of **detection**. Neurons receive thousands of different input signals from other neurons, looking for specific patterns that are "meaningful" to them. A very simple analogy is with a smoke detector, which samples the air and looks for telltale traces of smoke. When these exceed a specified threshold limit, the alarm goes off. Similarly, the neuron has a **threshold** and only sends an "alarm" signal to other neurons when it detects something significant enough to cross this threshold. The alarm is called an **action potential** or **spike** and it is the fundamental unit of communication between neurons.
+There is a useful high-level, conceptual way of understanding of [[neuron|neural]] function in terms of the process of **detection**. Neurons receive thousands of different input signals from other neurons, looking for specific patterns that are "meaningful" to them. A very simple analogy is with a smoke detector, which samples the air and looks for telltale traces of smoke. When these exceed a specified threshold limit, the alarm goes off. Similarly, the neuron has a **threshold** and only sends an "alarm" signal to other neurons when it detects something significant enough to cross this threshold. The alarm is called an **action potential** or **spike** and it is the fundamental unit of communication between neurons.
 
 {id="figure_detector" style="height:20em"}
 ![Neuron as a detector, with corresponding biological components.](media/fig_neuron_as_detect.png)
