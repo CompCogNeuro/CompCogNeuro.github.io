@@ -3,7 +3,7 @@ Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
-This page describes the computational model of spiking neurons used in [[Axon]], which accurately characterizes the behavior of neurons in the [[neocortex]] and other brain areas, and enables many different types of [[channels]] to be used to modify the [[#neural-integration]] behavior to capture a wide range of neurobiologically identified neuron types.
+This page describes the computational model of spiking neurons used in [[Axon]], which accurately characterizes the behavior of neurons in the [[neocortex]] and other brain areas, and enables many different types of [[neuron channels|channels]] to be used to modify the [[#neural-integration]] behavior to capture a wide range of neurobiologically identified neuron types.
 
 Conceptually these neural integration dynamics can be understood in terms of the [[neuron detector|detector model]] of the neuron, where each neuron is continuously monitoring its synaptic inputs, looking for specific patterns that, when detected, cause it to signal the finding to other neurons.
 
@@ -280,7 +280,7 @@ The above equation suggests that the neuron performs a very simple function to d
 
 The same equation holds for inhibitory input conductances, which are computed in terms of the activations of inhibitory sending neurons, times the inhibitory weight values.
 
-The _activity_ factor $x_i$ in [[#eq_gbar-e-sum]] reflects the time-varying synaptic conductance after the sending neuron fires a spike (action potential), which is described in more detail in [[neuron channels]] for the different channel types. For example, the excitatory _AMPA_ channels open when the sending neuron releases the neurotransmitter _glutamate_ (as shown in [[#figure_synapse]]), and this conductance decays exponentially with a time constant of about 5 ms ([[HestrinNicollPerkelEtAl90]]). _GABA_ inhibitory channels have a time constant of around 7 ms ([[@XiangHuguenardPrince98]]).
+The _activity_ factor $x_i$ in [[#eq_gbar-e-sum]] reflects the time-varying synaptic conductance after the sending neuron fires a spike (action potential), which is described in more detail in [[neuron channels]] for the different channel types. For example, the excitatory _AMPA_ channels open when the sending neuron releases the neurotransmitter _glutamate_ (as shown in [[#figure_synapse]]), and this conductance decays exponentially with a time constant of about 5 ms ([[@HestrinNicollPerkelEtAl90]]). _GABA_ inhibitory channels have a time constant of around 7 ms ([[@XiangHuguenardPrince98]]).
 
 Functionally, this extra trace of discrete spiking inputs supports the _temporal summation_ of inputs over time, so that inputs arriving within this temporal integration window can add together to drive larger overall excitatory conductances.
 
@@ -467,7 +467,7 @@ There are several additional in-depth pages providing more details about biologi
 
 * [[Neuron sim]]: provides an interactive exploration of the full set of [[Axon]] neuron equations responding to a simple pulse of excitation.
 
-* [[Detector model]]: describes the high-level conceptual model of a neuron as a detector, including a simulation thereof.
+* [[Neuron detector]]: describes the high-level conceptual model of a neuron as a detector, including a simulation thereof.
 
 * [[Neuron electrophysiology]]: more detailed description of the electrophysiology of the neuron, and how the underlying concentration gradients of ions give rise to the electrical integration properties of the neuron.
 

@@ -382,7 +382,7 @@ Relative to the KNA channels described below, which respond to $Na^+$ influx fro
 
 The original characterization of the M-type current in most models derives from [[@^GutfreundYaromSegev95]], as implemented in NEURON by [[@^MainenSejnowski96]], see these ModelDB entries: [2488](https://modeldb.science/2488?tab=2&file=cells/km.mod), and [181967](https://modeldb.science/181967?tab=2&file=CutsuridisPoirazi2015/km.mod) from [[@CutsuridisPoirazi15]], and [ICGeneology](https://icg.neurotheory.ox.ac.uk/viewer/?family=1&channel=1706) for the widespread use of this code.
 
-There is a voltage gating factor _N_ (often labeled _M_ for other channels) which has an asymptotic drive value ($N_{infty}$) and a time-dependent time constant $\tau$ which are both composed from two sigmoidal functions of potential V, centered at -30 mV with a slope of 9 mV:
+There is a voltage gating factor _N_ (often labeled _M_ for other channels) which has an asymptotic drive value ($N_{\infty}$) and a time-dependent time constant $\tau$ which are both composed from two sigmoidal functions of potential V, centered at -30 mV with a slope of 9 mV:
 
 {id="eq_mahp_ab" title="mAHP functions"}
 $$

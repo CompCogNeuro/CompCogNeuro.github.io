@@ -10,6 +10,8 @@
 
 <p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
 
+<p id="Barlow61">Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. Sensory Communication, 217-234. https://cir.nii.ac.jp/crid/1570291225093500032</p>
+
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
@@ -36,7 +38,13 @@
 
 <p id="CainSnutch12">Cain, S.M., & Snutch, T.P. (2012). Voltage-Gated Calcium Channels in Epilepsy. In J.L. Noebels, M. Avoli, M.A. Rogawski, R.W. Olsen, & A.V. Delgado-Escueta (Eds.), Jasper's Basic Mechanisms of the Epilepsies (4th ed.). National Center for Biotechnology Information (US) http://www.ncbi.nlm.nih.gov/books/NBK98147/</p>
 
+<p id="Cardin18">Cardin, J.A. (2018). Inhibitory interneurons regulate temporal precision and correlations in cortical circuits. Trends in Neurosciences, 41, 689-700. https://www.sciencedirect.com/science/article/pii/S0166223618302078 http://doi.org/10.1016/j.tins.2018.07.015</p>
+
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
+
+<p id="CohenRomeroFarahEtAl94">Cohen, J.D., Romero, R.D., Farah, M.J., & Servan-Schreiber, D. (1994). Mechanisms of Spatial Attention: The Relation of Macrostructure To Microstructure in Parietal Neglect. Journal of Cognitive Neuroscience, 6, 377–387. </p>
+
+<p id="CoslettSaffran91">Coslett, H.B., & Saffran, E. (1991). Simultanagnosia. To see but not two see. Brain, 114, 1523-1545. </p>
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 
@@ -56,7 +64,13 @@
 
 <p id="DriesenMcCarthyBhagwagarEtAl13">Driesen, N.R., McCarthy, G., Bhagwagar, Z., Bloch, M., Calhoun, V., D'Souza, D.C., Gueorguieva, R., He, G., Ramachandran, R., Suckow, R.F., Anticevic, A., Morgan, P.T., & Krystal, J.H. (2013). Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans. Molecular Psychiatry, 18, 1199-1204. https://www.nature.com/articles/mp2012194 http://doi.org/10.1038/mp.2012.194</p>
 
+<p id="Duncan84">Duncan, J. (1984). Selective attention and the organization of visual information. Journal of Experimental Psychology: General, 113, 501-517. </p>
+
 <p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
+
+<p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
+
+<p id="Farah90">Farah, M.J. (1990). Visual Agnosia. MIT Press. </p>
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
@@ -69,6 +83,8 @@
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
 
 <p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
+
+<p id="GoodaleMilner92">Goodale, M.A., & Milner, A.D. (1992). Separate visual pathways for perception and action. Trends in Neurosciences, 15, 20-25. </p>
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
@@ -142,6 +158,8 @@
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
+<p id="MozerZemelBehrmannEtAl92">Mozer, M.C., Zemel, R.S., Behrmann, M., & Williams, C.K.I. (1992). Learning to segment images using dynamic feature binding. Neural Computation, 4, 650–665. </p>
+
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
@@ -162,11 +180,17 @@
 
 <p id="OReillyWyatteHerdEtAl13">O'Reilly, R.C., Wyatte, D., Herd, S.A., Mingus, B., & Jilk, D.J. (2013). Recurrent Processing during Object Recognition. Frontiers in Psychology, 4, http://www.ncbi.nlm.nih.gov/pubmed/23554596</p>
 
+<p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
+
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
 <p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
 
 <p id="PoiraziPapoutsi20">Poirazi, P., & Papoutsi, A. (2020). Illuminating dendritic function with computational models. Nature Reviews Neuroscience, 21(6), 303-321. http://www.nature.com/articles/s41583-020-0301-7 http://doi.org/10.1038/s41583-020-0301-7</p>
+
+<p id="Posner80">Posner, M.I. (1980). Orienting of Attention. Quarterly Journal of Experimental Psychology, 32, 3-25. </p>
+
+<p id="PosnerWalkerFriedrichEtAl84">Posner, M.I., Walker, J.A., Friedrich, F.J., & Rafal, R.D. (1984). Effects of Parietal Lobe Injury on Covert Orienting of Visual Attention. Journal of Neuroscience, 4, 1863-1874. </p>
 
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
 
@@ -180,6 +204,8 @@
 
 <p id="RumelhartMcClelland86">Rumelhart, D.E., & McClelland, J.L. (1986). PDP Models and General Issues in Cognitive Science. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 110-146). MIT Press. </p>
 
+<p id="RumelhartZipser85">Rumelhart, D.E., & Zipser, D. (1985). Feature discovery by competitive learning* Cognitive Science, 9, 75-112. http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_5/abstract http://doi.org/10.1207/s15516709cog0901_5</p>
+
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
@@ -191,6 +217,8 @@
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
 
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
+
+<p id="SimoncelliOlshausen01">Simoncelli, E.P., & Olshausen, B.A. (2001). Natural image statistics and neural representation. Annual Review of Neuroscience, 24, 1193-1216. https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193 http://doi.org/10.1146/annurev.neuro.24.1.1193</p>
 
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
 
@@ -204,9 +232,15 @@
 
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
 
+<p id="UngerleiderMishkin82">Ungerleider, L.G., & Mishkin, M. (1982). Two Cortical Visual Systems. In D.J. Ingle, M.A. Goodale, & R.J.W. Mansfield (Eds.), The Analysis of Visual Behavior (pp. 549-586). MIT Press. </p>
+
 <p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
 
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
+
+<p id="VeceraFarah94">Vecera, S.P., & Farah, M.J. (1994). Does visual attention select objects or locations? Journal of Experimental Psychology: General, 123, 146-160. </p>
+
+<p id="VerfaellieRapcsakHeilman90">Verfaellie, M., Rapcsak, S.Z., & Heilman, K.M. (1990). Impaired shifting of attention in Balint's syndrome. Brain and Cognition, 12, 195-204. </p>
 
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 

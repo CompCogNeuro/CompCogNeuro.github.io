@@ -897,6 +897,393 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "CohenRomeroFarahEtAl94",
+		"citation-key": "CohenRomeroFarahEtAl94",
+		"author": [
+			{
+				"family": "Cohen",
+				"given": "Jonathan D."
+			},
+			{
+				"family": "Romero",
+				"given": "Richard D."
+			},
+			{
+				"family": "Farah",
+				"given": "Martha J."
+			},
+			{
+				"family": "Servan-Schreiber",
+				"given": "D."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Cognitive Neuroscience",
+		"issue": "4",
+		"page": "377–387",
+		"title": "Mechanisms of Spatial Attention: The Relation of Macrostructure To Microstructure in Parietal Neglect.",
+		"volume": "6"
+	},
+	{
+		"type": "article-journal",
+		"id": "PosnerWalkerFriedrichEtAl84",
+		"citation-key": "PosnerWalkerFriedrichEtAl84",
+		"author": [
+			{
+				"family": "Posner",
+				"given": "M. I."
+			},
+			{
+				"family": "Walker",
+				"given": "J. A."
+			},
+			{
+				"family": "Friedrich",
+				"given": "F. J."
+			},
+			{
+				"family": "Rafal",
+				"given": "R. D."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"page": "1863-1874",
+		"title": "Effects of Parietal Lobe Injury on Covert Orienting of Visual Attention.",
+		"volume": "4"
+	},
+	{
+		"type": "book",
+		"id": "Farah90",
+		"citation-key": "Farah90",
+		"author": [
+			{
+				"family": "Farah",
+				"given": "M. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Cambridge, MA",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Visual Agnosia"
+	},
+	{
+		"type": "article-journal",
+		"id": "CoslettSaffran91",
+		"citation-key": "CoslettSaffran91",
+		"author": [
+			{
+				"family": "Coslett",
+				"given": "H. B."
+			},
+			{
+				"family": "Saffran",
+				"given": "E."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Brain",
+		"page": "1523-1545",
+		"title": "Simultanagnosia. To see but not two see.",
+		"volume": "114"
+	},
+	{
+		"type": "article-journal",
+		"id": "Duncan84",
+		"citation-key": "Duncan84",
+		"author": [
+			{
+				"family": "Duncan",
+				"given": "J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Experimental Psychology: General",
+		"page": "501-517",
+		"title": "Selective attention and the organization of visual information",
+		"volume": "113"
+	},
+	{
+		"type": "article-journal",
+		"id": "VeceraFarah94",
+		"citation-key": "VeceraFarah94",
+		"author": [
+			{
+				"family": "Vecera",
+				"given": "Shaun P."
+			},
+			{
+				"family": "Farah",
+				"given": "Martha J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Experimental Psychology: General",
+		"page": "146-160",
+		"title": "Does visual attention select objects or locations?",
+		"volume": "123"
+	},
+	{
+		"type": "article-journal",
+		"id": "MozerZemelBehrmannEtAl92",
+		"citation-key": "MozerZemelBehrmannEtAl92",
+		"author": [
+			{
+				"family": "Mozer",
+				"given": "M. C."
+			},
+			{
+				"family": "Zemel",
+				"given": "R. S."
+			},
+			{
+				"family": "Behrmann",
+				"given": "M."
+			},
+			{
+				"family": "Williams",
+				"given": "C. K. I."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural Computation",
+		"page": "650–665",
+		"title": "Learning to segment images using dynamic feature binding.",
+		"volume": "4"
+	},
+	{
+		"type": "chapter",
+		"id": "UngerleiderMishkin82",
+		"citation-key": "UngerleiderMishkin82",
+		"author": [
+			{
+				"family": "Ungerleider",
+				"given": "L. G."
+			},
+			{
+				"family": "Mishkin",
+				"given": "M."
+			}
+		],
+		"editor": [
+			{
+				"family": "Ingle",
+				"given": "D. J."
+			},
+			{
+				"family": "Goodale",
+				"given": "M. A."
+			},
+			{
+				"family": "Mansfield",
+				"given": "R. J. W."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Analysis of Visual Behavior",
+		"event-place": "Cambridge, MA",
+		"page": "549-586",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Two Cortical Visual Systems"
+	},
+	{
+		"type": "article-journal",
+		"id": "GoodaleMilner92",
+		"citation-key": "GoodaleMilner92",
+		"author": [
+			{
+				"family": "Goodale",
+				"given": "Melvyn A."
+			},
+			{
+				"family": "Milner",
+				"given": "A. David."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Neurosciences",
+		"issue": "1",
+		"page": "20-25",
+		"title": "Separate visual pathways for perception and action",
+		"volume": "15"
+	},
+	{
+		"type": "article-journal",
+		"id": "Posner80",
+		"citation-key": "Posner80",
+		"author": [
+			{
+				"family": "Posner",
+				"given": "M. I."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Quarterly Journal of Experimental Psychology",
+		"issue": "1",
+		"page": "3-25",
+		"title": "Orienting of Attention",
+		"volume": "32"
+	},
+	{
+		"type": "article-journal",
+		"id": "VerfaellieRapcsakHeilman90",
+		"citation-key": "VerfaellieRapcsakHeilman90",
+		"author": [
+			{
+				"family": "Verfaellie",
+				"given": "M."
+			},
+			{
+				"family": "Rapcsak",
+				"given": "S. Z."
+			},
+			{
+				"family": "Heilman",
+				"given": "K. M."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Brain and Cognition",
+		"page": "195-204",
+		"title": "Impaired shifting of attention in Balint's syndrome",
+		"volume": "12"
+	},
+	{
+		"type": "article-journal",
 		"id": "Hopfield82",
 		"citation-key": "Hopfield82",
 		"author": [
@@ -1670,33 +2057,6 @@
 		"volume": "8"
 	},
 	{
-		"type": "article-journal",
-		"id": "Marr77",
-		"citation-key": "Marr77",
-		"author": [
-			{
-				"family": "Marr",
-				"given": "David"
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1977",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Artificial Intelligence",
-		"page": "37-48",
-		"title": "Artificial Intelligence—A Personal View"
-	},
-	{
 		"type": "book",
 		"id": "OReillyMunakata00",
 		"citation-key": "OReillyMunakata00",
@@ -1727,6 +2087,33 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
+	},
+	{
+		"type": "article-journal",
+		"id": "Marr77",
+		"citation-key": "Marr77",
+		"author": [
+			{
+				"family": "Marr",
+				"given": "David"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Artificial Intelligence",
+		"page": "37-48",
+		"title": "Artificial Intelligence—A Personal View"
 	},
 	{
 		"type": "article-journal",
@@ -2027,6 +2414,244 @@
 		"title": "Backpropagation and the brain",
 		"URL": "https://www.nature.com/articles/s41583-020-0277-3",
 		"volume": "21"
+	},
+	{
+		"type": "article-journal",
+		"id": "Cardin18",
+		"citation-key": "Cardin18",
+		"language": "en",
+		"author": [
+			{
+				"family": "Cardin",
+				"given": "Jessica A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					7,
+					26
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"collection-title": "Special Issue: Time in the Brain",
+		"container-title": "Trends in Neurosciences",
+		"container-title-short": "Trends in Neurosciences",
+		"DOI": "10.1016/j.tins.2018.07.015",
+		"ISSN": "0166-2236",
+		"issue": "10",
+		"page": "689-700",
+		"source": "ScienceDirect",
+		"title": "Inhibitory interneurons regulate temporal precision and correlations in cortical circuits",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0166223618302078",
+		"volume": "41"
+	},
+	{
+		"type": "article-journal",
+		"id": "SimoncelliOlshausen01",
+		"citation-key": "SimoncelliOlshausen01",
+		"language": "en",
+		"author": [
+			{
+				"family": "Simoncelli",
+				"given": "Eero P."
+			},
+			{
+				"family": "Olshausen",
+				"given": "Bruno A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					19
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					3,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Annual Review of Neuroscience",
+		"DOI": "10.1146/annurev.neuro.24.1.1193",
+		"ISSN": "0147-006X, 1545-4126",
+		"issue": "Volume 24, 2001",
+		"page": "1193-1216",
+		"publisher": "Annual Reviews",
+		"source": "www.annualreviews.org",
+		"title": "Natural image statistics and neural representation",
+		"URL": "https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193",
+		"volume": "24"
+	},
+	{
+		"type": "article-journal",
+		"id": "OlshausenField96",
+		"citation-key": "OlshausenField96",
+		"author": [
+			{
+				"family": "Olshausen",
+				"given": "B. A."
+			},
+			{
+				"family": "Field",
+				"given": "D. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"page": "607",
+		"title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/8637596",
+		"volume": "381"
+	},
+	{
+		"type": "article-journal",
+		"id": "Barlow61",
+		"citation-key": "Barlow61",
+		"author": [
+			{
+				"family": "Barlow",
+				"given": "H.B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					2
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1961"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Sensory Communication",
+		"page": "217-234",
+		"publisher": "MIT Press",
+		"source": "cir.nii.ac.jp",
+		"title": "Possible principles underlying the transformation of sensory messages",
+		"URL": "https://cir.nii.ac.jp/crid/1570291225093500032"
+	},
+	{
+		"type": "article-journal",
+		"id": "RumelhartZipser85",
+		"citation-key": "RumelhartZipser85",
+		"language": "en",
+		"author": [
+			{
+				"family": "Rumelhart",
+				"given": "David E."
+			},
+			{
+				"family": "Zipser",
+				"given": "David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					4,
+					12
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					1,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cognitive Science",
+		"DOI": "10.1207/s15516709cog0901_5",
+		"ISSN": "1551-6709",
+		"issue": "1",
+		"page": "75-112",
+		"source": "Wiley Online Library",
+		"title": "Feature discovery by competitive learning*",
+		"URL": "http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_5/abstract",
+		"volume": "9"
+	},
+	{
+		"type": "book",
+		"id": "Edelman87",
+		"citation-key": "Edelman87",
+		"author": [
+			{
+				"family": "Edelman",
+				"given": "G."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "New York",
+		"publisher": "Basic Books",
+		"publisher-place": "New York",
+		"title": "Neural Darwinism"
 	},
 	{
 		"type": "article-journal",
