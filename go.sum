@@ -42,8 +42,8 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dlclark/regexp2 v1.11.0 h1:G/nrcoOa7ZXlpoa/91N3X7mM3r8eIlMBBJZvsz/mxKI=
 github.com/dlclark/regexp2 v1.11.0/go.mod h1:DHkYz0B9wPfa6wondMfaivmHpzrQ3v9q8cnmRbL6yW8=
-github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250427090318-fe87ac2fa88e h1:yRX574FRJnwJYooVOa9MV2RqYuPdrmCWbpwDPSQKOCA=
-github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250427090318-fe87ac2fa88e/go.mod h1:0oSBFoJ5NRsrkFkEFHjSOAT1Zuf66+YeYimiwrMACMU=
+github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250501062921-f6115140e8a0 h1:Gp/XqkN7krZfPzd033dtK20SLkiT2oIq1jGCmX8Iyhg=
+github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250501062921-f6115140e8a0/go.mod h1:0oSBFoJ5NRsrkFkEFHjSOAT1Zuf66+YeYimiwrMACMU=
 github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250421193715-8ee934c6c0f6 h1:XophNZ+3U6XvH7ltPlc4+6YeBvfuNcRxWO30YuKy+Bc=
 github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250421193715-8ee934c6c0f6/go.mod h1:C5GOboYpLH8cegYNHdQ0KzQDKlWHEK+AlY3Td6cSI3s=
 github.com/ericchiang/css v1.3.0 h1:e0vS+vpujMjtT3/SYu7qTHn1LVzXWcLCCDjlfq3YlLY=
