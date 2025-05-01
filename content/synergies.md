@@ -9,6 +9,8 @@ This page collects some of the functional ⇔ biological synergies present in th
 
 * Extensive [[inhibition]] implemented by specialized types of interneurons in the neocortex is necessary for controlling the runaway positive feedback loops that arise from bidirectional connectivity, and it also produces significant benefits for [[attention]] learning by imposing [[competition]] that helps decorrelate neural responses and maximize the robustness of [[distgributed representations]].
 
+* Furthermore the specific form of [[inhibition]] that works best for learning across a wide range of models depends critically on having a mix of fast and slow components, which is nicely consistent with the properties of the two dominant interneuron types that drive this inhibition in the neocortex (PV and SST, respectively).
+
 * The complementary and synergistic properties of the [[neuron channels#NMDA]] and [[neuron channels#GABA-B]] channels are critical for the [[stable activation]] needed for learning and processing in spiking networks, which in turn is essential for supporting [[conscious awareness]].
 
 * The detailed biology of the [[hippocampus]], including high levels of inhibition and broad diffuse connectivity, fit together with its unique role in rapidly learning new [[episodic memory|episodic memories]], and the remarkable data from patient HM who had his hippocampus resected to prevent intractable epilepsy. The computational models of the hippocampus ([[hippocampus sim]])) show how these biological details produce high levels of _pattern separation_ which keep memories highly distinct, and thus enable rapid learning without creating catastrophic levels of interference.

@@ -11,6 +11,8 @@ Chairs have seating surfaces, and sometimes have a backrest, and typically have 
 
 The same goes for the polymorphous nature of categories. One set of neurons may be detecting chair-like aspects of a chair, while others are activating based on all the different things that it might represent (material, broader categories, appearance, style etc). All of these different possible meanings of the chair input can be active _simultaneously_, which is well captured by a distributed representation with neurons detecting all these different categories at the same time.
 
+The specific type of distributed representations present in the [[neocortex]] are _sparse_, with roughly 15% of the neurons active at a time. This type of representation has numerous advantages over more "dense" distributed representations that have many neurons active at a time ([[@SimoncelliOlshausen01]]; [[@OlshausenField96]]; [[@Barlow61]]). [[Inhibition]] via inhibitory interneurons is critical for creating these sparse representations.
+
 {id="figure_dist-graded" style="height:20em"}
 ![Graded response as a function of similarity. This is one aspect of distributed representations, shown here in a neuron in the visual cortex of a monkey --- this neuron responds in a graded fashion to different input stimuli, in proportion to how similar they are to the thing that it responds most actively to (as far as is known from presenting a wide sample of different input images). With such graded responses ubiquitous in cortex, it follows that any given input will activate many different neuron detectors. Reproduced from Tanaka (1996).](media/fig_dist_rep_vis_bio.png)
 

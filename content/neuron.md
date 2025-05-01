@@ -134,7 +134,7 @@ addSlider(&gbarEStr, &gbarE, 1)
 addTauSlider(&vmTauStr, &vmTau, 50)
 ```
 
-[[#sim_vm_gbar]] provides an interactive exploration of this tug-of-war dynamic. As you drag the `E` (excitation) and `I` (inhibition) sliders, you control the strength of these two inputs, which are also plotted for easy visualization. The membrane potential `Vm` starts at 0, and is pushed up toward 1 by the `E` inputs, and down toward 0 by the `I` inputs. Thus, if you move `E` down toward 0, you can see that `Vm` barely gets off the ground, whereas if it is equal to `I` (e.g., both are 0.4) then `Vm` goes to exactly 0.5, reflecting an even balance between these opposing forces. When `E` is greater than `I` then, `Vm` goes increasingly higher, closer to 1. The `Vm Tau` slider controls the _rate_ at which `Vm` is updated, with larger values taking a longer time to converge on a stable final `Vm` value.
+[[#sim_vm_gbar]] provides an interactive exploration of this tug-of-war dynamic. As you drag the `E` (excitation) and `I` (inhibition) sliders, you control the strength of these two inputs, which are also plotted for easy visualization. The membrane potential `Vm` starts at 0, and is pushed up toward 1 by the `E` inputs, and down toward 0 by the `I` inputs. Thus, if you move `E` down toward 0, you can see that `Vm` barely gets off the ground, whereas if it is equal to `I` (e.g., both are 0.4) then `Vm` goes to exactly 0.5, reflecting an even balance between these opposing forces. When `E` is greater than `I` then, `Vm` goes increasingly higher, closer to 1. The `Vm Tau` slider controls the _rate_ at which `Vm` is updated (see [[time constant]] for critical background on such parameters), with larger values taking a longer time to converge on a stable final `Vm` value.
 
 * What happens when `E` and `I` are both tied, but both at 0.2, or both at 0.8? Are these cases equivalent in all respects in terms of the resulting `Vm` plot? If not, in which ways do they differ?
 
@@ -148,7 +148,9 @@ The standard neuroscience notation in [[#figure_tug-of-war]] is as follows:
 
 * $\Theta$ --- the **action potential threshold** --- this is the electrical potential at which the neuron will fire an action potential output to signal other neurons. This is typically around -50mV. This is also called the **firing threshold** or the **spiking threshold**, because neurons are described as "firing a spike" when they get over this threshold.
 
-* $V_m$ --- the **membrane potential** of the neuron (V = voltage or electrical potential, and m = membrane). This is the current electrical potential of the neuron relative to the extracellular space outside the neuron. It is called the membrane potential because it is the cell membrane (thin layer of fat basically) that separates the inside and outside of the neuron, and that is where the electrical potential really happens. An electrical potential or voltage is a relative comparison between the amount of electric charge in one location versus another. It is called a "potential" because when there is a difference, there is the potential to make stuff happen. For example, when there is a big potential difference between the charge in a cloud and that on the ground, it creates the potential for lightning. Just like water, differences in charge always flow "downhill" to try to balance things out. So if you have a lot of charge (water) in one location, it will flow until everything is all level. The cell membrane is effectively a dam against this flow, enabling the charge inside the cell to be different from that outside the cell. The ion channels in this context are like little tunnels in the dam wall that allow things to flow in a controlled manner. And when things flow, the membrane potential changes! In the tug-of-war metaphor, think of the membrane potential as the flag attached to the rope that marks where the balance of tugging is at the current moment.
+* $V_m$ --- the **membrane potential** of the neuron (V = voltage or electrical potential, and m = membrane). This is the current electrical potential of the neuron relative to the extracellular space outside the neuron. It is called the membrane potential because it is the cell membrane (thin layer of fat basically) that separates the inside and outside of the neuron, and that is where the electrical potential really happens. An electrical potential or voltage is a relative comparison between the amount of electric charge in one location versus another. It is called a "potential" because when there is a difference, there is the potential to make stuff happen.
+
+    For example, when there is a big potential difference between the charge in a cloud and that on the ground, it creates the potential for lightning. Just like water, differences in charge always flow "downhill" to try to balance things out. So if you have a lot of charge (water) in one location, it will flow until everything is all level. The cell membrane is effectively a dam against this flow, enabling the charge inside the cell to be different from that outside the cell. The ion channels in this context are like little tunnels in the dam wall that allow things to flow in a controlled manner. And when things flow, the membrane potential changes! In the tug-of-war metaphor, think of the membrane potential as the flag attached to the rope that marks where the balance of tugging is at the current moment.
 
 * $E_e$ --- the **excitatory driving potential** --- this is where the excitatory guy is standing in the electrical potential space (typically around 0 mV).
 
@@ -224,10 +226,10 @@ So what good is a net current? Recall that electricity is like water, and it flo
 
 {id="eq_Vm" title="Membrane potential"}
 $$
-V_m\left(t\right) = V_m\left(t-1\right) + dt_{vm} I_{net}
+V_m\left(t\right) = V_m\left(t-1\right) + \frac{1}{\tau_{vm}} I_{net}
 $$
 
-$V_m(t)$ is the current value of $V_m$, which is updated from value on the previous time step $V_m(t-1)$, and the $dt_{vm}$ is a **rate constant** that determines how fast the membrane potential changes. It mainly reflects the capacitance of the neuron's membrane.
+$V_m(t)$ is the current value of $V_m$, which is updated from value on the previous time step $V_m(t-1)$, and the $\tau_{vm}$ is a [[time constant]] that determines how fast the membrane potential changes. It mainly reflects the capacitance of the neuron's membrane.
 
 The above two equations are the most essential tools we need to simulate a neuron on a computer. It tells us how the membrane potential changes as a function of the inhibitory, leak and excitatory inputs --- given specific numbers for these input conductances, and a starting $V_m$ value, we can then **iteratively** compute the new $V_m$ value according to the above equations, and this will accurately reflect how a real neuron would respond to similar such inputs.
 
@@ -235,7 +237,7 @@ To summarize, here's a single version of the above equations that does everythin
 
 {id="eq_Vm-full" title="Full update"}
 $$
-V_m(t) = V_m(t-1) + dt_{vm} \left[ g_e (E_e-V_m) + g_i (E_i-V_m) + g_l (E_l-V_m) \right]
+V_m(t) = V_m(t-1) + \frac{1}{\tau_{vm}} \left[ g_e (E_e-V_m) + g_i (E_i-V_m) + g_l (E_l-V_m) \right]
 $$
 
 For those of you who noticed the issue with the minus sign above, or are curious know more details about where these equations come from, see [[neuron electrophysiology]]. If you're happy enough with where we've come, feel free to move along to finding out how we compute these input conductances, and what we then do with the $V_m$ value to drive the output signal of the neuron.

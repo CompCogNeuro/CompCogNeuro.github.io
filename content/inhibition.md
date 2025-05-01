@@ -60,10 +60,10 @@ Indeed, we have developed such a framework, and found that it works well for con
 
 This approach of using a summary function instead of separate inhibitory interneurons dates back to the earliest versions of [[Leabra]], which used an abstract computed _k-Winners-Take-All_ (kWTA) form of inhibition. Later, a more biologically based FFFB (feedforward, feedback) inhibition function was developed, which computed the pooled inhibitory conductance `Gi` as a simple scaled function of the average excitatory conductance of neurons in the pool ($\langle Ge \rangle$), reflecting the FF component, and the average rate-code activation reflecting the FB component ($\langle Act \rangle$).
 
-{id="figure_fs_vs_fffb" style="height:30em"}
-![Comparison of the output of the new spike-based FS-FFFB function used in Axon versus the earlier FFFB function adopted from Leabra.](media/fig_fs_vs_orig_fffb_layer2.png)
+{id="figure_fs_vs_fffb" style="height:20em"}
+![Comparison of the output of the new spike-based FS-FFFB function used in Axon versus the earlier FFFB function adopted from Leabra. The inputs to these two functions are entirely different, and their parameters were separately optimized across a range of models based on overall learning performance. The remarkable correspondence was only discovered after the fact, and suggests a strongly conserved functional form for the best-performing inhibition dynamics. ](media/fig_fs_vs_orig_fffb_layer2.png)
 
-This inhibition function was initially used in [[Axon]] with reasonable success, before developing the purely spike-based equations described below. Interestingly [[#figure_fs_vs_fffb]] shows that best parameters for the new spike-based function produced a nearly identical resulting `Gi` value as the previous Leabra FFFB function based on time-integrated Ge and Act rate-code functions.
+This inhibition function was initially used in [[Axon]] with reasonable success, before developing the purely spike-based equations described below. Interestingly [[#figure_fs_vs_fffb]] shows that best parameters for the new spike-based function produced a nearly identical resulting `Gi` value as the previous Leabra FFFB function based on time-integrated Ge and Act rate-code functions. This correspondence was only discovered after optimizing the new equations based on learning performance across a range of models, and it was originally hoped that some kind of novel, improved inhibitory dynamic emerge. Instead, it appears that there is a fairly specific, "conserved" functional form that works best. The fact that this form depends critically on a mix of a fast PV-like component and a slow SST-like component provides a nice [[synergies|synergy]] between computation and the underlying neurobiology.
 
 The new spike-based equations incorporate the distinct contributions of the PV (fast-spiking) and SST (slow-spiking) neuron types, and the FF and FB connectivity patterns, and is thus named `FS-FFFB` (fast-slow FFFB). The slow contribution simulating the SST neurons corresponds to the slow responding of the time-integrated activation component of the original FFFB model, while the fast contribution of PV neurons corresponds to the rapid responses of the Ge component of original FFFB. Thus, the strong correspondence in results shown in [[#figure_fs_vs_fffb]] and the dependence on a mix of fast and slow signals suggests that these different time constants are critical for an effective form of inhibition. Furthermore, it is easy to see that only using the fast PV or slow SST components does not work in practice.
 
@@ -96,14 +96,14 @@ $$
 FSi = FSi + (FFs + FB * FBs) - \frac{1}{FSTau} FSi
 $$
 
-[[#eq_fsi]] updates the integrated fast spiking value FSi, which represents the activity of the PV neurons. It has an instantaneous rise and decays with the FSTau time constant (6 ms default). The fast spiking value integrates both feedforward (FF) and feedback (FB) inputs, where FF always contributes with a factor of 1, and FB has a parameter that can scale the FB contributions -- it defaults to 1 but can sometimes benefit from being larger for layers with very sparse activity.
+[[#eq_fsi]] updates the integrated fast spiking value FSi, which represents the activity of the PV neurons. It has an instantaneous rise and decays with the FSTau [[time constant]] (6 ms default). The fast spiking value integrates both feedforward (FF) and feedback (FB) inputs, where FF always contributes with a factor of 1, and FB has a parameter that can scale the FB contributions -- it defaults to 1 but can sometimes benefit from being larger for layers with very sparse activity.
 
 {id="eq_ssi" title="Slow spiking (SST) integration"}
 $$
 SSi = SSi + \frac{1}{SSiTau} (SSf * FBs - SSi)
 $$
 
-[[#eq_ssi]] updates the integrated slow spiking value SSi, which represents the activity of the SST neurons. SSi is driven exclusively by feedback spikes (FBs) and the rise is dependent on the SSf facilitation factor, which reflects the fact that SST neurons have strongly facilitating synapses that start weak and get stronger as a function of the spikes coming into the SST neurons. Rise and decay are governed by the same time constant SSiTau.
+[[#eq_ssi]] updates the integrated slow spiking value SSi, which represents the activity of the SST neurons. SSi is driven exclusively by feedback spikes (FBs) and the rise is dependent on the SSf facilitation factor, which reflects the fact that SST neurons have strongly facilitating synapses that start weak and get stronger as a function of the spikes coming into the SST neurons. Rise and decay are governed by the same [[time constant]] SSiTau.
 
 {id="eq_ssf" title="Slow spiking facilitation factor (SSf)"}
 $$
@@ -118,6 +118,8 @@ TotalGi = Gi * (SS * SSi + [FSi - FS0]_+)
 $$
 
 [[#eq_total]] computes the total inhibitory conductance as a function of the SSi and FSi integrated values. Note that the FSi value is subject to the FS0 threshold, where values below FS0 are truncated to 0.
+
+Finally, because the SST neurons specifically target dendrites instead of cell bodies, 
 
 Again see the [[inhibition sim]] to explore these equations and parameters in a simple network with full instrumentation to record all the FS-FFFB values.
 
