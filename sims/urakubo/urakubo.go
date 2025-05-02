@@ -6,7 +6,6 @@ package urakubo
 
 import (
 	"fmt"
-	"strings"
 
 	"cogentcore.org/lab/tensor"
 	"cogentcore.org/lab/tensorfs"
@@ -195,6 +194,13 @@ func (uk *Urakubo) Counters() string {
 	return fmt.Sprintf("Msec:\t%d\t\t\t", uk.Msec)
 }
 
+func (uk *Urakubo) Stop() {
+	if uk.GUI == nil {
+		return
+	}
+	uk.GUI.StopNow = true
+}
+
 func (uk *Urakubo) StopNow() bool {
 	if uk.GUI == nil {
 		return false
@@ -285,7 +291,9 @@ func (uk *Urakubo) NeuronUpdt(msec int, ge, gi float32) {
 
 //////// Stats
 
-var StatsNames = []string{"Msec", "Msec10", "Msec100", "DWt", "DWtPhase"}
+var TimeStatsNames = []string{"Msec", "Msec10", "Msec100"}
+
+var DWtStatsNames = []string{"DWt", "DWtPhase"}
 
 // ConfigStats
 func (uk *Urakubo) ConfigStats(dir *tensorfs.Node) {
@@ -300,8 +308,10 @@ func (uk *Urakubo) StatsInit() {
 	if uk.GUI.Tabs != nil {
 		_, idx = uk.GUI.Tabs.AsLab().CurrentTab()
 	}
-	for _, sn := range StatsNames {
-		uk.StatsInitDir(dir, sn)
+	uk.StatsInitTime()
+	uk.StatsInitDWt()
+	uk.StatsInitDWtPhase()
+	for _, sn := range TimeStatsNames {
 		if uk.GUI.Tabs != nil {
 			sd := dir.Dir(sn)
 			uk.GUI.Tabs.AsLab().PlotTensorFS(sd)
@@ -314,21 +324,33 @@ func (uk *Urakubo) StatsInit() {
 
 // StatsInitTime
 func (uk *Urakubo) StatsInitTime() {
-	for _, sn := range StatsNames {
-		if !strings.HasPrefix(sn, "DWt") {
-			uk.StatsInitDir(uk.Stats, sn)
-		}
+	for _, sn := range TimeStatsNames {
+		sd := uk.Stats.Dir(sn)
+		uk.StatsTime(sd)
+		uk.StatsInitDir(uk.Stats, sn)
 	}
 }
 
 // StatsInitDWt
 func (uk *Urakubo) StatsInitDWt() {
+	sd := uk.Stats.Dir("DWt")
+	uk.StatsDWt(sd, 0, 0)
 	uk.StatsInitDir(uk.Stats, "DWt")
 }
 
 // StatsInitDWtPhase
 func (uk *Urakubo) StatsInitDWtPhase() {
+	sd := uk.Stats.Dir("DWtPhase")
+	uk.StatsDWtPhase(sd, []int{0, 0}, []int{0, 0})
 	uk.StatsInitDir(uk.Stats, "DWtPhase")
+}
+
+func (uk *Urakubo) StatsPlotUpdate(sn string) {
+	if uk.GUI == nil {
+		return
+	}
+	nm := "Stats " + sn + " Plot"
+	uk.GUI.Tabs.AsLab().GoUpdatePlot(nm)
 }
 
 // StatsInitDir initializes given stats directory
@@ -370,6 +392,7 @@ func (uk *Urakubo) StatsTime(dir *tensorfs.Node) {
 	dir.Float64("AKh").AppendRowFloat(float64(nex.AKh))
 
 	uk.Spine.Stats(dir)
+	uk.StatsPlotUpdate(dir.Name())
 }
 
 // StatsDWt adds data for current dwt value as function of x, y values
@@ -383,8 +406,7 @@ func (uk *Urakubo) StatsDWt(dir *tensorfs.Node, x, y float64) {
 	dir.Float64("DWt").AppendRowFloat(float64(dwt))
 	uk.Spine.Stats(dir)
 
-	// uk.Plot("DWtPlot").GoUpdate()
-
+	uk.StatsPlotUpdate(dir.Name())
 }
 
 // StatsDWtPhase adds data for current dwt value as function of phase hz levels
@@ -403,8 +425,7 @@ func (uk *Urakubo) StatsDWtPhase(dir *tensorfs.Node, sphz, rphz []int) {
 	dir.Float64("DWt").AppendRowFloat(float64(dwt))
 	uk.Spine.Stats(dir)
 
-	// uk.Plot("DWtPlot").GoUpdate()
-
+	uk.StatsPlotUpdate(dir.Name())
 }
 
 // StatsDefault does default logging for current Msec, for given iteration.
@@ -424,7 +445,7 @@ func (uk *Urakubo) StatsDefault(itr int) {
 	}
 }
 
-func (uk *Urakubo) GraphRun(secs float64, itr int) {
+func (uk *Urakubo) RunWithStats(secs float64, itr int) {
 	nms := int(secs / 0.001)
 	sms := uk.Msec
 	for msec := 0; msec < nms; msec++ {

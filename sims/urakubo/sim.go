@@ -127,39 +127,70 @@ func (ss *Sim) InitRandSeed(run int) {
 
 //////// GUI
 
+// UpdateGUI updates the GUI window if GUI present
+func (ss *Sim) UpdateGUI() {
+	if !ss.GUI.Active {
+		return
+	}
+	ss.GUI.UpdateWindow()
+}
+
 // ConfigGUI configures the Cogent Core GUI interface for this simulation.
 func (ss *Sim) ConfigGUI(b tree.Node) {
 	ss.GUI.MakeBody(b, ss, ss.Root, ss.Config.Name, ss.Config.Title, ss.Config.Doc)
 	ss.GUI.CycleUpdateInterval = 10
 	ss.Urakubo.GUI = &ss.GUI
+	ss.Urakubo.StatsInit()
 	ss.GUI.FinalizeGUI(false)
 }
 
 func (ss *Sim) MakeToolbar(p *tree.Plan) {
+	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
+		Label:   "Init",
+		Icon:    icons.Update,
+		Tooltip: "Initialize sim and apply params.",
+		Active:  egui.ActiveStopped,
+		Func: func() {
+			ss.Urakubo.Init()
+			ss.UpdateGUI()
+		},
+	})
+	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
+		Label:   "Stop",
+		Icon:    icons.Stop,
+		Tooltip: "Stops running.",
+		Active:  egui.ActiveRunning,
+		Func: func() {
+			ss.Urakubo.Stop()
+			ss.UpdateGUI()
+		},
+	})
+	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
+		Label:   "Run",
+		Icon:    icons.RunCircle,
+		Tooltip: "Run current Stims.",
+		Active:  egui.ActiveStopped,
+		Func: func() {
+			ss.Urakubo.Stim = ss.Stim
+			ss.Urakubo.GUI.IsRunning = true
+			go ss.Urakubo.RunStim()
+			ss.UpdateGUI()
+		},
+	})
+
+	tree.Add(p, func(w *core.Separator) {})
+
+	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
+		Label:   "Defaults",
+		Icon:    icons.Update,
+		Tooltip: "Reset parameters to defaults.",
+		Active:  egui.ActiveStopped,
+		Func: func() {
+			ss.Urakubo.Defaults()
+			ss.Urakubo.Init()
+		},
+	})
 	/*
-		tbar.AddAction(gi.ActOpts{Label: "Init", Icon: "update", Tooltip: "Initialize everything including network weights, and start over.  Also applies current params.", UpdateFunc: func(act *gi.Action) {
-			act.SetActiveStateUpdt(!uk.IsRunning)
-		}}, win.This(), func(recv, send ki.Ki, sig int64, data interface{}) {
-			uk.Init()
-			vp.SetNeedsFullRender()
-		})
-
-		tbar.AddAction(gi.ActOpts{Label: "Stop", Icon: "stop", Tooltip: "Interrupts running.  Hitting Train again will pick back up where it left off.", UpdateFunc: func(act *gi.Action) {
-			act.SetActiveStateUpdt(uk.IsRunning)
-		}}, win.This(), func(recv, send ki.Ki, sig int64, data interface{}) {
-			uk.Stop()
-		})
-
-		tbar.AddAction(gi.ActOpts{Label: "Run", Icon: "step-fwd", Tooltip: "Runs current Stim.", UpdateFunc: func(act *gi.Action) {
-			act.SetActiveStateUpdt(!uk.IsRunning)
-		}}, win.This(), func(recv, send ki.Ki, sig int64, data interface{}) {
-			if !uk.IsRunning {
-				uk.IsRunning = true
-				tbar.UpdateActions()
-				uk.RunStim() // does go
-			}
-		})
-
 		tbar.AddSeparator("run-sep")
 
 		tbar.AddAction(gi.ActOpts{Label: "Reset Plots", Icon: "update", Tooltip: "Reset Time Plots.", UpdateFunc: func(act *gi.Action) {
@@ -186,24 +217,6 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 			}
 		})
 
-		tbar.AddAction(gi.ActOpts{Label: "Genesis Plot", Icon: "file-open", Tooltip: "Open Genesis Urakubo model data from geneplot directory.", UpdateFunc: func(act *gi.Action) {
-			act.SetActiveStateUpdt(!uk.IsRunning)
-		}}, win.This(), func(recv, send ki.Ki, sig int64, data interface{}) {
-			giv.CallMethod(uk, "OpenGenesisData", vp)
-		})
-
-		tbar.AddAction(gi.ActOpts{Label: "Defaults", Icon: "update", Tooltip: "Restore initial default parameters.", UpdateFunc: func(act *gi.Action) {
-			act.SetActiveStateUpdt(!uk.IsRunning)
-		}}, win.This(), func(recv, send ki.Ki, sig int64, data interface{}) {
-			uk.Defaults()
-			uk.Init()
-			vp.SetNeedsFullRender()
-		})
-
-		tbar.AddAction(gi.ActOpts{Label: "README", Icon: "file-markdown", Tooltip: "Opens your browser on the README file that contains instructions for how to run this model."}, win.This(),
-			func(recv, send ki.Ki, sig int64, data interface{}) {
-				gi.OpenURL("https://github.com/ccnlab/kinase/blob/master/sims/urakubo/README.md")
-			})
 	*/
 
 	tree.Add(p, func(w *core.Separator) {})

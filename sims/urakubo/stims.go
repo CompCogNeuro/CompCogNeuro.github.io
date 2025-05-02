@@ -210,7 +210,7 @@ func (uk *Urakubo) ClampCa1Fun() {
 			break
 		}
 	}
-	uk.GraphRun(uk.FinalSecs, 0)
+	uk.RunWithStats(uk.FinalSecs, 0)
 	uk.Stopped()
 }
 
@@ -237,7 +237,7 @@ func (uk *Urakubo) STDPFun() {
 			break
 		}
 	}
-	uk.GraphRun(uk.FinalSecs, 0)
+	uk.RunWithStats(uk.FinalSecs, 0)
 	uk.Stopped()
 }
 
@@ -271,7 +271,7 @@ func (uk *Urakubo) STDPSweepFun() {
 				return
 			}
 		}
-		uk.GraphRun(uk.FinalSecs, 0)
+		uk.RunWithStats(uk.FinalSecs, 0)
 		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), 0)
 	}
 
@@ -314,7 +314,7 @@ func (uk *Urakubo) STDPPacketSweepFun() {
 				}
 			}
 		}
-		uk.GraphRun(uk.FinalSecs, 0)
+		uk.RunWithStats(uk.FinalSecs, 0)
 		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), float64(uk.SendHz))
 	}
 
@@ -354,9 +354,9 @@ func (uk *Urakubo) PoissonFun() {
 			tmsec++
 		}
 		uk.Spine.States.PreSpike = 0
-		uk.GraphRun(uk.ISISec, 0)
+		uk.RunWithStats(uk.ISISec, 0)
 	}
-	uk.GraphRun(uk.FinalSecs, 0)
+	uk.RunWithStats(uk.FinalSecs, 0)
 	uk.Stopped()
 }
 
@@ -382,9 +382,9 @@ func (uk *Urakubo) SPoissonRGClampFun() {
 			}
 		}
 		uk.Spine.States.PreSpike = 0
-		uk.GraphRun(uk.ISISec, 0)
+		uk.RunWithStats(uk.ISISec, 0)
 	}
-	uk.GraphRun(uk.FinalSecs, 0)
+	uk.RunWithStats(uk.FinalSecs, 0)
 	uk.Stopped()
 }
 
@@ -426,9 +426,9 @@ func (uk *Urakubo) PoissonHzSweepFun() {
 					}
 				}
 				uk.Spine.States.PreSpike = 0
-				uk.GraphRun(uk.ISISec, 0)
+				uk.RunWithStats(uk.ISISec, 0)
 			}
-			uk.GraphRun(uk.FinalSecs, 0)
+			uk.RunWithStats(uk.FinalSecs, 0)
 			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(shz))
 		}
 	}
@@ -473,9 +473,9 @@ func (uk *Urakubo) PoissonDurSweepFun() {
 					}
 				}
 				uk.Spine.States.PreSpike = 0
-				uk.GraphRun(uk.ISISec, 0)
+				uk.RunWithStats(uk.ISISec, 0)
 			}
-			uk.GraphRun(uk.FinalSecs, 0)
+			uk.RunWithStats(uk.FinalSecs, 0)
 			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
@@ -521,9 +521,9 @@ func (uk *Urakubo) OpPhaseDurSweepFun() {
 					}
 				}
 				uk.Spine.States.PreSpike = 0
-				uk.GraphRun(uk.ISISec, 0)
+				uk.RunWithStats(uk.ISISec, 0)
 			}
-			uk.GraphRun(uk.FinalSecs, 0)
+			uk.RunWithStats(uk.FinalSecs, 0)
 			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
@@ -580,10 +580,10 @@ func (uk *Urakubo) ThetaErrFun() {
 			}
 		}
 		uk.Spine.States.PreSpike = 0
-		uk.GraphRun(uk.ISISec, 0)
+		uk.RunWithStats(uk.ISISec, 0)
 		tmsec = uk.Msec
 	}
-	uk.GraphRun(uk.FinalSecs, 0)
+	uk.RunWithStats(uk.FinalSecs, 0)
 	tmsec = uk.Msec
 	uk.Stopped()
 }
@@ -645,10 +645,10 @@ func (uk *Urakubo) ThetaErrCompFun() {
 				}
 			}
 			uk.Spine.States.PreSpike = 0
-			uk.GraphRun(uk.ISISec, itr)
+			uk.RunWithStats(uk.ISISec, itr)
 			tmsec = uk.Msec
 		}
-		uk.GraphRun(uk.FinalSecs, itr)
+		uk.RunWithStats(uk.FinalSecs, itr)
 		tmsec = uk.Msec
 		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(itr), 0)
 	}
@@ -715,10 +715,10 @@ func (uk *Urakubo) ThetaErrSweepFun() {
 					}
 				}
 				uk.Spine.States.PreSpike = 0
-				uk.GraphRun(uk.ISISec, 0)
+				uk.RunWithStats(uk.ISISec, 0)
 				tmsec = uk.Msec
 			}
-			uk.GraphRun(uk.FinalSecs, 0)
+			uk.RunWithStats(uk.FinalSecs, 0)
 			tmsec = uk.Msec
 			uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 		}
@@ -786,9 +786,9 @@ func (uk *Urakubo) ThetaErrAllSweepFun() {
 							}
 						}
 						uk.Spine.States.PreSpike = 0
-						uk.GraphRun(uk.ISISec, 0)
+						uk.RunWithStats(uk.ISISec, 0)
 					}
-					uk.GraphRun(uk.FinalSecs, 0)
+					uk.RunWithStats(uk.FinalSecs, 0)
 					uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 				}
 			}
