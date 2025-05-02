@@ -14,20 +14,26 @@ import (
 type Stims int32 //enums:enum
 
 const (
+	// Baseline allows the parameters to settle into a stable baseline state.
 	Baseline Stims = iota
 
+	// CaTarg ?
 	CaTarg
 
+	// Clamps calcium
 	ClampCa1
 
 	GClamp
 
+	// STDP is spike timing dependent plasticity for specific set of timing parameters.
 	STDP
 
+	// STDPSweep is spike timing dependent plasticity sweeping across pre-post offsets.
 	STDPSweep
 
 	STDPPacketSweep
 
+	// Poisson is random poisson spike timing.
 	Poisson
 
 	SPoissonRGClamp

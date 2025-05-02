@@ -7,6 +7,7 @@ package urakubo
 import (
 	"fmt"
 
+	"cogentcore.org/core/base/errors"
 	"cogentcore.org/lab/tensor"
 	"cogentcore.org/lab/tensorfs"
 	"github.com/emer/axon/v2/axon"
@@ -146,7 +147,14 @@ func (uk *Urakubo) ConfigNet(net *axon.Network) {
 }
 
 func (uk *Urakubo) ApplyParams() {
-	// ss.Params.ApplyAll(ss.Net)
+	lsheet, err := LayerParams.SheetByName("Base")
+	if err != nil {
+		errors.Log(err)
+		return
+	}
+	lsheet.SelMatchReset()
+
+	axon.ApplyLayerSheet(uk.Net, lsheet)
 }
 
 func (uk *Urakubo) ConfigStimFuncs() {
@@ -311,13 +319,14 @@ func (uk *Urakubo) StatsInit() {
 	uk.StatsInitTime()
 	uk.StatsInitDWt()
 	uk.StatsInitDWtPhase()
-	for _, sn := range TimeStatsNames {
+	nms := append(TimeStatsNames, DWtStatsNames...)
+	for _, sn := range nms {
 		if uk.GUI.Tabs != nil {
 			sd := dir.Dir(sn)
 			uk.GUI.Tabs.AsLab().PlotTensorFS(sd)
 		}
 	}
-	if uk.GUI.Tabs != nil {
+	if uk.GUI.Tabs != nil && idx >= 0 {
 		uk.GUI.Tabs.AsLab().SelectTabIndex(idx)
 	}
 }
