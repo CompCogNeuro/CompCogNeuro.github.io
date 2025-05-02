@@ -46,12 +46,12 @@ type CaSigState struct {
 }
 
 func (cs *CaSigState) Init(uk *Urakubo) {
-	cs.Ca.Init()
-	cs.CaM.Init()
-	cs.CaMKII.Init()
-	cs.CaN.Init()
-	cs.PKA.Init()
-	cs.PP1.Init()
+	cs.Ca.Init(uk)
+	cs.CaM.Init(uk)
+	cs.CaMKII.Init(uk)
+	cs.CaN.Init(uk)
+	cs.PKA.Init(uk)
+	cs.PP1.Init(uk)
 
 	cs.PP2A = chem.CoToN(0.03, CytVol)
 
@@ -215,7 +215,7 @@ func (sp *Spine) Defaults() {
 func (sp *Spine) Init(uk *Urakubo) {
 	sp.States.Init(uk)
 	sp.Deltas.Zero()
-	sp.Ca.Init(uk)                  // drivers
+	sp.Ca.Init()                    // drivers
 	sp.NMDAR.Init(&sp.States.NMDAR) // special init
 }
 

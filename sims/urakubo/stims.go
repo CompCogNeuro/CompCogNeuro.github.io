@@ -246,11 +246,11 @@ func (uk *Urakubo) STDPSweepFun() {
 	dur := 1
 	tott := uk.NReps * 1000
 
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	for dt := -uk.DeltaTRange; dt <= uk.DeltaTRange; dt += uk.DeltaTInc {
 		psms := toff + 5 - dt // 5 is lag
-		uk.ResetTimePlots()
+		uk.StatsInitTime()
 		uk.Init()
 
 		for msec := 0; msec < tott; msec++ {
@@ -272,8 +272,7 @@ func (uk *Urakubo) STDPSweepFun() {
 			}
 		}
 		uk.GraphRun(uk.FinalSecs, 0)
-		uk.StatsDWt(uk.Stats("DWtStats"), float64(dt), 0)
-		uk.Plot("DWtPlot").GoUpdate()
+		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), 0)
 	}
 
 	uk.Stopped()
@@ -287,12 +286,12 @@ func (uk *Urakubo) STDPPacketSweepFun() {
 	hisi := isi / 2
 	dr := hisi - 5 // allow for lag
 
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	for dt := -dr; dt <= dr; dt++ {
 		rms := hisi
 		sms := hisi + 5 - dt // 5 is lag
-		uk.ResetTimePlots()
+		uk.StatsInitTime()
 		uk.Init()
 
 		for ri := 0; ri < uk.NReps; ri++ {
@@ -316,8 +315,7 @@ func (uk *Urakubo) STDPPacketSweepFun() {
 			}
 		}
 		uk.GraphRun(uk.FinalSecs, 0)
-		uk.StatsDWt(uk.Stats("DWtStats"), float64(dt), float64(uk.SendHz))
-		uk.Plot("DWtPlot").GoUpdate()
+		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), float64(uk.SendHz))
 	}
 
 	uk.Stopped()
@@ -391,14 +389,14 @@ func (uk *Urakubo) SPoissonRGClampFun() {
 }
 
 func (uk *Urakubo) PoissonHzSweepFun() {
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	for shz := 10; shz <= 100; shz += 10 {
 		for rhz := 10; rhz <= 100; rhz += 10 {
 			Sint := math32.Exp(-1000.0 / float32(shz))
 			Rint := math32.Exp(-1000.0 / float32(rhz))
 
-			uk.ResetTimePlots()
+			uk.StatsInitTime()
 			uk.Init()
 			for ri := 0; ri < uk.NReps; ri++ {
 				Sp := float32(1)
@@ -431,22 +429,21 @@ func (uk *Urakubo) PoissonHzSweepFun() {
 				uk.GraphRun(uk.ISISec, 0)
 			}
 			uk.GraphRun(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats("DWtStats"), float64(rhz), float64(shz))
-			uk.Plot("DWtPlot").GoUpdate()
+			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(shz))
 		}
 	}
 	uk.Stopped()
 }
 
 func (uk *Urakubo) PoissonDurSweepFun() {
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	for dur := 200; dur <= 1000; dur += 100 {
 		for rhz := 10; rhz <= 100; rhz += 10 {
 			Sint := math32.Exp(-1000.0 / float32(uk.SendHz))
 			Rint := math32.Exp(-1000.0 / float32(rhz))
 
-			uk.ResetTimePlots()
+			uk.StatsInitTime()
 			uk.Init()
 			for ri := 0; ri < uk.NReps; ri++ {
 				Sp := float32(1)
@@ -479,8 +476,7 @@ func (uk *Urakubo) PoissonDurSweepFun() {
 				uk.GraphRun(uk.ISISec, 0)
 			}
 			uk.GraphRun(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats("DWtStats"), float64(rhz), float64(dur))
-			uk.Plot("DWtPlot").GoUpdate()
+			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
 	uk.Stopped()
@@ -489,14 +485,14 @@ func (uk *Urakubo) PoissonDurSweepFun() {
 // OpPhase runs sending, recv in opposite phases (half interval off at start)
 // This is what was used in the original XCAL Dwt function derivation in Genesis model
 func (uk *Urakubo) OpPhaseDurSweepFun() {
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	for dur := 200; dur <= 1000; dur += 100 {
 		for rhz := 10; rhz <= 100; rhz += 10 {
 			Sint := 1000.0 / float32(uk.SendHz)
 			Rint := 1000.0 / float32(rhz)
 
-			uk.ResetTimePlots()
+			uk.StatsInitTime()
 			uk.Init()
 			for ri := 0; ri < uk.NReps; ri++ {
 				Sp := Sint / 2
@@ -528,8 +524,7 @@ func (uk *Urakubo) OpPhaseDurSweepFun() {
 				uk.GraphRun(uk.ISISec, 0)
 			}
 			uk.GraphRun(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats("DWtStats"), float64(rhz), float64(dur))
-			uk.Plot("DWtPlot").GoUpdate()
+			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
 	uk.Stopped()
@@ -544,7 +539,7 @@ func (uk *Urakubo) ThetaErrFun() {
 	rphz := []int{int(uk.SendHz), int(uk.RecvHz)}
 
 	tmsec := 0
-	uk.ResetTimePlots()
+	uk.StatsInitTime()
 	uk.Init()
 	uk.RunQuiet(10)
 	for ri := 0; ri < uk.NReps; ri++ {
@@ -594,7 +589,7 @@ func (uk *Urakubo) ThetaErrFun() {
 }
 
 func (uk *Urakubo) ThetaErrCompFun() {
-	uk.ResetTimePlots()
+	uk.StatsInitTime()
 	for itr := 0; itr < 2; itr++ {
 		phsdur := []int{uk.DurMsec / 2, uk.DurMsec / 2}
 		nphs := len(phsdur)
@@ -655,14 +650,13 @@ func (uk *Urakubo) ThetaErrCompFun() {
 		}
 		uk.GraphRun(uk.FinalSecs, itr)
 		tmsec = uk.Msec
-		uk.StatsDWt(uk.Stats("DWtStats"), float64(itr), 0)
-		uk.Plot("DWtPlot").GoUpdate()
+		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(itr), 0)
 	}
 	uk.Stopped()
 }
 
 func (uk *Urakubo) ThetaErrSweepFun() {
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	hz := []int{25, 50, 100}
 	nhz := len(hz)
@@ -681,7 +675,7 @@ func (uk *Urakubo) ThetaErrSweepFun() {
 			rphz[1] = hz[spi] // plus phase
 
 			tmsec := 0
-			uk.ResetTimePlots()
+			uk.StatsInitTime()
 			uk.Init()
 			for ri := 0; ri < uk.NReps; ri++ {
 				Sp := float32(1)
@@ -726,15 +720,14 @@ func (uk *Urakubo) ThetaErrSweepFun() {
 			}
 			uk.GraphRun(uk.FinalSecs, 0)
 			tmsec = uk.Msec
-			uk.StatsPhaseDWt(uk.Stats("PhaseDWtStats"), sphz, rphz)
-			uk.Plot("PhaseDWtPlot").GoUpdate()
+			uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 		}
 	}
 	uk.Stopped()
 }
 
 func (uk *Urakubo) ThetaErrAllSweepFun() {
-	uk.ResetDWtPlot()
+	uk.StatsInitDWt()
 
 	hz := []int{25, 50, 100}
 	nhz := len(hz)
@@ -754,7 +747,7 @@ func (uk *Urakubo) ThetaErrAllSweepFun() {
 				for rpi := 0; rpi < nhz; rpi++ {
 					rphz[1] = hz[rpi] // plus phase
 
-					uk.ResetTimePlots()
+					uk.StatsInitTime()
 					uk.Init()
 					for ri := 0; ri < uk.NReps; ri++ {
 						Sp := float32(1)
@@ -796,8 +789,7 @@ func (uk *Urakubo) ThetaErrAllSweepFun() {
 						uk.GraphRun(uk.ISISec, 0)
 					}
 					uk.GraphRun(uk.FinalSecs, 0)
-					uk.StatsPhaseDWt(uk.Stats("PhaseDWtStats"), sphz, rphz)
-					uk.Plot("PhaseDWtPlot").GoUpdate()
+					uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 				}
 			}
 		}
