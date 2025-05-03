@@ -5,6 +5,7 @@
 package urakubo
 
 import (
+	"fmt"
 	"math/rand"
 
 	"cogentcore.org/core/math32"
@@ -14,21 +15,28 @@ import (
 type Stims int32 //enums:enum
 
 const (
-	// Baseline allows the parameters to settle into a stable baseline state.
+	// Baseline allows the parameters to settle into a stable baseline state,
+	// and prints out code (via InitCode methods) for initializing a model
+	// into the baseline state from the start, via InitBaseline flag.
+	// Must turn OFF this flag when running to start from zero state.
 	Baseline Stims = iota
 
-	// CaTarg ?
+	// CaTarg sets a buffered target Ca concentration level, so results
+	// of that fixed Ca level can be observed and calibrated.
 	CaTarg
 
-	// Clamps calcium
-	ClampCa1
+	// Clamps calcium levels to specific values from the original Genesis model.
+	ClampCa
 
-	GClamp
+	// OneSpike drives a single spike, to allow full examination of state in the Msec plot
+	OneSpike
 
-	// STDP is spike timing dependent plasticity for specific set of timing parameters.
+	// STDP is spike timing dependent plasticity for the specific DeltaT value
+	// of the pre-post timing offset.
 	STDP
 
-	// STDPSweep is spike timing dependent plasticity sweeping across pre-post offsets.
+	// STDPSweep is spike timing dependent plasticity sweeping across DeltaT values
+	// from -DeltaTRange to +DeltaTRange pre-post timing offsets.
 	STDPSweep
 
 	STDPPacketSweep
@@ -52,6 +60,27 @@ const (
 
 	ThetaErrAllSweep
 )
+
+func (uk *Urakubo) ConfigStimFuncs() {
+	uk.StimFuncs = map[Stims]func(){
+		Baseline:         uk.BaselineFun,
+		CaTarg:           uk.CaTargFun,
+		ClampCa:          uk.ClampCaFun,
+		OneSpike:         uk.OneSpikeFun,
+		STDP:             uk.STDPFun,
+		STDPSweep:        uk.STDPSweepFun,
+		STDPPacketSweep:  uk.STDPPacketSweepFun,
+		Poisson:          uk.PoissonFun,
+		SPoissonRGClamp:  uk.SPoissonRGClampFun,
+		PoissonHzSweep:   uk.PoissonHzSweepFun,
+		PoissonDurSweep:  uk.PoissonDurSweepFun,
+		OpPhaseDurSweep:  uk.OpPhaseDurSweepFun,
+		ThetaErr:         uk.ThetaErrFun,
+		ThetaErrComp:     uk.ThetaErrCompFun,
+		ThetaErrSweep:    uk.ThetaErrSweepFun,
+		ThetaErrAllSweep: uk.ThetaErrAllSweepFun,
+	}
+}
 
 // RGeStimForHzMap is the strength of GeStim G clamp to obtain a given R firing rate
 var RGeStimForHzMap = map[int]float32{
@@ -87,8 +116,8 @@ func RGeStimForHz(hz float32) float32 {
 	return gel + ((hz-hzl)/(hzh-hzl))*(geh-gel)
 }
 
-// ClampCa1Ca is direct copy of Ca values from test_stdp.g genesis func
-var ClampCa1Ca = []float64{
+// ClampCaCa is direct copy of Ca values from test_stdp.g genesis func
+var ClampCaCa = []float64{
 	509.987, 0.05731354654,
 	509.990, 1.800978422,
 	509.994, 3.778658628,
@@ -176,9 +205,10 @@ func PerMsec(orig []float64) []float64 {
 
 func (uk *Urakubo) BaselineFun() {
 	for msec := 0; msec < 500000; msec++ { // 500000 = 500 sec for full baseline
-		uk.NeuronUpdt(msec, 0, 0)
+		uk.NeuronUpdate(msec, 0, 0)
 		uk.StatsDefault(0)
 		if uk.StopNow() {
+			fmt.Println("stop now")
 			break
 		}
 	}
@@ -189,7 +219,7 @@ func (uk *Urakubo) BaselineFun() {
 func (uk *Urakubo) CaTargFun() {
 	uk.Spine.Ca.SetBuffTarg(uk.CaTarg.Cyt, uk.CaTarg.PSD)
 	for msec := 0; msec < 20000; msec++ {
-		uk.NeuronUpdt(msec, 0, 0)
+		uk.NeuronUpdate(msec, 0, 0)
 		uk.StatsDefault(0)
 		if uk.StopNow() {
 			break
@@ -198,8 +228,8 @@ func (uk *Urakubo) CaTargFun() {
 	uk.Stopped()
 }
 
-func (uk *Urakubo) ClampCa1Fun() {
-	cas := PerMsec(ClampCa1Ca)
+func (uk *Urakubo) ClampCaFun() {
+	cas := PerMsec(ClampCaCa)
 	nca := len(cas)
 	bca := 0.05
 	for msec := 0; msec < 20000; msec++ {
@@ -210,13 +240,28 @@ func (uk *Urakubo) ClampCa1Fun() {
 		}
 		cca := bca + ((ca - bca) / 3)
 		uk.Spine.Ca.SetClamp(cca, ca)
-		uk.NeuronUpdt(msec, 0, 0)
+		uk.NeuronUpdate(msec, 0, 0)
 		uk.StatsDefault(0)
 		if uk.StopNow() {
 			break
 		}
 	}
 	uk.RunWithStats(uk.FinalSecs, 0)
+	uk.Stopped()
+}
+
+func (uk *Urakubo) OneSpikeFun() {
+	for msec := 0; msec < 100; msec++ {
+		ge := float32(0)
+		if msec == 50 {
+			ge = uk.GeStim
+		}
+		uk.NeuronUpdate(msec, ge, 0)
+		uk.StatsDefault(0)
+		if uk.StopNow() {
+			break
+		}
+	}
 	uk.Stopped()
 }
 
@@ -237,13 +282,14 @@ func (uk *Urakubo) STDPFun() {
 		if ims >= toff && ims < toff+dur {
 			ge = uk.GeStim
 		}
-		uk.NeuronUpdt(msec, ge, 0)
+		uk.NeuronUpdate(msec, ge, 0)
 		uk.StatsDefault(0)
 		if uk.StopNow() {
 			break
 		}
 	}
 	uk.RunWithStats(uk.FinalSecs, 0)
+	uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(uk.DeltaT), 0)
 	uk.Stopped()
 }
 
@@ -270,7 +316,7 @@ func (uk *Urakubo) STDPSweepFun() {
 			if ims >= toff && ims < toff+dur {
 				ge = uk.GeStim
 			}
-			uk.NeuronUpdt(msec, ge, 0)
+			uk.NeuronUpdate(msec, ge, 0)
 			uk.StatsDefault(0)
 			if uk.StopNow() {
 				uk.Stopped()
@@ -278,7 +324,7 @@ func (uk *Urakubo) STDPSweepFun() {
 			}
 		}
 		uk.RunWithStats(uk.FinalSecs, 0)
-		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), 0)
+		uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(dt), 0)
 	}
 
 	uk.Stopped()
@@ -312,7 +358,7 @@ func (uk *Urakubo) STDPPacketSweepFun() {
 				if ims == rms {
 					ge = uk.GeStim
 				}
-				uk.NeuronUpdt(msec, ge, 0)
+				uk.NeuronUpdate(msec, ge, 0)
 				uk.StatsDefault(0)
 				if uk.StopNow() {
 					uk.Stopped()
@@ -321,7 +367,7 @@ func (uk *Urakubo) STDPPacketSweepFun() {
 			}
 		}
 		uk.RunWithStats(uk.FinalSecs, 0)
-		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(dt), float64(uk.SendHz))
+		uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(dt), float64(uk.SendHz))
 	}
 
 	uk.Stopped()
@@ -352,7 +398,7 @@ func (uk *Urakubo) PoissonFun() {
 				Rp = 1
 			}
 
-			uk.NeuronUpdt(tmsec, ge, 0)
+			uk.NeuronUpdate(tmsec, ge, 0)
 			uk.StatsDefault(0)
 			if uk.StopNow() {
 				break
@@ -381,7 +427,7 @@ func (uk *Urakubo) SPoissonRGClampFun() {
 				uk.Spine.States.PreSpike = 0
 			}
 
-			uk.NeuronUpdt(msec, uk.GeStim, 0)
+			uk.NeuronUpdate(msec, uk.GeStim, 0)
 			uk.StatsDefault(0)
 			if uk.StopNow() {
 				break
@@ -424,7 +470,7 @@ func (uk *Urakubo) PoissonHzSweepFun() {
 						Rp = 1
 					}
 
-					uk.NeuronUpdt(msec, ge, 0)
+					uk.NeuronUpdate(msec, ge, 0)
 					uk.StatsDefault(0)
 					if uk.StopNow() {
 						uk.Stopped()
@@ -435,7 +481,7 @@ func (uk *Urakubo) PoissonHzSweepFun() {
 				uk.RunWithStats(uk.ISISec, 0)
 			}
 			uk.RunWithStats(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(shz))
+			uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(rhz), float64(shz))
 		}
 	}
 	uk.Stopped()
@@ -471,7 +517,7 @@ func (uk *Urakubo) PoissonDurSweepFun() {
 						Rp = 1
 					}
 
-					uk.NeuronUpdt(msec, ge, 0)
+					uk.NeuronUpdate(msec, ge, 0)
 					uk.StatsDefault(0)
 					if uk.StopNow() {
 						uk.Stopped()
@@ -482,7 +528,7 @@ func (uk *Urakubo) PoissonDurSweepFun() {
 				uk.RunWithStats(uk.ISISec, 0)
 			}
 			uk.RunWithStats(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
+			uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
 	uk.Stopped()
@@ -519,7 +565,7 @@ func (uk *Urakubo) OpPhaseDurSweepFun() {
 						Rp = fms
 					}
 
-					uk.NeuronUpdt(msec, ge, 0)
+					uk.NeuronUpdate(msec, ge, 0)
 					uk.StatsDefault(0)
 					if uk.StopNow() {
 						uk.Stopped()
@@ -530,7 +576,7 @@ func (uk *Urakubo) OpPhaseDurSweepFun() {
 				uk.RunWithStats(uk.ISISec, 0)
 			}
 			uk.RunWithStats(uk.FinalSecs, 0)
-			uk.StatsDWt(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
+			uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(rhz), float64(dur))
 		}
 	}
 	uk.Stopped()
@@ -576,7 +622,7 @@ func (uk *Urakubo) ThetaErrFun() {
 					ge = RGeStimForHz(float32(rhz))
 				}
 
-				uk.NeuronUpdt(tmsec, ge, 0)
+				uk.NeuronUpdate(tmsec, ge, 0)
 				uk.StatsDefault(0)
 				if uk.StopNow() {
 					uk.Stopped()
@@ -641,7 +687,7 @@ func (uk *Urakubo) ThetaErrCompFun() {
 						ge = RGeStimForHz(float32(rhz))
 					}
 
-					uk.NeuronUpdt(tmsec, ge, 0)
+					uk.NeuronUpdate(tmsec, ge, 0)
 					uk.StatsDefault(itr)
 					if uk.StopNow() {
 						uk.Stopped()
@@ -656,7 +702,7 @@ func (uk *Urakubo) ThetaErrCompFun() {
 		}
 		uk.RunWithStats(uk.FinalSecs, itr)
 		tmsec = uk.Msec
-		uk.StatsDWt(uk.Stats.Dir("DWt"), float64(itr), 0)
+		uk.StatsDWtUpdate(uk.Stats.Dir("DWt"), float64(itr), 0)
 	}
 	uk.Stopped()
 }
@@ -711,7 +757,7 @@ func (uk *Urakubo) ThetaErrSweepFun() {
 							ge = RGeStimForHz(float32(rhz))
 						}
 
-						uk.NeuronUpdt(tmsec, ge, 0)
+						uk.NeuronUpdate(tmsec, ge, 0)
 						uk.StatsDefault(0)
 						if uk.StopNow() {
 							uk.Stopped()
@@ -726,7 +772,7 @@ func (uk *Urakubo) ThetaErrSweepFun() {
 			}
 			uk.RunWithStats(uk.FinalSecs, 0)
 			tmsec = uk.Msec
-			uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
+			uk.StatsDWtPhaseUpdate(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 		}
 	}
 	uk.Stopped()
@@ -783,7 +829,7 @@ func (uk *Urakubo) ThetaErrAllSweepFun() {
 									ge = RGeStimForHz(float32(rhz))
 								}
 
-								uk.NeuronUpdt(msec, ge, 0)
+								uk.NeuronUpdate(msec, ge, 0)
 								uk.StatsDefault(0)
 								if uk.StopNow() {
 									uk.Stopped()
@@ -795,7 +841,7 @@ func (uk *Urakubo) ThetaErrAllSweepFun() {
 						uk.RunWithStats(uk.ISISec, 0)
 					}
 					uk.RunWithStats(uk.FinalSecs, 0)
-					uk.StatsDWtPhase(uk.Stats.Dir("DWtPhase"), sphz, rphz)
+					uk.StatsDWtPhaseUpdate(uk.Stats.Dir("DWtPhase"), sphz, rphz)
 				}
 			}
 		}

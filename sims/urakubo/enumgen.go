@@ -132,11 +132,11 @@ var _StimsValues = []Stims{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
 // StimsN is the highest valid value for type Stims, plus one.
 const StimsN Stims = 16
 
-var _StimsValueMap = map[string]Stims{`Baseline`: 0, `CaTarg`: 1, `ClampCa1`: 2, `GClamp`: 3, `STDP`: 4, `STDPSweep`: 5, `STDPPacketSweep`: 6, `Poisson`: 7, `SPoissonRGClamp`: 8, `PoissonHzSweep`: 9, `PoissonDurSweep`: 10, `OpPhaseDurSweep`: 11, `ThetaErr`: 12, `ThetaErrComp`: 13, `ThetaErrSweep`: 14, `ThetaErrAllSweep`: 15}
+var _StimsValueMap = map[string]Stims{`Baseline`: 0, `CaTarg`: 1, `ClampCa`: 2, `OneSpike`: 3, `STDP`: 4, `STDPSweep`: 5, `STDPPacketSweep`: 6, `Poisson`: 7, `SPoissonRGClamp`: 8, `PoissonHzSweep`: 9, `PoissonDurSweep`: 10, `OpPhaseDurSweep`: 11, `ThetaErr`: 12, `ThetaErrComp`: 13, `ThetaErrSweep`: 14, `ThetaErrAllSweep`: 15}
 
-var _StimsDescMap = map[Stims]string{0: ``, 1: ``, 2: ``, 3: ``, 4: ``, 5: ``, 6: ``, 7: ``, 8: ``, 9: ``, 10: ``, 11: ``, 12: ``, 13: ``, 14: ``, 15: ``}
+var _StimsDescMap = map[Stims]string{0: `Baseline allows the parameters to settle into a stable baseline state, and prints out code (via InitCode methods) for initializing a model into the baseline state from the start, via InitBaseline flag. Must turn OFF this flag when running to start from zero state.`, 1: `CaTarg sets a buffered target Ca concentration level, so results of that fixed Ca level can be observed and calibrated.`, 2: `Clamps calcium levels to specific values from the original Genesis model.`, 3: `OneSpike drives a single spike, to allow full examination of state in the Msec plot`, 4: `STDP is spike timing dependent plasticity for the specific DeltaT value of the pre-post timing offset.`, 5: `STDPSweep is spike timing dependent plasticity sweeping across DeltaT values from -DeltaTRange to +DeltaTRange pre-post timing offsets.`, 6: ``, 7: `Poisson is random poisson spike timing.`, 8: ``, 9: ``, 10: ``, 11: ``, 12: ``, 13: ``, 14: ``, 15: ``}
 
-var _StimsMap = map[Stims]string{0: `Baseline`, 1: `CaTarg`, 2: `ClampCa1`, 3: `GClamp`, 4: `STDP`, 5: `STDPSweep`, 6: `STDPPacketSweep`, 7: `Poisson`, 8: `SPoissonRGClamp`, 9: `PoissonHzSweep`, 10: `PoissonDurSweep`, 11: `OpPhaseDurSweep`, 12: `ThetaErr`, 13: `ThetaErrComp`, 14: `ThetaErrSweep`, 15: `ThetaErrAllSweep`}
+var _StimsMap = map[Stims]string{0: `Baseline`, 1: `CaTarg`, 2: `ClampCa`, 3: `OneSpike`, 4: `STDP`, 5: `STDPSweep`, 6: `STDPPacketSweep`, 7: `Poisson`, 8: `SPoissonRGClamp`, 9: `PoissonHzSweep`, 10: `PoissonDurSweep`, 11: `OpPhaseDurSweep`, 12: `ThetaErr`, 13: `ThetaErrComp`, 14: `ThetaErrSweep`, 15: `ThetaErrAllSweep`}
 
 // String returns the string representation of this Stims value.
 func (i Stims) String() string { return enums.String(i, _StimsMap) }

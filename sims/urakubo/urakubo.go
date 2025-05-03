@@ -8,6 +8,7 @@ import (
 	"fmt"
 
 	"cogentcore.org/core/base/errors"
+	"cogentcore.org/lab/plot"
 	"cogentcore.org/lab/tensor"
 	"cogentcore.org/lab/tensorfs"
 	"github.com/emer/axon/v2/axon"
@@ -20,13 +21,13 @@ type Urakubo struct {
 	Stim Stims
 
 	// Net is the axon network for basic activity dynamics
-	Net *axon.Network `view:"no-inline"`
+	Net *axon.Network `display:"no-inline"`
 
 	// the spine state with Urakubo intracellular model
 	Spine Spine
 
 	// extra neuron state for additional channels: Vgcc, AK
-	NeuronEx NeuronEx `view:"no-inline"`
+	NeuronEx NeuronEx `display:"no-inline"`
 
 	// whether to initialize values to known baseline values at start
 	InitBaseline bool
@@ -35,12 +36,12 @@ type Urakubo struct {
 	ISISec float64
 
 	// number of repetitions -- takes 100 to produce classic STDP
-	NReps int
+	NReps int `default:"100"`
 
 	// number of seconds to run after the manipulation -- results are strongest after 100,
 	// decaying somewhat after that point -- 20 shows similar qualitative results but weaker,
 	// 50 is pretty close to 100 -- less than 20 not recommended.
-	FinalSecs float64 `def:"20,50,100"`
+	FinalSecs float64 `default:"20,50,100"`
 
 	// duration for activity window
 	DurMsec int
@@ -73,22 +74,25 @@ type Urakubo struct {
 	NMDAAxon bool
 
 	// strength of NMDA current -- 0.15 default for posterior cortex
-	NMDAGbar float32 `def:"0,0.15"`
+	NMDAGbar float32 `default:"0,0.15"`
 
 	// strength of GABAB current -- 0.2 default for posterior cortex
-	GABABGbar float32 `def:"0,0.2"`
+	GABABGbar float32 `default:"0,0.2"`
 
 	// strength of Vgcc current -- 1.46 for distal per Migliore, but 0.12 reproduces net Ca current..
-	VgccGbar float32 `def:"0,0.12"`
+	VgccGbar float32 `default:"0,0.12"`
+
+	// strength of Mahp current
+	MahpGbar float32 `default:"0"`
 
 	// target calcium level for CaTarg stim
 	CaTarg CaState
 
 	// initial weight value: Trp_AMPA value at baseline
-	InitWt float64 `editable:"-"`
+	InitWt float64 `edit:"-"`
 
 	// current cycle of updating
-	Msec int `inactive:"+"`
+	Msec int `edit:"-"`
 
 	Stats     *tensorfs.Node   `display:"-"`
 	GUI       *egui.GUI        `display:"-"`
@@ -102,14 +106,15 @@ func NewUrakubo() *Urakubo {
 }
 
 func (uk *Urakubo) Config() {
+	uk.InitBaseline = true
 	uk.Spine.Defaults()
 	uk.Spine.Init(uk)
 	uk.InitWt = uk.Spine.States.AMPAR.Trp.Tot
 	uk.Net = axon.NewNetwork("Urakubo")
 	uk.Stim = ThetaErrComp
 	uk.ISISec = 0.8
-	uk.NReps = 10
-	uk.FinalSecs = 0
+	uk.NReps = 100
+	uk.FinalSecs = 50
 	uk.DurMsec = 200
 	uk.SendHz = 50
 	uk.RecvHz = 25
@@ -157,26 +162,6 @@ func (uk *Urakubo) ApplyParams() {
 	axon.ApplyLayerSheet(uk.Net, lsheet)
 }
 
-func (uk *Urakubo) ConfigStimFuncs() {
-	uk.StimFuncs = map[Stims]func(){
-		Baseline:         uk.BaselineFun,
-		CaTarg:           uk.CaTargFun,
-		ClampCa1:         uk.ClampCa1Fun,
-		STDP:             uk.STDPFun,
-		STDPSweep:        uk.STDPSweepFun,
-		STDPPacketSweep:  uk.STDPPacketSweepFun,
-		Poisson:          uk.PoissonFun,
-		SPoissonRGClamp:  uk.SPoissonRGClampFun,
-		PoissonHzSweep:   uk.PoissonHzSweepFun,
-		PoissonDurSweep:  uk.PoissonDurSweepFun,
-		OpPhaseDurSweep:  uk.OpPhaseDurSweepFun,
-		ThetaErr:         uk.ThetaErrFun,
-		ThetaErrComp:     uk.ThetaErrCompFun,
-		ThetaErrSweep:    uk.ThetaErrSweepFun,
-		ThetaErrAllSweep: uk.ThetaErrAllSweepFun,
-	}
-}
-
 // Init restarts the run, and initializes everything, including network weights
 // and resets the epoch log table
 func (uk *Urakubo) Init() {
@@ -206,14 +191,14 @@ func (uk *Urakubo) Stop() {
 	if uk.GUI == nil {
 		return
 	}
-	uk.GUI.StopNow = true
+	uk.GUI.SetStopNow()
 }
 
 func (uk *Urakubo) StopNow() bool {
 	if uk.GUI == nil {
 		return false
 	}
-	return uk.GUI.StopNow
+	return uk.GUI.StopNow()
 }
 
 func (uk *Urakubo) Stopped() {
@@ -223,18 +208,18 @@ func (uk *Urakubo) Stopped() {
 	uk.GUI.Stopped(Test, Cycle)
 }
 
-// RunStim runs current Stim selection
+// RunStim runs current Stim selection.
 func (uk *Urakubo) RunStim() {
 	fn, has := uk.StimFuncs[uk.Stim]
 	if !has {
 		fmt.Printf("Stim function: %s not found!\n", uk.Stim)
 		return
 	}
-	go fn()
+	fn()
 }
 
-// NeuronUpdt updates the neuron and spine for given msec
-func (uk *Urakubo) NeuronUpdt(msec int, ge, gi float32) {
+// NeuronUpdate updates the neuron and spine for given msec
+func (uk *Urakubo) NeuronUpdate(msec int, ge, gi float32) {
 	ctx := uk.Net.Context()
 	uk.Msec = msec
 	ly := uk.Net.LayerByName("Neuron").Params
@@ -244,41 +229,27 @@ func (uk *Urakubo) NeuronUpdt(msec int, ge, gi float32) {
 	diu := uint32(0)
 	nex := &uk.NeuronEx
 
-	vm := axon.Neurons.Value(ni, di, int(axon.Vm))         // dend
-	vmDend := axon.Neurons.Value(ni, di, int(axon.VmDend)) // dend
+	vm := axon.Neurons.Value(ni, di, int(axon.Vm))
+	// vmDend := axon.Neurons.Value(ni, di, int(axon.VmDend)) // todo: explore
 
-	geExt := float32(0)
-	axon.Neurons.Set(ge, ni, di, int(axon.GeRaw))
-	axon.Neurons.Set(ge, ni, di, int(axon.GeRaw))
-	gesyn := ly.Acts.Dt.GeSynFromRaw(ge, ly.Acts.Init.GeBase)
-	axon.Neurons.Set(gesyn, ni, di, int(axon.GeSyn))
-	axon.Neurons.Set(gesyn, ni, di, int(axon.Ge))
-	axon.Neurons.Set(gi, ni, di, int(axon.Gi))
-	ly.Acts.NMDAFromRaw(ctx, niu, diu, geExt)
-	ly.Acts.GvgccFromVm(ctx, niu, diu)
-	ly.Learn.LearnNMDAFromRaw(ctx, niu, diu, geExt)
-	nrnGababM := axon.Neurons.Value(ni, di, int(axon.GababM))
-	nrnGababX := axon.Neurons.Value(ni, di, int(axon.GababX))
-	axon.Neurons.Set(nrnGababM, ni, di, int(axon.GababM))
-	axon.Neurons.Set(nrnGababX, ni, di, int(axon.GababX))
-	gi = axon.Neurons.Value(ni, di, int(axon.Gi))
-	ly.Acts.GabaB.MX(gi, &nrnGababM, &nrnGababX)
-	nrnGgabaB := ly.Acts.GabaB.GgabaB(nrnGababM, vmDend)
-	axon.Neurons.Set(nrnGgabaB, ni, di, int(axon.GgabaB))
+	gnmda := uk.NMDAGbar * float32(uk.Spine.States.NMDAR.G)
 
-	gak := ly.Acts.AK.Gak(vmDend)
-	axon.Neurons.Set(gak, ni, di, int(axon.Gak))
-	axon.Neurons.SetAdd(gak, ni, di, int(axon.Gk))
+	geSyn := axon.Neurons.Value(ni, di, int(axon.GeSyn))
+	geSyn = ly.Acts.Dt.GeSynFromRaw(geSyn, ge)
+	giSyn := ly.Acts.Dt.GeSynFromRawSteady(gi)
+
+	geSyn += gnmda
+
+	axon.Neurons.Set(ge, ni, di, int(axon.GeRaw))
+	axon.Neurons.Set(geSyn, ni, di, int(axon.GeSyn))
+
+	// note: gi always = 0 in this model
+	axon.Neurons.Set(gi, ni, di, int(axon.GiRaw))
+	axon.Neurons.Set(giSyn, ni, di, int(axon.GiSyn))
+
+	ly.CycleNeuron(ctx, niu, diu)
+
 	gvgcc := axon.Neurons.Value(ni, di, int(axon.Gvgcc))
-	gnmda := axon.Neurons.Value(ni, di, int(axon.Gnmda))
-
-	axon.Neurons.SetAdd(gvgcc+gnmda, ni, di, int(axon.Ge))
-	// nrn.Ge += nrn.Gvgcc + nrn.Gnmda
-	if !uk.NMDAAxon {
-		gnmda = uk.NMDAGbar * float32(uk.Spine.States.NMDAR.G)
-		axon.Neurons.SetAdd(gnmda, ni, di, int(axon.Ge))
-	}
-	axon.Neurons.SetAdd(nrnGgabaB, ni, di, int(axon.Gi))
 
 	// todo: Ca from NMDAAxon
 	uk.Spine.Ca.SetInject(float64(nex.VgccJcaPSD), float64(nex.VgccJcaCyt))
@@ -290,9 +261,6 @@ func (uk *Urakubo) NeuronUpdt(msec int, ge, gi float32) {
 	nex.VgccJcaCyt = -vm * cyt_pca * gvgcc
 
 	uk.Spine.States.VmS = float64(vm)
-
-	ly.Acts.VmFromG(ctx, niu, diu)
-	ly.Acts.SpikeFromVm(ctx, niu, diu)
 
 	uk.Spine.StepTime(0.001)
 }
@@ -313,20 +281,19 @@ func (uk *Urakubo) StatsInit() {
 	// todo: iterations
 	dir := uk.Stats
 	idx := 0
-	if uk.GUI.Tabs != nil {
-		_, idx = uk.GUI.Tabs.AsLab().CurrentTab()
-	}
 	uk.StatsInitTime()
 	uk.StatsInitDWt()
 	uk.StatsInitDWtPhase()
+	if uk.GUI == nil || uk.GUI.Tabs == nil {
+		return
+	}
+	_, idx = uk.GUI.Tabs.AsLab().CurrentTab()
 	nms := append(TimeStatsNames, DWtStatsNames...)
 	for _, sn := range nms {
-		if uk.GUI.Tabs != nil {
-			sd := dir.Dir(sn)
-			uk.GUI.Tabs.AsLab().PlotTensorFS(sd)
-		}
+		sd := dir.Dir(sn)
+		uk.GUI.Tabs.AsLab().PlotTensorFS(sd)
 	}
-	if uk.GUI.Tabs != nil && idx >= 0 {
+	if idx >= 0 {
 		uk.GUI.Tabs.AsLab().SelectTabIndex(idx)
 	}
 }
@@ -371,7 +338,7 @@ func (uk *Urakubo) StatsInitDir(dir *tensorfs.Node, sn string) {
 	}
 }
 
-// StatsTime adds data to given tensorfs directory
+// StatsTime adds basic timestep state data to given tensorfs directory.
 func (uk *Urakubo) StatsTime(dir *tensorfs.Node) {
 	nex := &uk.NeuronEx
 	ni := 0
@@ -380,7 +347,12 @@ func (uk *Urakubo) StatsTime(dir *tensorfs.Node) {
 	dir.Float64("Time").AppendRowFloat(float64(uk.Msec) * 0.001)
 	dir.Float64("Ge").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Ge))))
 	dir.Float64("Inet").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Inet))))
-	dir.Float64("Vm").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Vm))))
+	tsr := dir.Float64("Vm")
+	tsr.AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Vm))))
+	plot.SetFirstStyler(tsr, func(s *plot.Style) {
+		s.On = true
+		s.RightY = true
+	})
 	dir.Float64("Act").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Act))))
 	dir.Float64("Spike").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Spike))))
 	dir.Float64("Gk").AppendRowFloat(float64(axon.Neurons.Value(ni, di, int(axon.Gk))))
@@ -401,20 +373,37 @@ func (uk *Urakubo) StatsTime(dir *tensorfs.Node) {
 	dir.Float64("AKh").AppendRowFloat(float64(nex.AKh))
 
 	uk.Spine.Stats(dir)
+}
+
+// StatsTimeUpdate does plot update after
+func (uk *Urakubo) StatsTimeUpdate(dir *tensorfs.Node) {
+	uk.StatsTime(dir)
 	uk.StatsPlotUpdate(dir.Name())
 }
 
 // StatsDWt adds data for current dwt value as function of x, y values
 func (uk *Urakubo) StatsDWt(dir *tensorfs.Node, x, y float64) {
-	dir.Float64("X").AppendRowFloat(x)
+	tsr := dir.Float64("X")
+	tsr.AppendRowFloat(x)
+	plot.SetFirstStyler(tsr, func(s *plot.Style) {
+		s.Role = plot.X
+	})
 	dir.Float64("Y").AppendRowFloat(y)
 
 	wt := uk.Spine.States.AMPAR.Trp.Tot
 	dwt := (wt / uk.InitWt) - 1
 
-	dir.Float64("DWt").AppendRowFloat(float64(dwt))
+	tsr = dir.Float64("DWt")
+	tsr.AppendRowFloat(float64(dwt))
+	plot.SetFirstStyler(tsr, func(s *plot.Style) {
+		s.On = true
+	})
 	uk.Spine.Stats(dir)
+}
 
+// StatsDWtUpdate does plot update after
+func (uk *Urakubo) StatsDWtUpdate(dir *tensorfs.Node, x, y float64) {
+	uk.StatsDWt(dir, x, y)
 	uk.StatsPlotUpdate(dir.Name())
 }
 
@@ -431,9 +420,17 @@ func (uk *Urakubo) StatsDWtPhase(dir *tensorfs.Node, sphz, rphz []int) {
 	wt := uk.Spine.States.AMPAR.Trp.Tot
 	dwt := (wt / uk.InitWt) - 1
 
-	dir.Float64("DWt").AppendRowFloat(float64(dwt))
+	tsr := dir.Float64("DWt")
+	tsr.AppendRowFloat(float64(dwt))
+	plot.SetFirstStyler(tsr, func(s *plot.Style) {
+		s.On = true
+	})
 	uk.Spine.Stats(dir)
+}
 
+// StatsDWtPhaseUpdate does plot update after.
+func (uk *Urakubo) StatsDWtPhaseUpdate(dir *tensorfs.Node, sphz, rphz []int) {
+	uk.StatsDWtPhase(dir, sphz, rphz)
 	uk.StatsPlotUpdate(dir.Name())
 }
 
@@ -442,14 +439,15 @@ func (uk *Urakubo) StatsDefault(itr int) {
 	// todo: deal with iteration as a subdir in stats
 	dir := uk.Stats
 	msec := uk.Msec
-	uk.StatsTime(dir.Dir("Msec"))
+	uk.StatsTimeUpdate(dir.Dir("Msec"))
 	if msec%10 == 0 {
-		uk.StatsInitDir(dir, "Msec")
-		uk.StatsTime(dir.Dir("Msec10"))
+		uk.StatsTimeUpdate(dir.Dir("Msec10"))
 		if msec%100 == 0 {
-			uk.StatsInitDir(dir, "Msec10")
-			uk.StatsTime(dir.Dir("Msec100"))
-			// uk.UpdateTimePlots()
+			uk.StatsInitDir(dir, "Msec")
+			if msec%1000 == 0 {
+				uk.StatsInitDir(dir, "Msec10")
+			}
+			uk.StatsTimeUpdate(dir.Dir("Msec100"))
 		}
 	}
 }
@@ -458,7 +456,7 @@ func (uk *Urakubo) RunWithStats(secs float64, itr int) {
 	nms := int(secs / 0.001)
 	sms := uk.Msec
 	for msec := 0; msec < nms; msec++ {
-		uk.NeuronUpdt(sms+msec, 0, 0)
+		uk.NeuronUpdate(sms+msec, 0, 0)
 		uk.StatsDefault(itr)
 		if uk.StopNow() {
 			break
@@ -470,7 +468,7 @@ func (uk *Urakubo) RunQuiet(secs float64) {
 	nms := int(secs / 0.001)
 	sms := uk.Msec
 	for msec := 0; msec < nms; msec++ {
-		uk.NeuronUpdt(sms+msec, 0, 0)
+		uk.NeuronUpdate(sms+msec, 0, 0)
 		if uk.StopNow() {
 			break
 		}

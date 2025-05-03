@@ -79,7 +79,7 @@ type CaMKIIVars struct {
 	PP2AThr286C float64
 
 	// auto-phosphorylation state
-	Auto AutoPVars `view:"inline" inactive:"+"`
+	Auto AutoPVars `display:"inline" edit:"-"`
 }
 
 func (cs *CaMKIIVars) Init(uk *Urakubo, vol float64) {

@@ -98,6 +98,7 @@ func EmbedSim(b tree.Node) *Sim {
 
 func (ss *Sim) Defaults() {
 	ss.Config.Defaults()
+	ss.Stim = STDPSweep
 }
 
 func (ss *Sim) ConfigSim() {
@@ -116,7 +117,6 @@ func (ss *Sim) ConfigSim() {
 // and resets the epoch log table
 func (ss *Sim) Init() {
 	ss.InitRandSeed(0)
-	ss.GUI.StopNow = false
 	ss.Urakubo.Init()
 }
 
@@ -152,6 +152,7 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 		Active:  egui.ActiveStopped,
 		Func: func() {
 			ss.Urakubo.Init()
+			ss.Urakubo.StatsInit()
 			ss.UpdateGUI()
 		},
 	})
@@ -162,7 +163,6 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 		Active:  egui.ActiveRunning,
 		Func: func() {
 			ss.Urakubo.Stop()
-			ss.UpdateGUI()
 		},
 	})
 	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
@@ -172,9 +172,12 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 		Active:  egui.ActiveStopped,
 		Func: func() {
 			ss.Urakubo.Stim = ss.Stim
-			ss.Urakubo.GUI.IsRunning = true
-			go ss.Urakubo.RunStim()
-			ss.UpdateGUI()
+			ss.Urakubo.GUI.StartRun()
+			go func() {
+				ss.Urakubo.RunStim()
+				ss.Urakubo.Stopped()
+			}()
+			ss.GUI.Toolbar.Restyle()
 		},
 	})
 

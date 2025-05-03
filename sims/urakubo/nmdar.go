@@ -47,19 +47,19 @@ type NMDARState struct {
 	No [3]float64
 
 	// Total N of NMDAR plain = sum of 0 index in N* states
-	Nt0 float64 `inactive:"+"`
+	Nt0 float64 `edit:"-"`
 
 	// Total N of NMDAR_2Ca2+CaM = sum of 1 index in N* states
-	Nt1 float64 `inactive:"+"`
+	Nt1 float64 `edit:"-"`
 
 	// Total N of NMDAR_3Ca2+CaM = sum of 2 index in N* states
-	Nt2 float64 `inactive:"+"`
+	Nt2 float64 `edit:"-"`
 
 	// Total N in open state = sum(No[0..2])
-	Nopen float64 `inactive:"+"`
+	Nopen float64 `edit:"-"`
 
 	// overall total -- should be conserved
-	Ntotal float64 `inactive:"+"`
+	Ntotal float64 `edit:"-"`
 
 	// number of available non-bound GluN2B S3103 binding sites.
 	// CaMKII and DAPK1 compete to bind here -- Ca/ÇaM induce CaMKII binding
@@ -133,13 +133,13 @@ func (cs *NMDARState) Stats(dir *tensorfs.Node) {
 type NMDARParams struct {
 
 	// reversal potential for NMDARs
-	Erev float64 `def:"0"`
+	Erev float64 `default:"0"`
 
 	// Normalization for Ca flux (pmol sec-1 mV-1)
-	Pca float64 `def:"89635"`
+	Pca float64 `default:"89635"`
 
 	// maximum conductance (nS)
-	Gmax float64 `def:"10"`
+	Gmax float64 `default:"10"`
 
 	// For N1 state, CaM + 2CaCaM reaction
 	CaM1 chem.React
@@ -166,7 +166,7 @@ type NMDARParams struct {
 	GluN23 chem.React
 
 	// Glu quantity (uM sec)
-	Glu float64 `def:"0.4"`
+	Glu float64 `default:"0.4"`
 
 	// total amount of GluN2B -- NMDAR is all done in normalized units,
 	// but this needs to be in real units to interact with CaMKII and DAPK1 binding.

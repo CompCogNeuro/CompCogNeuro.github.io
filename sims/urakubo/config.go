@@ -44,7 +44,7 @@ type ParamConfig struct {
 type RunConfig struct {
 
 	// Use 500 sec pre-compiled baseline for initialization
-	InitBaseline bool `def:"true"`
+	InitBaseline bool `default:"true"`
 
 	// Trials is the total number of trials of different random patterns to generate.
 	Trials int `default:"10"`

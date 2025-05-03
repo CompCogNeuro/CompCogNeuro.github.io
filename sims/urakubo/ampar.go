@@ -89,16 +89,16 @@ func (as *AMPARVars) Stats(dir *tensorfs.Node, vol float64, pre string) {
 type AMPARState struct {
 
 	// cytosol internal
-	Int AMPARVars `view:"inline"`
+	Int AMPARVars `display:"inline"`
 
 	// cytosol exocytosed into the membrane
-	Mbr AMPARVars `view:"inline"`
+	Mbr AMPARVars `display:"inline"`
 
 	// in PSD but not trapped
-	PSD AMPARVars `view:"inline"`
+	PSD AMPARVars `display:"inline"`
 
 	// in PSD and trapped in place -- this is the effective weight
-	Trp AMPARVars `view:"inline"`
+	Trp AMPARVars `display:"inline"`
 
 	// amount of unbound scaffold used for trapping
 	Scaffold float64
@@ -306,10 +306,10 @@ func (ap *AMPARTrafParams) StepT(c, d *AMPARState) {
 type AMPARParams struct {
 
 	// Phosphorylation parameters
-	Phos AMPARPhosParams `view:"inline"`
+	Phos AMPARPhosParams `display:"inline"`
 
 	// Trafficking parameters
-	Traffic AMPARTrafParams `view:"inline"`
+	Traffic AMPARTrafParams `display:"inline"`
 }
 
 func (ap *AMPARParams) Defaults() {
