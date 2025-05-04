@@ -3,7 +3,7 @@ Categories = ["Axon"]
 bibfile = "ccnlab.json"
 +++
 
-This page collects some of the functional ⇔ biological synergies present in the [[Axon]] framework, where properties at the different levels of analysis involved in [[computational cognitive neuroscience]] converge together. These synergies support the idea that working across these different levels of analysis can help solve the complex problem of understanding how the brain supports the range of human cognitive functions, ultimately including full general intelligence.
+This page collects some of the functional ⇔ biological synergies present in the [[Axon]] framework, where properties at the different [[levels of analysis]] involved in [[computational cognitive neuroscience]] converge together. These synergies support the idea that working across these different levels of analysis can help solve the complex problem of understanding how the brain supports the range of human cognitive functions, ultimately including full general intelligence.
 
 * [[Bidirectional connectivity]] among excitatory neurons, which is a prominent and well-established property of the [[neocortex]], plays a critical functional role in both [[constraint satisfaction]] and [[error-driven learning]], and a wide range of cognitive functionality including [[top-down attention]], imagery, and many aspects of [[perception]].
 

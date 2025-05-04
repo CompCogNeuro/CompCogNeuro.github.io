@@ -27,7 +27,7 @@ Ultimately, it comes down to aesthetic or personality-driven factors, which caus
 
 The criteria for success here are a bit murkier and subjective --- basically it boils down to whether the model is sufficiently simple to be comprehensible, but not so simple as to make its behavior trivial or otherwise so fully transparent that it doesn't seem to be doing you any good in the first place. One last note on this issue is that the different levels of models are not mutually exclusive. Each of the low level biophysical and high level cognitive models have made enormous contributions to understanding and analysis in their respective domains. In fact, much ground can be (and to some extent already has been) gained by attempts to understand one level of modeling in terms of the other. At the end of the day, linking from molecule to mind spans multiple levels of analysis, and like studying the laws of particle physics to planetary motion, require multiple formal tools.
 
-## Emergent Phenomena
+## Emergent phenomena
 
 What makes something a satisfying scientific explanation? A satisfying answer is that you can explain a seemingly complex phenomenon in terms of simpler underlying mechanisms, that interact in specific ways. The classic scientific process of _reductionism_ plays a critical role here, where the complex system is reduced to simpler parts. However, one also needs to go in the opposite, oft-neglected direction, _reconstructionism_, where the complex system is actually reconstructed from these simpler parts. Often the only way to practically achieve this reconstruction is through computational modeling. The result is an attempt to capture the essence of emergence.
 
@@ -38,11 +38,11 @@ Emergence can be illustrated in a very simple physical system, two interacting g
 
 Taking this example into the domain of interest here, does this mean that we can switch out our biological neurons for artificial ones, and everything should still function the same, _as long as we capture the essential interactions in the right way?_ Some of us believe this to be the case, and that when we finally manage to put enough neurons in the right configuration into a big computer simulation, the resulting brain will support consciousness and everything else, just like the ones in our own heads. One interesting further question arises: how important are all the interactions between our physical bodies and the physical environment? There is good reason to believe that this is critical. Thus, we'll have to put this brain in a robot. Or perhaps more challengingly, in a virtual environment in a virtual reality, still stuck inside the computer. It will be fascinating to ponder this question on your journey through the simulated brain...
 
-## Why Should We Care about the Brain?
+## Why should we care about the brain?
 
 Many people are tempted to find ways to ignore all the complexity and difficulty of understanding how the brain actually works, in favor of more purely computational or cognitive levels of analysis, under the assumption that these functional levels are all that _really_ matters in the end. By way of analogy, we don't need to know much of anything about how computer hardware works to program in Python, for example. Vastly different kinds of hardware can all run the same programming languages and software. Can't we just focus on the _software_ of the mind and ignore the _hardware_?
 
-Exactly this argument has been promulgated in many different forms over the years. David Marr was perhaps the most influential in arguing that one can somewhat independently examine cognition at three different levels ([[@Marr77]]):
+Exactly this argument has been promulgated in many different forms over the years. David Marr was perhaps the most influential in arguing that one can somewhat independently examine cognition at three different [[levels of analysis]] ([[@Marr77]]):
 
 * **Computational** --- what computations are being performed? What information is being processed?
 
@@ -74,10 +74,11 @@ Here are a couple of the most satisfying instances where all the pieces come tog
 
 * The detailed biology of the connections between dopamine, basal ganglia, and prefrontal cortex fit together with the computational requirements for making decisions based on prior reward history, and learning what information is important to hold on to, versus what can be ignored. These principles are captured in the [[Rubicon]] framework, which show how the [[dopamine]] system can exhibit a kind of time travel needed to translate later utility into an earlier decision of what information to maintain. And the interaction between the [[basal ganglia]] and the [[prefrontal cortex]] enables basal ganglia decisions to influence what is maintained and acted upon in the prefrontal cortex. There are a lot of pieces here, but the fact that they all fit together so well into a functional model --- and that many aspects of them have withstood the test of direct experimentation --- makes it that much more likely that this is really what is going on.
 
-## AI, ML, and Neuroscience
+## AI, ML, and neuroscience
 
 The core material on which this framework is based has been around for 25 years now, since 2000 ([[@OReillyMunakata00]]), and the overall popularity of neural network models has fluctuated considerably during that time (see [[abstract neural network]] models for a succinct review). There has been a sustained and seemingly exponentially increasing interest in neural networks since 2012, driven by the increasingly impressive performance of these models as they have been scaled up in size. Interestingly, the core principles powering these new "AI" ([[artificial intelligence]]) models are consistent with many of those based on how the brain functions, including the [[error backpropagation]] learning algorithm that Axon approximates.
 
 However, these new AI models also include many mechanisms that are _not_ consistent with the underlying biology, and the performance-based goals for these models are often at odds with the more purely scientific goals of understanding how the brain works. In any case, we attempt to learn as much from the success of these models as possible, while remaining focused on the overall scientific mission of understanding how the brain actually works.
 
+## CCN pages
 

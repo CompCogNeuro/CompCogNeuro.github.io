@@ -1037,6 +1037,45 @@
 		"volume": "114"
 	},
 	{
+		"type": "chapter",
+		"id": "Maylor85",
+		"citation-key": "Maylor85",
+		"author": [
+			{
+				"family": "Maylor",
+				"given": "E."
+			}
+		],
+		"editor": [
+			{
+				"family": "Posner",
+				"given": "M. I."
+			},
+			{
+				"family": "Marin",
+				"given": "O. S. M."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Attention and Performance XI",
+		"event-place": "Hillsdale, NJ",
+		"publisher": "Lawrence Erlbaum Associates",
+		"publisher-place": "Hillsdale, NJ",
+		"title": "Facilitatory and inhibitory components of orienting in visual space."
+	},
+	{
 		"type": "article-journal",
 		"id": "Duncan84",
 		"citation-key": "Duncan84",
@@ -1384,6 +1423,38 @@
 		"publisher": "MIT Press",
 		"publisher-place": "Cambridge, MA",
 		"title": "Information Processing in Dynamical Systems: Foundations of Harmony Theory"
+	},
+	{
+		"type": "book",
+		"id": "OReillyMunakata00",
+		"citation-key": "OReillyMunakata00",
+		"author": [
+			{
+				"family": "O'Reilly",
+				"given": "R. C."
+			},
+			{
+				"family": "Munakata",
+				"given": "Y."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "Cambridge, MA",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA",
+		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
 	},
 	{
 		"type": "article-journal",
@@ -2057,38 +2128,6 @@
 		"volume": "8"
 	},
 	{
-		"type": "book",
-		"id": "OReillyMunakata00",
-		"citation-key": "OReillyMunakata00",
-		"author": [
-			{
-				"family": "O'Reilly",
-				"given": "R. C."
-			},
-			{
-				"family": "Munakata",
-				"given": "Y."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2000",
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"event-place": "Cambridge, MA",
-		"publisher": "MIT Press",
-		"publisher-place": "Cambridge, MA",
-		"title": "Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain"
-	},
-	{
 		"type": "article-journal",
 		"id": "Marr77",
 		"citation-key": "Marr77",
@@ -2114,6 +2153,124 @@
 		"container-title": "Artificial Intelligence",
 		"page": "37-48",
 		"title": "Artificial Intelligence—A Personal View"
+	},
+	{
+		"type": "article-journal",
+		"id": "SimoncelliOlshausen01",
+		"citation-key": "SimoncelliOlshausen01",
+		"language": "en",
+		"author": [
+			{
+				"family": "Simoncelli",
+				"given": "Eero P."
+			},
+			{
+				"family": "Olshausen",
+				"given": "Bruno A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					19
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					3,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Annual Review of Neuroscience",
+		"DOI": "10.1146/annurev.neuro.24.1.1193",
+		"ISSN": "0147-006X, 1545-4126",
+		"issue": "Volume 24, 2001",
+		"page": "1193-1216",
+		"publisher": "Annual Reviews",
+		"source": "www.annualreviews.org",
+		"title": "Natural image statistics and neural representation",
+		"URL": "https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193",
+		"volume": "24"
+	},
+	{
+		"type": "article-journal",
+		"id": "OlshausenField96",
+		"citation-key": "OlshausenField96",
+		"author": [
+			{
+				"family": "Olshausen",
+				"given": "B. A."
+			},
+			{
+				"family": "Field",
+				"given": "D. J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"page": "607",
+		"title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/8637596",
+		"volume": "381"
+	},
+	{
+		"type": "article-journal",
+		"id": "Barlow61",
+		"citation-key": "Barlow61",
+		"author": [
+			{
+				"family": "Barlow",
+				"given": "H.B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					2
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1961"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Sensory Communication",
+		"page": "217-234",
+		"publisher": "MIT Press",
+		"source": "cir.nii.ac.jp",
+		"title": "Possible principles underlying the transformation of sensory messages",
+		"URL": "https://cir.nii.ac.jp/crid/1570291225093500032"
 	},
 	{
 		"type": "article-journal",
@@ -2417,6 +2574,133 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "BiPoo98",
+		"citation-key": "BiPoo98",
+		"language": "en",
+		"author": [
+			{
+				"family": "Bi",
+				"given": "Guo-qiang"
+			},
+			{
+				"family": "Poo",
+				"given": "Mu-ming"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					1,
+					27
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					12,
+					15
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "24",
+		"page": "10464-10472",
+		"PMID": "9852584",
+		"source": "www.jneurosci.org",
+		"title": "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type",
+		"title-short": "Synaptic modifications in cultured hippocampal neurons",
+		"URL": "http://www.jneurosci.org/content/18/24/10464",
+		"volume": "18"
+	},
+	{
+		"type": "article-journal",
+		"id": "ShouvalWangWittenberg10",
+		"citation-key": "ShouvalWangWittenberg10",
+		"author": [
+			{
+				"family": "Shouval",
+				"given": "Harel Z."
+			},
+			{
+				"family": "Wang",
+				"given": "Samuel S.-H."
+			},
+			{
+				"family": "Wittenberg",
+				"given": "Gayle M."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Computational Neuroscience",
+		"issue": "19",
+		"title": "Spike timing dependent plasticity: A consequence of more fundamental learning rules.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/20725599",
+		"volume": "4"
+	},
+	{
+		"type": "article-journal",
+		"id": "UrakuboHondaFroemkeEtAl08",
+		"citation-key": "UrakuboHondaFroemkeEtAl08",
+		"author": [
+			{
+				"family": "Urakubo",
+				"given": "Hidetoshi"
+			},
+			{
+				"family": "Honda",
+				"given": "Minoru"
+			},
+			{
+				"family": "Froemke",
+				"given": "Robert C."
+			},
+			{
+				"family": "Kuroda",
+				"given": "Shinya"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Neuroscience",
+		"issue": "13",
+		"page": "3310-3323",
+		"title": "Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/18367598",
+		"volume": "28"
+	},
+	{
+		"type": "article-journal",
 		"id": "Cardin18",
 		"citation-key": "Cardin18",
 		"language": "en",
@@ -2459,124 +2743,6 @@
 		"title": "Inhibitory interneurons regulate temporal precision and correlations in cortical circuits",
 		"URL": "https://www.sciencedirect.com/science/article/pii/S0166223618302078",
 		"volume": "41"
-	},
-	{
-		"type": "article-journal",
-		"id": "SimoncelliOlshausen01",
-		"citation-key": "SimoncelliOlshausen01",
-		"language": "en",
-		"author": [
-			{
-				"family": "Simoncelli",
-				"given": "Eero P."
-			},
-			{
-				"family": "Olshausen",
-				"given": "Bruno A."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2024",
-					10,
-					19
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2001",
-					3,
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Annual Review of Neuroscience",
-		"DOI": "10.1146/annurev.neuro.24.1.1193",
-		"ISSN": "0147-006X, 1545-4126",
-		"issue": "Volume 24, 2001",
-		"page": "1193-1216",
-		"publisher": "Annual Reviews",
-		"source": "www.annualreviews.org",
-		"title": "Natural image statistics and neural representation",
-		"URL": "https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193",
-		"volume": "24"
-	},
-	{
-		"type": "article-journal",
-		"id": "OlshausenField96",
-		"citation-key": "OlshausenField96",
-		"author": [
-			{
-				"family": "Olshausen",
-				"given": "B. A."
-			},
-			{
-				"family": "Field",
-				"given": "D. J."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1996",
-					7
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Nature",
-		"page": "607",
-		"title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/8637596",
-		"volume": "381"
-	},
-	{
-		"type": "article-journal",
-		"id": "Barlow61",
-		"citation-key": "Barlow61",
-		"author": [
-			{
-				"family": "Barlow",
-				"given": "H.B."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2024",
-					4,
-					2
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"1961"
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Sensory Communication",
-		"page": "217-234",
-		"publisher": "MIT Press",
-		"source": "cir.nii.ac.jp",
-		"title": "Possible principles underlying the transformation of sensory messages",
-		"URL": "https://cir.nii.ac.jp/crid/1570291225093500032"
 	},
 	{
 		"type": "article-journal",
@@ -2652,6 +2818,751 @@
 		"publisher": "Basic Books",
 		"publisher-place": "New York",
 		"title": "Neural Darwinism"
+	},
+	{
+		"type": "article-journal",
+		"id": "MarkramMullerRamaswamyEtAl15",
+		"citation-key": "MarkramMullerRamaswamyEtAl15",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Markram",
+				"given": "Henry"
+			},
+			{
+				"family": "Muller",
+				"given": "Eilif"
+			},
+			{
+				"family": "Ramaswamy",
+				"given": "Srikanth"
+			},
+			{
+				"family": "Reimann",
+				"given": "Michael W."
+			},
+			{
+				"family": "Abdellah",
+				"given": "Marwan"
+			},
+			{
+				"family": "Sanchez",
+				"given": "Carlos Aguado"
+			},
+			{
+				"family": "Ailamaki",
+				"given": "Anastasia"
+			},
+			{
+				"family": "Alonso-Nanclares",
+				"given": "Lidia"
+			},
+			{
+				"family": "Antille",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Arsever",
+				"given": "Selim"
+			},
+			{
+				"family": "Kahou",
+				"given": "Guy Antoine Atenekeng"
+			},
+			{
+				"family": "Berger",
+				"given": "Thomas K."
+			},
+			{
+				"family": "Bilgili",
+				"given": "Ahmet"
+			},
+			{
+				"family": "Buncic",
+				"given": "Nenad"
+			},
+			{
+				"family": "Chalimourda",
+				"given": "Athanassia"
+			},
+			{
+				"family": "Chindemi",
+				"given": "Giuseppe"
+			},
+			{
+				"family": "Courcol",
+				"given": "Jean-Denis"
+			},
+			{
+				"family": "Delalondre",
+				"given": "Fabien"
+			},
+			{
+				"family": "Delattre",
+				"given": "Vincent"
+			},
+			{
+				"family": "Druckmann",
+				"given": "Shaul"
+			},
+			{
+				"family": "Dumusc",
+				"given": "Raphael"
+			},
+			{
+				"family": "Dynes",
+				"given": "James"
+			},
+			{
+				"family": "Eilemann",
+				"given": "Stefan"
+			},
+			{
+				"family": "Gal",
+				"given": "Eyal"
+			},
+			{
+				"family": "Gevaert",
+				"given": "Michael Emiel"
+			},
+			{
+				"family": "Ghobril",
+				"given": "Jean-Pierre"
+			},
+			{
+				"family": "Gidon",
+				"given": "Albert"
+			},
+			{
+				"family": "Graham",
+				"given": "Joe W."
+			},
+			{
+				"family": "Gupta",
+				"given": "Anirudh"
+			},
+			{
+				"family": "Haenel",
+				"given": "Valentin"
+			},
+			{
+				"family": "Hay",
+				"given": "Etay"
+			},
+			{
+				"family": "Heinis",
+				"given": "Thomas"
+			},
+			{
+				"family": "Hernando",
+				"given": "Juan B."
+			},
+			{
+				"family": "Hines",
+				"given": "Michael"
+			},
+			{
+				"family": "Kanari",
+				"given": "Lida"
+			},
+			{
+				"family": "Keller",
+				"given": "Daniel"
+			},
+			{
+				"family": "Kenyon",
+				"given": "John"
+			},
+			{
+				"family": "Khazen",
+				"given": "Georges"
+			},
+			{
+				"family": "Kim",
+				"given": "Yihwa"
+			},
+			{
+				"family": "King",
+				"given": "James G."
+			},
+			{
+				"family": "Kisvarday",
+				"given": "Zoltan"
+			},
+			{
+				"family": "Kumbhar",
+				"given": "Pramod"
+			},
+			{
+				"family": "Lasserre",
+				"given": "Sébastien"
+			},
+			{
+				"family": "Le Bé",
+				"given": "Jean-Vincent"
+			},
+			{
+				"family": "Magalhães",
+				"given": "Bruno R. C."
+			},
+			{
+				"family": "Merchán-Pérez",
+				"given": "Angel"
+			},
+			{
+				"family": "Meystre",
+				"given": "Julie"
+			},
+			{
+				"family": "Morrice",
+				"given": "Benjamin Roy"
+			},
+			{
+				"family": "Muller",
+				"given": "Jeffrey"
+			},
+			{
+				"family": "Muñoz-Céspedes",
+				"given": "Alberto"
+			},
+			{
+				"family": "Muralidhar",
+				"given": "Shruti"
+			},
+			{
+				"family": "Muthurasa",
+				"given": "Keerthan"
+			},
+			{
+				"family": "Nachbaur",
+				"given": "Daniel"
+			},
+			{
+				"family": "Newton",
+				"given": "Taylor H."
+			},
+			{
+				"family": "Nolte",
+				"given": "Max"
+			},
+			{
+				"family": "Ovcharenko",
+				"given": "Aleksandr"
+			},
+			{
+				"family": "Palacios",
+				"given": "Juan"
+			},
+			{
+				"family": "Pastor",
+				"given": "Luis"
+			},
+			{
+				"family": "Perin",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Ranjan",
+				"given": "Rajnish"
+			},
+			{
+				"family": "Riachi",
+				"given": "Imad"
+			},
+			{
+				"family": "Rodríguez",
+				"given": "José-Rodrigo"
+			},
+			{
+				"family": "Riquelme",
+				"given": "Juan Luis"
+			},
+			{
+				"family": "Rössert",
+				"given": "Christian"
+			},
+			{
+				"family": "Sfyrakis",
+				"given": "Konstantinos"
+			},
+			{
+				"family": "Shi",
+				"given": "Ying"
+			},
+			{
+				"family": "Shillcock",
+				"given": "Julian C."
+			},
+			{
+				"family": "Silberberg",
+				"given": "Gilad"
+			},
+			{
+				"family": "Silva",
+				"given": "Ricardo"
+			},
+			{
+				"family": "Tauheed",
+				"given": "Farhan"
+			},
+			{
+				"family": "Telefont",
+				"given": "Martin"
+			},
+			{
+				"family": "Toledo-Rodriguez",
+				"given": "Maria"
+			},
+			{
+				"family": "Tränkler",
+				"given": "Thomas"
+			},
+			{
+				"family": "Van Geit",
+				"given": "Werner"
+			},
+			{
+				"family": "Díaz",
+				"given": "Jafet Villafranca"
+			},
+			{
+				"family": "Walker",
+				"given": "Richard"
+			},
+			{
+				"family": "Wang",
+				"given": "Yun"
+			},
+			{
+				"family": "Zaninetta",
+				"given": "Stefano M."
+			},
+			{
+				"family": "DeFelipe",
+				"given": "Javier"
+			},
+			{
+				"family": "Hill",
+				"given": "Sean L."
+			},
+			{
+				"family": "Segev",
+				"given": "Idan"
+			},
+			{
+				"family": "Schürmann",
+				"given": "Felix"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					10,
+					8
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cell",
+		"container-title-short": "Cell",
+		"DOI": "10.1016/j.cell.2015.09.029",
+		"ISSN": "1097-4172",
+		"issue": "2",
+		"page": "456-492",
+		"PMID": "26451489",
+		"source": "PubMed",
+		"title": "Reconstruction and Simulation of Neocortical Microcircuitry",
+		"volume": "163"
+	},
+	{
+		"type": "article-journal",
+		"id": "Schneider-MizellBodorBrittainEtAl25",
+		"citation-key": "Schneider-MizellBodorBrittainEtAl25",
+		"language": "en",
+		"author": [
+			{
+				"family": "Schneider-Mizell",
+				"given": "Casey M."
+			},
+			{
+				"family": "Bodor",
+				"given": "Agnes L."
+			},
+			{
+				"family": "Brittain",
+				"given": "Derrick"
+			},
+			{
+				"family": "Buchanan",
+				"given": "JoAnn"
+			},
+			{
+				"family": "Bumbarger",
+				"given": "Daniel J."
+			},
+			{
+				"family": "Elabbady",
+				"given": "Leila"
+			},
+			{
+				"family": "Gamlin",
+				"given": "Clare"
+			},
+			{
+				"family": "Kapner",
+				"given": "Daniel"
+			},
+			{
+				"family": "Kinn",
+				"given": "Sam"
+			},
+			{
+				"family": "Mahalingam",
+				"given": "Gayathri"
+			},
+			{
+				"family": "Seshamani",
+				"given": "Sharmishtaa"
+			},
+			{
+				"family": "Suckow",
+				"given": "Shelby"
+			},
+			{
+				"family": "Takeno",
+				"given": "Marc"
+			},
+			{
+				"family": "Torres",
+				"given": "Russel"
+			},
+			{
+				"family": "Yin",
+				"given": "Wenjing"
+			},
+			{
+				"family": "Dorkenwald",
+				"given": "Sven"
+			},
+			{
+				"family": "Bae",
+				"given": "J. Alexander"
+			},
+			{
+				"family": "Castro",
+				"given": "Manuel A."
+			},
+			{
+				"family": "Halageri",
+				"given": "Akhilesh"
+			},
+			{
+				"family": "Jia",
+				"given": "Zhen"
+			},
+			{
+				"family": "Jordan",
+				"given": "Chris"
+			},
+			{
+				"family": "Kemnitz",
+				"given": "Nico"
+			},
+			{
+				"family": "Lee",
+				"given": "Kisuk"
+			},
+			{
+				"family": "Li",
+				"given": "Kai"
+			},
+			{
+				"family": "Lu",
+				"given": "Ran"
+			},
+			{
+				"family": "Macrina",
+				"given": "Thomas"
+			},
+			{
+				"family": "Mitchell",
+				"given": "Eric"
+			},
+			{
+				"family": "Mondal",
+				"given": "Shanka Subhra"
+			},
+			{
+				"family": "Mu",
+				"given": "Shang"
+			},
+			{
+				"family": "Nehoran",
+				"given": "Barak"
+			},
+			{
+				"family": "Popovych",
+				"given": "Sergiy"
+			},
+			{
+				"family": "Silversmith",
+				"given": "William"
+			},
+			{
+				"family": "Turner",
+				"given": "Nicholas L."
+			},
+			{
+				"family": "Wong",
+				"given": "William"
+			},
+			{
+				"family": "Wu",
+				"given": "Jingpeng"
+			},
+			{
+				"family": "Reimer",
+				"given": "Jacob"
+			},
+			{
+				"family": "Tolias",
+				"given": "Andreas S."
+			},
+			{
+				"family": "Seung",
+				"given": "H. Sebastian"
+			},
+			{
+				"family": "Reid",
+				"given": "R. Clay"
+			},
+			{
+				"family": "Collman",
+				"given": "Forrest"
+			},
+			{
+				"family": "Costa",
+				"given": "Nuno Maçarico",
+				"non-dropping-particle": "da"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					29
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					4
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/s41586-024-07780-8",
+		"ISSN": "1476-4687",
+		"issue": "8058",
+		"page": "448-458",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "Inhibitory specificity from a connectomic census of mouse visual cortex",
+		"URL": "https://www.nature.com/articles/s41586-024-07780-8",
+		"volume": "640"
+	},
+	{
+		"type": "article-journal",
+		"id": "RudyFishellLeeEtAl11",
+		"citation-key": "RudyFishellLeeEtAl11",
+		"language": "en",
+		"author": [
+			{
+				"family": "Rudy",
+				"given": "Bernardo"
+			},
+			{
+				"family": "Fishell",
+				"given": "Gordon"
+			},
+			{
+				"family": "Lee",
+				"given": "SooHyun"
+			},
+			{
+				"family": "Hjerling-Leffler",
+				"given": "Jens"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					5
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Developmental Neurobiology",
+		"DOI": "10.1002/dneu.20853",
+		"ISSN": "1932-846X",
+		"issue": "1",
+		"page": "45-61",
+		"source": "Wiley Online Library",
+		"title": "Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons",
+		"URL": "http://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.20853",
+		"volume": "71"
+	},
+	{
+		"type": "article-journal",
+		"id": "ShadlenNewsome94",
+		"citation-key": "ShadlenNewsome94",
+		"author": [
+			{
+				"family": "Shadlen",
+				"given": "M. N."
+			},
+			{
+				"family": "Newsome",
+				"given": "W. T."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1994"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current opinion in neurobiology",
+		"page": "569-579",
+		"title": "Noise, neural codes and cortical organization.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/7812147",
+		"volume": "4"
+	},
+	{
+		"type": "article-journal",
+		"id": "GibsonBeierleinConnors99",
+		"citation-key": "GibsonBeierleinConnors99",
+		"language": "en",
+		"author": [
+			{
+				"family": "Gibson",
+				"given": "Jay R."
+			},
+			{
+				"family": "Beierlein",
+				"given": "Michael"
+			},
+			{
+				"family": "Connors",
+				"given": "Barry W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/47035",
+		"ISSN": "1476-4687",
+		"issue": "6757",
+		"page": "75-79",
+		"source": "www.nature.com",
+		"title": "Two networks of electrically coupled inhibitory neurons in neocortex",
+		"URL": "https://www.nature.com/articles/47035",
+		"volume": "402"
+	},
+	{
+		"type": "article-journal",
+		"id": "GalarretaHestrin99",
+		"citation-key": "GalarretaHestrin99",
+		"language": "en",
+		"author": [
+			{
+				"family": "Galarreta",
+				"given": "Mario"
+			},
+			{
+				"family": "Hestrin",
+				"given": "Shaul"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					30
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/47029",
+		"ISSN": "1476-4687",
+		"issue": "6757",
+		"page": "72-75",
+		"source": "www.nature.com",
+		"title": "A network of fast-spiking cells in the neocortex connected by electrical synapses",
+		"URL": "https://www.nature.com/articles/47029",
+		"volume": "402"
 	},
 	{
 		"type": "article-journal",
@@ -2993,48 +3904,6 @@
 		"title": "Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell",
 		"URL": "https://www.sciencedirect.com/science/article/pii/S089662730300148X",
 		"volume": "37"
-	},
-	{
-		"type": "article-journal",
-		"id": "UrakuboHondaFroemkeEtAl08",
-		"citation-key": "UrakuboHondaFroemkeEtAl08",
-		"author": [
-			{
-				"family": "Urakubo",
-				"given": "Hidetoshi"
-			},
-			{
-				"family": "Honda",
-				"given": "Minoru"
-			},
-			{
-				"family": "Froemke",
-				"given": "Robert C."
-			},
-			{
-				"family": "Kuroda",
-				"given": "Shinya"
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2008",
-					3
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "The Journal of Neuroscience",
-		"issue": "13",
-		"page": "3310-3323",
-		"title": "Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity.",
-		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/18367598",
-		"volume": "28"
 	},
 	{
 		"type": "article-journal",
@@ -5585,5 +6454,165 @@
 		"page": "389-399",
 		"title": "Synaptic Plasticity: LTP and LTD",
 		"volume": "4"
+	},
+	{
+		"type": "book",
+		"id": "Hebb49",
+		"citation-key": "Hebb49",
+		"author": [
+			{
+				"family": "Hebb",
+				"given": "D. O."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1949",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"event-place": "New York",
+		"publisher": "Wiley",
+		"publisher-place": "New York",
+		"title": "The Organization of Behavior"
+	},
+	{
+		"type": "article-journal",
+		"id": "Turing36",
+		"citation-key": "Turing36",
+		"language": "en",
+		"author": [
+			{
+				"family": "Turing",
+				"given": "A. M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					11,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1936",
+					1,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the London Mathematical Society",
+		"DOI": "10.1112/plms/s2-42.1.230",
+		"ISSN": "1460-244X",
+		"issue": "1",
+		"page": "230-265",
+		"source": "Wiley Online Library",
+		"title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+		"URL": "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230",
+		"volume": "s2-42"
+	},
+	{
+		"type": "document",
+		"id": "vonNeumann45",
+		"citation-key": "vonNeumann45",
+		"author": [
+			{
+				"family": "Neumann",
+				"given": "John",
+				"non-dropping-particle": "von"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1945"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"title": "First Draft of a Report on the EDVAC"
+	},
+	{
+		"type": "article-journal",
+		"id": "SchneiderShiffrin77",
+		"citation-key": "SchneiderShiffrin77",
+		"author": [
+			{
+				"family": "Schneider",
+				"given": "W."
+			},
+			{
+				"family": "Shiffrin",
+				"given": "R. M."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Psychological Review",
+		"page": "1-66",
+		"title": "Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention",
+		"volume": "84"
+	},
+	{
+		"type": "article-journal",
+		"id": "ShiffrinSchneider77",
+		"citation-key": "ShiffrinSchneider77",
+		"author": [
+			{
+				"family": "Shiffrin",
+				"given": "R. M."
+			},
+			{
+				"family": "Schneider",
+				"given": "W."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Psychological Review",
+		"page": "127-190",
+		"title": "Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory",
+		"volume": "84"
 	}
 ]

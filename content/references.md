@@ -20,6 +20,8 @@
 
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
 
+<p id="BiPoo98">Bi, G., & Poo, M. (1998). Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. The Journal of Neuroscience, 18, 10464-10472. http://www.jneurosci.org/content/18/24/10464</p>
+
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
 <p id="Borst10">Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends in Neurosciences, 33, 259-266. http://www.sciencedirect.com/science/article/pii/S0166223610000457 http://doi.org/10.1016/j.tins.2010.03.003</p>
@@ -78,7 +80,11 @@
 
 <p id="FujitaFukaiKitano12">Fujita, T., Fukai, T., & Kitano, K. (2012). Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron. Journal of Computational Neuroscience, 32, 539-553.  http://doi.org/10.1007/s10827-011-0368-2</p>
 
+<p id="GalarretaHestrin99">Galarreta, M., & Hestrin, S. (1999). A network of fast-spiking cells in the neocortex connected by electrical synapses. Nature, 402, 72-75. https://www.nature.com/articles/47029 http://doi.org/10.1038/47029</p>
+
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
+
+<p id="GibsonBeierleinConnors99">Gibson, J.R., Beierlein, M., & Connors, B.W. (1999). Two networks of electrically coupled inhibitory neurons in neocortex. Nature, 402, 75-79. https://www.nature.com/articles/47035 http://doi.org/10.1038/47035</p>
 
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
 
@@ -99,6 +105,8 @@
 <p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
 
 <p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
+
+<p id="Hebb49">Hebb, D.O. (1949). The Organization of Behavior. Wiley. </p>
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
 
@@ -146,7 +154,11 @@
 
 <p id="MainenSejnowski96">Mainen, Z.F., & Sejnowski, T.J. (1996). Influence of dendritic structure on firing pattern in model neocortical neurons. Nature, 382, 363. http://www.ncbi.nlm.nih.gov/pubmed/8684467</p>
 
+<p id="MarkramMullerRamaswamyEtAl15">Markram, H., Muller, E., Ramaswamy, S., Reimann, M.W., Abdellah, M., Sanchez, C.A., Ailamaki, A., Alonso-Nanclares, L., Antille, N., Arsever, S., Kahou, G.A.A., Berger, T.K., Bilgili, A., Buncic, N., Chalimourda, A., Chindemi, G., Courcol, J., Delalondre, F., Delattre, V., Druckmann, S., Dumusc, R., Dynes, J., Eilemann, S., Gal, E., Gevaert, M.E., Ghobril, J., Gidon, A., Graham, J.W., Gupta, A., Haenel, V., Hay, E., Heinis, T., Hernando, J.B., Hines, M., Kanari, L., Keller, D., Kenyon, J., Khazen, G., Kim, Y., King, J.G., Kisvarday, Z., Kumbhar, P., Lasserre, S., Le Bé, J., Magalhães, B.R.C., Merchán-Pérez, A., Meystre, J., Morrice, B.R., Muller, J., Muñoz-Céspedes, A., Muralidhar, S., Muthurasa, K., Nachbaur, D., Newton, T.H., Nolte, M., Ovcharenko, A., Palacios, J., Pastor, L., Perin, R., Ranjan, R., Riachi, I., Rodríguez, J., Riquelme, J.L., Rössert, C., Sfyrakis, K., Shi, Y., Shillcock, J.C., Silberberg, G., Silva, R., Tauheed, F., Telefont, M., Toledo-Rodriguez, M., Tränkler, T., Van Geit, W., Díaz, J.V., Walker, R., Wang, Y., Zaninetta, S.M., DeFelipe, J., Hill, S.L., Segev, I., & Schürmann, F. (2015). Reconstruction and Simulation of Neocortical Microcircuitry. Cell, 163, 456-492.  http://doi.org/10.1016/j.cell.2015.09.029</p>
+
 <p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
+
+<p id="Maylor85">Maylor, E. (1985). Facilitatory and inhibitory components of orienting in visual space. In M.I. Posner, & O.S.M. Marin (Eds.), Attention and Performance XI. Lawrence Erlbaum Associates. </p>
 
 <p id="McClelland98">McClelland, J.L. (1998). Connectionist Models and Bayesian Inference. In N. Chater, & M. Oaksford (Eds.), Rational Models of Cognitive Processes. Oxford University Press. </p>
 
@@ -200,6 +212,8 @@
 
 <p id="Rosenblatt62">Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan. </p>
 
+<p id="RudyFishellLeeEtAl11">Rudy, B., Fishell, G., Lee, S., & Hjerling-Leffler, J. (2011). Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons. Developmental Neurobiology, 71, 45-61. http://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.20853 http://doi.org/10.1002/dneu.20853</p>
+
 <p id="RumelhartHintonWilliams86">Rumelhart, D.E., Hinton, G.E., & Williams, R.J. (1986). Learning representations by back-propagating errors. Nature, 323, 533–536. </p>
 
 <p id="RumelhartMcClelland86">Rumelhart, D.E., & McClelland, J.L. (1986). PDP Models and General Issues in Cognitive Science. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 110-146). MIT Press. </p>
@@ -214,9 +228,19 @@
 
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
+<p id="Schneider-MizellBodorBrittainEtAl25">Schneider-Mizell, C.M., Bodor, A.L., Brittain, D., Buchanan, J., Bumbarger, D.J., Elabbady, L., Gamlin, C., Kapner, D., Kinn, S., Mahalingam, G., Seshamani, S., Suckow, S., Takeno, M., Torres, R., Yin, W., Dorkenwald, S., Bae, J.A., Castro, M.A., Halageri, A., Jia, Z., Jordan, C., Kemnitz, N., Lee, K., Li, K., Lu, R., Macrina, T., Mitchell, E., Mondal, S.S., Mu, S., Nehoran, B., Popovych, S., Silversmith, W., Turner, N.L., Wong, W., Wu, J., Reimer, J., Tolias, A.S., Seung, H.S., Reid, R.C., Collman, F., & Costa, N.M. (2025). Inhibitory specificity from a connectomic census of mouse visual cortex. Nature, 640, 448-458. https://www.nature.com/articles/s41586-024-07780-8 http://doi.org/10.1038/s41586-024-07780-8</p>
+
+<p id="SchneiderShiffrin77">Schneider, W., & Shiffrin, R.M. (1977). Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention. Psychological Review, 84, 1-66. </p>
+
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
 
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
+
+<p id="ShadlenNewsome94">Shadlen, M.N., & Newsome, W.T. (1994). Noise, neural codes and cortical organization. Current opinion in neurobiology, 4, 569-579. http://www.ncbi.nlm.nih.gov/pubmed/7812147</p>
+
+<p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
+
+<p id="ShouvalWangWittenberg10">Shouval, H.Z., Wang, S.S., & Wittenberg, G.M. (2010). Spike timing dependent plasticity: A consequence of more fundamental learning rules. Frontiers in Computational Neuroscience, 4, http://www.ncbi.nlm.nih.gov/pubmed/20725599</p>
 
 <p id="SimoncelliOlshausen01">Simoncelli, E.P., & Olshausen, B.A. (2001). Natural image statistics and neural representation. Annual Review of Neuroscience, 24, 1193-1216. https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193 http://doi.org/10.1146/annurev.neuro.24.1.1193</p>
 
@@ -231,6 +255,8 @@
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
 
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
+
+<p id="Turing36">Turing, A.M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42, 230-265. https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230 http://doi.org/10.1112/plms/s2-42.1.230</p>
 
 <p id="UngerleiderMishkin82">Ungerleider, L.G., & Mishkin, M. (1982). Two Cortical Visual Systems. In D.J. Ingle, M.A. Goodale, & R.J.W. Mansfield (Eds.), The Analysis of Visual Behavior (pp. 549-586). MIT Press. </p>
 
@@ -251,4 +277,6 @@
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
 
 <p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
+
+<p id="vonNeumann45">Neumann, J. (1945). First Draft of a Report on the EDVAC. document. </p>
 

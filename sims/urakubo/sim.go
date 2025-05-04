@@ -125,6 +125,21 @@ func (ss *Sim) InitRandSeed(run int) {
 	ss.RandSeeds.Set(run)
 }
 
+func (ss *Sim) Run() {
+	ss.Urakubo.Stim = ss.Stim
+	switch ss.Stim {
+	case STDP, STDPSweep, STDPPacketSweep:
+		ss.Urakubo.NReps = 100
+	case Poisson, PoissonDurSweep, PoissonHzSweep:
+		ss.Urakubo.NReps = 100
+	case OpPhaseDurSweep:
+		ss.Urakubo.NReps = 1
+	default:
+		ss.Urakubo.NReps = 1
+	}
+	ss.Urakubo.RunStim()
+}
+
 //////// GUI
 
 // UpdateGUI updates the GUI window if GUI present
@@ -171,10 +186,9 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 		Tooltip: "Run current Stims.",
 		Active:  egui.ActiveStopped,
 		Func: func() {
-			ss.Urakubo.Stim = ss.Stim
 			ss.Urakubo.GUI.StartRun()
 			go func() {
-				ss.Urakubo.RunStim()
+				ss.Run()
 				ss.Urakubo.Stopped()
 			}()
 			ss.GUI.Toolbar.Restyle()
