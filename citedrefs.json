@@ -1458,6 +1458,54 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "BretteGerstner05",
+		"citation-key": "BretteGerstner05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Brette",
+				"given": "Romain"
+			},
+			{
+				"family": "Gerstner",
+				"given": "Wulfram"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					5,
+					15
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					11,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00686.2005",
+		"ISSN": "0022-3077, 1522-1598",
+		"issue": "5",
+		"page": "3637-3642",
+		"PMID": "16014787",
+		"source": "jn.physiology.org",
+		"title": "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity",
+		"URL": "http://jn.physiology.org/content/94/5/3637",
+		"volume": "94"
+	},
+	{
+		"type": "article-journal",
 		"id": "Lamme06",
 		"citation-key": "Lamme06",
 		"language": "English",
@@ -5466,54 +5514,6 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "BretteGerstner05",
-		"citation-key": "BretteGerstner05",
-		"language": "en",
-		"author": [
-			{
-				"family": "Brette",
-				"given": "Romain"
-			},
-			{
-				"family": "Gerstner",
-				"given": "Wulfram"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2015",
-					5,
-					15
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2005",
-					11,
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Journal of Neurophysiology",
-		"DOI": "10.1152/jn.00686.2005",
-		"ISSN": "0022-3077, 1522-1598",
-		"issue": "5",
-		"page": "3637-3642",
-		"PMID": "16014787",
-		"source": "jn.physiology.org",
-		"title": "Adaptive exponential integrate-and-fire model as an effective description of neuronal activity",
-		"URL": "http://jn.physiology.org/content/94/5/3637",
-		"volume": "94"
-	},
-	{
-		"type": "article-journal",
 		"id": "BeniaguevSegevLondon21",
 		"citation-key": "BeniaguevSegevLondon21",
 		"language": "en",
@@ -6430,29 +6430,45 @@
 		"author": [
 			{
 				"family": "Bear",
-				"given": "M. F."
+				"given": "Mark F."
 			},
 			{
 				"family": "Malenka",
-				"given": "R. C."
+				"given": "Robert C."
 			}
 		],
-		"accessed": {},
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
 		"available-date": {},
 		"event-date": {},
 		"issued": {
 			"date-parts": [
 				[
 					"1994",
-					12
+					6,
+					1
 				]
 			]
 		},
 		"original-date": {},
 		"submitted": {},
 		"container-title": "Current Opinion in Neurobiology",
+		"container-title-short": "Current Opinion in Neurobiology",
+		"DOI": "10.1016/0959-4388(94)90101-5",
+		"ISSN": "0959-4388",
+		"issue": "3",
 		"page": "389-399",
-		"title": "Synaptic Plasticity: LTP and LTD",
+		"source": "ScienceDirect",
+		"title": "Synaptic plasticity: LTP and LTD",
+		"title-short": "Synaptic plasticity",
+		"URL": "https://www.sciencedirect.com/science/article/pii/0959438894901015",
 		"volume": "4"
 	},
 	{
@@ -6482,6 +6498,599 @@
 		"publisher": "Wiley",
 		"publisher-place": "New York",
 		"title": "The Organization of Behavior"
+	},
+	{
+		"type": "article-journal",
+		"id": "LevySteward79",
+		"citation-key": "LevySteward79",
+		"author": [
+			{
+				"family": "Levy",
+				"given": "W. B."
+			},
+			{
+				"family": "Steward",
+				"given": "O."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Brain research",
+		"page": "233-245",
+		"title": "Synapses as associative memory elements in the hippocampal formation.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/487154",
+		"volume": "175"
+	},
+	{
+		"type": "article-journal",
+		"id": "CollingridgeKehlMcLennan83",
+		"citation-key": "CollingridgeKehlMcLennan83",
+		"author": [
+			{
+				"family": "Collingridge",
+				"given": "G L"
+			},
+			{
+				"family": "Kehl",
+				"given": "S J"
+			},
+			{
+				"family": "McLennan",
+				"given": "H"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of physiology",
+		"page": "33-46",
+		"title": "Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/6306230",
+		"volume": "334"
+	},
+	{
+		"type": "article-journal",
+		"id": "CollingridgeBliss87",
+		"citation-key": "CollingridgeBliss87",
+		"author": [
+			{
+				"family": "Collingridge",
+				"given": "G. L."
+			},
+			{
+				"family": "Bliss",
+				"given": "T. V. P."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Neurosciences",
+		"page": "288-293",
+		"title": "NMDA Receptors — Their Role in Long-Term Potentiation",
+		"volume": "10"
+	},
+	{
+		"type": "article-journal",
+		"id": "Cooper05",
+		"citation-key": "Cooper05",
+		"author": [
+			{
+				"family": "Cooper",
+				"given": "Steven J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					1,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuroscience \u0026 Biobehavioral Reviews",
+		"container-title-short": "Neuroscience \u0026 Biobehavioral Reviews",
+		"DOI": "10.1016/j.neubiorev.2004.09.009",
+		"ISSN": "0149-7634",
+		"issue": "8",
+		"page": "851-874",
+		"source": "ScienceDirect",
+		"title": "Donald O. Hebb's synapse and learning rule: a history and commentary",
+		"title-short": "Donald O. Hebb's synapse and learning rule",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0149763404000995",
+		"volume": "28"
+	},
+	{
+		"type": "article-journal",
+		"id": "DunwiddieLynch78",
+		"citation-key": "DunwiddieLynch78",
+		"language": "en",
+		"author": [
+			{
+				"family": "Dunwiddie",
+				"given": "T"
+			},
+			{
+				"family": "Lynch",
+				"given": "G"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1978"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Physiology",
+		"DOI": "10.1113/jphysiol.1978.sp012239",
+		"ISSN": "1469-7793",
+		"issue": "1",
+		"page": "353-367",
+		"source": "Wiley Online Library",
+		"title": "Long-term potentiation and depression of synaptic responses in the rat hippocampus: localization and frequency dependency.",
+		"title-short": "Long-term potentiation and depression of synaptic responses in the rat hippocampus",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012239",
+		"volume": "276"
+	},
+	{
+		"type": "article-journal",
+		"id": "Lisman89",
+		"citation-key": "Lisman89",
+		"author": [
+			{
+				"family": "Lisman",
+				"given": "J"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1989",
+					12
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Proceedings of the National Academy of Sciences",
+		"DOI": "10.1073/pnas.86.23.9574",
+		"issue": "23",
+		"page": "9574-9578",
+		"publisher": "Proceedings of the National Academy of Sciences",
+		"source": "pnas.org (Atypon)",
+		"title": "A mechanism for the Hebb and the anti-Hebb processes underlying learning and memory.",
+		"URL": "https://www.pnas.org/doi/abs/10.1073/pnas.86.23.9574",
+		"volume": "86"
+	},
+	{
+		"type": "article-journal",
+		"id": "BienenstockCooperMunro82",
+		"citation-key": "BienenstockCooperMunro82",
+		"author": [
+			{
+				"family": "Bienenstock",
+				"given": "Elie L."
+			},
+			{
+				"family": "Cooper",
+				"given": "Leon N."
+			},
+			{
+				"family": "Munro",
+				"given": "Paul W."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "The Journal of Neuroscience",
+		"issue": "2",
+		"page": "32-48",
+		"title": "Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/7054394",
+		"volume": "2"
+	},
+	{
+		"type": "article-journal",
+		"id": "KheradpishehGanjtabeshThorpeEtAl18",
+		"citation-key": "KheradpishehGanjtabeshThorpeEtAl18",
+		"language": "en",
+		"author": [
+			{
+				"family": "Kheradpisheh",
+				"given": "Saeed Reza"
+			},
+			{
+				"family": "Ganjtabesh",
+				"given": "Mohammad"
+			},
+			{
+				"family": "Thorpe",
+				"given": "Simon J."
+			},
+			{
+				"family": "Masquelier",
+				"given": "Timothée"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					7
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neural Networks",
+		"container-title-short": "Neural Networks",
+		"DOI": "10.1016/j.neunet.2017.12.005",
+		"ISSN": "0893-6080",
+		"page": "56-67",
+		"source": "ScienceDirect",
+		"title": "STDP-based spiking deep convolutional neural networks for object recognition",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0893608017302903",
+		"volume": "99"
+	},
+	{
+		"type": "article-journal",
+		"id": "DiehlCook15",
+		"citation-key": "DiehlCook15",
+		"language": "English",
+		"author": [
+			{
+				"family": "Diehl",
+				"given": "Peter U."
+			},
+			{
+				"family": "Cook",
+				"given": "Matthew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					8,
+					31
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Frontiers in Computational Neuroscience",
+		"container-title-short": "Front. Comput. Neurosci.",
+		"DOI": "10.3389/fncom.2015.00099",
+		"ISSN": "1662-5188",
+		"publisher": "Frontiers",
+		"source": "Frontiers",
+		"title": "Unsupervised learning of digit recognition using spike-timing-dependent plasticity",
+		"URL": "https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full",
+		"volume": "9"
+	},
+	{
+		"type": "article-journal",
+		"id": "DebanneInglebert23",
+		"citation-key": "DebanneInglebert23",
+		"author": [
+			{
+				"family": "Debanne",
+				"given": "Dominique"
+			},
+			{
+				"family": "Inglebert",
+				"given": "Yanis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current Opinion in Neurobiology",
+		"container-title-short": "Current Opinion in Neurobiology",
+		"DOI": "10.1016/j.conb.2023.102707",
+		"ISSN": "0959-4388",
+		"page": "102707",
+		"source": "ScienceDirect",
+		"title": "Spike timing-dependent plasticity and memory",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0959438823000326",
+		"volume": "80"
+	},
+	{
+		"type": "article-journal",
+		"id": "FroemkeDan02",
+		"citation-key": "FroemkeDan02",
+		"author": [
+			{
+				"family": "Froemke",
+				"given": "Robert C."
+			},
+			{
+				"family": "Dan",
+				"given": "Yang"
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"issue": "6879",
+		"page": "433-437",
+		"title": "Spike-timing-dependent synaptic modification induced by natural spike trains.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11919633",
+		"volume": "416"
+	},
+	{
+		"type": "article-journal",
+		"id": "FroemkeTsayRaadEtAl06",
+		"citation-key": "FroemkeTsayRaadEtAl06",
+		"author": [
+			{
+				"family": "Froemke",
+				"given": "R. C."
+			},
+			{
+				"family": "Tsay",
+				"given": "I. A."
+			},
+			{
+				"family": "Raad",
+				"given": "M."
+			},
+			{
+				"family": "Long",
+				"given": "J. D."
+			},
+			{
+				"family": "Dan",
+				"given": "Y."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"issue": "3",
+		"page": "1620-1629",
+		"title": "Contribution of individual spikes in burst-induced long-term synaptic modification.",
+		"volume": "95"
+	},
+	{
+		"type": "article-journal",
+		"id": "ArieliSterkinGrinvaldEtAl96",
+		"citation-key": "ArieliSterkinGrinvaldEtAl96",
+		"author": [
+			{
+				"family": "Arieli",
+				"given": "A."
+			},
+			{
+				"family": "Sterkin",
+				"given": "A."
+			},
+			{
+				"family": "Grinvald",
+				"given": "A."
+			},
+			{
+				"family": "Aertsen",
+				"given": "A."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					9
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science",
+		"issue": "5283",
+		"page": "1868-1871",
+		"title": "Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/8791593",
+		"volume": "273"
+	},
+	{
+		"type": "article-journal",
+		"id": "TorradoPachecoBottorffGaoEtAl21",
+		"citation-key": "TorradoPachecoBottorffGaoEtAl21",
+		"language": "en",
+		"author": [
+			{
+				"family": "Torrado Pacheco",
+				"given": "Alejandro"
+			},
+			{
+				"family": "Bottorff",
+				"given": "Juliet"
+			},
+			{
+				"family": "Gao",
+				"given": "Ya"
+			},
+			{
+				"family": "Turrigiano",
+				"given": "Gina G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					8
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2020.11.001",
+		"ISSN": "0896-6273",
+		"issue": "3",
+		"page": "530-544.e6",
+		"source": "ScienceDirect",
+		"title": "Sleep promotes downward firing rate homeostasis",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0896627320308606",
+		"volume": "109"
 	},
 	{
 		"type": "article-journal",

@@ -6,13 +6,15 @@
 
 <p id="AngelucciBressloff06">Angelucci, A., & Bressloff, P.C. (2006). Contribution of feedforward, lateral and feedback connections to the classical receptive field center and extra-classical receptive field surround of primate V1 neurons. In S.L.M. S. Martinez-Conde (Ed.), Progress in Brain Research (pp. 93-120). Elsevier. http://www.sciencedirect.com/science/article/pii/S0079612306540051 http://doi.org/10.1016/S0079-6123(06)54005-1</p>
 
+<p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
+
 <p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
 
 <p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
 
 <p id="Barlow61">Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. Sensory Communication, 217-234. https://cir.nii.ac.jp/crid/1570291225093500032</p>
 
-<p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic Plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. </p>
+<p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. https://www.sciencedirect.com/science/article/pii/0959438894901015 http://doi.org/10.1016/0959-4388(94)90101-5</p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
 
@@ -21,6 +23,8 @@
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
 
 <p id="BiPoo98">Bi, G., & Poo, M. (1998). Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. The Journal of Neuroscience, 18, 10464-10472. http://www.jneurosci.org/content/18/24/10464</p>
+
+<p id="BienenstockCooperMunro82">Bienenstock, E.L., Cooper, L.N., & Munro, P.W. (1982). Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex. The Journal of Neuroscience, 2, 32-48. http://www.ncbi.nlm.nih.gov/pubmed/7054394</p>
 
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
@@ -46,6 +50,12 @@
 
 <p id="CohenRomeroFarahEtAl94">Cohen, J.D., Romero, R.D., Farah, M.J., & Servan-Schreiber, D. (1994). Mechanisms of Spatial Attention: The Relation of Macrostructure To Microstructure in Parietal Neglect. Journal of Cognitive Neuroscience, 6, 377–387. </p>
 
+<p id="CollingridgeBliss87">Collingridge, G.L., & Bliss, T.V.P. (1987). NMDA Receptors — Their Role in Long-Term Potentiation. Trends in Neurosciences, 10, 288-293. </p>
+
+<p id="CollingridgeKehlMcLennan83">Collingridge, G.L., Kehl, S.J., & McLennan, H. (1983). Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus. The Journal of physiology, 334, 33-46. http://www.ncbi.nlm.nih.gov/pubmed/6306230</p>
+
+<p id="Cooper05">Cooper, S.J. (2005). Donald O. Hebb's synapse and learning rule: a history and commentary. Neuroscience & Biobehavioral Reviews, 28, 851-874. https://www.sciencedirect.com/science/article/pii/S0149763404000995 http://doi.org/10.1016/j.neubiorev.2004.09.009</p>
+
 <p id="CoslettSaffran91">Coslett, H.B., & Saffran, E. (1991). Simultanagnosia. To see but not two see. Brain, 114, 1523-1545. </p>
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
@@ -53,6 +63,8 @@
 <p id="CritcherHuberHoEtAl09">Critcher, C.R., Huber, M., Ho, A.K., & Koleva, S.P. (2009). Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs. Social Justice Research, 22, 181-205. https://doi.org/10.1007/s11211-009-0096-1 http://doi.org/10.1007/s11211-009-0096-1</p>
 
 <p id="CutsuridisPoirazi15">Cutsuridis, V., & Poirazi, P. (2015). A computational study on how theta modulated inhibition can account for the long temporal windows in the entorhinal–hippocampal loop. Neurobiology of Learning and Memory, 120, 69-83. https://www.sciencedirect.com/science/article/pii/S1074742715000234 http://doi.org/10.1016/j.nlm.2015.02.002</p>
+
+<p id="DebanneInglebert23">Debanne, D., & Inglebert, Y. (2023). Spike timing-dependent plasticity and memory. Current Opinion in Neurobiology, 80, 102707. https://www.sciencedirect.com/science/article/pii/S0959438823000326 http://doi.org/10.1016/j.conb.2023.102707</p>
 
 <p id="DehaeneKerszbergChangeux98">Dehaene, S., Kerszberg, M., & Changeux, J.P. (1998). A neuronal model of a global workspace in effortful cognitive tasks. Proceedings of the National Academy of Sciences of the United States of America, 95, 14529. http://www.ncbi.nlm.nih.gov/pubmed/9826734</p>
 
@@ -62,11 +74,15 @@
 
 <p id="DestexheMainenSejnowski98">Destexhe, A., Mainen, Z.F., & Sejnowski, T.J. (1998). Kinetic models of synaptic transmission. Methods in neuronal modeling, 2, 1–25. https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf</p>
 
+<p id="DiehlCook15">Diehl, P.U., & Cook, M. (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience, 9, https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full http://doi.org/10.3389/fncom.2015.00099</p>
+
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
 <p id="DriesenMcCarthyBhagwagarEtAl13">Driesen, N.R., McCarthy, G., Bhagwagar, Z., Bloch, M., Calhoun, V., D'Souza, D.C., Gueorguieva, R., He, G., Ramachandran, R., Suckow, R.F., Anticevic, A., Morgan, P.T., & Krystal, J.H. (2013). Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans. Molecular Psychiatry, 18, 1199-1204. https://www.nature.com/articles/mp2012194 http://doi.org/10.1038/mp.2012.194</p>
 
 <p id="Duncan84">Duncan, J. (1984). Selective attention and the organization of visual information. Journal of Experimental Psychology: General, 113, 501-517. </p>
+
+<p id="DunwiddieLynch78">Dunwiddie, T., & Lynch, G. (1978). Long-term potentiation and depression of synaptic responses in the rat hippocampus: localization and frequency dependency. The Journal of Physiology, 276, 353-367. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012239 http://doi.org/10.1113/jphysiol.1978.sp012239</p>
 
 <p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
 
@@ -77,6 +93,10 @@
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
+
+<p id="FroemkeDan02">Froemke, R.C., & Dan, Y. (2002). Spike-timing-dependent synaptic modification induced by natural spike trains. Nature, 416, 433-437. http://www.ncbi.nlm.nih.gov/pubmed/11919633</p>
+
+<p id="FroemkeTsayRaadEtAl06">Froemke, R.C., Tsay, I.A., Raad, M., Long, J.D., & Dan, Y. (2006). Contribution of individual spikes in burst-induced long-term synaptic modification. Journal of Neurophysiology, 95, 1620-1629. </p>
 
 <p id="FujitaFukaiKitano12">Fujita, T., Fukai, T., & Kitano, K. (2012). Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron. Journal of Computational Neuroscience, 32, 539-553.  http://doi.org/10.1007/s10827-011-0368-2</p>
 
@@ -132,6 +152,8 @@
 
 <p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
 
+<p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
+
 <p id="Kohn07">Kohn, A. (2007). Visual Adaptation: Physiology, Mechanisms, and Functional Benefits. Journal of Neurophysiology, 97, 3155-3164. http://jn.physiology.org/content/97/5/3155 http://doi.org/10.1152/jn.00086.2007</p>
 
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
@@ -146,9 +168,13 @@
 
 <p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
 
+<p id="LevySteward79">Levy, W.B., & Steward, O. (1979). Synapses as associative memory elements in the hippocampal formation. Brain research, 175, 233-245. http://www.ncbi.nlm.nih.gov/pubmed/487154</p>
+
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
+
+<p id="Lisman89">Lisman, J. (1989). A mechanism for the Hebb and the anti-Hebb processes underlying learning and memory. Proceedings of the National Academy of Sciences, 86, 9574-9578. https://www.pnas.org/doi/abs/10.1073/pnas.86.23.9574 http://doi.org/10.1073/pnas.86.23.9574</p>
 
 <p id="LismanFellousWang99">Lisman, J.E., Fellous, J.M., & Wang, X.J. (1999). A role for {NMDA}-receptor channels in working memory. Nature Neuroscience, 1, 273-275. http://www.ncbi.nlm.nih.gov/pubmed/10195158</p>
 
@@ -255,6 +281,8 @@
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
 
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
+
+<p id="TorradoPachecoBottorffGaoEtAl21">Torrado Pacheco, A., Bottorff, J., Gao, Y., & Turrigiano, G.G. (2021). Sleep promotes downward firing rate homeostasis. Neuron, 109, 530-544.e6. https://www.sciencedirect.com/science/article/pii/S0896627320308606 http://doi.org/10.1016/j.neuron.2020.11.001</p>
 
 <p id="Turing36">Turing, A.M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42, 230-265. https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230 http://doi.org/10.1112/plms/s2-42.1.230</p>
 

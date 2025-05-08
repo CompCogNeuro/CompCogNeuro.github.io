@@ -130,7 +130,7 @@ func (ss *Sim) Run() {
 	switch ss.Stim {
 	case STDP, STDPSweep, STDPPacketSweep:
 		ss.Urakubo.NReps = 100
-	case Poisson, PoissonDurSweep, PoissonHzSweep:
+	case PoissonDurSweep, PoissonHzSweep:
 		ss.Urakubo.NReps = 100
 	case OpPhaseDurSweep:
 		ss.Urakubo.NReps = 1
