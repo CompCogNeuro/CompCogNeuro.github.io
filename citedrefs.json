@@ -6501,6 +6501,801 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "DebanneInglebert23",
+		"citation-key": "DebanneInglebert23",
+		"author": [
+			{
+				"family": "Debanne",
+				"given": "Dominique"
+			},
+			{
+				"family": "Inglebert",
+				"given": "Yanis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					3
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current Opinion in Neurobiology",
+		"container-title-short": "Current Opinion in Neurobiology",
+		"DOI": "10.1016/j.conb.2023.102707",
+		"ISSN": "0959-4388",
+		"page": "102707",
+		"source": "ScienceDirect",
+		"title": "Spike timing-dependent plasticity and memory",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0959438823000326",
+		"volume": "80"
+	},
+	{
+		"type": "article-journal",
+		"id": "FroemkeTsayRaadEtAl06",
+		"citation-key": "FroemkeTsayRaadEtAl06",
+		"author": [
+			{
+				"family": "Froemke",
+				"given": "R. C."
+			},
+			{
+				"family": "Tsay",
+				"given": "I. A."
+			},
+			{
+				"family": "Raad",
+				"given": "M."
+			},
+			{
+				"family": "Long",
+				"given": "J. D."
+			},
+			{
+				"family": "Dan",
+				"given": "Y."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"issue": "3",
+		"page": "1620-1629",
+		"title": "Contribution of individual spikes in burst-induced long-term synaptic modification.",
+		"volume": "95"
+	},
+	{
+		"type": "article-journal",
+		"id": "YangLiu22",
+		"citation-key": "YangLiu22",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "Yanrui"
+			},
+			{
+				"family": "Liu",
+				"given": "Jia-Jia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Current Opinion in Neurobiology",
+		"container-title-short": "Current Opinion in Neurobiology",
+		"DOI": "10.1016/j.conb.2022.102534",
+		"ISSN": "0959-4388",
+		"page": "102534",
+		"source": "ScienceDirect",
+		"title": "Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines",
+		"title-short": "Structural LTP",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0959438822000289",
+		"volume": "74"
+	},
+	{
+		"type": "article-journal",
+		"id": "BoschCastroSaneyoshiEtAl14",
+		"citation-key": "BoschCastroSaneyoshiEtAl14",
+		"language": "English",
+		"author": [
+			{
+				"family": "Bosch",
+				"given": "Miquel"
+			},
+			{
+				"family": "Castro",
+				"given": "Jorge"
+			},
+			{
+				"family": "Saneyoshi",
+				"given": "Takeo"
+			},
+			{
+				"family": "Matsuno",
+				"given": "Hitomi"
+			},
+			{
+				"family": "Sur",
+				"given": "Mriganka"
+			},
+			{
+				"family": "Hayashi",
+				"given": "Yasunori"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					4,
+					16
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2014.03.021",
+		"ISSN": "0896-6273",
+		"issue": "2",
+		"page": "444-459",
+		"PMID": "24742465",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "Structural and Molecular Remodeling of Dendritic Spine Substructures during Long-Term Potentiation",
+		"URL": "https://www.cell.com/neuron/abstract/S0896-6273(14)00251-7",
+		"volume": "82"
+	},
+	{
+		"type": "article-journal",
+		"id": "MatsuzakiHonkuraEllis-DaviesEtAl04",
+		"citation-key": "MatsuzakiHonkuraEllis-DaviesEtAl04",
+		"language": "en",
+		"author": [
+			{
+				"family": "Matsuzaki",
+				"given": "Masanori"
+			},
+			{
+				"family": "Honkura",
+				"given": "Naoki"
+			},
+			{
+				"family": "Ellis-Davies",
+				"given": "Graham C. R."
+			},
+			{
+				"family": "Kasai",
+				"given": "Haruo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2004",
+					6
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature",
+		"DOI": "10.1038/nature02617",
+		"ISSN": "1476-4687",
+		"issue": "6993",
+		"page": "761-766",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "Structural basis of long-term potentiation in single dendritic spines",
+		"URL": "https://www.nature.com/articles/nature02617",
+		"volume": "429"
+	},
+	{
+		"type": "article-journal",
+		"id": "BayerGiese25",
+		"citation-key": "BayerGiese25",
+		"language": "en",
+		"author": [
+			{
+				"family": "Bayer",
+				"given": "Karl Ulrich"
+			},
+			{
+				"family": "Giese",
+				"given": "Karl Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Neuroscience",
+		"container-title-short": "Nat Neurosci",
+		"DOI": "10.1038/s41593-024-01809-x",
+		"ISSN": "1546-1726",
+		"issue": "1",
+		"page": "24-34",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "A revised view of the role of CaMKII in learning and memory",
+		"URL": "https://www.nature.com/articles/s41593-024-01809-x",
+		"volume": "28"
+	},
+	{
+		"type": "article-journal",
+		"id": "YasudaHayashiHell22",
+		"citation-key": "YasudaHayashiHell22",
+		"language": "en",
+		"author": [
+			{
+				"family": "Yasuda",
+				"given": "Ryohei"
+			},
+			{
+				"family": "Hayashi",
+				"given": "Yasunori"
+			},
+			{
+				"family": "Hell",
+				"given": "Johannes W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Reviews Neuroscience",
+		"container-title-short": "Nat Rev Neurosci",
+		"DOI": "10.1038/s41583-022-00624-2",
+		"ISSN": "1471-0048",
+		"issue": "11",
+		"page": "666-682",
+		"publisher": "Nature Publishing Group",
+		"source": "www.nature.com",
+		"title": "CaMKII: a central molecular organizer of synaptic plasticity, learning and memory",
+		"title-short": "CaMKII",
+		"URL": "https://www.nature.com/articles/s41583-022-00624-2",
+		"volume": "23"
+	},
+	{
+		"type": "article-journal",
+		"id": "TanakaHoriikeMatsuzakiEtAl08",
+		"citation-key": "TanakaHoriikeMatsuzakiEtAl08",
+		"author": [
+			{
+				"family": "Tanaka",
+				"given": "Jun-ichi"
+			},
+			{
+				"family": "Horiike",
+				"given": "Yoshihiro"
+			},
+			{
+				"family": "Matsuzaki",
+				"given": "Masanori"
+			},
+			{
+				"family": "Miyazaki",
+				"given": "Takashi"
+			},
+			{
+				"family": "Ellis-Davies",
+				"given": "Graham C. R."
+			},
+			{
+				"family": "Kasai",
+				"given": "Haruo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					3,
+					21
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Science",
+		"DOI": "10.1126/science.1152864",
+		"issue": "5870",
+		"page": "1683-1687",
+		"publisher": "American Association for the Advancement of Science",
+		"source": "science.org (Atypon)",
+		"title": "Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines",
+		"URL": "https://www.science.org/doi/full/10.1126/science.1152864",
+		"volume": "319"
+	},
+	{
+		"type": "article-journal",
+		"id": "AbbottNelson00",
+		"citation-key": "AbbottNelson00",
+		"language": "en",
+		"author": [
+			{
+				"family": "Abbott",
+				"given": "L. F."
+			},
+			{
+				"family": "Nelson",
+				"given": "Sacha B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					18
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					11
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Neuroscience",
+		"container-title-short": "Nat Neurosci",
+		"DOI": "10.1038/81453",
+		"ISSN": "1546-1726",
+		"issue": "11",
+		"number": "11",
+		"page": "1178-1183",
+		"publisher": "Nature Publishing Group",
+		"source": "www-nature-com.colorado.idm.oclc.org",
+		"title": "Synaptic plasticity: taming the beast",
+		"title-short": "Synaptic plasticity",
+		"URL": "http://www.nature.com/articles/nn1100_1178",
+		"volume": "3"
+	},
+	{
+		"type": "article-journal",
+		"id": "TononiCirelli03",
+		"citation-key": "TononiCirelli03",
+		"author": [
+			{
+				"family": "Tononi",
+				"given": "Giulio"
+			},
+			{
+				"family": "Cirelli",
+				"given": "Chiara"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					12,
+					15
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Brain Research Bulletin",
+		"container-title-short": "Brain Research Bulletin",
+		"DOI": "10.1016/j.brainresbull.2003.09.004",
+		"ISSN": "0361-9230",
+		"issue": "2",
+		"page": "143-150",
+		"source": "ScienceDirect",
+		"title": "Sleep and synaptic homeostasis: a hypothesis",
+		"title-short": "Sleep and synaptic homeostasis",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0361923003002594",
+		"volume": "62"
+	},
+	{
+		"type": "article-journal",
+		"id": "Turrigiano08",
+		"citation-key": "Turrigiano08",
+		"author": [
+			{
+				"family": "Turrigiano",
+				"given": "Gina G."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cell",
+		"issue": "3",
+		"page": "422-435",
+		"title": "The self-tuning neuron: synaptic scaling of excitatory synapses.",
+		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/18984155",
+		"volume": "135"
+	},
+	{
+		"type": "article-journal",
+		"id": "TorradoPachecoBottorffGaoEtAl21",
+		"citation-key": "TorradoPachecoBottorffGaoEtAl21",
+		"language": "en",
+		"author": [
+			{
+				"family": "Torrado Pacheco",
+				"given": "Alejandro"
+			},
+			{
+				"family": "Bottorff",
+				"given": "Juliet"
+			},
+			{
+				"family": "Gao",
+				"given": "Ya"
+			},
+			{
+				"family": "Turrigiano",
+				"given": "Gina G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					8
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2020.11.001",
+		"ISSN": "0896-6273",
+		"issue": "3",
+		"page": "530-544.e6",
+		"source": "ScienceDirect",
+		"title": "Sleep promotes downward firing rate homeostasis",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0896627320308606",
+		"volume": "109"
+	},
+	{
+		"type": "article-journal",
+		"id": "LiMaYangEtAl17",
+		"citation-key": "LiMaYangEtAl17",
+		"language": "en",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Wei"
+			},
+			{
+				"family": "Ma",
+				"given": "Lei"
+			},
+			{
+				"family": "Yang",
+				"given": "Guang"
+			},
+			{
+				"family": "Gan",
+				"given": "Wen-Biao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					3
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Neuroscience",
+		"DOI": "10.1038/nn.4479",
+		"ISSN": "1546-1726",
+		"issue": "3",
+		"number": "3",
+		"page": "427-437",
+		"publisher": "Nature Publishing Group",
+		"source": "www-nature-com.colorado.idm.oclc.org",
+		"title": "REM sleep selectively prunes and maintains new synapses in development and learning",
+		"URL": "http://www.nature.com/articles/nn.4479",
+		"volume": "20"
+	},
+	{
+		"type": "article-journal",
+		"id": "KlinzingNiethardBorn19",
+		"citation-key": "KlinzingNiethardBorn19",
+		"language": "en",
+		"author": [
+			{
+				"family": "Klinzing",
+				"given": "Jens G."
+			},
+			{
+				"family": "Niethard",
+				"given": "Niels"
+			},
+			{
+				"family": "Born",
+				"given": "Jan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					22
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Nature Neuroscience",
+		"DOI": "10.1038/s41593-019-0467-3",
+		"ISSN": "1546-1726",
+		"issue": "10",
+		"number": "10",
+		"page": "1598-1610",
+		"publisher": "Nature Publishing Group",
+		"source": "www-nature-com.colorado.idm.oclc.org",
+		"title": "Mechanisms of systems memory consolidation during sleep",
+		"URL": "http://www.nature.com/articles/s41593-019-0467-3",
+		"volume": "22"
+	},
+	{
+		"type": "article-journal",
+		"id": "Lisman94",
+		"citation-key": "Lisman94",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Lisman",
+				"given": "J."
+			}
+		],
+		"accessed": {},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					10
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Trends in Neurosciences",
+		"container-title-short": "Trends Neurosci",
+		"DOI": "10.1016/0166-2236(94)90014-0",
+		"ISSN": "0166-2236",
+		"issue": "10",
+		"page": "406-412",
+		"PMID": "7530878",
+		"source": "PubMed",
+		"title": "The CaM kinase II hypothesis for the storage of synaptic memory",
+		"volume": "17"
+	},
+	{
+		"type": "article-journal",
+		"id": "VanHarreveldFifkova75",
+		"citation-key": "VanHarreveldFifkova75",
+		"author": [
+			{
+				"family": "Van Harreveld",
+				"given": "A."
+			},
+			{
+				"family": "Fifkova",
+				"given": "E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					9
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1975",
+					12,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Experimental Neurology",
+		"container-title-short": "Experimental Neurology",
+		"DOI": "10.1016/0014-4886(75)90055-2",
+		"ISSN": "0014-4886",
+		"issue": "3",
+		"page": "736-749",
+		"source": "ScienceDirect",
+		"title": "Swelling of dendritic spines in the fascia dentata after stimulation of the perforant fibers as a mechanism of post-tetanic potentiation",
+		"URL": "https://www.sciencedirect.com/science/article/pii/0014488675900552",
+		"volume": "49"
+	},
+	{
+		"type": "article-journal",
 		"id": "LevySteward79",
 		"citation-key": "LevySteward79",
 		"author": [
@@ -6872,52 +7667,6 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "DebanneInglebert23",
-		"citation-key": "DebanneInglebert23",
-		"author": [
-			{
-				"family": "Debanne",
-				"given": "Dominique"
-			},
-			{
-				"family": "Inglebert",
-				"given": "Yanis"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2025",
-					5,
-					3
-				]
-			]
-		},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					6,
-					1
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Current Opinion in Neurobiology",
-		"container-title-short": "Current Opinion in Neurobiology",
-		"DOI": "10.1016/j.conb.2023.102707",
-		"ISSN": "0959-4388",
-		"page": "102707",
-		"source": "ScienceDirect",
-		"title": "Spike timing-dependent plasticity and memory",
-		"URL": "https://www.sciencedirect.com/science/article/pii/S0959438823000326",
-		"volume": "80"
-	},
-	{
-		"type": "article-journal",
 		"id": "FroemkeDan02",
 		"citation-key": "FroemkeDan02",
 		"author": [
@@ -6949,50 +7698,6 @@
 		"title": "Spike-timing-dependent synaptic modification induced by natural spike trains.",
 		"URL": "http://www.ncbi.nlm.nih.gov/pubmed/11919633",
 		"volume": "416"
-	},
-	{
-		"type": "article-journal",
-		"id": "FroemkeTsayRaadEtAl06",
-		"citation-key": "FroemkeTsayRaadEtAl06",
-		"author": [
-			{
-				"family": "Froemke",
-				"given": "R. C."
-			},
-			{
-				"family": "Tsay",
-				"given": "I. A."
-			},
-			{
-				"family": "Raad",
-				"given": "M."
-			},
-			{
-				"family": "Long",
-				"given": "J. D."
-			},
-			{
-				"family": "Dan",
-				"given": "Y."
-			}
-		],
-		"accessed": {},
-		"available-date": {},
-		"event-date": {},
-		"issued": {
-			"date-parts": [
-				[
-					"2006"
-				]
-			]
-		},
-		"original-date": {},
-		"submitted": {},
-		"container-title": "Journal of Neurophysiology",
-		"issue": "3",
-		"page": "1620-1629",
-		"title": "Contribution of individual spikes in burst-induced long-term synaptic modification.",
-		"volume": "95"
 	},
 	{
 		"type": "article-journal",
@@ -7197,33 +7902,25 @@
 	},
 	{
 		"type": "article-journal",
-		"id": "TorradoPachecoBottorffGaoEtAl21",
-		"citation-key": "TorradoPachecoBottorffGaoEtAl21",
-		"language": "en",
+		"id": "IacobucciPopescu24",
+		"citation-key": "IacobucciPopescu24",
+		"language": "English",
 		"author": [
 			{
-				"family": "Torrado Pacheco",
-				"given": "Alejandro"
+				"family": "Iacobucci",
+				"given": "Gary J."
 			},
 			{
-				"family": "Bottorff",
-				"given": "Juliet"
-			},
-			{
-				"family": "Gao",
-				"given": "Ya"
-			},
-			{
-				"family": "Turrigiano",
-				"given": "Gina G."
+				"family": "Popescu",
+				"given": "Gabriela K."
 			}
 		],
 		"accessed": {
 			"date-parts": [
 				[
-					"2021",
+					"2025",
 					5,
-					8
+					9
 				]
 			]
 		},
@@ -7232,24 +7929,26 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2021",
+					"2024",
 					2,
-					3
+					6
 				]
 			]
 		},
 		"original-date": {},
 		"submitted": {},
-		"container-title": "Neuron",
-		"container-title-short": "Neuron",
-		"DOI": "10.1016/j.neuron.2020.11.001",
-		"ISSN": "0896-6273",
+		"container-title": "Biophysical Journal",
+		"container-title-short": "Biophysical Journal",
+		"DOI": "10.1016/j.bpj.2023.12.018",
+		"ISSN": "0006-3495, 1542-0086",
 		"issue": "3",
-		"page": "530-544.e6",
-		"source": "ScienceDirect",
-		"title": "Sleep promotes downward firing rate homeostasis",
-		"URL": "https://www.sciencedirect.com/science/article/pii/S0896627320308606",
-		"volume": "109"
+		"page": "277-293",
+		"PMID": "38140727",
+		"publisher": "Elsevier",
+		"source": "www.cell.com",
+		"title": "Calcium- and calmodulin-dependent inhibition of NMDA receptor currents",
+		"URL": "https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5",
+		"volume": "123"
 	},
 	{
 		"type": "article-journal",

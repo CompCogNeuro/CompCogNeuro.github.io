@@ -1,3 +1,5 @@
+<p id="AbbottNelson00">Abbott, L.F., & Nelson, S.B. (2000). Synaptic plasticity: taming the beast. Nature Neuroscience, 3(11), 1178-1183. http://www.nature.com/articles/nn1100_1178 http://doi.org/10.1038/81453</p>
+
 <p id="AbbottVarelaSenEtAl97">Abbott, L.F., Varela, J.A., Sen, K., & Nelson, S.B. (1997). Synaptic depression and cortical gain control. Science, 275, 220. </p>
 
 <p id="AckleyHintonSejnowski85">Ackley, D.H., Hinton, G.E., & Sejnowski, T.J. (1985). A learning algorithm for Boltzmann machines. Cognitive Science, 9, 147-169. </p>
@@ -13,6 +15,8 @@
 <p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
 
 <p id="Barlow61">Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. Sensory Communication, 217-234. https://cir.nii.ac.jp/crid/1570291225093500032</p>
+
+<p id="BayerGiese25">Bayer, K.U., & Giese, K.P. (2025). A revised view of the role of CaMKII in learning and memory. Nature Neuroscience, 28, 24-34. https://www.nature.com/articles/s41593-024-01809-x http://doi.org/10.1038/s41593-024-01809-x</p>
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. https://www.sciencedirect.com/science/article/pii/0959438894901015 http://doi.org/10.1016/0959-4388(94)90101-5</p>
 
@@ -31,6 +35,8 @@
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
 <p id="Borst10">Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends in Neurosciences, 33, 259-266. http://www.sciencedirect.com/science/article/pii/S0166223610000457 http://doi.org/10.1016/j.tins.2010.03.003</p>
+
+<p id="BoschCastroSaneyoshiEtAl14">Bosch, M., Castro, J., Saneyoshi, T., Matsuno, H., Sur, M., & Hayashi, Y. (2014). Structural and Molecular Remodeling of Dendritic Spine Substructures during Long-Term Potentiation. Neuron, 82, 444-459. https://www.cell.com/neuron/abstract/S0896-6273(14)00251-7 http://doi.org/10.1016/j.neuron.2014.03.021</p>
 
 <p id="BoudreauFerster05">Boudreau, C.E., & Ferster, D. (2005). Short-Term Depression in Thalamocortical Synapses of Cat Primary Visual Cortex. Journal of Neuroscience, 25, 7179-7190. https://www.jneurosci.org/content/25/31/7179 http://doi.org/10.1523/JNEUROSCI.1445-05.2005</p>
 
@@ -148,6 +154,8 @@
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
 
+<p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
+
 <p id="JahrStevens90">Jahr, C.E., & Stevens, C.F. (1990). A quantitative description of NMDA receptor-channel kinetic behavior. Journal of Neuroscience, 10, 1830-1837. http://www.jneurosci.org/content/10/6/1830 http://doi.org/10.1523/JNEUROSCI.10-06-01830.1990</p>
 
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
@@ -157,6 +165,8 @@
 <p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
+
+<p id="KlinzingNiethardBorn19">Klinzing, J.G., Niethard, N., & Born, J. (2019). Mechanisms of systems memory consolidation during sleep. Nature Neuroscience, 22(10), 1598-1610. http://www.nature.com/articles/s41593-019-0467-3 http://doi.org/10.1038/s41593-019-0467-3</p>
 
 <p id="Kohn07">Kohn, A. (2007). Visual Adaptation: Physiology, Mechanisms, and Functional Benefits. Journal of Neurophysiology, 97, 3155-3164. http://jn.physiology.org/content/97/5/3155 http://doi.org/10.1152/jn.00086.2007</p>
 
@@ -176,11 +186,15 @@
 
 <p id="LevySteward79">Levy, W.B., & Steward, O. (1979). Synapses as associative memory elements in the hippocampal formation. Brain research, 175, 233-245. http://www.ncbi.nlm.nih.gov/pubmed/487154</p>
 
+<p id="LiMaYangEtAl17">Li, W., Ma, L., Yang, G., & Gan, W. (2017). REM sleep selectively prunes and maintains new synapses in development and learning. Nature Neuroscience, 20(3), 427-437. http://www.nature.com/articles/nn.4479 http://doi.org/10.1038/nn.4479</p>
+
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
 
 <p id="Lisman89">Lisman, J. (1989). A mechanism for the Hebb and the anti-Hebb processes underlying learning and memory. Proceedings of the National Academy of Sciences, 86, 9574-9578. https://www.pnas.org/doi/abs/10.1073/pnas.86.23.9574 http://doi.org/10.1073/pnas.86.23.9574</p>
+
+<p id="Lisman94">Lisman, J. (1994). The CaM kinase II hypothesis for the storage of synaptic memory. Trends in Neurosciences, 17, 406-412.  http://doi.org/10.1016/0166-2236(94)90014-0</p>
 
 <p id="LismanFellousWang99">Lisman, J.E., Fellous, J.M., & Wang, X.J. (1999). A role for {NMDA}-receptor channels in working memory. Nature Neuroscience, 1, 273-275. http://www.ncbi.nlm.nih.gov/pubmed/10195158</p>
 
@@ -189,6 +203,8 @@
 <p id="MarkramMullerRamaswamyEtAl15">Markram, H., Muller, E., Ramaswamy, S., Reimann, M.W., Abdellah, M., Sanchez, C.A., Ailamaki, A., Alonso-Nanclares, L., Antille, N., Arsever, S., Kahou, G.A.A., Berger, T.K., Bilgili, A., Buncic, N., Chalimourda, A., Chindemi, G., Courcol, J., Delalondre, F., Delattre, V., Druckmann, S., Dumusc, R., Dynes, J., Eilemann, S., Gal, E., Gevaert, M.E., Ghobril, J., Gidon, A., Graham, J.W., Gupta, A., Haenel, V., Hay, E., Heinis, T., Hernando, J.B., Hines, M., Kanari, L., Keller, D., Kenyon, J., Khazen, G., Kim, Y., King, J.G., Kisvarday, Z., Kumbhar, P., Lasserre, S., Le Bé, J., Magalhães, B.R.C., Merchán-Pérez, A., Meystre, J., Morrice, B.R., Muller, J., Muñoz-Céspedes, A., Muralidhar, S., Muthurasa, K., Nachbaur, D., Newton, T.H., Nolte, M., Ovcharenko, A., Palacios, J., Pastor, L., Perin, R., Ranjan, R., Riachi, I., Rodríguez, J., Riquelme, J.L., Rössert, C., Sfyrakis, K., Shi, Y., Shillcock, J.C., Silberberg, G., Silva, R., Tauheed, F., Telefont, M., Toledo-Rodriguez, M., Tränkler, T., Van Geit, W., Díaz, J.V., Walker, R., Wang, Y., Zaninetta, S.M., DeFelipe, J., Hill, S.L., Segev, I., & Schürmann, F. (2015). Reconstruction and Simulation of Neocortical Microcircuitry. Cell, 163, 456-492.  http://doi.org/10.1016/j.cell.2015.09.029</p>
 
 <p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
+
+<p id="MatsuzakiHonkuraEllis-DaviesEtAl04">Matsuzaki, M., Honkura, N., Ellis-Davies, G.C.R., & Kasai, H. (2004). Structural basis of long-term potentiation in single dendritic spines. Nature, 429, 761-766. https://www.nature.com/articles/nature02617 http://doi.org/10.1038/nature02617</p>
 
 <p id="Maylor85">Maylor, E. (1985). Facilitatory and inhibitory components of orienting in visual space. In M.I. Posner, & O.S.M. Marin (Eds.), Attention and Performance XI. Lawrence Erlbaum Associates. </p>
 
@@ -284,17 +300,25 @@
 
 <p id="Swadlow90">Swadlow, H.A. (1990). Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties. Journal of Neurophysiology, 63, 1477-1498. https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477 http://doi.org/10.1152/jn.1990.63.6.1477</p>
 
+<p id="TanakaHoriikeMatsuzakiEtAl08">Tanaka, J., Horiike, Y., Matsuzaki, M., Miyazaki, T., Ellis-Davies, G.C.R., & Kasai, H. (2008). Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines. Science, 319, 1683-1687. https://www.science.org/doi/full/10.1126/science.1152864 http://doi.org/10.1126/science.1152864</p>
+
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
 
 <p id="ThorpeDelormeVanRullen01">Thorpe, S., Delorme, A., & Van Rullen, R. (2001). Spike-based strategies for rapid processing. Neural networks, 14, 715–725. http://www.ncbi.nlm.nih.gov/pubmed/11665765</p>
+
+<p id="TononiCirelli03">Tononi, G., & Cirelli, C. (2003). Sleep and synaptic homeostasis: a hypothesis. Brain Research Bulletin, 62, 143-150. https://www.sciencedirect.com/science/article/pii/S0361923003002594 http://doi.org/10.1016/j.brainresbull.2003.09.004</p>
 
 <p id="TorradoPachecoBottorffGaoEtAl21">Torrado Pacheco, A., Bottorff, J., Gao, Y., & Turrigiano, G.G. (2021). Sleep promotes downward firing rate homeostasis. Neuron, 109, 530-544.e6. https://www.sciencedirect.com/science/article/pii/S0896627320308606 http://doi.org/10.1016/j.neuron.2020.11.001</p>
 
 <p id="Turing36">Turing, A.M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42, 230-265. https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230 http://doi.org/10.1112/plms/s2-42.1.230</p>
 
+<p id="Turrigiano08">Turrigiano, G.G. (2008). The self-tuning neuron: synaptic scaling of excitatory synapses. Cell, 135, 422-435. http://www.ncbi.nlm.nih.gov/pubmed/18984155</p>
+
 <p id="UngerleiderMishkin82">Ungerleider, L.G., & Mishkin, M. (1982). Two Cortical Visual Systems. In D.J. Ingle, M.A. Goodale, & R.J.W. Mansfield (Eds.), The Analysis of Visual Behavior (pp. 549-586). MIT Press. </p>
 
 <p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
+
+<p id="VanHarreveldFifkova75">Van Harreveld, A., & Fifkova, E. (1975). Swelling of dendritic spines in the fascia dentata after stimulation of the perforant fibers as a mechanism of post-tetanic potentiation. Experimental Neurology, 49, 736-749. https://www.sciencedirect.com/science/article/pii/0014488675900552 http://doi.org/10.1016/0014-4886(75)90055-2</p>
 
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
 
@@ -311,6 +335,10 @@
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
 
 <p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
+
+<p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
+
+<p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
 
 <p id="vonNeumann45">Neumann, J. (1945). First Draft of a Report on the EDVAC. document. </p>
 
