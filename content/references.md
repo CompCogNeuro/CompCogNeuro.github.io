@@ -22,6 +22,8 @@
 
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
 
+<p id="BhallaIyengar99">Bhalla, U.S., & Iyengar, R. (1999). Emergent properties of networks of biological signaling pathways. Science, http://www.science.org/doi/abs/10.1126/science.283.5400.381 http://doi.org/10.1126/science.283.5400.381</p>
+
 <p id="BiPoo98">Bi, G., & Poo, M. (1998). Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. The Journal of Neuroscience, 18, 10464-10472. http://www.jneurosci.org/content/18/24/10464</p>
 
 <p id="BienenstockCooperMunro82">Bienenstock, E.L., Cooper, L.N., & Munro, P.W. (1982). Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex. The Journal of Neuroscience, 2, 32-48. http://www.ncbi.nlm.nih.gov/pubmed/7054394</p>
@@ -75,6 +77,8 @@
 <p id="DestexheMainenSejnowski98">Destexhe, A., Mainen, Z.F., & Sejnowski, T.J. (1998). Kinetic models of synaptic transmission. Methods in neuronal modeling, 2, 1–25. https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf</p>
 
 <p id="DiehlCook15">Diehl, P.U., & Cook, M. (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience, 9, https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full http://doi.org/10.3389/fncom.2015.00099</p>
+
+<p id="DoiKurodaMichikawaEtAl05">Doi, T., Kuroda, S., Michikawa, T., & Kawato, M. (2005). Inositol 1,4,5-trisphosphate-dependent Ca2+ threshold dynamics detect spike timing in cerebellar purkinje cells. Journal of Neuroscience, 25, 950-961. https://www.jneurosci.org/content/25/4/950 http://doi.org/10.1523/JNEUROSCI.2727-04.2005</p>
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
@@ -159,6 +163,8 @@
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
 <p id="KrystalAnticevicYangEtAl17">Krystal, J.H., Anticevic, A., Yang, G.J., Dragoi, G., Driesen, N.R., Wang, X., & Murray, J.D. (2017). Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia: A Translational and Computational Neuroscience Perspective. Biological Psychiatry, 81, 874-885. https://www.sciencedirect.com/science/article/pii/S0006322317300367 http://doi.org/10.1016/j.biopsych.2017.01.004</p>
+
+<p id="KurodaSchweighoferKawato01">Kuroda, S., Schweighofer, N., & Kawato, M. (2001). Exploration of signal transduction pathways in cerebellar long-term depression by kinetic simulation. Journal of Neuroscience, 21, 5693-5702. https://www.jneurosci.org/content/21/15/5693 http://doi.org/10.1523/JNEUROSCI.21-15-05693.2001</p>
 
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
 

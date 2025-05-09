@@ -3,15 +3,15 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.10-0.20250429190334-2e6129cfd538
-	cogentcore.org/lab v0.1.1-0.20250502170537-c2f728058d0f
+	cogentcore.org/core v0.3.11-0.20250508012726-eb5d74adb681
+	cogentcore.org/lab v0.1.1-0.20250508152944-dd6fe1facec6
 	github.com/cogentcore/yaegi v0.0.0-20240724064145-e32a03faad56
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250502171143-5466ab6d3ff5
+	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250508153156-752aa608b33d
 	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250502170855-f1a87d89008f
 )
 
 require (
-	github.com/Bios-Marcel/wastebasket/v2 v2.0.2 // indirect
+	github.com/Bios-Marcel/wastebasket/v2 v2.0.3 // indirect
 	github.com/Masterminds/vcs v1.13.3 // indirect
 	github.com/adrg/strutil v0.3.1 // indirect
 	github.com/alecthomas/chroma/v2 v2.13.0 // indirect
@@ -21,7 +21,7 @@ require (
 	github.com/bramvdbogaerde/go-scp v1.4.0 // indirect
 	github.com/chewxy/math32 v1.10.1 // indirect
 	github.com/cogentcore/readline v0.1.3 // indirect
-	github.com/cogentcore/webgpu v0.0.0-20250118183535-3dd1436165cf // indirect
+	github.com/cogentcore/webgpu v0.0.0-20250506132018-9faea5a0f598 // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
 	github.com/ericchiang/css v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect

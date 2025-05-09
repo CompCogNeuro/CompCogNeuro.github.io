@@ -7038,6 +7038,165 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "BhallaIyengar99",
+		"citation-key": "BhallaIyengar99",
+		"language": "EN",
+		"author": [
+			{
+				"family": "Bhalla",
+				"given": "Upinder S."
+			},
+			{
+				"family": "Iyengar",
+				"given": "Ravi"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					12,
+					28
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					1,
+					15
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"archive_location": "world",
+		"container-title": "Science",
+		"DOI": "10.1126/science.283.5400.381",
+		"publisher": "American Association for the Advancement of Science",
+		"source": "www-science-org.colorado.idm.oclc.org",
+		"title": "Emergent properties of networks of biological signaling pathways",
+		"URL": "http://www.science.org/doi/abs/10.1126/science.283.5400.381"
+	},
+	{
+		"type": "article-journal",
+		"id": "KurodaSchweighoferKawato01",
+		"citation-key": "KurodaSchweighoferKawato01",
+		"language": "en",
+		"author": [
+			{
+				"family": "Kuroda",
+				"given": "Shinya"
+			},
+			{
+				"family": "Schweighofer",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Kawato",
+				"given": "Mitsuo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					8,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.21-15-05693.2001",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "15",
+		"page": "5693-5702",
+		"PMID": "11466441",
+		"publisher": "Society for Neuroscience",
+		"section": "ARTICLE",
+		"source": "www.jneurosci.org",
+		"title": "Exploration of signal transduction pathways in cerebellar long-term depression by kinetic simulation",
+		"URL": "https://www.jneurosci.org/content/21/15/5693",
+		"volume": "21"
+	},
+	{
+		"type": "article-journal",
+		"id": "DoiKurodaMichikawaEtAl05",
+		"citation-key": "DoiKurodaMichikawaEtAl05",
+		"language": "en",
+		"author": [
+			{
+				"family": "Doi",
+				"given": "Tomokazu"
+			},
+			{
+				"family": "Kuroda",
+				"given": "Shinya"
+			},
+			{
+				"family": "Michikawa",
+				"given": "Takayuki"
+			},
+			{
+				"family": "Kawato",
+				"given": "Mitsuo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					1,
+					26
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neuroscience",
+		"container-title-short": "J. Neurosci.",
+		"DOI": "10.1523/JNEUROSCI.2727-04.2005",
+		"ISSN": "0270-6474, 1529-2401",
+		"issue": "4",
+		"page": "950-961",
+		"PMID": "15673676",
+		"publisher": "Society for Neuroscience",
+		"section": "Behavioral/Systems/Cognitive",
+		"source": "www.jneurosci.org",
+		"title": "Inositol 1,4,5-trisphosphate-dependent Ca2+ threshold dynamics detect spike timing in cerebellar purkinje cells",
+		"URL": "https://www.jneurosci.org/content/25/4/950",
+		"volume": "25"
+	},
+	{
+		"type": "article-journal",
 		"id": "TorradoPachecoBottorffGaoEtAl21",
 		"citation-key": "TorradoPachecoBottorffGaoEtAl21",
 		"language": "en",
