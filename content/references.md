@@ -122,6 +122,8 @@
 
 <p id="GoodaleMilner92">Goodale, M.A., & Milner, A.D. (1992). Separate visual pathways for perception and action. Trends in Neurosciences, 15, 20-25. </p>
 
+<p id="GoodellTullisBayer21">Goodell, D.J., Tullis, J.E., & Bayer, K.U. (2021). Young DAPK1 knockout mice have altered presynaptic function. Journal of Neurophysiology, 125, 1973-1981. http://journals.physiology.org/doi/full/10.1152/jn.00055.2021 http://doi.org/10.1152/jn.00055.2021</p>
+
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
 <p id="GreeneHoshi17">Greene, D.L., & Hoshi, N. (2017). Modulation of Kv7 channels and excitability in the brain. Cellular and molecular life sciences : CMLS, 74, 495-508. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5243414/ http://doi.org/10.1007/s00018-016-2359-y</p>

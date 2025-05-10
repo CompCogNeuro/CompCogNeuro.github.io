@@ -7952,6 +7952,57 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "GoodellTullisBayer21",
+		"citation-key": "GoodellTullisBayer21",
+		"author": [
+			{
+				"family": "Goodell",
+				"given": "Dayton J."
+			},
+			{
+				"family": "Tullis",
+				"given": "Jonathan E."
+			},
+			{
+				"family": "Bayer",
+				"given": "K. Ulrich"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					23
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					1
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Journal of Neurophysiology",
+		"DOI": "10.1152/jn.00055.2021",
+		"ISSN": "0022-3077",
+		"issue": "5",
+		"page": "1973-1981",
+		"publisher": "American Physiological Society",
+		"source": "journals-physiology-org.colorado.idm.oclc.org (Atypon)",
+		"title": "Young DAPK1 knockout mice have altered presynaptic function",
+		"URL": "http://journals.physiology.org/doi/full/10.1152/jn.00055.2021",
+		"volume": "125"
+	},
+	{
+		"type": "article-journal",
 		"id": "Turing36",
 		"citation-key": "Turing36",
 		"language": "en",
