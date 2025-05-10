@@ -54,6 +54,8 @@
 
 <p id="Cardin18">Cardin, J.A. (2018). Inhibitory interneurons regulate temporal precision and correlations in cortical circuits. Trends in Neurosciences, 41, 689-700. https://www.sciencedirect.com/science/article/pii/S0166223618302078 http://doi.org/10.1016/j.tins.2018.07.015</p>
 
+<p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
+
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
 
 <p id="CohenRomeroFarahEtAl94">Cohen, J.D., Romero, R.D., Farah, M.J., & Servan-Schreiber, D. (1994). Mechanisms of Spatial Attention: The Relation of Macrostructure To Microstructure in Parietal Neglect. Journal of Cognitive Neuroscience, 6, 377–387. </p>
@@ -61,6 +63,8 @@
 <p id="CollingridgeBliss87">Collingridge, G.L., & Bliss, T.V.P. (1987). NMDA Receptors — Their Role in Long-Term Potentiation. Trends in Neurosciences, 10, 288-293. </p>
 
 <p id="CollingridgeKehlMcLennan83">Collingridge, G.L., Kehl, S.J., & McLennan, H. (1983). Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus. The Journal of physiology, 334, 33-46. http://www.ncbi.nlm.nih.gov/pubmed/6306230</p>
+
+<p id="CookBuonaratiCoultrapEtAl21">Cook, S.G., Buonarati, O.R., Coultrap, S.J., & Bayer, K.U. (2021). CaMKII holoenzyme mechanisms that govern the LTP versus LTD decision. Science Advances, https://www.science.org/doi/abs/10.1126/sciadv.abe2300 http://doi.org/10.1126/sciadv.abe2300</p>
 
 <p id="Cooper05">Cooper, S.J. (2005). Donald O. Hebb's synapse and learning rule: a history and commentary. Neuroscience & Biobehavioral Reviews, 28, 851-874. https://www.sciencedirect.com/science/article/pii/S0149763404000995 http://doi.org/10.1016/j.neubiorev.2004.09.009</p>
 
@@ -311,6 +315,8 @@
 <p id="TononiCirelli03">Tononi, G., & Cirelli, C. (2003). Sleep and synaptic homeostasis: a hypothesis. Brain Research Bulletin, 62, 143-150. https://www.sciencedirect.com/science/article/pii/S0361923003002594 http://doi.org/10.1016/j.brainresbull.2003.09.004</p>
 
 <p id="TorradoPachecoBottorffGaoEtAl21">Torrado Pacheco, A., Bottorff, J., Gao, Y., & Turrigiano, G.G. (2021). Sleep promotes downward firing rate homeostasis. Neuron, 109, 530-544.e6. https://www.sciencedirect.com/science/article/pii/S0896627320308606 http://doi.org/10.1016/j.neuron.2020.11.001</p>
+
+<p id="TullisBayer23">Tullis, J.E., & Bayer, K.U. (2023). Distinct synaptic pools of DAPK1 differentially regulate activity-dependent synaptic CaMKII accumulation. iScience, 26, https://www.cell.com/iscience/abstract/S2589-0042(23)00800-3 http://doi.org/10.1016/j.isci.2023.106723</p>
 
 <p id="Turing36">Turing, A.M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42, 230-265. https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230 http://doi.org/10.1112/plms/s2-42.1.230</p>
 
