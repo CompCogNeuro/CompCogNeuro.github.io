@@ -18,6 +18,8 @@
 
 <p id="BayerGiese25">Bayer, K.U., & Giese, K.P. (2025). A revised view of the role of CaMKII in learning and memory. Nature Neuroscience, 28, 24-34. https://www.nature.com/articles/s41593-024-01809-x http://doi.org/10.1038/s41593-024-01809-x</p>
 
+<p id="BayerSchulman19">Bayer, K.U., & Schulman, H. (2019). CaM Kinase: Still Inspiring at 40. Neuron, 103, 380-394. https://www.sciencedirect.com/science/article/pii/S0896627319304866 http://doi.org/10.1016/j.neuron.2019.05.033</p>
+
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. https://www.sciencedirect.com/science/article/pii/0959438894901015 http://doi.org/10.1016/0959-4388(94)90101-5</p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
@@ -69,6 +71,8 @@
 <p id="Cooper05">Cooper, S.J. (2005). Donald O. Hebb's synapse and learning rule: a history and commentary. Neuroscience & Biobehavioral Reviews, 28, 851-874. https://www.sciencedirect.com/science/article/pii/S0149763404000995 http://doi.org/10.1016/j.neubiorev.2004.09.009</p>
 
 <p id="CoslettSaffran91">Coslett, H.B., & Saffran, E. (1991). Simultanagnosia. To see but not two see. Brain, 114, 1523-1545. </p>
+
+<p id="CoultrapFreundOLearyEtAl14">Coultrap, S.J., Freund, R.K., O’Leary, H., Sanderson, J.L., Roche, K.W., Dell’Acqua, M.L., & Bayer, K.U. (2014). Autonomous CaMKII mediates both LTP and LTD using a mechanism for differential substrate site selection. Cell Reports, 6, 431-437. http://www.sciencedirect.com/science/article/pii/S2211124714000060 http://doi.org/10.1016/j.celrep.2014.01.005</p>
 
 <p id="Crick89">Crick, F. (1989). The recent excitement about neural networks. Nature, 337, 129-132. http://www.ncbi.nlm.nih.gov/pubmed/2911347</p>
 

@@ -11,7 +11,14 @@ Furthermore, many studies are done in the _in vitro_ preparation, using slices o
 
 There are a large number of neuromodulatory and systems-level connectivity differences between an awake, behaving brain and one that is under a state of anaesthesia. For example, in the anesthetized brain, neural activity in the [[neocortex]] is generally much more synchronous and there is typcically less overall activity. This has implications for the mechanisms of neural [[adaptation]] for example, because it turns out that ongoing neural activity in the awake, behaving state results in persistent synaptic depression, which otherwise has been widely discussed as an important functional property of different neuron types ([[@AbbottVarelaSenEtAl97]]). See the [[adaptation]] page and [[@^Borst10]] in particular for details.
 
-The extent to which different neurons exhibit nonlinear patterns of _burst firing_ is also very different in the _in vivo_ vs. _in activo_ states (cites).
-
 In general, as [[@^Borst10]] notes, the behavior of the awake brain tends to be more _linear_ overall, with less short-term plasticity and less bursting. This is the behavior that we capture in our [[Axon]] [[neuron]]s, which we verify through extensive larger-scale simulations produce the best overall computational results.
+
+## List of phenomena that do not generalize to the in activo state
+
+* [[adaptation|Synaptic depression]].
+* [[synaptic plasticity#Spike timing dependent plasticity]] (STDP).
+* Burst firing in the thalamus.
+* Burst firing in the neocortex.
+* Up and down states in the striatum.
+
 

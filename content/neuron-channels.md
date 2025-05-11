@@ -252,7 +252,7 @@ $$
 g_{kir} = \overline{g}_{kir} M(t)
 $$
 
-## VGCC: Voltage-gated calcium channels
+## VGCC
 
 Voltage gated calcium channels (VGCC) are similar to NMDA channels in that their conductance to $Ca^{++}$ has a voltage dependency, but they do _not_ have a neurotransmitter binding property, and their voltage dependency is typically at higher threshold than NMDA (and is not caused by $Mg^{++}$ block). Due to this higher threshold, the VGCC channels are typically only open during backpropagating action potentials (see [[neuron dendrites]] for details), and thus they provide a calcium signal that is closely tied to postsynaptic spiking. We leverage this property in the [[kinase algorithm]] learning rule. Because VGCCs also close very quickly once the spike is over, they do not have a big impact on activation dynamics --- they are mostly important for learning.
 

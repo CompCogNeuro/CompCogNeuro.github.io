@@ -8170,6 +8170,122 @@
 	},
 	{
 		"type": "article-journal",
+		"id": "BayerSchulman19",
+		"citation-key": "BayerSchulman19",
+		"language": "en",
+		"author": [
+			{
+				"family": "Bayer",
+				"given": "K. Ulrich"
+			},
+			{
+				"family": "Schulman",
+				"given": "Howard"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					10
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8,
+					7
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Neuron",
+		"container-title-short": "Neuron",
+		"DOI": "10.1016/j.neuron.2019.05.033",
+		"ISSN": "0896-6273",
+		"issue": "3",
+		"page": "380-394",
+		"source": "ScienceDirect",
+		"title": "CaM Kinase: Still Inspiring at 40",
+		"title-short": "CaM Kinase",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0896627319304866",
+		"volume": "103"
+	},
+	{
+		"type": "article-journal",
+		"id": "CoultrapFreundOLearyEtAl14",
+		"citation-key": "CoultrapFreundOLearyEtAl14",
+		"author": [
+			{
+				"family": "Coultrap",
+				"given": "Steven J."
+			},
+			{
+				"family": "Freund",
+				"given": "Ronald K."
+			},
+			{
+				"family": "O’Leary",
+				"given": "Heather"
+			},
+			{
+				"family": "Sanderson",
+				"given": "Jennifer L."
+			},
+			{
+				"family": "Roche",
+				"given": "Katherine W."
+			},
+			{
+				"family": "Dell’Acqua",
+				"given": "Mark L."
+			},
+			{
+				"family": "Bayer",
+				"given": "K. Ulrich"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					11,
+					14
+				]
+			]
+		},
+		"available-date": {},
+		"event-date": {},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					2,
+					13
+				]
+			]
+		},
+		"original-date": {},
+		"submitted": {},
+		"container-title": "Cell Reports",
+		"container-title-short": "Cell Reports",
+		"DOI": "10.1016/j.celrep.2014.01.005",
+		"ISSN": "2211-1247",
+		"issue": "3",
+		"page": "431-437",
+		"source": "ScienceDirect",
+		"title": "Autonomous CaMKII mediates both LTP and LTD using a mechanism for differential substrate site selection",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S2211124714000060",
+		"volume": "6"
+	},
+	{
+		"type": "article-journal",
 		"id": "Turing36",
 		"citation-key": "Turing36",
 		"language": "en",
