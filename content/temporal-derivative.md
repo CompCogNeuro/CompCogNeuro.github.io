@@ -99,12 +99,14 @@ func addSlider(label *string, val *float64, mxVal float32) {
     tx.Styler(func(s *styles.Style) {
         s.Min.X.Ch(40)  // clean rendering with variable width content
     })
-    core.Bind(label, tx)
-    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
-        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-    	updt()
-        tx.UpdateRender()
-    })
+	core.Bind(label, tx)
+	sld := core.NewSlider(b).SetMin(1).SetMax(mxVal).SetStep(1).SetEnforceStep(true)
+	sld.SendChangeOnInput()
+	sld.OnChange(func(e events.Event) {
+		updt()
+		tx.UpdateRender()
+	})
+	core.Bind(val, sld)
 }
 
 addSlider(&predStr, &pred, 100)

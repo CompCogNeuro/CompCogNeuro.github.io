@@ -6,6 +6,7 @@ import (
 	"cogentcore.org/core/content"
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/text/csl"
+	_ "cogentcore.org/core/text/tex" // include this to get math
 	_ "github.com/CompCogNeuro/CompCogNeuro.github.io/sims/yaegisims"
 )
 

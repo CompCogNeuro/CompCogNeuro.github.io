@@ -109,11 +109,13 @@ func addTauSlider(label *string, val *float64, mxVal float32) {
         s.Min.X.Ch(40)  // clean rendering with variable width content
     })
     core.Bind(label, tx)
-    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
-        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-    	updt()
-        tx.UpdateRender()
-    })
+	sld := core.NewSlider(b).SetMin(1).SetMax(mxVal).SetStep(1).SetEnforceStep(true)
+	sld.SendChangeOnInput()
+	sld.OnChange(func(e events.Event) {
+		updt()
+		tx.UpdateRender()
+	})
+    core.Bind(val, sld)
 }
 
 func addSlider(label *string, val *float64, mxVal float32) {
@@ -122,11 +124,13 @@ func addSlider(label *string, val *float64, mxVal float32) {
         s.Min.X.Ch(40)  // clean rendering with variable width content
     })
     core.Bind(label, tx)
-    core.Bind(val, core.NewSlider(b)).SetMin(0.02).SetMax(mxVal).
-        SetStep(0.02).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-    	updt()
-        tx.UpdateRender()
-    })
+	sld := core.NewSlider(b).SetMin(0.02).SetMax(mxVal).SetStep(0.02).SetEnforceStep(true)
+	sld.SendChangeOnInput()
+	sld.OnChange(func(e events.Event) {
+		updt()
+		tx.UpdateRender()
+	})
+	core.Bind(val, sld)
 }
 
 addSlider(&gbarIStr, &gbarI, 1)
@@ -367,11 +371,13 @@ func addTauSlider(label *string, val *float64, mxVal float32) {
         s.Min.X.Ch(40)  // clean rendering with variable width content
     })
     core.Bind(label, tx)
-    core.Bind(val, core.NewSlider(b)).SetMin(1).SetMax(mxVal).
-        SetStep(1).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-    	updt()
-        tx.UpdateRender()
-    })
+	sld := core.NewSlider(b).SetMin(1).SetMax(mxVal).SetStep(1).SetEnforceStep(true)
+	sld.SendChangeOnInput()
+	sld.OnChange(func(e events.Event) {
+		updt()
+		tx.UpdateRender()
+	})
+    core.Bind(val, sld)
 }
 
 func addSlider(label *string, val *float64, mxVal float32) {
@@ -380,11 +386,13 @@ func addSlider(label *string, val *float64, mxVal float32) {
         s.Min.X.Ch(40)  // clean rendering with variable width content
     })
     core.Bind(label, tx)
-    core.Bind(val, core.NewSlider(b)).SetMin(0.02).SetMax(mxVal).
-        SetStep(0.02).SetEnforceStep(true).SetChangeOnSlide(true).OnChange(func(e events.Event) {
-    	updt()
-        tx.UpdateRender()
-    })
+	sld := core.NewSlider(b).SetMin(0.02).SetMax(mxVal).SetStep(0.02).SetEnforceStep(true)
+	sld.SendChangeOnInput()
+	sld.OnChange(func(e events.Event) {
+		updt()
+		tx.UpdateRender()
+	})
+	core.Bind(val, sld)
 }
 
 addSlider(&gbarIStr, &gbarI, 1)
