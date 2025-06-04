@@ -22,6 +22,8 @@
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. https://www.sciencedirect.com/science/article/pii/0959438894901015 http://doi.org/10.1016/0959-4388(94)90101-5</p>
 
+<p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
+
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
 
 <p id="BendaMalerLongtin10">Benda, J., Maler, L., & Longtin, A. (2010). Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds. Journal of Neurophysiology, 104, 2806-2820. http://jn.physiology.org/content/104/5/2806 http://doi.org/10.1152/jn.00240.2010</p>
@@ -33,6 +35,10 @@
 <p id="BiPoo98">Bi, G., & Poo, M. (1998). Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. The Journal of Neuroscience, 18, 10464-10472. http://www.jneurosci.org/content/18/24/10464</p>
 
 <p id="BienenstockCooperMunro82">Bienenstock, E.L., Cooper, L.N., & Munro, P.W. (1982). Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex. The Journal of Neuroscience, 2, 32-48. http://www.ncbi.nlm.nih.gov/pubmed/7054394</p>
+
+<p id="BittnerGrienbergerVaidyaEtAl15">Bittner, K.C., Grienberger, C., Vaidya, S.P., Milstein, A.D., Macklin, J.J., Suh, J., Tonegawa, S., & Magee, J.C. (2015). Conjunctive input processing drives feature selectivity in hippocampal CA1 neurons. Nature Neuroscience, 18(8), 1133-1142. https://www.nature.com/articles/nn.4062 http://doi.org/10.1038/nn.4062</p>
+
+<p id="BittnerMilsteinGrienbergerEtAl17">Bittner, K.C., Milstein, A.D., Grienberger, C., Romani, S., & Magee, J.C. (2017). Behavioral time scale synaptic plasticity underlies CA1 place fields. Science, 357, 1033-1036. http://science.sciencemag.org/content/357/6355/1033 http://doi.org/10.1126/science.aan3846</p>
 
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
@@ -108,6 +114,8 @@
 
 <p id="FahlmanLebiere89">Fahlman, S., & Lebiere, C. (1989). The Cascade-Correlation Learning Architecture. In Advances in Neural Information Processing Systems. Morgan-Kaufmann. https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html</p>
 
+<p id="FanKimJenningsEtAl23">Fan, L.Z., Kim, D.K., Jennings, J.H., Tian, H., Wang, P.Y., Ramakrishnan, C., Randles, S., Sun, Y., Thadhani, E., Kim, Y.S., Quirin, S., Giocomo, L., Cohen, A.E., & Deisseroth, K. (2023). All-optical physiology resolves a synaptic basis for behavioral timescale plasticity. Cell, 186, 543-559.e19. https://www.cell.com/cell/abstract/S0092-8674(22)01578-1 http://doi.org/10.1016/j.cell.2022.12.035</p>
+
 <p id="Farah90">Farah, M.J. (1990). Visual Agnosia. MIT Press. </p>
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
@@ -123,6 +131,8 @@
 <p id="GalarretaHestrin99">Galarreta, M., & Hestrin, S. (1999). A network of fast-spiking cells in the neocortex connected by electrical synapses. Nature, 402, 72-75. https://www.nature.com/articles/47029 http://doi.org/10.1038/47029</p>
 
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
+
+<p id="GerstnerLehmannLiakoniEtAl18">Gerstner, W., Lehmann, M., Liakoni, V., Corneil, D., & Brea, J. (2018). Eligibility traces and plasticity on behavioral time scales: Experimental support of NeoHebbian three-factor learning rules. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00053/full http://doi.org/10.3389/fncir.2018.00053</p>
 
 <p id="GibsonBeierleinConnors99">Gibson, J.R., Beierlein, M., & Connors, B.W. (1999). Two networks of electrically coupled inhibitory neurons in neocortex. Nature, 402, 75-79. https://www.nature.com/articles/47035 http://doi.org/10.1038/47035</p>
 
@@ -145,6 +155,8 @@
 <p id="HausserMel03">Hausser, M., & Mel, B. (2003). Dendrites: bug or feature? Current Opinion in Neurobiology, 13, 372-383. </p>
 
 <p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
+
+<p id="HeHuertasHongEtAl15">He, K., Huertas, M., Hong, S.Z., Tie, X., Hell, J.W., Shouval, H., & Kirkwood, A. (2015). Distinct eligibility traces for LTP and LTD in cortical synapses. Neuron, 88, 528-538. https://www.sciencedirect.com/science/article/pii/S0896627315008260 http://doi.org/10.1016/j.neuron.2015.09.037</p>
 
 <p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
 
@@ -169,6 +181,8 @@
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
 <p id="JahrStevens90">Jahr, C.E., & Stevens, C.F. (1990). A quantitative description of NMDA receptor-channel kinetic behavior. Journal of Neuroscience, 10, 1830-1837. http://www.jneurosci.org/content/10/6/1830 http://doi.org/10.1523/JNEUROSCI.10-06-01830.1990</p>
+
+<p id="JainNakahataPancaniEtAl24">Jain, A., Nakahata, Y., Pancani, T., Watabe, T., Rusina, P., South, K., Adachi, K., Yan, L., Simorowski, N., Furukawa, H., & Yasuda, R. (2024). Dendritic, delayed, stochastic CaMKII activation in behavioural time scale plasticity. Nature, 635, 151-159. https://www.nature.com/articles/s41586-024-08021-8 http://doi.org/10.1038/s41586-024-08021-8</p>
 
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
 
@@ -226,7 +240,11 @@
 
 <p id="MiglioreHoffmanMageeEtAl99">Migliore, M., Hoffman, D., Magee, J., & Johnston, D. (1999). Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons. Journal of Computational Neuroscience, 7, 5-15. https://doi.org/10.1023/A:1008906225285 http://doi.org/10.1023/A:1008906225285</p>
 
+<p id="MilsteinLiBittnerEtAl21">Milstein, A.D., Li, Y., Bittner, K.C., Grienberger, C., Soltesz, I., Magee, J.C., & Romani, S. (2021). Bidirectional synaptic plasticity rapidly modifies hippocampal representations. eLife, 10, e73046. https://doi.org/10.7554/eLife.73046 http://doi.org/10.7554/eLife.73046</p>
+
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
+
+<p id="MorrisFrey97">Morris, R.G.M., & Frey, U. (1997). Hippocampal synaptic plasticity: role in spatial learning or the automatic recording of attended experience? Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 352, 1489-1503. https://royalsocietypublishing.org/doi/abs/10.1098/rstb.1997.0136 http://doi.org/10.1098/rstb.1997.0136</p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
@@ -250,6 +268,8 @@
 
 <p id="OReillyMunakataFrankEtAl12">O'Reilly, R.C., Munakata, Y., Frank, M.J., Hazy, T.E., & Contributors (2012). Computational Cognitive Neuroscience. Wiki Book, 1st Edition, URL: http://ccnbook.colorado.edu. http://ccnbook.colorado.edu</p>
 
+<p id="OReillyRanganathRussin22">O’Reilly, R.C., Ranganath, C., & Russin, J.L. (2022). The Structure of Systematicity in the Brain. Current Directions in Psychological Science, 31, 124-130. https://doi.org/10.1177/09637214211049233 http://doi.org/10.1177/09637214211049233</p>
+
 <p id="OReillyWyatteHerdEtAl13">O'Reilly, R.C., Wyatte, D., Herd, S.A., Mingus, B., & Jilk, D.J. (2013). Recurrent Processing during Object Recognition. Frontiers in Psychology, 4, http://www.ncbi.nlm.nih.gov/pubmed/23554596</p>
 
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
@@ -267,6 +287,10 @@
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
 
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
+
+<p id="RedondoMorris11">Redondo, R.L., & Morris, R.G.M. (2011). Making memories last: the synaptic tagging and capture hypothesis. Nature Reviews Neuroscience, 12, 17-30. http://www.nature.com/nrn/journal/v12/n1/abs/nrn2963.html http://doi.org/10.1038/nrn2963</p>
+
+<p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
 
@@ -347,6 +371,8 @@
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
 
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
+
+<p id="XiaoLiChitwoodEtAl23">Xiao, K., Li, Y., Chitwood, R.A., & Magee, J.C. (2023). A critical role for CaMKII in behavioral timescale synaptic plasticity in hippocampal CA1 pyramidal neurons. Science Advances, 9, eadi3088. https://www.science.org/doi/full/10.1126/sciadv.adi3088 http://doi.org/10.1126/sciadv.adi3088</p>
 
 <p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
 
