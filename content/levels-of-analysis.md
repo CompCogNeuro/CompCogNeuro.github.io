@@ -19,7 +19,7 @@ These different levels of analysis in the CCN field can be mapped onto the level
 
 * **Implementational** is the _hardware_ level of description, in terms of the actual bits of silicon that  actually implement the [[turing machine]], typically using a _Von Neumann_ architecture that underlies all modern computers.
 
-It is essential to recognize that Marr's levels depend critically on the level-spanning role of the turing machine, which provides an abstract theoretical tool that bridges between these levels. Once you have this kind of abstract theoretical mechanism that accurately describes what the underlying hardware is actually doing at the implementational level, and provides the basis for your algorithmic-level description, then everything is very straightforward from a conceptual level.
+It is essential to recognize that Marr's levels depend critically on the level-spanning role of the turing machine and Von Neumann architecture, which provide an abstract theoretical tool that bridges between these levels. Once you have this kind of abstract theoretical mechanism that accurately describes what the underlying hardware is actually doing at the implementational level, and provides the basis for your algorithmic-level description, then everything is very straightforward from a conceptual level.
 
 However, we know for certain that _the brain is not a turing machine_ at the level of neurons, although it may end up operating like one at an emergent, higher level through the interactions of multiple brain systems, and likely only in humans. Therefore, Marr's specific levels, which provide such a compelling source analogy, are not directly applicable to understanding the brain.
 

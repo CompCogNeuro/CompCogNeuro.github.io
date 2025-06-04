@@ -1,5 +1,5 @@
 +++
-Categories = ["Axon"]
+Categories = ["Axon", "Mechanisms"]
 bibfile = "ccnlab.json"
 +++
 
@@ -112,10 +112,11 @@ This type of equation is used almost everywhere in [[Axon]], and is a basic cons
 
 Chemical reactions also obey the same kind of function, governed by a tau factor that represents the speed of the chemical reaction. For example, two initial "ingredients" _A_, _B_ can be combined into a _compound_ _AB_ by a chemical reaction with a _forward_ rate constant of $K_f$:
 
-```
-      Kf
-A + B --> AB
-```
+{id="eq_chem" title="Forward chemical reaction"}
+$$
+A + B \; {K_f \atop \rightarrow} AB
+$$
+
 As the reaction proceeds, there is less of the raw ingredients available, so it naturally slows down as a function of the amount of these ingredients available, resulting in the same dynamic as [[#eq_tau]].
 
 ## Value at Tau
