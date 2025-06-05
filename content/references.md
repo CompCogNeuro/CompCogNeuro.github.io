@@ -22,6 +22,10 @@
 
 <p id="BearMalenka94">Bear, M.F., & Malenka, R.C. (1994). Synaptic plasticity: LTP and LTD. Current Opinion in Neurobiology, 4, 389-399. https://www.sciencedirect.com/science/article/pii/0959438894901015 http://doi.org/10.1016/0959-4388(94)90101-5</p>
 
+<p id="Bednar12">Bednar, J.A. (2012). Building a mechanistic model of the development and function of the primary visual cortex. Journal of physiology, Paris, 106, http://www.ncbi.nlm.nih.gov/pubmed/22343520</p>
+
+<p id="BednarMiikkulainen03">Bednar, J.A., & Miikkulainen, R. (2003). Self-organization of spatiotemporal receptive fields and laterally connected direction and orientation maps. Neurocomputing, 52, 473-480. http://www.sciencedirect.com/science/article/pii/S092523120200735X http://doi.org/10.1016/S0925-2312(02)00735-X</p>
+
 <p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
 
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
@@ -164,6 +168,8 @@
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
 
+<p id="HertzKroghPalmer91">Hertz, J., Krogh, A., & Palmer, R.G. (1991). Introduction to the Theory of Neural Computation. Addison-Wesley. </p>
+
 <p id="HestrinNicollPerkelEtAl90">Hestrin, S., Nicoll, R.A., Perkel, D.J., & Sah, P. (1990). Analysis of excitatory synaptic action in pyramidal cells using whole-cell recording from rat hippocampal slices. The Journal of Physiology, 422, 203-225. http://www.ncbi.nlm.nih.gov/pubmed/1972190</p>
 
 <p id="HintonSejnowski83">Hinton, G.E., & Sejnowski, T.J. (1983). Optimal perceptual inference. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. </p>
@@ -177,6 +183,8 @@
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
+
+<p id="HubelWiesel62">Hubel, D., & Wiesel, T.N. (1962). Receptive Fields, Binocular Interaction, and Functional Architecture in the Cat's Visual Cortex. Journal of Physiology, 160, 106-154. </p>
 
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
@@ -195,6 +203,12 @@
 <p id="KlinzingNiethardBorn19">Klinzing, J.G., Niethard, N., & Born, J. (2019). Mechanisms of systems memory consolidation during sleep. Nature Neuroscience, 22(10), 1598-1610. http://www.nature.com/articles/s41593-019-0467-3 http://doi.org/10.1038/s41593-019-0467-3</p>
 
 <p id="Kohn07">Kohn, A. (2007). Visual Adaptation: Physiology, Mechanisms, and Functional Benefits. Journal of Neurophysiology, 97, 3155-3164. http://jn.physiology.org/content/97/5/3155 http://doi.org/10.1152/jn.00086.2007</p>
+
+<p id="Kohonen77">Kohonen, T. (1977). Associative Memory: A System Theoretical Approach. Springer-Verlag. </p>
+
+<p id="Kohonen98">Kohonen, T. (1998). the Self-Organizing Map. Neurocomputing, 21, 1. </p>
+
+<p id="KohonenHari99">Kohonen, T., & Hari, R. (1999). Where the abstract feature maps of the brain might come from. Trends in neurosciences, 22, 135. http://www.ncbi.nlm.nih.gov/pubmed/10199639</p>
 
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
@@ -256,6 +270,10 @@
 
 <p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
 
+<p id="Nowlan90">Nowlan, S.J. (1990). Maximum Likelihood Competitive Learning. In D.S. Touretzky (Ed.), Advances in Neural Information Processing Systems, 2 (pp. 574-582). Morgan Kaufmann. </p>
+
+<p id="NowlanHinton93">Nowlan, S.J., & Hinton, G.E. (1993). A soft decision-directed LMS algorithm for blind equalization. IEEE Transactions on Communications, 41, 275–279. </p>
+
 <p id="OReilly20">O’Reilly, R.C. (2020). Unraveling the Mysteries of Motivation. Trends in Cognitive Sciences, http://www.sciencedirect.com/science/article/pii/S1364661320300681 http://doi.org/10.1016/j.tics.2020.03.001</p>
 
 <p id="OReilly96">O'Reilly, R.C. (1996). Biologically plausible error-driven learning using local activation differences: The generalized recirculation algorithm. Neural Computation, 8, 895-938. https://www.mitpressjournals.org/doi/abs/10.1162/neco.1996.8.5.895 http://doi.org/https://doi.org/10.1162/neco.1996.8.5.895</p>
@@ -271,6 +289,10 @@
 <p id="OReillyRanganathRussin22">O’Reilly, R.C., Ranganath, C., & Russin, J.L. (2022). The Structure of Systematicity in the Brain. Current Directions in Psychological Science, 31, 124-130. https://doi.org/10.1177/09637214211049233 http://doi.org/10.1177/09637214211049233</p>
 
 <p id="OReillyWyatteHerdEtAl13">O'Reilly, R.C., Wyatte, D., Herd, S.A., Mingus, B., & Jilk, D.J. (2013). Recurrent Processing during Object Recognition. Frontiers in Psychology, 4, http://www.ncbi.nlm.nih.gov/pubmed/23554596</p>
+
+<p id="Oja82">Oja, E. (1982). A simplified neuron model as a principal component analyzer. Journal of mathematical biology, 15, 267-273. http://www.ncbi.nlm.nih.gov/pubmed/7153672</p>
+
+<p id="Oja89">Oja, E. (1989). Neural networks, principal components, and subspaces. International Journal of Neural Systems, 1, 61-68. https://www.worldscientific.com/doi/10.1142/S0129065789000475</p>
 
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
 
@@ -309,6 +331,8 @@
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
 
 <p id="SandersBerendsMajorEtAl13">Sanders, H., Berends, M., Major, G., Goldman, M.S., & Lisman, J.E. (2013). NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability. Journal of Neuroscience, 33, 424-429. http://www.jneurosci.org/content/33/2/424 http://doi.org/10.1523/JNEUROSCI.1854-12.2013</p>
+
+<p id="Sanger89">Sanger, T.D. (1989). Optimal unsupervised learning in a single-layer linear feedforward neural network. Neural Networks, 2, 459-473. </p>
 
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
