@@ -8,10 +8,10 @@ A selected organization of the content here can be used as a textbook for teachi
 
 You can read the following pages in order to obtain a sensible progression of information:
 
-1. [[Computational Cognitive Neuroscience]]: Overview of the field and approach.
-2. [[Neuron]], [[Neuron Detector]], and [[Neuron sim]]: Neurons and what they do.
-3. [[Neocortex]], [[Categorization]], [[Bidirectional connectivity]], [[Inhibition]]: Networks of neurons.
-4. Learning.
+1. Overview of the field and approach: [[Computational Cognitive Neuroscience]].
+2. Neurons and what they do: [[neuron]], [[neuron detector]], and [[neuron sim]].
+3. Networks of neurons: [[neocortex]], [[categorization]], [[bidirectional connectivity]], [[inhibition]].
+4. Learning: [[synaptic plasticity]], [[temporal derivative]], [[kinase algorithm]].
 5. Brain structure
 6. Perception
 7. Memory

@@ -3,9 +3,9 @@ Categories = ["Learning"]
 bibfile = "ccnlab.json"
 +++
 
-**Error backpropagation** ("backprop") is a relatively straightforward mathematical procedure for performing [[error driven learning]], derived directly from the _chain rule_ of basic calculus. It starts with an _objective function_ that defines how to compute the _error_. To determine how to update [[synaptic weights]] to minimize this error, the first-order _partial derivative_ of the objective function with respect to a given weight value can be computed using the chain rule, which thereby defines the **error gradient**. The synaptic weights are iteratively updated along the direction of this gradient. Many different techniques can be used to implement this error minimization procedure, including using higher-order derivatives.
+**Error backpropagation** ("backprop") is a relatively straightforward mathematical procedure for performing [[error driven learning]], derived directly from the _chain rule_ of basic calculus. It starts with an _objective function_ that defines how to compute the _error_. To determine how to update synaptic weights to minimize this error, the first-order _partial derivative_ of the objective function with respect to a given weight value can be computed using the chain rule, which thereby defines the **error gradient**. The synaptic weights are iteratively updated along the direction of this gradient. Many different techniques can be used to implement this error minimization procedure, including using higher-order derivatives.
 
-The current generation of software tools used in [[abstract neural network]] models have the ability to automatically compute these error gradients directly from the chain of equations used in a model, which greatly simplifies the process of constructing complex novel models, and has been a major contributor to the explosive growth of research and progress in this field. For example, the widely-used [PyTorch](https://pytorch.org/) framework has [Autograd](https://docs.pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html). Before the advent of such tools, people used to just manually perform the relevant calculus and program in the resulting equations.
+The current generation of software tools used in [[abstract neural network]] models have the ability to automatically compute these error gradients directly from the chain of equations used in a model, which greatly simplifies the process of constructing complex novel models, and has been a major contributor to the explosive growth of research and progress in this field. For example, the widely-used [PyTorch](https://pytorch.org/) framework has [Autograd](https://docs.pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html). Before the advent of such tools, people used to manually perform the relevant calculus and program in the resulting equations.
 
 Consistent with its basis in fundamental principles of calculus and function optimization, backprop has been "invented" by a number of people over the years, including [[@^WidrowHoff60]] and [[@^Werbos74]]. However, [[@^RumelhartHintonWilliams86]] were the _last_ to invent it, which means they were the most successful in articulating and demonstrating the important properties of this learning procedure in the context of a comprehensive overall framework for modeling neurally inspired learning ([[@RumelhartMcClelland86]]; [[@McClellandRumelhart86]]). All of the widely used modern [[abstract neural network]] models today are based primarily on backprop, including [[large language model]]s (LLMs), providing a clear demonstration of the computational power of this technique, and of [[error-driven learning]] more broadly.
 
@@ -112,7 +112,7 @@ $$
 \delta_j = \left( \sum_k \delta_k w_{jk} \right) y'
 $$
 
-This form clearly shows the simpler recursive nature of the computation, which involves propagating the "delta" value _backward_ across the weights, in the opposite direction that the activation typically flows in the "feedforward" direction. This is the essence of _backpropagation_.
+This form clearly shows the simpler recursive nature of the computation, which involves propagating the "delta" value _backward_ across the weights, in the opposite direction that the activation typically flows in the "feedforward" direction. This is the essence of _backpropagation_. The need for different equations going in the feedforward vs. feedback direction contrasts with the [[temporal derivative]] mechanism used in [[Axon]] and the [[kinase algorithm]].
 
 The resulting learning rule in these terms is thus simply:
 
@@ -123,7 +123,7 @@ $$
 
 ## Delta rule
 
-If we focus on the synapses from the Hidden layer to the Output layer, or consider a simpler two-layer version of the network that just goes straight from Input to Output without a Hidden layer (i.e., a _Perceptron_; [[@Rosenblatt62]]; [[@MinskyPapert69]]), the chain rule is shorter and you end up with an equation known as the _delta rule_, which is mathematically equivalent to the _Rescorla-Wagner_ learning rule for [[reinforcement learning]] ([[@RescorlaWagner72]]).
+If we focus on the synapses from the Hidden layer to the Output layer, or consider a simpler two-layer version of the network that just goes straight from Input to Output without a Hidden layer (i.e., a _Perceptron_; [[@Rosenblatt62]]; [[@MinskyPapert69]]), the chain rule is shorter and you end up with an equation known as the _delta rule_, which is mathematically equivalent to the _Rescorla-Wagner_ learning rule for [[reinforcement learning]] ([[@RescorlaWagner72]]; see also [[@WidrowHoff60]] and [[@SuttonBarto81]]).
 
 Here is a simple form of the delta rule for an output unit with activation _y_ receiving from an input unit with activation _x_, with weighted synapse value _w_:
 

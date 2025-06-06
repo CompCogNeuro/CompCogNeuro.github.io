@@ -3,17 +3,40 @@ Categories = ["Axon", "Learning"]
 bibfile = "ccnlab.json"
 +++
 
-The **temporal derivative** is the central mechanism for [[error driven learning]] in [[axon]], via the [[kinase algorithm]]. It computes a _difference_ or _change_ (i.e., _derivative_) over _time_, instead of more standard differences computed between different state variables (e.g., top-down vs. bottom-up signals, conveyed by different anatomical pathways). A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
+The **temporal derivative** is the _change_ over _time_ in the activity states of neurons, and it is the central mechanism for [[error-driven learning]] in [[Axon]], via the [[kinase algorithm]], building on the mathematical framework of [[GeneRec]]. In the [[predictive learning]] context, time can be discretized into two distinct phases (as originally developed in the [[Boltzmann machine]]):
 
-Thus, a temporal derivative is a very robust, general-purpose mechanism of the sort that one might be particularly suited to the messy, organic world of biology.
+{id="figure_minus-plus"  style="height:20em"}
+![Temporal derivative learning is based on the change over time in neural activity states, e.g., as discreteized into an initial Minus phase where the network is making a prediction, and a subsequent Plus phase where the actual outcome is experienced. Synapses everywhere can learn on this temporal difference, without requiring a separate structural pathway to convey the error, and error signals can arise from anywhere in a bidirectionally-connected network, which are key advantages of using these differences over time.](media/fig_minus_plus_phase_err.png)
+
+* The **Minus phase** is when the network is generating a **prediction**.
+* The **Plus phase** is when the network is experiencing the actual **outcome** (what actually happened).
+
+The temporal derivative is the _difference_ between these two phases, i.e., the **prediction error**, and every neuron in the network learns as a function of this difference:
+
+* Learning $\propto$ (Plus - Minus)
+
+In simple equation form, the change in synaptic weight $w$ is a function of the phase-wise difference in activity state $y$ between the plus phase ($y^+$) and minus phase ($y^-$):
+
+{id="eq_td" title="Temporal difference learning"}
+$$
+\Delta w \propto y^+ - y^-
+$$
+
+By contrast, in standard [[error backpropagation]] learning, error signals are propagated via _sturcturally separate_ pathways, using distinct equations from those governing activation propagation, which is the primary source of biological implausibility.
+
+A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
+
+Thus, a temporal derivative is a very robust, general-purpose mechanism of the sort that one might be particularly suited to the messy, organic world of biology. Indeed, initial empirical support for this mechanism is reported in [[Jiang et al 2025]]. Outside of the [[neocortex]], the [[TD]] (temporal differences) algorithm for [[reinforcement learning]] shares the same temporal prediction error framework but maps onto very different neural substrates, in the form of [[dopamine]].
+
+## Local computation of the temporal derivative
 
 Another appealing property of the temporal derivative is that it can be computed _locally_ at each neuron and synapse, through a _competition between two chemical processes with different [[time constant]]s_. Specifically, if you subtract a _slower_ process from a _faster_ one, then this automatically computes a temporal derivative. 
 
-This is illustrated in the following simple simulation, which shows the response to a "driver" input that drives the fast and slow chemical processes (see [[time constant]] for a detailed explanation of the exponential updating used here). In the brain, this driver is neural activity in the form of pre and post-synaptic spiking, which is integrated by a series of chemical pathways driven mainly by the influx of _Calcium_ ions (see the [[kinase algorithm]] for details).
+This is illustrated in the following simple simulation, which shows the response to a "driver" input that drives the fast and slow chemical processes (see [[time constant]] for a detailed explanation of the exponential updating used here). In the brain, this driver is neural activity in the form of pre and post-synaptic spiking, which is integrated by a series of chemical pathways driven mainly by the influx of _Calcium_ ions (see [[synaptic plasticity]] and the [[kinase algorithm]] for details).
 
-The driver input changes over time in a manner consistent with [[predictive learning]]: there is an initial _prediction_ value, and then a subsequent _outcome_ value. Think of the prediction as the local neural activity associated with the brain state present when generating a prediction of what will happen next, and the outcome as this local activity when experiencing the actual outcome, immediately after making the prediction.
+The driver input changes over time in a manner consistent with [[predictive learning]]: there is an initial _prediction_ value, and then a subsequent _outcome_ value ([[#figure_minus-plus]]). The prediction is the local neural activity associated with the brain state present when generating a prediction of what will happen next, and the outcome is this local activity when experiencing the actual outcome, immediately after making the prediction.
 
-The key result is the difference between the fast and slow traces _at the end of the time window_ when the sequence of prediction-then-outcome has completed. If this difference is positive, that reflects a positive-valued error gradient, and synaptic weights should correspondingly increase (known as **LTP** in the [[synaptic plasticity]] literature). Likewise, if it is negative, the synaptic weights should decrease (**LTD**).
+The prediction error is represented by the difference between the fast and slow traces _at the end of the time window_ when the sequence of prediction-then-outcome has completed. If this difference is positive, that reflects a positive-valued error gradient, and synaptic weights should correspondingly increase (known as **LTP** in the [[synaptic plasticity]] literature). Likewise, if it is negative, the synaptic weights should decrease (**LTD**).
 
 {id="sim_td" title="Temporal Derivative from Fast - Slow" collapsed="true"}
 ```Goal
@@ -133,4 +156,10 @@ Some things you can try:
 * There are important constraints on the `Tau` factors too. For example, with `Prediction` and `Outcome` both at 50, increase `Slow Tau` up to 35. You can see that the weight change is positive now, even though there is no prediction error, just because the Slow factor is too slow to catch up at the end. This means that the local chemical rate constants that produce these `Tau` factors must be properly tuned for the actual temporal dynamics of the network-level error signals. Although this might be considered biologically implausible, in fact there is strong evidence of prominent [[oscillatory-rhythms]] in the brain at different characteristic frequencies, including the [[alpha cycle]] at roughly 10Hz and the [[theta cycle]] at roughly 5Hz. These rhythms have been shown to strongly influence learning, in a manner consistent with this simple model and the [[kinase algorithm]] more generally.
 
 In summary, [[#sim_td]] based on the competition between two simple exponential integration equations ([[#eq_fast-slow]]) demonstrates that a locally computed temporal derivative can drive synaptic changes in a manner consistent with an error signal that emerges over time.
+
+## When is the temporal derivative computed?
+
+A critical issue with this temporal derivative framework is that the accurate computation of a prediction error signal must happen at a specific point it time relative to the onset of the actual outcome, which you can see in the above example in terms of the effects of the different time constants. The precise timing of the prediction signals is less critical, because any neural activity that precedes the outcome can be considered a prediction, and the cumulative effects of the learning will cause these prior activity states to become a prediction in any case.
+
+The [[kinase algorithm]] provides an answer to this key question (TODO: summary here!).
 
