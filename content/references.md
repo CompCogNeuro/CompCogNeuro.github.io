@@ -188,6 +188,8 @@
 
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
+<p id="IsaacsonScanziani11">Isaacson, J.S., & Scanziani, M. (2011). How inhibition shapes cortical activity. Neuron, 72, 231-243. https://www.sciencedirect.com/science/article/pii/S0896627311008798 http://doi.org/10.1016/j.neuron.2011.09.027</p>
+
 <p id="JahrStevens90">Jahr, C.E., & Stevens, C.F. (1990). A quantitative description of NMDA receptor-channel kinetic behavior. Journal of Neuroscience, 10, 1830-1837. http://www.jneurosci.org/content/10/6/1830 http://doi.org/10.1523/JNEUROSCI.10-06-01830.1990</p>
 
 <p id="JainNakahataPancaniEtAl24">Jain, A., Nakahata, Y., Pancani, T., Watabe, T., Rusina, P., South, K., Adachi, K., Yan, L., Simorowski, N., Furukawa, H., & Yasuda, R. (2024). Dendritic, delayed, stochastic CaMKII activation in behavioural time scale plasticity. Nature, 635, 151-159. https://www.nature.com/articles/s41586-024-08021-8 http://doi.org/10.1038/s41586-024-08021-8</p>
@@ -199,6 +201,8 @@
 <p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
+
+<p id="KirkwoodRioultBear96">Kirkwood, A., Rioult, M.G., & Bear, M.F. (1996). Experience-Dependent Modification of Synaptic Plasticity in Visual Cortex. Nature, 381, 526–528. http://www.ncbi.nlm.nih.gov/pubmed/8632826</p>
 
 <p id="KlinzingNiethardBorn19">Klinzing, J.G., Niethard, N., & Born, J. (2019). Mechanisms of systems memory consolidation during sleep. Nature Neuroscience, 22(10), 1598-1610. http://www.nature.com/articles/s41593-019-0467-3 http://doi.org/10.1038/s41593-019-0467-3</p>
 
@@ -294,6 +298,8 @@
 
 <p id="Oja89">Oja, E. (1989). Neural networks, principal components, and subspaces. International Journal of Neural Systems, 1, 61-68. https://www.worldscientific.com/doi/10.1142/S0129065789000475</p>
 
+<p id="OkunLampl08">Okun, M., & Lampl, I. (2008). Instantaneous correlation of excitation and inhibition during ongoing and sensory-evoked activities. Nature Neuroscience, 11, 535-537. https://www.nature.com/articles/nn.2105 http://doi.org/10.1038/nn.2105</p>
+
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
@@ -317,6 +323,8 @@
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
 
 <p id="Rosenblatt62">Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan. </p>
+
+<p id="RubinAbbottSompolinsky17">Rubin, R., Abbott, L.F., & Sompolinsky, H. (2017). Balanced excitation and inhibition are required for high-capacity, noise-robust neuronal selectivity. Proceedings of the National Academy of Sciences, 114, E9366-E9375. https://www.pnas.org/doi/abs/10.1073/pnas.1705841114 http://doi.org/10.1073/pnas.1705841114</p>
 
 <p id="RudyFishellLeeEtAl11">Rudy, B., Fishell, G., Lee, S., & Hjerling-Leffler, J. (2011). Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons. Developmental Neurobiology, 71, 45-61. http://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.20853 http://doi.org/10.1002/dneu.20853</p>
 
@@ -345,6 +353,8 @@
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
 
 <p id="ShadlenNewsome94">Shadlen, M.N., & Newsome, W.T. (1994). Noise, neural codes and cortical organization. Current opinion in neurobiology, 4, 569-579. http://www.ncbi.nlm.nih.gov/pubmed/7812147</p>
+
+<p id="ShadlenNewsome98">Shadlen, M.N., & Newsome, W.T. (1998). The variable discharge of cortical neurons: implications for connectivity, computation, and information coding. The Journal of neuroscience : the official journal of the Society for Neuroscience, 18, 3870. http://www.ncbi.nlm.nih.gov/pubmed/9570816</p>
 
 <p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
 

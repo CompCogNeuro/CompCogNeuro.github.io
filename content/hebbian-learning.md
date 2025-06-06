@@ -64,10 +64,19 @@ The _competitive learning_ model of [[@^RumelhartZipser85]] and subsequent _soft
 
 The models of [[@^BednarMiikkulainen03]] and [[@^Bednar12]] provide a more biologically-detailed model of this self-organizing learning process as applied to primary visual cortex (see [[V1 self organizing sim]] for a related model).
 
-{id="figure_bcm" style="height:10em"}
-![The shape of the BCM learning function.](media/fig_bcm_function.png)
+## BCM
 
-The _BCM_ ([[@BienenstockCooperMunro82]]) version of Hebbian self-organizing learning uses a different approach to accomplish a similar effect as direct inhibitory competition. Specifically, it uses a _homeostatic_ mechanism that keeps each receiving neuron at a consistent overall level of activity, by using a dynamic _floating threshold_ that shifts the balance between weight decreases (LTD) and weight increases (LTP) ([[#figure_bcm]]]). When a neuron's activity is relatively high, then there is more LTD than LTP, thus driving the activity downward, and vice-versa for lower levels of activity.
+{id="figure_bcm" style="height:10em"}
+![The BCM learning function, which is consistent with the empirical relationship between intracellular Ca++ and sign of synaptic plasticity changes: LTD for elevated but moderate, and LTP above a higher threshold. In BCM, the threshold between LTD and LTP changes as a function of the receiving neuron activity y, producing a homeostatic (negative feedback) dynamic that keeps activity within reasonable ranges.](media/fig_bcm_function.png)
+
+The _BCM_ ([[@BienenstockCooperMunro82]]) version of Hebbian self-organizing learning uses a different approach to accomplish a similar effect as direct inhibitory competition. Specifically, it uses a _homeostatic_ mechanism that keeps each receiving neuron at a consistent average level of activity, by using a dynamic _floating threshold_ that shifts the balance between weight decreases (LTD) and weight increases (LTP) as a function of receiving neuron average activity ([[#figure_bcm]]]). When a neuron's activity is relatively high, then there is more LTD than LTP, thus driving the activity downward, and vice-versa for lower levels of activity.
+
+{id="figure_bcm-dark" style="height:20em"}
+![Synaptic plasticity data from dark reared (filled circles) and normally-reared (open circles) rats, showing that dark reared rats appear to have a lower threshold for LTP, consistent with the BCM floating threshold. Neurons in these animals are presumably much less active overall, and thus their threshold moves down, making them more likely to exhibit LTP relative to LTD. Reproduced from Kirkwood, Rioult, & Bear (1996).](media/fig_kirkwood_et_al_96_bcm_thresh.png)
+
+When seeded with random initial weights, this homeostatic mechanism causes individual neurons to specialize on specific subsets of the input space, just as the direct inhibitory competition does in the above algorithms. It is clear that direct pooled [[inhibition]] plays a major role in shaping activity in the [[neocortex]], but there is also evidence for homeostatic-like mechanisms as well. For example, [[#figure_bcm-dark]] shows that the relative threshold for LTP vs LTD does shift as a function of overall activity ([[@KirkwoodRioultBear96]]).
+
+In the Axon algorithm, we use a version of the sleep-based synaptic reorganization mechanism described by [[@^TorradoPachecoBottorffGaoEtAl21]], which rescales synaptic weights learned during the day according to individualized target average activation levels for each neuron (see [[kinase algorithm#Slow weights]]). This has homeostatic properties similar to the BCM algorithm, and is critical for preventing individual neurons from "hogging" the representational space. The [[Leabra]] algorithm uses a version of the BCM algorithm to accomplish this function, and to drive the regularizing effects of Hebbian learning.
 
 ## Hebbian learns correlations
 
@@ -228,7 +237,5 @@ $$
 
 at which point it becomes clear that this fraction of the joint probability over the probability of the receiver is just the definition of the conditional probability of the sender given the receiver.
 
-Although CPCA is effective and well-defined mathematically, it suffers from one major problem: it drives significant LTD (weight decrease) when a sending neuron is _not_ active, and the receiving unit is active. This results in a significant amount of interference in learning across time, and is inconsistent with the need for postsynaptic neural activity to allow Ca++ to enter and drive [[synaptic plasticity]].
-
-
+Although CPCA is effective and well-defined mathematically, it suffers from one major problem: it drives significant LTD (weight decrease) when a sending neuron is _not_ active, and the receiving unit is active. This results in a significant amount of interference in learning across time, and is inconsistent with the need for postsynaptic neural activity to allow Ca++ to enter and drive [[synaptic plasticity]].  For this and other reasons, the [[Leabra]] algorithm now uses a version of the [[#BCM]] algorithm for Hebbian learning; BCM does not drive any plasticity when the receiving neuron is inactive.
 
