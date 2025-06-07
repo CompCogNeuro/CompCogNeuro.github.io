@@ -26,7 +26,7 @@ By contrast, in standard [[error backpropagation]] learning, error signals are p
 
 A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
 
-Thus, a temporal derivative is a very robust, general-purpose mechanism of the sort that one might be particularly suited to the messy, organic world of biology. Indeed, initial empirical support for this mechanism is reported in [[Jiang et al 2025]]. Outside of the [[neocortex]], the [[TD]] (temporal differences) algorithm for [[reinforcement learning]] shares the same temporal prediction error framework but maps onto very different neural substrates, in the form of [[dopamine]].
+Thus, a temporal derivative is a very robust, general-purpose mechanism of the sort that one might be particularly suited to the messy, organic world of biology. Indeed, initial empirical support for this mechanism is reported in [[Jiang et al 2025]]. Outside of the [[neocortex]], the [[TD]] (_temporal differences_) algorithm for [[reinforcement learning]] shares the same temporal prediction error framework but maps onto very different neural substrates, in the form of [[dopamine]].
 
 ## Local computation of the temporal derivative
 

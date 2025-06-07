@@ -6,6 +6,8 @@
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
 
+<p id="Almeida87">Almeida, L.B. (1987). A Learning Rule for Asynchronous Perceptrons with Feedback in a Combinatorial Environment. In M. Caudil, & C. Butler (Eds.), Proceedings of the IEEE First International Conference on Neural Networks San Diego, CA (pp. 609-618). </p>
+
 <p id="AngelucciBressloff06">Angelucci, A., & Bressloff, P.C. (2006). Contribution of feedforward, lateral and feedback connections to the classical receptive field center and extra-classical receptive field surround of primate V1 neurons. In S.L.M. S. Martinez-Conde (Ed.), Progress in Brain Research (pp. 93-120). Elsevier. http://www.sciencedirect.com/science/article/pii/S0079612306540051 http://doi.org/10.1016/S0079-6123(06)54005-1</p>
 
 <p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
@@ -15,6 +17,8 @@
 <p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
 
 <p id="Barlow61">Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. Sensory Communication, 217-234. https://cir.nii.ac.jp/crid/1570291225093500032</p>
+
+<p id="BartoSuttonAnderson83">Barto, A.G., Sutton, R.S., & Anderson, C.W. (1983). Neuronlike adaptive elements that can solve difficult learning control problems. IEEE transactions on Systems, Man, & Cybernetics, 13, 834-846. </p>
 
 <p id="BayerGiese25">Bayer, K.U., & Giese, K.P. (2025). A revised view of the role of CaMKII in learning and memory. Nature Neuroscience, 28, 24-34. https://www.nature.com/articles/s41593-024-01809-x http://doi.org/10.1038/s41593-024-01809-x</p>
 
@@ -134,6 +138,12 @@
 
 <p id="GalarretaHestrin99">Galarreta, M., & Hestrin, S. (1999). A network of fast-spiking cells in the neocortex connected by electrical synapses. Nature, 402, 72-75. https://www.nature.com/articles/47029 http://doi.org/10.1038/47029</p>
 
+<p id="Galland93">Galland, C.C. (1993). The Limitations of Deterministic Boltzmann Machine Learning. Network: Computation in Neural Systems, 4, 355-379. </p>
+
+<p id="GallandHinton90">Galland, C.C., & Hinton, G.E. (1990). Discovering High Order Features with Mean Field Modules. In D.S. Touretzky (Ed.), Advances in Neural Information Processing Systems, 2. Morgan Kaufmann. </p>
+
+<p id="GallandHinton91">Galland, C.C., & Hinton, G.E. (1991). Deterministic Boltzmann Learning in Networks with Asymmetric Connectivity. In D.S. Touretzky, J.L. Elman, T.J. Sejnowski, & G.E. Hinton (Eds.), Connectionist Models: Proceedings of the 1990 Summer School (pp. 3-9). Morgan Kaufmann. </p>
+
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
 
 <p id="GerstnerLehmannLiakoniEtAl18">Gerstner, W., Lehmann, M., Liakoni, V., Corneil, D., & Brea, J. (2018). Eligibility traces and plasticity on behavioral time scales: Experimental support of NeoHebbian three-factor learning rules. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00053/full http://doi.org/10.3389/fncir.2018.00053</p>
@@ -160,6 +170,8 @@
 
 <p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
 
+<p id="HazyFrankOReilly10">Hazy, T.E., Frank, M.J., & O'Reilly, R.C. (2010). Neural mechanisms of acquired phasic dopamine responses in learning. Neuroscience and Biobehavioral Reviews, 34, 701-720. http://www.ncbi.nlm.nih.gov/pubmed/19944716</p>
+
 <p id="HeHuertasHongEtAl15">He, K., Huertas, M., Hong, S.Z., Tie, X., Hell, J.W., Shouval, H., & Kirkwood, A. (2015). Distinct eligibility traces for LTP and LTD in cortical synapses. Neuron, 88, 528-538. https://www.sciencedirect.com/science/article/pii/S0896627315008260 http://doi.org/10.1016/j.neuron.2015.09.037</p>
 
 <p id="HeZhangRenEtAl15">He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep residual learning for image recognition. arXiv:1512.03385 [cs], http://arxiv.org/abs/1512.03385</p>
@@ -183,6 +195,8 @@
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
 <p id="Hopfield84">Hopfield, J.J. (1984). Neurons with graded response have collective computational properties like those of two-state neurons. Proceedings of the National Academy of Sciences USA, 81, 3088-3092. http://www.ncbi.nlm.nih.gov/pubmed/6587342</p>
+
+<p id="Hopfield95">Hopfield, J.J. (1995). Pattern recognition computation using action potential timing for stimulus representation. Nature, 376, 33. http://www.ncbi.nlm.nih.gov/pubmed/7596429</p>
 
 <p id="HubelWiesel62">Hubel, D., & Wiesel, T.N. (1962). Receptive Fields, Binocular Interaction, and Functional Architecture in the Cat's Visual Cortex. Journal of Physiology, 160, 106-154. </p>
 
@@ -232,9 +246,13 @@
 
 <p id="LiMaYangEtAl17">Li, W., Ma, L., Yang, G., & Gan, W. (2017). REM sleep selectively prunes and maintains new synapses in development and learning. Nature Neuroscience, 20(3), 427-437. http://www.nature.com/articles/nn.4479 http://doi.org/10.1038/nn.4479</p>
 
+<p id="LiaoXiongFetayaEtAl18">Liao, R., Xiong, Y., Fetaya, E., Zhang, L., Yoon, K., Pitkow, X., Urtasun, R., & Zemel, R. (2018). Reviving and Improving Recurrent Back-Propagation. In International Conference on Machine Learning (pp. 3082-3091). PMLR. http://proceedings.mlr.press/v80/liao18c.html</p>
+
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
+
+<p id="LinsleyAshokGovindarajanEtAl20">Linsley, D., Ashok, A.K., Govindarajan, L.N., Liu, R., & Serre, T. (2020). Stable and expressive recurrent vision models. arXiv:2005.11362 [cs], http://arxiv.org/abs/2005.11362</p>
 
 <p id="Lisman89">Lisman, J. (1989). A mechanism for the Hebb and the anti-Hebb processes underlying learning and memory. Proceedings of the National Academy of Sciences, 86, 9574-9578. https://www.pnas.org/doi/abs/10.1073/pnas.86.23.9574 http://doi.org/10.1073/pnas.86.23.9574</p>
 
@@ -262,6 +280,10 @@
 
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
+<p id="MollickHazyKruegerEtAl20">Mollick, J.A., Hazy, T.E., Krueger, K.A., Nair, A., Mackie, P., Herd, S.A., & O'Reilly, R.C. (2020). A systems-neuroscience model of phasic dopamine. Psychological Review, 127, 972-1021.  http://doi.org/10.1037/rev0000199</p>
+
+<p id="MontagueDayanSejnowski96">Montague, P.R., Dayan, P., & Sejnowski, T.J. (1996). A framework for mesencephalic dopamine systems based on predictive Hebbian learning. Journal of Neuroscience, 16, 1936-1947. http://www.ncbi.nlm.nih.gov/pubmed/8774460</p>
+
 <p id="MorrisFrey97">Morris, R.G.M., & Frey, U. (1997). Hippocampal synaptic plasticity: role in spatial learning or the automatic recording of attended experience? Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 352, 1489-1503. https://royalsocietypublishing.org/doi/abs/10.1098/rstb.1997.0136 http://doi.org/10.1098/rstb.1997.0136</p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
@@ -284,6 +306,8 @@
 
 <p id="OReilly96a">O'Reilly, R.C. (1996). The Leabra Model of Neural Interactions and Learning in the Neocortex. [unpublished Ph.D. Thesis, Carnegie Mellon University]. </p>
 
+<p id="OReillyFrankHazyEtAl07">O'Reilly, R.C., Frank, M.J., Hazy, T.E., & Watz, B. (2007). PVLV: The primary value and learned value Pavlovian learning algorithm. Behavioral Neuroscience, 121, 31-49. http://www.ncbi.nlm.nih.gov/pubmed/17324049</p>
+
 <p id="OReillyHazyMollickEtAl14">O'Reilly, R.C., Hazy, T.E., Mollick, J., Mackie, P., & Herd, S.A. (2014). Goal-driven cognition in the brain: A computational framework. arXiv:1404.7591 [q-bio], http://arxiv.org/abs/1404.7591</p>
 
 <p id="OReillyMunakata00">O'Reilly, R.C., & Munakata, Y. (2000). Computational Explorations in Cognitive Neuroscience: Understanding the Mind by Simulating the Brain. MIT Press. </p>
@@ -304,6 +328,8 @@
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
+<p id="Pineda88">Pineda, F.J. (1988). Dynamics and Architecture for Neural Computation. Journal of Complexity, 4, 216-245. </p>
+
 <p id="PoiraziBrannonMel03">Poirazi, P., Brannon, T., & Mel, B.W. (2003). Arithmetic of Subthreshold Synaptic Summation in a Model CA1 Pyramidal Cell. Neuron, 37, 977-987. https://www.sciencedirect.com/science/article/pii/S089662730300148X http://doi.org/10.1016/S0896-6273(03)00148-X</p>
 
 <p id="PoiraziPapoutsi20">Poirazi, P., & Papoutsi, A. (2020). Illuminating dendritic function with computational models. Nature Reviews Neuroscience, 21(6), 303-321. http://www.nature.com/articles/s41583-020-0301-7 http://doi.org/10.1038/s41583-020-0301-7</p>
@@ -312,11 +338,15 @@
 
 <p id="PosnerWalkerFriedrichEtAl84">Posner, M.I., Walker, J.A., Friedrich, F.J., & Rafal, R.D. (1984). Effects of Parietal Lobe Injury on Covert Orienting of Visual Attention. Journal of Neuroscience, 4, 1863-1874. </p>
 
+<p id="PressFlanneryTeukolskyEtAl88">Press, W.H., Flannery, B.P., Teukolsky, S.A., & Vetterling, W.T. (1988). Numerical Recipies In C: The Art of Scientific Computing. Cambridge University Press. </p>
+
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
 
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
 
 <p id="RedondoMorris11">Redondo, R.L., & Morris, R.G.M. (2011). Making memories last: the synaptic tagging and capture hypothesis. Nature Reviews Neuroscience, 12, 17-30. http://www.nature.com/nrn/journal/v12/n1/abs/nrn2963.html http://doi.org/10.1038/nrn2963</p>
+
+<p id="RescorlaWagner72">Rescorla, R.A., & Wagner, A.R. (1972). A theory of Pavlovian conditioning: Variation in the effectiveness of reinforcement and non-reinforcement. In A.H. Black, & W.F. Prokasy (Eds.), Classical Conditioning II: Theory and Research (pp. 64-99). Appleton-Century-Crofts. </p>
 
 <p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
 
@@ -336,6 +366,8 @@
 
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
+<p id="Samuel59">Samuel, A.L. (1959). Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3, 210-229. https://ieeexplore.ieee.org/abstract/document/5392560 http://doi.org/10.1147/rd.33.0210</p>
+
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
 
 <p id="SandersBerendsMajorEtAl13">Sanders, H., Berends, M., Major, G., Goldman, M.S., & Lisman, J.E. (2013). NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability. Journal of Neuroscience, 33, 424-429. http://www.jneurosci.org/content/33/2/424 http://doi.org/10.1523/JNEUROSCI.1854-12.2013</p>
@@ -349,6 +381,8 @@
 <p id="SchneiderShiffrin77">Schneider, W., & Shiffrin, R.M. (1977). Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention. Psychological Review, 84, 1-66. </p>
 
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
+
+<p id="SchultzDayanMontague97">Schultz, W., Dayan, P., & Montague, P.R. (1997). A neural substrate of prediction and reward. Science, 275, 1593-1599. http://www.ncbi.nlm.nih.gov/pubmed/9054347</p>
 
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
 
@@ -365,6 +399,12 @@
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
+
+<p id="Sutton88">Sutton, R.S. (1988). Learning to Predict by the Method of Temporal Differences. Machine Learning, 3, 9-44. </p>
+
+<p id="SuttonBarto81">Sutton, R.S., & Barto, A. (1981). Toward a modern theory of adaptive networks: Expectation and prediction. Psychological Review, 88, 135-170. http://www.ncbi.nlm.nih.gov/pubmed/7291377</p>
+
+<p id="SuttonBarto98">Sutton, R.S., & Barto, A.G. (1998). Reinforcement Learning: An Introduction. MIT Press. http://www.cs.ualberta.ca/ sutton/book/ebook/the-book.html</p>
 
 <p id="Swadlow00">Swadlow, H.A. (2000). Information Flow along Neocortical Axons. In Time and the Brain. CRC Press. </p>
 
@@ -401,6 +441,10 @@
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
+
+<p id="Werbos88">Werbos, P.J. (1988). Generalization of backpropagation with application to a recurrent gas market model. Neural Networks, 1, 339-356. https://www.sciencedirect.com/science/article/pii/089360808890007X http://doi.org/10.1016/0893-6080(88)90007-X</p>
+
+<p id="Werbos90">Werbos, P. (1990). Backpropagation through time: what it does and how to do it. Proceedings of the IEEE, 78, 1550-1560.  http://doi.org/10.1109/5.58337</p>
 
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
 

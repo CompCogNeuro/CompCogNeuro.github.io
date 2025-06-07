@@ -16,7 +16,7 @@ The most commonly used technique to perform gradient descent in backprop models,
 ## Derivation of backprop
 
 {id="figure_bp-compute"}
-![Illustration of backpropgation computation in three-layer network. First, the feedforward activation pass generates a pattern of activations across the units in the network, cascading from input, to hidden to output.  Then, "delta" values are propagated backward in the reverse direction across the same weights. The delta sum is broken out in the hidden layer to facilitate comparison with the GeneRec algorithm.](media/fig_bp_compute_delta.png)
+![Illustration of backpropgation computation in three-layer network. First, the feedforward activation pass generates a pattern of activations across the units in the network, cascading from input, to hidden to output.  Then, δ (delta) values are propagated backward in the reverse direction across the same weights. The delta sum is broken out in the hidden layer to facilitate comparison with the GeneRec algorithm, and the learning rate factor is omitted for simplicity.](media/fig_bp_compute_delta.png)
 
 Even though the software can compute the gradients for you automatically, it is important to work through the logic of the backpropagation calculus to actually understand what is going on, and especially to understand different ways of performing these computations in a more biologically plausible manner, as in the [[GeneRec]] algorithm. [[#figure_bp-compute]] shows how it works in the case of a simple 3 layer feedforward network.
 
@@ -118,8 +118,10 @@ The resulting learning rule in these terms is thus simply:
 
 {id="eq_delta-dw" title="Error gradient learning"}
 $$
-\Delta w_{ij} \propto \delta_j x_i
+\Delta w_{ij} = \epsilon \delta_j x_i
 $$
+
+where $\epsilon$ is a learning rate factor that controls the step size along the error gradient at each weight update.
 
 ## Delta rule
 
@@ -132,7 +134,7 @@ $$
 \Delta w = (t - y) x
 $$
 
-where _t_ is the target value. 
+where _t_ is the target value.
 
 ## Credit assignment
 
