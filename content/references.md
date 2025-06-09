@@ -200,6 +200,8 @@
 
 <p id="HubelWiesel62">Hubel, D., & Wiesel, T.N. (1962). Receptive Fields, Binocular Interaction, and Functional Architecture in the Cat's Visual Cortex. Journal of Physiology, 160, 106-154. </p>
 
+<p id="Hyvarinen13">Hyvärinen, A. (2013). Independent component analysis: recent advances. Philosophical transactions. Series A, Mathematical, physical, and engineering sciences, 371, 20110534. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538438/ http://doi.org/10.1098/rsta.2011.0534</p>
+
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
 <p id="IsaacsonScanziani11">Isaacson, J.S., & Scanziani, M. (2011). How inhibition shapes cortical activity. Neuron, 72, 231-243. https://www.sciencedirect.com/science/article/pii/S0896627311008798 http://doi.org/10.1016/j.neuron.2011.09.027</p>
@@ -209,6 +211,8 @@
 <p id="JainNakahataPancaniEtAl24">Jain, A., Nakahata, Y., Pancani, T., Watabe, T., Rusina, P., South, K., Adachi, K., Yan, L., Simorowski, N., Furukawa, H., & Yasuda, R. (2024). Dendritic, delayed, stochastic CaMKII activation in behavioural time scale plasticity. Nature, 635, 151-159. https://www.nature.com/articles/s41586-024-08021-8 http://doi.org/10.1038/s41586-024-08021-8</p>
 
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
+
+<p id="JuttenHerault91">Jutten, C., & Herault, J. (1991). Blind separation of sources, part I: An adaptive algorithm based on neuromimetic architecture. Signal Processing, 24, 1-10. https://www.sciencedirect.com/science/article/pii/016516849190079X http://doi.org/10.1016/0165-1684(91)90079-X</p>
 
 <p id="Kaczmarek13">Kaczmarek, L.K. (2013). Slack, Slick, and Sodium-Activated Potassium Channels. ISRN Neuroscience, 2013, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850776/ http://doi.org/10.1155/2013/354262</p>
 
@@ -393,6 +397,8 @@
 <p id="ShadlenNewsome94">Shadlen, M.N., & Newsome, W.T. (1994). Noise, neural codes and cortical organization. Current opinion in neurobiology, 4, 569-579. http://www.ncbi.nlm.nih.gov/pubmed/7812147</p>
 
 <p id="ShadlenNewsome98">Shadlen, M.N., & Newsome, W.T. (1998). The variable discharge of cortical neurons: implications for connectivity, computation, and information coding. The Journal of neuroscience : the official journal of the Society for Neuroscience, 18, 3870. http://www.ncbi.nlm.nih.gov/pubmed/9570816</p>
+
+<p id="Shannon48">Shannon, C.E. (1948). A Mathematical Theory of Communication. Bell Systems Technical Journal, 27, 623-656. </p>
 
 <p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
 

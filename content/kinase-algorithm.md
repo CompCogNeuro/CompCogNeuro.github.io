@@ -17,31 +17,39 @@ The relevant background for this algorithm is presented in the following pages:
 
 Here, we build on these foundations to describe the detailed mechanisms that actually drive learning in the Axon models, which represent an attempt to satisfy constraints from neuroscience, computational efficacy, and computational cost.
 
-The starting point is to compute Ca++ via the biophysically accurate implementations of the [[neuron channels#NMDA]] and [[neuron channels#VGCC]] channels that are well-established as the primary initial drivers of synaptic plasticity. NMDA is sensitive to the conjunction of pre and postsynaptic activity, while VGCCs (voltage-gated calcium channels) are driven in a sharply phasic manner by backpropagating action potentials from the receiving neuron.
+At a big-picture level, the two central ideas behind the kinase algorithm are:
 
-However, it would be very expensive computationally to compute this Ca++ value for each synapse individually, so we instead break out the computation into two subcomponents:
+* Use biophysically-grounded equations for computing the synaptic Ca++ influx via the [[neuron channels#NMDA]] and [[neuron channels#VGCC]] channels that are well-established as the primary initial drivers of synaptic plasticity. NMDA is sensitive to the conjunction of pre and postsynaptic activity, while VGCCs (voltage-gated calcium channels) are driven in a sharply phasic manner by backpropagating action potentials from the receiving neuron.
+
+* Apply a cascade of simple [[exponential integration]] steps to simulate the complex biochemical processes that follow from this Ca++ influx, with time constants optimized based on computational performance across a wide range of tasks. The final two steps in this cascade implement the [[temporal derivative]] computation where the faster penultimate step drives LTP (weight increases) while the final slower step drives LTD (weight decreases).
+
+This strategy leverages biophysically constrained mechanisms where they are well-established, while adopting a more abstracted computationally-motivated approach to the complexities of the subsequent biochemical processes, which are not yet sufficiently specified to support a more bottom-up approach. The overall mechanism behind the [[temporal derivative]] is supported by the general properties of the CaMKII and DAPK1 kinases and related mechanisms, as described in [[synaptic plasticity]], and by the initial empirical results of [[Jiang et al 2025]].
+
+However, at a pragmatic implementational level, it would be very expensive to compute the Ca++ influx based on the NMDA and VGCC biophysical equations for each synapse individually, given that synapses greatly outnumber neurons (e.g., $N^2$ in a fully-connected model), Therefore, we instead break out the computation into two subcomponents:
 
 * A shared dendrite-level Ca++ value that reflects the overall dendritic membrane potential and the contributions of backpropagating action potentials from the receiving neuron on the NMDA and VGCC channels.
 
-* An efficiently-computed synapse-specific multiplier, that reflects the specific coincident presynaptic and postsynaptic activity at each synapse.
+* An efficiently-computed synapse-specific multiplier, that reflects the specific coincident pre and postsynaptic activity at each synapse.
 
-In another example of the [[synergies]] between neuroscience and computation, these two terms can be directly associated with the two essential terms in the error backpropagation learning rule, which are the **error gradient** and the **credit assignment** factors:
+In another example of the [[synergies]] between neuroscience and computation, these two terms can be directly associated with the two essential terms in the error backpropagation learning rule, which are the _error gradient_ and the _credit assignment_ factors:
 
 {id="eq_err-cred" title="Error * Credit"}
 $$
 \Delta w \propto \rm{Error} * \rm{Credit}
 $$
 
-These are concretely expressed in terms of $\delta$ and the sending unit activity $x$ in error backpropagation:
+These are concretely expressed in terms of $\delta$ and the sending unit activity $x$ in [[error backpropagation]]:
 
 {id="eq_bp" title="Backpropagation"}
 $$
 \Delta w \propto \delta x 
 $$
 
-In the kinase algorithm, the _Error_ factor is computed from the dendrite-level Ca++, and the synapse-specific multiplier provides the _Credit_ assignment. The computational-level properties of these two factors are overall consistent with the backpropagation versions, but also have important differences that are beneficial for the discrete spiking nature of the Axon framework, and also help reduce the _vanishing gradient_ problem in deep networks.
+In the kinase algorithm, the _Error_ factor is computed from the dendrite-level Ca++, and the synapse-specific multiplier provides the _Credit_ assignment. The computational-level properties of these two factors are overall consistent with the backpropagation versions, but also have important differences that are beneficial for the discrete spiking nature of the Axon framework, and also help reduce the _vanishing gradient_ problem in deep networks. Thus, although this separation into these two distinct factors is motivated by computational cost considerations, it nevertheless provides a useful basis for understanding the functional properties of the putative biologically-based learning mechanism driven by NMDA and VGCC Ca++ influx.
 
-Due to the continuous-time nature of the Axon model, which simulates neural dynamics at the 1 ms timescale, it takes roughly 200 ms for each "trial" of processing to unfold, corresponding to a [[theta cycle]]. In the [[predictive learning]] framework typically used, this time window encompasses an iteration of prediction (minus phase) followed by an outcome (plus phase), and then learning occurs at the end of the plus phase. The specific events that could trigger this learning in a biologically-realistic manner are described below. Aside from this temporal discretization of the learning process (and external dynamics of the environment), all of the other equations in Axon operate continuously over time.
+Due to the continuous-time nature of the Axon model, which simulates neural dynamics at the 1 ms per cycle timescale, it takes roughly 200 cycles for each "trial" of processing to unfold, corresponding to a [[theta cycle]]. The kinase algorithm provides an account of how information accumulates to drive effective learning based on the statistics of pre and postsynaptic spiking over this 200 ms window.
+
+In the [[predictive learning]] framework typically used, this time window encompasses an iteration of prediction (minus phase) followed by an outcome (plus phase), and then learning occurs at the end of the plus phase. The specific events that could trigger this learning in a biologically-realistic manner are described below. Aside from this temporal discretization of the learning process (and external dynamics of the environment), all of the other equations in Axon operate continuously over time, providing a real-time model of actual neural processing.
 
 ## Error gradient via dendritic Ca++
 
@@ -84,7 +92,7 @@ $$
 
 <!--- todo: rename sim -> simulation so it all reads better directly -->
 
-As described in more detail in [[synaptic plasticity]] the influx of Ca++ ions via NMDA and VGCC channels then drives a complex cascade of chemical reactions involving various kinases and phosphatases, along with other molecules and critical binding dynamics, to ultimately drive changes in excitatory AMPA receptor number and efficacy, which is the end result of learning (see the [[Urakubo08 sim]] simulation for a detailed model of some of these processes).
+As described in more detail in [[synaptic plasticity]], the influx of Ca++ ions via NMDA and VGCC channels then drives a complex cascade of chemical reactions involving various kinases and phosphatases, along with other molecules and critical binding dynamics, to ultimately drive changes in excitatory AMPA receptor number and efficacy, which is the end result of learning (see the [[Urakubo08 sim]] simulation for a detailed model of some of these processes).
 
 {id="table_taus" title="Kinase time constants"}
 | Parameter            | Value  |
@@ -94,7 +102,7 @@ As described in more detail in [[synaptic plasticity]] the influx of Ca++ ions v
 | CaD $\tau_{cad}$     | 40 ms  |
 | Syn $\tau_{syn}$     | 30 ms  |
 
-Because it is computationally intractable to simulate these processes in biophysical detail at scale, we use a simple approximation involving a cascade of [[exponential integration]] steps (time constants shown in [[#table_taus]]), starting with the activation of _calcium calmodulin (CaM)_ by the raw Ca++ influx:
+Because it is computationally intractable to simulate these processes in biophysical detail at scale (and there is still a lot of uncertainty about how these things actually work), we use a simple approximation involving a cascade of [[exponential integration]] steps (time constants shown in [[#table_taus]]), starting with the activation of _calcium calmodulin (CaM)_ by the raw Ca++ influx:
 
 {id="eq_cam" title="CaM calmodulin"}
 $$
@@ -184,44 +192,40 @@ $$
 
 The longest time-integral of this SR value from the kinase cascade is then used as the _Syn_ credit assignment value in [[#eq_kinase-dw]] (in theory CaP would be multiplied by the CaP-timescale integral, and CaD would be multiplied by the CaD timescale, but we just have one value and use the longer timescale as it defines the full span of the relevant values).
 
+Extensive empirical tests of the above credit assignment mechanism showed that it works significantly better in practice across a range of challenging tasks, relative to a range of other different possibilities that were explored. In particular, the fine-grained sensitivity of this mechanism to the coincidence of pre-and-post firing on the timescale of about 30 ms appears to provide a critical credit assignment factor for determining the extent to which different synapses should be modified in order to reduce the error gradients represented by the $\delta$ factor.
+
+At a computational level, the fact that this credit assignment factor is the product of both sending and receiving terms, and is sensitive to their temporal coincidence, represents a significant departure from the use of the sending activity only in error backpropagation. This difference should make the kinase algorithm more sensitive to correlated neural activity, and may play a role similar to [[Hebbian learning]] as a regularizer as used in the [[Leabra]] model.
+
 ### Neuron-level linear approximation version
 
-The synapse-specific _SR(t)_ value in [[#eq_trace-syn]] and its exponential integrations, though very simple, is still very computationally-expensive to compute because the number of synapses is much greater than the number of neurons (e.g., $N^2$ in a fully-connected network). Therefore, in practice we compute these values using a set of linear regression coefficients based on a vector of binned _CaSyn_ values at the neuron level, every 10 ms (each bin has the average CaSyn value over that 10 ms).
+The synapse-specific _SR(t)_ value in [[#eq_trace-syn]] and its exponential integrations, though very simple, are still very computationally-expensive to compute because the number of synapses is much greater than the number of neurons. Therefore, in practice we compute these values using a set of linear regression coefficients based on a vector of binned _CaSyn_ values at the neuron level, with each bin holding the average CaSyn value over a period of 10 ms, which provides sufficient resolution to compute the necessary pre-post firing correlations.
 
-At the point of learning, which occurs once at the end of a [[theta cycle]] of 200 ms typically, these binned values are multiplied for the sender * receiver at each synapse, and then the linear regression coefficients over these bins are applied to directly compute the effective CaP and CaD time integral value that would otherwise be computed according to the above equations. These coefficients were trained using a combination of ridge and lasso regression based on a full combinatorial space of 100 random trials of Poisson spike trains with minus and plus phase firing rates sampled in 10 hz increments from 0 -- 120 hz (12 * 12 * 12 * 12 = 20,736 frequency combinations * 100 trials = 2,073,600 total trials). The resulting coefficients have $r^2$ values of 0.991 and 0.996 for CaP and CaD respectively (i.e,. they account for that proportion of the variance in the data). Thus, this provides a highly accurate and significantly more performant way of computing these values at the synaptic level. See [kinase/linear](https://github.com/emer/axon/tree/kinase/linear) for details. 
+At the point of learning, which occurs once at the end of a [[theta cycle]] of 200 ms typically, the values in each bin are multiplied for the sender * receiver at each synapse, and then the linear regression coefficients over these bin products are applied to directly compute the effective CaP and CaD time integral value that would otherwise be computed according to the above equations. These coefficients were trained using a combination of ridge and lasso regression based on 100 random Poisson spike trains per condition of a full combinatorial (outer product) sweep of minus and plus phase firing rates sampled in 10 hz increments from 0 -- 120 hz for the pre and post neuron (12 * 12 * 12 * 12 = 20,736 frequency combinations * 100 trials = 2,073,600 total trials). The resulting coefficients have $r^2$ values of 0.991 and 0.996 for CaP and CaD respectively (i.e,. they account for that proportion of the variance in the data). Thus, this method provides a highly accurate and significantly more performant way of computing these values at the synaptic level. See [kinase/linear](https://github.com/emer/axon/tree/main/kinase/linear) for details. 
 
 ## How does the synapse know when to learn?
 
-TODO:
+What kind of biological signal causes learning to take place _after_ the plus phase of activity, as opposed to a reversed sequence of an outcome phase followed by a subsequent prediction phase for example? Is there some distinctive neural signature that marks these phases so that the proper alignment occurs with sufficient reliability to drive effective learning?
+
+While there is always the possibility that a global [[neuromodulator]] signal (e.g., dopamine) could provide the critical "learn now" signal, it is also the case that a local synaptic mechanism can provide a sufficiently accurate signal to work in practice in large-scale simulated models.
+
+Specifically, the conjunction of significant pre and postsynaptic activity is actually sufficiently rare that there are typically relatively brief windows of synapse-specific activity followed by relative inactivity, and that this _transition to inactivity_ can mark the end of a prior plus phase.
+
+In biophysical terms, the CaMKII and DAPK1 competitive binding dynamic takes place when there is a relatively high level of Ca++ and activated calmodulin (CaM) in a relatively brief window after synaptic activity. Once this activity falls off, DAPK1 returns to its baseline state while CaMKII that has been bound to N2B remains active for a sufficient duration to trigger the AMPA receptor trafficking dynamics that result in actual changes in synaptic efficacy ([[@BayerGiese25]]). This process takes time, and requires relative DAPK1 inactivation to proceed, so it preferentially occurs during the transition to inactivity after a learning episode. Whatever final state the CaMKII vs. DAPK1 competition was in at the point of this transition determines the resulting LTP vs. LTD direction.
+
+This rule was implemented and tested extensively, and it worked well across a wide range of tasks. The "omniscient" version where we know when the plus phase ends still learns faster, and we continue to use that in our models to save computational time, but especially in the much larger scale of the actual mammalian brain, this issue does not appear to pose a significant problem for the overall biological feasibility of the kinase algorithm.
 
 ## Credit Assignment: Temporal Eligibility Trace
-
-The extra mathematical steps taken in (O'Reilly, 1996) to get from backpropagation to the CHL algorithm end up eliminating the factorization of the learning rule into clear Error vs. Credit terms. While this produces a nice simple equation, it makes it essentially impossible to apply the results of Bellec et al., (2020), who showed that backprop-through-time can be approximated through the use of a credit-assignment term that serves as a kind of temporal \emph{eligibility trace}, integrating sender-times-receiver activity over a window of prior time steps.
-
-By adopting the above form of error gradient term, we can now also adopt this trace-based credit assignment term as:
-
-<!--- $$ -->
-<!--- Credit = < x y >_t y' -->
-<!--- $$ -->
-
-where the angle-bracket expression indicates an exponential running-average time-integration of the sender and receiver activation product over time.
 
 
 * Supporting a temporally-extended _eligibility trace_ factor that provides a biologically-plausible way of approximating the computationally-powerful backprop-through-time (BPTT) algorithm [[@BellecScherrSubramoneyEtAl20]].
 
-The most computationally-effective form of learning goes one step further in computing this credit-assignment trace factor, by integrating spike-driven activity traces (representing calcium currents) within a given theta cycle of activity, in addition to integrating across multiple such theta-cycle "trials" of activity for the eligibility trace. This is significantly more computationally-expensive, as it requires synapse-level integration of the calcium currents on the millisecond-level timescale (a highly optimized form of computation is used so updates occur only at the time of spiking, resulting in a roughly 2x increase in computational cost overall).
-
-The final term in the credit assignment factor is the derivative of the receiving activation function, \$y'\$, which would be rather difficult to compute exactly for the actual AdEx spiking dynamics used in Axon. Fortunately, using the derivative of a sigmoid-shaped logistic function works very well in practice, and captures the essential functional logic for this derivative: learning should be maximized when the receiving neuron is in its most sensitive part of its activation function (i.e., when the derivative is the highest), and minimized when it is basically "pinned" against either the upper or lower extremes. Specifically the derivative of the logistic is:
+Key factor is an eligibility trace defined as the chained _local_ partial derivative of the individual neuron onto itself:
 
 $$
-y' = y (1-y)
+e^t = \frac{\partial h^t}{\partial h^{t-1}} \frac{\partial h^{t-1}}{\partial h^{t-2}} ...
 $$
 
-which is maximal at y = .5 and zero at either 0 or 1. In Axon, this is computed using a time-integrated spike-driven Ca-like term (\texttt{CaSpkD}), with the max value across the layer used instead of the fixed 1 constant. In addition, it is useful to use an additional factor that reflects the normalized difference in receiving spiking across the minus and plus phase, which can be thought of as an empirical measure of the sensitivity of the receiving neuron to changes over time: 
-
-$$
-y' = y (1-y) \frac{y^+ - y^-}{MAX(y^+, y^-)}
-$$
+This can be recursively computed by multiplying the accumulated $e^{t-1}$ factor times the new partial derivative. Logically, this partial derivative could be approximated by the trial-wise delta of CaD states. Give that a try.
 
 ## Stabilization and rescaling mechanisms
 

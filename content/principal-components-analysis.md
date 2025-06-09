@@ -9,6 +9,8 @@ In addition to the practical utility of using PCA for analyzing neural represent
 
 Indeed, various forms of [[Hebbian learning]] have been shown to perform an approximations of PCA, and PCA provides a useful abstract, mathematically well-defined example of what Hebbian learning can accomplish. Specifically, PCA is based on _correlations_ among the input variables, and shows how Hebbian learning can usefully extract the _correlational structure_ of the input space.
 
+In an [[information-theory]] framing, more variance means greater _entropy_ and thus greater _information_, so finding the maximum variance dimensions is the same as finding the most informative dimensions. Eliminating redundant, correlated signals in the input is equivalent to _compressing_ the information so it can be represented more efficiently. The closely-related _independent components analysis (ICA)_ method ([[@JuttenHerault91]]) is derived from the information-theoretic principle of minimizing mutual information, and it has certain advantages in some situations over PCA ([[@Hyvarinen13]]).
+
 ## Covariance matrix
 
 {id="figure_iris-petal" style="height:20em"}

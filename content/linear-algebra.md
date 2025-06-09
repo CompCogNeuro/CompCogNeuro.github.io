@@ -3,7 +3,7 @@ Categories = ["Statistics", "Mechanisms"]
 bibfile = "ccnlab.json"
 +++
 
-The language of **linear algebra** provides an important set of concepts for understanding the behavior and learning in neural networks, and also important analysis techniques including linear regression and [[principal components analysis]].
+The language of **linear algebra** provides an important set of concepts for understanding the behavior and learning in neural networks, and also important analysis techniques including linear regression and [[principal components analysis]]. See also [[information theory]] for a similarly useful framework.
 
 For example, the state of activity in a network layer can be thought of as an n-dimensional _vector_ of numbers representing the activity of each of the _n_ neurons in the layer. We can write this vector using bold lower-case letters, with **x** being the input layer and **y** (of dimension _m_) being the hidden layer above that. The set of weights interconnecting the two layers, **W**, is thus an _n x m_ _matrix_ (confusingly, _n_ = number of columns, _m_ = number of rows, but indexes are written in the opposite order).
 
