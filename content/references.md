@@ -366,6 +366,8 @@
 
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
+<p id="SabatiniOertnerSvoboda02">Sabatini, B.L., Oertner, T.G., & Svoboda, K. (2002). The life cycle of Ca2+ ions in dendritic spines. Neuron, 33, 439-452. https://www.sciencedirect.com/science/article/pii/S0896627302005731 http://doi.org/10.1016/S0896-6273(02)00573-1</p>
+
 <p id="Samuel59">Samuel, A.L. (1959). Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3, 210-229. https://ieeexplore.ieee.org/abstract/document/5392560 http://doi.org/10.1147/rd.33.0210</p>
 
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
@@ -373,6 +375,8 @@
 <p id="SandersBerendsMajorEtAl13">Sanders, H., Berends, M., Major, G., Goldman, M.S., & Lisman, J.E. (2013). NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability. Journal of Neuroscience, 33, 424-429. http://www.jneurosci.org/content/33/2/424 http://doi.org/10.1523/JNEUROSCI.1854-12.2013</p>
 
 <p id="Sanger89">Sanger, T.D. (1989). Optimal unsupervised learning in a single-layer linear feedforward neural network. Neural Networks, 2, 459-473. </p>
+
+<p id="ScellierBengio17">Scellier, B., & Bengio, Y. (2017). Equilibrium propagation: Bridging the gap between energy-based models and backpropagation. Frontiers in Computational Neuroscience, 11, http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5415673/ http://doi.org/10.3389/fncom.2017.00024</p>
 
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
@@ -446,11 +450,15 @@
 
 <p id="Werbos90">Werbos, P. (1990). Backpropagation through time: what it does and how to do it. Proceedings of the IEEE, 78, 1550-1560.  http://doi.org/10.1109/5.58337</p>
 
+<p id="WhittingtonBogacz17">Whittington, J.C.R., & Bogacz, R. (2017). An approximation of the error backpropagation algorithm in a predictive coding network with local hebbian synaptic plasticity. Neural Computation, 29, 1229-1262. https://doi.org/10.1162/NECO_a_00949 http://doi.org/10.1162/NECO_a_00949</p>
+
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
 
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
 
 <p id="XiaoLiChitwoodEtAl23">Xiao, K., Li, Y., Chitwood, R.A., & Magee, J.C. (2023). A critical role for CaMKII in behavioral timescale synaptic plasticity in hippocampal CA1 pyramidal neurons. Science Advances, 9, eadi3088. https://www.science.org/doi/full/10.1126/sciadv.adi3088 http://doi.org/10.1126/sciadv.adi3088</p>
+
+<p id="XieSeung03">Xie, X., & Seung, H.S. (2003). Equivalence of backpropagation and Contrastive Hebbian Learning in a layered network. Neural Computation, 15, 441-454. http://www.ncbi.nlm.nih.gov/pubmed/12590814</p>
 
 <p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
 

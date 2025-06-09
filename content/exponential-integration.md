@@ -101,9 +101,9 @@ addSlider(&initStr, &init, 100)
 addSlider(&driveStr, &drive, 100)
 ```
 
-[[#sim_tau]] provides an illustration of the process of **exponential updating** governed by a **time constant** `tau` ($\tau$), where a given value is updated at each time step to move some fraction of the way toward a "driving" value, where this fraction is $\frac{1}{\tau}$:
+[[#sim_tau]] provides an illustration of the process of online **exponential integration** governed by a **time constant** `tau` ($\tau$), where a given value is updated at each time step to move some fraction of the way toward a "driving" value, where this fraction is $\frac{1}{\tau}$:
 
-{id="eq_tau" title="Exponential updating"}
+{id="eq_tau" title="Exponential integration"}
 $$
 v(t+1) = v(t) + \frac{1}{\tau} (d - v(t))
 $$

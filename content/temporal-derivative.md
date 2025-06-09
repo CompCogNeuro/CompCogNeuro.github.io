@@ -22,7 +22,7 @@ $$
 \Delta w \propto y^+ - y^-
 $$
 
-By contrast, in standard [[error backpropagation]] learning, error signals are propagated via _sturcturally separate_ pathways, using distinct equations from those governing activation propagation, which is the primary source of biological implausibility.
+By contrast, in standard [[error backpropagation]] learning, error signals are propagated via _structurally separate_ pathways, using distinct equations from those governing activation propagation, which is the primary source of biological implausibility.
 
 A key advantage of a temporal derivative is that _time happens everywhere_ in a network, allowing an error signal to spread over time to all areas in the network of neurons in the brain. By contrast, derivatives computed between different anatomical pathways require these pathways to remain at least somewhat segregated and organized within the network, which typically would end up strongly constraining the kinds of error signals that can be computed.
 
@@ -30,9 +30,9 @@ Thus, a temporal derivative is a very robust, general-purpose mechanism of the s
 
 ## Local computation of the temporal derivative
 
-Another appealing property of the temporal derivative is that it can be computed _locally_ at each neuron and synapse, through a _competition between two chemical processes with different [[time constant]]s_. Specifically, if you subtract a _slower_ process from a _faster_ one, then this automatically computes a temporal derivative. 
+Another appealing property of the temporal derivative is that it can be computed _locally_ at each neuron and synapse, through a _competition between two chemical processes with different [[exponential integration]] time constants_. Specifically, if you subtract a _slower_ process from a _faster_ one, then this automatically computes a temporal derivative. 
 
-This is illustrated in the following simple simulation, which shows the response to a "driver" input that drives the fast and slow chemical processes (see [[time constant]] for a detailed explanation of the exponential updating used here). In the brain, this driver is neural activity in the form of pre and post-synaptic spiking, which is integrated by a series of chemical pathways driven mainly by the influx of _Calcium_ ions (see [[synaptic plasticity]] and the [[kinase algorithm]] for details).
+This is illustrated in the following simple simulation, which shows the response to a "driver" input that drives the fast and slow chemical processes (using online [[exponential integration]]). In the brain, this driver is neural activity in the form of pre and post-synaptic spiking, which is integrated by a series of chemical pathways driven mainly by the influx of _Calcium_ ions (see [[synaptic plasticity]] and the [[kinase algorithm]] for details).
 
 The driver input changes over time in a manner consistent with [[predictive learning]]: there is an initial _prediction_ value, and then a subsequent _outcome_ value ([[#figure_minus-plus]]). The prediction is the local neural activity associated with the brain state present when generating a prediction of what will happen next, and the outcome is this local activity when experiencing the actual outcome, immediately after making the prediction.
 
@@ -145,7 +145,7 @@ $$
 \rm{fast} += \frac{1}{\rm{fastTau}} (\rm{driver} - \rm{fast})
 $$
 
-This equation causes the variable (fast or slow) to move toward the driver value at a rate determined by the "tau" [[time constant]] factor. For example, if the driver is larger than fast, then $driver - fast$ is positive, so fast will increase to approach the value of the driver. If $fastTau = 10$, then it moves a 10th of the way toward the driver at each update (and gets roughly 2/3 of the way to the driver in _fastTau_ steps). This very simple type of update equation is used throughout [[axon]] and is likewise very prevalent in biology.
+This equation causes the variable (fast or slow) to move toward the driver value at a rate determined by the "tau" time constant factor. For example, if the driver is larger than fast, then $driver - fast$ is positive, so fast will increase to approach the value of the driver. If $fastTau = 10$, then it moves a 10th of the way toward the driver at each update (and gets roughly 2/3 of the way to the driver in _fastTau_ steps). This very simple type of update equation is used throughout [[axon]] and is likewise very prevalent in biology.
 
 Some things you can try:
 

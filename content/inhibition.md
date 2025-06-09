@@ -98,14 +98,14 @@ $$
 FSi = FSi + (FFs + FB * FBs) - \frac{1}{FSTau} FSi
 $$
 
-[[#eq_fsi]] updates the integrated fast spiking value FSi, which represents the activity of the PV neurons. It has an instantaneous rise and decays with the FSTau [[time constant]] (6 ms default). The fast spiking value integrates both feedforward (FF) and feedback (FB) inputs, where FF always contributes with a factor of 1, and FB has a parameter that can scale the FB contributions -- it defaults to 1 but can sometimes benefit from being larger for layers with very sparse activity.
+[[#eq_fsi]] updates the integrated fast spiking value FSi, which represents the activity of the PV neurons. It has an instantaneous rise and decays with the FSTau [[exponential integration]] time constant (6 ms default). The fast spiking value integrates both feedforward (FF) and feedback (FB) inputs, where FF always contributes with a factor of 1, and FB has a parameter that can scale the FB contributions -- it defaults to 1 but can sometimes benefit from being larger for layers with very sparse activity.
 
 {id="eq_ssi" title="Slow spiking (SST) integration"}
 $$
 SSi = SSi + \frac{1}{SSiTau} (SSf * FBs - SSi)
 $$
 
-[[#eq_ssi]] updates the integrated slow spiking value SSi, which represents the activity of the SST neurons. SSi is driven exclusively by feedback spikes (FBs) and the rise is dependent on the SSf facilitation factor, which reflects the fact that SST neurons have strongly facilitating synapses that start weak and get stronger as a function of the spikes coming into the SST neurons. Rise and decay are governed by the same [[time constant]] SSiTau.
+[[#eq_ssi]] updates the integrated slow spiking value SSi, which represents the activity of the SST neurons. SSi is driven exclusively by feedback spikes (FBs) and the rise is dependent on the SSf facilitation factor, which reflects the fact that SST neurons have strongly facilitating synapses that start weak and get stronger as a function of the spikes coming into the SST neurons. Rise and decay are governed by the same time constant SSiTau.
 
 {id="eq_ssf" title="Slow spiking facilitation factor (SSf)"}
 $$

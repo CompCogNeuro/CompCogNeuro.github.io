@@ -7,7 +7,7 @@ This page provides details for the full range of channel types that are availabl
 
 These biologically-grounded channels provide accurate fits to the detailed electrophysiological properties of real neurons, based on the sources listed below. Although this results in a large number of parameters relative to the units in [[abstract neural network]]s, we almost never change these parameters from their default values, unless there is a clear biological or functional motivation to do so. Furthermore, extensive testing across a wide range of models has shown that these biologically-grounded mechanisms, and parameter values, actually produce the best functional results.
 
-The source code for these channels is in the [axon chans](https://github.com/emer/axon/tree/main/chans) directory. See [[time constant]] for an exploration of the exponential update equations present in most of these channels. The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview, and [ModelDB Currents](https://modeldb.science/NeuronDB/NeuronalCurrents), [ModelDB Current Search](https://modeldb.science/ModelDB/FindByCurrent), and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
+The source code for these channels is in the [axon chans](https://github.com/emer/axon/tree/main/chans) directory. Most of these channels use [[exponential integration]] governed by time constant parameters shown in [[#table_taus]] below. The implementation of several of these channels comes from standard biophysically detailed models such as [[@^MiglioreHoffmanMageeEtAl99]], [[@^PoiraziBrannonMel03]], and [[@^UrakuboHondaFroemkeEtAl08]]. See also [[@^BretteRudolphCarnevaleEtAl07]] and the [NEST model directory](https://nest-simulator.readthedocs.io/en/stable/models/index.html) for documented examples, including: [AdEx](https://nest-simulator.readthedocs.io/en/stable/models/aeif_cond_exp.html), [Traub HH](https://nest-simulator.readthedocs.io/en/stable/models/hh_cond_exp_traub.html).  The [Brian Examples](https://brian2.readthedocs.io/en/stable/examples/index.html) contain full easy-to-read equations for various standard models, including [Brunel & Wang, 2001](https://brian2.readthedocs.io/en/stable/examples/frompapers.Brunel_Wang_2001.html). Also see [Wikipedia: Biological neuron model](https://en.wikipedia.org/wiki/Biological_neuron_model) for a nice overview, and [ModelDB Currents](https://modeldb.science/NeuronDB/NeuronalCurrents), [ModelDB Current Search](https://modeldb.science/ModelDB/FindByCurrent), and [IonChannelGeneology](https://icg.neurotheory.ox.ac.uk) for standardized lists of currents included in biophysical models made in NEURON and related software.
 
 ## Parameters
 
@@ -31,7 +31,7 @@ The default parameters for each of the channel types covered here are shown in t
 | SKCa rise $\tau_r$               | 15 ms    |
 | SKCa decay $\tau_d$              | 30 ms    |
 
-The [[time constant]] parameters for the various channels are shown in [[#table_taus]].
+The [[exponential integration]] time constant parameters for the various channels are shown in [[#table_taus]].
 
 {id="table_gs" title="Conductance scaling factors"}
 | Parameter        | Value   |
@@ -86,7 +86,7 @@ $$
 g(t) = e^{-t / \tau_r} - e^{-t / \tau_d}
 $$
 
-$\tau_r$ is a fast _rise_ [[time constant]] for the increase in conductance when the glutamate first binds to the AMPA receptor (less than 1 ms according to [[@HestrinNicollPerkelEtAl90]]), and $\tau_d$ is a slower _decay_ time constant reflecting the inactivation of the AMPA receptor over time, estimated at 4.4 ms by [[@^HestrinNicollPerkelEtAl90]].
+$\tau_r$ is a fast _rise_ time constant for the increase in conductance when the glutamate first binds to the AMPA receptor (less than 1 ms according to [[@HestrinNicollPerkelEtAl90]]), and $\tau_d$ is a slower _decay_ time constant reflecting the inactivation of the AMPA receptor over time, estimated at 4.4 ms by [[@^HestrinNicollPerkelEtAl90]].
 
 The _alpha_ function as introduced by [[@^Rall67]] has also been used to model relatively fast conductances, using a single time constant:
 
@@ -95,11 +95,11 @@ $$
 g(t) = \frac{t}{\tau} e^{-t / \tau}
 $$
 
-In the [[Axon]] model we use a time step of 1 ms for integrating all of the [[neuron]] level equations, so the relatively fast rise time constant happens too quickly to be of relevance. Thus, the AMPA conductance increases discretely in the 1 ms time step, and we use a single exponential decay function with a time constant of 5 ms, which can be computed using an [[time constant|online exponential decay function]]:
+In the [[Axon]] model we use a time step of 1 ms for integrating all of the [[neuron]] level equations, so the relatively fast rise time constant happens too quickly to be of relevance. Thus, the AMPA conductance increases discretely in the 1 ms time step, and we use a single exponential decay function with a time constant of 5 ms, which can be computed using simple online [[exponential integration]]:
 
 {id="eq_ampa_g" title="AMPA conductance"}
 $$
-g_{ampa}(t) = g_{ampa}(t-1) \left(1 - \frac{1}{\tau_d} \right)
+g_{ampa}(t) = g_{e-raw}(t) + g_{ampa}(t-1) \left(1 - \frac{1}{\tau_d} \right)
 $$
 
 As with all channels, this conductance then drives a corresponding current as a function of the reversal potential for AMPA ($E_{ampa}$), which is estimated at 0 mV:
@@ -113,7 +113,7 @@ $$
 
 The GABA-A channel is the standard inhibitory synaptic input channel discussed in [[neuron]] and [[inhibition]]. It is opened by the binding of the GABA (gamma-aminobutyric acid) neurotransmitter, released by special populations of inhibitory interneurons. It primarily allows negatively-charged chloride ions $Cl^-$ to flow into the cell, which act to keep the electrical potential negative.
 
-We model GABA-A conductances in the same way as AMPA, with a single exponential decay function ([[#eq_ampa_g]], using a [[time constant]] $\tau_d$ of 7 ms [[@XiangHuguenardPrince98]]. The reversal potential for GABA-A ($E_{gaba_a}$) is -75 mV.
+We model GABA-A conductances in the same way as AMPA, with a single exponential decay function ([[#eq_ampa_g]], using a decay time constant $\tau_d$ of 7 ms [[@XiangHuguenardPrince98]]. The reversal potential for GABA-A ($E_{gaba_a}$) is -75 mV.
 
 ## K Leak
 
@@ -140,7 +140,7 @@ The other critical functional property of the NMDA channel is that it also requi
 
 To see the unblocking in action, press the [[#plot_nmda:GV run]] button above, which generates a conductance (_g_) (and current _I_) vs. voltage (_v_) plot using the parameters shown to the left of the plot, assuming that there is plenty of glutamate around so that factor is not relevant. As the voltage increases above the -90 hyperpolarized starting point, the conductance steadily rises, reflecting the progressively increased likelihood that the $Mg^{++}$ ions will not be blocking the channel opening. The _reversal potential_ for the NMDA channel is around 0 mV, so as the voltage approaches this point, the net force pulling the ions through the channel gets progressively weaker (as explained by the tug-of-war analogy in [[neuron]]), so the current _I_ decreases as the voltage approaches 0.
 
-NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow into the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions as described in [[kinase algorithm]]. The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
+NMDA channels mostly allow _calcium_ ions ($Ca^{++}$) to flow into the cell, and the learning effects of this channel are due to the ability of calcium to trigger various postsynaptic chemical reactions (see [[synaptic plasticity]]). The activation effects are due to positive charges on this ion, which therefore has a net excitatory (depolarizing) effect on the cell.
 
 [[#plot_nmda:Time run]] shows the other critical feature of the NMDA channel, which is that the $\tau_d$ decay time constant parameter (see [[#eq_ampa_g]]) is much longer than most other channels, on the order of 100 ms or more (like AMPA, NMDA has a sufficiently fast rise time that it can be ignored). This relatively long time constant is critical for the activation contributions of the NMDA channel, because it creates a [[stable activation]] pattern over time (see that page for more discussion and a demonstration).
 
@@ -148,10 +148,12 @@ The equation we use for the voltage-gated conductance is due to [[@JahrStevens90
 
 {id="eq_nmda_g" title="NMDA voltage-gated conductance"}
 $$
-g_{nmda}(V) = \overline{g}_{nmda} \frac{1}{1 + \frac{[Mg^{++}]}{3.57} e^{-0.062 V}}
+g_{nmda}(t) = \frac{g_{e-raw}(t) \overline{g}_{nmda}}{1 + \frac{[Mg^{++}]}{3.57} e^{-0.062 V_d}} - \frac{1}{\tau_d} g_{nmda}(t-1)
 $$
 
-where $\overline{g}_{nmda}$ is the overall "g-bar" maximum conductance factor, and $[Mg^{++}]$ is the extracellular magnesium concentration, which is typically between 1 and 1.5. This function is of a sigmoidal, "S-shaped" form, increasing to an asymptotic value as the voltage increases; the relevant portion of this function is on the left side of the sigmoid as you can see in [[#plot_nmda:GV run]]. The decrease that we see in _I_ as voltage increases is due to the standard tug-of-war Ohm's law multiplier that applies to all channel conductances ([[#eq_ampa_i]]).
+where $\overline{g}_{nmda}$ is an NMDA-specific multiplier (see [[#table_gs]]), and $[Mg^{++}]$ is the extracellular magnesium concentration, which is typically between 1 and 1.5, and $g_{e-raw}(t)$ is the raw excitatory synaptic input described in [[neuron#Computing input conductances]]. We use the _dendritic_ Vm membrane potential value $V_d$ in this equation, because NMDA receptors are located primarily on input-receiving dendrites (see [[neuron dendrites]] for details).
+
+This function is of a sigmoidal, "S-shaped" form, increasing to an asymptotic value as the voltage increases; the relevant portion of this function is on the left side of the sigmoid as you can see in [[#plot_nmda:GV run]]. The decrease that we see in _I_ as voltage increases is due to the standard tug-of-war Ohm's law multiplier that applies to all channel conductances ([[#eq_ampa_i]]).
 
 ## GABA-B
 

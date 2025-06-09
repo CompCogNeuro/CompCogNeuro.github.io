@@ -9,3 +9,6 @@ In the LLM context, this is predicting the next word that occurs in a stream of 
 
 The same principle applies to the brain: we can learn a tremendous amount about our world simply by trying to predict what happens next.
 
+TODO: full treatment of "deep leabra" predictive learning framework!
+
+

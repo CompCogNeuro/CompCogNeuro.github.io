@@ -138,7 +138,7 @@ addSlider(&gbarEStr, &gbarE, 1)
 addTauSlider(&vmTauStr, &vmTau, 50)
 ```
 
-[[#sim_vm_gbar]] provides an interactive exploration of this tug-of-war dynamic. As you drag the `E` (excitation) and `I` (inhibition) sliders, you control the strength of these two inputs, which are also plotted for easy visualization. The membrane potential `Vm` starts at 0, and is pushed up toward 1 by the `E` inputs, and down toward 0 by the `I` inputs. Thus, if you move `E` down toward 0, you can see that `Vm` barely gets off the ground, whereas if it is equal to `I` (e.g., both are 0.4) then `Vm` goes to exactly 0.5, reflecting an even balance between these opposing forces. When `E` is greater than `I` then, `Vm` goes increasingly higher, closer to 1. The `Vm Tau` slider controls the _rate_ at which `Vm` is updated (see [[time constant]] for critical background on such parameters), with larger values taking a longer time to converge on a stable final `Vm` value.
+[[#sim_vm_gbar]] provides an interactive exploration of this tug-of-war dynamic. As you drag the `E` (excitation) and `I` (inhibition) sliders, you control the strength of these two inputs, which are also plotted for easy visualization. The membrane potential `Vm` starts at 0, and is pushed up toward 1 by the `E` inputs, and down toward 0 by the `I` inputs. Thus, if you move `E` down toward 0, you can see that `Vm` barely gets off the ground, whereas if it is equal to `I` (e.g., both are 0.4) then `Vm` goes to exactly 0.5, reflecting an even balance between these opposing forces. When `E` is greater than `I` then, `Vm` goes increasingly higher, closer to 1. The `Vm Tau` slider controls the _rate_ at which `Vm` is updated (see [[exponential integration]] for critical background on such parameters), with larger values taking a longer time to converge on a stable final `Vm` value.
 
 * What happens when `E` and `I` are both tied, but both at 0.2, or both at 0.8? Are these cases equivalent in all respects in terms of the resulting `Vm` plot? If not, in which ways do they differ?
 
@@ -233,7 +233,7 @@ $$
 V_m\left(t\right) = V_m\left(t-1\right) + \frac{1}{\tau_{vm}} I_{net}
 $$
 
-$V_m(t)$ is the current value of $V_m$, which is updated from value on the previous time step $V_m(t-1)$, and the $\tau_{vm}$ is a [[time constant]] that determines how fast the membrane potential changes. It mainly reflects the capacitance of the neuron's membrane.
+$V_m(t)$ is the current value of $V_m$, which is updated from value on the previous time step $V_m(t-1)$, and the $\tau_{vm}$ is an [[exponential integration]] time constant that determines how fast the membrane potential changes. It mainly reflects the capacitance of the neuron's membrane.
 
 The above two equations are the most essential tools we need to simulate a neuron on a computer. It tells us how the membrane potential changes as a function of the inhibitory, leak and excitatory inputs --- given specific numbers for these input conductances, and a starting $V_m$ value, we can then **iteratively** compute the new $V_m$ value according to the above equations, and this will accurately reflect how a real neuron would respond to similar such inputs.
 
@@ -252,7 +252,7 @@ The excitatory and inhibitory input conductances represent the total number of i
 
 * $\overline{g}$ ("g-bar") --- a constant value that determines the **maximum conductance** that would occur if every ion channel were to be open, and:
 
-* $g\left(t\right)$ --- a dynamically changing variable that indicates at the present moment, what fraction of the total number of ion channels are currently open (goes between 0 and 1). All of the computed values in simulations go into this value, with the $\overline{g}$ effectively just providing a conversion of these normalized 0..1 values into the appropriate neurobiological units, as shown in [[#Units and parameters]].
+* $g(t)$ --- a dynamically changing variable that indicates at the present moment, what fraction of the total number of ion channels are currently open (goes between 0 and 1). All of the computed values in simulations go into this value, with the $\overline{g}$ effectively just providing a conversion of these normalized 0..1 values into the appropriate neurobiological units, as shown in [[#Units and parameters]].
 
 Thus, the total conductances of interest are written as:
 
@@ -273,20 +273,29 @@ $$
 
 (note that because leak is a constant, it does not have a dynamically changing value, only the constant g-bar value).
 
-This separation of terms makes it easier to compute the conductance, because all we need to focus on is computing the proportion or fraction of open ion channels of each type. This can be done by computing the average number of ion channels open at each synaptic input to the neuron:
+This separation of terms makes it easier to compute the conductance, because all we need to focus on is computing the proportion or fraction of open ion channels of each type. This can be done by computing the average number of ion channels open at each synaptic input to the neuron. As we discuss in [[neuron channels]], the fast synaptic channels involved in excitation ([[neuron channels#AMPA]]) and inhibition ([[neuron channels#GABA-A]]) respond in less than a millisecond to new neurotransmitter binding, and have exponential decay constants that cause them to stay open for a few milliseconds after this initial binding.
 
-{id="eq_gbar-e-sum" title="Excitatory proportion open"}
+The rise (opening) component of the excitatory conductance is computed as a function of the new _glutamate_ neurotransmitter released by the presynaptic sending neurons that binds to the AMPA channels (as shown in [[#figure_synapse]]), which we label in the simulation code as `GeRaw`:
+
+{id="eq_ge-raw" title="Excitatory raw glutamate"}
 $$
-g_e(t) = \frac{1}{n} \sum_i x_i w_i
+g_{e-raw}(t) = \frac{1}{n} \sum_i x_i w_i
 $$
 
-where $x_i$ is the **activity** of a particular sending neuron indexed by the subscript *i*, $w_i$ is the **synaptic weight strength** that connects sending neuron *i* to the receiving neuron, and *n* is the total number of channels of that type (in this case, excitatory) across all synaptic inputs to the cell. As discussed in [[neuron detector]], the synaptic weight determines what patterns the receiving neuron is sensitive to, and is what adapts with learning --- this equation shows how it enters mathematically into computing the total amount of excitatory conductance.
+where $x_i$ is the 0 or 1 **spiking activity** of a particular sending neuron indexed by the subscript $i$, which is subject to axonal conductance delays in arriving at the synapse as discussed below. $w_i$ is the **synaptic weight strength** that connects sending neuron $i$ to the receiving neuron, which is a function of the number and efficacy of the AMPA receptors at this synapse. $n$ is the total number of channels of that type (in this case, excitatory) across all relevant synaptic inputs, which we use to normalize this term. As discussed in [[neuron detector]], the synaptic weight determines what patterns the receiving neuron is sensitive to, and is what adapts with learning --- this equation shows how it enters mathematically into computing the total amount of excitatory conductance.
 
-The above equation suggests that the neuron performs a very simple function to determine how much input it is getting: it just adds it all up from all of its different sources (and takes the average to compute a proportion instead of a sum). Each input source contributes in proportion to how active the sender is, multiplied by how much the receiving neuron cares about that information, determined by the synaptic weight value. We also refer to this average total input as the **net input**.
+The resulting AMPA excitatory conductance is integrated over time from this raw new input, plus the exponential decay of previously opened channels:
 
-The same equation holds for inhibitory input conductances, which are computed in terms of the activations of inhibitory sending neurons, times the inhibitory weight values.
+{id="eq_ge" title="Excitatory AMPA conductance"}
+$$
+g_e(t) = g_{e-raw}(t) + g_e(t-1) \left( 1 - \frac{1}{\tau_d} \right)
+$$
 
-The _activity_ factor $x_i$ in [[#eq_gbar-e-sum]] reflects the time-varying synaptic conductance after the sending neuron fires a spike (action potential), which is described in more detail in [[neuron channels]] for the different channel types. For example, the excitatory _AMPA_ channels open when the sending neuron releases the neurotransmitter _glutamate_ (as shown in [[#figure_synapse]]), and this conductance decays exponentially with a time constant of about 5 ms ([[@HestrinNicollPerkelEtAl90]]). _GABA_ inhibitory channels have a time constant of around 7 ms ([[@XiangHuguenardPrince98]]).
+[[#eq_ge-raw]] suggests that the neuron performs a very simple function to determine how much input it is getting: it just adds it up from all of its different sources (and takes the average to compute a proportion instead of a sum). Each input source contributes in proportion to how active the sender is, multiplied by how much the receiving neuron cares about that information, determined by the synaptic weight value. We also refer to this average total input as the **net input**, which is the term used in [[abstract neural network]] models.
+
+The same types of equations apply to inhibitory input conductances, which are computed in terms of the activations of inhibitory sending neurons, times the inhibitory weight values, and involve the GABA neurotransmitter and GABA-A receptors.
+
+The AMPA receptor conductance decays exponentially with a time constant $\tau_d$ of about 5 ms ([[@HestrinNicollPerkelEtAl90]]), while GABA-A inhibitory channels have a time constant of around 7 ms ([[@XiangHuguenardPrince98]]).
 
 Functionally, this extra trace of discrete spiking inputs supports the _temporal summation_ of inputs over time, so that inputs arriving within this temporal integration window can add together to drive larger overall excitatory conductances.
 

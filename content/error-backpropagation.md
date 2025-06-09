@@ -15,7 +15,7 @@ The most commonly used technique to perform gradient descent in backprop models,
 
 ## Derivation of backprop
 
-{id="figure_bp-compute"}
+{id="figure_bp-compute"  style="height:15em"}
 ![Illustration of backpropgation computation in three-layer network. First, the feedforward activation pass generates a pattern of activations across the units in the network, cascading from input, to hidden to output.  Then, δ (delta) values are propagated backward in the reverse direction across the same weights. The delta sum is broken out in the hidden layer to facilitate comparison with the GeneRec algorithm, and the learning rate factor is omitted for simplicity.](media/fig_bp_compute_delta.png)
 
 Even though the software can compute the gradients for you automatically, it is important to work through the logic of the backpropagation calculus to actually understand what is going on, and especially to understand different ways of performing these computations in a more biologically plausible manner, as in the [[GeneRec]] algorithm. [[#figure_bp-compute]] shows how it works in the case of a simple 3 layer feedforward network.
@@ -54,7 +54,7 @@ $$
 f_l'(x) = f_l(x) (1 - f_l(x))
 $$
 
-However, a major problem with this logistic function from a practical perspective is that it causes an _exponential decay_ of the error signal across layers in a multilayer ("deep") neural network, which is one major reason that these early networks did not typically work well when adding more such hidden layers. This is know as the _vanishing gradients_ problem. Also, the computation of the exponential function is relatively slow on a digital computer.
+However, a major problem with this logistic function from a practical perspective is that it causes an _exponential decay_ of the error signal across layers in a multilayer ("deep") neural network, which is one major reason that these early networks did not typically work well when adding more such hidden layers. This is known as the _vanishing gradients_ problem. Also, the computation of the exponential function is relatively slow on a digital computer.
 
 For these reasons, modern backpropagation networks typically use the _ReLU_ _rectified linear unit_ function, which is piecewise linear:
 
