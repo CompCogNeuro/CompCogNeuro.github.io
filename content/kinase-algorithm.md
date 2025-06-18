@@ -11,7 +11,7 @@ The relevant background for this algorithm is presented in the following pages:
 
 * [[Temporal derivative]] provides a high-level account for the essential computational principles behind this algorithm, including an interactive simulation of how a competitive interaction between fast and slow pathways can compute the _error gradient_ at the heart of error-driven learning.
 
-* [[GeneRec]] derives a concrete learning algorithm directly from the mathematics of [[error backpropagation]], which uses [[bidirectional connectivity]] to propagate error gradients throughout the [[neocortex]]. The kinase algorithm is closely related to GeneRec.
+* [[GeneRec]] derives a concrete learning algorithm directly from the mathematics of [[error backpropagation]], which uses [[bidirectional connectivity]] to propagate error gradients throughout the [[neocortex]]. The kinase algorithm leverages the same principles at a computational level, while using more directly biologically-based mechanisms that also have some important quantitative differences in the gradients computed.
 
 * [[Jiang et al 2025]] presents initial direct evidence showing that the direction of synaptic plasticity in neurons recorded in the mouse CA1 area is consistent with the temporal derivative hypothesis.
 
@@ -50,6 +50,8 @@ In the kinase algorithm, the _Error_ factor is computed from the dendrite-level 
 Due to the continuous-time nature of the Axon model, which simulates neural dynamics at the 1 ms per cycle timescale, it takes roughly 200 cycles for each "trial" of processing to unfold, corresponding to a [[theta cycle]]. The kinase algorithm provides an account of how information accumulates to drive effective learning based on the statistics of pre and postsynaptic spiking over this 200 ms window.
 
 In the [[predictive learning]] framework typically used, this time window encompasses an iteration of prediction (minus phase) followed by an outcome (plus phase), and then learning occurs at the end of the plus phase. The specific events that could trigger this learning in a biologically-realistic manner are described below. Aside from this temporal discretization of the learning process (and external dynamics of the environment), all of the other equations in Axon operate continuously over time, providing a real-time model of actual neural processing.
+
+There are also longer timescale synaptic processes included in the kinase algorithm, which significantly improve the stability of learning over time, detailed below ([[#Stabilization and rescaling mechanisms]]). These processes are motivated by a range of neuroscience mechanisms, including those operating during sleep.
 
 ## Error gradient via dendritic Ca++
 
@@ -190,7 +192,7 @@ $$
 \rm{SR}(t) = \rm{CaSyn}_s(t) * \rm{CaSyn}_r(t)
 $$
 
-The longest time-integral of this SR value from the kinase cascade is then used as the _Syn_ credit assignment value in [[#eq_kinase-dw]] (in theory CaP would be multiplied by the CaP-timescale integral, and CaD would be multiplied by the CaD timescale, but we just have one value and use the longer timescale as it defines the full span of the relevant values).
+The longest time-integral of this SR value from the kinase cascade is then used as the _Syn_ credit assignment value in [[#eq_kinase-dw]] (in theory CaP would be multiplied by the CaP-timescale integral, and CaD would be multiplied by the CaD timescale, but we just have one value and use the longer timescale as it defines the full span of the relevant values; also multiplying each dendritic factor by the corresponding Syn time integral did not work as well in larger networks).
 
 Extensive empirical tests of the above credit assignment mechanism showed that it works significantly better in practice across a range of challenging tasks, relative to a range of other different possibilities that were explored. In particular, the fine-grained sensitivity of this mechanism to the coincidence of pre-and-post firing on the timescale of about 30 ms appears to provide a critical credit assignment factor for determining the extent to which different synapses should be modified in order to reduce the error gradients represented by the $\delta$ factor.
 
@@ -214,36 +216,165 @@ In biophysical terms, the CaMKII and DAPK1 competitive binding dynamic takes pla
 
 This rule was implemented and tested extensively, and it worked well across a wide range of tasks. The "omniscient" version where we know when the plus phase ends still learns faster, and we continue to use that in our models to save computational time, but especially in the much larger scale of the actual mammalian brain, this issue does not appear to pose a significant problem for the overall biological feasibility of the kinase algorithm.
 
-## Credit Assignment: Temporal Eligibility Trace
-
-
-* Supporting a temporally-extended _eligibility trace_ factor that provides a biologically-plausible way of approximating the computationally-powerful backprop-through-time (BPTT) algorithm [[@BellecScherrSubramoneyEtAl20]].
-
-Key factor is an eligibility trace defined as the chained _local_ partial derivative of the individual neuron onto itself:
-
-$$
-e^t = \frac{\partial h^t}{\partial h^{t-1}} \frac{\partial h^{t-1}}{\partial h^{t-2}} ...
-$$
-
-This can be recursively computed by multiplying the accumulated $e^{t-1}$ factor times the new partial derivative. Logically, this partial derivative could be approximated by the trial-wise delta of CaD states. Give that a try.
-
 ## Stabilization and rescaling mechanisms
 
-A collection of biologically-motivated mechanisms are used to provide a stronger "backbone" or "spine" for the otherwise somewhat "squishy" learning that emerges from the above error-driven learning mechanisms, serving to stabilize learning over longer time scales, and prevent parasitic positive feedback loops that otherwise plague these bidirectionally-connected networks. These positive feedback loops emerge because the networks tend to settle into stable attractor states due to the bidirectional, generally symmetric connectivity, and there is a tendency for a few such states to get broader and broader, capturing more and more of the "representational space". The credit assignment process, which is based on activation, contributes to this "rich get richer" dynamic where the most active neurons experience the greatest weight changes. We colloquially refer to this as the "hog unit" problem, where a small number of units start to hog the representational space, and it represents a major practical barrier to effective learning if not managed properly. Note that this problem does not arise in the vast majority of purely feedforward networks used in the broader neural network field, which do not exhibit attractor dynamics. However, this kind of phenomenon is problematic in other frameworks with the potential for such positive feedback loops, such as on-policy reinforcement learning or generative adversarial networks.
+A collection of biologically-motivated mechanisms are used to provide a stronger "backbone" or "spine" for the otherwise somewhat "squishy" learning that emerges from the above error-driven learning mechanisms, serving to stabilize learning over longer time scales, and prevent parasitic positive feedback loops that otherwise plague these bidirectionally-connected networks. These positive feedback loops emerge because the networks tend to settle into stable attractor states due to the bidirectional, generally symmetric connectivity, and there is a tendency for a few such states to get broader and broader, capturing more and more of the "representational space".
 
-Metaphorically, various forms of equalizing taxation and wealth redistribution are required to level the playing field. The set of stabilizing, anti-hog mechanisms in Axon include:
+The credit assignment process, which is based on activation, contributes to this "rich get richer" dynamic where the most active neurons experience the greatest weight changes. We colloquially refer to this as the "hog unit" problem, where a small number of units start to hog the representational space, and it represents a major practical barrier to effective learning if not managed properly. Metaphorically, it akin to corruption and extreme wealth inequality in the political or economic world: it reduces the overall efficiency of the system and can lead to significant breakdowns if it gets too severe.
 
-* **SWt:** structural, slowly-adapting weights. In addition to the usual learning weights driven by the above equations, we introduce a much more slowly-adapting, multiplicative \texttt{SWt} that represents the biological properties of the dendritic \emph{spine} -\/- these SWts "literally" give the model a spine! Spines are structural complexes where all the synaptic machinery is organized, and they slowly grow and shrink via genetically-controlled, activity-dependent protein remodeling processes, primarily involving the \emph{actin} fibers also found in muscles. A significant amount of spine remodeling takes place during sleep -\/- so the SWt updating represents a simple model of sleep effects.
+Note that this problem does not arise in the vast majority of purely feedforward networks used in the broader neural network field, which do not exhibit attractor dynamics. However, this kind of phenomenon is problematic in other frameworks with the potential for such positive feedback loops, such as on-policy reinforcement learning, generative adversarial networks, or other forms of recurrent backpropagation networks such as backprop-through-time (BPTT; [[@LillicrapSantoro19]]; [[@LinsleyAshokGovindarajanEtAl20]]).
 
-The SWt is multiplicative in the sense that larger vs. smaller spines provide more or less room for the AMPA receptors that constitute the adaptive weight value. The net effect is that the more rapid trial-by-trial weight changes are constrained by this more slowly-adapting multiplicative factor, preventing more extreme changes. Furthermore, the SWt values are constrained by a zero-sum dynamic relative to the set of receiving connections into a given neuron, preventing the neuron from increasing all of its weights higher and hogging the space. The SWt is also initialized with all of the randomness associated with the initial weights, and preserving this source of random variation, preventing weights from becoming too self-similar, is another important function.
+Continuing the above metaphor, various forms of equalizing taxation and wealth redistribution are required to level the playing field in these models. The set of stabilizing, anti-hog mechanisms in Axon include:
 
-* **Target activity levels:** There is extensive evidence from Gina Turrigiano and collaborators, among others, that synapses are homeostatically rescaled to maintain target levels of overall activity, which vary across individual neurons (e.g., {Torrado Pacheco et al., 2021}). Axon simulates this process, at the same slower timescale as updating the SWts (likewise associated with sleep), which are also involved in the rescaling process. The target activity levels can also slowly adapt over time, similar to an adaptive bias weight that absorbs the "DC" component of the learning signal {Schraudolph (1998)}, but this adaptation is typically subject to a zero-sum constraint, so any increase in activity in one neuron must be compensated for by reductions elsewhere.
+* **SWt:** structural, slowly-adapting weights. In addition to the usual learning weights driven by the above equations, we introduce a slowly-adapting, multiplicative weight value that represents the biophysical properties of the dendritic spine -- the SWts "literally" give the model a spine!
 
-This is similar to a major function performed by the BCM learning algorithm in the Leabra framework -\/- by moving this mechanism into a longer time-scale outer-loop mechanism (consistent with Turigiano's data), it worked much more effectively. By contrast, the BCM learning ended up interfering with the error-driven learning signal, and required relatively quick time-constants to adapt responsively as a neuron's activity started to change.
+    As reviewed in [[synaptic plasticity]] spines are structural complexes where all the synaptic machinery is organized, and they slowly grow and shrink via genetically-controlled, activity-dependent protein remodeling processes, primarily involving the _actin_ fibers also found in muscles. A significant amount of spine remodeling takes place during sleep, so the SWt updating represents a simple model of sleep effects.
 
-* **Zero-sum weight changes:** In some cases it can also be useful
-to constrain the faster error-driven weight changes to be zero-sum, which is supported by an optional parameter. This zero-sum logic was nicely articulated by {Schraudolph (1998)}, and is implemented in the widely-used ResNet models.
+    The SWt is multiplicative in the sense that larger vs. smaller spines provide more or less room for the AMPA receptors that constitute the adaptive weight value. The net effect is that the more rapid trial-by-trial weight changes are constrained by this more slowly-adapting multiplicative factor, preventing more extreme changes. Furthermore, the SWt values are constrained by a zero-sum dynamic relative to the set of receiving connections into a given neuron, preventing the neuron from increasing _all_ of its weights higher and hogging the space. The SWt is also initialized with all of the randomness associated with the initial weights, and preserving this source of random variation, preventing weights from becoming too self-similar.
 
-* **Soft bounding and contrast enhancement:** To keep individual weight magnitudes bounded, we use a standard exponential-approach "soft bounding" dynamic (increases are multiplied by \$1-w\$; decreases by \$w\$). In addition, as developed in the Leabra model, it is useful to add a \emph{contrast enhancement} mechanism to counteract the compressive effects of this soft bounding, so that effective weights span the full range of weight values.
+* **Homeostatic activity levels:** There is extensive evidence from Gina Turrigiano and collaborators, among others, that synapses are homeostatically rescaled to maintain target levels of overall activity, which vary across individual neurons [[@TorradoPachecoBottorffGaoEtAl21]. We simulate this process at the same slower timescale as updating the SWts (likewise associated with sleep), which are also involved in the rescaling process. The target activity levels can also slowly adapt over time, similar to an adaptive bias weight that absorbs the "DC" component of the learning signal ([[@Schraudolph98]]]], but this adaptation is typically subject to a zero-sum constraint, so any increase in activity in one neuron must be compensated for by reductions elsewhere.
+
+    This is similar to a major function performed by the BCM learning algorithm in the [[Leabra]] framework -- by moving this mechanism into a longer time-scale outer-loop mechanism (consistent with Turigiano's data), it works significantly more effectively. By contrast, the BCM learning ended up interfering with the error-driven learning signal, and required relatively quick time-constants to adapt responsively as a neuron's activity started to change.
+
+* **Soft bounding and contrast enhancement:** The strength of any given synaptic connection is strongly bounded, unlike the weights in most [[abstract neural network]] models.  We use a standard exponential-approach "soft bounding" dynamic (increases are multiplied by $1-w$; decreases by $w$). In addition, as developed in the [[Leabra]] model, it is useful to add a _contrast enhancement_ mechanism to counteract the compressive effects of this soft bounding, so that effective weights span the full range of weight values.
+
+* **Zero-sum weight changes:** In some cases it can also be useful to constrain the faster error-driven weight changes to be zero-sum, which is supported by an optional parameter. This zero-sum logic was nicely articulated by [[@^Schraudolph98]], and is implemented in the widely-used ResNet models.
+
+* **Sigmoidal activation derivative and noise suppression:** An important general learning principle is to focus learning changes on a smaller subset of neurons that are most likely to be particularly _sensitive_ to the current learning context (stimulus, nature of the errors, etc), so that the changes will have the maximum impact while minimizing changes to neurons that are already committed to other contexts, to reduce interference effects. Interestingly, this is the effect of multiplying by the derivative of a sigmoidal activation function in error backpropagation ($y' = y (1-y)$ for the standard logistic function).  This concentrates learning on the most sensitive neurons with activations around .5, while those that are already strongly committed to being on or off learn less.
+
+    On the other hand, it also contributes to the vanishing gradient problem, which is especially problematic if there aren't other mechanisms that keep neurons in their sensitive range. In Axon, the closely balanced [[inhibition]] does a good job of keeping neurons in their sensitive range. Furthermore, as shown in [[#figure_ca++-integration]], there is a considerable amount of noise in the integrated Ca++-driven values that drive learning, due to the discrete spiking. For these reasons, it ends up being beneficial to multiply by the derivative of a sigmoid function, even though the kinase error gradient ([[#eq_kinase-delta]]) implicitly compute the derivative of the effective activation, as shown in the [[GeneRec]] derivation. Further, applying a further multiplier that selectively suppresses small error gradients is also beneficial. Both of these are accomplished by an additional receiving-neuron-based learning rate modulator (`RLRate`) that multiplies the synaptic weight changes.
+
+### Implementation
+
+There are three weight values at each synapse, and a `DWt` that accumulates $\Delta w$ until the weight values are updated:
+* `SWt` = slow, structural weight, which is only updated every `SlowInterval` trials (default 100).
+* `LWt` = learned, linear weight, which reflects the internal biochemical state of the synapse that is updated with learning. This is what the `DWt` $\Delta w$ values directly add to, and is subject to soft weight bounding within a normalized range of 0..1.
+* `Wt` = effective weight that determines impact of synaptic glutamate release, i.e., the number and efficacy of AMPA receptors in the PSD. This is computed as a sigmoidal function of the `LWt` to implement contrast enhancement in the context of soft weight bounding, multiplied by the `SWt` value:
+
+{id="eq_wt" title="Wt from LWt, SWt"}
+$$
+\rm{Wt} = \rm{SWt} \frac{2}{1 + \left( \frac{1-\rm{LWt}}{\rm{LWt}} \right)^6}
+$$
+
+{id="plot_sigmoid" title="Sigmoidal contrast enhancement function" collapsed="true"}
+```Goal
+##
+points := 100
+lin := zeros(points) // linear values
+sig := zeros(points) // sigmoidal values
+##
+
+for v := range 100 {
+    ##
+	l := max(array(v) / points, 1.0e-6)
+    s := 2.0 / (1.0 + ((1 - l) / l)**6)
+    lin[v] = l
+    sig[v] = s
+    ##
+}
+
+plotStyler := func(s *plot.Style) {
+    s.Range.SetMax(2).SetMin(0)
+    s.Plot.XAxis.Label = "Linear"
+    s.Plot.XAxis.Range.SetMax(1).SetMin(0)
+	s.Plot.Legend.Position.Left = true
+}
+plot.SetStyler(sig, plotStyler) 
+
+fig1, pw := lab.NewPlotWidget(b)
+sl := plots.NewLine(fig1, plot.Data{plot.X: lin, plot.Y: sig})
+```
+
+The sigmoidal function ([[#plot_sigmoid]]) goes from 0..2 centered on 1, so that if `LWt == 0.5` the `Wt` value is equal to `SWt`, and learned weight values above 0.5 increase the effective weight above its "baseline" `SWt` value, while `LWt` values below 0.5 decrease it below `SWt`.
+
+The soft-bounded increment in `LWt` from learning reduces increases in weight values as the `LWt` approaches 1, and reduces decreases as it approaches 0:
+
+{id="eq_sb" title="Soft bounding"}
+$$
+\rm{if} \; \rm{DWt} > 0: \rm{LWt} \mathrel{+}= \rm{DWt}(1 - \rm{LWt})
+$$
+
+$$
+\rm{else}: \rm{LWt} \mathrel{+}= \rm{DWt} (\rm{LWt})
+$$
+
+#### Zero-sum weight changes
+
+<!--- TODO: update with effects of LearnThr -->
+
+A `SubMean` parameter is used to implement a graded version of zero-sum weight changes (for both LWt and SWt), which determines how much of the mean weight change value to subtract before applying weight changes. Critically, only synapses that actually have non-zero weight changes enter into this zero-sum computation, including in the computation of the mean itself, as indicated by the $x|_{!0}$ notation:
+
+{id="eq_submean" title="Zero-sum"}
+$$
+\rm{DWt} \mathrel{-}= \rm{SubMean} \frac{1}{n} \sum \rm{DWt}|_{!0}
+$$
+
+#### SWt updating
+
+Initial random weight values are set using uniform random numbers, typically with a mean of 0.5 and variance 0.25. The `SWtPct` factor (default 0.5) determines what proportion of the variance is put in the `SWt` vs. `LWt` component. By putting more of the variance into the slowly adapting value, this variance is better preserved over the course of learning, at the cost of somewhat slower learning overall, as the `SWt` multiplicative factor has a greater influence on net effective weight values.
+
+Limits on the range of the `SWt` values are also imposed to preserve some influence from learning, by default in the range from 0.2 to 0.8.
+
+The `SWt` is updated using the accumulated `DWt` values since the last update, with a significantly slower learning rate, that operates on top of the standard learning rate. For smaller, faster-learning models, this additional learning rate factor is 0.1 by default, but for larger, deeper models that require greater stabilization, values as low as 0.0002 work best. 
+
+<!---  TODO: revisit -->
+
+#### Homeostatic mechanisms
+
+Each neuron in an inhibitory pool is initialized with a target average activity level `TrgAvg`, as a proportion of the overall layer average activity, sampled uniformly from a range (0.5 to 2 by default). Thus, a neuron with a `TrgAvg` value of 1 has an effective target activity level equal to the average activity across that pool.
+
+The primary function of the `TrgAvg` value is to drive rescaling of the learning synaptic weights as a function of the difference between this target value and the actual average activity of the neuron over the recent interval:
+
+{id="eq_dtrgavg" title="Target average learning"}
+$$
+\rm{LWt} \mathrel{+}= \epsilon (\rm{TrgAvg} - \rm{AvgPct})
+$$
+
+Where $\epsilon$ is a learning rate factor (`SynScaleRate`) that defaults to 0.005 but is lower in larger, more slowly-learning models (0.0002).
+
+Over the course of learning, this target value is updated by the neuron-wise error gradient values, subject to a zero-sum constraint:
+
+{id="eq_dtrgavg" title="Target average learning"}
+$$
+\rm{DTrgAvg} \mathrel{+}= \epsilon \delta
+$$
+
+$$
+\rm{TrgAvg} \mathrel{+}= \rm{DTrgAvg} - \frac{1}{n} \sum \rm{DTrgAvg}
+$$
+
+where $\epsilon$ is a learning rate factor (`ErrLRate`; 0.02 default) and $\delta$ is the neuron-wise error gradient, computed from the `CaP` - `CaD` difference ([[#Kinase cascade]]). This is then subject to a zero-sum constraint when the target value is updated at the slow interval, as shown in the second equation.
+
+## Eligibility trace
+
+There is considerable evidence for temporal eligibility traces in learning under various conditions, as reviewed in [[synaptic plasticity]]. From a computational perspective, [[@^BellecScherrSubramoneyEtAl20]] derived a trace equation that provides a biologically-plausible way of approximating the computationally-powerful backprop-through-time (BPTT) algorithm ([[@Werbos90]]), involving a chain of _local_ partial derivatives computed with respect to the neuron itself:
+
+{id="eq_etrace-bptt" title="Self derivatives"}
+$$
+e(t) = \frac{\partial y(t)}{\partial y(t-1)} \frac{\partial y(t-1)}{\partial y(t-2)} ...
+$$
+
+This can be recursively computed by multiplying the accumulated $e^{t-1}$ factor times the new partial derivative. In the kinase framework, the partial derivative at the current time point can be computed using a difference approximation based on the error gradient definition ([[#eq_kinase-dw]]):
+
+{id="eq_etrace-cad" title="Kinase trace"}
+$$
+e(t) = (\rm{CaD}(t) - \rm{CaD}(t-1)) e(t-1)
+$$
+
+And to avoid using an arbitrary temporal cutoff at some number of time steps in the past, an exponential integration can be used with a time constant of integration to provide a continuous update equation:
+
+{id="eq_etrace-cad-tau" title="Exponential kinase trace"}
+$$
+e(t) = e(t-1) + \frac{1}{\tau_e} \left( (\rm{CaD}(t) - \rm{CaD}(t-1)) - e(t-1) \right)
+$$
+
+This trace factor can be used to modulate the existing learning rule ([[#eq_kinase-dw]]) with a weighting factor $\lambda$ to determine the overall magnitude of its effects:
+
+{id="eq_kinase-dw-et" title="Kinase learning rule"}
+$$
+\Delta w \propto (\rm{CaP} - \rm{CaD}) \rm{Syn} (1 + \lambda e(t))
+$$
+
+Using this equation provides significant benefits on tasks with temporal structure, typically with a $\tau_e$ factor of around 2-4 and $\lambda$ around 0.5.
 
 
