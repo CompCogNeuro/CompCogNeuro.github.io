@@ -41,7 +41,7 @@ Hopefully you can see that overall there is a relatively consistent pattern of a
 
 You should see a row of spiking activity at almost the same cycle in the top layer for most of the neurons, followed by a long pause and then some sporadic spiking after that. This increase in neural _synchrony_ is also characteristic of unconscious states, whereas waking, conscious brain states are characterized by much weaker levels of synchrony and sparser overall activity levels, with only a fraction of the excitatory neurons active (10-15% in general).
 
-Because the NMDA channels provide additional excitation (as you can see in the [[neuron sim]]), we can try reducing the inhibition level, to allow more overall excitation.
+Because the NMDA channels provide additional excitation (as you can see in the [[neuron simulation]]), we can try reducing the inhibition level, to allow more overall excitation.
 
 * Set [[#sim_stability:Inhib gi]] to 0.8 instead of 0.85, which reduces the strength of the GABA-A conductance computed as described in [[inhibition]]. Then do `Init` and `Step` again. Keep reducing it, and also try doing multiple `Step`s to see what happens over different input patterns. The network activity state carries over across different inputs, which will sometimes disrupt the synchronous firing.
 

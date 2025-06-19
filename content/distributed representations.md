@@ -1,5 +1,5 @@
 +++
-Categories = ["Activation", "Categorization", "Axon"]
+Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
@@ -22,7 +22,7 @@ The specific type of distributed representations present in the [[neocortex]] ar
 {id="figure_topo" style="height:30em"}
 ![Schematic diagram of topographically organized shape representations in monkey IT cortex, from Tanaka (2003) --- each small area of IT responds optimally to a different stimulus shape, and neighboring areas tend to have similar but not identical representations.](media/fig_tanaka03_topo.png)
 
-Some real-world data on distributed representations is shown in the above Figures. [[#figure_dist-graded]] shows that individual neurons respond in a **graded** fashion as a function of **similarity** to inputs relative to the optimal thing that activates them. We saw this same property in the [[detector sim]], especially when the leak conductance is reduced to allow firing to multiple stimuli.
+Some real-world data on distributed representations is shown in the above Figures. [[#figure_dist-graded]] shows that individual neurons respond in a **graded** fashion as a function of **similarity** to inputs relative to the optimal thing that activates them. We saw this same property in the [[detector simulation]], especially when the leak conductance is reduced to allow firing to multiple stimuli.
 
 [[#figure_maps]] shows an overall summary map of the topology of shape representations in monkey inferotemporal (IT) cortex, where each area has a given optimal stimulus that activates it, while neighboring areas have similar but distinct optimal stimuli. Thus, any given shape input will be encoded as a distributed pattern across all of these areas to the extent that it has features that are sufficiently similar to activate the different detectors. A more continuous transformation of different stimuli is sometimes present as well, as shown in [[#figure_topo]].
 

@@ -17,7 +17,7 @@ Most biological neurons have a system of ion channels that drive a brief (&lt; 1
 
 The $Na^+$ (sodium) and $K^+$ (potassium) channels underlying neural spiking were first described by [[@^HodgkinHuxley52]], and have remained a cornerstone of neuroscience since then. However, the actual "HH" channel dynamics require a very fast rate of numerical integration because a lot happens in a very short period of time, so they are not computationally efficient to use directly. Instead, we adopt in axon a widely-used and well-established approximation called _AdEx_ ( _Adaptive Exponential_; [[@BretteGerstner05]]), that uses an exponential function to approximate the voltage spike, and it also captures the spike rate [[adaptation]] dynamics of the actual HH equations.
 
-To explore the full behavior of Axon spiking neurons interactively, see the [[neuron sim]], which allows you to observe the behavior of the different channels.
+To explore the full behavior of Axon spiking neurons interactively, see the [[neuron simulation]], which allows you to observe the behavior of the different channels.
 
 Spiking neurons have several important differences from [[rate code activation]]s, which are dominant in more [[abstract neural network]] models such as those used in [[large language model]]s (LLMs), and were used in the [[Leabra]] model. In a rate code, neurons continuously communicate a floating point value representing something like the instantaneous rate of spiking.
 
@@ -484,7 +484,7 @@ See the page on [[neuron channels]] for more details about the biological proper
 
 There are several additional in-depth pages providing more details about biological and computational neurons:
 
-* [[Neuron sim]]: provides an interactive exploration of the full set of [[Axon]] neuron equations responding to a simple pulse of excitation.
+* [[Neuron simulation]]: provides an interactive exploration of the full set of [[Axon]] neuron equations responding to a simple pulse of excitation.
 
 * [[Neuron detector]]: describes the high-level conceptual model of a neuron as a detector, including a simulation thereof.
 

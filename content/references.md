@@ -66,6 +66,8 @@
 
 <p id="BuchholzGuilabertEhretEtAl23">Buchholz, M.O., Guilabert, A.G., Ehret, B., & Schuhknecht, G.F.P. (2023). How synaptic strength, short-term plasticity, and input synchrony contribute to neuronal spike output. PLOS Computational Biology, 19, e1011046. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011046 http://doi.org/10.1371/journal.pcbi.1011046</p>
 
+<p id="BuffaloFriesLandmanEtAl11">Buffalo, E.A., Fries, P., Landman, R., Buschman, T.J., & Desimone, R. (2011). Laminar differences in gamma and alpha coherence in the ventral stream. Proceedings of the National Academy of Sciences of the United States of America, 108, 11262–11267. http://www.ncbi.nlm.nih.gov/pubmed/21690410</p>
+
 <p id="CainSnutch12">Cain, S.M., & Snutch, T.P. (2012). Voltage-Gated Calcium Channels in Epilepsy. In J.L. Noebels, M. Avoli, M.A. Rogawski, R.W. Olsen, & A.V. Delgado-Escueta (Eds.), Jasper's Basic Mechanisms of the Epilepsies (4th ed.). National Center for Biotechnology Information (US) http://www.ncbi.nlm.nih.gov/books/NBK98147/</p>
 
 <p id="Cardin18">Cardin, J.A. (2018). Inhibitory interneurons regulate temporal precision and correlations in cortical circuits. Trends in Neurosciences, 41, 689-700. https://www.sciencedirect.com/science/article/pii/S0166223618302078 http://doi.org/10.1016/j.tins.2018.07.015</p>
@@ -73,6 +75,14 @@
 <p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
 
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
+
+<p id="Chomsky65">Chomsky, N. (1965). Aspects of the Theory of Syntax. MIT Press. </p>
+
+<p id="Clark13">Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. Behavioral and Brain Sciences, 36, 181–204. http://www.ncbi.nlm.nih.gov/pubmed/23663408</p>
+
+<p id="ClaytonYeungKadosh18">Clayton, M.S., Yeung, N., & Kadosh, R.C. (2018). The many characters of visual alpha oscillations. European Journal of Neuroscience, 48, 2498-2508. http://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.13747 http://doi.org/10.1111/ejn.13747</p>
+
+<p id="CleeremansMcClelland91">Cleeremans, A., & McClelland, J.L. (1991). Learning the structure of event sequences. Journal of Experimental Psychology: General, 120, 235-253. </p>
 
 <p id="CohenRomeroFarahEtAl94">Cohen, J.D., Romero, R.D., Farah, M.J., & Servan-Schreiber, D. (1994). Mechanisms of Spatial Attention: The Relation of Macrostructure To Microstructure in Parietal Neglect. Journal of Cognitive Neuroscience, 6, 377–387. </p>
 
@@ -93,6 +103,8 @@
 <p id="CritcherHuberHoEtAl09">Critcher, C.R., Huber, M., Ho, A.K., & Koleva, S.P. (2009). Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs. Social Justice Research, 22, 181-205. https://doi.org/10.1007/s11211-009-0096-1 http://doi.org/10.1007/s11211-009-0096-1</p>
 
 <p id="CutsuridisPoirazi15">Cutsuridis, V., & Poirazi, P. (2015). A computational study on how theta modulated inhibition can account for the long temporal windows in the entorhinal–hippocampal loop. Neurobiology of Learning and Memory, 120, 69-83. https://www.sciencedirect.com/science/article/pii/S1074742715000234 http://doi.org/10.1016/j.nlm.2015.02.002</p>
+
+<p id="DayanHintonNealEtAl95">Dayan, P., Hinton, G.E., Neal, R.N., & Zemel, R.S. (1995). The {Helmholtz} machine. Neural Computation, 7, 889-904. </p>
 
 <p id="DebanneInglebert23">Debanne, D., & Inglebert, Y. (2023). Spike timing-dependent plasticity and memory. Current Opinion in Neurobiology, 80, 102707. https://www.sciencedirect.com/science/article/pii/S0959438823000326 http://doi.org/10.1016/j.conb.2023.102707</p>
 
@@ -120,6 +132,10 @@
 
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
 
+<p id="Elman90">Elman, J.L. (1990). Finding structure in time. Cognitive Science, 14, 179-211. </p>
+
+<p id="ElmanBatesKarmiloff-SmithEtAl96">Elman, J.L., Bates, E., Karmiloff-Smith, A., Johnson, M., Parisi, D., & Plunkett, K. (1996). Rethinking Innateness: A Connectionist Perspective on Development. MIT Press. </p>
+
 <p id="FahlmanLebiere89">Fahlman, S., & Lebiere, C. (1989). The Cascade-Correlation Learning Architecture. In Advances in Neural Information Processing Systems. Morgan-Kaufmann. https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html</p>
 
 <p id="FanKimJenningsEtAl23">Fan, L.Z., Kim, D.K., Jennings, J.H., Tian, H., Wang, P.Y., Ramakrishnan, C., Randles, S., Sun, Y., Thadhani, E., Kim, Y.S., Quirin, S., Giocomo, L., Cohen, A.E., & Deisseroth, K. (2023). All-optical physiology resolves a synaptic basis for behavioral timescale plasticity. Cell, 186, 543-559.e19. https://www.cell.com/cell/abstract/S0092-8674(22)01578-1 http://doi.org/10.1016/j.cell.2022.12.035</p>
@@ -129,6 +145,8 @@
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
+
+<p id="Friston05">Friston, K. (2005). A theory of cortical responses. Philosophical Transactions of the Royal Society B, 360, 815–836. http://www.ncbi.nlm.nih.gov/pubmed/15937014</p>
 
 <p id="FroemkeDan02">Froemke, R.C., & Dan, Y. (2002). Spike-timing-dependent synaptic modification induced by natural spike trains. Nature, 416, 433-437. http://www.ncbi.nlm.nih.gov/pubmed/11919633</p>
 
@@ -166,7 +184,11 @@
 
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
+<p id="HarrisShepherd15">Harris, K.D., & Shepherd, G.M.G. (2015). The neocortical circuit: themes and variations. Nature Neuroscience, 18(2), 170-181. http://www.nature.com/articles/nn.3917 http://doi.org/10.1038/nn.3917</p>
+
 <p id="HausserMel03">Hausser, M., & Mel, B. (2003). Dendrites: bug or feature? Current Opinion in Neurobiology, 13, 372-383. </p>
+
+<p id="HawkinsBlakeslee04">Hawkins, J., & Blakeslee, S. (2004). On Intelligence. Times Books. </p>
 
 <p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
 
@@ -179,6 +201,8 @@
 <p id="Hebb49">Hebb, D.O. (1949). The Organization of Behavior. Wiley. </p>
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
+
+<p id="Helmholtz67">Helmholtz, H. (1867). Treatise on Physiological Optics, Vol III. Courier Corporation. </p>
 
 <p id="HertzKroghPalmer91">Hertz, J., Krogh, A., & Palmer, R.G. (1991). Introduction to the Theory of Neural Computation. Addison-Wesley. </p>
 
@@ -212,11 +236,15 @@
 
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
 
+<p id="JensenBonnefondVanRullen12">Jensen, O., Bonnefond, M., & VanRullen, R. (2012). An oscillatory mechanism for prioritizing salient unattended stimuli. Trends in Cognitive Sciences, 16, 200–206. http://www.ncbi.nlm.nih.gov/pubmed/22436764</p>
+
 <p id="JuttenHerault91">Jutten, C., & Herault, J. (1991). Blind separation of sources, part I: An adaptive algorithm based on neuromimetic architecture. Signal Processing, 24, 1-10. https://www.sciencedirect.com/science/article/pii/016516849190079X http://doi.org/10.1016/0165-1684(91)90079-X</p>
 
 <p id="Kaczmarek13">Kaczmarek, L.K. (2013). Slack, Slick, and Sodium-Activated Potassium Channels. ISRN Neuroscience, 2013, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850776/ http://doi.org/10.1155/2013/354262</p>
 
 <p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
+
+<p id="KawatoHayakawaInui93">Kawato, M., Hayakawa, H., & Inui, T. (1993). A forward-inverse optics model of reciprocal connections between visual cortical areas. Network: Computation in Neural Systems, 4, 415-422. http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_4_001 http://doi.org/10.1088/0954-898X_4_4_001</p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
 
@@ -240,6 +268,8 @@
 
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
 
+<p id="LanChemlaKatzir24">Lan, N., Chemla, E., & Katzir, R. (2024). Large Language Models and the Argument from the Poverty of the Stimulus. Linguistic Inquiry, 1-28. https://doi.org/10.1162/ling_a_00533 http://doi.org/10.1162/ling_a_00533</p>
+
 <p id="LarkumZhuSakmann99">Larkum, M.E., Zhu, J.J., & Sakmann, B. (1999). A new cellular mechanism for coupling inputs arriving at different cortical layers. Nature, 398, 338-341. https://www.nature.com/articles/18686 http://doi.org/10.1038/18686</p>
 
 <p id="Larsson13">Larsson, H.P. (2013). What Determines the Kinetics of the Slow Afterhyperpolarization (sAHP) in Neurons? Biophysical Journal, 104, 281-283. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552283/ http://doi.org/10.1016/j.bpj.2012.11.3832</p>
@@ -251,6 +281,8 @@
 <p id="LiMaYangEtAl17">Li, W., Ma, L., Yang, G., & Gan, W. (2017). REM sleep selectively prunes and maintains new synapses in development and learning. Nature Neuroscience, 20(3), 427-437. http://www.nature.com/articles/nn.4479 http://doi.org/10.1038/nn.4479</p>
 
 <p id="LiaoXiongFetayaEtAl18">Liao, R., Xiong, Y., Fetaya, E., Zhang, L., Yoon, K., Pitkow, X., Urtasun, R., & Zemel, R. (2018). Reviving and Improving Recurrent Back-Propagation. In International Conference on Machine Learning (pp. 3082-3091). PMLR. http://proceedings.mlr.press/v80/liao18c.html</p>
+
+<p id="LillicrapSantoro19">Lillicrap, T.P., & Santoro, A. (2019). Backpropagation through time and the brain. Current Opinion in Neurobiology, 55, 82-89. https://www.sciencedirect.com/science/article/pii/S0959438818302009 http://doi.org/10.1016/j.conb.2019.01.011</p>
 
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
 
@@ -269,6 +301,8 @@
 <p id="MarkramMullerRamaswamyEtAl15">Markram, H., Muller, E., Ramaswamy, S., Reimann, M.W., Abdellah, M., Sanchez, C.A., Ailamaki, A., Alonso-Nanclares, L., Antille, N., Arsever, S., Kahou, G.A.A., Berger, T.K., Bilgili, A., Buncic, N., Chalimourda, A., Chindemi, G., Courcol, J., Delalondre, F., Delattre, V., Druckmann, S., Dumusc, R., Dynes, J., Eilemann, S., Gal, E., Gevaert, M.E., Ghobril, J., Gidon, A., Graham, J.W., Gupta, A., Haenel, V., Hay, E., Heinis, T., Hernando, J.B., Hines, M., Kanari, L., Keller, D., Kenyon, J., Khazen, G., Kim, Y., King, J.G., Kisvarday, Z., Kumbhar, P., Lasserre, S., Le Bé, J., Magalhães, B.R.C., Merchán-Pérez, A., Meystre, J., Morrice, B.R., Muller, J., Muñoz-Céspedes, A., Muralidhar, S., Muthurasa, K., Nachbaur, D., Newton, T.H., Nolte, M., Ovcharenko, A., Palacios, J., Pastor, L., Perin, R., Ranjan, R., Riachi, I., Rodríguez, J., Riquelme, J.L., Rössert, C., Sfyrakis, K., Shi, Y., Shillcock, J.C., Silberberg, G., Silva, R., Tauheed, F., Telefont, M., Toledo-Rodriguez, M., Tränkler, T., Van Geit, W., Díaz, J.V., Walker, R., Wang, Y., Zaninetta, S.M., DeFelipe, J., Hill, S.L., Segev, I., & Schürmann, F. (2015). Reconstruction and Simulation of Neocortical Microcircuitry. Cell, 163, 456-492.  http://doi.org/10.1016/j.cell.2015.09.029</p>
 
 <p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
+
+<p id="MathewsonGrattonFabianiEtAl09">Mathewson, K., Gratton, G., Fabiani, M., Beck, D., & Ro, T. (2009). To see or not to see: Prestimulus alpha phase predicts visual awareness. The Journal of Neuroscience, 29, 2725–2732. </p>
 
 <p id="MatsuzakiHonkuraEllis-DaviesEtAl04">Matsuzaki, M., Honkura, N., Ellis-Davies, G.C.R., & Kasai, H. (2004). Structural basis of long-term potentiation in single dendritic spines. Nature, 429, 761-766. https://www.nature.com/articles/nature02617 http://doi.org/10.1038/nature02617</p>
 
@@ -293,6 +327,10 @@
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
 <p id="MozerZemelBehrmannEtAl92">Mozer, M.C., Zemel, R.S., Behrmann, M., & Williams, C.K.I. (1992). Learning to segment images using dynamic feature binding. Neural Computation, 4, 650–665. </p>
+
+<p id="Mumford91">Mumford, D. (1991). On the computational architecture of the neocortex. Biological Cybernetics, 65, 135-145. https://link.springer.com/article/10.1007/BF00202389 http://doi.org/10.1007/BF00202389</p>
+
+<p id="Mumford92">Mumford, D. (1992). On the computational architecture of the neocortex. II. The role of cortico-cortical loops. Biological Cybernetics, 66, 241–251. http://www.ncbi.nlm.nih.gov/pubmed/1540675</p>
 
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
@@ -320,6 +358,8 @@
 
 <p id="OReillyRanganathRussin22">O’Reilly, R.C., Ranganath, C., & Russin, J.L. (2022). The Structure of Systematicity in the Brain. Current Directions in Psychological Science, 31, 124-130. https://doi.org/10.1177/09637214211049233 http://doi.org/10.1177/09637214211049233</p>
 
+<p id="OReillyRussinZolfagharEtAl21">O'Reilly, R.C., Russin, J.L., Zolfaghar, M., & Rohrlich, J. (2021). Deep Predictive Learning in Neocortex and Pulvinar. Journal of Cognitive Neuroscience, 33, 1158-1196. https://doi.org/10.1162/jocn_a_01708 http://doi.org/10.1162/jocn_a_01708</p>
+
 <p id="OReillyWyatteHerdEtAl13">O'Reilly, R.C., Wyatte, D., Herd, S.A., Mingus, B., & Jilk, D.J. (2013). Recurrent Processing during Object Recognition. Frontiers in Psychology, 4, http://www.ncbi.nlm.nih.gov/pubmed/23554596</p>
 
 <p id="Oja82">Oja, E. (1982). A simplified neuron model as a principal component analyzer. Journal of mathematical biology, 15, 267-273. http://www.ncbi.nlm.nih.gov/pubmed/7153672</p>
@@ -331,6 +371,8 @@
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
+
+<p id="Piantadosi23">Piantadosi, S.T. (2023). Modern language models refute Chomsky’s approach to language. From fieldwork to linguistic theory: A tribute to Dan Everett, 353–414. https://books.google.com/books?hl=en&lr=&id=BrcpEQAAQBAJ&oi=fnd&pg=PA353&ots=hQR6BV-AUL&sig=YWna5wy_SeF8i_NhGuav6_D_6xs</p>
 
 <p id="Pineda88">Pineda, F.J. (1988). Dynamics and Architecture for Neural Computation. Journal of Complexity, 4, 216-245. </p>
 
@@ -347,6 +389,10 @@
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
 
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
+
+<p id="RaoBallard99">Rao, R.P., & Ballard, D.H. (1999). Predictive coding in the visual cortex: A functional interpretation of some extra-classical receptive-field effects. Nature Neuroscience, 2, 79-87. http://www.ncbi.nlm.nih.gov/pubmed/10195184 http://doi.org/10.1038/4580</p>
+
+<p id="Reber67">Reber, A.S. (1967). Implicit Learning of Artificial Grammars. Journal of Verbal Learning and Verbal Behavior, 6, 855-863. </p>
 
 <p id="RedondoMorris11">Redondo, R.L., & Morris, R.G.M. (2011). Making memories last: the synaptic tagging and capture hypothesis. Nature Reviews Neuroscience, 12, 17-30. http://www.nature.com/nrn/journal/v12/n1/abs/nrn2963.html http://doi.org/10.1038/nrn2963</p>
 
@@ -371,6 +417,8 @@
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
 <p id="SabatiniOertnerSvoboda02">Sabatini, B.L., Oertner, T.G., & Svoboda, K. (2002). The life cycle of Ca2+ ions in dendritic spines. Neuron, 33, 439-452. https://www.sciencedirect.com/science/article/pii/S0896627302005731 http://doi.org/10.1016/S0896-6273(02)00573-1</p>
+
+<p id="SakataHarris09">Sakata, S., & Harris, K.D. (2009). Laminar structure of spontaneous and sensory-evoked population activity in auditory cortex. Neuron, 64, 404-418. http://www.ncbi.nlm.nih.gov/pubmed/19914188</p>
 
 <p id="Samuel59">Samuel, A.L. (1959). Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3, 210-229. https://ieeexplore.ieee.org/abstract/document/5392560 http://doi.org/10.1147/rd.33.0210</p>
 
@@ -400,6 +448,8 @@
 
 <p id="Shannon48">Shannon, C.E. (1948). A Mathematical Theory of Communication. Bell Systems Technical Journal, 27, 623-656. </p>
 
+<p id="ShermanGuillery06">Sherman, S.M., & Guillery, R.W. (2006). Exploring the Thalamus and Its Role in Cortical Function. MIT Press. http://www.scholarpedia.org/article/Thalamus</p>
+
 <p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
 
 <p id="ShouvalWangWittenberg10">Shouval, H.Z., Wang, S.S., & Wittenberg, G.M. (2010). Spike timing dependent plasticity: A consequence of more fundamental learning rules. Frontiers in Computational Neuroscience, 4, http://www.ncbi.nlm.nih.gov/pubmed/20725599</p>
@@ -409,6 +459,8 @@
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
+
+<p id="SummerfielddeLange14">Summerfield, C., & Lange, F.P. (2014). Expectation in perceptual decision making: neural and computational mechanisms. Nature Reviews Neuroscience, 15, 745-756. https://www.nature.com/nrn/journal/v15/n11/full/nrn3838.html http://doi.org/10.1038/nrn3838</p>
 
 <p id="Sutton88">Sutton, R.S. (1988). Learning to Predict by the Method of Temporal Differences. Machine Learning, 3, 9-44. </p>
 
@@ -421,6 +473,8 @@
 <p id="Swadlow90">Swadlow, H.A. (1990). Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties. Journal of Neurophysiology, 63, 1477-1498. https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477 http://doi.org/10.1152/jn.1990.63.6.1477</p>
 
 <p id="TanakaHoriikeMatsuzakiEtAl08">Tanaka, J., Horiike, Y., Matsuzaki, M., Miyazaki, T., Ellis-Davies, G.C.R., & Kasai, H. (2008). Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines. Science, 319, 1683-1687. https://www.science.org/doi/full/10.1126/science.1152864 http://doi.org/10.1126/science.1152864</p>
+
+<p id="Thomson10">Thomson, A.M. (2010). Neocortical layer 6, a review. Frontiers in Neuroanatomy, 4, http://www.ncbi.nlm.nih.gov/pubmed/20556241</p>
 
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
 
@@ -441,6 +495,8 @@
 <p id="UrakuboHondaFroemkeEtAl08">Urakubo, H., Honda, M., Froemke, R.C., & Kuroda, S. (2008). Requirement of an allosteric kinetics of NMDA receptors for spike timing-dependent plasticity. The Journal of Neuroscience, 28, 3310-3323. http://www.ncbi.nlm.nih.gov/pubmed/18367598</p>
 
 <p id="VanHarreveldFifkova75">Van Harreveld, A., & Fifkova, E. (1975). Swelling of dendritic spines in the fascia dentata after stimulation of the perforant fibers as a mechanism of post-tetanic potentiation. Experimental Neurology, 49, 736-749. https://www.sciencedirect.com/science/article/pii/0014488675900552 http://doi.org/10.1016/0014-4886(75)90055-2</p>
+
+<p id="VanRullenKoch03">VanRullen, R., & Koch, C. (2003). Is perception discrete or continuous? Trends in Cognitive Sciences, 7, 207–213. http://www.ncbi.nlm.nih.gov/pubmed/12757822</p>
 
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
 

@@ -94,7 +94,7 @@ $$
 
 <!--- todo: rename sim -> simulation so it all reads better directly -->
 
-As described in more detail in [[synaptic plasticity]], the influx of Ca++ ions via NMDA and VGCC channels then drives a complex cascade of chemical reactions involving various kinases and phosphatases, along with other molecules and critical binding dynamics, to ultimately drive changes in excitatory AMPA receptor number and efficacy, which is the end result of learning (see the [[Urakubo08 sim]] simulation for a detailed model of some of these processes).
+As described in more detail in [[synaptic plasticity]], the influx of Ca++ ions via NMDA and VGCC channels then drives a complex cascade of chemical reactions involving various kinases and phosphatases, along with other molecules and critical binding dynamics, to ultimately drive changes in excitatory AMPA receptor number and efficacy, which is the end result of learning (see the [[Urakubo08 simulation]] for a detailed model of some of these processes).
 
 {id="table_taus" title="Kinase time constants"}
 | Parameter            | Value  |

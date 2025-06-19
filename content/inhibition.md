@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 **Inhibitory competition**, mediated by specialized **inhibitory interneurons** in the [[neocortex]] ([[@Cardin18]]; [[@OkunLampl08]]) is important for providing dynamic regulation of overall network activity, which is especially critical when there are positive feedback loops between neurons as in the case of [[bidirectional connectivity]]. The existence of epilepsy in the human neocortex indicates that achieving the right balance between inhibition and excitation is difficult. The fact that the neocortex remains so close to the edge of controlling these positive feedback loops strongly suggests that the many functional benefits of this bidirectional excitatory connectivity are indeed crucial from an evolutionary perspective.
 
-Inhibition gives rise to **sparse** [[distributed representations]] (having a relatively small percentage of neurons active at a time, e.g., 15% or so), which have numerous advantages over distributed representations that have many neurons active at a time, and are a well-established property of the cortex ([[@SimoncelliOlshausen01]]; [[@OlshausenField96]]; [[@Barlow61]]). In addition, inhibitory competition plays a key role in the learning process, analogous to the Darwinian "survival of the fittest" dynamic ([[@RumelhartZipser85]]; [[@Edelman87]]), and is widely used in [[abstract neural network]]s via the softmax function and max-pooling mechanisms. See [[Hebbian learning]] and the [[self-organizing sim]] for a demonstration.
+Inhibition gives rise to **sparse** [[distributed representations]] (having a relatively small percentage of neurons active at a time, e.g., 15% or so), which have numerous advantages over distributed representations that have many neurons active at a time, and are a well-established property of the cortex ([[@SimoncelliOlshausen01]]; [[@OlshausenField96]]; [[@Barlow61]]). In addition, inhibitory competition plays a key role in the learning process, analogous to the Darwinian "survival of the fittest" dynamic ([[@RumelhartZipser85]]; [[@Edelman87]]), and is widely used in [[abstract neural network]]s via the softmax function and max-pooling mechanisms. See [[Hebbian learning]] and the [[self-organizing simulation]] for a demonstration.
 
 Neocortical pyramidal neurons are characterized as being precisely balanced between inhibition and excitation, which has numerous computational benefits ([[@ShadlenNewsome98]]; [[@OkunLampl08]]; [[@IsaacsonScanziani11]]; [[@RubinAbbottSompolinsky17]]). This balance right around the threshold of firing also makes them more chaotic and contributes to the Poisson noise observed in spiking neurons, which could also potentially amplify responses to the temporal differences that drive learning in the [[GeneRec]] and [[kinase algorithm]]s.
 
@@ -15,7 +15,7 @@ Another useful analogy comes from what happens when you place a microphone near 
 
 Inhibition is also critical for [[attention]], for suppressing the activity of many weaker inputs and allowing processing to focus on the most active one(s). For example, when searching for a friend in a crowd, you cannot process all of the people at once, so only a relatively few capture your attention, while the rest are ignored. In neural terms, we say that the detectors for the attended few were sufficiently excited to out-compete all the others, which remain below the firing threshold due to the high levels of inhibition. Both bottom-up and top-down factors can contribute to which neural detectors get over threshold or not, but without inhibition, there wouldn't be any ability to select only a few to focus on in the first place.
 
-People with Balint's syndrome, who have bilateral damage to the parietal cortex (which plays a critical role in spatial attention of this sort), show reduced attentional effects and also are typically unable to process anything if a visual display contains more than one item (i.e., _simultanagnosia_, which is the inability to recognize objects when there are multiple simultaneously present in a scene). You can explore a simulation of this phenomenon in the [[attention sim]]. 
+People with Balint's syndrome, who have bilateral damage to the parietal cortex (which plays a critical role in spatial attention of this sort), show reduced attentional effects and also are typically unable to process anything if a visual display contains more than one item (i.e., _simultanagnosia_, which is the inability to recognize objects when there are multiple simultaneously present in a scene). You can explore a simulation of this phenomenon in the [[attention simulation]]. 
 
 ## Feedforward and feedback inhibition
 
@@ -34,7 +34,7 @@ The anticipatory function of feedforward inhibition is crucial for limiting the 
 
 Furthermore, the way in which inhibition and excitation interact through the tug-of-war dynamic as we saw in [[neuron]] is _essential_ for enabling these inhibitory dynamics to be as robust as they are. For example, the shunting nature of inhibition, which only starts to resist once the membrane potential starts to rise, enables the neurons to get some level of activity and then get pulled back down --- an alternative subtractive form of inhibition (i.e., simply subtracting away from excitation) would either prevent activation entirely or not generate enough inhibition to control the excitation.
 
-See the [[inhibition sim]] to explore the roles of feedforward and feedback inhibitory connectivity.
+See the [[inhibition simulation]] to explore the roles of feedforward and feedback inhibitory connectivity.
 
 ## Fast-spiking vs slower-acting inhibitory interneurons
 
@@ -123,7 +123,7 @@ $$
 
 Finally, because the SST neurons specifically target dendrites instead of cell bodies, 
 
-Again see the [[inhibition sim]] to explore these equations and parameters in a simple network with full instrumentation to record all the FS-FFFB values.
+Again see the [[inhibition simulation]] to explore these equations and parameters in a simple network with full instrumentation to record all the FS-FFFB values.
 
 ## Inhibition pages
 

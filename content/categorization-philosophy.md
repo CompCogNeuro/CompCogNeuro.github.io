@@ -1,5 +1,4 @@
 +++
-Categories = ["Categorization"]
 bibfile = "ccnlab.json"
 +++
 

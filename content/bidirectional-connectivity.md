@@ -23,13 +23,15 @@ Intuitively, these top-down connections support the ability to resolve ambiguous
 
 Thus, while the feedforward flow of excitation through multiple layers of the neocortex can make us intelligent by developing higher-level abstractions, the feedback flow of excitation in the opposite direction helps make us more _robust_, _flexible_, and _adaptive_. Without this feedback pathway, the system can only respond on the basis of whatever happens to drive the system most strongly in the feedforward, bottom-up flow of information. But often our first impression is wrong, or at least incomplete. 
 
-There are also **lateral** excitatory connections which interconnect neurons at the same level of processing, and help provide mutual support for consistent patterns of activity. This is illustrated in the [[necker cube sim]] which shows how different visual features can support each other through lateral connections to drive a coherent overall interpretation of an otherwise ambiguous visual input. This is a particular example of the broader category of [[attractor dynamics]], which provides a more abstract, high-level characterization of the computational function of bidirectional connectivity.
+There are also **lateral** excitatory connections which interconnect neurons at the same level of processing, and help provide mutual support for consistent patterns of activity. This is illustrated in the [[necker cube simulation]] which shows how different visual features can support each other through lateral connections to drive a coherent overall interpretation of an otherwise ambiguous visual input. This is a particular example of the broader category of [[attractor dynamics]], which provides a more abstract, high-level characterization of the computational function of bidirectional connectivity.
 
 ## Simulations
 
-* [[faces sim]] (Part II) demonstrates how top-down and bottom-up processing interact to produce imagery and help resolve ambiguous inputs (partially occluded faces).
+* [[faces simulation]] (Part II) demonstrates how top-down and bottom-up processing interact to produce imagery and help resolve ambiguous inputs (partially occluded faces).
 
-* [[necker cube sim]] demonstrates how lateral excitatory connections can produce attractor dynamics in the case of a classic ambiguous visual stimulus.
+* [[necker cube simulation]] demonstrates how lateral excitatory connections can produce attractor dynamics in the case of a classic ambiguous visual stimulus.
 
-* [[cats and dogs sim]] demonstrates bottom-up and top-down dynamics in a semantic network representing different levels of information about cats and dogs.
+* [[cats and dogs simulation]] demonstrates bottom-up and top-down dynamics in a semantic network representing different levels of information about cats and dogs.
+
+## Bidirectional connectivity pages
 

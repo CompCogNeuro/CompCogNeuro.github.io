@@ -1,5 +1,5 @@
 +++
-Categories = ["Activation", "Attention", "Axon"]
+Categories = ["Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
@@ -58,9 +58,9 @@ This means that updating units with a _linear_ activation function (where activa
 
 ## Simulations
 
-* [[faces sim]] (Part II) demonstrates how top-down and bottom-up processing interact to produce imagery and help resolve ambiguous inputs (partially occluded faces).
+* [[faces simulation]] (Part II) demonstrates how top-down and bottom-up processing interact to produce imagery and help resolve ambiguous inputs (partially occluded faces).
 
-* [[necker cube sim]] demonstrates how lateral excitatory connections can produce attractor dynamics in the case of a classic ambiguous visual stimulus.
+* [[necker cube simulation]] demonstrates how lateral excitatory connections can produce attractor dynamics in the case of a classic ambiguous visual stimulus.
 
-* [[cats and dogs sim]] demonstrates bottom-up and top-down dynamics in a semantic network representing different levels of information about cats and dogs.
+* [[cats and dogs simulation]] demonstrates bottom-up and top-down dynamics in a semantic network representing different levels of information about cats and dogs.
 
