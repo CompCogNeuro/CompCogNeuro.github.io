@@ -38,9 +38,11 @@ In particular, as shown in [[#figure_pulv-conns]], the _thalmocortical_ network 
 
 The convergence of these critical properties, along with a large amount of other consistent data reviewed in [[@^OReillyRussinZolfagharEtAl21]], is remarkably consistent with the hypothesized role of this circuitry in predictive learning.
 
-One further property of note is that the layer 6 CT (corticothalamic) neurons that are hypothesized to drive the predictions in the pulvinar are known to exhibit delayed patterns of firing relative to ongoing sensory inputs ([[@HarrisShepherd15]]; [[@SakataHarris09]]; [[@Thomson10]]), which is important for the overall timing of everything in the predictive learning context. Specifically, this delayed firing property allows the system to use the "t-1" prior state to predict essentially _what is happening right now_. This allows most everything in the cortex to represent the present moment ("t"; or at least as close as it can get to that given neural processing delays), while still learning to predict this present state by only using "old" information available at t-1.
+One further property of note is that the layer 6CT (corticothalamic) neurons that are hypothesized to drive the predictions in the pulvinar are known to exhibit delayed patterns of firing relative to ongoing sensory inputs ([[@HarrisShepherd15]]; [[@SakataHarris09]]; [[@Thomson10]]), which is important for the overall timing of everything in the predictive learning context. Specifically, this delayed firing property allows the system to use the "t-1" prior state to predict essentially _what is happening right now_. This allows most everything in the cortex to represent the present moment ("t"; or at least as close as it can get to that given neural processing delays), while still learning to predict this present state by only using "old" information available at t-1.
 
 Given that the 5IB neurons have an intrinsic bursting frequency of 10 hz (i.e., every 100 ms; also known as the _alpha_ rhythm), the minimum predictive time window is around 100 ms. Indeed there are numerous perceptual effects and illusions that all converge around this critical time window of 100 ms / 10 hz (e.g., [[@BuffaloFriesLandmanEtAl11]]; [[@VanRullenKoch03]]; [[@MathewsonGrattonFabianiEtAl09]]; [[@JensenBonnefondVanRullen12]]; [[@ClaytonYeungKadosh18]]).
+
+This phasic bursting from 5IB neurons is hypothesized to drive both the outcome activity on the pulvinar and the updating of the layer 6CT neurons, which then receive a sustained residual conductance that we hypothesize represents a large NMDA-driven conductance as a result of 5IB bursting inputs. Because the 5IB neurons don't burst again until the next alpha cycle, this effectively insulates the 6CT neurons from additional input, allowing them to represent the t-1 prior state information.
 
 {id="figure_deep-time-v1v2" style="height:20em"}
 ![Schematic showing the time evolution of the V1 -- V2 visual neocortex and associated thalamic areas. A sequence of movie frames is shown unfolding over the Retina, illustrating the three key steps taking place within a single 125 ms time window, broken out separately across the three panels: (a) prior context is updated in the V2 CT layer; (b) which is then used to generate a prediction over the pulvinar (V2 P); (c) against which the outcome, driven by bottom-up 5IB bursting, represents the prediction error as a temporal difference between the prediction and outcome states over the pulvinar. Changes in synaptic weights (learning) in all superficial (S) and CT layers are driven from the local temporal difference experienced by each neuron, as shown in terms of contrastive hebbian learning (CHL), where the + superscripts indicate outcome activations in the plus phase, and -- superscripts indicate prediction in the minus phase.](media/fig_deepleabra_v1v2_time.png)
@@ -59,6 +61,11 @@ The implementation in Axon adds a specialized layer type for the layer 6CT neuro
 
 ### 6CT neurons and pathways
 
+The layer 6CT neurons receive a _context_ input conductance from projections that are only activated at the end of the plus phase, reflecting the 5IB bursting inputs at this time. This is stored in the `CtxtGe` variable, and it typically decays over the course of the subsequent trial.
+
+Meanwhile, 6CT neurons also receive reciprocal input from the pulvinar layer that they are projecting the prediction onto, which also provides a sustaining excitatory conductance that is not otherwise "contaminated" by the current state information.
 
 ### Pulvinar neurons and pathways
+
+Pulvinar neurons have a corresponding driver input layer with the same geometry, from which it implicitly receives a one-to-one driver projection.
 
