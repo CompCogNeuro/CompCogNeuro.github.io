@@ -49,9 +49,11 @@ This phasic bursting from 5IB neurons is hypothesized to drive both the outcome 
 
 [[#figure_deep-time-v1v2]] shows a schematic of how the V1 -- V2 circuit shown in [[#figure_pulv-conns]] evolves over this alpha rhythm time frame in the course of one cycle of predictive learning.
 
-[[@^OReillyRussinZolfagharEtAl21]] provides many more details and an implemented model that demonstrates how predictive learning in the visual system can extract structure from short movies of 3D objects tumbling through space.
+[[@^OReillyRussinZolfagharEtAl21]] provides many more details and an implemented model that demonstrates how predictive learning in the visual system can extract structure from short movies of 3D objects tumbling through space: see [[deep vision simulation]].
 
-See the [[FSA simulation]] for a model of predictive learning of a probabilistically-generated sequence based on a _finite state automata (FSA)_, which has long been used to study learning ([[@Reber67]]; [[@CleeremansMcClelland91]]). This model provides a simple, concrete way to understand the essential computational mechanisms involved in predictive learning.
+See the [[FSA simulation]] for a much simpler model of predictive learning of a probabilistically-generated sequence based on a _finite state automata (FSA)_, which has long been used to study learning ([[@Reber67]]; [[@CleeremansMcClelland91]]). This model provides a simple, concrete way to understand the essential computational mechanisms involved in predictive learning.
+
+In the context of motor control, predictive learning learns a _forward model_ that predicts along the forward arrow of time what will happen if you happen to take a particular action in a given context ([[@JordanRumelhart92]]). This is a central component of the [[Rubicon]] model, and commonly used in [[reinforcement learning]] more generally.
 
 ## Implementation
 

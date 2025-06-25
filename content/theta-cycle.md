@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 The **theta cycle** is a roughly 5 hz rhythm found in various areas of the brain, with a characteristic period of 200 ms (1000 ms / 5 hz = 200 ms). There are many diverse sources of neuroscience evidence suggesting that there are neural mechanisms specifically organized around processing at this timescale, across various mammalian species, including two prominent examples:
 
-* In primates including humans, the median visual fixation duration is strongly peaked around 200 ms: we tend to look at things for about 200 ms at a time (cites).
+* In primates including humans, the median visual fixation duration is strongly peaked around 200 ms ([[@DevillezGuyaderCurranEtAl20]]): we tend to look at things for about 200 ms at a time (cites).
 
 * The theta cycle in the rodent [[hippocampus]] has been extensively studied, and it drives a complex series of dynamics throughout the hippocampal formation (cites).
 
