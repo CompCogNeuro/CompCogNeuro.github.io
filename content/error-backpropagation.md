@@ -140,9 +140,24 @@ where _t_ is the target value.
 
 The delta rule and [[#eq_delta-dw]] show that the essence of error-driven learning is a simple product of an error signal times the sending unit activation. This modulation of weight change by activity of the sending unit achieves a critical **credit assignment** function (or rather blame assignment in this case), so that when an error is made at the output, weights should only change for the sending units that contributed to that error. Sending units that were not active did not cause the error, and their weights are not adjusted.
 
-## Analyzing learning
+## Backpropagation to activations
 
-TODO: integrate this.
+The error gradient as computed in [[#eq_delta-j]] can also be used to directly update the activation state of units in the network, moving them in the direction that they should change once the weight changes are made:
+
+{id="eq_delta-act" title="Updated activations"}
+$$
+y^+ = y + \lambda \delta
+$$
+
+where $y^+$ represents a _plus phase_ activation value by analogy with the equivalent computation performed by the [[GeneRec]] algorithm, and $\lambda$ is a learning-rate-like factor that determines how much of the gradient to add.
+
+Thus, this new activation value represents a more correct [[optimized representation]] of the current input state. In an [[Axon]] network with full [[bidirectional connectivity]], the activation states are even more optimized by performing [[constraint satisfaction]] processing over multiple iterations, in addition to having a plus-phase activity state that specifically includes the error gradient as in [[#eq_delta-act]] (see [[GeneRec]] for the mathematical analysis).
+
+In the standard feedforward backpropagation network, it is not clear what the use of the $y^+$ activation state should be, however. This activation value is not what the other neurons in the network have seen: it would require an additional iteration to update all of the activations based on these updated values, which would mean that the error gradients themselves need to be updated, and so on. One solution to this question is given by the Almeida-Pineda version of recurrent backpropagation ([[@Almeida87]]; [[@Pineda88]]), which effectively iterates until the network activations stabilize. This is effectively what happens in the [[GeneRec]] model, as shown there.
+
+## What backprop learns
+
+TODO: need to find a home for this:
 
 There are two major objective functions for a hidden layer in a classic "3 layer perceptron" neural network (Input -> Hidden -> Output):
 
