@@ -1,5 +1,5 @@
 +++
-Categories = ["Inhibition", "Bidirectional connectivity", "Simulations"]
+Categories = ["Bidirectional connectivity", "Simulations", "Cognition"]
 bibfile = "ccnlab.json"
 +++
 

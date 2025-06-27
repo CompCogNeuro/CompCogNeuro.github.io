@@ -1,5 +1,5 @@
 +++
-Categories = ["Activation", "Inhibition", "Bidirectional connectivity", "Axon"]
+Categories = ["Activation", "Bidirectional connectivity", "Axon", "Cognition"]
 bibfile = "ccnlab.json"
 +++
 
@@ -12,7 +12,7 @@ Here we focus on the established _where_ aspect of parietal function. Even withi
 {id="figure_waldo"}
 ![Where's Waldo visual search example.](media/fig_wheres_waldo.jpg)
 
-For example, consider one of those "where's Waldo" puzzles ([[#figure_waldo]]) that is packed with rich visual detail. Is it possible to perceive such a scene all in one take? No. You have to scan over the image using a "spotlight" of visual attention to focus on small areas of the image, which can then be processed effectively by the object recognition pathway. The ability to direct this spotlight of attention depends on spatial representations in the dorsal pathway, which then interact with lower levels of the object recognition pathway (V1, V2, V4) to constrain the inputs to reflect only those visual features that come from within this spotlight of attention.
+For example, consider one of those "where's Waldo" puzzles ([[#figure_waldo]]) that is packed with rich visual detail. Is it possible to perceive such a scene all in one take? No. You have to scan over the image using a "spotlight" of visual attention to focus on small areas of the image, which can then be processed effectively by the object recognition pathway ([[@Treisman77]]; [[@Wolfe10]]; [[@HerdOReilly05]]). The ability to direct this spotlight of attention depends on spatial representations in the dorsal pathway, which then interact with lower levels of the object recognition pathway (V1, V2, V4) to constrain the inputs to reflect only those visual features that come from within this spotlight of attention.
 
 ## Hemispatial Neglect
 

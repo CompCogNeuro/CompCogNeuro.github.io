@@ -1,5 +1,5 @@
 +++
-Categories = ["Rubicon"]
+Categories = ["Rubicon", "Computation", "Learning"]
 bibfile = "ccnlab.json"
 +++
 
@@ -149,7 +149,7 @@ Many different _model based_ mechanisms can be used in addition or instead of mo
 
     Hierarchical approaches to RL encompass the concept of _subgoals_: breaking a complex problem down into more manageable sub-tasks, as in the widely-discussed _options_ framework in RL ([[@SuttonPrecupSingh99]]), and the _chunking_ mechanism in the ACT-R framework ([[@AndersonLebiere98]]). The difficulty with these and related hierarchical RL approaches is that it is often hard to know when and how to organize relevant subtasks, and the possibilities for the number of ways to do so is again subject to exponential combinatorial explosion problems ([[@PateriaSubagdjaTanEtAl21]]). Furthermore, almost everywhere any kind of _rigid_ hierarchical system has been proposed, one quickly realizes that the real world is not actually so amenable to such systems, and requires more graded, flexible, _soft_ frameworks.
 
-* **Planning mechanisms**: There is a large literature on planning algorithms, which converges in many cases with approaches used in the RL world ([[@RusselNorvig16]]; [[@MoerlandBroekensJonker21]]). Intuitive ideas include searching forward from the current state to try to find a desired outcome, versus searching backward from the desired outcome state to find a path that connects to the current state. In every case, the planning process requires something like a world model that allows the different possible actions to be simulated in order to search through the space.
+* **Planning mechanisms**: There is a large literature on planning algorithms, which converges in many cases with approaches used in the RL world ([[@RussellNorvig16]]; [[@MoerlandBroekensJonker21]]). Intuitive ideas include searching forward from the current state to try to find a desired outcome, versus searching backward from the desired outcome state to find a path that connects to the current state. In every case, the planning process requires something like a world model that allows the different possible actions to be simulated in order to search through the space.
 
     The human-beating AI approaches to the games of chess and go relied on these classical-style state-space planning algorithms, constructed using domain-specific knowledge about the rules and relevant structure of these games ([[@SilverHuangMaddisonEtAl16]]; [[@SilverSchrittwieserSimonyanEtAl17]]).
 

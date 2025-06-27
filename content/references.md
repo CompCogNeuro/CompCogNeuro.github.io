@@ -222,6 +222,8 @@
 
 <p id="Helmholtz67">Helmholtz, H. (1867). Treatise on Physiological Optics, Vol III. Courier Corporation. </p>
 
+<p id="HerdOReilly05">Herd, S.A., & O'Reilly, R.C. (2005). Serial visual search from a parallel model. Vision Research, 45, 2987-2992. http://www.ncbi.nlm.nih.gov/pubmed/16139862</p>
+
 <p id="HertzKroghPalmer91">Hertz, J., Krogh, A., & Palmer, R.G. (1991). Introduction to the Theory of Neural Computation. Addison-Wesley. </p>
 
 <p id="HestrinNicollPerkelEtAl90">Hestrin, S., Nicoll, R.A., Perkel, D.J., & Sah, P. (1990). Analysis of excitatory synaptic action in pyramidal cells using whole-cell recording from rat hippocampal slices. The Journal of Physiology, 422, 203-225. http://www.ncbi.nlm.nih.gov/pubmed/1972190</p>
@@ -233,6 +235,8 @@
 <p id="HodgkinHuxley52">Hodgkin, A.L., & Huxley, A.F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117, 500-544. https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764 http://doi.org/10.1113/jphysiol.1952.sp004764</p>
 
 <p id="HoffmanMageeColbertEtAl97">Hoffman, D.A., Magee, J.C., Colbert, C.M., & Johnston, D. (1997). K+ channel regulation of signal propagation in dendrites of hippocampal pyramidal neurons. Nature, 387, 869-875. https://www.nature.com/articles/43119 http://doi.org/10.1038/43119</p>
+
+<p id="HoosTsang06">Hoos, H.H., & Tsang, E. (2006). Chapter 5 - Local Search Methods. In F. Rossi, P. Beek, & T. Walsh (Eds.), Foundations of Artificial Intelligence (pp. 135-167). Elsevier. https://www.sciencedirect.com/science/article/pii/S157465260680009X http://doi.org/10.1016/S1574-6526(06)80009-X</p>
 
 <p id="Hopfield82">Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences of the United States of America, 79, 2554-2558. http://www.ncbi.nlm.nih.gov/pubmed/6953413</p>
 
@@ -269,6 +273,8 @@
 <p id="KawatoHayakawaInui93">Kawato, M., Hayakawa, H., & Inui, T. (1993). A forward-inverse optics model of reciprocal connections between visual cortical areas. Network: Computation in Neural Systems, 4, 415-422. http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_4_001 http://doi.org/10.1088/0954-898X_4_4_001</p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
+
+<p id="KingmaBa14">Kingma, D.P., & Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv:1412.6980 [cs], http://arxiv.org/abs/1412.6980</p>
 
 <p id="KirkwoodRioultBear96">Kirkwood, A., Rioult, M.G., & Bear, M.F. (1996). Experience-Dependent Modification of Synaptic Plasticity in Visual Cortex. Nature, 381, 526–528. http://www.ncbi.nlm.nih.gov/pubmed/8632826</p>
 
@@ -360,11 +366,15 @@
 
 <p id="Mumford92">Mumford, D. (1992). On the computational architecture of the neocortex. II. The role of cortico-cortical loops. Biological Cybernetics, 66, 241–251. http://www.ncbi.nlm.nih.gov/pubmed/1540675</p>
 
+<p id="NakkiranKaplunBansalEtAl21">Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2021). Deep double descent: where bigger models and more data hurt* Journal of Statistical Mechanics: Theory and Experiment, 2021, 124003. https://dx.doi.org/10.1088/1742-5468/ac3a74 http://doi.org/10.1088/1742-5468/ac3a74</p>
+
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
 <p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
+
+<p id="NewellSimon72">Newell, A., & Simon, H.A. (1972). Human Problem Solving. Prentice-Hall. </p>
 
 <p id="Nowlan90">Nowlan, S.J. (1990). Maximum Likelihood Competitive Learning. In D.S. Touretzky (Ed.), Advances in Neural Information Processing Systems, 2 (pp. 574-582). Morgan Kaufmann. </p>
 
@@ -448,6 +458,8 @@
 
 <p id="RumelhartZipser85">Rumelhart, D.E., & Zipser, D. (1985). Feature discovery by competitive learning* Cognitive Science, 9, 75-112. http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_5/abstract http://doi.org/10.1207/s15516709cog0901_5</p>
 
+<p id="RussellNorvig16">Russell, S.J., & Norvig, P. (2016). Artificial intelligence: a modern approach. pearson. https://thuvienso.hoasen.edu.vn/handle/123456789/8967</p>
+
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
 <p id="SabatiniOertnerSvoboda02">Sabatini, B.L., Oertner, T.G., & Svoboda, K. (2002). The life cycle of Ca2+ ions in dendritic spines. Neuron, 33, 439-452. https://www.sciencedirect.com/science/article/pii/S0896627302005731 http://doi.org/10.1016/S0896-6273(02)00573-1</p>
@@ -489,6 +501,8 @@
 <p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
 
 <p id="ShouvalWangWittenberg10">Shouval, H.Z., Wang, S.S., & Wittenberg, G.M. (2010). Spike timing dependent plasticity: A consequence of more fundamental learning rules. Frontiers in Computational Neuroscience, 4, http://www.ncbi.nlm.nih.gov/pubmed/20725599</p>
+
+<p id="Shwartz-ZivTishby17">Shwartz-Ziv, R., & Tishby, N. (2017). Opening the Black Box of Deep Neural Networks via Information. http://arxiv.org/abs/1703.00810 http://doi.org/10.48550/arXiv.1703.00810</p>
 
 <p id="SilverHuangMaddisonEtAl16">Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M., Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever, I., Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T., & Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529, 484-489. https://www.nature.com/articles/nature16961 http://doi.org/10.1038/nature16961</p>
 
@@ -532,6 +546,10 @@
 
 <p id="TorradoPachecoBottorffGaoEtAl21">Torrado Pacheco, A., Bottorff, J., Gao, Y., & Turrigiano, G.G. (2021). Sleep promotes downward firing rate homeostasis. Neuron, 109, 530-544.e6. https://www.sciencedirect.com/science/article/pii/S0896627320308606 http://doi.org/10.1016/j.neuron.2020.11.001</p>
 
+<p id="Treisman77">Treisman, A. (1977). Focused attention in the perception and retrieval of multidimensional stimuli. Perception and Psychophysics, 22, 1-11. </p>
+
+<p id="Tsang14">Tsang, E. (2014). Foundations of Constraint Satisfaction: Computation in Cognitive Science. Academic Press. </p>
+
 <p id="TullisBayer23">Tullis, J.E., & Bayer, K.U. (2023). Distinct synaptic pools of DAPK1 differentially regulate activity-dependent synaptic CaMKII accumulation. iScience, 26, https://www.cell.com/iscience/abstract/S2589-0042(23)00800-3 http://doi.org/10.1016/j.isci.2023.106723</p>
 
 <p id="Turing36">Turing, A.M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, s2-42, 230-265. https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/plms/s2-42.1.230 http://doi.org/10.1112/plms/s2-42.1.230</p>
@@ -552,6 +570,8 @@
 
 <p id="VerfaellieRapcsakHeilman90">Verfaellie, M., Rapcsak, S.Z., & Heilman, K.M. (1990). Impaired shifting of attention in Balint's syndrome. Brain and Cognition, 12, 195-204. </p>
 
+<p id="VidalBrunaGiryesEtAl17">Vidal, R., Bruna, J., Giryes, R., & Soatto, S. (2017). Mathematics of Deep Learning. http://arxiv.org/abs/1712.04741 http://doi.org/10.48550/arXiv.1712.04741</p>
+
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
@@ -563,6 +583,8 @@
 <p id="WhittingtonBogacz17">Whittington, J.C.R., & Bogacz, R. (2017). An approximation of the error backpropagation algorithm in a predictive coding network with local hebbian synaptic plasticity. Neural Computation, 29, 1229-1262. https://doi.org/10.1162/NECO_a_00949 http://doi.org/10.1162/NECO_a_00949</p>
 
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
+
+<p id="Wolfe10">Wolfe, J.M. (2010). Visual search. Current Biology, 20, R346-R349. http://www.sciencedirect.com/science/article/pii/S0960982210001594 http://doi.org/10.1016/j.cub.2010.02.016</p>
 
 <p id="XiangHuguenardPrince98">Xiang, Z., Huguenard, J.R., & Prince, D.A. (1998). Cholinergic switching within neocortical inhibitory networks. Science (New York, N.Y.), 281, 985–988. http://www.ncbi.nlm.nih.gov/pubmed/9703513</p>
 
