@@ -33,7 +33,7 @@ The binding problem has significant implications for what can be done in _parall
 
 If the brain could represent these conjunctions in distinct neural populations, then parallel search would be possible, but the [[curse of dimensionality]] prevents this, as the number of neurons required would grow exponentially.
 
-Similar conclusions were reached in an analysis of visual binding errors made by people and LLM models ([[@CampbellRaneGiallanzaEtAl24]]), and in the case of multitasking and cognitive control ([[@MusslickSaxeHoskinEtAl20]]). In this latter case, the [[prefrontal cortex]] is thought to provide a top-down [[attention]]al focus on the features relevant for one task vs. another, imposing a strong limit on what can be done in parallel.
+Similar conclusions were reached in an analysis of visual binding errors made by people and LLM models ([[@CampbellRaneGiallanzaEtAl24]]), and in the case of multitasking and cognitive control ([[@MusslickCohen21]]; [[@MusslickSaxeHoskinEtAl20]]). In this latter case, the [[prefrontal cortex]] is thought to provide a top-down [[attention]]al focus on the features relevant for one task vs. another, imposing a strong limit on what can be done in parallel.
 
 ## Catastrophic interference 
 

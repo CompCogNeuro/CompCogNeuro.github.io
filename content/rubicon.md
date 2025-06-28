@@ -20,6 +20,9 @@ There have been various proposals for solving this problem, which involve variou
 
 
 
+Finally, the defining feature of the [[Rubicon]] model is that the system makes an explicit commitment to a given goal and plan of action at any given point in time, which magnifies all of the above effects by virtue of the strong shared focus throughout the neocortical network on this one goal and plan. Furthermore, making such a commitment requires a goal selection process with neural mechanisms that support the essential "mental time travel" process that activates relevant potential outcomes and plans at an earlier "proactive" step in the process, which effectively combines backward and forward planning into one big constraint satisfaction process at the point of goal selection.
+
+
 ## Rubicon pages
 
 

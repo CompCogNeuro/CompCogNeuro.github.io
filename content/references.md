@@ -42,6 +42,8 @@
 
 <p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
 
+<p id="Bellman57">Bellman, R. (1957). Dynamic Programming. Princeton University Press. </p>
+
 <p id="Benda21">Benda, J. (2021). Neural adaptation. Current Biology, 31, R110-R116. https://www.cell.com/current-biology/abstract/S0960-9822(20)31767-X http://doi.org/10.1016/j.cub.2020.11.054</p>
 
 <p id="BendaMalerLongtin10">Benda, J., Maler, L., & Longtin, A. (2010). Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds. Journal of Neurophysiology, 104, 2806-2820. http://jn.physiology.org/content/104/5/2806 http://doi.org/10.1152/jn.00240.2010</p>
@@ -126,6 +128,8 @@
 
 <p id="DebanneInglebert23">Debanne, D., & Inglebert, Y. (2023). Spike timing-dependent plasticity and memory. Current Opinion in Neurobiology, 80, 102707. https://www.sciencedirect.com/science/article/pii/S0959438823000326 http://doi.org/10.1016/j.conb.2023.102707</p>
 
+<p id="DehaeneDehaene-LambertzCohen98">Dehaene, S., Dehaene-Lambertz, G., & Cohen, L. (1998). Abstract representations of numbers in the animal and human brain. Trends in Neurosciences, 21, 355-361. http://www.sciencedirect.com/science/article/pii/S0166223698012636 http://doi.org/10.1016/S0166-2236(98)01263-6</p>
+
 <p id="DehaeneKerszbergChangeux98">Dehaene, S., Kerszberg, M., & Changeux, J.P. (1998). A neuronal model of a global workspace in effortful cognitive tasks. Proceedings of the National Academy of Sciences of the United States of America, 95, 14529. http://www.ncbi.nlm.nih.gov/pubmed/9826734</p>
 
 <p id="DehaeneLauKouider17">Dehaene, S., Lau, H., & Kouider, S. (2017). What is consciousness, and could machines have it? Science, 358, 486-492. https://www.science.org/doi/abs/10.1126/science.aan8871 http://doi.org/10.1126/science.aan8871</p>
@@ -150,6 +154,8 @@
 
 <p id="DunwiddieLynch78">Dunwiddie, T., & Lynch, G. (1978). Long-term potentiation and depression of synaptic responses in the rat hippocampus: localization and frequency dependency. The Journal of Physiology, 276, 353-367. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012239 http://doi.org/10.1113/jphysiol.1978.sp012239</p>
 
+<p id="Dweck08">Dweck, C.S. (2008). Mindset: The New Psychology of Success. Ballantine Books. </p>
+
 <p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
 
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
@@ -165,6 +171,8 @@
 <p id="Farah90">Farah, M.J. (1990). Visual Agnosia. MIT Press. </p>
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
+
+<p id="FodorPylyshyn88">Fodor, J.A., & Pylyshyn, Z.W. (1988). Connectionism and cognitive architecture: a critical analysis. Cognition, 28, 3-71. http://www.ncbi.nlm.nih.gov/pubmed/2450716</p>
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
@@ -185,6 +193,8 @@
 <p id="GallandHinton91">Galland, C.C., & Hinton, G.E. (1991). Deterministic Boltzmann Learning in Networks with Asymmetric Connectivity. In D.S. Touretzky, J.L. Elman, T.J. Sejnowski, & G.E. Hinton (Eds.), Connectionist Models: Proceedings of the 1990 Summer School (pp. 3-9). Morgan Kaufmann. </p>
 
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
+
+<p id="Gentner83">Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. Cognitive Science, 7, 155-170. https://www.sciencedirect.com/science/article/pii/S0364021383800093 http://doi.org/10.1016/S0364-0213(83)80009-3</p>
 
 <p id="GerstnerLehmannLiakoniEtAl18">Gerstner, W., Lehmann, M., Liakoni, V., Corneil, D., & Brea, J. (2018). Eligibility traces and plasticity on behavioral time scales: Experimental support of NeoHebbian three-factor learning rules. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00053/full http://doi.org/10.3389/fncir.2018.00053</p>
 
@@ -241,6 +251,8 @@
 <p id="HodgkinHuxley52">Hodgkin, A.L., & Huxley, A.F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117, 500-544. https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764 http://doi.org/10.1113/jphysiol.1952.sp004764</p>
 
 <p id="HoffmanMageeColbertEtAl97">Hoffman, D.A., Magee, J.C., Colbert, C.M., & Johnston, D. (1997). K+ channel regulation of signal propagation in dendrites of hippocampal pyramidal neurons. Nature, 387, 869-875. https://www.nature.com/articles/43119 http://doi.org/10.1038/43119</p>
+
+<p id="Holyoak12">Holyoak, K.J. (2012). Analogy and Relational Reasoning. In K.J. Holyoak, & R.G. Morrison (Eds.), The Oxford Handbook of Thinking and Reasoning (pp. 0). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199734689.013.0013 http://doi.org/10.1093/oxfordhb/9780199734689.013.0013</p>
 
 <p id="HoosTsang06">Hoos, H.H., & Tsang, E. (2006). Chapter 5 - Local Search Methods. In F. Rossi, P. Beek, & T. Walsh (Eds.), Foundations of Artificial Intelligence (pp. 135-167). Elsevier. https://www.sciencedirect.com/science/article/pii/S157465260680009X http://doi.org/10.1016/S1574-6526(06)80009-X</p>
 
@@ -380,6 +392,8 @@
 
 <p id="Mumford92">Mumford, D. (1992). On the computational architecture of the neocortex. II. The role of cortico-cortical loops. Biological Cybernetics, 66, 241–251. http://www.ncbi.nlm.nih.gov/pubmed/1540675</p>
 
+<p id="MusslickCohen21">Musslick, S., & Cohen, J.D. (2021). Rationalizing constraints on the capacity for cognitive control. Trends in Cognitive Sciences, 25, 757-775. https://www.sciencedirect.com/science/article/pii/S1364661321001480 http://doi.org/10.1016/j.tics.2021.06.001</p>
+
 <p id="MusslickSaxeHoskinEtAl20">Musslick, S., Saxe, A., Hoskin, A., Sagiv, Y., Reichman, D., Petri, G., & Cohen, J. (2020). On the Rational Boundedness of Cognitive Control: Shared Versus Separated Representations. https://osf.io/jkhdf_v1 http://doi.org/10.31234/osf.io/jkhdf</p>
 
 <p id="NakkiranKaplunBansalEtAl21">Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2021). Deep double descent: where bigger models and more data hurt* Journal of Statistical Mechanics: Theory and Experiment, 2021, 124003. https://dx.doi.org/10.1088/1742-5468/ac3a74 http://doi.org/10.1088/1742-5468/ac3a74</p>
@@ -392,9 +406,15 @@
 
 <p id="NewellSimon72">Newell, A., & Simon, H.A. (1972). Human Problem Solving. Prentice-Hall. </p>
 
+<p id="NiederDehaene09">Nieder, A., & Dehaene, S. (2009). Representation of number in the brain. Annual review of neuroscience, 32, http://www.ncbi.nlm.nih.gov/pubmed/19400715</p>
+
+<p id="NiederMiller04">Nieder, A., & Miller, E.K. (2004). Analog numerical representations in rhesus monkeys: evidence for parallel processing. Journal of cognitive neuroscience, 16, 889-901. http://www.ncbi.nlm.nih.gov/pubmed/15200715</p>
+
 <p id="Nowlan90">Nowlan, S.J. (1990). Maximum Likelihood Competitive Learning. In D.S. Touretzky (Ed.), Advances in Neural Information Processing Systems, 2 (pp. 574-582). Morgan Kaufmann. </p>
 
 <p id="NowlanHinton93">Nowlan, S.J., & Hinton, G.E. (1993). A soft decision-directed LMS algorithm for blind equalization. IEEE Transactions on Communications, 41, 275–279. </p>
+
+<p id="OReilly10">O’Reilly, R.C. (2010). The {What} and {How} of prefrontal cortical organization. Trends in Neurosciences, 33, 355-361. http://www.sciencedirect.com/science/article/pii/S0166223610000767 http://doi.org/10.1016/j.tins.2010.05.002</p>
 
 <p id="OReilly20">O’Reilly, R.C. (2020). Unraveling the Mysteries of Motivation. Trends in Cognitive Sciences, http://www.sciencedirect.com/science/article/pii/S1364661320300681 http://doi.org/10.1016/j.tics.2020.03.001</p>
 
@@ -432,6 +452,8 @@
 
 <p id="PateriaSubagdjaTanEtAl21">Pateria, S., Subagdja, B., Tan, A., & Quek, C. (2021). Hierarchical Reinforcement Learning: A Comprehensive Survey. ACM Comput. Surv., 54, 109:1–109:35. https://dl.acm.org/doi/10.1145/3453160 http://doi.org/10.1145/3453160</p>
 
+<p id="Piaget41">Piaget, J. (1941). Le m'echanisme du d'eveloppement mental et les lois du groupement des op'eration. Arch. Psych., Gen`eve, 28, 215-285. </p>
+
 <p id="Piantadosi23">Piantadosi, S.T. (2023). Modern language models refute Chomsky’s approach to language. From fieldwork to linguistic theory: A tribute to Dan Everett, 353–414. https://books.google.com/books?hl=en&lr=&id=BrcpEQAAQBAJ&oi=fnd&pg=PA353&ots=hQR6BV-AUL&sig=YWna5wy_SeF8i_NhGuav6_D_6xs</p>
 
 <p id="Pineda88">Pineda, F.J. (1988). Dynamics and Architecture for Neural Computation. Journal of Complexity, 4, 216-245. </p>
@@ -463,6 +485,8 @@
 <p id="RescorlaWagner72">Rescorla, R.A., & Wagner, A.R. (1972). A theory of Pavlovian conditioning: Variation in the effectiveness of reinforcement and non-reinforcement. In A.H. Black, & W.F. Prokasy (Eds.), Classical Conditioning II: Theory and Research (pp. 64-99). Appleton-Century-Crofts. </p>
 
 <p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
+
+<p id="RogersMcClelland04">Rogers, T.T., & McClelland, J.L. (2004). Semantic Cognition: A Parallel Distributed Processing Approach. MIT Press. </p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
 
@@ -534,6 +558,8 @@
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
 
+<p id="SummerfieldLuyckxSheahan20">Summerfield, C., Luyckx, F., & Sheahan, H. (2020). Structure learning and the posterior parietal cortex. Progress in Neurobiology, 184, 101717. http://www.sciencedirect.com/science/article/pii/S0301008219303351 http://doi.org/10.1016/j.pneurobio.2019.101717</p>
+
 <p id="SummerfielddeLange14">Summerfield, C., & Lange, F.P. (2014). Expectation in perceptual decision making: neural and computational mechanisms. Nature Reviews Neuroscience, 15, 745-756. https://www.nature.com/nrn/journal/v15/n11/full/nrn3838.html http://doi.org/10.1038/nrn3838</p>
 
 <p id="Sutton88">Sutton, R.S. (1988). Learning to Predict by the Method of Temporal Differences. Machine Learning, 3, 9-44. </p>
@@ -595,6 +621,8 @@
 <p id="VidalBrunaGiryesEtAl17">Vidal, R., Bruna, J., Giryes, R., & Soatto, S. (2017). Mathematics of Deep Learning. http://arxiv.org/abs/1712.04741 http://doi.org/10.48550/arXiv.1712.04741</p>
 
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
+
+<p id="WebbFranklandAltabaaEtAl24">Webb, T.W., Frankland, S.M., Altabaa, A., Segert, S., Krishnamurthy, K., Campbell, D., Russin, J., Giallanza, T., O’Reilly, R., Lafferty, J., & Cohen, J.D. (2024). The relational bottleneck as an inductive bias for efficient abstraction. Trends in Cognitive Sciences, https://www.sciencedirect.com/science/article/pii/S1364661324000809 http://doi.org/10.1016/j.tics.2024.04.001</p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
 
