@@ -27,7 +27,7 @@ The direct mapping of the RL model-free vs. model-based concepts onto these biol
 
 A nice thing about the RL framework is that it provides precise definitions and equations, which we will summarize in the following sections. Interestingly, even though model-based RL should in principle be more powerful than model-free, the additional complexities involved actually make it rather difficult to demonstrate advantages in practice, and many of the state-of-the-art models are much closer to the model-free end of the spectrum ([[@MoerlandBroekensJonker21]]; [[@PlaatKostersPreuss23]]).
 
-## Model-free RL
+## Model-free
 
 From an abstract mathematical perspective, RL can be formulated as a _markov decision process_ (MDP), which just means that there are _discrete_ states $S$ that evolve over time according to a unitary (normalized) transition matrix $T$ that determines the probability of any given future state, based on the current state and any action taken by the agent. See [[@SuttonBarto98]] for the definitive textbook treatment.
 
@@ -129,7 +129,7 @@ From a neuroscience perspective there are actually a number of different brain a
 
 Although they share some core conceptual similarities, and a very similar name, it is important to distinguish the TD framework from the [[temporal derivative]] based learning mechanisms used in [[Axon]] for [[error-driven learning]] in the [[neocortex]], via the [[kinase algorithm]]. Most importantly, from a biological perspective, TD translates a temporal difference signal into the firing of dopamine neurons, which then _explicitly_ represents the RPE signal. By contrast, the prediction error signal in the temporal derivative framework _remains implicit_ as a difference in neural activity over time, which propagates throughout the neocortex via bidirectional connectivity. Each synapse then adjusts its synaptic weights locally in a way that is sensitive to these temporal derivatives, as contrasted with the direct neuromodulatory role played by dopamine.
 
-## Model-based RL
+## Model-based
 
 Many different _model based_ mechanisms can be used in addition or instead of model-free RL ([[@MoerlandBroekensJonker21]]; [[@PlaatKostersPreuss23]]). Many of these mechanisms have direct analogs in the cognitive and neuroscience domain, and are useful for providing a computational insights into these areas. As will become apparent, each of these approaches has clear intuitive advantages, but also significant computational challenges that often prevent these advantages from being realized in more realistic, complex task domains. Overcoming these challenges is a major goal of the [[Rubicon]] model, as outlined below.
 

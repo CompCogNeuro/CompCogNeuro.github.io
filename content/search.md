@@ -3,11 +3,11 @@ Categories = ["Computation", "Activation", "Learning", "Axon", "Bidrectional con
 bibfile = "ccnlab.json"
 +++
 
-**Search** is perhaps the single most general unifying concept in all of computation.
+**Search** is perhaps the single most general unifying concept in all of [[computation]].
 
 * _Problem solving_ can be defined as search through _problem space_, as in many classical symbolic [[artificial intelligence]] (AI) systems defined it ([[@NewellSimon72]]; [[Newell91]]).
 
-* _Planning_ is search through _action space_ to accomplish a desired outcome, which is the focus of many approaches in [[reinforcement learning#model-based RL]].
+* _Planning_ is search through _action space_ to accomplish a desired outcome, which is the focus of many approaches in [[reinforcement learning#model-based]] reinforcement learning.
 
 * _Learning_ is search through _representation space_, to find the best [[linear algebra|basis]] for representing inputs, that supports the desired computational processes and behavioral outputs.
 
@@ -55,6 +55,8 @@ The most effective balance of parallel and serial processing is with a foundatio
 
 We believe that this overall configuration of parallel and serial processing is essential for intelligent behavior, and it provides a compelling description of many aspects of human cognition. In terms of the longstanding debate between symbolic vs. "subsymbolic" approaches to AI, this represents a synthesis of the two, with symbolic processing emerging out of fundamentally subsymbolic, neural-network hardware.
 
-Interestingly, [[large language models]] have this same overall configuration as well, because they are extensively trained to predict the behavior of computer programs, and thus essentially learn to behave like a Turing machine ([[@YangCampbellHuangEtAl25]]). Indeed, research has shown that excluding the computer programming aspects of the standard training corpus significantly impacts the overall cognitive flexibility of the resulting system TODO CITES!!.
+Interestingly, [[large language models]] have this same overall configuration as well, because they are extensively trained to predict the behavior of computer programs, and thus essentially learn to behave like a Turing machine ([[@YangCampbellHuangEtAl25]]). Indeed, research has shown that excluding the computer programming aspects of the standard training corpus significantly impacts the overall cognitive flexibility of the resulting system.
+
+<!---  TODO CITES!!. -->
 
 

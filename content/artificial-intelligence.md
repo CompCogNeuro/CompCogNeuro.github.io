@@ -3,7 +3,7 @@ Categories = ["Axon", "Computation"]
 bibfile = "ccnlab.json"
 +++
 
-**Artificial intellignce** (AI) has been used to describe a very wide range of different computational frameworks over the years, including symbolic reasoning systems developed from the 1950s to the 1990s, and the current [[abstract neural network]] (ANN) models including [[large language model]]s (LLMs).
+**Artificial intellignce** (AI) has been used to describe a very wide range of different computational frameworks over the years, including symbolic reasoning systems developed from the 1950s to the 1990s, and the current [[abstract neural network]] (ANN) models including [[large language models]] (LLMs).
 
 The question of what "counts" as "intelligent" is tricky, because mostly we use humans as the only available point of reference, while also not wanting to be too directly tied to the quirks of our own particular brand of intelligence. The attempt to define a clear set of criteria for what counts as intelligent is notoriously difficult, with the Turing test providing an unsatisfyingly pragmatic approach: if we can't tell the difference between it and a human, it must be intelligent.
 
@@ -17,7 +17,7 @@ At a very basic level LLMs are fundamentally limited by the fact that they lack 
 
 Another obvious failing of current LLMs is that they are almost entirely dependent on external input from humans to shape their behavior. They don't spend their idle moments daydreaming about interesting reflections based on everything they know, devising interesting new problems to think about or discover the answers to. Fundamentally, they don't know what they know and what they don't know, and thus have no ability to formulate problem solving strategies focused on figuring out what they need to know to solve a problem. They have been trained to imitate human reasoning and this improves performance to some extent, but ultimately, like so much with LLMs, it is just an imitation of true human problem solving and intelligence.
 
-## Axon general intelligence goals
+## Axon general intelligence
 
 The [[Rubicon]] framework provides a clear set of hypotheses about how goal-driven problem solving abilities can emerge through interacting brain networks, based on the overall Axon model. Some key features of this approach are as follows:
 

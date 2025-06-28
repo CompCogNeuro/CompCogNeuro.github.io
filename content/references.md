@@ -6,6 +6,8 @@
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
 
+<p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
+
 <p id="Almeida87">Almeida, L.B. (1987). A Learning Rule for Asynchronous Perceptrons with Feedback in a Combinatorial Environment. In M. Caudil, & C. Butler (Eds.), Proceedings of the IEEE First International Conference on Neural Networks San Diego, CA (pp. 609-618). </p>
 
 <p id="AndersonLebiere98">Anderson, J.R., & Lebiere, C. (1998). The Atomic Components of Thought (1 ed). Lawrence Erlbaum Associated, Publishers. </p>
@@ -15,6 +17,8 @@
 <p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
 
 <p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
+
+<p id="BaldiHornik89">Baldi, P., & Hornik, K. (1989). Neural networks and principlal components analysis: Learning from examples without local minima. Neural Networks, 2, 53-58. </p>
 
 <p id="BalleineDickinson98">Balleine, B.W., & Dickinson, A. (1998). Goal-directed instrumental action: contingency and incentive learning and their cortical substrates. Neuropharmacology, 37, 407–419. http://www.ncbi.nlm.nih.gov/pubmed/9704982</p>
 
@@ -75,6 +79,8 @@
 <p id="BuffaloFriesLandmanEtAl11">Buffalo, E.A., Fries, P., Landman, R., Buschman, T.J., & Desimone, R. (2011). Laminar differences in gamma and alpha coherence in the ventral stream. Proceedings of the National Academy of Sciences of the United States of America, 108, 11262–11267. http://www.ncbi.nlm.nih.gov/pubmed/21690410</p>
 
 <p id="CainSnutch12">Cain, S.M., & Snutch, T.P. (2012). Voltage-Gated Calcium Channels in Epilepsy. In J.L. Noebels, M. Avoli, M.A. Rogawski, R.W. Olsen, & A.V. Delgado-Escueta (Eds.), Jasper's Basic Mechanisms of the Epilepsies (4th ed.). National Center for Biotechnology Information (US) http://www.ncbi.nlm.nih.gov/books/NBK98147/</p>
+
+<p id="CampbellRaneGiallanzaEtAl24">Campbell, D., Rane, S., Giallanza, T., De Sabbata, N., Ghods, K., Joshi, A., Ku, A., Frankland, S.M., Griffiths, T.L., Cohen, J.D., & Webb, T. (2024). Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem. Advances in Neural Information Processing Systems, 37, 113436-113460. https://proceedings.neurips.cc/paper_files/paper/2024/hash/cdcc6d47c1627350014a3076112ab824-Abstract-Conference.html</p>
 
 <p id="Cardin18">Cardin, J.A. (2018). Inhibitory interneurons regulate temporal precision and correlations in cortical circuits. Trends in Neurosciences, 41, 689-700. https://www.sciencedirect.com/science/article/pii/S0166223618302078 http://doi.org/10.1016/j.tins.2018.07.015</p>
 
@@ -246,6 +252,8 @@
 
 <p id="HopfieldTank85">Hopfield, J.J., & Tank, D.W. (1985). {`Neural'} computation of decisions in optimization problems. Biological Cybernetics, 52, 141-152. http://www.ncbi.nlm.nih.gov/pubmed/4027280</p>
 
+<p id="HuangYangPotts24">Huang, J., Yang, D., & Potts, C. (2024). Demystifying Verbatim Memorization in Large Language Models. http://arxiv.org/abs/2407.17817 http://doi.org/10.48550/arXiv.2407.17817</p>
+
 <p id="HubelWiesel62">Hubel, D., & Wiesel, T.N. (1962). Receptive Fields, Binocular Interaction, and Functional Architecture in the Cat's Visual Cortex. Journal of Physiology, 160, 106-154. </p>
 
 <p id="Hyvarinen13">Hyvärinen, A. (2013). Independent component analysis: recent advances. Philosophical transactions. Series A, Mathematical, physical, and engineering sciences, 371, 20110534. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538438/ http://doi.org/10.1098/rsta.2011.0534</p>
@@ -270,6 +278,10 @@
 
 <p id="Kahneman11">Kahneman, D. (2011). Thinking, Fast and Slow. Macmillan. </p>
 
+<p id="KahnemanTversky84">Kahneman, D., & Tversky, A. (1984). Choices, values and frames. American Psychologist, 39, 341-50. </p>
+
+<p id="KarbachKray21">Karbach, J., & Kray, J. (2021). Executive Function Training. In T. Strobach, & J. Karbach (Eds.), Cognitive Training: An Overview of Features and Applications (pp. 199-212). Springer International Publishing. https://doi.org/10.1007/978-3-030-39292-5_14 http://doi.org/10.1007/978-3-030-39292-5_14</p>
+
 <p id="KawatoHayakawaInui93">Kawato, M., Hayakawa, H., & Inui, T. (1993). A forward-inverse optics model of reciprocal connections between visual cortical areas. Network: Computation in Neural Systems, 4, 415-422. http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_4_001 http://doi.org/10.1088/0954-898X_4_4_001</p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
@@ -289,6 +301,8 @@
 <p id="KohonenHari99">Kohonen, T., & Hari, R. (1999). Where the abstract feature maps of the brain might come from. Trends in neurosciences, 22, 135. http://www.ncbi.nlm.nih.gov/pubmed/10199639</p>
 
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
+
+<p id="KrotovHopfield21">Krotov, D., & Hopfield, J. (2021). Large Associative Memory Problem in Neurobiology and Machine Learning. http://arxiv.org/abs/2008.06996 http://doi.org/10.48550/arXiv.2008.06996</p>
 
 <p id="KrystalAnticevicYangEtAl17">Krystal, J.H., Anticevic, A., Yang, G.J., Dragoi, G., Driesen, N.R., Wang, X., & Murray, J.D. (2017). Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia: A Translational and Computational Neuroscience Perspective. Biological Psychiatry, 81, 874-885. https://www.sciencedirect.com/science/article/pii/S0006322317300367 http://doi.org/10.1016/j.biopsych.2017.01.004</p>
 
@@ -366,6 +380,8 @@
 
 <p id="Mumford92">Mumford, D. (1992). On the computational architecture of the neocortex. II. The role of cortico-cortical loops. Biological Cybernetics, 66, 241–251. http://www.ncbi.nlm.nih.gov/pubmed/1540675</p>
 
+<p id="MusslickSaxeHoskinEtAl20">Musslick, S., Saxe, A., Hoskin, A., Sagiv, Y., Reichman, D., Petri, G., & Cohen, J. (2020). On the Rational Boundedness of Cognitive Control: Shared Versus Separated Representations. https://osf.io/jkhdf_v1 http://doi.org/10.31234/osf.io/jkhdf</p>
+
 <p id="NakkiranKaplunBansalEtAl21">Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2021). Deep double descent: where bigger models and more data hurt* Journal of Statistical Mechanics: Theory and Experiment, 2021, 124003. https://dx.doi.org/10.1088/1742-5468/ac3a74 http://doi.org/10.1088/1742-5468/ac3a74</p>
 
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
@@ -410,6 +426,8 @@
 
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
 
+<p id="OswaldNiklassonRandazzoEtAl23">Oswald, J.V., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. In Proceedings of the 40th International Conference on Machine Learning (pp. 35151-35174). PMLR. https://proceedings.mlr.press/v202/von-oswald23a.html</p>
+
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
 <p id="PateriaSubagdjaTanEtAl21">Pateria, S., Subagdja, B., Tan, A., & Quek, C. (2021). Hierarchical Reinforcement Learning: A Comprehensive Survey. ACM Comput. Surv., 54, 109:1–109:35. https://dl.acm.org/doi/10.1145/3453160 http://doi.org/10.1145/3453160</p>
@@ -433,6 +451,8 @@
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
 
 <p id="Rall67">Rall, W. (1967). Distinguishing theoretical synaptic potentials computed for different soma-dendritic distributions of synaptic input. Journal of Neurophysiology, 30, 1138-1168. https://journals.physiology.org/doi/abs/10.1152/jn.1967.30.5.1138 http://doi.org/10.1152/jn.1967.30.5.1138</p>
+
+<p id="RamsauerSchaflLehnerEtAl21">Ramsauer, H., Schäfl, B., Lehner, J., Seidl, P., Widrich, M., Adler, T., Gruber, L., Holzleitner, M., Pavlović, M., Sandve, G.K., Greiff, V., Kreil, D., Kopp, M., Klambauer, G., Brandstetter, J., & Hochreiter, S. (2021). Hopfield Networks is All You Need. http://arxiv.org/abs/2008.02217 http://doi.org/10.48550/arXiv.2008.02217</p>
 
 <p id="RaoBallard99">Rao, R.P., & Ballard, D.H. (1999). Predictive coding in the visual cortex: A functional interpretation of some extra-classical receptive-field effects. Nature Neuroscience, 2, 79-87. http://www.ncbi.nlm.nih.gov/pubmed/10195184 http://doi.org/10.1038/4580</p>
 
@@ -548,6 +568,8 @@
 
 <p id="Treisman77">Treisman, A. (1977). Focused attention in the perception and retrieval of multidimensional stimuli. Perception and Psychophysics, 22, 1-11. </p>
 
+<p id="TreismanGelade80">Treisman, A.M., & Gelade, G. (1980). A Feature-Integration Theory of Attention. Cognitive Psychology, 12, 97-136. </p>
+
 <p id="Tsang14">Tsang, E. (2014). Foundations of Constraint Satisfaction: Computation in Cognitive Science. Academic Press. </p>
 
 <p id="TullisBayer23">Tullis, J.E., & Bayer, K.U. (2023). Distinct synaptic pools of DAPK1 differentially regulate activity-dependent synaptic CaMKII accumulation. iScience, 26, https://www.cell.com/iscience/abstract/S2589-0042(23)00800-3 http://doi.org/10.1016/j.isci.2023.106723</p>
@@ -593,6 +615,8 @@
 <p id="XieSeung03">Xie, X., & Seung, H.S. (2003). Equivalence of backpropagation and Contrastive Hebbian Learning in a layered network. Neural Computation, 15, 441-454. http://www.ncbi.nlm.nih.gov/pubmed/12590814</p>
 
 <p id="YamadaInanobeKurachi98">Yamada, M., Inanobe, A., & Kurachi, Y. (1998). G protein regulation of potassium ion channels. Pharmacological Reviews, 50, 723-757. https://pharmrev.aspetjournals.org/content/50/4/723</p>
+
+<p id="YangCampbellHuangEtAl25">Yang, Y., Campbell, D., Huang, K., Wang, M., Cohen, J., & Webb, T. (2025). Emergent Symbolic Mechanisms Support Abstract Reasoning in Large Language Models. http://arxiv.org/abs/2502.20332 http://doi.org/10.48550/arXiv.2502.20332</p>
 
 <p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
 
