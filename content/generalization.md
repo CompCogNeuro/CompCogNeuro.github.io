@@ -37,7 +37,7 @@ What makes networks of neurons able to generalize their learning? The following 
 {id="figure_structural" style="height:20em"}
 ![Far transfer to o.o.d. cases can happen via structural extrapolation based on a "bridging" concepts that allow familiar relationships to be applied to enties well outside the training set.  In this illustration, the analogical structure of orbiting allows us to use more familiar concepts to extrapolate to the invisible atomic world of electrons orbiting the nucleus.](media/fig_generalization_bridge_ood.png)
 
-As illustrated conceptually in [[#figure_structrual]], successful far transfer requires a lot of cognitive work. You first have to build the relevant structural representations (the "relational bridge") within the scope of your existing knowledge, and then you have to perform the _structure mapping_ process ([[@Gentner83]]) to traverse this bridge out into the wild unknown "ocean" beyond the safety of your existing knowledge island. Then you have to figure out if it is a bridge to nowhere, or whether it really provides a solid portal into this new realm. In the case of the atomic system, the simple orbiting model only partially applies, and many strange and new concepts from quantum mechanics are instead required to accurately understand how things work in this mysterious, invisible microscopic realm.
+As illustrated conceptually in [[#figure_structural]], successful far transfer requires a lot of cognitive work. You first have to build the relevant structural representations (the "relational bridge") within the scope of your existing knowledge, and then you have to perform the _structure mapping_ process ([[@Gentner83]]) to traverse this bridge out into the wild unknown "ocean" beyond the safety of your existing knowledge island. Then you have to figure out if it is a bridge to nowhere, or whether it really provides a solid portal into this new realm. In the case of the atomic system, the simple orbiting model only partially applies, and many strange and new concepts from quantum mechanics are instead required to accurately understand how things work in this mysterious, invisible microscopic realm.
 
 ## Math supports generalization
 
@@ -60,9 +60,14 @@ Computer programs are another important source domain for generalization, and pr
 All programming languages provide strong relational abstractions, in the form of types, functions, and structures, that then support strongly systematic generalized functionality. For example, functions specify arguments that can take on any value, subject to constraints imposed by the type system:
 
 ```Go
-func Add(a, b int) int {
-    return a + b
+Add := func(a, b int) int {
+    sum := a + b
+    fmt.Printf("%d + %d = %d\n", a, b, sum)
+    return sum
 }
+
+Add(2, 3)
+Add(5, 7)
 ```
 
 Thus, this one function can operate on any two arguments, providing massive levels of systematicity and generalization. The types can be further qualified and specified to more strongly constrain the relationships among variables, etc.
