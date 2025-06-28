@@ -9,3 +9,6 @@ Error-driven learning requires a mechanism for these error signals to drive syna
 
 Because error-driven learning is mathematically derived to minimize performance errors on any given task, it provides a very general and flexible form of learning. By contrast, [[Hebbian learning]], which is more obviously supported by the known [[synaptic plasticity]] mechanisms, is mathematically related to [[principal components analysis]], and generally learns to encode the strong correlational structure present in its inputs. Empirically, it does not learn to solve arbitrary tasks, and is thus not a plausible basis for a general-purpose learning mechanism in the [[neocortex]].
 
+See [[combinatorial vs conjunctive]] for an analysis of the tradeoffs at play in error-driven learning, that help clarify the relationship to Hebbian learning.
+
+

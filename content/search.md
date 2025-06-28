@@ -55,6 +55,6 @@ The most effective balance of parallel and serial processing is with a foundatio
 
 We believe that this overall configuration of parallel and serial processing is essential for intelligent behavior, and it provides a compelling description of many aspects of human cognition. In terms of the longstanding debate between symbolic vs. "subsymbolic" approaches to AI, this represents a synthesis of the two, with symbolic processing emerging out of fundamentally subsymbolic, neural-network hardware.
 
-Interestingly, [[large language models]] have this same overall configuration as well, because they are extensively trained to predict the behavior of computer programs, and thus essentially learn to behave like a Turing machine. Indeed, research has shown that excluding the computer programming aspects of the standard training corpus significantly impacts the overall cognitive flexibility of the resulting system TODO CITES!!.
+Interestingly, [[large language models]] have this same overall configuration as well, because they are extensively trained to predict the behavior of computer programs, and thus essentially learn to behave like a Turing machine ([[@YangCampbellHuangEtAl25]]). Indeed, research has shown that excluding the computer programming aspects of the standard training corpus significantly impacts the overall cognitive flexibility of the resulting system TODO CITES!!.
 
 

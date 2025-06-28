@@ -1,5 +1,6 @@
 +++
 title = "GeneRec"
+name = "GeneRec"
 Categories = ["Learning", "Axon", "Computation"]
 bibfile = "ccnlab.json"
 +++
