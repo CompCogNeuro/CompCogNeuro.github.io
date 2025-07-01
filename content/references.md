@@ -160,6 +160,8 @@
 
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
 
+<p id="ElhageNandaOlssonEtAl21">Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., & Conerly, T. (2021). A mathematical framework for transformer circuits. Transformer Circuits Thread, 1, 12. </p>
+
 <p id="Elman90">Elman, J.L. (1990). Finding structure in time. Cognitive Science, 14, 179-211. </p>
 
 <p id="ElmanBatesKarmiloff-SmithEtAl96">Elman, J.L., Bates, E., Karmiloff-Smith, A., Johnson, M., Parisi, D., & Plunkett, K. (1996). Rethinking Innateness: A Connectionist Perspective on Development. MIT Press. </p>
@@ -400,6 +402,8 @@
 
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
+<p id="NandaRajamanoharanKramarEtAl23">Nanda, N., Rajamanoharan, S., Kramár, J., & Shah, R. (2023). Fact Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level (Post 1) https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall</p>
+
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
 <p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
@@ -613,6 +617,8 @@
 <p id="VanRullenKoch03">VanRullen, R., & Koch, C. (2003). Is perception discrete or continuous? Trends in Cognitive Sciences, 7, 207–213. http://www.ncbi.nlm.nih.gov/pubmed/12757822</p>
 
 <p id="VapnikChervonenkis71">Vapnik, V.N., & Chervonenkis, A. (1971). On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities. Theory of Probability and Its Applications, 16, 264-280. </p>
+
+<p id="VaswaniShazeerParmarEtAl17">Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, �., & Polosukhin, I. (2017). Attention is all you need. In I. Guyon, U.V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, & R. Garnett (Eds.), Advances in Neural Information Processing Systems 30 (pp. 5998–6008). Curran Associates, Inc. http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf</p>
 
 <p id="VeceraFarah94">Vecera, S.P., & Farah, M.J. (1994). Does visual attention select objects or locations? Journal of Experimental Psychology: General, 123, 146-160. </p>
 

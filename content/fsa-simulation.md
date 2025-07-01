@@ -1,5 +1,5 @@
 +++
-Categories = ["Learning", "Simulations", "Axon"]
+Categories = ["Learning", "Simulations"]
 title = "FSA simulation"
 name = "FSA simulation"
 bibfile = "ccnlab.json"
