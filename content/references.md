@@ -6,6 +6,8 @@
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
 
+<p id="Aizi23">Aizi, R. (2023). How does GPT-3 spend its 175B parameters? https://www.lesswrong.com/posts/3duR8CrvcHywrnhLo/how-does-gpt-3-spend-its-175b-parameters</p>
+
 <p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
 
 <p id="Almeida87">Almeida, L.B. (1987). A Learning Rule for Asynchronous Perceptrons with Feedback in a Combinatorial Environment. In M. Caudil, & C. Butler (Eds.), Proceedings of the IEEE First International Conference on Neural Networks San Diego, CA (pp. 609-618). </p>
@@ -88,6 +90,8 @@
 
 <p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
 
+<p id="ChenShwartz-ZivChoEtAl25">Chen, A., Shwartz-Ziv, R., Cho, K., Leavitt, M.L., & Saphra, N. (2025). Sudden Drops in the Loss: Syntax Acquisition, Phase Transitions, and Simplicity Bias in MLMs. http://arxiv.org/abs/2309.07311 http://doi.org/10.48550/arXiv.2309.07311</p>
+
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
 
 <p id="Chomsky65">Chomsky, N. (1965). Aspects of the Theory of Syntax. MIT Press. </p>
@@ -111,6 +115,8 @@
 <p id="CookBuonaratiCoultrapEtAl21">Cook, S.G., Buonarati, O.R., Coultrap, S.J., & Bayer, K.U. (2021). CaMKII holoenzyme mechanisms that govern the LTP versus LTD decision. Science Advances, https://www.science.org/doi/abs/10.1126/sciadv.abe2300 http://doi.org/10.1126/sciadv.abe2300</p>
 
 <p id="Cooper05">Cooper, S.J. (2005). Donald O. Hebb's synapse and learning rule: a history and commentary. Neuroscience & Biobehavioral Reviews, 28, 851-874. https://www.sciencedirect.com/science/article/pii/S0149763404000995 http://doi.org/10.1016/j.neubiorev.2004.09.009</p>
+
+<p id="CortesVapnik95">Cortes, C., & Vapnik, V. (1995). Support-vector networks. Machine Learning, 20, 273 – 297. </p>
 
 <p id="CoslettSaffran91">Coslett, H.B., & Saffran, E. (1991). Simultanagnosia. To see but not two see. Brain, 114, 1523-1545. </p>
 
@@ -174,6 +180,8 @@
 
 <p id="FerrainaPareWurtz02">Ferraina, S., Pare, M., & Wurtz, R.H. (2002). Comparison of cortico-cortical and cortico-collicular signals for the generation of saccadic eye movements. Journal of Neurophysiology, 87, 845-858. http://www.ncbi.nlm.nih.gov/pubmed/11826051</p>
 
+<p id="FerreiraHenderson91">Ferreira, F., & Henderson, J.M. (1991). Recovery from misanalyses of garden-path sentences. Journal of Memory and Language, 30, 725-745. https://www.sciencedirect.com/science/article/pii/0749596X9190034H http://doi.org/10.1016/0749-596X(91)90034-H</p>
+
 <p id="FodorPylyshyn88">Fodor, J.A., & Pylyshyn, Z.W. (1988). Connectionism and cognitive architecture: a critical analysis. Cognition, 28, 3-71. http://www.ncbi.nlm.nih.gov/pubmed/2450716</p>
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
@@ -183,6 +191,8 @@
 <p id="FroemkeDan02">Froemke, R.C., & Dan, Y. (2002). Spike-timing-dependent synaptic modification induced by natural spike trains. Nature, 416, 433-437. http://www.ncbi.nlm.nih.gov/pubmed/11919633</p>
 
 <p id="FroemkeTsayRaadEtAl06">Froemke, R.C., Tsay, I.A., Raad, M., Long, J.D., & Dan, Y. (2006). Contribution of individual spikes in burst-induced long-term synaptic modification. Journal of Neurophysiology, 95, 1620-1629. </p>
+
+<p id="Fujita21">Fujita, H. (2021). On the parsing of garden-path sentences. Language, Cognition and Neuroscience, 36, 1234-1245. https://doi.org/10.1080/23273798.2021.1922727 http://doi.org/10.1080/23273798.2021.1922727</p>
 
 <p id="FujitaFukaiKitano12">Fujita, T., Fukai, T., & Kitano, K. (2012). Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron. Journal of Computational Neuroscience, 32, 539-553.  http://doi.org/10.1007/s10827-011-0368-2</p>
 
@@ -354,6 +364,8 @@
 
 <p id="MainenSejnowski96">Mainen, Z.F., & Sejnowski, T.J. (1996). Influence of dendritic structure on firing pattern in model neocortical neurons. Nature, 382, 363. http://www.ncbi.nlm.nih.gov/pubmed/8684467</p>
 
+<p id="ManningClarkHewittEtAl20">Manning, C.D., Clark, K., Hewitt, J., Khandelwal, U., & Levy, O. (2020). Emergent linguistic structure in artificial neural networks trained by self-supervision. Proceedings of the National Academy of Sciences, 117, 30046-30054. https://www.pnas.org/doi/full/10.1073/pnas.1907367117 http://doi.org/10.1073/pnas.1907367117</p>
+
 <p id="MarkramMullerRamaswamyEtAl15">Markram, H., Muller, E., Ramaswamy, S., Reimann, M.W., Abdellah, M., Sanchez, C.A., Ailamaki, A., Alonso-Nanclares, L., Antille, N., Arsever, S., Kahou, G.A.A., Berger, T.K., Bilgili, A., Buncic, N., Chalimourda, A., Chindemi, G., Courcol, J., Delalondre, F., Delattre, V., Druckmann, S., Dumusc, R., Dynes, J., Eilemann, S., Gal, E., Gevaert, M.E., Ghobril, J., Gidon, A., Graham, J.W., Gupta, A., Haenel, V., Hay, E., Heinis, T., Hernando, J.B., Hines, M., Kanari, L., Keller, D., Kenyon, J., Khazen, G., Kim, Y., King, J.G., Kisvarday, Z., Kumbhar, P., Lasserre, S., Le Bé, J., Magalhães, B.R.C., Merchán-Pérez, A., Meystre, J., Morrice, B.R., Muller, J., Muñoz-Céspedes, A., Muralidhar, S., Muthurasa, K., Nachbaur, D., Newton, T.H., Nolte, M., Ovcharenko, A., Palacios, J., Pastor, L., Perin, R., Ranjan, R., Riachi, I., Rodríguez, J., Riquelme, J.L., Rössert, C., Sfyrakis, K., Shi, Y., Shillcock, J.C., Silberberg, G., Silva, R., Tauheed, F., Telefont, M., Toledo-Rodriguez, M., Tränkler, T., Van Geit, W., Díaz, J.V., Walker, R., Wang, Y., Zaninetta, S.M., DeFelipe, J., Hill, S.L., Segev, I., & Schürmann, F. (2015). Reconstruction and Simulation of Neocortical Microcircuitry. Cell, 163, 456-492.  http://doi.org/10.1016/j.cell.2015.09.029</p>
 
 <p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
@@ -366,7 +378,11 @@
 
 <p id="McClelland98">McClelland, J.L. (1998). Connectionist Models and Bayesian Inference. In N. Chater, & M. Oaksford (Eds.), Rational Models of Cognitive Processes. Oxford University Press. </p>
 
+<p id="McClellandHillRudolphEtAl20">McClelland, J.L., Hill, F., Rudolph, M., Baldridge, J., & Schütze, H. (2020). Placing language in an integrated understanding system: Next steps toward human-level performance in neural language models. Proceedings of the National Academy of Sciences, 117, 25966-25974. http://www.pnas.org/content/117/42/25966 http://doi.org/10.1073/pnas.1910416117</p>
+
 <p id="McClellandRumelhart86">McClelland, J.L., & Rumelhart, D.E. (1986). A Distributed Model of Human Learning and Memory. In J.L. McClelland, D.E. Rumelhart, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 2: Psychological and Biological Models (pp. 170-215). MIT Press. </p>
+
+<p id="McGrathRussinPavlickEtAl24">McGrath, S.W., Russin, J., Pavlick, E., & Feiman, R. (2024). How Can Deep Neural Networks Inform Theory in Psychological Science? Current Directions in Psychological Science, 33, 325-333.  http://doi.org/10.1177/09637214241268098</p>
 
 <p id="MiglioreHoffmanMageeEtAl99">Migliore, M., Hoffman, D., Magee, J., & Johnston, D. (1999). Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons. Journal of Computational Neuroscience, 7, 5-15. https://doi.org/10.1023/A:1008906225285 http://doi.org/10.1023/A:1008906225285</p>
 
@@ -449,6 +465,8 @@
 <p id="OkunLampl08">Okun, M., & Lampl, I. (2008). Instantaneous correlation of excitation and inhibition during ongoing and sensory-evoked activities. Nature Neuroscience, 11, 535-537. https://www.nature.com/articles/nn.2105 http://doi.org/10.1038/nn.2105</p>
 
 <p id="OlshausenField96">Olshausen, B.A., & Field, D.J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381, 607. http://www.ncbi.nlm.nih.gov/pubmed/8637596</p>
+
+<p id="OlssonElhageNandaEtAl22">Olsson, C., Elhage, N., Nanda, N., Joseph, N., DasSarma, N., Henighan, T., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., Drain, D., Ganguli, D., Hatfield-Dodds, Z., Hernandez, D., Johnston, S., Jones, A., Kernion, J., Lovitt, L., Ndousse, K., Amodei, D., Brown, T., Clark, J., Kaplan, J., McCandlish, S., & Olah, C. (2022). In-context Learning and Induction Heads. http://arxiv.org/abs/2209.11895 http://doi.org/10.48550/arXiv.2209.11895</p>
 
 <p id="OswaldNiklassonRandazzoEtAl23">Oswald, J.V., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. In Proceedings of the 40th International Conference on Machine Learning (pp. 35151-35174). PMLR. https://proceedings.mlr.press/v202/von-oswald23a.html</p>
 
@@ -582,6 +600,8 @@
 
 <p id="TanakaHoriikeMatsuzakiEtAl08">Tanaka, J., Horiike, Y., Matsuzaki, M., Miyazaki, T., Ellis-Davies, G.C.R., & Kasai, H. (2008). Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines. Science, 319, 1683-1687. https://www.science.org/doi/full/10.1126/science.1152864 http://doi.org/10.1126/science.1152864</p>
 
+<p id="TenneyDasPavlick19">Tenney, I., Das, D., & Pavlick, E. (2019). BERT Rediscovers the Classical NLP Pipeline. http://arxiv.org/abs/1905.05950 http://doi.org/10.48550/arXiv.1905.05950</p>
+
 <p id="Thomson10">Thomson, A.M. (2010). Neocortical layer 6, a review. Frontiers in Neuroanatomy, 4, http://www.ncbi.nlm.nih.gov/pubmed/20556241</p>
 
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
@@ -628,6 +648,8 @@
 
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
+<p id="WarstadtBowman22">Warstadt, A., & Bowman, S.R. (2022). What Artificial Neural Networks Can Tell Us about Human Language Acquisition. In Algebraic Structures in Natural Language. CRC Press. </p>
+
 <p id="WebbFranklandAltabaaEtAl24">Webb, T.W., Frankland, S.M., Altabaa, A., Segert, S., Krishnamurthy, K., Campbell, D., Russin, J., Giallanza, T., O’Reilly, R., Lafferty, J., & Cohen, J.D. (2024). The relational bottleneck as an inductive bias for efficient abstraction. Trends in Cognitive Sciences, https://www.sciencedirect.com/science/article/pii/S1364661324000809 http://doi.org/10.1016/j.tics.2024.04.001</p>
 
 <p id="Werbos74">Werbos, P. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences. [unpublished thesis, Harvard University]. </p>
@@ -655,6 +677,8 @@
 <p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
+
+<p id="ZhengWolfRanganathEtAl25">Zheng, Y., Wolf, N., Ranganath, C., O'Reilly, R.C., & McKee, K.L. (2025). Flexible prefrontal control over hippocampal episodic memory for goal-directed generalization. http://arxiv.org/abs/2503.02303 http://doi.org/10.48550/arXiv.2503.02303</p>
 
 <p id="vonNeumann45">Neumann, J. (1945). First Draft of a Report on the EDVAC. document. </p>
 

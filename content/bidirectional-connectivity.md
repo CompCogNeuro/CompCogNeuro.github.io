@@ -25,6 +25,26 @@ Thus, while the feedforward flow of excitation through multiple layers of the ne
 
 There are also **lateral** excitatory connections which interconnect neurons at the same level of processing, and help provide mutual support for consistent patterns of activity. This is illustrated in the [[necker cube simulation]] which shows how different visual features can support each other through lateral connections to drive a coherent overall interpretation of an otherwise ambiguous visual input. This is a particular example of the broader category of [[attractor dynamics]], which provides a more abstract, high-level characterization of the computational function of bidirectional connectivity.
 
+## Feedforward unrolling
+
+The same dynamics that occur in a bidirectionally-connected network can in principle be captured instead by _unrolling_ a network across a cascade of multiple layers, where each such layer represents the state of the network at a given moment in time. This is is like unrolling a `for` loop in a computer program:
+
+```Go
+for i := range 3 {
+	fmt.Println(i)
+}
+// unrolled:
+fmt.Println(0)
+fmt.Println(1)
+fmt.Println(2)
+```
+
+However, given the small-world connectivity dynamics of the neocortex, where each individual neuron is only a few synapses away from any other, it would therefore in principle require replicating the entire neocortex at each of these levels. This is analogous to in the above programming case to the amount of code contained within the for loop. When that code is just a few statements, it isn't a problem to unroll it (and it will actually be faster). But if that code is a giant complex algorithm, then replicating all that code is impractical.
+
+Therefore, this unrolling approach cannot capture the full extent of a bidirectionally-connected neocortex. Nevertheless, it is likely that the [[transformer]] architecture that powers [[large language models]] is capturing some key elements of this bidirectional dynamic in the cortex.
+
+Another critical difference for the relevance of bidirectional connectivity in [[conscious awareness]] is that the unrolling approach operates across _different neurons_ for each iteration, whereas the biological case is "re-using" the same neurons over time. Given that our subjective conscious state is effectively what it feels like to be this big bidirectionally connected network, it would presumably be quite different if this dynamic was instead happening across a bunch of different neural populations, instead of a smaller set of mutually-interacting ones.
+
 ## Simulations
 
 * [[faces simulation]] (Part II) demonstrates how top-down and bottom-up processing interact to produce imagery and help resolve ambiguous inputs (partially occluded faces).
