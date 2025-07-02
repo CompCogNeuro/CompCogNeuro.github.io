@@ -3,6 +3,8 @@ Categories = ["Axon", "Learning", "Computation"]
 bibfile = "ccnlab.json"
 +++
 
+<!--- TODO: mixed selectivity, Fusi et al -->
+
 There is a direct tension between the benefit of **combinatorial** codes for [[generalization]], versus **conjunctive** codes for arbitrary task learning. Understanding the nature of this tension and the tradeoffs involved is key for understanding the relative successes and failures of different network architectures.
 
 We can understand this tension in the context of a classic "3 layer perceptron" [[abstract neural network]], with `Input` $\rightarrow$ `Hidden` $\rightarrow$ `Output` layers, which needs to accomplish two conflicting goals in order to both learn arbitrary problems and generalize successfully to novel inputs:
@@ -21,9 +23,7 @@ With limited amounts of training data, generalization in networks benefits from 
 
 As the amount of training data increases, the benefits of these biases progressively diminish because the data itself starts to cover the entire space anyway. Intuitively, it fills out the lookup table sufficiently densely that simple interpolation between nearest-neighbors in the table becomes effective. This is the  [bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) from Rich Sutton, and the reason why "big data" is so successful.
 
-The [[transformer]] architecture and the scaling properties of [[large language models]] provide a clear demonstration: transformers generalize _terribly_ with small amounts of data, but have the lookup-table like capacity to learn successfully with huge amounts of data. The key-value matching aspect of transformers is a soft version of a one-hot conjunctive code, making these networks very lookup-table like, while also supporting similarity-based generalization.
-
-Although the transformer was billed as a mechanism for [[attention]], in fact it is much more of an [[episodic memory]]-like system capturing the function of the [[hippocampus]], but instead of being a separate brain system, this lookup-table-like functionality is embedded at each level of processing within the transformer. Consistent with this analysis, LLMs have been shown to be capable of directly memorizing long passages of their training corpus (e.g., [[@HuangYangPotts24]]).
+The [[transformer]] architecture and the scaling properties of [[large language models]] provide a clear demonstration: transformers generalize _terribly_ with small amounts of data, but have the lookup-table like capacity to learn successfully with huge amounts of data. The high-dimensional hidden layer used in the feedforward network component of a transformer has been shown to support extensive memorization of long passages of the training corpus ([[@HuangYangPotts24]]), and arbitrary semantic fact knowledge ([[@NandaRajamanoharanKramarEtAl23]]). The lookup-table like functionality is due to a pattern-separation dynamic, while also supporting similarity-based generalization.
 
 ## The binding problem
 

@@ -3,7 +3,7 @@ Categories = ["Activation", "Computation", "Cognition"]
 bibfile = "ccnlab.json"
 +++
 
-<!--- TODO: combinatorial codes -->
+<!--- TODO: combinatorial codes, mixed selectivity, Fusi et al -->
 
 In addition to the process of mental [[categorization]] being somewhat difficult to define precisely, it is also highly **polymorphous**: any given input can be categorized in many different ways at the same time. There is no such thing as _the_ appropriate level of categorization for any given thing. A chair can also be _furniture,_ _art,_ _trash,_ _firewood,_ _doorstopper,_ _plastic_ and any number of other such things. Both the amorphous and polymorphous nature of categories are nicely accommodated by the properties of **distributed representations**.
 
