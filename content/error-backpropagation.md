@@ -138,7 +138,7 @@ where _t_ is the target value.
 
 ## Credit assignment
 
-The delta rule and [[#eq_delta-dw]] show that the essence of error-driven learning is a simple product of an error signal times the sending unit activation. This modulation of weight change by activity of the sending unit achieves a critical **credit assignment** function (or rather blame assignment in this case), so that when an error is made at the output, weights should only change for the sending units that contributed to that error. Sending units that were not active did not cause the error, and their weights are not adjusted.
+The delta rule and [[#eq_delta-dw]] show that the essence of error-driven learning is a simple product of an error signal times the sending unit activation. This modulation of weight change by activity of the sending unit achieves a critical [[credit assignment]] function (or rather blame assignment in this case), so that when an error is made at the output, weights should only change for the sending units that contributed to that error. Sending units that were not active did not cause the error, and their weights are not adjusted.
 
 ## Backpropagation to activations
 

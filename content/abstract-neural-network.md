@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 **Abstract neural network** (_ANN_) models, also known variously as _artificial neural networks_, _connectionism_, _parallel distributed processing_ (PDP), _perceptrons_, _backpropagation networks_, _deep networks_, _AI_ ([[artificial intelligence]]) models, and _ML (machine learning)_, represent a large class of models that include the core mechanism of distributed processing performed by interconnected neuron-like processing elements (_units_).
 
-Perhaps the most fundamental shared feature of all ANN models is the distinction between **activations** and **weights**, where activations are dynamic state variables representing neural activity that are communicated to other neurons over weighted synaptic connections. **Learning** happens by changing the strengths of these synaptic weights, typically under the influence of the local activation state.
+Perhaps the most fundamental shared feature of all ANN models is the distinction between [[activation]]s and [[weights]], where activations are dynamic state variables representing neural activity that are communicated to other neurons over weighted synaptic connections. [[Learning]] happens by changing the strengths of these synaptic weights, typically under the influence of the local activation state.
 
 After providing an overview of these models, we consider how they  relate to neuroscience in general and [[Axon]] more specifically. In summary, Axon has a number of neurobiologically-motivated properties that differ significantly from most ANN models, which have potentially important functional implications.
 

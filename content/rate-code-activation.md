@@ -3,9 +3,9 @@ Categories = ["Activation", "Computation", "Neuroscience"]
 bibfile = "ccnlab.json"
 +++
 
-Most [[abstract neural network]] (ANN) models use a floating-point **activation** value to represent something like the overall firing rate of a biological [[neuron]]. This was the case in the [[Leabra]] model, prior to the development of the discrete spiking [[Axon]] model, for example.
+Most [[abstract neural network]] (ANN) models use a floating-point [[activation]] value to represent something like the overall firing rate of a biological [[neuron]]. This was the case in the [[Leabra]] model, prior to the development of the discrete spiking [[Axon]] model, for example.
 
-The _rate code approximation_ can be an important way of simplifying the complexity of a model, and it is consistent with the reliable finding that the overall rate of firing of biological neurons does correlate well with the behavior and inferred internal representations in a large number of electrophysiological recordings. However, there is no doubt that it is an _approximation_ to how the actual system behaves, and there are a number of potential costs to using such an approximation across various levels of analysis ([[@Brette15]]).
+The **rate code approximation** can be an important way of simplifying the complexity of a model, and it is consistent with the reliable finding that the overall rate of firing of biological neurons does correlate well with the behavior and inferred internal representations in a large number of electrophysiological recordings. However, there is no doubt that it is an _approximation_ to how the actual system behaves, and there are a number of potential costs to using such an approximation across various levels of analysis ([[@Brette15]]).
 
 As emphasized in the [[neuron]] chapter, discrete spiking has advantages in representing graded, probabilistic information, while also supporting a fast initial propagation of new stimulus information via the first spike responses of neurons. By contrast, rate code neurons, at least with the additional biologically-motivated properties of the [[Leabra]] model, could either respond quickly but in a not very graded manner, or slowly and with graded responding.
 

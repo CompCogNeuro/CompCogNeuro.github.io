@@ -170,6 +170,8 @@
 
 <p id="Elman90">Elman, J.L. (1990). Finding structure in time. Cognitive Science, 14, 179-211. </p>
 
+<p id="Elman93">Elman, J.L. (1993). Learning and development in neural networks: the importance of starting small. Cognition, 48, 71-99. http://www.ncbi.nlm.nih.gov/pubmed/8403835</p>
+
 <p id="ElmanBatesKarmiloff-SmithEtAl96">Elman, J.L., Bates, E., Karmiloff-Smith, A., Johnson, M., Parisi, D., & Plunkett, K. (1996). Rethinking Innateness: A Connectionist Perspective on Development. MIT Press. </p>
 
 <p id="FahlmanLebiere89">Fahlman, S., & Lebiere, C. (1989). The Cascade-Correlation Learning Architecture. In Advances in Neural Information Processing Systems. Morgan-Kaufmann. https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html</p>
@@ -426,6 +428,8 @@
 
 <p id="NewellSimon72">Newell, A., & Simon, H.A. (1972). Human Problem Solving. Prentice-Hall. </p>
 
+<p id="Newport90">Newport, E.L. (1990). Maturational Constraints on Language Learning. Cognitive Science, 14, 11-28. </p>
+
 <p id="NiederDehaene09">Nieder, A., & Dehaene, S. (2009). Representation of number in the brain. Annual review of neuroscience, 32, http://www.ncbi.nlm.nih.gov/pubmed/19400715</p>
 
 <p id="NiederMiller04">Nieder, A., & Miller, E.K. (2004). Analog numerical representations in rhesus monkeys: evidence for parallel processing. Journal of cognitive neuroscience, 16, 889-901. http://www.ncbi.nlm.nih.gov/pubmed/15200715</p>
@@ -602,6 +606,8 @@
 
 <p id="TenneyDasPavlick19">Tenney, I., Das, D., & Pavlick, E. (2019). BERT Rediscovers the Classical NLP Pipeline. http://arxiv.org/abs/1905.05950 http://doi.org/10.48550/arXiv.1905.05950</p>
 
+<p id="Thompson-SchillRamscarChrysikou09">Thompson-Schill, S.L., Ramscar, M., & Chrysikou, E.G. (2009). Cognition without control: when a little frontal lobe goes a long way. Current directions in psychological science, 18, 259-263. http://journals.sagepub.com/doi/10.1111/j.1467-8721.2009.01648.x http://doi.org/10.1111/j.1467-8721.2009.01648.x</p>
+
 <p id="Thomson10">Thomson, A.M. (2010). Neocortical layer 6, a review. Frontiers in Neuroanatomy, 4, http://www.ncbi.nlm.nih.gov/pubmed/20556241</p>
 
 <p id="ThomsonDestexhe99">Thomson, A.M., & Destexhe, A. (1999). Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices. Neuroscience, 92, 1193-1215. http://www.sciencedirect.com/science/article/pii/S0306452299000214 http://doi.org/10.1016/S0306-4522(99)00021-4</p>
@@ -677,6 +683,8 @@
 <p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
+
+<p id="YuSmithChristensenEtAl07">Yu, C., Smith, L.B., Christensen, M., & Pereira, A. (2007). Two views of the world: Active vision in real-world interaction. In Proceedings of the Annual Meeting of the Cognitive Science Society. https://escholarship.org/content/qt7ms4z979/qt7ms4z979.pdf</p>
 
 <p id="ZhengWolfRanganathEtAl25">Zheng, Y., Wolf, N., Ranganath, C., O'Reilly, R.C., & McKee, K.L. (2025). Flexible prefrontal control over hippocampal episodic memory for goal-directed generalization. http://arxiv.org/abs/2503.02303 http://doi.org/10.48550/arXiv.2503.02303</p>
 
