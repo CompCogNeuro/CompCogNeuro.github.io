@@ -18,6 +18,8 @@
 
 <p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
 
+<p id="Aston-JonesCohen05">Aston-Jones, G., & Cohen, J.D. (2005). An integrative theory of locus coeruleus-norepinephrine function: adaptive gain and optimal performance. Annual Review of Neuroscience, 28, 403-450. http://www.ncbi.nlm.nih.gov/pubmed/16022602</p>
+
 <p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
 
 <p id="BaldiHornik89">Baldi, P., & Hornik, K. (1989). Neural networks and principlal components analysis: Learning from examples without local minima. Neural Networks, 2, 53-58. </p>
@@ -76,6 +78,8 @@
 
 <p id="BretteRudolphCarnevaleEtAl07">Brette, R., Rudolph, M., Carnevale, T., Hines, M., Beeman, D., Bower, J.M., Diesmann, M., Morrison, A., Goodman, P.H., Harris, F.C., & Others (2007). Simulation of networks of spiking neurons: A review of tools and strategies. Journal of Computational Neuroscience, 23, 349-398. http://www.ncbi.nlm.nih.gov/pubmed/17629781</p>
 
+<p id="Brooks86">Brooks, R. (1986). A robust layered control system for a mobile robot. IEEE Journal on Robotics and Automation, 2, 14-23.  http://doi.org/10.1109/JRA.1986.1087032</p>
+
 <p id="BrunelWang01">Brunel, N., & Wang, X.J. (2001). Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition. Journal of Computational Neuroscience, 11, 63-85. http://www.ncbi.nlm.nih.gov/pubmed/11524578</p>
 
 <p id="BuchholzGuilabertEhretEtAl23">Buchholz, M.O., Guilabert, A.G., Ehret, B., & Schuhknecht, G.F.P. (2023). How synaptic strength, short-term plasticity, and input synchrony contribute to neuronal spike output. PLOS Computational Biology, 19, e1011046. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011046 http://doi.org/10.1371/journal.pcbi.1011046</p>
@@ -87,6 +91,8 @@
 <p id="CampbellRaneGiallanzaEtAl24">Campbell, D., Rane, S., Giallanza, T., De Sabbata, N., Ghods, K., Joshi, A., Ku, A., Frankland, S.M., Griffiths, T.L., Cohen, J.D., & Webb, T. (2024). Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem. Advances in Neural Information Processing Systems, 37, 113436-113460. https://proceedings.neurips.cc/paper_files/paper/2024/hash/cdcc6d47c1627350014a3076112ab824-Abstract-Conference.html</p>
 
 <p id="Cardin18">Cardin, J.A. (2018). Inhibitory interneurons regulate temporal precision and correlations in cortical circuits. Trends in Neurosciences, 41, 689-700. https://www.sciencedirect.com/science/article/pii/S0166223618302078 http://doi.org/10.1016/j.tins.2018.07.015</p>
+
+<p id="CaseyGetzGalvan08">Casey, B.J., Getz, S., & Galvan, A. (2008). The adolescent brain. Developmental Review, 28, 62-77. https://www.sciencedirect.com/science/article/pii/S0273229707000494 http://doi.org/10.1016/j.dr.2007.08.003</p>
 
 <p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
 
@@ -115,6 +121,8 @@
 <p id="CookBuonaratiCoultrapEtAl21">Cook, S.G., Buonarati, O.R., Coultrap, S.J., & Bayer, K.U. (2021). CaMKII holoenzyme mechanisms that govern the LTP versus LTD decision. Science Advances, https://www.science.org/doi/abs/10.1126/sciadv.abe2300 http://doi.org/10.1126/sciadv.abe2300</p>
 
 <p id="Cooper05">Cooper, S.J. (2005). Donald O. Hebb's synapse and learning rule: a history and commentary. Neuroscience & Biobehavioral Reviews, 28, 851-874. https://www.sciencedirect.com/science/article/pii/S0149763404000995 http://doi.org/10.1016/j.neubiorev.2004.09.009</p>
+
+<p id="Corkin02">Corkin, S. (2002). What's new with the amnesic patient H. M.? Nature Reviews Neuroscience, 3, 153-160. </p>
 
 <p id="CortesVapnik95">Cortes, C., & Vapnik, V. (1995). Support-vector networks. Machine Learning, 20, 273 – 297. </p>
 
@@ -156,6 +164,10 @@
 
 <p id="DriesenMcCarthyBhagwagarEtAl13">Driesen, N.R., McCarthy, G., Bhagwagar, Z., Bloch, M., Calhoun, V., D'Souza, D.C., Gueorguieva, R., He, G., Ramachandran, R., Suckow, R.F., Anticevic, A., Morgan, P.T., & Krystal, J.H. (2013). Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans. Molecular Psychiatry, 18, 1199-1204. https://www.nature.com/articles/mp2012194 http://doi.org/10.1038/mp.2012.194</p>
 
+<p id="DuckworthGross14">Duckworth, A., & Gross, J.J. (2014). Self-control and grit: related but separable determinants of success. Current Directions in Psychological Science, 23, 319-325. https://doi.org/10.1177/0963721414541462 http://doi.org/10.1177/0963721414541462</p>
+
+<p id="DuckworthPetersonMatthewsEtAl07">Duckworth, A.L., Peterson, C., Matthews, M.D., & Kelly, D.R. (2007). Grit: perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92, 1087-1101.  http://doi.org/10.1037/0022-3514.92.6.1087</p>
+
 <p id="Duncan84">Duncan, J. (1984). Selective attention and the organization of visual information. Journal of Experimental Psychology: General, 113, 501-517. </p>
 
 <p id="DunwiddieLynch78">Dunwiddie, T., & Lynch, G. (1978). Long-term potentiation and depression of synaptic responses in the rat hippocampus: localization and frequency dependency. The Journal of Physiology, 276, 353-367. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012239 http://doi.org/10.1113/jphysiol.1978.sp012239</p>
@@ -163,6 +175,8 @@
 <p id="Dweck08">Dweck, C.S. (2008). Mindset: The New Psychology of Success. Ballantine Books. </p>
 
 <p id="DwivediBhalla21">Dwivedi, D., & Bhalla, U.S. (2021). Physiology and Therapeutic Potential of SK, H, and M Medium AfterHyperPolarization Ion Channels. Frontiers in Molecular Neuroscience, 14, https://www.frontiersin.org/articles/10.3389/fnmol.2021.658435</p>
+
+<p id="EcoffetHuizingaLehmanEtAl21">Ecoffet, A., Huizinga, J., Lehman, J., Stanley, K.O., & Clune, J. (2021). First return, then explore. Nature, 590, 580-586. https://www.nature.com/articles/s41586-020-03157-9 http://doi.org/10.1038/s41586-020-03157-9</p>
 
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
 
@@ -224,6 +238,8 @@
 
 <p id="GoodellZaegelCoultrapEtAl17">Goodell, D.J., Zaegel, V., Coultrap, S.J., Hell, J.W., & Bayer, K.U. (2017). DAPK1 mediates LTD by making CaMKII/GluN2B binding LTP specific. Cell Reports, 19, 2231-2243. http://www.sciencedirect.com/science/article/pii/S2211124717307258 http://doi.org/10.1016/j.celrep.2017.05.068</p>
 
+<p id="Gould77">Gould, S.J. (1977). Ontogeny and phylogeny. Harvard U Press. </p>
+
 <p id="GreeneHoshi17">Greene, D.L., & Hoshi, N. (2017). Modulation of Kv7 channels and excitability in the brain. Cellular and molecular life sciences : CMLS, 74, 495-508. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5243414/ http://doi.org/10.1007/s00018-016-2359-y</p>
 
 <p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
@@ -277,6 +293,8 @@
 <p id="Hopfield95">Hopfield, J.J. (1995). Pattern recognition computation using action potential timing for stimulus representation. Nature, 376, 33. http://www.ncbi.nlm.nih.gov/pubmed/7596429</p>
 
 <p id="HopfieldTank85">Hopfield, J.J., & Tank, D.W. (1985). {`Neural'} computation of decisions in optimization problems. Biological Cybernetics, 52, 141-152. http://www.ncbi.nlm.nih.gov/pubmed/4027280</p>
+
+<p id="HoyFarrow25">Hoy, J.L., & Farrow, K. (2025). The superior colliculus. Current Biology, 35, R164-R168. https://www.cell.com/current-biology/abstract/S0960-9822(25)00052-1 http://doi.org/10.1016/j.cub.2025.01.022</p>
 
 <p id="HuangYangPotts24">Huang, J., Yang, D., & Potts, C. (2024). Demystifying Verbatim Memorization in Large Language Models. http://arxiv.org/abs/2407.17817 http://doi.org/10.48550/arXiv.2407.17817</p>
 
@@ -334,6 +352,8 @@
 
 <p id="KurodaSchweighoferKawato01">Kuroda, S., Schweighofer, N., & Kawato, M. (2001). Exploration of signal transduction pathways in cerebellar long-term depression by kinetic simulation. Journal of Neuroscience, 21, 5693-5702. https://www.jneurosci.org/content/21/15/5693 http://doi.org/10.1523/JNEUROSCI.21-15-05693.2001</p>
 
+<p id="LakeBaroni17">Lake, B.M., & Baroni, M. (2017). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. arXiv:1711.00350 [cs], http://arxiv.org/abs/1711.00350</p>
+
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
 
 <p id="LanChemlaKatzir24">Lan, N., Chemla, E., & Katzir, R. (2024). Large Language Models and the Argument from the Poverty of the Stimulus. Linguistic Inquiry, 1-28. https://doi.org/10.1162/ling_a_00533 http://doi.org/10.1162/ling_a_00533</p>
@@ -353,6 +373,8 @@
 <p id="LillicrapSantoro19">Lillicrap, T.P., & Santoro, A. (2019). Backpropagation through time and the brain. Current Opinion in Neurobiology, 55, 82-89. https://www.sciencedirect.com/science/article/pii/S0959438818302009 http://doi.org/10.1016/j.conb.2019.01.011</p>
 
 <p id="LillicrapSantoroMarrisEtAl20">Lillicrap, T.P., Santoro, A., Marris, L., Akerman, C.J., & Hinton, G. (2020). Backpropagation and the brain. Nature Reviews Neuroscience, 21(6), 335-346. https://www.nature.com/articles/s41583-020-0277-3 http://doi.org/10.1038/s41583-020-0277-3</p>
+
+<p id="Lin92">Lin, L. (1992). Reinforcement learning for robots using neural networks. [phd, Carnegie Mellon University]. ACM Digital Library. </p>
 
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
 
@@ -394,15 +416,19 @@
 
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
-<p id="MnihBadiaMirzaEtAl16">Mnih, V., Badia, A.P., Mirza, M., Graves, A., Lillicrap, T.P., Harley, T., Silver, D., & Kavukcuoglu, K. (2016). Asynchronous methods for deep reinforcement learning. arXiv:1602.01783 [cs], http://arxiv.org/abs/1602.01783</p>
+<p id="MnihKavukcuogluSilverEtAl15">Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.A., Veness, J., Bellemare, M.G., Graves, A., Riedmiller, M., Fidjeland, A.K., Ostrovski, G., Petersen, S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra, D., Legg, S., & Hassabis, D. (2015). Human-level control through deep reinforcement learning. Nature, 518, 529–533. http://www.ncbi.nlm.nih.gov/pubmed/25719670</p>
 
 <p id="MoerlandBroekensJonker21">Moerland, T.M., Broekens, J., & Jonker, C.M. (2021). Model-based reinforcement learning: A survey. arXiv:2006.16712 [cs, stat], http://arxiv.org/abs/2006.16712</p>
 
 <p id="MollickHazyKruegerEtAl20">Mollick, J.A., Hazy, T.E., Krueger, K.A., Nair, A., Mackie, P., Herd, S.A., & O'Reilly, R.C. (2020). A systems-neuroscience model of phasic dopamine. Psychological Review, 127, 972-1021.  http://doi.org/10.1037/rev0000199</p>
 
+<p id="Montagu55">Montagu, M.F.A. (1955). Time, Morphology, and Neoteny in the Evolution of Man. American Anthropologist, 57, 13-27. https://onlinelibrary.wiley.com/doi/abs/10.1525/aa.1955.57.1.02a00030 http://doi.org/10.1525/aa.1955.57.1.02a00030</p>
+
 <p id="MontagueDayanSejnowski96">Montague, P.R., Dayan, P., & Sejnowski, T.J. (1996). A framework for mesencephalic dopamine systems based on predictive Hebbian learning. Journal of Neuroscience, 16, 1936-1947. http://www.ncbi.nlm.nih.gov/pubmed/8774460</p>
 
 <p id="MorrisFrey97">Morris, R.G.M., & Frey, U. (1997). Hippocampal synaptic plasticity: role in spatial learning or the automatic recording of attended experience? Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 352, 1489-1503. https://royalsocietypublishing.org/doi/abs/10.1098/rstb.1997.0136 http://doi.org/10.1098/rstb.1997.0136</p>
+
+<p id="MortonJohnson91">Morton, J., & Johnson, M.H. (1991). CONSPEC and CONLERN: a two-process theory of infant face recognition. Psychological Review, 98, 164-181. http://www.ncbi.nlm.nih.gov/pubmed/2047512</p>
 
 <p id="MovellanMcClelland93">Movellan, J.R., & McClelland, J.L. (1993). Learning Continuous Probability Distributions with Symmetric Diffusion Networks. Cognitive Science, 17, 463-496. </p>
 
@@ -532,6 +558,8 @@
 
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
 
+<p id="RussinOReillyBengio20">Russin, J., O’Reilly, R.C., & Bengio, Y. (2020). Deep learning needs a prefrontal cortex. Work Bridging AI Cogn Sci, 107, 1. https://baicsworkshop.github.io/pdf/BAICS_10.pdf</p>
+
 <p id="SabatiniOertnerSvoboda02">Sabatini, B.L., Oertner, T.G., & Svoboda, K. (2002). The life cycle of Ca2+ ions in dendritic spines. Neuron, 33, 439-452. https://www.sciencedirect.com/science/article/pii/S0896627302005731 http://doi.org/10.1016/S0896-6273(02)00573-1</p>
 
 <p id="SakataHarris09">Sakata, S., & Harris, K.D. (2009). Laminar structure of spontaneous and sensory-evoked population activity in auditory cortex. Neuron, 64, 404-418. http://www.ncbi.nlm.nih.gov/pubmed/19914188</p>
@@ -581,6 +609,8 @@
 <p id="SimoncelliOlshausen01">Simoncelli, E.P., & Olshausen, B.A. (2001). Natural image statistics and neural representation. Annual Review of Neuroscience, 24, 1193-1216. https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.1193 http://doi.org/10.1146/annurev.neuro.24.1.1193</p>
 
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
+
+<p id="Spear00">Spear, L.P. (2000). The adolescent brain and age-related behavioral manifestations. Neuroscience & Biobehavioral Reviews, 24, 417-463. https://www.sciencedirect.com/science/article/pii/S0149763400000142 http://doi.org/10.1016/S0149-7634(00)00014-2</p>
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
 

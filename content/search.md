@@ -25,7 +25,7 @@ The complementary advantages and disadvantages of serial vs. parallel solutions 
 
 * However, serial search algorithms are much more _flexible_, because serial processes allow arbitrary _combinations_ of dimensions to be processed for each case, whereas parallel algorithms require fixed combinations to be precomputed in parallel in an earlier preprocessing step. This essential advantage of serial processing is why the [[Turing machine]] is a universal computational device, whereas parallel computation is not.
 
-For example, evolution in the natural world involves massively parallel search across "replicated" organisms, each living their lives in parallel, but the ontological development of each such organism is serial, which allows for considerable flexibility in the expression of the shared genomic programs that accumulate across individuals.
+For example, evolution in the natural world involves massively parallel search across "replicated" organisms, each living their lives in parallel, but the ontological development of each such organism is serial, which allows for considerable flexibility in the expression of the shared genomic programs that accumulate across individuals. The seriality of trial-and-error exploration creates particular challenges for [[reinforcement learning]].
 
 Likewise, search in the visual system employs both parallel and serial processes, which can be differentially engaged depending on the target properties. We can efficiently perform parallel search for basic visual features such as color and orientation, but increasingly complex combinations of such features require increasingly serial spatial [[attention]] to narrow the search space ([[@Treisman77]]; [[@Wolfe10]]; [[@HerdOReilly05]]).
 
