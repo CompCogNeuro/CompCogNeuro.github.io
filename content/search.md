@@ -59,4 +59,10 @@ Interestingly, [[large language models]] have this same overall configuration as
 
 <!---  TODO CITES!!. -->
 
+## Bayesian models and search
+
+The widely-explored Bayesian models of cognition ([[@TenenbaumKempGriffithsEtAl11]]; [[@ChaterOaksfordHahnEtAl10]]) are often challenged by the curse of dimensionality, because they are largely based on symbolic-level representations that are not amenable to parallel search mechanisms. In general, the probability distributions used in these models become intractable very quickly, unless strong simplifying assumptions are made, e.g., that each variable is either statistically independent or mutually exclusive from the others. The _particle filter_ ([[@DoucetFreitasGordon01]]) or _MCMC_ (Markov chain monte carlo) sampling ([[@Neal93]]) methods use parallel threads of sequential search through high-dimensional probability spaces, and the sequential nature of these methods imposes the expected limitations of serial search more generally ([[@Sanborn17]]; [[@GershmanBeck17]]).
+
+For these reasons, there are no examples of large-scale Bayesian models: they are all smaller-scale models that demonstrate important principles about how inference under uncertainty might operate. There are some interesting potential connections with the behavior of discrete spiking neurons ([[@GershmanBeck17]]; [[@PougetBeckMaEtAl13]]; [[@McKeeCrandellChaudhuriEtAl22]]), which suggest a way to connect these more abstract models with more parallel underlying neural mechanisms that do scale to high-dimensional spaces.
+
 

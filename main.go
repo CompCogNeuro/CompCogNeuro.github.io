@@ -18,7 +18,7 @@ import (
 
 //go:generate mdcite -vv -refs ./ccnlab.json -d ./content
 
-//go:embed content
+//go:embed content citedrefs.json
 var econtent embed.FS
 
 //go:embed icon.svg
@@ -28,7 +28,7 @@ func main() {
 	core.AppIcon = icon
 	b := core.NewBody("CompCogNeuro")
 	ct := content.NewContent(b).SetContent(econtent)
-	refs, err := csl.Open("citedrefs.json")
+	refs, err := csl.OpenFS(econtent, "citedrefs.json")
 	if err == nil {
 		ct.References = csl.NewKeyList(refs)
 	}

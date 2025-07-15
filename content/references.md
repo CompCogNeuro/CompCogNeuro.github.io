@@ -94,6 +94,8 @@
 
 <p id="CaseyGetzGalvan08">Casey, B.J., Getz, S., & Galvan, A. (2008). The adolescent brain. Developmental Review, 28, 62-77. https://www.sciencedirect.com/science/article/pii/S0273229707000494 http://doi.org/10.1016/j.dr.2007.08.003</p>
 
+<p id="ChaterOaksfordHahnEtAl10">Chater, N., Oaksford, M., Hahn, U., & Heit, E. (2010). Bayesian models of cognition. WIREs Cognitive Science, 1, 811-823. https://onlinelibrary.wiley.com/doi/abs/10.1002/wcs.79 http://doi.org/10.1002/wcs.79</p>
+
 <p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
 
 <p id="ChenShwartz-ZivChoEtAl25">Chen, A., Shwartz-Ziv, R., Cho, K., Leavitt, M.L., & Saphra, N. (2025). Sudden Drops in the Loss: Syntax Acquisition, Phase Transitions, and Simplicity Bias in MLMs. http://arxiv.org/abs/2309.07311 http://doi.org/10.48550/arXiv.2309.07311</p>
@@ -160,6 +162,8 @@
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
+<p id="DoucetFreitasGordon01">Doucet, A., Freitas, N., & Gordon, N. (Eds.) (2001). Sequential Monte Carlo Methods in Practice. Springer. http://link.springer.com/10.1007/978-1-4757-3437-9 http://doi.org/10.1007/978-1-4757-3437-9</p>
+
 <p id="Doya99">Doya, K. (1999). What are the computations of the cerebellum, the basal ganglia and the cerebral cortex? Neural Networks, 12, 961-974. https://www.sciencedirect.com/science/article/pii/S0893608099000465 http://doi.org/10.1016/S0893-6080(99)00046-5</p>
 
 <p id="DriesenMcCarthyBhagwagarEtAl13">Driesen, N.R., McCarthy, G., Bhagwagar, Z., Bloch, M., Calhoun, V., D'Souza, D.C., Gueorguieva, R., He, G., Ramachandran, R., Suckow, R.F., Anticevic, A., Morgan, P.T., & Krystal, J.H. (2013). Relationship of resting brain hyperconnectivity and schizophrenia-like symptoms produced by the NMDA receptor antagonist ketamine in humans. Molecular Psychiatry, 18, 1199-1204. https://www.nature.com/articles/mp2012194 http://doi.org/10.1038/mp.2012.194</p>
@@ -189,6 +193,8 @@
 <p id="ElmanBatesKarmiloff-SmithEtAl96">Elman, J.L., Bates, E., Karmiloff-Smith, A., Johnson, M., Parisi, D., & Plunkett, K. (1996). Rethinking Innateness: A Connectionist Perspective on Development. MIT Press. </p>
 
 <p id="FahlmanLebiere89">Fahlman, S., & Lebiere, C. (1989). The Cascade-Correlation Learning Architecture. In Advances in Neural Information Processing Systems. Morgan-Kaufmann. https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html</p>
+
+<p id="FalligantHagopianNewland24">Falligant, J.M., Hagopian, L.P., & Newland, M.C. (2024). Bouts, Pauses, and Units of Operant Performance: A Primer. Perspectives on Behavior Science, 47, 643-674. https://doi.org/10.1007/s40614-024-00419-z http://doi.org/10.1007/s40614-024-00419-z</p>
 
 <p id="FanKimJenningsEtAl23">Fan, L.Z., Kim, D.K., Jennings, J.H., Tian, H., Wang, P.Y., Ramakrishnan, C., Randles, S., Sun, Y., Thadhani, E., Kim, Y.S., Quirin, S., Giocomo, L., Cohen, A.E., & Deisseroth, K. (2023). All-optical physiology resolves a synaptic basis for behavioral timescale plasticity. Cell, 186, 543-559.e19. https://www.cell.com/cell/abstract/S0092-8674(22)01578-1 http://doi.org/10.1016/j.cell.2022.12.035</p>
 
@@ -223,6 +229,8 @@
 <p id="GemanGeman84">Geman, S., & Geman, D. (1984). Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, 721-741. </p>
 
 <p id="Gentner83">Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. Cognitive Science, 7, 155-170. https://www.sciencedirect.com/science/article/pii/S0364021383800093 http://doi.org/10.1016/S0364-0213(83)80009-3</p>
+
+<p id="GershmanBeck17">Gershman, S.J., & Beck, J.M. (2017). Complex Probabilistic Inference. In Computational Models of Brain and Behavior (pp. 453-466). John Wiley & Sons, Ltd. https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119159193.ch33 http://doi.org/10.1002/9781119159193.ch33</p>
 
 <p id="GerstnerLehmannLiakoniEtAl18">Gerstner, W., Lehmann, M., Liakoni, V., Corneil, D., & Brea, J. (2018). Eligibility traces and plasticity on behavioral time scales: Experimental support of NeoHebbian three-factor learning rules. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00053/full http://doi.org/10.3389/fncir.2018.00053</p>
 
@@ -344,6 +352,8 @@
 
 <p id="KohonenHari99">Kohonen, T., & Hari, R. (1999). Where the abstract feature maps of the brain might come from. Trends in neurosciences, 22, 135. http://www.ncbi.nlm.nih.gov/pubmed/10199639</p>
 
+<p id="KramerMcLaughlin01">Kramer, D.L., & McLaughlin, R.L. (2001). The Behavioral Ecology of Intermittent Locomotion1. American Zoologist, 41, 137-153. https://doi.org/10.1093/icb/41.2.137 http://doi.org/10.1093/icb/41.2.137</p>
+
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
 <p id="KrotovHopfield21">Krotov, D., & Hopfield, J. (2021). Large Associative Memory Problem in Neurobiology and Machine Learning. http://arxiv.org/abs/2008.06996 http://doi.org/10.48550/arXiv.2008.06996</p>
@@ -408,6 +418,8 @@
 
 <p id="McGrathRussinPavlickEtAl24">McGrath, S.W., Russin, J., Pavlick, E., & Feiman, R. (2024). How Can Deep Neural Networks Inform Theory in Psychological Science? Current Directions in Psychological Science, 33, 325-333.  http://doi.org/10.1177/09637214241268098</p>
 
+<p id="McKeeCrandellChaudhuriEtAl22">McKee, K., Crandell, I., Chaudhuri, R., & O'Reilly, R. (2022). Adaptive Synaptic Failure Enables Sampling from Posterior Predictive Distributions in the Brain. http://arxiv.org/abs/2210.01691 http://doi.org/10.48550/arXiv.2210.01691</p>
+
 <p id="MiglioreHoffmanMageeEtAl99">Migliore, M., Hoffman, D., Magee, J., & Johnston, D. (1999). Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons. Journal of Computational Neuroscience, 7, 5-15. https://doi.org/10.1023/A:1008906225285 http://doi.org/10.1023/A:1008906225285</p>
 
 <p id="MillerCohen01">Miller, E.K., & Cohen, J.D. (2001). An integrative theory of prefrontal cortex function. Annual Review of Neuroscience, 24, 167-202. http://www.ncbi.nlm.nih.gov/pubmed/11283309</p>
@@ -447,6 +459,8 @@
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
 <p id="NandaRajamanoharanKramarEtAl23">Nanda, N., Rajamanoharan, S., Kramár, J., & Shah, R. (2023). Fact Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level (Post 1) https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall</p>
+
+<p id="Neal93">Neal, R.M. (1993). Probabilistic Inference Using Markov Chain Monte Carlo Methods. </p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
@@ -520,6 +534,8 @@
 
 <p id="PosnerWalkerFriedrichEtAl84">Posner, M.I., Walker, J.A., Friedrich, F.J., & Rafal, R.D. (1984). Effects of Parietal Lobe Injury on Covert Orienting of Visual Attention. Journal of Neuroscience, 4, 1863-1874. </p>
 
+<p id="PougetBeckMaEtAl13">Pouget, A., Beck, J.M., Ma, W.J., & Latham, P.E. (2013). Probabilistic brains: knowns and unknowns. Nature Neuroscience, 16, 1170-1178.  http://doi.org/10.1038/nn.3495</p>
+
 <p id="PressFlanneryTeukolskyEtAl88">Press, W.H., Flannery, B.P., Teukolsky, S.A., & Vetterling, W.T. (1988). Numerical Recipies In C: The Art of Scientific Computing. Cambridge University Press. </p>
 
 <p id="QuirogaReddyKreimanEtAl05">Quiroga, R.Q., Reddy, L., Kreiman, G., Koch, C., & Fried, I. (2005). Invariant visual representation by single neurons in the human brain. Nature, 435, 1102-1107. https://www.nature.com/articles/nature03687 http://doi.org/10.1038/nature03687</p>
@@ -566,6 +582,8 @@
 
 <p id="Samuel59">Samuel, A.L. (1959). Some Studies in Machine Learning Using the Game of Checkers. IBM Journal of Research and Development, 3, 210-229. https://ieeexplore.ieee.org/abstract/document/5392560 http://doi.org/10.1147/rd.33.0210</p>
 
+<p id="Sanborn17">Sanborn, A.N. (2017). Types of approximation for probabilistic cognition: Sampling and variational. Brain and Cognition, 112, 98-101. https://www.sciencedirect.com/science/article/pii/S0278262615300038 http://doi.org/10.1016/j.bandc.2015.06.008</p>
+
 <p id="Sanchez-VivesNowakMcCormick00a">Sanchez-Vives, M.V., Nowak, L.G., & McCormick, D.A. (2000). Cellular Mechanisms of Long-Lasting Adaptation in Visual Cortical Neurons In Vitro. Journal of Neuroscience, 20, 4286-4299. http://www.jneurosci.org/content/20/11/4286</p>
 
 <p id="SandersBerendsMajorEtAl13">Sanders, H., Berends, M., Major, G., Goldman, M.S., & Lisman, J.E. (2013). NMDA and GABAB (KIR) Conductances: The “Perfect Couple” for Bistability. Journal of Neuroscience, 33, 424-429. http://www.jneurosci.org/content/33/2/424 http://doi.org/10.1523/JNEUROSCI.1854-12.2013</p>
@@ -598,7 +616,11 @@
 
 <p id="ShiffrinSchneider77">Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. Psychological Review, 84, 127-190. </p>
 
+<p id="ShinagawaYamada25">Shinagawa, K., & Yamada, K. (2025). Extending homeostasis to thought dynamics for a comprehensive explanation of mind-wandering. Scientific Reports, 15, 8677. https://www.nature.com/articles/s41598-025-92561-0 http://doi.org/10.1038/s41598-025-92561-0</p>
+
 <p id="ShouvalWangWittenberg10">Shouval, H.Z., Wang, S.S., & Wittenberg, G.M. (2010). Spike timing dependent plasticity: A consequence of more fundamental learning rules. Frontiers in Computational Neuroscience, 4, http://www.ncbi.nlm.nih.gov/pubmed/20725599</p>
+
+<p id="Shull11">Shull, R.L. (2011). Bouts, Changeovers, and Units of Operant Behavior. European Journal of Behavior Analysis, 12, 49-72. https://doi.org/10.1080/15021149.2011.11434355 http://doi.org/10.1080/15021149.2011.11434355</p>
 
 <p id="Shwartz-ZivTishby17">Shwartz-Ziv, R., & Tishby, N. (2017). Opening the Black Box of Deep Neural Networks via Information. http://arxiv.org/abs/1703.00810 http://doi.org/10.48550/arXiv.1703.00810</p>
 
@@ -633,6 +655,8 @@
 <p id="Swadlow90">Swadlow, H.A. (1990). Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties. Journal of Neurophysiology, 63, 1477-1498. https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477 http://doi.org/10.1152/jn.1990.63.6.1477</p>
 
 <p id="TanakaHoriikeMatsuzakiEtAl08">Tanaka, J., Horiike, Y., Matsuzaki, M., Miyazaki, T., Ellis-Davies, G.C.R., & Kasai, H. (2008). Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines. Science, 319, 1683-1687. https://www.science.org/doi/full/10.1126/science.1152864 http://doi.org/10.1126/science.1152864</p>
+
+<p id="TenenbaumKempGriffithsEtAl11">Tenenbaum, J.B., Kemp, C., Griffiths, T.L., & Goodman, N.D. (2011). How to grow a mind: statistics, structure, and abstraction. Science, 331, 1279-1285. http://www.ncbi.nlm.nih.gov/pubmed/21393536</p>
 
 <p id="TenneyDasPavlick19">Tenney, I., Das, D., & Pavlick, E. (2019). BERT Rediscovers the Classical NLP Pipeline. http://arxiv.org/abs/1905.05950 http://doi.org/10.48550/arXiv.1905.05950</p>
 

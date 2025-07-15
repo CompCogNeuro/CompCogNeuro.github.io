@@ -35,7 +35,10 @@ The process of trial-and-error [[search]] through the space of actions in differ
 
 Furthermore, Rubicon represents an attempt to [[computational-cognitive-neuroscience#reverse engineer]] millions of years of evolution, by building in critical neural circuits that support the goal selection and maintenance process, based on learning that is focused on acquiring the information needed to make well-informed choices about which goals to pursue in a given context. This evolutionary foundation represents a significant departure from existing RL models, but we believe it is necessary to mitigate the curse of dimensionality problem as environments and actions become more complex.
 
-The net effect of these goal-oriented mechanisms is to organize the model's behavior around the following computational steps:
+{id="figure_rubicon-rl" style="height:20em"}
+![Rubicon computational model. Prior to having an engaged goal, exploration of possible goals occurs. A CS (conditioned stimulus) can signal the possibility of a desired outcome (US, unconditioned stimulus), and constraint satisfaction planning activates potential model and plan representations to achieve the outcome. If this overall plan / goal is above threshold, the entire distributed goal representation is gated and maintained in prefrontal cortex, to guide subsequent action selection and provide expectations for monitoring progress toward the goal.](media/fig_rl_state_action_reward_plan_rat.png)
+
+The net effect of these goal-oriented mechanisms is to organize behavior around the following computational steps (illustrated in [[#figure_rubicon-rl]]):
 
 1. In the absence of an existing engaged goal, explore the environment in a manner directed by efficient, abstract internal models, looking for any indication of potentially-useful outcomes that might be available (e.g., food or other resources).
 
@@ -51,15 +54,15 @@ The net effect of these goal-oriented mechanisms is to organize the model's beha
 
 6. When a desired outcome is achieved, then an appropriate positive reward signal (dopamine burst) is generated (internally, as a function of the outcome relative to the expectation), which updates estimates accordingly, and is experienced as happiness or satisfaction.
 
-<!--- TODO: figure! -->
-
 Thus, unlike many existing RL models, behavior is actively guided by the maintained distributed goal state, thereby providing a more coherent and yet dynamic mode of behavior, relative to the common practice of selecting actions using a softmax probabilistic model based on estimates of future value, as in the TD model. The consistency of action selection over time as guided by the active plan is critical for navigating high-dimensional spaces, where even a small noise probability can accumulate across multiple steps and effectively derail the ability to accomplish a goal requiring a sequence of goal-driven actions ([[@EcoffetHuizingaLehmanEtAl21]]).
 
 The obvious cost of this approach is that committing to a specific goal may prevent the ability to opportunistically select another goal, thus putting a premium on the accuracy of the goal selection process. However, the key hypothesis is that the learning benefits of sticking with a given goal until it is accomplished (or abandoned) will be significant vs. constantly selecting actions according to local probabilistic estimates.
 
-TODO:
+To mitigate these commitment and opportunity costs, the system is biased toward engaging in the shortest timescale of goals that lead to a tangible outcome (i.e., something that can be clearly evaluated as having been accomplished or not). These short term goals can often function as subgoals toward larger, longer timescale goals, but the active goal selection and engagement dynamic specifically operates on this "innermost loop" of goal-driven behavior, where there is just one actively engaged goal state at a time.
 
-* short goals, maintained context handles longer-term goals by biasing shorter term selections.
+The longer timescale, outer-loop goals exist as maintained context that biases the inner-loop of goal selection, and establishes overall expectations and plans that strongly influence the inner loop of selection, but they do not have the same status as the innermost loop. This configuration provides a much more flexible and responsive control dynamic, as compared to any kind of more strongly structured, hierarchically-organized system.
+
+In many animals, this inner loop of goal engagement may be related to the universal phenomenon of bouts and pauses in behavior ([[@KramerMcLaughlin01]]; [[@Shull11]]; [[@FalligantHagopianNewland24]]), which is evident by observing squirrels in a park or your back yard, for example. Interestingly, pigeons do not show the signatures of this behavior in instrumental conditioning tasks, but rodents robustly do ([[@FalligantHagopianNewland24]]), suggesting a possible role of more developed goal-related brain systems. This same characteristic is evident in people as well: we may not quite realize how often we lapse in and out of focus while performing a task, spending chunks of time mind wandering in between whatever else we are doing ([[@ShinagawaYamada25]]).
 
 Ultimate challenge is:
 
