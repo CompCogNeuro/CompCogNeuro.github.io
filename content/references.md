@@ -162,6 +162,8 @@
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
+<p id="Doran81">Doran, G.T. (1981). There's a S.M.A.R.T. way to write managements's goals and objectives. Management Review, 70, 35. </p>
+
 <p id="DoucetFreitasGordon01">Doucet, A., Freitas, N., & Gordon, N. (Eds.) (2001). Sequential Monte Carlo Methods in Practice. Springer. http://link.springer.com/10.1007/978-1-4757-3437-9 http://doi.org/10.1007/978-1-4757-3437-9</p>
 
 <p id="Doya99">Doya, K. (1999). What are the computations of the cerebellum, the basal ganglia and the cerebral cortex? Neural Networks, 12, 961-974. https://www.sciencedirect.com/science/article/pii/S0893608099000465 http://doi.org/10.1016/S0893-6080(99)00046-5</p>
@@ -240,6 +242,10 @@
 
 <p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
 
+<p id="Gollwitzer12">Gollwitzer, P.M. (2012). Mindset theory of action phases. In Handbook of theories of social psychology, Vol. 1 (pp. 526-545). Sage Publications Ltd.  http://doi.org/10.4135/9781446249215.n26</p>
+
+<p id="GollwitzerSheeran06">Gollwitzer, P.M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in experimental social psychology, 38, 69–119. </p>
+
 <p id="GoodaleMilner92">Goodale, M.A., & Milner, A.D. (1992). Separate visual pathways for perception and action. Trends in Neurosciences, 15, 20-25. </p>
 
 <p id="GoodellTullisBayer21">Goodell, D.J., Tullis, J.E., & Bayer, K.U. (2021). Young DAPK1 knockout mice have altered presynaptic function. Journal of Neurophysiology, 125, 1973-1981. http://journals.physiology.org/doi/full/10.1152/jn.00055.2021 http://doi.org/10.1152/jn.00055.2021</p>
@@ -275,6 +281,8 @@
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
 
 <p id="Helmholtz67">Helmholtz, H. (1867). Treatise on Physiological Optics, Vol III. Courier Corporation. </p>
+
+<p id="HerdKruegerNairEtAl21">Herd, S.A., Krueger, K., Nair, A., Mollick, J., & O’Reilly, R.C. (2021). Neural Mechanisms of Human Decision-Making. Cognitive, Affective, & Behavioral Neuroscience, 21, 35-57. https://doi.org/10.3758/s13415-020-00842-0 http://doi.org/10.3758/s13415-020-00842-0</p>
 
 <p id="HerdOReilly05">Herd, S.A., & O'Reilly, R.C. (2005). Serial visual search from a parallel model. Vision Research, 45, 2987-2992. http://www.ncbi.nlm.nih.gov/pubmed/16139862</p>
 

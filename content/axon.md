@@ -65,7 +65,7 @@ Computationally, the combination of language and a strong goal-driven planning s
 
 <!--- TODO: turing with a twist citations! -->
 
-There will be many practical challenges associated with scaling up these models, given their additional biological realism and complexity relative to existing more abstract models. Furthermore, the capacity to actually accomplish significant levels of general problem solving ability in humans requires years of learning and education, representing the apex of the developmental stages mapped out by [[@Piaget41]]. Thus, this remains a major challenge, but the current objective is to establish a solid biological, computational, and cognitive foundation to understand the essential ingredients of what makes humans so smart.
+There will be many practical challenges associated with scaling up these models, given their additional biological realism and complexity relative to existing more abstract models. Furthermore, the capacity to actually accomplish significant levels of general problem solving ability in humans requires years of learning and education, representing the apex of the developmental stages mapped out by [[@^Piaget41]]. Thus, this remains a major challenge, but the current objective is to establish a solid biological, computational, and cognitive foundation to understand the essential ingredients of what makes humans so smart.
 
 ## Summary
 

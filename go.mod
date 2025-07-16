@@ -3,11 +3,11 @@ module github.com/CompCogNeuro/CompCogNeuro.github.io
 go 1.23.4
 
 require (
-	cogentcore.org/core v0.3.12-0.20250711225613-94302d119e14
-	cogentcore.org/lab v0.1.1-0.20250508152944-dd6fe1facec6
+	cogentcore.org/core v0.3.12-0.20250715210458-b4f73d8321cf
+	cogentcore.org/lab v0.1.2-0.20250714011213-5cbdb01f18ba
 	github.com/cogentcore/yaegi v0.0.0-20250622201820-b7838bdd95eb
-	github.com/emer/axon/v2 v2.0.0-dev0.2.19.0.20250508153156-752aa608b33d
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250502170855-f1a87d89008f
+	github.com/emer/axon/v2 v2.0.0-dev0.2.38
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250630184401-56587d34404f
 )
 
 require (
@@ -45,16 +45,15 @@ require (
 	github.com/pelletier/go-toml/v2 v2.1.2-0.20240227203013-2b69615b5d55 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/tdewolff/parse/v2 v2.7.19 // indirect
-	github.com/tdewolff/test v1.0.11-0.20240106005702-7de5f7df4739 // indirect
-	golang.org/x/crypto v0.37.0 // indirect
+	golang.org/x/crypto v0.39.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
 	golang.org/x/image v0.25.0 // indirect
-	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/sync v0.13.0 // indirect
-	golang.org/x/sys v0.32.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
-	golang.org/x/tools v0.29.0 // indirect
+	golang.org/x/mod v0.25.0 // indirect
+	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/tools v0.33.0 // indirect
 	gonum.org/v1/gonum v0.15.0 // indirect
 	modernc.org/knuth v0.5.4 // indirect
 	modernc.org/token v1.1.0 // indirect
