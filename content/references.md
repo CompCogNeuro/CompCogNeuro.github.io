@@ -176,6 +176,8 @@
 
 <p id="DiehlCook15">Diehl, P.U., & Cook, M. (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience, 9, https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full http://doi.org/10.3389/fncom.2015.00099</p>
 
+<p id="DoiFanGoldEtAl20">Doi, T., Fan, Y., Gold, J.I., & Ding, L. (2020). The caudate nucleus contributes causally to decisions that balance reward and uncertain visual information. eLife, 9, e56694. https://elifesciences.org/articles/56694 http://doi.org/10.7554/eLife.56694</p>
+
 <p id="DoiKurodaMichikawaEtAl05">Doi, T., Kuroda, S., Michikawa, T., & Kawato, M. (2005). Inositol 1,4,5-trisphosphate-dependent Ca2+ threshold dynamics detect spike timing in cerebellar purkinje cells. Journal of Neuroscience, 25, 950-961. https://www.jneurosci.org/content/25/4/950 http://doi.org/10.1523/JNEUROSCI.2727-04.2005</p>
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
@@ -193,6 +195,8 @@
 <p id="DuckworthPetersonMatthewsEtAl07">Duckworth, A.L., Peterson, C., Matthews, M.D., & Kelly, D.R. (2007). Grit: perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92, 1087-1101.  http://doi.org/10.1037/0022-3514.92.6.1087</p>
 
 <p id="Duncan84">Duncan, J. (1984). Selective attention and the organization of visual information. Journal of Experimental Psychology: General, 113, 501-517. </p>
+
+<p id="DunovanLynchMolesworthEtAl15">Dunovan, K., Lynch, B., Molesworth, T., & Verstynen, T. (2015). Competing basal ganglia pathways determine the difference between stopping and deciding not to go. eLife, 4, e08723. https://doi.org/10.7554/eLife.08723 http://doi.org/10.7554/eLife.08723</p>
 
 <p id="DunwiddieLynch78">Dunwiddie, T., & Lynch, G. (1978). Long-term potentiation and depression of synaptic responses in the rat hippocampus: localization and frequency dependency. The Journal of Physiology, 276, 353-367. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012239 http://doi.org/10.1113/jphysiol.1978.sp012239</p>
 
@@ -835,6 +839,8 @@
 <p id="YangCampbellHuangEtAl25">Yang, Y., Campbell, D., Huang, K., Wang, M., Cohen, J., & Webb, T. (2025). Emergent Symbolic Mechanisms Support Abstract Reasoning in Large Language Models. http://arxiv.org/abs/2502.20332 http://doi.org/10.48550/arXiv.2502.20332</p>
 
 <p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
+
+<p id="YartsevHanksYoonEtAl18">Yartsev, M.M., Hanks, T.D., Yoon, A.M., & Brody, C.D. (2018). Causal contribution and dynamical encoding in the striatum during evidence accumulation. eLife, 7, e34929. https://doi.org/10.7554/eLife.34929 http://doi.org/10.7554/eLife.34929</p>
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
 

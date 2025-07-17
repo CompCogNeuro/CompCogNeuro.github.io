@@ -72,7 +72,7 @@ In the PCore model, the STN projections into the GPePr are critical for driving 
 {id="figure_pcore-dyn" style="height:30em"}
 ![Dynamics of the PCore model for a Go > No case (left panel) vs a No > Go case (right panel), illustrating the central role of the GPeAk neurons. Each layer shows a raster plot of spikes across the 25 neurons per layer, with time going back in depth for each layer. Thus, you can see the initial burst of activity in the STN driven by the hyperdirect pathway inputs, which puts on the "brake" at the start, allowing the rest of the dynamics to unfold, as the brake is released by GPePr inhbiting the STN. See text for further explanation of each of the steps highlighted. The striatum neurons are labeled as Mtx, representing the matrix (vs. striosome) subset, with dSPN = Go and iSPN = No.](media/fig_pcore_v2_vs_sim_go_no.png)
 
-Figure [[#figure_pcore-dyn]] shows the PCore model in action ([[BGventral simulation]]) in cases where it ends up being net disinhibitory ("Go") and net inhibitory ("No"). For the Go case, the key steps are:
+[[#figure_pcore-dyn]] shows the PCore model in action ([[BGventral simulation]]) in cases where it ends up being net disinhibitory ("Go") and net inhibitory ("No"). For the Go case, the key steps are:
 
 0. The STN hyperdirect activity provides a burst of activation to the SNr, GPePr, and GPeAk neurons, effectively preventing the SNr output from being inhibited. This is the initial "brake" on the system, which is released when the GPePr inhibits the STN in turn, and the [[neuron channels#SKCa]] calcium-gated K channels produce a longer-lasting inhibitory pause, providing a window for the BG to control the output pathways (i.e., a _gating window_).
 
@@ -109,9 +109,10 @@ At a broad-brushstroke level of analysis, the PCore model exhibits similar behav
 
 Perhaps the most important feature is that that there are multiple ways in which these opposing pathways also have offsetting effects, which keep the overall dynamics in a more evenly balanced regime overall. For example, the iSPN inhibition of dSPNs balances the disinhibitory positive feedback loop from GPeAk to the dSPNs. Likewise, the self-inhibtion by the GPePr neurons, and their inhibition of the GPeAk neurons, provide offsetting effects.
 
-Overall, we find in our model that these dynamics allow the system to apply a ratio-based decision threshold across a wide range of raw input activation strengths, consistently exhibiting disinhibitory Go dynamics when the relative strength of initial Go vs. No pathway activation favors Go. In addition, as the Go vs. No balance gets closer, the system takes longer to make a decision, allowing more time for additional input signals to be integrated and improve the overall quality of the resulting decision.
+{id="figure_bgventral-test" style="height:20em"}
+![Testing results from the ventral BG model, trained with dopamine based on reward prediction error to do Go gating when the input signals indicate more positive reward versus negative costs are available, and No when the opposite is true. The testing sweeps through increments of negative costs in an inner loop, and positive rewards in the outer looop, as shown on the lower portion of the plot. The Gated line the proportion of times that the model did Go gating, which is strongly determined by the ratio of positive to negative, across the full range of these values. This demonstrates the balanced nature of the interactions between pathways. The RT line shows the normalized number of cycles taken when a Go gating outcome occurred, showing that the model was significantly slower in processing the cases with greatest conflict, where positive is very close to negative. Furthermore, the overall trend is that with stronger positive values, RT is overall faster. These patterns are widely observed in decision-making studies, and predicted by normative drift-diffusion models. This demostrates that the model naturally exhibits an information-integration dynamic to accumulate more input over time when the decision is more ambiguous.](media/fig_bgventral_test.png)
 
-TODO: show figs from BGventral model. Fix urgency!
+We find in our model that these dynamics allow the system to apply a ratio-based decision threshold across a wide range of raw input activation strengths, consistently exhibiting disinhibitory Go dynamics when the relative strength of initial Go vs. No pathway activation favors Go ([[#figure_bgventral-test]]). In addition, as the Go vs. No balance gets closer, the system takes longer to make a decision, allowing more time for additional input signals to be integrated and improve the overall quality of the resulting decision. This latter phenomenon is consistent with the normative drift-diffusion model of decision making, which has been identified with the function of the basal ganglia empirically ([[@YartsevHanksYoonEtAl18]]; [[@DunovanLynchMolesworthEtAl15]]; [[@DoiFanGoldEtAl20]])
 
 Also, the GPeAk disinhibition of striatum strongly predicts that there will be some correlation in dSPN and iSPN firing, even though they are in an overall oppositional relationship, consistent with observed data ([[@CuiJunJinEtAl13]]). However, the oppositional relationship is still evident overall, consistent with the properties of dSPN and iSPN firing in naturalistic behavioral contexts ([[@MarkowitzGillisBeronEtAl18]]; [[@KlausMartinsPaixaoEtAl17]]).
 
@@ -125,9 +126,13 @@ Thus, we return to the big picture question of what the BG is actually doing, no
 
 * major problem with action selection: how is the "menu" represented and how is this mapped through with parallel pathways for each possible action, which is necessary for the standard action selection logic.
 
-* multiple different parallel loops through BG wrt to cortex and also downstream motor areas: different dynamics in different loops?
+* multiple different parallel loops through BG wrt to cortex and also downstream motor areas: different dynamics in different loops?  ventral is tiny compared to dorsal -- just does one integrated Go No vs. many competing dynamic motor shaping things in dorsal.
 
 * Broader feedback from FSi etc: dorsal bg.
+
+* action selection happens in planning -- goal selection phase -- must be serial to avoid binding problems- after that it is dynamic constraint satisfaction as real-time action shaping unfolds.
+
+Show Hisham data for what vs looks like - usu key up front points etc.
 
 ## Functional organization of the thalamus
 
