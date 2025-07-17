@@ -10,11 +10,17 @@
 
 <p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
 
+<p id="AlexanderBrown11">Alexander, W.H., & Brown, J.W. (2011). Medial prefrontal cortex as an action-outcome predictor. Nature Neuroscience, 14, 1338-1344. http://www.ncbi.nlm.nih.gov/pubmed/21926982</p>
+
+<p id="AlexanderDeLongStrick86">Alexander, G., DeLong, M., & Strick, P. (1986). Parallel organization of functionally segregated circuits linking basal ganglia and cortex. Annual Review of Neuroscience, 9, 357-381. http://www.ncbi.nlm.nih.gov/pubmed/3085570</p>
+
 <p id="Almeida87">Almeida, L.B. (1987). A Learning Rule for Asynchronous Perceptrons with Feedback in a Combinatorial Environment. In M. Caudil, & C. Butler (Eds.), Proceedings of the IEEE First International Conference on Neural Networks San Diego, CA (pp. 609-618). </p>
 
 <p id="AndersonLebiere98">Anderson, J.R., & Lebiere, C. (1998). The Atomic Components of Thought (1 ed). Lawrence Erlbaum Associated, Publishers. </p>
 
 <p id="AngelucciBressloff06">Angelucci, A., & Bressloff, P.C. (2006). Contribution of feedforward, lateral and feedback connections to the classical receptive field center and extra-classical receptive field surround of primate V1 neurons. In S.L.M. S. Martinez-Conde (Ed.), Progress in Brain Research (pp. 93-120). Elsevier. http://www.sciencedirect.com/science/article/pii/S0079612306540051 http://doi.org/10.1016/S0079-6123(06)54005-1</p>
+
+<p id="ArberCosta22">Arber, S., & Costa, R.M. (2022). Networking brainstem and basal ganglia circuits for movement. Nature Reviews Neuroscience, 23(6), 342-360. https://www.nature.com/articles/s41583-022-00581-w http://doi.org/10.1038/s41583-022-00581-w</p>
 
 <p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
 
@@ -152,6 +158,8 @@
 
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
 
+<p id="Desimone96">Desimone, R. (1996). Neural Mechanisms for Visual Memory and Their Role in Attention. Proceedings of the National Academy of Sciences, 93, 13494-13499. http://www.pnas.org/content/93/24/13494</p>
+
 <p id="DestexheMainenSejnowski98">Destexhe, A., Mainen, Z.F., & Sejnowski, T.J. (1998). Kinetic models of synaptic transmission. Methods in neuronal modeling, 2, 1–25. https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf</p>
 
 <p id="DevillezGuyaderCurranEtAl20">Devillez, H., Guyader, N., Curran, T., & O’Reilly, R.C. (2020). The bimodality of saccade duration during the exploration of visual scenes. Visual Cognition, 28, 484-512. https://doi.org/10.1080/13506285.2020.1830325 http://doi.org/10.1080/13506285.2020.1830325</p>
@@ -210,6 +218,10 @@
 
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
+<p id="Frank05">Frank, M.J. (2005). When and when not to use your subthalamic nucleus: Lessons from a computational model of the basal ganglia. In A.K. Seth, T.J. Prescott, & J.J. Bryson (Eds.), Modelling Natural Action Selection: Proceedings of an International Workshop (pp. 53-60). AISB. </p>
+
+<p id="FrankClaus06">Frank, M.J., & Claus, E.D. (2006). Anatomy of a decision: Striato-orbitofrontal interactions in reinforcement learning, decision making, and reversal. Psychological Review, 113, 300–326. http://www.ncbi.nlm.nih.gov/pubmed/16637763</p>
+
 <p id="Friston05">Friston, K. (2005). A theory of cortical responses. Philosophical Transactions of the Royal Society B, 360, 815–836. http://www.ncbi.nlm.nih.gov/pubmed/15937014</p>
 
 <p id="FroemkeDan02">Froemke, R.C., & Dan, Y. (2002). Spike-timing-dependent synaptic modification induced by natural spike trains. Nature, 416, 433-437. http://www.ncbi.nlm.nih.gov/pubmed/11919633</p>
@@ -255,6 +267,10 @@
 <p id="Gould77">Gould, S.J. (1977). Ontogeny and phylogeny. Harvard U Press. </p>
 
 <p id="GreeneHoshi17">Greene, D.L., & Hoshi, N. (2017). Modulation of Kv7 channels and excitability in the brain. Cellular and molecular life sciences : CMLS, 74, 495-508. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5243414/ http://doi.org/10.1007/s00018-016-2359-y</p>
+
+<p id="GrillnerRobertson16">Grillner, S., & Robertson, B. (2016). The Basal Ganglia Over 500 Million Years. Current Biology, 26, R1088-R1100. http://www.sciencedirect.com/science/article/pii/S0960982216306807 http://doi.org/10.1016/j.cub.2016.06.041</p>
+
+<p id="GrillnerRobertsonKotaleski20">Grillner, S., Robertson, B., & Kotaleski, J.H. (2020). Basal Ganglia—A Motion Perspective. In Comprehensive Physiology (pp. 1241-1275). John Wiley & Sons, Ltd. https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.c190045 http://doi.org/10.1002/cphy.c190045</p>
 
 <p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
 
@@ -310,11 +326,17 @@
 
 <p id="HopfieldTank85">Hopfield, J.J., & Tank, D.W. (1985). {`Neural'} computation of decisions in optimization problems. Biological Cybernetics, 52, 141-152. http://www.ncbi.nlm.nih.gov/pubmed/4027280</p>
 
+<p id="HowardLiGeddesEtAl17">Howard, C.D., Li, H., Geddes, C.E., & Jin, X. (2017). Dynamic nigrostriatal dopamine biases action selection. Neuron, 93, 1436-1450.e8. https://www.sciencedirect.com/science/article/pii/S089662731730137X http://doi.org/10.1016/j.neuron.2017.02.029</p>
+
 <p id="HoyFarrow25">Hoy, J.L., & Farrow, K. (2025). The superior colliculus. Current Biology, 35, R164-R168. https://www.cell.com/current-biology/abstract/S0960-9822(25)00052-1 http://doi.org/10.1016/j.cub.2025.01.022</p>
 
 <p id="HuangYangPotts24">Huang, J., Yang, D., & Potts, C. (2024). Demystifying Verbatim Memorization in Large Language Models. http://arxiv.org/abs/2407.17817 http://doi.org/10.48550/arXiv.2407.17817</p>
 
 <p id="HubelWiesel62">Hubel, D., & Wiesel, T.N. (1962). Receptive Fields, Binocular Interaction, and Functional Architecture in the Cat's Visual Cortex. Journal of Physiology, 160, 106-154. </p>
+
+<p id="Hull43">Hull, C.L. (1943). Principles of Behavior. Appleton. </p>
+
+<p id="HuntMalalasekeraBerkerEtAl17">Hunt, L.T., Malalasekera, W.M.N., Berker, A.O., Miranda, B., Farmer, S.F., Behrens, T.E.J., & Kennerley, S.W. (2017). Triple dissociation of attention and decision computations across prefrontal cortex. bioRxiv, 171173. https://www.biorxiv.org/content/early/2017/08/01/171173 http://doi.org/10.1101/171173</p>
 
 <p id="Hyvarinen13">Hyvärinen, A. (2013). Independent component analysis: recent advances. Philosophical transactions. Series A, Mathematical, physical, and engineering sciences, 371, 20110534. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538438/ http://doi.org/10.1098/rsta.2011.0534</p>
 
@@ -344,11 +366,15 @@
 
 <p id="KawatoHayakawaInui93">Kawato, M., Hayakawa, H., & Inui, T. (1993). A forward-inverse optics model of reciprocal connections between visual cortical areas. Network: Computation in Neural Systems, 4, 415-422. http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_4_001 http://doi.org/10.1088/0954-898X_4_4_001</p>
 
+<p id="KennerleyBehrensWallis11">Kennerley, S.W., Behrens, T.E.J., & Wallis, J.D. (2011). Double dissociation of value computations in orbitofrontal and anterior cingulate neurons. Nature Neuroscience, 14, 1581-1589. https://www.nature.com/neuro/journal/v14/n12/full/nn.2961.html http://doi.org/10.1038/nn.2961</p>
+
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
 
 <p id="KingmaBa14">Kingma, D.P., & Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv:1412.6980 [cs], http://arxiv.org/abs/1412.6980</p>
 
 <p id="KirkwoodRioultBear96">Kirkwood, A., Rioult, M.G., & Bear, M.F. (1996). Experience-Dependent Modification of Synaptic Plasticity in Visual Cortex. Nature, 381, 526–528. http://www.ncbi.nlm.nih.gov/pubmed/8632826</p>
+
+<p id="KlausMartinsPaixaoEtAl17">Klaus, A., Martins, G.J., Paixao, V.B., Zhou, P., Paninski, L., & Costa, R.M. (2017). The spatiotemporal organization of the striatum encodes action space. Neuron, 95, 1171-1180.e7.  http://doi.org/10.1016/j.neuron.2017.08.015</p>
 
 <p id="KlinzingNiethardBorn19">Klinzing, J.G., Niethard, N., & Born, J. (2019). Mechanisms of systems memory consolidation during sleep. Nature Neuroscience, 22(10), 1598-1610. http://www.nature.com/articles/s41593-019-0467-3 http://doi.org/10.1038/s41593-019-0467-3</p>
 
@@ -359,6 +385,8 @@
 <p id="Kohonen98">Kohonen, T. (1998). the Self-Organizing Map. Neurocomputing, 21, 1. </p>
 
 <p id="KohonenHari99">Kohonen, T., & Hari, R. (1999). Where the abstract feature maps of the brain might come from. Trends in neurosciences, 22, 135. http://www.ncbi.nlm.nih.gov/pubmed/10199639</p>
+
+<p id="KouneiherCharronKoechlin09">Kouneiher, F., Charron, S., & Koechlin, E. (2009). Motivation and cognitive control in the human prefrontal cortex. Nature neuroscience, 12, 659–669. http://www.ncbi.nlm.nih.gov/pubmed/19503087</p>
 
 <p id="KramerMcLaughlin01">Kramer, D.L., & McLaughlin, R.L. (2001). The Behavioral Ecology of Intermittent Locomotion1. American Zoologist, 41, 137-153. https://doi.org/10.1093/icb/41.2.137 http://doi.org/10.1093/icb/41.2.137</p>
 
@@ -408,9 +436,15 @@
 
 <p id="ManningClarkHewittEtAl20">Manning, C.D., Clark, K., Hewitt, J., Khandelwal, U., & Levy, O. (2020). Emergent linguistic structure in artificial neural networks trained by self-supervision. Proceedings of the National Academy of Sciences, 117, 30046-30054. https://www.pnas.org/doi/full/10.1073/pnas.1907367117 http://doi.org/10.1073/pnas.1907367117</p>
 
+<p id="MarkowitzGillisBeronEtAl18">Markowitz, J.E., Gillis, W.F., Beron, C.C., Neufeld, S.Q., Robertson, K., Bhagat, N.D., Peterson, R.E., Peterson, E., Hyun, M., Linderman, S.W., Sabatini, B.L., & Datta, S.R. (2018). The striatum organizes 3D behavior via moment-to-moment action selection. Cell, 174, 44-58.e17. http://www.sciencedirect.com/science/article/pii/S0092867418305129 http://doi.org/10.1016/j.cell.2018.04.019</p>
+
+<p id="MarkowitzGillisJayEtAl23">Markowitz, J.E., Gillis, W.F., Jay, M., Wood, J., Harris, R.W., Cieszkowski, R., Scott, R., Brann, D., Koveal, D., Kula, T., Weinreb, C., Osman, M.A.M., Pinto, S.R., Uchida, N., Linderman, S.W., Sabatini, B.L., & Datta, S.R. (2023). Spontaneous behaviour is structured by reinforcement without explicit reward. Nature, 614(7946), 108-117. https://www.nature.com/articles/s41586-022-05611-2 http://doi.org/10.1038/s41586-022-05611-2</p>
+
 <p id="MarkramMullerRamaswamyEtAl15">Markram, H., Muller, E., Ramaswamy, S., Reimann, M.W., Abdellah, M., Sanchez, C.A., Ailamaki, A., Alonso-Nanclares, L., Antille, N., Arsever, S., Kahou, G.A.A., Berger, T.K., Bilgili, A., Buncic, N., Chalimourda, A., Chindemi, G., Courcol, J., Delalondre, F., Delattre, V., Druckmann, S., Dumusc, R., Dynes, J., Eilemann, S., Gal, E., Gevaert, M.E., Ghobril, J., Gidon, A., Graham, J.W., Gupta, A., Haenel, V., Hay, E., Heinis, T., Hernando, J.B., Hines, M., Kanari, L., Keller, D., Kenyon, J., Khazen, G., Kim, Y., King, J.G., Kisvarday, Z., Kumbhar, P., Lasserre, S., Le Bé, J., Magalhães, B.R.C., Merchán-Pérez, A., Meystre, J., Morrice, B.R., Muller, J., Muñoz-Céspedes, A., Muralidhar, S., Muthurasa, K., Nachbaur, D., Newton, T.H., Nolte, M., Ovcharenko, A., Palacios, J., Pastor, L., Perin, R., Ranjan, R., Riachi, I., Rodríguez, J., Riquelme, J.L., Rössert, C., Sfyrakis, K., Shi, Y., Shillcock, J.C., Silberberg, G., Silva, R., Tauheed, F., Telefont, M., Toledo-Rodriguez, M., Tränkler, T., Van Geit, W., Díaz, J.V., Walker, R., Wang, Y., Zaninetta, S.M., DeFelipe, J., Hill, S.L., Segev, I., & Schürmann, F. (2015). Reconstruction and Simulation of Neocortical Microcircuitry. Cell, 163, 456-492.  http://doi.org/10.1016/j.cell.2015.09.029</p>
 
 <p id="Marr77">Marr, D. (1977). Artificial Intelligence—A Personal View. Artificial Intelligence, 37-48. </p>
+
+<p id="Maslow43">Maslow, A.H. (1943). A Theory of Human Motivation. Psychological Review, 50, 370-396. </p>
 
 <p id="MathewsonGrattonFabianiEtAl09">Mathewson, K., Gratton, G., Fabiani, M., Beck, D., & Ro, T. (2009). To see or not to see: Prestimulus alpha phase predicts visual awareness. The Journal of Neuroscience, 29, 2725–2732. </p>
 
@@ -462,6 +496,8 @@
 
 <p id="MusslickSaxeHoskinEtAl20">Musslick, S., Saxe, A., Hoskin, A., Sagiv, Y., Reichman, D., Petri, G., & Cohen, J. (2020). On the Rational Boundedness of Cognitive Control: Shared Versus Separated Representations. https://osf.io/jkhdf_v1 http://doi.org/10.31234/osf.io/jkhdf</p>
 
+<p id="NairGutierrez-ArenasErikssonEtAl15">Nair, A.G., Gutierrez-Arenas, O., Eriksson, O., Vincent, P., & Kotaleski, J.H. (2015). Sensing Positive versus Negative Reward Signals through Adenylyl Cyclase-Coupled GPCRs in Direct and Indirect Pathway Striatal Medium Spiny Neurons. Journal of Neuroscience, 35, 14017-14030. https://www.jneurosci.org/content/35/41/14017 http://doi.org/10.1523/JNEUROSCI.0730-15.2015</p>
+
 <p id="NakkiranKaplunBansalEtAl21">Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2021). Deep double descent: where bigger models and more data hurt* Journal of Statistical Mechanics: Theory and Experiment, 2021, 124003. https://dx.doi.org/10.1088/1742-5468/ac3a74 http://doi.org/10.1088/1742-5468/ac3a74</p>
 
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
@@ -494,6 +530,10 @@
 
 <p id="OReilly96a">O'Reilly, R.C. (1996). The Leabra Model of Neural Interactions and Learning in the Neocortex. [unpublished Ph.D. Thesis, Carnegie Mellon University]. </p>
 
+<p id="OReillyBraverCohen99">O'Reilly, R.C., Braver, T.S., & Cohen, J.D. (1999). A Biologically Based Computational Model of Working Memory. In A. Miyake, & P. Shah (Eds.), Models of Working Memory: Mechanisms of Active Maintenance and Executive Control (pp. 375-411). Cambridge University Press. </p>
+
+<p id="OReillyFrank06">O'Reilly, R.C., & Frank, M.J. (2006). Making working memory work: a computational model of learning in the prefrontal cortex and basal ganglia. Neural Computation, 18, 283-328. http://www.ncbi.nlm.nih.gov/pubmed/16378516</p>
+
 <p id="OReillyFrankHazyEtAl07">O'Reilly, R.C., Frank, M.J., Hazy, T.E., & Watz, B. (2007). PVLV: The primary value and learned value Pavlovian learning algorithm. Behavioral Neuroscience, 121, 31-49. http://www.ncbi.nlm.nih.gov/pubmed/17324049</p>
 
 <p id="OReillyHazyMollickEtAl14">O'Reilly, R.C., Hazy, T.E., Mollick, J., Mackie, P., & Herd, S.A. (2014). Goal-driven cognition in the brain: A computational framework. arXiv:1404.7591 [q-bio], http://arxiv.org/abs/1404.7591</p>
@@ -520,11 +560,19 @@
 
 <p id="OlssonElhageNandaEtAl22">Olsson, C., Elhage, N., Nanda, N., Joseph, N., DasSarma, N., Henighan, T., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., Drain, D., Ganguli, D., Hatfield-Dodds, Z., Hernandez, D., Johnston, S., Jones, A., Kernion, J., Lovitt, L., Ndousse, K., Amodei, D., Brown, T., Clark, J., Kaplan, J., McCandlish, S., & Olah, C. (2022). In-context Learning and Induction Heads. http://arxiv.org/abs/2209.11895 http://doi.org/10.48550/arXiv.2209.11895</p>
 
+<p id="OngurPrice00">Öngür, D., & Price, J.L. (2000). The organization of networks within the orbital and medial prefrontal cortex of rats, monkeys and humans. Cerebral Cortex, 10, 206-219. http://www.ncbi.nlm.nih.gov/pubmed/10731217</p>
+
 <p id="OswaldNiklassonRandazzoEtAl23">Oswald, J.V., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. In Proceedings of the 40th International Conference on Machine Learning (pp. 35151-35174). PMLR. https://proceedings.mlr.press/v202/von-oswald23a.html</p>
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
+<p id="ParkCoddingtonDudman20">Park, J., Coddington, L.T., & Dudman, J.T. (2020). Basal ganglia circuits for action specification. Annual Review of Neuroscience, 43, 485-507.  http://doi.org/10.1146/annurev-neuro-070918-050452</p>
+
 <p id="PateriaSubagdjaTanEtAl21">Pateria, S., Subagdja, B., Tan, A., & Quek, C. (2021). Hierarchical Reinforcement Learning: A Comprehensive Survey. ACM Comput. Surv., 54, 109:1–109:35. https://dl.acm.org/doi/10.1145/3453160 http://doi.org/10.1145/3453160</p>
+
+<p id="PauliHazyOReilly12">Pauli, W.M., Hazy, T.E., & O'Reilly, R.C. (2012). Expectancy, ambiguity, and behavioral flexibility: separable and complementary roles of the orbital frontal cortex and amygdala in processing reward expectancies. Journal of Cognitive Neuroscience, 24, 351-366. http://www.ncbi.nlm.nih.gov/pubmed/22004047</p>
+
+<p id="PezzuloRigoliFriston18">Pezzulo, G., Rigoli, F., & Friston, K.J. (2018). Hierarchical active inference: A theory of motivated control. Trends in Cognitive Sciences, 22, 294-306. http://www.sciencedirect.com/science/article/pii/S1364661318300226 http://doi.org/10.1016/j.tics.2018.01.009</p>
 
 <p id="Piaget41">Piaget, J. (1941). Le m'echanisme du d'eveloppement mental et les lois du groupement des op'eration. Arch. Psych., Gen`eve, 28, 215-285. </p>
 
@@ -562,6 +610,8 @@
 
 <p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
 
+<p id="RichWallis16">Rich, E.L., & Wallis, J.D. (2016). Decoding subjective decisions from orbitofrontal cortex. Nature Neuroscience, 19, 973-980. http://www.nature.com/neuro/journal/v19/n7/full/nn.4320.html?WT.ec_id=NEURO-201607&spMailingID=51711028&spUserID=MTc2NjQ4NzIwMwS2&spJobID=944051338&spReportId=OTQ0MDUxMzM4S0 http://doi.org/10.1038/nn.4320</p>
+
 <p id="RogersMcClelland04">Rogers, T.T., & McClelland, J.L. (2004). Semantic Cognition: A Parallel Distributed Processing Approach. MIT Press. </p>
 
 <p id="Rosenblatt59">Rosenblatt, F. (1959). Two theorems of statistical separability in the Perceptron. In Mechanisation of Thought Processes: Proceedings of a Symposium Held at the National Physical Laboratory, Nov. 1958, Vol. 1 (pp. 421-456). HM Stationary Office. </p>
@@ -569,6 +619,8 @@
 <p id="Rosenblatt62">Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan. </p>
 
 <p id="RubinAbbottSompolinsky17">Rubin, R., Abbott, L.F., & Sompolinsky, H. (2017). Balanced excitation and inhibition are required for high-capacity, noise-robust neuronal selectivity. Proceedings of the National Academy of Sciences, 114, E9366-E9375. https://www.pnas.org/doi/abs/10.1073/pnas.1705841114 http://doi.org/10.1073/pnas.1705841114</p>
+
+<p id="RudebeckMurray14">Rudebeck, P.H., & Murray, E.A. (2014). The orbitofrontal oracle: Cortical mechanisms for the prediction and evaluation of specific behavioral outcomes. Neuron, 84, 1143-1156. http://www.sciencedirect.com/science/article/pii/S0896627314009969 http://doi.org/10.1016/j.neuron.2014.10.049</p>
 
 <p id="RudyFishellLeeEtAl11">Rudy, B., Fishell, G., Lee, S., & Hjerling-Leffler, J. (2011). Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons. Developmental Neurobiology, 71, 45-61. http://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.20853 http://doi.org/10.1002/dneu.20853</p>
 
@@ -578,6 +630,8 @@
 
 <p id="RumelhartZipser85">Rumelhart, D.E., & Zipser, D. (1985). Feature discovery by competitive learning* Cognitive Science, 9, 75-112. http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_5/abstract http://doi.org/10.1207/s15516709cog0901_5</p>
 
+<p id="RushworthBehrensRudebeckEtAl07">Rushworth, M.F.S., Behrens, T.E.J., Rudebeck, P.H., & Walton, M.E. (2007). Contrasting roles for cingulate and orbitofrontal cortex in decisions and social behaviour. Trends in Cognitive Sciences, 11, 168-176. http://www.ncbi.nlm.nih.gov/pubmed/17337237</p>
+
 <p id="RussellNorvig16">Russell, S.J., & Norvig, P. (2016). Artificial intelligence: a modern approach. pearson. https://thuvienso.hoasen.edu.vn/handle/123456789/8967</p>
 
 <p id="RussinJoOReillyEtAl19">Russin, J.L., Jo, J., O'Reilly, R.C., & Bengio, Y. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. arXiv:1904.09708 [cs, stat], http://arxiv.org/abs/1904.09708</p>
@@ -585,6 +639,8 @@
 <p id="RussinOReillyBengio20">Russin, J., O’Reilly, R.C., & Bengio, Y. (2020). Deep learning needs a prefrontal cortex. Work Bridging AI Cogn Sci, 107, 1. https://baicsworkshop.github.io/pdf/BAICS_10.pdf</p>
 
 <p id="SabatiniOertnerSvoboda02">Sabatini, B.L., Oertner, T.G., & Svoboda, K. (2002). The life cycle of Ca2+ ions in dendritic spines. Neuron, 33, 439-452. https://www.sciencedirect.com/science/article/pii/S0896627302005731 http://doi.org/10.1016/S0896-6273(02)00573-1</p>
+
+<p id="SaddorisGallagherSchoenbaum05">Saddoris, M.P., Gallagher, M., & Schoenbaum, G. (2005). Rapid associative encoding in basolateral amygdala depends on connections with orbitofrontal cortex. Neuron, 46, 321-331. http://www.ncbi.nlm.nih.gov/pubmed/15848809</p>
 
 <p id="SakataHarris09">Sakata, S., & Harris, K.D. (2009). Laminar structure of spontaneous and sensory-evoked population activity in auditory cortex. Neuron, 64, 404-418. http://www.ncbi.nlm.nih.gov/pubmed/19914188</p>
 
@@ -608,6 +664,8 @@
 
 <p id="SchneiderShiffrin77">Schneider, W., & Shiffrin, R.M. (1977). Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention. Psychological Review, 84, 1-66. </p>
 
+<p id="SchoenbaumRoeschStalnakerEtAl09">Schoenbaum, G., Roesch, M.R., Stalnaker, T.A., & Takahashi, Y.K. (2009). A new perspective on the role of the orbitofrontal cortex in adaptive behaviour. Nature Reviews Neuroscience, 10, 885-892. http://www.ncbi.nlm.nih.gov/pubmed/19904278</p>
+
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
 
 <p id="SchultzDayanMontague97">Schultz, W., Dayan, P., & Montague, P.R. (1997). A neural substrate of prediction and reward. Science, 275, 1593-1599. http://www.ncbi.nlm.nih.gov/pubmed/9054347</p>
@@ -619,6 +677,10 @@
 <p id="ShadlenNewsome98">Shadlen, M.N., & Newsome, W.T. (1998). The variable discharge of cortical neurons: implications for connectivity, computation, and information coding. The Journal of neuroscience : the official journal of the Society for Neuroscience, 18, 3870. http://www.ncbi.nlm.nih.gov/pubmed/9570816</p>
 
 <p id="Shannon48">Shannon, C.E. (1948). A Mathematical Theory of Communication. Bell Systems Technical Journal, 27, 623-656. </p>
+
+<p id="ShenFlajoletGreengardEtAl08">Shen, W., Flajolet, M., Greengard, P., & Surmeier, D.J. (2008). Dichotomous Dopaminergic Control of Striatal Synaptic Plasticity. Science, 321, 848-851. https://www.science.org/doi/full/10.1126/science.1160575 http://doi.org/10.1126/science.1160575</p>
+
+<p id="ShenhavBotvinickCohen13">Shenhav, A., Botvinick, M.M., & Cohen, J.D. (2013). The expected value of control: an integrative theory of anterior cingulate cortex function. Neuron, 79, 217–240. http://www.ncbi.nlm.nih.gov/pubmed/23889930</p>
 
 <p id="ShermanGuillery06">Sherman, S.M., & Guillery, R.W. (2006). Exploring the Thalamus and Its Role in Cortical Function. MIT Press. http://www.scholarpedia.org/article/Thalamus</p>
 
@@ -745,6 +807,8 @@
 <p id="YangLiu22">Yang, Y., & Liu, J. (2022). Structural LTP: Signal transduction, actin cytoskeleton reorganization, and membrane remodeling of dendritic spines. Current Opinion in Neurobiology, 74, 102534. https://www.sciencedirect.com/science/article/pii/S0959438822000289 http://doi.org/10.1016/j.conb.2022.102534</p>
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
+
+<p id="YttriDudman18">Yttri, E.A., & Dudman, J.T. (2018). A Proposed Circuit Computation in Basal Ganglia: History‐Dependent Gain. Movement Disorders, 33, 704-716. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001446/ http://doi.org/10.1002/mds.27321</p>
 
 <p id="YuSmithChristensenEtAl07">Yu, C., Smith, L.B., Christensen, M., & Pereira, A. (2007). Two views of the world: Active vision in real-world interaction. In Proceedings of the Annual Meeting of the Cognitive Science Society. https://escholarship.org/content/qt7ms4z979/qt7ms4z979.pdf</p>
 
