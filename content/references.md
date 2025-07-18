@@ -64,6 +64,8 @@
 
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
 
+<p id="BevanMagillTermanEtAl02">Bevan, M.D., Magill, P.J., Terman, D., Bolam, J.P., & Wilson, C.J. (2002). Move to the rhythm: oscillations in the subthalamic nucleus-external globus pallidus network. Trends in Neurosciences, 25, 525-531. http://www.ncbi.nlm.nih.gov/pubmed/12220881</p>
+
 <p id="BhallaIyengar99">Bhalla, U.S., & Iyengar, R. (1999). Emergent properties of networks of biological signaling pathways. Science, http://www.science.org/doi/abs/10.1126/science.283.5400.381 http://doi.org/10.1126/science.283.5400.381</p>
 
 <p id="BiPoo98">Bi, G., & Poo, M. (1998). Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. The Journal of Neuroscience, 18, 10464-10472. http://www.jneurosci.org/content/18/24/10464</p>
@@ -458,6 +460,8 @@
 
 <p id="Lin92">Lin, L. (1992). Reinforcement learning for robots using neural networks. [phd, Carnegie Mellon University]. ACM Digital Library. </p>
 
+<p id="LindahlKotaleski16">Lindahl, M., & Kotaleski, J.H. (2016). Untangling Basal Ganglia Network Dynamics and Function: Role of Dopamine Depletion and Inhibition Investigated in a Spiking Network Model. eNeuro, 3, https://www.eneuro.org/content/3/6/ENEURO.0156-16.2016 http://doi.org/10.1523/ENEURO.0156-16.2016</p>
+
 <p id="LindroosDorstDuEtAl18">Lindroos, R., Dorst, M.C., Du, K., Filipović, M., Keller, D., Ketzef, M., Kozlov, A.K., Kumar, A., Lindahl, M., Nair, A.G., Pérez-Fernández, J., Grillner, S., Silberberg, G., & Hellgren Kotaleski, J. (2018). Basal ganglia neuromodulation over multiple temporal and structural scales—simulations of direct pathway MSNs investigate the fast onset of dopaminergic effects and predict the role of Kv4.2. Frontiers in Neural Circuits, 12, https://www.frontiersin.org/articles/10.3389/fncir.2018.00003/full http://doi.org/10.3389/fncir.2018.00003</p>
 
 <p id="LinsleyAshokGovindarajanEtAl20">Linsley, D., Ashok, A.K., Govindarajan, L.N., Liu, R., & Serre, T. (2020). Stable and expressive recurrent vision models. arXiv:2005.11362 [cs], http://arxiv.org/abs/2005.11362</p>
@@ -547,6 +551,8 @@
 <p id="Neal93">Neal, R.M. (1993). Probabilistic Inference Using Markov Chain Monte Carlo Methods. </p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
+
+<p id="Nevado-HolgadoMalletMagillEtAl14">Nevado-Holgado, A.J., Mallet, N., Magill, P.J., & Bogacz, R. (2014). Effective connectivity of the subthalamic nucleus–globus pallidus network during Parkinsonian oscillations. The Journal of Physiology, 592, 1429-1455. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.2013.259721 http://doi.org/10.1113/jphysiol.2013.259721</p>
 
 <p id="NewcomerFarberJevtovic-TodorovicEtAl99">Newcomer, J.W., Farber, N.B., Jevtovic-Todorovic, V., Selke, G., Melson, A.K., Hershey, T., Craft, S., & Olney, J.W. (1999). Ketamine-Induced NMDA Receptor Hypofunction as a Model of Memory Impairment and Psychosis. Neuropsychopharmacology, 20, 106-118. https://www.sciencedirect.com/science/article/pii/S0893133X98000670 http://doi.org/10.1016/S0893-133X(98)00067-0</p>
 
