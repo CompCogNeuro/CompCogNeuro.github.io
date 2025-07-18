@@ -52,6 +52,8 @@
 
 <p id="BednarMiikkulainen03">Bednar, J.A., & Miikkulainen, R. (2003). Self-organization of spatiotemporal receptive fields and laterally connected direction and orientation maps. Neurocomputing, 52, 473-480. http://www.sciencedirect.com/science/article/pii/S092523120200735X http://doi.org/10.1016/S0925-2312(02)00735-X</p>
 
+<p id="BeiserHouk98">Beiser, D.G., & Houk, J.C. (1998). Model of cortical-basal ganglionic processing: Encoding the serial order of sensory events. Journal of Neurophysiology, 79, 3168-3188. http://www.ncbi.nlm.nih.gov/pubmed/9636117</p>
+
 <p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
 
 <p id="Bellman57">Bellman, R. (1957). Dynamic Programming. Princeton University Press. </p>
@@ -129,6 +131,8 @@
 <p id="CollingridgeKehlMcLennan83">Collingridge, G.L., Kehl, S.J., & McLennan, H. (1983). Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus. The Journal of physiology, 334, 33-46. http://www.ncbi.nlm.nih.gov/pubmed/6306230</p>
 
 <p id="CollinsFrank13">Collins, A.G.E., & Frank, M.J. (2013). Cognitive control over learning: creating, clustering, and generalizing task-set structure. Psychological Review, 120, 190-229. http://www.ncbi.nlm.nih.gov/pubmed/23356780</p>
+
+<p id="CollinsFrank14">Collins, A.G.E., & Frank, M.J. (2014). Opponent actor learning (OpAL): modeling interactive effects of striatal dopamine on reinforcement learning and choice incentive. Psychological Review, 121, 337–366. http://www.ncbi.nlm.nih.gov/pubmed/25090423</p>
 
 <p id="CookBuonaratiCoultrapEtAl21">Cook, S.G., Buonarati, O.R., Coultrap, S.J., & Bayer, K.U. (2021). CaMKII holoenzyme mechanisms that govern the LTP versus LTD decision. Science Advances, https://www.science.org/doi/abs/10.1126/sciadv.abe2300 http://doi.org/10.1126/sciadv.abe2300</p>
 
@@ -234,6 +238,8 @@
 
 <p id="Frank05">Frank, M.J. (2005). When and when not to use your subthalamic nucleus: Lessons from a computational model of the basal ganglia. In A.K. Seth, T.J. Prescott, & J.J. Bryson (Eds.), Modelling Natural Action Selection: Proceedings of an International Workshop (pp. 53-60). AISB. </p>
 
+<p id="Frank06">Frank, M.J. (2006). Hold your horses: a dynamic computational role for the subthalamic nucleus in decision making. Neural Networks, 19, 1120–1136. http://www.ncbi.nlm.nih.gov/pubmed/16945502</p>
+
 <p id="FrankClaus06">Frank, M.J., & Claus, E.D. (2006). Anatomy of a decision: Striato-orbitofrontal interactions in reinforcement learning, decision making, and reversal. Psychological Review, 113, 300–326. http://www.ncbi.nlm.nih.gov/pubmed/16637763</p>
 
 <p id="FrankLoughryOReilly01">Frank, M.J., Loughry, B., & O'Reilly, R.C. (2001). Interactions between the frontal cortex and basal ganglia in working memory: A computational model. Cognitive, Affective, and Behavioral Neuroscience, 1, 137-160. https://www.ncbi.nlm.nih.gov/pubmed/12467110</p>
@@ -294,7 +300,11 @@
 
 <p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
 
+<p id="GurneyHumphriesRedgrave15">Gurney, K.N., Humphries, M.D., & Redgrave, P. (2015). A new framework for cortico-striatal plasticity: behavioural theory meets in vitro data at the reinforcement-action interface. PLoS Biology, 13, ePub only e1002034. http://www.ncbi.nlm.nih.gov/pubmed/25562526</p>
+
 <p id="GurneyPrescottRedgrave01">Gurney, K., Prescott, T.J., & Redgrave, P. (2001). A computational model of action selection in the basal ganglia. I. A new functional anatomy. Biological Cybernetics, 84, 401–410. http://www.ncbi.nlm.nih.gov/pubmed/11417052</p>
+
+<p id="GurneyPrescottRedgrave04">Gurney, K., Prescott, J.R., & Redgrave, P. (2004). Computational models of the basal ganglia: from robots to membranes. Trends in Neurosciences, 27, 453-459. http://www.ncbi.nlm.nih.gov/pubmed/15271492</p>
 
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
@@ -317,6 +327,8 @@
 <p id="Hebb49">Hebb, D.O. (1949). The Organization of Behavior. Wiley. </p>
 
 <p id="HeckhausenGollwitzer87">Heckhausen, H., & Gollwitzer, P.M. (1987). Thought contents and cognitive functioning in motivational versus volitional states of mind. Motivation and Emotion, 11, 101-120. https://doi.org/10.1007/BF00992338 http://doi.org/10.1007/BF00992338</p>
+
+<p id="HeilbronnerRodriguez-RomagueraQuirkEtAl16">Heilbronner, S.R., Rodriguez-Romaguera, J., Quirk, G.J., Groenewegen, H.J., & Haber, S.N. (2016). Circuit-based corticostriatal homologies between rat and primate. Biological Psychiatry, 80, 509-521. http://www.sciencedirect.com/science/article/pii/S0006322316323885 http://doi.org/10.1016/j.biopsych.2016.05.012</p>
 
 <p id="Helmholtz67">Helmholtz, H. (1867). Treatise on Physiological Optics, Vol III. Courier Corporation. </p>
 
@@ -590,6 +602,8 @@
 
 <p id="OngurPrice00">Öngür, D., & Price, J.L. (2000). The organization of networks within the orbital and medial prefrontal cortex of rats, monkeys and humans. Cerebral Cortex, 10, 206-219. http://www.ncbi.nlm.nih.gov/pubmed/10731217</p>
 
+<p id="Oorschot96">Oorschot, D.E. (1996). Total number of neurons in the neostriatal, pallidal, subthalamic, and substantia nigral nuclei of the rat basal ganglia: a stereological study using the cavalieri and optical disector methods. The Journal of Comparative Neurology, 366, 580-599. http://www.ncbi.nlm.nih.gov/pubmed/8833111</p>
+
 <p id="OswaldNiklassonRandazzoEtAl23">Oswald, J.V., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. In Proceedings of the 40th International Conference on Machine Learning (pp. 35151-35174). PMLR. https://proceedings.mlr.press/v202/von-oswald23a.html</p>
 
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
@@ -599,6 +613,8 @@
 <p id="PateriaSubagdjaTanEtAl21">Pateria, S., Subagdja, B., Tan, A., & Quek, C. (2021). Hierarchical Reinforcement Learning: A Comprehensive Survey. ACM Comput. Surv., 54, 109:1–109:35. https://dl.acm.org/doi/10.1145/3453160 http://doi.org/10.1145/3453160</p>
 
 <p id="PauliHazyOReilly12">Pauli, W.M., Hazy, T.E., & O'Reilly, R.C. (2012). Expectancy, ambiguity, and behavioral flexibility: separable and complementary roles of the orbital frontal cortex and amygdala in processing reward expectancies. Journal of Cognitive Neuroscience, 24, 351-366. http://www.ncbi.nlm.nih.gov/pubmed/22004047</p>
+
+<p id="PauliOReillyYarkoniEtAl16">Pauli, W.M., O’Reilly, R.C., Yarkoni, T., & Wager, T.D. (2016). Regional specialization within the human striatum for diverse psychological functions. Proceedings of the National Academy of Sciences, 113, 1907-1912. http://www.pnas.org/content/113/7/1907 http://doi.org/10.1073/pnas.1507610113</p>
 
 <p id="PezzuloRigoliFriston18">Pezzulo, G., Rigoli, F., & Friston, K.J. (2018). Hierarchical active inference: A theory of motivated control. Trends in Cognitive Sciences, 22, 294-306. http://www.sciencedirect.com/science/article/pii/S1364661318300226 http://doi.org/10.1016/j.tics.2018.01.009</p>
 
