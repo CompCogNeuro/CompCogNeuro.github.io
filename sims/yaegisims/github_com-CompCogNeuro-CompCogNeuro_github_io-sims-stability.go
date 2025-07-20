@@ -11,7 +11,6 @@ func init() {
 	Symbols["github.com/CompCogNeuro/CompCogNeuro.github.io/sims/stability/stability"] = map[string]reflect.Value{
 		// function, constant and variable definitions
 		"Cycle":            reflect.ValueOf(stability.Cycle),
-		"EmbedSim":         reflect.ValueOf(stability.EmbedSim),
 		"Epoch":            reflect.ValueOf(stability.Epoch),
 		"LayByNm":          reflect.ValueOf(stability.LayByNm),
 		"LayNm":            reflect.ValueOf(stability.LayNm),
@@ -20,9 +19,7 @@ func init() {
 		"LevelsValues":     reflect.ValueOf(stability.LevelsValues),
 		"ModesN":           reflect.ValueOf(stability.ModesN),
 		"ModesValues":      reflect.ValueOf(stability.ModesValues),
-		"NewConfig":        reflect.ValueOf(stability.NewConfig),
 		"PathParams":       reflect.ValueOf(&stability.PathParams).Elem(),
-		"RunSim":           reflect.ValueOf(stability.RunSim),
 		"Start":            reflect.ValueOf(stability.Start),
 		"StatsPhaseN":      reflect.ValueOf(stability.StatsPhaseN),
 		"StatsPhaseValues": reflect.ValueOf(stability.StatsPhaseValues),
