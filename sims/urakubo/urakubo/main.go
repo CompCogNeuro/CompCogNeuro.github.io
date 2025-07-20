@@ -5,13 +5,8 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
 	"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/urakubo"
+	"github.com/emer/emergent/v2/egui"
 )
 
-func main() {
-	cfg := urakubo.NewConfig()
-	opts := cli.DefaultOptions(cfg.Name, cfg.Title)
-	opts.DefaultFiles = append(opts.DefaultFiles, "config.toml")
-	cli.Run(opts, cfg, urakubo.RunSim)
-}
+func main() { egui.Run[urakubo.Sim, urakubo.Config]() }
