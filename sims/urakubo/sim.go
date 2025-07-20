@@ -160,7 +160,7 @@ func (ss *Sim) MakeToolbar(p *tree.Plan) {
 	})
 	ss.GUI.AddToolbarItem(p, egui.ToolbarItem{
 		Label:   "Run",
-		Icon:    icons.RunCircle,
+		Icon:    icons.PlayArrow,
 		Tooltip: "Run current Stims.",
 		Active:  egui.ActiveStopped,
 		Func: func() {
