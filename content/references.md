@@ -2,6 +2,8 @@
 
 <p id="AbbottVarelaSenEtAl97">Abbott, L.F., Varela, J.A., Sen, K., & Nelson, S.B. (1997). Synaptic depression and cortical gain control. Science, 275, 220. </p>
 
+<p id="AbdiMalletMohamedEtAl15">Abdi, A., Mallet, N., Mohamed, F.Y., Sharott, A., Dodson, P.D., Nakamura, K.C., Suri, S., Avery, S.V., Larvin, J.T., Garas, F.N., Garas, S.N., Vinciati, F., Morin, S., Bezard, E., Baufreton, J., & Magill, P.J. (2015). Prototypic and arkypallidal neurons in the dopamine-intact external globus pallidus. Journal of Neuroscience, 35, 6667-6688. https://www.jneurosci.org/content/35/17/6667 http://doi.org/10.1523/JNEUROSCI.4662-14.2015</p>
+
 <p id="AckleyHintonSejnowski85">Ackley, D.H., Hinton, G.E., & Sejnowski, T.J. (1985). A learning algorithm for Boltzmann machines. Cognitive Science, 9, 147-169. </p>
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
@@ -9,6 +11,8 @@
 <p id="Aizi23">Aizi, R. (2023). How does GPT-3 spend its 175B parameters? https://www.lesswrong.com/posts/3duR8CrvcHywrnhLo/how-does-gpt-3-spend-its-175b-parameters</p>
 
 <p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
+
+<p id="Albus75">Albus, J.S. (1975). A new approach to manipulator control: the cerebellar model articulation controller (CMAC). Journal of Dynamic Systems, Measurement and Control, Transactions of the ASME, 97, 220–227. </p>
 
 <p id="AlexanderBrown11">Alexander, W.H., & Brown, J.W. (2011). Medial prefrontal cortex as an action-outcome predictor. Nature Neuroscience, 14, 1338-1344. http://www.ncbi.nlm.nih.gov/pubmed/21926982</p>
 
@@ -28,6 +32,8 @@
 
 <p id="Aston-JonesCohen05">Aston-Jones, G., & Cohen, J.D. (2005). An integrative theory of locus coeruleus-norepinephrine function: adaptive gain and optimal performance. Annual Review of Neuroscience, 28, 403-450. http://www.ncbi.nlm.nih.gov/pubmed/16022602</p>
 
+<p id="AtallahMcCoolHoweEtAl14">Atallah, H.E., McCool, A.D., Howe, M.W., & Graybiel, A.M. (2014). Neurons in the ventral striatum exhibit cell-type specific representations of outcome during learning. Neuron, </p>
+
 <p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
 
 <p id="BaldiHornik89">Baldi, P., & Hornik, K. (1989). Neural networks and principlal components analysis: Learning from examples without local minima. Neural Networks, 2, 53-58. </p>
@@ -37,6 +43,10 @@
 <p id="BarKassamGhumanEtAl06">Bar, M., Kassam, K., Ghuman, A., Boshyan, J., & Schmidt, A. (2006). Top-down facilitation of visual recognition. Proceedings of the National Academy of Sciences, 103, 449–454. http://www.pnas.org/cgi/content/abstract/103/2/449</p>
 
 <p id="Barlow61">Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. Sensory Communication, 217-234. https://cir.nii.ac.jp/crid/1570291225093500032</p>
+
+<p id="BarterLiSukharnikovaEtAl15">Barter, J.W., Li, S., Sukharnikova, T., Rossi, M.A., Bartholomew, R.A., & Yin, H.H. (2015). Basal Ganglia Outputs Map Instantaneous Position Coordinates during Behavior. Journal of Neuroscience, 35, 2703-2716. https://www.jneurosci.org/content/35/6/2703 http://doi.org/10.1523/JNEUROSCI.3245-14.2015</p>
+
+<p id="Barto95">Barto, A.G. (1995). Adaptive Critics and the Basal Ganglia. In J.C. Houk, J.L. Davis, & D.G. Beiser (Eds.), Models of Information Processing in the Basal Ganglia (pp. 215-232). MIT Press. </p>
 
 <p id="BartoMahadevan03">Barto, A.G., & Mahadevan, S. (2003). Recent Advances in Hierarchical Reinforcement Learning. Discrete Event Dynamic Systems, 13, 341-379. https://link.springer.com/article/10.1023/A:1025696116075 http://doi.org/10.1023/A:1025696116075</p>
 
@@ -51,8 +61,6 @@
 <p id="Bednar12">Bednar, J.A. (2012). Building a mechanistic model of the development and function of the primary visual cortex. Journal of physiology, Paris, 106, http://www.ncbi.nlm.nih.gov/pubmed/22343520</p>
 
 <p id="BednarMiikkulainen03">Bednar, J.A., & Miikkulainen, R. (2003). Self-organization of spatiotemporal receptive fields and laterally connected direction and orientation maps. Neurocomputing, 52, 473-480. http://www.sciencedirect.com/science/article/pii/S092523120200735X http://doi.org/10.1016/S0925-2312(02)00735-X</p>
-
-<p id="BeiserHouk98">Beiser, D.G., & Houk, J.C. (1998). Model of cortical-basal ganglionic processing: Encoding the serial order of sensory events. Journal of Neurophysiology, 79, 3168-3188. http://www.ncbi.nlm.nih.gov/pubmed/9636117</p>
 
 <p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
 
@@ -78,6 +86,12 @@
 
 <p id="BlissLomo73">Bliss, T.V., & Lomo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. The Journal of physiology, 232, 331-356. http://www.ncbi.nlm.nih.gov/pubmed/4727084</p>
 
+<p id="BogaczBrownMoehlisEtAl06">Bogacz, R., Brown, E., Moehlis, J., Holmes, P., & Cohen, J.D. (2006). The physics of optimal decision making: a formal analysis of models of performance in two-alternative forced-choice tasks. Psychological Review, 113, 700–765. http://www.ncbi.nlm.nih.gov/pubmed/17014301</p>
+
+<p id="BogaczGurney07">Bogacz, R., & Gurney, K. (2007). The basal ganglia and cortex implement optimal decision making between alternative actions. Neural Computation, 19, 442–477. http://www.ncbi.nlm.nih.gov/pubmed/17206871</p>
+
+<p id="BogaczMoraudAbdiEtAl16">Bogacz, R., Moraud, E.M., Abdi, A., Magill, P.J., & Baufreton, J. (2016). Properties of Neurons in External Globus Pallidus Can Support Optimal Action Selection. PLOS Computational Biology, 12, e1005004. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005004 http://doi.org/10.1371/journal.pcbi.1005004</p>
+
 <p id="Borst10">Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends in Neurosciences, 33, 259-266. http://www.sciencedirect.com/science/article/pii/S0166223610000457 http://doi.org/10.1016/j.tins.2010.03.003</p>
 
 <p id="BoschCastroSaneyoshiEtAl14">Bosch, M., Castro, J., Saneyoshi, T., Matsuno, H., Sur, M., & Hayashi, Y. (2014). Structural and Molecular Remodeling of Dendritic Spine Substructures during Long-Term Potentiation. Neuron, 82, 444-459. https://www.cell.com/neuron/abstract/S0896-6273(14)00251-7 http://doi.org/10.1016/j.neuron.2014.03.021</p>
@@ -92,11 +106,15 @@
 
 <p id="Brooks86">Brooks, R. (1986). A robust layered control system for a mobile robot. IEEE Journal on Robotics and Automation, 2, 14-23.  http://doi.org/10.1109/JRA.1986.1087032</p>
 
+<p id="BrownBullockGrossberg04">Brown, J.W., Bullock, D., & Grossberg, S. (2004). How laminar frontal cortex and basal ganglia circuits interact to control planned and reactive saccades. Neural Networks, 17, 471-510. http://www.ncbi.nlm.nih.gov/pubmed/15109680</p>
+
 <p id="BrunelWang01">Brunel, N., & Wang, X.J. (2001). Effects of neuromodulation in a cortical network model of object working memory dominated by recurrent inhibition. Journal of Computational Neuroscience, 11, 63-85. http://www.ncbi.nlm.nih.gov/pubmed/11524578</p>
 
 <p id="BuchholzGuilabertEhretEtAl23">Buchholz, M.O., Guilabert, A.G., Ehret, B., & Schuhknecht, G.F.P. (2023). How synaptic strength, short-term plasticity, and input synchrony contribute to neuronal spike output. PLOS Computational Biology, 19, e1011046. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011046 http://doi.org/10.1371/journal.pcbi.1011046</p>
 
 <p id="BuffaloFriesLandmanEtAl11">Buffalo, E.A., Fries, P., Landman, R., Buschman, T.J., & Desimone, R. (2011). Laminar differences in gamma and alpha coherence in the ventral stream. Proceedings of the National Academy of Sciences of the United States of America, 108, 11262–11267. http://www.ncbi.nlm.nih.gov/pubmed/21690410</p>
+
+<p id="BuonomanoMauk94">Buonomano, D.V., & Mauk, M.D. (1994). Neural network model of the cerebellum: Temporal discrimination and the timing of motor responses. Neural Computation, 6, 38-55. </p>
 
 <p id="CainSnutch12">Cain, S.M., & Snutch, T.P. (2012). Voltage-Gated Calcium Channels in Epilepsy. In J.L. Noebels, M. Avoli, M.A. Rogawski, R.W. Olsen, & A.V. Delgado-Escueta (Eds.), Jasper's Basic Mechanisms of the Epilepsies (4th ed.). National Center for Biotechnology Information (US) http://www.ncbi.nlm.nih.gov/books/NBK98147/</p>
 
@@ -182,6 +200,10 @@
 
 <p id="DiehlCook15">Diehl, P.U., & Cook, M. (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience, 9, https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full http://doi.org/10.3389/fncom.2015.00099</p>
 
+<p id="DingGold13">Ding, L., & Gold, J.I. (2013). The basal ganglia’s contributions to perceptual decision making. Neuron, 79, 640-649. https://www.cell.com/neuron/abstract/S0896-6273(13)00666-1 http://doi.org/10.1016/j.neuron.2013.07.042</p>
+
+<p id="DodsonLarvinDuffellEtAl15">Dodson, P.D., Larvin, J.T., Duffell, J.M., Garas, F.N., Doig, N.M., Kessaris, N., Duguid, I.C., Bogacz, R., Butt, S.J.B., & Magill, P.J. (2015). Distinct developmental origins manifest in the specialized encoding of movement by adult neurons of the external globus pallidus. Neuron, 86, 501-513. http://www.sciencedirect.com/science/article/pii/S0896627315002032 http://doi.org/10.1016/j.neuron.2015.03.007</p>
+
 <p id="DoiFanGoldEtAl20">Doi, T., Fan, Y., Gold, J.I., & Ding, L. (2020). The caudate nucleus contributes causally to decisions that balance reward and uncertain visual information. eLife, 9, e56694. https://elifesciences.org/articles/56694 http://doi.org/10.7554/eLife.56694</p>
 
 <p id="DoiKurodaMichikawaEtAl05">Doi, T., Kuroda, S., Michikawa, T., & Kawato, M. (2005). Inositol 1,4,5-trisphosphate-dependent Ca2+ threshold dynamics detect spike timing in cerebellar purkinje cells. Journal of Neuroscience, 25, 950-961. https://www.jneurosci.org/content/25/4/950 http://doi.org/10.1523/JNEUROSCI.2727-04.2005</p>
@@ -246,6 +268,8 @@
 
 <p id="FrankLoughryOReilly01">Frank, M.J., Loughry, B., & O'Reilly, R.C. (2001). Interactions between the frontal cortex and basal ganglia in working memory: A computational model. Cognitive, Affective, and Behavioral Neuroscience, 1, 137-160. https://www.ncbi.nlm.nih.gov/pubmed/12467110</p>
 
+<p id="FreezeKravitzHammackEtAl13">Freeze, B.S., Kravitz, A.V., Hammack, N., Berke, J.D., & Kreitzer, A.C. (2013). Control of Basal Ganglia Output by Direct and Indirect Pathway Projection Neurons. Journal of Neuroscience, 33, 18531-18539. https://www.jneurosci.org/content/33/47/18531 http://doi.org/10.1523/JNEUROSCI.1278-13.2013</p>
+
 <p id="Friston05">Friston, K. (2005). A theory of cortical responses. Philosophical Transactions of the Royal Society B, 360, 815–836. http://www.ncbi.nlm.nih.gov/pubmed/15937014</p>
 
 <p id="FroemkeDan02">Froemke, R.C., & Dan, Y. (2002). Spike-timing-dependent synaptic modification induced by natural spike trains. Nature, 416, 433-437. http://www.ncbi.nlm.nih.gov/pubmed/11919633</p>
@@ -278,6 +302,8 @@
 
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
 
+<p id="GoldShadlen02">Gold, J.I., & Shadlen, M.N. (2002). Banburismus and the brain: decoding the relationship between sensory stimuli, decisions, and reward. Neuron, 36, 299-308. http://www.ncbi.nlm.nih.gov/pubmed/12383783</p>
+
 <p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
 
 <p id="Gollwitzer12">Gollwitzer, P.M. (2012). Mindset theory of action phases. In Handbook of theories of social psychology, Vol. 1 (pp. 526-545). Sage Publications Ltd.  http://doi.org/10.4135/9781446249215.n26</p>
@@ -300,13 +326,15 @@
 
 <p id="GuilhemsangMallet24">Guilhemsang, L., & Mallet, N.P. (2024). Arkypallidal neurons in basal ganglia circuits: Unveiling novel pallidostriatal loops? Current Opinion in Neurobiology, 84, 102814. https://www.sciencedirect.com/science/article/pii/S0959438823001393 http://doi.org/10.1016/j.conb.2023.102814</p>
 
+<p id="GulleyKuwajimaMayhillEtAl99">Gulley, J.M., Kuwajima, M., Mayhill, E., & Rebec, G.V. (1999). Behavior-related changes in the activity of substantia nigra pars reticulata neurons in freely moving rats. Brain Research, 845, 68-76. https://www.sciencedirect.com/science/article/pii/S0006899399019320 http://doi.org/10.1016/S0006-8993(99)01932-0</p>
+
 <p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
 
 <p id="GurneyHumphriesRedgrave15">Gurney, K.N., Humphries, M.D., & Redgrave, P. (2015). A new framework for cortico-striatal plasticity: behavioural theory meets in vitro data at the reinforcement-action interface. PLoS Biology, 13, ePub only e1002034. http://www.ncbi.nlm.nih.gov/pubmed/25562526</p>
 
 <p id="GurneyPrescottRedgrave01">Gurney, K., Prescott, T.J., & Redgrave, P. (2001). A computational model of action selection in the basal ganglia. I. A new functional anatomy. Biological Cybernetics, 84, 401–410. http://www.ncbi.nlm.nih.gov/pubmed/11417052</p>
 
-<p id="GurneyPrescottRedgrave04">Gurney, K., Prescott, J.R., & Redgrave, P. (2004). Computational models of the basal ganglia: from robots to membranes. Trends in Neurosciences, 27, 453-459. http://www.ncbi.nlm.nih.gov/pubmed/15271492</p>
+<p id="GurneyPrescottRedgrave01a">Gurney, K., Prescott, T.J., & Redgrave, P. (2001). A computational model of action selection in the basal ganglia II. Analysis and simulation of behaviour. Biological Cybernetics, 84, 411–424. http://www.ncbi.nlm.nih.gov/pubmed/11417053</p>
 
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
@@ -362,6 +390,8 @@
 
 <p id="HopfieldTank85">Hopfield, J.J., & Tank, D.W. (1985). {`Neural'} computation of decisions in optimization problems. Biological Cybernetics, 52, 141-152. http://www.ncbi.nlm.nih.gov/pubmed/4027280</p>
 
+<p id="HoukAdamsBarto95">Houk, J.C., Adams, J.L., & Barto, A.G. (1995). A model of how the basal ganglia generate and use neural signals that predict reinforcement. In J.C. Houk, J.L. Davis, & D.G. Beiser (Eds.), Models of Information Processing in the Basal Ganglia (pp. 233-248). MIT Press. </p>
+
 <p id="HowardLiGeddesEtAl17">Howard, C.D., Li, H., Geddes, C.E., & Jin, X. (2017). Dynamic nigrostriatal dopamine biases action selection. Neuron, 93, 1436-1450.e8. https://www.sciencedirect.com/science/article/pii/S089662731730137X http://doi.org/10.1016/j.neuron.2017.02.029</p>
 
 <p id="HoyFarrow25">Hoy, J.L., & Farrow, K. (2025). The superior colliculus. Current Biology, 35, R164-R168. https://www.cell.com/current-biology/abstract/S0960-9822(25)00052-1 http://doi.org/10.1016/j.cub.2025.01.022</p>
@@ -372,6 +402,8 @@
 
 <p id="Hull43">Hull, C.L. (1943). Principles of Behavior. Appleton. </p>
 
+<p id="HumphriesGurney21">Humphries, M.D., & Gurney, K. (2021). Making decisions in the dark basement of the brain: A look back at the GPR model of action selection and the basal ganglia. Biological Cybernetics, 115, 323-329. https://doi.org/10.1007/s00422-021-00887-5 http://doi.org/10.1007/s00422-021-00887-5</p>
+
 <p id="HuntMalalasekeraBerkerEtAl17">Hunt, L.T., Malalasekera, W.M.N., Berker, A.O., Miranda, B., Farmer, S.F., Behrens, T.E.J., & Kennerley, S.W. (2017). Triple dissociation of attention and decision computations across prefrontal cortex. bioRxiv, 171173. https://www.biorxiv.org/content/early/2017/08/01/171173 http://doi.org/10.1101/171173</p>
 
 <p id="Hyvarinen13">Hyvärinen, A. (2013). Independent component analysis: recent advances. Philosophical transactions. Series A, Mathematical, physical, and engineering sciences, 371, 20110534. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538438/ http://doi.org/10.1098/rsta.2011.0534</p>
@@ -379,6 +411,8 @@
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
 <p id="IsaacsonScanziani11">Isaacson, J.S., & Scanziani, M. (2011). How inhibition shapes cortical activity. Neuron, 72, 231-243. https://www.sciencedirect.com/science/article/pii/S0896627311008798 http://doi.org/10.1016/j.neuron.2011.09.027</p>
+
+<p id="Ito98">Ito, M. (1998). The cerebellum: from structure to control. Trends in cognitive sciences, 2, http://www.ncbi.nlm.nih.gov/pubmed/21227234</p>
 
 <p id="JahrStevens90">Jahr, C.E., & Stevens, C.F. (1990). A quantitative description of NMDA receptor-channel kinetic behavior. Journal of Neuroscience, 10, 1830-1837. http://www.jneurosci.org/content/10/6/1830 http://doi.org/10.1523/JNEUROSCI.10-06-01830.1990</p>
 
@@ -428,6 +462,8 @@
 
 <p id="KramerMcLaughlin01">Kramer, D.L., & McLaughlin, R.L. (2001). The Behavioral Ecology of Intermittent Locomotion1. American Zoologist, 41, 137-153. https://doi.org/10.1093/icb/41.2.137 http://doi.org/10.1093/icb/41.2.137</p>
 
+<p id="KravitzFreezeParkerEtAl10">Kravitz, A., Freeze, B., Parker, P., Kay, K., Thwin, M., Deisseroth, K., & Kreitzer, A. (2010). Regulation of {P}arkinsonian motor behaviours by optogenetic control of basal ganglia circuitry. Nature, 466, 622–626. http://www.nature.com/nature/journal/vaop/ncurrent/full/nature09159.html</p>
+
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
 <p id="KrotovHopfield21">Krotov, D., & Hopfield, J. (2021). Large Associative Memory Problem in Neurobiology and Machine Learning. http://arxiv.org/abs/2008.06996 http://doi.org/10.48550/arXiv.2008.06996</p>
@@ -437,6 +473,8 @@
 <p id="KurodaSchweighoferKawato01">Kuroda, S., Schweighofer, N., & Kawato, M. (2001). Exploration of signal transduction pathways in cerebellar long-term depression by kinetic simulation. Journal of Neuroscience, 21, 5693-5702. https://www.jneurosci.org/content/21/15/5693 http://doi.org/10.1523/JNEUROSCI.21-15-05693.2001</p>
 
 <p id="LakeBaroni17">Lake, B.M., & Baroni, M. (2017). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. arXiv:1711.00350 [cs], http://arxiv.org/abs/1711.00350</p>
+
+<p id="Laming68">Laming, D.R.J. (1968). Information theory of choice reaction times. Academic Press. </p>
 
 <p id="Lamme06">Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. Trends in Cognitive Sciences, 10, 494-501. http://www.cell.com/article/S1364661306002373/abstract http://doi.org/10.1016/j.tics.2006.09.001</p>
 
@@ -506,11 +544,15 @@
 
 <p id="McKeeCrandellChaudhuriEtAl22">McKee, K., Crandell, I., Chaudhuri, R., & O'Reilly, R. (2022). Adaptive Synaptic Failure Enables Sampling from Posterior Predictive Distributions in the Brain. http://arxiv.org/abs/2210.01691 http://doi.org/10.48550/arXiv.2210.01691</p>
 
+<p id="MengZhouPapaneriEtAl18">Meng, C., Zhou, J., Papaneri, A., Peddada, T., Xu, K., & Cui, G. (2018). Spectrally Resolved Fiber Photometry for Multi-component Analysis of Brain Circuits. Neuron, 98, 707-717.e4. https://www.cell.com/neuron/abstract/S0896-6273(18)30296-4 http://doi.org/10.1016/j.neuron.2018.04.012</p>
+
 <p id="MiglioreHoffmanMageeEtAl99">Migliore, M., Hoffman, D., Magee, J., & Johnston, D. (1999). Role of an A-Type K+ Conductance in the Back-Propagation of Action Potentials in the Dendrites of Hippocampal Pyramidal Neurons. Journal of Computational Neuroscience, 7, 5-15. https://doi.org/10.1023/A:1008906225285 http://doi.org/10.1023/A:1008906225285</p>
 
 <p id="MillerCohen01">Miller, E.K., & Cohen, J.D. (2001). An integrative theory of prefrontal cortex function. Annual Review of Neuroscience, 24, 167-202. http://www.ncbi.nlm.nih.gov/pubmed/11283309</p>
 
 <p id="MilsteinLiBittnerEtAl21">Milstein, A.D., Li, Y., Bittner, K.C., Grienberger, C., Soltesz, I., Magee, J.C., & Romani, S. (2021). Bidirectional synaptic plasticity rapidly modifies hippocampal representations. eLife, 10, e73046. https://doi.org/10.7554/eLife.73046 http://doi.org/10.7554/eLife.73046</p>
+
+<p id="Mink96">Mink, J.W. (1996). The basal ganglia: Focused selection and inhibition of competing motor programs. Progress in Neurobiology, 50, 381-425. http://www.ncbi.nlm.nih.gov/pubmed/9004351</p>
 
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
 
@@ -652,7 +694,13 @@
 
 <p id="RaoBallard99">Rao, R.P., & Ballard, D.H. (1999). Predictive coding in the visual cortex: A functional interpretation of some extra-classical receptive-field effects. Nature Neuroscience, 2, 79-87. http://www.ncbi.nlm.nih.gov/pubmed/10195184 http://doi.org/10.1038/4580</p>
 
+<p id="Ratcliff78">Ratcliff, R. (1978). A theory of memory retrieval. Psychological Review, 85, 59-107. </p>
+
+<p id="RatcliffRouder98">Ratcliff, R., & Rouder, J.N. (1998). Modeling response times for two-choice decisions. Psychological Science, 9, 347. </p>
+
 <p id="Reber67">Reber, A.S. (1967). Implicit Learning of Artificial Grammars. Journal of Verbal Learning and Verbal Behavior, 6, 855-863. </p>
+
+<p id="RedgravePrescottGurney99">Redgrave, P., Prescott, T.J., & Gurney, K. (1999). Is the short-latency dopamine response too short to signal reward error? Trends in neurosciences, 22, 146-151. http://www.ncbi.nlm.nih.gov/pubmed/10203849</p>
 
 <p id="RedondoMorris11">Redondo, R.L., & Morris, R.G.M. (2011). Making memories last: the synaptic tagging and capture hypothesis. Nature Reviews Neuroscience, 12, 17-30. http://www.nature.com/nrn/journal/v12/n1/abs/nrn2963.html http://doi.org/10.1038/nrn2963</p>
 
@@ -724,6 +772,8 @@
 
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
 
+<p id="ShadlenNewsome01">Shadlen, M.N., & Newsome, W.T. (2001). Neural Basis of a Perceptual Decision in the Parietal Cortex (Area LIP) of the Rhesus Monkey. Journal of Neurophysiology, 86, 1916-1936. https://journals.physiology.org/doi/full/10.1152/jn.2001.86.4.1916 http://doi.org/10.1152/jn.2001.86.4.1916</p>
+
 <p id="ShadlenNewsome94">Shadlen, M.N., & Newsome, W.T. (1994). Noise, neural codes and cortical organization. Current opinion in neurobiology, 4, 569-579. http://www.ncbi.nlm.nih.gov/pubmed/7812147</p>
 
 <p id="ShadlenNewsome98">Shadlen, M.N., & Newsome, W.T. (1998). The variable discharge of cortical neurons: implications for connectivity, computation, and information coding. The Journal of neuroscience : the official journal of the Society for Neuroscience, 18, 3870. http://www.ncbi.nlm.nih.gov/pubmed/9570816</p>
@@ -758,9 +808,13 @@
 
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
 
+<p id="Stone60">Stone, M. (1960). Models for Choice-Reaction Time. Psychometrika, 25, 251-260. https://www.cambridge.org/core/journals/psychometrika/article/abs/models-for-choicereaction-time/4BA8E902DBAD412CCF9B193F80FECF0E http://doi.org/10.1007/BF02289729</p>
+
 <p id="SummerfieldLuyckxSheahan20">Summerfield, C., Luyckx, F., & Sheahan, H. (2020). Structure learning and the posterior parietal cortex. Progress in Neurobiology, 184, 101717. http://www.sciencedirect.com/science/article/pii/S0301008219303351 http://doi.org/10.1016/j.pneurobio.2019.101717</p>
 
 <p id="SummerfielddeLange14">Summerfield, C., & Lange, F.P. (2014). Expectation in perceptual decision making: neural and computational mechanisms. Nature Reviews Neuroscience, 15, 745-756. https://www.nature.com/nrn/journal/v15/n11/full/nrn3838.html http://doi.org/10.1038/nrn3838</p>
+
+<p id="SuryanarayanaHellgrenKotaleskiGrillnerEtAl19">Suryanarayana, S.M., Hellgren Kotaleski, J., Grillner, S., & Gurney, K.N. (2019). Roles for globus pallidus externa revealed in a computational model of action selection in the basal ganglia. Neural Networks, 109, 113-136. http://www.sciencedirect.com/science/article/pii/S0893608018302880 http://doi.org/10.1016/j.neunet.2018.10.003</p>
 
 <p id="Sutton88">Sutton, R.S. (1988). Learning to Predict by the Method of Temporal Differences. Machine Learning, 3, 9-44. </p>
 
@@ -832,6 +886,10 @@
 
 <p id="VidalBrunaGiryesEtAl17">Vidal, R., Bruna, J., Giryes, R., & Soatto, S. (2017). Mathematics of Deep Learning. http://arxiv.org/abs/1712.04741 http://doi.org/10.48550/arXiv.1712.04741</p>
 
+<p id="Wald47">Wald, A. (1947). Sequential analysis. John Wiley. </p>
+
+<p id="WaldWolfowitz48">Wald, A., & Wolfowitz, J. (1948). Optimum Character of the Sequential Probability Ratio Test. The Annals of Mathematical Statistics, 19, 326-339. https://www.jstor.org/stable/2235638</p>
+
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
 <p id="WarstadtBowman22">Warstadt, A., & Bowman, S.R. (2022). What Artificial Neural Networks Can Tell Us about Human Language Acquisition. In Algebraic Structures in Natural Language. CRC Press. </p>
@@ -865,6 +923,8 @@
 <p id="YartsevHanksYoonEtAl18">Yartsev, M.M., Hanks, T.D., Yoon, A.M., & Brody, C.D. (2018). Causal contribution and dynamical encoding in the striatum during evidence accumulation. eLife, 7, e34929. https://doi.org/10.7554/eLife.34929 http://doi.org/10.7554/eLife.34929</p>
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
+
+<p id="YttriDudman16">Yttri, E.A., & Dudman, J.T. (2016). Opponent and bidirectional control of movement velocity in the basal ganglia. Nature, 533(7603), 402-406. http://www.nature.com/articles/nature17639 http://doi.org/10.1038/nature17639</p>
 
 <p id="YttriDudman18">Yttri, E.A., & Dudman, J.T. (2018). A Proposed Circuit Computation in Basal Ganglia: History‐Dependent Gain. Movement Disorders, 33, 704-716. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001446/ http://doi.org/10.1002/mds.27321</p>
 
