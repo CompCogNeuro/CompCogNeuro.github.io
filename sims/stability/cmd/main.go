@@ -5,13 +5,8 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
 	"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/stability"
+	"github.com/emer/emergent/v2/egui"
 )
 
-func main() {
-	cfg := stability.NewConfig()
-	opts := cli.DefaultOptions(cfg.Name, cfg.Title)
-	opts.DefaultFiles = append(opts.DefaultFiles, "config.toml")
-	cli.Run(opts, cfg, stability.RunSim)
-}
+func main() { egui.Run[stability.Sim, stability.Config]() }
