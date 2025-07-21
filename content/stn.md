@@ -5,7 +5,7 @@ Name = "STN"
 bibfile = "ccnlab.json"
 +++
 
-The **subthalamic nucleus** (STN) is a part of the [[basal ganglia]] circuit, which receives direct input from the [[neocortex]], and is bidirectionally connected with the globus pallidus externus (GPe) and projects excitation to the output nuclei (SNr, GPi). In the PCore model, the STN is responsible for driving an initial brake on BG disinhibition by exciting these output nuclei, and then it receives a rebound inhibitory signal from the GPePr (prototypical GPe) neurons, which establishes a long-lasting pause in activity that opens up a brief time window for the BG to perform its decision-making function.
+The **subthalamic nucleus** (STN) is a part of the [[basal ganglia]] circuit, which receives direct input from the [[neocortex]], and is bidirectionally connected with the globus pallidus externus (GPe) and projects excitation to the output nuclei (SNr, GPi). In the PCore model, the STN is responsible for driving an initial brake on BG disinhibition by exciting these output nuclei, and then it receives a rebound inhibitory signal from the GPePr (prototypical GPe) neurons, which establishes a long-lasting pause in activity that opens up a brief time window for the BG to perform its decision-making function. This provides a mechanism behind the phasic firing of BG neurons.
 
 This page provides a more detailed discussion of neural data on the STN to better understand its functionality, given that it plays such a critical and somewhat controversial role in the circuit.
 
@@ -20,10 +20,8 @@ As reviewed in [[basal ganglia]], much of the available data on BG firing is con
 
 Furthermore, direct recordings of neural activity in the STN clearly demonstrate the pausing behavior, as shown in [[#figure_fujimoto-kita93]] and [[#figure_magill04]] from [[@^FujimotoKita93]] and [[@^MagillSharottBevanEtAl04]] respectively. There is a roughly 150 ms window during which the STN neurons experience sustained inhibition after the initial bursts.
 
-The cause of this inhibition is attributed to.. [[@OtsukaAbeTsukagawaEtAl04]] has detailed model.
+The cause of this inhibition was unknown to the authors of the above papers, but there is some evidence from further electrophysiological studies and computational models that it could be based on inactivation of Na+ channels due to a high sustained plateau potential ([[@KassMintz06]]; [[@BeurrierBioulacAudinEtAl01]])
 
 ## Hold-your-horses vs pause models
 
-TODO, discuss here.
-
-
+TODO, discuss here..
