@@ -284,19 +284,14 @@ The $\rm{PF}_0$ factor is a low baseline level (0.005) to allow slow learning in
 <!--- * also see about using it to drive striasome-like effect -- basically same thing right?? -->
 <!--- * play with bgdorsal params for this -->
 
+## Striosomes, VS patch, VP, etc
+
+
 ## Summary
 
-TODO: action selection happens in planning -- goal selection phase -- must be serial to avoid binding problems- after that it is dynamic constraint satisfaction as real-time action shaping unfolds.
+Befitting its role at the heart of the brain, with its fingers on every major button, the basal ganglia is a complex system with many moving parts, and a considerable degree of functional specialization across different areas, from ventromedial to dorsolateral. Nevertheless, each of these different areas shares the same core circuit, and we have found that the same PCore model performs well for the different computational functions associated with these different areas.
 
+As illustrated by the characteristic response properties of neurons in the ventromedial striatum (VMS) ([[#figure_vs-maze]]), this area of the BG circuit is critical for the goal selection process (as described by the [[Rubicon]] model) and for processing the subsequent outcome of the goal-engaged episode. Interestingly, this goal-selection process performs much of the work involved in action selection, in a proactive manner, so that the motor-related processing in the DLS can focus on a more dynamic, online modulation of moment-by-moment action execution within the context of a larger plan.
 
-OLD summary:
-
-* Different areas of BG with distinct functional roles, e.g., dorsolateral areas for motor control, vs medial and ventral areas for goal selection, have some different patterns of connectivity and neural dynamics. The result is that dorsolateral areas can play a more online control function, while ventral and medial areas can drive a more phasic goal selection process that leads to the initiation of actions. In other words, the initiation deficit associated with Parkinson's disease may be a reflection of dysfunctional goal selection in ventral and medial areas, rather than an action selection deficit in dorsolateral motor areas.
-
-* Different ascending vs. descending output pathways (motor vs. thalamocortical) likewise have different connectivity and functionality, with descending pathways having more focal projections to different brainstem motor areas, while ascending pathways through the thalamus have broader connectivity that is suggestive of a more modulatory role. Thus, even the dorsolateral motor areas may _simultaneously_ play two different roles through these two different output pathways. The broader ascending projections may be more similar to the role of an orchestra conductor, providing a more global timing and coordination function, while the descending projections provide a more detailed bidirectional sculpting of ongoing motor outputs.
-
-* Different species have different balances of BG vs. cortical influence on motor control, with primates and humans having a much stronger degree of cortical influence over motor control, while rodents and other species with less cortical development are more driven by the BG. Thus, it is important to be careful in interpreting the results of the many studies conducted in rodents in relation to how the human brain functions.
-
-
-## Striosomes, VS patch, VP, etc
+There is also evidence that different species have different balances of BG vs. cortical influence on motor control, with primates and humans having a much stronger degree of cortical influence over motor control, while rodents and other species with less cortical development are more driven by the BG. Thus, the impact of the BG on [[prefrontal cortex]] is likely to be more important for primates, and that page is strongly recommended to get a more complete picture of the broader BG / PFC system.
 
