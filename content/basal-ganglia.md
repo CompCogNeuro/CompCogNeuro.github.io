@@ -77,9 +77,12 @@ This conception of motor control converges with the conclusions of numerous stud
 
 In addition, one of the considerations that has led to the more serial, discrete conception of BG function is the extreme funnel-like compression of the neural signal as it flows through the network, with only roughly 30k neurons in each hemisphere in the output nuclei (SNr and GPi), versus about 2.8 million in the striatal inputs ([[@Oorschot96]]). However, 30k is still a large number compared with the number of distinct muscles (roughly 600 in the human and a similar order of magnitude in the rat), although this 30k number includes all of the different pathways through the BG, so the motor control portion may be more like 10k or so. It is clear from anatomical studies that different pathways from the BG output project to different motor control centers in the midbrain, consistent with a parallel modulation of the descending motor system ([[@ArberCosta22]]).
 
-<!--- TODO: add link, burb -->
+As we review in detail below, recordings of the activity of neurons in the BG output pathways would seem to provide a more definitive understanding of what it is contributing to motor control, relative to the strong focus in the field on properties of the striatal input neurons. The relatively few such studies of SNr and GPi neurons clearly support the parallel, bidirectional modulation model ([[@BarterLiSukharnikovaEtAl15]]; [[@FreezeKravitzHammackEtAl13]]; [[@GulleyKuwajimaMayhillEtAl99]]), with individual neurons having graded activity strongly associated with distinct motor pathways and positions of the muscles in those pathways. 
 
-As we review in detail below, recordings of the activity of neurons in the BG output pathways would seem to provide a more definitive understanding of what it is contributing to motor control, relative to the strong focus in the field on properties of the striatal input neurons. The relatively few such studies of SNr and GPi neurons clearly support the parallel, bidirectional modulation model ([[@BarterLiSukharnikovaEtAl15]]; [[@FreezeKravitzHammackEtAl13]]; [[@GulleyKuwajimaMayhillEtAl99]]).  Brief blurb.
+{id="figure_bg-loops" style="height:40em"}
+![Parallel loops through the BG circuit in the mouse, supporting a highly parallel search process for learning to control the motor and other brain areas interconnected with the BG. The SNr output integrates related striatal signals, presumably around specific motor effectors (muscle groups), with their data showing strong convergence from direct and indirect pathways onto the same SNr neurons. The parafasicular nuclei (PF, part of the intralaminar thalamus) provides an important credit assignment feedback signal to the striatum in the PCore model. From Foster et al., 2021.](media/fig_bg_loops_foster_etal_21.png)
+
+Furthermore, detailed anatomical pathway tracing through all of the circuits of the BG, and into and out of the cortex ([[#figure_bg-loops]]; [[@FosterBarryKorobkovaEtAl21]]), shows a remarkably topographic set of parallel loops through the BG, consistent with broader earlier reports ([[@AlexanderDeLongStrick86]]; [[@Haber03]]). The SNr output integrates related higher-dimensional striatal inputs to produce a continuously-valued, motor-specific signal reflecting the individual "votes" across all of these related neurons.
 
 Computationally, this parallel, graded modulation of action is much more efficient from a learning and [[search]] perspective than a serial, discrete selection process: incremental graded changes in modulation can be explored in parallel to optimize overall behavior, whereas a strictly discrete, serial process suffers from the [[curse of dimensionality]] as the space of actions and situations grows.
 
@@ -241,16 +244,18 @@ With the above understanding of the functional role and dynamics of the BG circu
 
 As is evident in the neural activity data from VMS neurons shown in [[#figure_vs-maze]], there is a significant temporal gap between the initial goal-selection decision to engage in the task and activate the overall plan required to succeed, and the time when the reward outcome occurs. As discussed further in the [[PVLV]] model, learning must bridge this gap, so that the outcome can properly shape the goal-selection decision next time around. This [[credit assignment#temporal credit assignment]] problem is solved by way of a synaptic tag signal that is encoded at each synapse at the time of goal-selection gating, and is then modulated by the dopamine signal at the time of the outcome to drive the actual weight change. In this way, the tag functions as an eligibility trace, which has also been used in the TD learning rule ([[reinforcement learning]]).
 
+<!--- TODO: rename axon code to use VMS and DLS consistently, instead of VS and DS -->
+
 The trace / tag component of the learning is:
 
-{id="eq_vs-tr" title="Trace"}
+{id="eq_vms-tr" title="VMS Trace"}
 $$
-Tr = \rm{ACh} \left[ x (y^+ - y^-) + 0.6 x y^+ \right]
+Tr = \rm{ACh} \left[ x (y^+ - y^-) + \gamma x y^+ \right]
 $$
 
-which combines a simple delta rule error term defined over the minus vs. plus phase receiving activations (see [[GeneRec]] and [[kinase algorithm]] for more details), plus a synaptic activity (sender $x$ times receiver $y$) term, all of which is modulated by the current [[ACh]] (acetylcholine) neuromodulatory level, as explained in [[PVLV]]. The weight change computed at the time of the outcome is then the dopamine modulation times the accumulated trace values:
+which combines a simple delta rule error term defined over the minus vs. plus phase receiving activations (see [[GeneRec]] and [[kinase algorithm]] for more details), plus a synaptic activity (sender $x$ times receiver $y$) term (with a weighting factor $\gamma = 0.6$), all of which is modulated by the current [[ACh]] (acetylcholine) neuromodulatory level, as explained in [[PVLV]]. The weight change computed at the time of the outcome is then the dopamine modulation _DA_ (which is positive for bursts and negative for dips) times the accumulated trace values:
 
-{id="eq_vs-dwt" title="Weight change"}
+{id="eq_vms-dwt" title="VMS Weight change"}
 $$
 DWt = \rm{DA} \sum Tr
 $$
@@ -259,11 +264,18 @@ With the definition of the trace in [[#eq_vs-tr]], this is partially a _three fa
 
 ### Dorsolateral learning
 
-{id="figure_pf-loops" style="height:40em"}
-![Closed-loops through the BG and intralaminar thalamus, parafasicular nuclei (PF), which provide an important credit assignment feedback signal to the striatum in the PCore model. From Foster et al., 2021.](media/fig_bg_loops_foster_etal_21.png)
+The DLS learning rule is similar to the VS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafascicular (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-bg-loops]] ([[@FosterBarryKorobkovaEtAl21]]). These connections from the PF are distal and have a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]), suggesting a largely modulatory role, which is consistent with a credit assignment role.
 
-The DLS learning rule is similar to the VS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafasiculus (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-pf-loops]] ([[@FosterBarryKorobkovaEtAl21]]).
+{id="eq_dls-tr" title="DLS Trace"}
+$$
+Tr = x (y^+ - y^-) + (\rm{PF}_0 + \rm{PF}) \left[ \gamma x y^+ \right]
+$$
 
+The $\rm{PF}_0$ factor is a baseline level 
+
+* also see about using it to drive striasome-like effect -- basically same thing right??
+
+* play with bgdorsal params for this
 
 ## Summary
 

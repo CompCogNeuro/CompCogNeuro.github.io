@@ -92,8 +92,6 @@ $$
 
 ### Kinase cascade
 
-<!--- todo: rename sim -> simulation so it all reads better directly -->
-
 As described in more detail in [[synaptic plasticity]], the influx of Ca++ ions via NMDA and VGCC channels then drives a complex cascade of chemical reactions involving various kinases and phosphatases, along with other molecules and critical binding dynamics, to ultimately drive changes in excitatory AMPA receptor number and efficacy, which is the end result of learning (see the [[Urakubo08 simulation]] for a detailed model of some of these processes).
 
 {id="table_taus" title="Kinase time constants"}
@@ -156,7 +154,7 @@ $$
 
 This simple difference in two [[rate-code activation]] states is used to approximate the corresponding difference in linear net input factors times the derivative of the activation function:
 
-{id="eq_generec-netin" title="GeneRec gradient  netinput"}
+{id="eq_generec-netin" title="GeneRec gradient netinput"}
 $$
 \delta = \left( \sum_i x_i^+ w_i - \sum_i x_i^- w_i \right) y' \approx y^+ - y^-
 $$
@@ -240,10 +238,10 @@ Continuing the above metaphor, various forms of equalizing taxation and wealth r
 
 * **Zero-sum weight changes:** In some cases it can also be useful to constrain the faster error-driven weight changes to be zero-sum, which is supported by an optional parameter. This zero-sum logic was nicely articulated by [[@^Schraudolph98]], and is implemented in the widely-used ResNet models.
 
-* **Sigmoidal activation derivative and noise suppression:** An important general learning principle is to focus learning changes on a smaller subset of neurons that are most likely to be particularly _sensitive_ to the current learning context (stimulus, nature of the errors, etc), so that the changes will have the maximum impact while minimizing changes to neurons that are already committed to other contexts, to reduce interference effects. Interestingly, this is the effect of multiplying by the derivative of a sigmoidal activation function in error backpropagation ($y' = y (1-y)$ for the standard logistic function).  This concentrates learning on the most sensitive neurons with activations around .5, while those that are already strongly committed to being on or off learn less.
+* **Sigmoidal activation derivative and noise suppression:** An important general learning principle is to focus learning changes on a smaller subset of neurons that are most likely to be particularly _sensitive_ to the current learning context (stimulus, nature of the errors, etc), so that the changes will have the maximum impact while minimizing changes to neurons that are already committed to other contexts, to reduce interference effects. Interestingly, this is the effect of multiplying by the derivative of a sigmoidal activation function in error backpropagation ($y' = y (1-y)$ for the standard logistic function). This concentrates learning on the most sensitive neurons with activations around .5, while those that are already strongly committed to being on or off learn less.
 
-    On the other hand, it also contributes to the vanishing gradient problem, which is especially problematic if there aren't other mechanisms that keep neurons in their sensitive range. In Axon, the closely balanced [[inhibition]] does a good job of keeping neurons in their sensitive range. Furthermore, as shown in [[#figure_ca++-integration]], there is a considerable amount of noise in the integrated Ca++-driven values that drive learning, due to the discrete spiking. For these reasons, it ends up being beneficial to multiply by the derivative of a sigmoid function, even though the kinase error gradient ([[#eq_kinase-delta]]) implicitly compute the derivative of the effective activation, as shown in the [[GeneRec]] derivation. Further, applying a further multiplier that selectively suppresses small error gradients is also beneficial. Both of these are accomplished by an additional receiving-neuron-based learning rate modulator (`RLRate`) that multiplies the synaptic weight changes.
-
+    On the other hand, this sigmoidal derivative also contributes to the vanishing gradient problem, which is especially problematic if there aren't other mechanisms that keep neurons in their sensitive range. In Axon, the closely balanced [[inhibition]] does a good job of keeping neurons in their sensitive range. Furthermore, as shown in [[#figure_ca++-integration]], there is a considerable amount of noise in the integrated Ca++-driven values that drive learning, due to the discrete spiking. For these reasons, it ends up being beneficial to multiply by the derivative of a sigmoid function, even though the kinase error gradient ([[#eq_kinase-delta]]) implicitly computes the derivative of the effective activation, as shown in the [[GeneRec]] derivation. Further, applying a multiplier that selectively suppresses small error gradients is also beneficial. Both of these are accomplished by an additional receiving-neuron-based learning rate modulator (`RLRate`) that multiplies the synaptic weight changes.
+    
 ### Implementation
 
 There are three weight values at each synapse, and a `DWt` that accumulates $\Delta w$ until the weight values are updated:
@@ -344,6 +342,17 @@ $$
 $$
 
 where $\epsilon$ is a learning rate factor (`ErrLRate`; 0.02 default) and $\delta$ is the neuron-wise error gradient, computed from the `CaP` - `CaD` difference ([[#Kinase cascade]]). This is then subject to a zero-sum constraint when the target value is updated at the slow interval, as shown in the second equation.
+
+#### RLRate
+
+The learning rate modulation factor based on the activity of the receiving neuron combines the sigmoidal derivative term and a factor that suppresses small differences that often reflect noise:
+
+{id="eq_rlrate" title="Receiver learning rate factor (RLRate)"}
+$$
+\rm{RLRate} = 4 \rm{CaD}^* (1-\rm{CaD}^*) + \frac{|\rm{CaP} - \rm{CaD}|}{\max (\rm{CaP}, \rm{CaD})}
+$$
+
+where $\rm{CaD}^*$ is a normalized version of CaD relative to the layer max. The noise factor is also subject to a threshold such that differences below 0.02 in magnitude contribute with a fixed 0.001 weighting factor.
 
 ## Eligibility trace
 
