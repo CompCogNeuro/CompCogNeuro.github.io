@@ -46,6 +46,7 @@ jobs:
         run: |
           go install golang.org/dl/gotip@latest
           gotip download
+          mv $HOME/sdk/gotip/bin/gotip $HOME/sdk/gotip/bin/go
           echo "GOROOT=$HOME/sdk/gotip" >> $GITHUB_ENV
           echo "$HOME/sdk/gotip/bin:$PATH" >> $GITHUB_PATH
           core build web -o static
