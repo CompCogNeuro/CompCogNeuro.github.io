@@ -8,7 +8,7 @@ bibfile = "ccnlab.json"
 {id="sim_fsa" collapsed="true"}
 ```Goal
 // see https://github.com/emer/axon/tree/main/sims/deepfsa for source code
-deepfsa.EmbedSim(b)
+deepfsa.Embed(b)
 ```
 
 <div>

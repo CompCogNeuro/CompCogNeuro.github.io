@@ -246,14 +246,22 @@ As is evident in the neural activity data from VMS neurons shown in [[#figure_vs
 
 <!--- TODO: rename axon code to use VMS and DLS consistently, instead of VS and DS -->
 
-The trace / tag component of the learning is:
+The trace / tag component of the learning includes two additive factors:
+
+* A simple delta-rule error term defined over the minus vs. plus phase receiving activations, which allows the striatal neurons to learn from the cortical [[temporal derivative]] error gradients as they project down to the striatum; see [[GeneRec]] and [[kinase algorithm]] for more details.
+
+* A standard [[Hebbian learning]]-like synaptic activity factor that reflects the sending and receiving contributions to synaptic calcium influx, via the NMDA receptor, as discussed in [[synaptic plasticity]].
+
+Which are both modulated by the current [[ACh]] (acetylcholine) neuromodulatory level, which provides a widespread goal gating modulation based on the presence of important outcome-associated stimuli (CSs and USs), or novel stimuli, as explained in [[PVLV]]:
 
 {id="eq_vms-tr" title="VMS Trace"}
 $$
-Tr = \rm{ACh} \left[ x (y^+ - y^-) + \gamma x y^+ \right]
+Tr = \rm{ACh} \left[ x (\rm{CaP} - \rm{CaD}) + \gamma x \rm{CaD} \right]
 $$
 
-which combines a simple delta rule error term defined over the minus vs. plus phase receiving activations (see [[GeneRec]] and [[kinase algorithm]] for more details), plus a synaptic activity (sender $x$ times receiver $y$) term (with a weighting factor $\gamma = 0.6$), all of which is modulated by the current [[ACh]] (acetylcholine) neuromodulatory level, as explained in [[PVLV]]. The weight change computed at the time of the outcome is then the dopamine modulation _DA_ (which is positive for bursts and negative for dips) times the accumulated trace values:
+The $x$ represents the sending neuron activity (using CaD as a longer time-average integration of that value), and $\gamma = 0.6$ is a weighting factor for the Hebbian term relative to the delta factor.
+
+The weight change computed at the time of the outcome is then the dopamine modulation _DA_ (which is positive for bursts and negative for dips) times the accumulated trace values:
 
 {id="eq_vms-dwt" title="VMS Weight change"}
 $$
@@ -264,18 +272,17 @@ With the definition of the trace in [[#eq_vs-tr]], this is partially a _three fa
 
 ### Dorsolateral learning
 
-The DLS learning rule is similar to the VS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafascicular (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-bg-loops]] ([[@FosterBarryKorobkovaEtAl21]]). These connections from the PF are distal and have a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]), suggesting a largely modulatory role, which is consistent with a credit assignment role.
+The DLS learning rule is similar to the VMS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafascicular (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-bg-loops]] ([[@FosterBarryKorobkovaEtAl21]]). These connections from the PF are distal and have a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]), suggesting a largely modulatory role, which is consistent with a credit assignment role.
 
 {id="eq_dls-tr" title="DLS Trace"}
 $$
 Tr = x (y^+ - y^-) + (\rm{PF}_0 + \rm{PF}) \left[ \gamma x y^+ \right]
 $$
 
-The $\rm{PF}_0$ factor is a baseline level (0.005)
+The $\rm{PF}_0$ factor is a low baseline level (0.005) to allow slow learning in non-gated pathways. Also note that the delta learning is outside of the PF modulation, to allow error gradient learning to always operate. The same dopamine-modulated weight change equation ([[#eq_vms-dwt]]) is used for DLS as well.
 
-* also see about using it to drive striasome-like effect -- basically same thing right??
-
-* play with bgdorsal params for this
+<!--- * also see about using it to drive striasome-like effect -- basically same thing right?? -->
+<!--- * play with bgdorsal params for this -->
 
 ## Summary
 

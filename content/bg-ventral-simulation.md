@@ -6,7 +6,7 @@ bibfile = "ccnlab.json"
 {id="sim_inhib" collapsed="true"}
 ```Goal
 // see https://github.com/emer/axon/tree/main/sims/bgventral for source code
-bgventral.EmbedSim(b)
+bgventral.Embed(b)
 ```
 
 <div>
