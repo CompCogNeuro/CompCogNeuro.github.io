@@ -44,9 +44,10 @@ jobs:
 
       - name: Build App
         run:
-          set -x
           go install golang.org/dl/gotip@latest
+          echo "installed"
           gotip download
+          echo "downloaded"
           echo "GOROOT=$HOME/sdk/gotip" >> $GITHUB_ENV
           echo "$HOME/sdk/gotip/bin:$PATH" >> $GITHUB_PATH
           core build web -o static
