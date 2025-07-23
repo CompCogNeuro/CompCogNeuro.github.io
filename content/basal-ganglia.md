@@ -271,7 +271,7 @@ $$
 Tr = x (y^+ - y^-) + (\rm{PF}_0 + \rm{PF}) \left[ \gamma x y^+ \right]
 $$
 
-The $\rm{PF}_0$ factor is a baseline level 
+The $\rm{PF}_0$ factor is a baseline level (0.005)
 
 * also see about using it to drive striasome-like effect -- basically same thing right??
 

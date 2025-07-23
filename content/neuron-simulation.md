@@ -6,7 +6,7 @@ bibfile = "ccnlab.json"
 {id="sim_neuron" collapsed="true"}
 ```Goal
 // see https://github.com/emer/axon/tree/main/sims/neuron for source code
-neuron.EmbedSim(b)
+neuron.Embed(b)
 ```
 
 <div>
