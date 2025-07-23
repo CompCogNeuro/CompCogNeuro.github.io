@@ -29,7 +29,7 @@ The active goal selected at any point in time is more like the single step in a 
 
 The widely-cited SMART goal-setting framework (specific, measurable, achievable, relevant, and time-bound ([[@Doran81]]) provides a good rule-of-thumb for what an active engaged goal should be, with specificity being critical for actually facilitating the transition to the active goal state, so there is an actual concrete action plan to guide behavior. This is consistent with the implementation intention if-then plans described by [[@^GollwitzerSheeran06]].
 
-Thus, the core goal-driven system governs the _inner-loop_ of behavior, operating over relatively small time intervals of seconds to minutes, to actively guide behavior. Because this core goal system is evolutionarily ancient and supported by a number of subcortical brain areas working in concert with the neocortex, it tends to fly below the level of [[conscious awareness]]. The more conscious, deliberative aspects of goal selection constitute a more diffuse _outer-loop_ of context and constraints that also get activated and updated in the course of the inner-loop goal selection and engagement process, but are not directly guiding online behavioral choices in the way that the active goal does ([[@HerdKruegerNairEtAl21]]).
+Thus, the core goal-driven system governs the _inner-loop_ of behavior, operating over relatively short time intervals of seconds to minutes, to actively guide behavior. Because this core goal system is evolutionarily ancient and supported by a number of subcortical brain areas working in concert with the neocortex, it tends to fly below the level of [[conscious awareness]]. The more conscious, deliberative aspects of goal selection constitute a more diffuse _outer-loop_ of context and constraints that also get activated and updated in the course of the inner-loop goal selection and engagement process, but are not directly guiding online behavioral choices in the way that the active goal does ([[@HerdKruegerNairEtAl21]]).
 
 Thus, when you are sitting around thinking about what to do, you may engage in a number of these inner-loop goal-engaged steps in order to evaluate different possibilities. When you decide to take the first step of a larger journey, the active maintenance support associated with the transition to goal engagement also "lifts the boats" of the vaguer plans associated with these longer timescale plans, so they are carried along with the tide of inner-loop goal steps. [[@^Gollwitzer12]] terms these broader plans "wants" (and their even more vague predecessors, "wishes"), while the active inner-loop is "willing".
 
@@ -39,7 +39,7 @@ Based on extensive research, these brain systems involve the classical [[limbic 
 
 The subsequent sections provide a more detailed overview of the relevant computational, cognitive, and neuroscience issues underlying the Rubicon framework. Further elaboration is then provided in the following pages:
 
-* [[Limbic system]] provides a more detailed biological overview of the relevant brain areas.
+* [[Limbic system]] provides a more detailed biological overview of the relevant brain areas, including the [[basal ganglia]] and [[prefrontal cortex]].
 * [[PVLV]] is the biologically-based core of [[reinforcement learning]] mechanisms based on these brain areas, which accounts for a wide range of data on phasic [[dopamine]] firing and the animal conditioning literature.
 * [[Arm maze simulation]] puts everything together in an integrated model of basic instrumental choice in a multi-arm decision making paradigm, with a simulated rodent-like agent.
 
@@ -100,6 +100,8 @@ The distributed representation of a _goal_ state in the ventral and medial [[pre
 These areas intercommunicate during the goal selection process via extensive bidirectional connectivity, supporting the [[constraint satisfaction]] process that performs efficient parallel [[search]] through the high-dimensional space of possible outcomes, plans, and their overall utility value, to converge on a reasonable distributed goal state that satisfies the constraints imposed by each of these areas, along with the relevant environment and internal state inputs ([[@HerdKruegerNairEtAl21]]).
 
 The corresponding basal ganglia areas receive inputs from these frontal areas and learn to evaluate the extent to which the current active state represents a good vs. bad bet, in the goal selection process, driving disinhibition of downstream thalamic areas if the overall goal representation is above threshold. In particular, the mediodorsal (MD) nucleus of the thalamus has diverse projections into all of these goal-related frontal areas, and can provide a coordinated _gating_ signal that locks in robust active maintenance of the distributed goal state across these areas ([[@HerdKruegerNairEtAl21]]; [[@OReillyFrank06]])
+
+TODO: parallel BG motor learning with distributed action representations and graded control signals, to do efficient parallel search.
 
 <!--- TODO: svloboda cites -->
 

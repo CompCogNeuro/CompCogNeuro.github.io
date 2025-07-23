@@ -467,7 +467,7 @@ br.Splits.Styler(func(s *styles.Style) {
 
 There are two major types of Ca-gated K channels: "small" K (SK, SKCa) and "big" K (BK, BKCa). BK channels are high conductance with fast dynamics, and play a role in shaping the action potential, which we therefore ignore due to our use of the AdEx approximation and 1 ms time step (and they are not widely implemented in biophysical models according to [ModelDB](https://modeldb.science/modellist/243504)).
 
-The SK channel is not turned on by default, but is critical for our model of the subthalamic nucleus (STN), which exhibits a distinct pausing pattern of activity after an initial burst of firing. SKCa is activated by intracellular Ca stores that are released during the initial burst of firing, and the subsequent pause in firing induced by the additional K conductance allows these Ca to be re-buffered, thereby deactivating the SKCa current.
+The SK channel is not turned on by default, but is critical for our model of the subthalamic nucleus ([[STN]]), which exhibits a distinct pausing pattern of activity after an initial burst of firing, which the SKCa contributes to ([[@HallworthWilsonBevan03]]). SKCa is activated by intracellular Ca stores that are released during the initial burst of firing, and the subsequent pause in firing induced by the additional K conductance allows these Ca to be re-buffered, thereby deactivating the SKCa current.
 
 Our implementation is based on [[@^FujitaFukaiKitano12]], which is in turn based on [[@^GunayEdgertonJaeger08]], using a simple Hill equation which takes the form of:
 

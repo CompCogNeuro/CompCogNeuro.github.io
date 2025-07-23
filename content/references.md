@@ -10,6 +10,8 @@
 
 <p id="Aizi23">Aizi, R. (2023). How does GPT-3 spend its 175B parameters? https://www.lesswrong.com/posts/3duR8CrvcHywrnhLo/how-does-gpt-3-spend-its-175b-parameters</p>
 
+<p id="AlbinYoungPenney89">Albin, R.L., Young, A.B., & Penney, J.B. (1989). The functional anatomy of basal ganglia disorders. Trends in Neurosciences, 12, 366-375. </p>
+
 <p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
 
 <p id="Albus75">Albus, J.S. (1975). A new approach to manipulator control: the cerebellar model articulation controller (CMAC). Journal of Dynamic Systems, Measurement and Control, Transactions of the ASME, 97, 220–227. </p>
@@ -52,6 +54,8 @@
 
 <p id="BartoSuttonAnderson83">Barto, A.G., Sutton, R.S., & Anderson, C.W. (1983). Neuronlike adaptive elements that can solve difficult learning control problems. IEEE transactions on Systems, Man, & Cybernetics, 13, 834-846. </p>
 
+<p id="BassoWurtz02">Basso, M.A..., & Wurtz, R.H. (2002). Neuronal activity in substantia nigra pars reticulata during target selection. Journal of Neuroscience, 22, 1883–1894. http://www.ncbi.nlm.nih.gov/pubmed/11880518</p>
+
 <p id="BayerGiese25">Bayer, K.U., & Giese, K.P. (2025). A revised view of the role of CaMKII in learning and memory. Nature Neuroscience, 28, 24-34. https://www.nature.com/articles/s41593-024-01809-x http://doi.org/10.1038/s41593-024-01809-x</p>
 
 <p id="BayerSchulman19">Bayer, K.U., & Schulman, H. (2019). CaM Kinase: Still Inspiring at 40. Neuron, 103, 380-394. https://www.sciencedirect.com/science/article/pii/S0896627319304866 http://doi.org/10.1016/j.neuron.2019.05.033</p>
@@ -71,6 +75,8 @@
 <p id="BendaMalerLongtin10">Benda, J., Maler, L., & Longtin, A. (2010). Linear Versus Nonlinear Signal Transmission in Neuron Models With Adaptation Currents or Dynamic Thresholds. Journal of Neurophysiology, 104, 2806-2820. http://jn.physiology.org/content/104/5/2806 http://doi.org/10.1152/jn.00240.2010</p>
 
 <p id="BeniaguevSegevLondon21">Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. Neuron, https://www.sciencedirect.com/science/article/pii/S0896627321005018 http://doi.org/10.1016/j.neuron.2021.07.002</p>
+
+<p id="BeurrierBioulacAudinEtAl01">Beurrier, C., Bioulac, B., Audin, J., & Hammond, C. (2001). High-Frequency Stimulation Produces a Transient Blockade of Voltage-Gated Currents in Subthalamic Neurons. Journal of Neurophysiology, 85, 1351-1356. https://journals.physiology.org/doi/full/10.1152/jn.2001.85.4.1351 http://doi.org/10.1152/jn.2001.85.4.1351</p>
 
 <p id="BevanMagillTermanEtAl02">Bevan, M.D., Magill, P.J., Terman, D., Bolam, J.P., & Wilson, C.J. (2002). Move to the rhythm: oscillations in the subthalamic nucleus-external globus pallidus network. Trends in Neurosciences, 25, 525-531. http://www.ncbi.nlm.nih.gov/pubmed/12220881</p>
 
@@ -124,6 +130,8 @@
 
 <p id="CaseyGetzGalvan08">Casey, B.J., Getz, S., & Galvan, A. (2008). The adolescent brain. Developmental Review, 28, 62-77. https://www.sciencedirect.com/science/article/pii/S0273229707000494 http://doi.org/10.1016/j.dr.2007.08.003</p>
 
+<p id="CataneseJaeger21">Catanese, J., & Jaeger, D. (2021). Premotor ramping of thalamic neuronal activity is modulated by nigral inputs and contributes to control the timing of action release. Journal of Neuroscience, 41, 1878-1891. https://www.jneurosci.org/content/41/9/1878 http://doi.org/10.1523/JNEUROSCI.1204-20.2020</p>
+
 <p id="ChaterOaksfordHahnEtAl10">Chater, N., Oaksford, M., Hahn, U., & Heit, E. (2010). Bayesian models of cognition. WIREs Cognitive Science, 1, 811-823. https://onlinelibrary.wiley.com/doi/abs/10.1002/wcs.79 http://doi.org/10.1002/wcs.79</p>
 
 <p id="ChenCaiZhouEtAl24">Chen, X., Cai, Q., Zhou, J., Pleasure, S.J., Schulman, H., Zhang, M., & Nicoll, R.A. (2024). CaMKII autophosphorylation is the only enzymatic event required for synaptic memory. Proceedings of the National Academy of Sciences, 121, e2402783121. https://www.pnas.org/doi/abs/10.1073/pnas.2402783121 http://doi.org/10.1073/pnas.2402783121</p>
@@ -135,6 +143,8 @@
 <p id="Chollet19">Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547 [cs], http://arxiv.org/abs/1911.01547</p>
 
 <p id="Chomsky65">Chomsky, N. (1965). Aspects of the Theory of Syntax. MIT Press. </p>
+
+<p id="ChopekHultbornBrownstone19">Chopek, J.W., Hultborn, H., & Brownstone, R.M. (2019). Multistable properties of human subthalamic nucleus neurons in Parkinson’s disease. Proceedings of the National Academy of Sciences, 116, 24326-24333. https://www.pnas.org/doi/abs/10.1073/pnas.1912128116 http://doi.org/10.1073/pnas.1912128116</p>
 
 <p id="Clark13">Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. Behavioral and Brain Sciences, 36, 181–204. http://www.ncbi.nlm.nih.gov/pubmed/23663408</p>
 
@@ -193,6 +203,8 @@
 <p id="DengDongSocherEtAl09">Deng, J., Dong, W., Socher, R., Li, L., Li, K., & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (pp. 248-255). https://ieeexplore.ieee.org/abstract/document/5206848 http://doi.org/10.1109/CVPR.2009.5206848</p>
 
 <p id="Desimone96">Desimone, R. (1996). Neural Mechanisms for Visual Memory and Their Role in Attention. Proceedings of the National Academy of Sciences, 93, 13494-13499. http://www.pnas.org/content/93/24/13494</p>
+
+<p id="DesmurgetTurner10">Desmurget, M., & Turner, R.S. (2010). Motor sequences and the basal ganglia: Kinematics, not habits. Journal of Neuroscience, 30, 7685-7690. https://www.jneurosci.org/content/30/22/7685 http://doi.org/10.1523/JNEUROSCI.0163-10.2010</p>
 
 <p id="DestexheMainenSejnowski98">Destexhe, A., Mainen, Z.F., & Sejnowski, T.J. (1998). Kinetic models of synaptic transmission. Methods in neuronal modeling, 2, 1–25. https://www.csc.kth.se/utbildning/kth/kurser/DD2435/biomod12/kursbunt/f9/KochCh1Destexhe.pdf</p>
 
@@ -258,6 +270,8 @@
 
 <p id="FodorPylyshyn88">Fodor, J.A., & Pylyshyn, Z.W. (1988). Connectionism and cognitive architecture: a critical analysis. Cognition, 28, 3-71. http://www.ncbi.nlm.nih.gov/pubmed/2450716</p>
 
+<p id="FosterBarryKorobkovaEtAl21">Foster, N.N., Barry, J., Korobkova, L., Garcia, L., Gao, L., Becerra, M., Sherafat, Y., Peng, B., Li, X., Choi, J., Gou, L., Zingg, B., Azam, S., Lo, D., Khanjani, N., Zhang, B., Stanis, J., Bowman, I., Cotter, K., Cao, C., Yamashita, S., Tugangui, A., Li, A., Jiang, T., Jia, X., Feng, Z., Aquino, S., Mun, H., Zhu, M., Santarelli, A., Benavidez, N.L., Song, M., Dan, G., Fayzullina, M., Ustrell, S., Boesen, T., Johnson, D.L., Xu, H., Bienkowski, M.S., Yang, X.W., Gong, H., Levine, M.S., Wickersham, I., Luo, Q., Hahn, J.D., Lim, B.K., Zhang, L.I., Cepeda, C., Hintiryan, H., & Dong, H. (2021). The mouse cortico–basal ganglia–thalamic network. Nature, 598(7879), 188-194. https://www.nature.com/articles/s41586-021-03993-3 http://doi.org/10.1038/s41586-021-03993-3</p>
+
 <p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
 <p id="Frank05">Frank, M.J. (2005). When and when not to use your subthalamic nucleus: Lessons from a computational model of the basal ganglia. In A.K. Seth, T.J. Prescott, & J.J. Bryson (Eds.), Modelling Natural Action Selection: Proceedings of an International Workshop (pp. 53-60). AISB. </p>
@@ -302,6 +316,8 @@
 
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
 
+<p id="GlajchKelverHegemanEtAl16">Glajch, K.E., Kelver, D.A., Hegeman, D.J., Cui, Q., Xenias, H.S., Augustine, E.C., Hernández, V.M., Verma, N., Huang, T.Y., Luo, M., Justice, N.J., & Chan, C.S. (2016). Npas1+ pallidal neurons target striatal projection neurons. Journal of Neuroscience, 36, 5472-5488. https://www.jneurosci.org/content/36/20/5472 http://doi.org/10.1523/JNEUROSCI.1720-15.2016</p>
+
 <p id="GoldShadlen02">Gold, J.I., & Shadlen, M.N. (2002). Banburismus and the brain: decoding the relationship between sensory stimuli, decisions, and reward. Neuron, 36, 299-308. http://www.ncbi.nlm.nih.gov/pubmed/12383783</p>
 
 <p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
@@ -324,6 +340,8 @@
 
 <p id="GrillnerRobertsonKotaleski20">Grillner, S., Robertson, B., & Kotaleski, J.H. (2020). Basal Ganglia—A Motion Perspective. In Comprehensive Physiology (pp. 1241-1275). John Wiley & Sons, Ltd. https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.c190045 http://doi.org/10.1002/cphy.c190045</p>
 
+<p id="GuSchmidtBerke20">Gu, B., Schmidt, R., & Berke, J.D. (2020). Globus pallidus dynamics reveal covert strategies for behavioral inhibition. eLife, 9, e57215. https://elifesciences.org/articles/57215 http://doi.org/10.7554/eLife.57215</p>
+
 <p id="GuilhemsangMallet24">Guilhemsang, L., & Mallet, N.P. (2024). Arkypallidal neurons in basal ganglia circuits: Unveiling novel pallidostriatal loops? Current Opinion in Neurobiology, 84, 102814. https://www.sciencedirect.com/science/article/pii/S0959438823001393 http://doi.org/10.1016/j.conb.2023.102814</p>
 
 <p id="GulleyKuwajimaMayhillEtAl99">Gulley, J.M., Kuwajima, M., Mayhill, E., & Rebec, G.V. (1999). Behavior-related changes in the activity of substantia nigra pars reticulata neurons in freely moving rats. Brain Research, 845, 68-76. https://www.sciencedirect.com/science/article/pii/S0006899399019320 http://doi.org/10.1016/S0006-8993(99)01932-0</p>
@@ -339,6 +357,8 @@
 <p id="GutfreundYaromSegev95">Gutfreund, Y., Yarom, Y., & Segev, I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling. The Journal of Physiology, 483, 621-640. https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1995.sp020611 http://doi.org/10.1113/jphysiol.1995.sp020611</p>
 
 <p id="HafnerLillicrapNorouziEtAl22">Hafner, D., Lillicrap, T., Norouzi, M., & Ba, J. (2022). Mastering Atari with Discrete World Models. http://arxiv.org/abs/2010.02193 http://doi.org/10.48550/arXiv.2010.02193</p>
+
+<p id="HallworthWilsonBevan03">Hallworth, N.E., Wilson, C.J., & Bevan, M.D. (2003). Apamin-Sensitive Small Conductance Calcium-Activated Potassium Channels, through their Selective Coupling to Voltage-Gated Calcium Channels, Are Critical Determinants of the Precision, Pace, and Pattern of Action Potential Generation in Rat Subthalamic Nucleus Neurons In Vitro. Journal of Neuroscience, 23, 7525-7542. http://www.jneurosci.org/content/23/20/7525 http://doi.org/10.1523/JNEUROSCI.23-20-07525.2003</p>
 
 <p id="HarrisShepherd15">Harris, K.D., & Shepherd, G.M.G. (2015). The neocortical circuit: themes and variations. Nature Neuroscience, 18(2), 170-181. http://www.nature.com/articles/nn.3917 http://doi.org/10.1038/nn.3917</p>
 
@@ -390,6 +410,8 @@
 
 <p id="HopfieldTank85">Hopfield, J.J., & Tank, D.W. (1985). {`Neural'} computation of decisions in optimization problems. Biological Cybernetics, 52, 141-152. http://www.ncbi.nlm.nih.gov/pubmed/4027280</p>
 
+<p id="HorakAnderson84">Horak, F.B., & Anderson, M.E. (1984). Influence of globus pallidus on arm movements in monkeys. I. Effects of kainic acid-induced lesions. Journal of Neurophysiology, 52, 290-304. https://journals.physiology.org/doi/abs/10.1152/jn.1984.52.2.290 http://doi.org/10.1152/jn.1984.52.2.290</p>
+
 <p id="HoukAdamsBarto95">Houk, J.C., Adams, J.L., & Barto, A.G. (1995). A model of how the basal ganglia generate and use neural signals that predict reinforcement. In J.C. Houk, J.L. Davis, & D.G. Beiser (Eds.), Models of Information Processing in the Basal Ganglia (pp. 233-248). MIT Press. </p>
 
 <p id="HowardLiGeddesEtAl17">Howard, C.D., Li, H., Geddes, C.E., & Jin, X. (2017). Dynamic nigrostriatal dopamine biases action selection. Neuron, 93, 1436-1450.e8. https://www.sciencedirect.com/science/article/pii/S089662731730137X http://doi.org/10.1016/j.neuron.2017.02.029</p>
@@ -410,6 +432,8 @@
 
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
 
+<p id="InaseBufordAnderson96">Inase, M., Buford, J.A., & Anderson, M.E. (1996). Changes in the control of arm position, movement, and thalamic discharge during local inactivation in the globus pallidus of the monkey. Journal of Neurophysiology, 75, 1087-1104. https://www.physiology.org/doi/abs/10.1152/jn.1996.75.3.1087 http://doi.org/10.1152/jn.1996.75.3.1087</p>
+
 <p id="IsaacsonScanziani11">Isaacson, J.S., & Scanziani, M. (2011). How inhibition shapes cortical activity. Neuron, 72, 231-243. https://www.sciencedirect.com/science/article/pii/S0896627311008798 http://doi.org/10.1016/j.neuron.2011.09.027</p>
 
 <p id="Ito98">Ito, M. (1998). The cerebellum: from structure to control. Trends in cognitive sciences, 2, http://www.ncbi.nlm.nih.gov/pubmed/21227234</p>
@@ -421,6 +445,8 @@
 <p id="JarskyRoxinKathEtAl05">Jarsky, T., Roxin, A., Kath, W.L., & Spruston, N. (2005). Conditional dendritic spike propagation following distal synaptic activation of hippocampal CA1 pyramidal neurons. Nat Neurosci, 8, 1667-1676. http://dx.doi.org/10.1038/nn1599</p>
 
 <p id="JensenBonnefondVanRullen12">Jensen, O., Bonnefond, M., & VanRullen, R. (2012). An oscillatory mechanism for prioritizing salient unattended stimuli. Trends in Cognitive Sciences, 16, 200–206. http://www.ncbi.nlm.nih.gov/pubmed/22436764</p>
+
+<p id="JeonLeeKwonEtAl22">Jeon, H., Lee, H., Kwon, D., Kim, J., Tanaka-Yamamoto, K., Yook, J.S., Feng, L., Park, H.R., Lim, Y.H., Cho, Z., Paek, S.H., & Kim, J. (2022). Topographic connectivity and cellular profiling reveal detailed input pathways and functionally distinct cell types in the subthalamic nucleus. Cell Reports, 38, 110439. https://www.sciencedirect.com/science/article/pii/S2211124722001668 http://doi.org/10.1016/j.celrep.2022.110439</p>
 
 <p id="JordanRumelhart92">Jordan, M.I., & Rumelhart, D.E. (1992). Forward models: supervised learning with a distal teacher. Cognitive Science, 16, 307-354. http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1603_1/abstract http://doi.org/10.1207/s15516709cog1603_1</p>
 
@@ -434,6 +460,10 @@
 
 <p id="KarbachKray21">Karbach, J., & Kray, J. (2021). Executive Function Training. In T. Strobach, & J. Karbach (Eds.), Cognitive Training: An Overview of Features and Applications (pp. 199-212). Springer International Publishing. https://doi.org/10.1007/978-3-030-39292-5_14 http://doi.org/10.1007/978-3-030-39292-5_14</p>
 
+<p id="Kass09">Kass, J. (2009). Silent plateau potentials in subthalamic neurons and their gating by cortical inputs - ProQuest. [unpublished thesis]. https://www.proquest.com/docview/304843482/797014A0BCD24FB2PQ/1?accountid=14505&sourcetype=Dissertations%20&%20Theses</p>
+
+<p id="KassMintz06">Kass, J.I., & Mintz, I.M. (2006). Silent plateau potentials, rhythmic bursts, and pacemaker firing: Three patterns of activity that coexist in quadristable subthalamic neurons. Proceedings of the National Academy of Sciences, 103, 183-188. https://www.pnas.org/doi/abs/10.1073/pnas.0506781102 http://doi.org/10.1073/pnas.0506781102</p>
+
 <p id="KawatoHayakawaInui93">Kawato, M., Hayakawa, H., & Inui, T. (1993). A forward-inverse optics model of reciprocal connections between visual cortical areas. Network: Computation in Neural Systems, 4, 415-422. http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_4_001 http://doi.org/10.1088/0954-898X_4_4_001</p>
 
 <p id="KennerleyBehrensWallis11">Kennerley, S.W., Behrens, T.E.J., & Wallis, J.D. (2011). Double dissociation of value computations in orbitofrontal and anterior cingulate neurons. Nature Neuroscience, 14, 1581-1589. https://www.nature.com/neuro/journal/v14/n12/full/nn.2961.html http://doi.org/10.1038/nn.2961</p>
@@ -441,6 +471,8 @@
 <p id="KetzefSilberberg21">Ketzef, M., & Silberberg, G. (2021). Differential synaptic input to external globus pallidus neuronal subpopulations in vivo. Neuron, 109, 516-529.e4. https://www.sciencedirect.com/science/article/pii/S0896627320308849 http://doi.org/10.1016/j.neuron.2020.11.006</p>
 
 <p id="KheradpishehGanjtabeshThorpeEtAl18">Kheradpisheh, S.R., Ganjtabesh, M., Thorpe, S.J., & Masquelier, T. (2018). STDP-based spiking deep convolutional neural networks for object recognition. Neural Networks, 99, 56-67. https://www.sciencedirect.com/science/article/pii/S0893608017302903 http://doi.org/10.1016/j.neunet.2017.12.005</p>
+
+<p id="KimKimNakajimaEtAl17">Kim, J., Kim, Y., Nakajima, R., Shin, A., Jeong, M., Park, A.H., Jeong, Y., Jo, S., Yang, S., Park, H., Cho, S., Cho, K., Shim, I., Chung, J.H., Paik, S., Augustine, G.J., & Kim, D. (2017). Inhibitory basal ganglia inputs induce excitatory motor signals in the thalamus. Neuron, 95, 1181-1196.e8. http://www.sciencedirect.com/science/article/pii/S0896627317307432 http://doi.org/10.1016/j.neuron.2017.08.028</p>
 
 <p id="KingmaBa14">Kingma, D.P., & Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv:1412.6980 [cs], http://arxiv.org/abs/1412.6980</p>
 
@@ -457,6 +489,10 @@
 <p id="Kohonen98">Kohonen, T. (1998). the Self-Organizing Map. Neurocomputing, 21, 1. </p>
 
 <p id="KohonenHari99">Kohonen, T., & Hari, R. (1999). Where the abstract feature maps of the brain might come from. Trends in neurosciences, 22, 135. http://www.ncbi.nlm.nih.gov/pubmed/10199639</p>
+
+<p id="KoralekCostaCarmena13">Koralek, A.C., Costa, R.M., & Carmena, J.M. (2013). Temporally precise cell-specific coherence develops in corticostriatal networks during learning. Neuron, 79, 865-872. https://www.sciencedirect.com/science/article/pii/S0896627313005631 http://doi.org/10.1016/j.neuron.2013.06.047</p>
+
+<p id="KoshimizuFujiyamaNakamuraEtAl13">Koshimizu, Y., Fujiyama, F., Nakamura, K.C., Furuta, T., & Kaneko, T. (2013). Quantitative analysis of axon bouton distribution of subthalamic nucleus neurons in the rat by single neuron visualization with a viral vector. Journal of Comparative Neurology, 521, 2125-2146. https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.23277 http://doi.org/10.1002/cne.23277</p>
 
 <p id="KouneiherCharronKoechlin09">Kouneiher, F., Charron, S., & Koechlin, E. (2009). Motivation and cognitive control in the human prefrontal cortex. Nature neuroscience, 12, 659–669. http://www.ncbi.nlm.nih.gov/pubmed/19503087</p>
 
@@ -515,6 +551,8 @@
 <p id="MainenSejnowski96">Mainen, Z.F., & Sejnowski, T.J. (1996). Influence of dendritic structure on firing pattern in model neocortical neurons. Nature, 382, 363. http://www.ncbi.nlm.nih.gov/pubmed/8684467</p>
 
 <p id="MalletMicklemHennyEtAl12">Mallet, N., Micklem, B.R., Henny, P., Brown, M.T., Williams, C., Bolam, J.P., Nakamura, K.C., & Magill, P.J. (2012). Dichotomous organization of the external globus pallidus. Neuron, 74, 1075-1086. http://www.ncbi.nlm.nih.gov/pubmed/22726837</p>
+
+<p id="MalletSchmidtLeventhalEtAl16">Mallet, N., Schmidt, R., Leventhal, D., Chen, F., Amer, N., Boraud, T., & Berke, J.D. (2016). Arkypallidal cells send a stop signal to striatum. Neuron, 89, 308-316. http://www.sciencedirect.com/science/article/pii/S0896627315011198 http://doi.org/10.1016/j.neuron.2015.12.017</p>
 
 <p id="ManningClarkHewittEtAl20">Manning, C.D., Clark, K., Hewitt, J., Khandelwal, U., & Levy, O. (2020). Emergent linguistic structure in artificial neural networks trained by self-supervision. Proceedings of the National Academy of Sciences, 117, 30046-30054. https://www.pnas.org/doi/full/10.1073/pnas.1907367117 http://doi.org/10.1073/pnas.1907367117</p>
 
@@ -584,13 +622,21 @@
 
 <p id="NairGutierrez-ArenasErikssonEtAl15">Nair, A.G., Gutierrez-Arenas, O., Eriksson, O., Vincent, P., & Kotaleski, J.H. (2015). Sensing Positive versus Negative Reward Signals through Adenylyl Cyclase-Coupled GPCRs in Direct and Indirect Pathway Striatal Medium Spiny Neurons. Journal of Neuroscience, 35, 14017-14030. https://www.jneurosci.org/content/35/41/14017 http://doi.org/10.1523/JNEUROSCI.0730-15.2015</p>
 
+<p id="NakanishiKitaKitai87">Nakanishi, H., Kita, H., & Kitai, S.T. (1987). Electrical membrane properties of rat subthalamic neurons in an in vitro slice preparation. Brain Research, 437, 35-44. https://www.sciencedirect.com/science/article/pii/0006899387915241 http://doi.org/10.1016/0006-8993(87)91524-1</p>
+
 <p id="NakkiranKaplunBansalEtAl21">Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2021). Deep double descent: where bigger models and more data hurt* Journal of Statistical Mechanics: Theory and Experiment, 2021, 124003. https://dx.doi.org/10.1088/1742-5468/ac3a74 http://doi.org/10.1088/1742-5468/ac3a74</p>
 
 <p id="NamJostBavel13">Nam, H.H., Jost, J.T., & Bavel, J.J.V. (2013). “Not for All the Tea in China!” Political Ideology and the Avoidance of Dissonance-Arousing Situations. PLOS ONE, 8, e59837. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059837 http://doi.org/10.1371/journal.pone.0059837</p>
 
+<p id="Nambu04">Nambu, A. (2004). A new dynamic model of the cortico-basal ganglia loop. In Progress in Brain Research (pp. 461-466). Elsevier. https://www.sciencedirect.com/science/article/pii/S0079612303430434 http://doi.org/10.1016/S0079-6123(03)43043-4</p>
+
+<p id="NambuChiken24">Nambu, A., & Chiken, S. (2024). External segment of the globus pallidus in health and disease: Its interactions with the striatum and subthalamic nucleus. Neurobiology of Disease, 190, 106362. https://www.sciencedirect.com/science/article/pii/S0969996123003789 http://doi.org/10.1016/j.nbd.2023.106362</p>
+
 <p id="NandaRajamanoharanKramarEtAl23">Nanda, N., Rajamanoharan, S., Kramár, J., & Shah, R. (2023). Fact Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level (Post 1) https://www.alignmentforum.org/posts/iGuwZTHWb6DFY3sKB/fact-finding-attempting-to-reverse-engineer-factual-recall</p>
 
 <p id="Neal93">Neal, R.M. (1993). Probabilistic Inference Using Markov Chain Monte Carlo Methods. </p>
+
+<p id="NeelyKoralekAthalyeEtAl18">Neely, R.M., Koralek, A.C., Athalye, V.R., Costa, R.M., & Carmena, J.M. (2018). Volitional modulation of primary visual cortex activity requires the basal ganglia. Neuron, 97, 1356-1368.e4. https://www.sciencedirect.com/science/article/pii/S089662731830076X http://doi.org/10.1016/j.neuron.2018.01.051</p>
 
 <p id="NeherSakaba08">Neher, E., & Sakaba, T. (2008). Multiple Roles of Calcium Ions in the Regulation of Neurotransmitter Release. Neuron, 59, 861-872. https://www.cell.com/neuron/abstract/S0896-6273(08)00742-3 http://doi.org/10.1016/j.neuron.2008.08.019</p>
 
@@ -654,6 +700,10 @@
 
 <p id="OswaldNiklassonRandazzoEtAl23">Oswald, J.V., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A., & Vladymyrov, M. (2023). Transformers Learn In-Context by Gradient Descent. In Proceedings of the 40th International Conference on Machine Learning (pp. 35151-35174). PMLR. https://proceedings.mlr.press/v202/von-oswald23a.html</p>
 
+<p id="OtsukaAbeTsukagawaEtAl04">Otsuka, T., Abe, T., Tsukagawa, T., & Song, W. (2004). Conductance-Based Model of the Voltage-Dependent Generation of a Plateau Potential in Subthalamic Neurons. Journal of Neurophysiology, 92, 255-264. https://journals.physiology.org/doi/full/10.1152/jn.00508.2003 http://doi.org/10.1152/jn.00508.2003</p>
+
+<p id="PamukcuCuiXeniasEtAl20">Pamukcu, A., Cui, Q., Xenias, H.S., Berceau, B.L., Augustine, E.C., Fan, I., Chalasani, S., Hantman, A.W., Lerner, T.N., Boca, S.M., & Chan, C.S. (2020). Parvalbumin+ and Npas1+ Pallidal Neurons Have Distinct Circuit Topology and Function. Journal of Neuroscience, 40, 7855-7876. https://www.jneurosci.org/content/40/41/7855 http://doi.org/10.1523/JNEUROSCI.0361-20.2020</p>
+
 <p id="Papez37">Papez, J.W. (1937). A proposed mechanism of emotion. Archives of Neurology & Psychiatry, 38, 725-743.  http://doi.org/10.1001/archneurpsyc.1937.02260220069003</p>
 
 <p id="ParkCoddingtonDudman20">Park, J., Coddington, L.T., & Dudman, J.T. (2020). Basal ganglia circuits for action specification. Annual Review of Neuroscience, 43, 485-507.  http://doi.org/10.1146/annurev-neuro-070918-050452</p>
@@ -671,6 +721,8 @@
 <p id="Piantadosi23">Piantadosi, S.T. (2023). Modern language models refute Chomsky’s approach to language. From fieldwork to linguistic theory: A tribute to Dan Everett, 353–414. https://books.google.com/books?hl=en&lr=&id=BrcpEQAAQBAJ&oi=fnd&pg=PA353&ots=hQR6BV-AUL&sig=YWna5wy_SeF8i_NhGuav6_D_6xs</p>
 
 <p id="Pineda88">Pineda, F.J. (1988). Dynamics and Architecture for Neural Computation. Journal of Complexity, 4, 216-245. </p>
+
+<p id="PironKaseTopalidouEtAl16">Piron, C., Kase, D., Topalidou, M., Goillandeau, M., Orignac, H., N'Guyen, T., Rougier, N., & Boraud, T. (2016). The globus pallidus pars interna in goal-oriented and routine behaviors: Resolving a long-standing paradox. Movement Disorders, 31, 1146-1154. https://onlinelibrary.wiley.com/doi/abs/10.1002/mds.26542 http://doi.org/10.1002/mds.26542</p>
 
 <p id="PlaatKostersPreuss23">Plaat, A., Kosters, W., & Preuss, M. (2023). High-accuracy model-based reinforcement learning, a survey. Artificial Intelligence Review, 56, 9541-9573. https://doi.org/10.1007/s10462-022-10335-w http://doi.org/10.1007/s10462-022-10335-w</p>
 
@@ -752,6 +804,8 @@
 
 <p id="Sanger89">Sanger, T.D. (1989). Optimal unsupervised learning in a single-layer linear feedforward neural network. Neural Networks, 2, 459-473. </p>
 
+<p id="SatoParentLevesqueEtAl00">Sato, F., Parent, M., Levesque, M., & Parent, A. (2000). Axonal branching pattern of neurons of the subthalamic nucleus in primates. Journal of Comparative Neurology, 424, 142-152. http://onlinelibrary.wiley.com/doi/abs/10.1002/1096-9861%2820000814%29424%3A1%3C142%3A%3AAID-CNE10%3E3.0.CO%3B2-8 http://doi.org/https://doi.org/10.1002/1096-9861(20000814)424:1<142::AID-CNE10>3.0.CO;2-8</p>
+
 <p id="SaundersMacoskoWysokerEtAl18">Saunders, A., Macosko, E.Z., Wysoker, A., Goldman, M., Krienen, F.M., Rivera, H., Bien, E., Baum, M., Bortolin, L., Wang, S., Goeva, A., Nemesh, J., Kamitaki, N., Brumbaugh, S., Kulp, D., & McCarroll, S.A. (2018). Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain. Cell, 174, 1015-1030.e16. https://www.cell.com/cell/abstract/S0092-8674(18)30955-3 http://doi.org/10.1016/j.cell.2018.07.028</p>
 
 <p id="ScellierBengio17">Scellier, B., & Bengio, Y. (2017). Equilibrium propagation: Bridging the gap between energy-based models and backpropagation. Frontiers in Computational Neuroscience, 11, http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5415673/ http://doi.org/10.3389/fncom.2017.00024</p>
@@ -769,6 +823,8 @@
 <p id="Schraudolph98">Schraudolph, N.N. (1998). Centering Neural Network Gradient Factors. In G.B. Orr, & K. Müller (Eds.), Neural Networks: Tricks of the Trade (pp. 207-226). Springer. https://doi.org/10.1007/3-540-49430-8_11 http://doi.org/10.1007/3-540-49430-8_11</p>
 
 <p id="SchultzDayanMontague97">Schultz, W., Dayan, P., & Montague, P.R. (1997). A neural substrate of prediction and reward. Science, 275, 1593-1599. http://www.ncbi.nlm.nih.gov/pubmed/9054347</p>
+
+<p id="SchwabKaseZimnikEtAl20">Schwab, B.C., Kase, D., Zimnik, A., Rosenbaum, R., Codianni, M.G., Rubin, J.E., & Turner, R.S. (2020). Neural activity during a simple reaching task in macaques is counter to gating and rebound in basal ganglia–thalamic communication. PLOS Biology, 18, e3000829. https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000829 http://doi.org/10.1371/journal.pbio.3000829</p>
 
 <p id="SethBayne22">Seth, A.K., & Bayne, T. (2022). Theories of consciousness. Nature Reviews Neuroscience, 23(7), 439-452. https://www.nature.com/articles/s41583-022-00587-4 http://doi.org/10.1038/s41583-022-00587-4</p>
 
@@ -830,6 +886,8 @@
 
 <p id="Swadlow90">Swadlow, H.A. (1990). Efferent neurons and suspected interneurons in S-1 forelimb representation of the awake rabbit: receptive fields and axonal properties. Journal of Neurophysiology, 63, 1477-1498. https://journals.physiology.org/doi/abs/10.1152/jn.1990.63.6.1477 http://doi.org/10.1152/jn.1990.63.6.1477</p>
 
+<p id="TachibanaKitaChikenEtAl08">Tachibana, Y., Kita, H., Chiken, S., Takada, M., & Nambu, A. (2008). Motor cortical control of internal pallidal activity through glutamatergic and GABAergic inputs in awake monkeys. European Journal of Neuroscience, 27, 238-253. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2007.05990.x http://doi.org/10.1111/j.1460-9568.2007.05990.x</p>
+
 <p id="TanakaHoriikeMatsuzakiEtAl08">Tanaka, J., Horiike, Y., Matsuzaki, M., Miyazaki, T., Ellis-Davies, G.C.R., & Kasai, H. (2008). Protein Synthesis and Neurotrophin-Dependent Structural Plasticity of Single Dendritic Spines. Science, 319, 1683-1687. https://www.science.org/doi/full/10.1126/science.1152864 http://doi.org/10.1126/science.1152864</p>
 
 <p id="TavernaIlijicSurmeier08">Taverna, S., Ilijic, E., & Surmeier, D.J. (2008). Recurrent collateral connections of striatal medium spiny neurons are disrupted in models of Parkinson's disease. Journal of Neuroscience, 28, 5504-5512. http://www.jneurosci.org/cgi/content/abstract/28/21/5504</p>
@@ -890,6 +948,8 @@
 
 <p id="WaldWolfowitz48">Wald, A., & Wolfowitz, J. (1948). Optimum Character of the Sequential Probability Ratio Test. The Annals of Mathematical Statistics, 19, 326-339. https://www.jstor.org/stable/2235638</p>
 
+<p id="Wallen-MackenzieDumasPapathanouEtAl20">Wallén-Mackenzie, �., Dumas, S., Papathanou, M., Martis Thiele, M.M., Vlcek, B., König, N., & Björklund, �.K. (2020). Spatio-molecular domains identified in the mouse subthalamic nucleus and neighboring glutamatergic and GABAergic brain structures. Communications Biology, 3, 338. https://www.nature.com/articles/s42003-020-1028-8 http://doi.org/10.1038/s42003-020-1028-8</p>
+
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
 
 <p id="WarstadtBowman22">Warstadt, A., & Bowman, S.R. (2022). What Artificial Neural Networks Can Tell Us about Human Language Acquisition. In Algebraic Structures in Natural Language. CRC Press. </p>
@@ -924,6 +984,10 @@
 
 <p id="YasudaHayashiHell22">Yasuda, R., Hayashi, Y., & Hell, J.W. (2022). CaMKII: a central molecular organizer of synaptic plasticity, learning and memory. Nature Reviews Neuroscience, 23, 666-682. https://www.nature.com/articles/s41583-022-00624-2 http://doi.org/10.1038/s41583-022-00624-2</p>
 
+<p id="YinKnowltonBalleine04">Yin, H.H., Knowlton, B.J., & Balleine, B.W. (2004). Lesions of dorsolateral striatum preserve outcome expectancy but disrupt habit formation in instrumental learning. The European journal of neuroscience, 19, 181-9. http://www.ncbi.nlm.nih.gov/pubmed/14750976</p>
+
+<p id="YinMulcareHilrioEtAl09">Yin, H.H., Mulcare, S.P., Hilรกrio, M.R.F., Clouse, E., Holloway, T., Davis, M.I., Hansson, A.C., Lovinger, D.M., & Costa, R.M. (2009). Dynamic reorganization of striatal circuits during the acquisition and consolidation of a skill. Nature neuroscience, 12, http://www.ncbi.nlm.nih.gov/pubmed/19198605</p>
+
 <p id="YttriDudman16">Yttri, E.A., & Dudman, J.T. (2016). Opponent and bidirectional control of movement velocity in the basal ganglia. Nature, 533(7603), 402-406. http://www.nature.com/articles/nature17639 http://doi.org/10.1038/nature17639</p>
 
 <p id="YttriDudman18">Yttri, E.A., & Dudman, J.T. (2018). A Proposed Circuit Computation in Basal Ganglia: History‐Dependent Gain. Movement Disorders, 33, 704-716. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001446/ http://doi.org/10.1002/mds.27321</p>
@@ -931,6 +995,8 @@
 <p id="YuSmithChristensenEtAl07">Yu, C., Smith, L.B., Christensen, M., & Pereira, A. (2007). Two views of the world: Active vision in real-world interaction. In Proceedings of the Annual Meeting of the Cognitive Science Society. https://escholarship.org/content/qt7ms4z979/qt7ms4z979.pdf</p>
 
 <p id="ZhengWolfRanganathEtAl25">Zheng, Y., Wolf, N., Ranganath, C., O'Reilly, R.C., & McKee, K.L. (2025). Flexible prefrontal control over hippocampal episodic memory for goal-directed generalization. http://arxiv.org/abs/2503.02303 http://doi.org/10.48550/arXiv.2503.02303</p>
+
+<p id="ZhuMunhallShenEtAl04">Zhu, Z., Munhall, A., Shen, K., & Johnson, S.W. (2004). Calcium-dependent subthreshold oscillations determine bursting activity induced by N-methyl-d-aspartate in rat subthalamic neurons in vitro. European Journal of Neuroscience, 19, 1296-1304. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2004.03240.x http://doi.org/10.1111/j.1460-9568.2004.03240.x</p>
 
 <p id="vonNeumann45">Neumann, J. (1945). First Draft of a Report on the EDVAC. document. </p>
 

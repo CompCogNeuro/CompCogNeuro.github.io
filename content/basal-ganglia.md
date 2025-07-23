@@ -52,7 +52,7 @@ The opposing effects of dSPN vs iSPN neurons align with the effects of [[dopamin
 
 ## Action selection
 
-The simple _Go_ vs. _No_ logic of these two BG pathways aligns with impairments in people with Parkinson's disease and related basal ganglia disorders known as _catatonia_, which can be characterized as a specific problem in _initiating_ motor actions. This was compellingly demonstrated in the 1990 movie _Awakenings_, where a patient (Robert De Niro) could keep walking once he got started, but otherwise could be stuck for hours unable to start. This convergence of circuitry and initiation deficits led several authors to suggest that the primary function of the BG is in _action selection_: the decision of what action to perform ([[@ChevalierDeniau90]]; [[@AlexanderCrutcher90a]]; [[@Mink96]]; [[@RedgravePrescottGurney99]]; [[@GurneyPrescottRedgrave01]]; [[@FrankLoughryOReilly01]]; [[@BrownBullockGrossberg04]]; [[@BogaczGurney07]]).
+The simple _Go_ vs. _No_ logic of these two BG pathways aligns with impairments in people with Parkinson's disease and related basal ganglia disorders known as _catatonia_, which can be characterized as a specific problem in _initiating_ motor actions. This was compellingly demonstrated in the 1990 movie _Awakenings_, where a patient (Robert De Niro) could keep walking once he got started, but otherwise could be stuck for hours unable to start. This convergence of circuitry and initiation deficits led several authors to suggest that the primary function of the BG is in _action selection_: the decision of what action to perform ([[@AlbinYoungPenney89]]; [[@ChevalierDeniau90]]; [[@AlexanderCrutcher90a]]; [[@Mink96]]; [[@RedgravePrescottGurney99]]; [[@GurneyPrescottRedgrave01]]; [[@FrankLoughryOReilly01]]; [[@BrownBullockGrossberg04]]; [[@Nambu04]]; [[@BogaczGurney07]]).
 
 Once a selection has been made, the action can proceed without further input from the BG, explaining the selective initiation deficits in Parkinson's patients: they cannot select any action. Furthermore, this account has the advantage of distinguishing the contribution of the BG from that of the cerebellum, which is widely thought to be important for rapid online adjustments to motor control signals ([[@Albus75]]; [[@Ito98]]; [[@BuonomanoMauk94]]), and not for selection or initiation.
 
@@ -81,7 +81,7 @@ In addition, one of the considerations that has led to the more serial, discrete
 
 As we review in detail below, recordings of the activity of neurons in the BG output pathways would seem to provide a more definitive understanding of what it is contributing to motor control, relative to the strong focus in the field on properties of the striatal input neurons. The relatively few such studies of SNr and GPi neurons clearly support the parallel, bidirectional modulation model ([[@BarterLiSukharnikovaEtAl15]]; [[@FreezeKravitzHammackEtAl13]]; [[@GulleyKuwajimaMayhillEtAl99]]).  Brief blurb.
 
-Computationally, this parallel modulation of action is much more efficient from a learning and [[search]] perspective than a serial, discrete selection process: incremental graded changes in modulation can be explored in parallel to optimize overall behavior, whereas a strictly discrete, serial process suffers from the [[curse of dimensionality]] as the space of actions and situations grows.
+Computationally, this parallel, graded modulation of action is much more efficient from a learning and [[search]] perspective than a serial, discrete selection process: incremental graded changes in modulation can be explored in parallel to optimize overall behavior, whereas a strictly discrete, serial process suffers from the [[curse of dimensionality]] as the space of actions and situations grows.
 
 While the relatively low-dimensional, parallel, graded BG output signals make sense from the descending motor control perspective, how does this kind of signal work in the context of ascending projections through the thalamus and back up to the neocortex, where there are many more millions of neurons? And how does the BG output coordinate with the direct descending projections from cortical motor areas into the same midbrain and spinal motor areas?
 
@@ -91,7 +91,7 @@ After we explore our updated, detailed model of the BG circuitry in the next sec
 
 ## The Pallidal-core (PCore) model
 
-Although there were earlier indications of inaccuracies and omissions in the classical direct vs. indirect pathway model ([[#figure_bg-gating]]), relatively recent molecular labeling techniques have now provided definitive evidence for a new anatomical model, which puts the GPe in a more central role in shaping the dynamics of the BG ([[@CourtneyPamukcuChan23]] (review); [[@MalletMicklemHennyEtAl12]]; [[@SaundersMacoskoWysokerEtAl18]]; [[@CuiDuChangEtAl21]]; [[@GuilhemsangMallet24]]; [[@DodsonLarvinDuffellEtAl15]]; [[@AbdiMalletMohamedEtAl15]]). [[@^SuryanarayanaHellgrenKotaleskiGrillnerEtAl19]] developed a version of the earlier action-selection model of [[@^GurneyPrescottRedgrave01]] incorporating the new GPe anatomy, which informed the PCore model described below.
+Although there were earlier indications of inaccuracies and omissions in the classical direct vs. indirect pathway model ([[#figure_bg-gating]]), relatively recent molecular labeling techniques have now provided definitive evidence for a new anatomical model, which puts the GPe in a more central role in shaping the dynamics of the BG ([[@CourtneyPamukcuChan23]] (review); [[@MalletMicklemHennyEtAl12]]; [[@SaundersMacoskoWysokerEtAl18]]; [[@CuiDuChangEtAl21]]; [[@DodsonLarvinDuffellEtAl15]]; [[@AbdiMalletMohamedEtAl15]]; [[@GuilhemsangMallet24]]; [[@NambuChiken24]]). [[@^SuryanarayanaHellgrenKotaleskiGrillnerEtAl19]] developed a version of the earlier action-selection model of [[@^GurneyPrescottRedgrave01]] incorporating the new GPe anatomy, which informed the PCore model described below.
 
 {id="figure_pcore-bio" style="height:25em"}
 ![PCore model of the basal ganglia, which is centered around the multiple projections into and out of the GPe neurons that affect every other part of the BG circuitry, putting the GPe Pallidum at the core of its function. The GPeAk (arkypallidal) neurons receive from the direct pathway striatal neurons (dSPN), while the prototypical (GPePr) neurons receive from the indirect pathway, as in the classical model (hence the name). Because GPeAk projects inhibition back up to the striatum, it must be inhibited in order to disinhibit the SPN neurons, which is accomplished by the direct pathway inputs. The iSPN neurons can also get some relief by inhibiting the GPeAk in cases where they are more active, and are directly inhibiting the dSPNs (but not the other way around). The hyperdirect pathway into the STN drives initial "brakes" on the system preventing premature responding. The numbers below each nucleus indicate the rough number of neurons in each hemisphere in a rat (Oorschot, 1996).](media/fig_pcore_v2_pr_ak.png)
@@ -104,11 +104,11 @@ Unlike the classical model, the GPe receives significant input from the direct p
 
 This circuit converging on the GPeAk neurons effectively replicates the classical direct vs. indirect dynamic ([[#figure_bg-gating]]), but with the GPeAk as the target of direct inhibition and indirect disinhibition instead of the GPi / SNr output neurons. This allows the GPeAk neurons to compute an integrated balance of the Go vs. No forces, which then feeds back up into the striatum, which enables this internal circuit to drive dynamic integration processing that is otherwise not possible in the strictly feedforward classical model. This is the "core" of the PCore model.
 
-Finally, the [[STN]] (subthalamic nucleus) plays a critical role in the BG circuit (and is a major target of therapeutic treatments in Parkinson's disease), supporting the _hyperdirect_ projection from the cortex and uniquely sending excitatory glutamatergic projections to the GPe and SNr / GPi neurons. This set of connections has long been recognized as important for providing an initial "brake" on any disinhibitory effects of the BG, by driving an initial burst of excitation to the SNr and GPi outputs that are inhibiting the downstream targets of the BG ([[@Frank06]]). An alternative role for the STN is as a normalizing factor to retain the sensitivity of the system under different strengths and numbers of inputs ([[@GurneyPrescottRedgrave01]]; [[@GurneyPrescottRedgrave01a]]; [[@GurneyHumphriesRedgrave15]]; [[@BogaczGurney07]]).
+Finally, the [[STN]] (subthalamic nucleus) plays a critical role in the BG circuit (and is a major target of therapeutic treatments in Parkinson's disease), supporting the _hyperdirect_ projection from the cortex and uniquely sending excitatory glutamatergic projections to the GPe and SNr / GPi neurons. This set of connections has long been recognized as important for providing an initial "brake" on any disinhibitory effects of the BG, by driving an initial burst of excitation to the SNr and GPi outputs that are inhibiting the downstream targets of the BG ([[@Frank06]]). An alternative role for the STN is as a normalizing factor to retain the sensitivity of the system under different strengths and numbers of inputs ([[@GurneyPrescottRedgrave01]]; [[@GurneyPrescottRedgrave01a]]; [[@GurneyHumphriesRedgrave15]]; [[@BogaczGurney07]]), which may characterize a different subset of STN neurons.
 
-In the PCore model, the STN projections into the GPePr are critical for driving a reciprocal inhibitory reflection back from GPePr to STN, which opens up a window where the SNr / GPi outputs can actually become net inhibited, because the STN neurons go into an extended pause in firing after their initial burst of activity ([[@FujimotoKita93]]; [[@MagillSharottBevanEtAl04]]). This excitatory-inhibitory relationship between STN and GPePr is widely implicated in the tremor associated with Parkinson's disease ([[@BevanMagillTermanEtAl02]]; [[@Nevado-HolgadoMalletMagillEtAl14]]; [[@LindahlKotaleski16]]).
+In the PCore model, the STN projections into the GPePr are critical for driving a reciprocal inhibitory reflection back from GPePr to STN, which opens up a window where the SNr / GPi outputs can actually become net inhibited, because a subset of the STN neurons go into an extended pause in firing after their initial burst of activity ([[@FujimotoKita93]]; [[@MagillSharottBevanEtAl04]]). This excitatory-inhibitory relationship between STN and GPePr is widely implicated in the tremor associated with Parkinson's disease ([[@BevanMagillTermanEtAl02]]; [[@Nevado-HolgadoMalletMagillEtAl14]]; [[@LindahlKotaleski16]]).
 
-The STN also projects excitation to the GPeAk, which causes it to more strongly inhibit the striatum. This provides a mechanism for the notably transient, phasic nature of SPN firing (as shown in neural recording data shown below). The tonic activity of GPeAk keeps the SPNs inhibited, and the increased excitation from the STN associated with an increased in cortical activity compensates for the increased activity that the SPNs also receive. Then, after their activity pause, the recovery in STN firing activates the GPeAk again, terminating the transient SPN activity (and putting the brakes back on in the BG output nuclei). See [[STN]] for more details and discussion of the neural basis for these dynamics.
+The STN also projects excitation to the GPeAk, which causes it to more strongly inhibit the striatum. This provides a mechanism for the notably transient, phasic nature of SPN firing (as shown in neural recording data shown below). The tonic activity of GPeAk keeps the SPNs inhibited, and the increased excitation from the STN associated with an increased in cortical activity compensates for the increased activity that the SPNs also receive. Then, after their activity pause, the recovery in STN firing activates the GPeAk again, terminating the transient SPN activity (and putting the brakes back on in the BG output nuclei). See [[STN]] for more details and discussion of the neural basis for these dynamics -- there are multiple cell types in the STN and it is likely doing multiple things.
 
 {id="figure_pcore-dyn" style="height:30em"}
 ![Dynamics of the PCore model for a Go > No case (left panel) vs a No > Go case (right panel), illustrating the central role of the GPeAk neurons. Each layer shows a raster plot of spikes across the 25 neurons per layer, with time going back in depth for each layer. Thus, you can see the initial burst of activity in the STN driven by the hyperdirect pathway inputs, which puts on the "brake" at the start, allowing the rest of the dynamics to unfold, as the brake is released by GPePr inhbiting the STN. See text for further explanation of each of the steps highlighted. The striatum neurons are labeled as Mtx, representing the matrix (vs. striosome) subset, with dSPN = Go and iSPN = No.](media/fig_pcore_v2_vs_sim_go_no.png)
@@ -141,14 +141,14 @@ The case illustrated on the right shows what happens when the iSPN _No_ pathway 
 
 5. And the thalamus remains inhibited by the SNr.
 
-In summary, the GPeAk neurons integrate the direct dSPN pathway inputs relative to the iSPN inputs via GPePr, providing an internal integration of this balance that then feeds back to modulate the activity of the striatal input pathways. When GPeAk is net inhibited, it is more likely to amplify the dSPN pathway and drive overall disinhibition ("Go"), whereas the opposite holds when GPeAk is disinhibited via iSPN inhibition on GPePr.
+In summary, the GPeAk neurons integrate the direct dSPN pathway inputs relative to the iSPN inputs via GPePr, providing an internal integration of this balance that then feeds back to modulate the activity of the striatal input pathways. When GPeAk is net inhibited, it is more likely to amplify the dSPN pathway and drive overall disinhibition ("Go"), whereas the opposite holds when GPeAk is disinhibited via iSPN inhibition on GPePr. There are also direct excitatory cortical projections into the GPeAk that are functionally consistent with the STN hyperdirect inputs, providing a baseline against which these differential dynamics operate (.
 
 This ability for the direct and indirect pathways to interact through their convergence in the GPe resolves one of the main problems with the classical theory: there is only sparse, weak inhibitory connectivity among SPN neurons in the striatum, which seems unlikely to support a robust inhibitory competition and selection dynamic ([[@TunstallOorschotKeanEtAl02]]). Because the GPe is much more compact in size than the entire striatum (i.e., roughly 46,000 neurons in the GPe in a rat, compared to roughly 2.8 million in the striatum, as shown in [[#figure_pcore-dyn]]; [[@Oorschot96]]), it is therefore much easier for these pathways to interact competitively with each other, relative to neurons having to directly compete in the much larger space of the striatum.
 
 {id="figure_ketzef-etal" style="height:30em"}
 ![Results of optogenetic selective activation of iSPN (a) or STN (b) neurons. Activating ISPNs inhibited GPePr ("Proto") neurons, while disinhibiting GPeAk ("Arky") neurons. Activating the STN much more strongly activated GPePr vs GPeAk neurons, consistent with a stronger projection to GPePr.](media/fig_ketzef_etal_21_ispn_stn_stim.png)
 
-These dynamics are consistent with various recorded patterns of neural activity, for example in a recent optogenetic stimulation experiment ([[@KetzefSilberberg21]]) that selectively activated iSPN neurons or STN neurons ([[#figure_ketzef-etal]]).
+These dynamics are consistent with various recorded patterns of neural activity, for example in a recent optogenetic stimulation experiment ([[@KetzefSilberberg21]]) that selectively activated iSPN neurons or STN neurons ([[#figure_ketzef-etal]]). A number of other studies report consistent data on the effects of GPeAk activation and inhibition of motor action ([[@MalletSchmidtLeventhalEtAl16]]; [[@GlajchKelverHegemanEtAl16]]; [[@PamukcuCuiXeniasEtAl20]]; [[@GuSchmidtBerke20]]; [[@TachibanaKitaChikenEtAl08]]; [[@DodsonLarvinDuffellEtAl15]]).
 
 ### Functional benefits of PCore
 
@@ -206,26 +206,71 @@ The [[arm maze simulation]] shows how the [[Rubicon]] model exhibits this same p
 
 * Individual SPN neurons exhibit reliable, precisely-timed, and brief windows of activity and inhibition in relationship to distinct motor actions, spanning the time window from slightly anticipating the action onset (by roughly 50-70 ms) to roughly 1 s post-action. This is very different from the VS neurons shown above.
 
-    This means that the SPN activity is clearly not exclusively involved in action initiation. However, further experiments reported in [[@MarkowitzGillisBeronEtAl18]] showed that DLS inactivation resulted in nearly identical performance of individual actions, but the overall pattern of actions and the ability to shape action to avoid a noxious smell was impaired. Thus, this BG activity is likely important for a more graded, parallel, ongoing shaping of motor activity that ends up determining which motor actions are performed, as discussed earlier.
+    This means that the SPN activity is clearly not exclusively or even predominantly involved in action initiation, thereby raising significant questions about the action selection model. However, further experiments reported in [[@MarkowitzGillisBeronEtAl18]] showed that DLS inactivation resulted in nearly identical performance of individual actions, but the overall pattern of actions was impacted, and the ability to shape action to avoid a noxious smell was impaired. Other analyses showed that neural activity was conditional on the sequential context in which an action is performed. Thus, this BG activity is likely important for a more graded, parallel, ongoing shaping of motor actions that ends up determining which actions are performed, as discussed earlier.
+	
+	The brief windows of activity (which were present in individual trials, not just the averaged data) are consistent with the STN gating window dynamic of the PCore model, as discussed in more detail in [[STN]]. Given that each neuron recorded has a slightly different such peak, this suggests that there are strongly parallel microcircuits through the BG system, 
 
-* The activity profiles of dSPN and iSPN neurons is essentially identical in terms of the average traces shown in the figure. However, statistically, the individual firing behavior of iSPN and dSPN neurons is decorrelated, consistent with the basic connectivity and overwhelming evidence supporting the fundamental Go vs. No distinction between these neurons.
+* The activity profiles of dSPN and iSPN neurons are essentially identical in terms of the average traces shown in the figure. However, statistically, the individual firing behavior of iSPN and dSPN neurons is decorrelated, consistent with the basic connectivity and overwhelming evidence supporting the fundamental Go vs. No distinction between these neurons.
 
-* TODO: actions per neuron, distributed overlap.
+* The participation of an individual SPN across different action types is consistent with a sparse [[distributed representations]], with representational overlap matching action similarity.
 
-talk about these issues in motor:
+{id="figure_ds-snr" style="height:30em"}
+![Recordings from neurons in the SNr BG output nuclei, which is strongly correlated with the X,Y head position of a mouse. Note the graded encoding of these continuous head position variables in terms of neural firing rate. Other neurons were correlated with other continuous motor variables (e.g., velocity), and anti-correlated as well as positively-correlated cases (as shown) were present. From Barter et al., 2015.](media/fig_bg_dorsal_snr_barter_etal_15.png)
 
-* TODO: add this: massive compression of inputs (reference numbers of neurons): still enough degrees of freedom to provide detailed control over different motor pathways and muscle groups -- 13K still way more than number of distinct muscle groups!
+[[#figure_ds-snr]] provides a complementary picture of the activity of neurons in the BG output pathway of the SNr, in the dorsolateral motor area, from [[@^BarterLiSukharnikovaEtAl15]]. It clearly demonstrates that some of these neurons provide a graded firing rate signal that closely tracks continuous motor outcome variables such as head position, consistent with the idea that these neurons provide relatively direct mappings onto muscle groups that control different parts of the body.
 
-* major problem with action selection: how is the "menu" represented and how is this mapped through with parallel pathways for each possible action, which is necessary for the standard action selection logic.
+Furthermore, at the level of these outputs, for these neurons, the brief phasic activity that is present in the striatal neurons is not evident, and instead there is a seemingly continuous modulation of neural activity. This could reflect the integration of many overlapping striatal neuron contributions across time, producing a continuous overall effect. Also see [[@^BassoWurtz02]] for recordings of SNr neurons with eye movement correlates, which do not fire in advance of the corresponding motor areas in the colliculus, but do have a continuous activity modulation.
 
-* Broader feedback from FSi etc: dorsal bg.
+Taken together, this data is overall strongly consistent with a graded, distributed, parallel representation of the motor action space, which thus supports a much more efficient gradient-based parallel [[search]] process through the space of such actions over the course of learning. The [[BG dorsal simulation]] explores how this learning can efficiently search through relatively high-dimensional action sequence space to learn arbitrary action sequences.
 
-* action selection happens in planning -- goal selection phase -- must be serial to avoid binding problems- after that it is dynamic constraint satisfaction as real-time action shaping unfolds.
+### Thalamic modulation back to cortex
 
-Show Hisham data for what vs looks like - usu key up front points etc.
+The strong version of the cortically-focused model of action selection holds that the BG is critical for disinhibiting thalamocortical loops and thereby controlling action selection in the cortex ([[@AlbinYoungPenney89]]; [[@ChevalierDeniau90]]; [[@FrankLoughryOReilly01]]; [[@GurneyPrescottRedgrave01]]; [[@Frank05]]; [[@OReillyFrank06]]). However, recent simultaneous recordings from the GPi output nucleus and connected areas in the VLa nucleus of the thalamus showed little evidence of such a dynamic ([[@SchwabKaseZimnikEtAl20]]), consistent with earlier lesion studies showing minimal effects of BG lesions on thalamic motor-related activity ([[@InaseBufordAnderson96]]). Instead, GPi and thalamic activity typically moved in the same direction, and movement-related changes in GPi firing typically trailed those seen in the VLa itself. Various other measures showed little direct impact of GPi an thalamic activity.
 
-todo: bg ventral, rename ACC -> PL
+In contrast to this apparent lack of influence of the BG on the thalamus, direct stimulation studies have shown robust inhibition of thalamus by stimulating the BG output nuclei, consistent with the monosynaptic inhibitory relationship between these neurons ([[@KimKimNakajimaEtAl17]]; [[@CataneseJaeger21]]). The most obvious reconciliation of these findings is that the motor task in the [[@^SchwabKaseZimnikEtAl20]] study involved a simple overtrained reaching action, whereas we would expect the BG influence to occur during the initial learning of novel motor tasks, if indeed the main function of the BG is to support [[reinforcement learning]] driven by phasic dopamine changes.
 
+There are a number of studies showing that indeed the influence of the BG over thalamus decreases with learning ([[@DesmurgetTurner10]]; [[@PironKaseTopalidouEtAl16]]; [[@HorakAnderson84]]), and other studies showing that the BG is only important for initial acquisition but not expression of learned motor actions ([[@NeelyKoralekAthalyeEtAl18]]; [[@KoralekCostaCarmena13]]; [[@YinKnowltonBalleine04]]; [[@YinMulcareHilrioEtAl09]]). 
+
+In summary, the main ascending contribution of the BG to cortical function is to drive learning, via its influence over the thalamus. This is a critical component of our overall PCore motor control model, as explored in the [[BG dorsal simulation]].
+
+## PCore learning: trace and credit assignment
+
+With the above understanding of the functional role and dynamics of the BG circuit, we can now introduce the learning mechanisms used in the PCore model. First, because the dorsolateral and ventromedial parts of the BG have different functions and modes of activity, they also have different learning rules. Currently, learning only takes place in the striatal neurons, but future work will explore learning mechanisms in other parts of the circuit, which also receive dopamine innervation and have different dopamine receptors.
+
+### Ventromedial learning
+
+As is evident in the neural activity data from VMS neurons shown in [[#figure_vs-maze]], there is a significant temporal gap between the initial goal-selection decision to engage in the task and activate the overall plan required to succeed, and the time when the reward outcome occurs. As discussed further in the [[PVLV]] model, learning must bridge this gap, so that the outcome can properly shape the goal-selection decision next time around. This [[credit assignment#temporal credit assignment]] problem is solved by way of a synaptic tag signal that is encoded at each synapse at the time of goal-selection gating, and is then modulated by the dopamine signal at the time of the outcome to drive the actual weight change. In this way, the tag functions as an eligibility trace, which has also been used in the TD learning rule ([[reinforcement learning]]).
+
+The trace / tag component of the learning is:
+
+{id="eq_vs-tr" title="Trace"}
+$$
+Tr = \rm{ACh} \left[ x (y^+ - y^-) + 0.6 x y^+ \right]
+$$
+
+which combines a simple delta rule error term defined over the minus vs. plus phase receiving activations (see [[GeneRec]] and [[kinase algorithm]] for more details), plus a synaptic activity (sender $x$ times receiver $y$) term, all of which is modulated by the current [[ACh]] (acetylcholine) neuromodulatory level, as explained in [[PVLV]]. The weight change computed at the time of the outcome is then the dopamine modulation times the accumulated trace values:
+
+{id="eq_vs-dwt" title="Weight change"}
+$$
+DWt = \rm{DA} \sum Tr
+$$
+
+With the definition of the trace in [[#eq_vs-tr]], this is partially a _three factor_ learning rule, driven by the dopamine RPE signal, sending activity, and receiving activity, which is very widely used in models of BG learning. However, this learning rule adds the additional ACh modulation in addition to dopamine, and it includes a minus-plus error gradient factor.
+
+### Dorsolateral learning
+
+{id="figure_pf-loops" style="height:40em"}
+![Closed-loops through the BG and intralaminar thalamus, parafasicular nuclei (PF), which provide an important credit assignment feedback signal to the striatum in the PCore model. From Foster et al., 2021.](media/fig_bg_loops_foster_etal_21.png)
+
+The DLS learning rule is similar to the VS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafasiculus (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-pf-loops]] ([[@FosterBarryKorobkovaEtAl21]]).
+
+
+## Summary
+
+TODO: action selection happens in planning -- goal selection phase -- must be serial to avoid binding problems- after that it is dynamic constraint satisfaction as real-time action shaping unfolds.
+
+
+OLD summary:
 
 * Different areas of BG with distinct functional roles, e.g., dorsolateral areas for motor control, vs medial and ventral areas for goal selection, have some different patterns of connectivity and neural dynamics. The result is that dorsolateral areas can play a more online control function, while ventral and medial areas can drive a more phasic goal selection process that leads to the initiation of actions. In other words, the initiation deficit associated with Parkinson's disease may be a reflection of dysfunctional goal selection in ventral and medial areas, rather than an action selection deficit in dorsolateral motor areas.
 
@@ -233,14 +278,6 @@ todo: bg ventral, rename ACC -> PL
 
 * Different species have different balances of BG vs. cortical influence on motor control, with primates and humans having a much stronger degree of cortical influence over motor control, while rodents and other species with less cortical development are more driven by the BG. Thus, it is important to be careful in interpreting the results of the many studies conducted in rodents in relation to how the human brain functions.
 
-
-## Functional organization of the thalamus
-
-Rovo et al. -- put this in pfc, not here.
-
-connectivity of different thalmic areas.
-
-broader connectivity of BG loops etc.
 
 ## Striosomes, VS patch, VP, etc
 
