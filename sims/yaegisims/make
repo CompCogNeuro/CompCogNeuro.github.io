@@ -1,0 +1,10 @@
+#!/usr/bin/env goal
+
+command extract {
+    for _, pkg := range args {
+        yaegi extract {"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/"+pkg}
+    }
+}
+
+extract stability urakubo
+
