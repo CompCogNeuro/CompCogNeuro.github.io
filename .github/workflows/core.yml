@@ -44,6 +44,7 @@ jobs:
 
       - name: Build App
         run:
+          set -x
           go install golang.org/dl/gotip@latest
           gotip download
           echo "GOROOT=$HOME/sdk/gotip" >> $GITHUB_ENV
