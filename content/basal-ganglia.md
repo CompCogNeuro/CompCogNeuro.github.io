@@ -284,8 +284,11 @@ The $\rm{PF}_0$ factor is a low baseline level (0.005) to allow slow learning in
 <!--- * also see about using it to drive striasome-like effect -- basically same thing right?? -->
 <!--- * play with bgdorsal params for this -->
 
-## Striosomes, VS patch, VP, etc
+## Striosomes
 
+Another important feature of the BG circuitry is the presence of an additional neuron type in the striatum that has connectivity into the SNc dopamine neurons that send dopamine back up to the striatum, thereby providing the system with the ability to regulate its own dopamine input on a relatively topographically-organized basis ([[@JoelWeiner00]]).
+
+Plan: vspatch pools per stripe, get PF modulated training, discount DA per stripe (for weight increases only, not dips!?)
 
 ## Summary
 

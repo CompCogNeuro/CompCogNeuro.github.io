@@ -6,7 +6,7 @@ bibfile = "ccnlab.json"
 {id="sim_stability" collapsed="true"}
 ```Goal
 // see https://github.com/CompCogNeuro/CompCogNeuro.github.io/sims/stability for source code
-stability.EmbedSim(b)
+stability.Embed(b)
 ```
 
 <div>
