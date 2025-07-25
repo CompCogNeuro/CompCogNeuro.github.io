@@ -29,5 +29,7 @@ What about more basic feelings, like _hunger_, _thirst_, etc? [[@^Maslow43]] dev
 
 We can build on this schema to define a comprehensive organization of emotions organized around the things that humans need to do from an evolutionary perspective, as summarized in [[#figure_needs]]. This table provides a place for most of the terms in Plutchik's wheel of emotions, and covers most of the needs in Maslow's hierarchy, providing a reasonable basis for seeing how emotions help guide us toward the things we need to survive and thrive.
 
-From a computational perspective, we can define each of these needs as having a current drive level, which reflects the 
+From a computational perspective, we can define each of these needs as having a current drive level, which reflects the current lack of satisfaction of the need.
 
+<!--- ## Universality of emotions -->
+<!--- TODO: faces -->
