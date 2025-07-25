@@ -27,14 +27,14 @@ Thus, these two roles of the BG make it one of the most central brain structures
 
 One overarching way of understanding the role of the BG across all these levels is in terms of a _bidirectional_ and _modulatory_ control system, that uses learning across two _opponent pathways_ ([[@CollinsFrank14]]) to _disinhibit_ output targets, in order to selectively control the flow of activity through these other circuits. Thus, it is a kind of "puppet master" pulling the strings of the brain, to get it to "do the right thing" in order to optimize overall reward, and accomplish desired goals.
 
-In the following sections, the opponent pathway organization of the BG is examined, in relation to its higher-level functional contributions. Then we describe a new model of the BG that incorporates new patterns of connectivity that have recently been discovered. This _PCore_ model shows how two different types of neurons within the GPe, and projections from GPe back to the striatum, support the ability to integrate information over time during the decision-making process, which was not possible in the purely feedforward, classical model of BG function. Then we review a range of data that provide a coherent overall understanding of what the BG does, in the context of the PCore model.
+In the following sections, the opponent pathway organization of the BG is examined, in relation to its higher-level functional contributions. Then we describe a new model of the BG that incorporates new patterns of connectivity that have recently been discovered. This _PCore_ model shows how two different types of neurons within the GPe, and projections from GPe back to the striatum, support the ability to integrate information over time during the decision-making process, which was not possible in the purely feedforward, classical model of BG function. Then we review a range of data that provide a coherent overall understanding of what the BG does, in the context of the PCore model, followed by some additional elements of the BG circuitry that play important additional roles ([[#striosomes]], [[#CINs]]).
 
 ## Opponent pathways: D1 vs D2 / Go vs No
 
 {id="figure_bg-rat" style="height:25em"}
-![The basal ganglia in a rodent brain, showing the two major pathways: direct from the striatum to the two output areas (GPi, globus pallidus internus and SNr, substantia nigra pars reticulata), and indirect that makes an additional hop through the GPe (globus pallidus externus). Note that the BG represents a big chunk of the rat forebrain. Figure from Gerfen & Surmeier, 2011.](media/fig_bg_anatomy_rat.png)
+![The basal ganglia in a rodent brain, showing the two major pathways (in neurons within the matrix / matrisomes): direct from the striatum to the two output areas (GPi, globus pallidus internus and SNr, substantia nigra pars reticulata), and indirect that makes an additional hop through the GPe (globus pallidus externus). Note that the BG represents a big chunk of the rat forebrain. Figure from Gerfen & Surmeier, 2011.](media/fig_bg_anatomy_rat.png)
 
-One of the most salient features of the BG circuitry, illustrated in the context of the anatomy of the BG within the rodent brain in [[#figure_bg-rat]], is that it has two distinct pathways from the striatum to the output areas of the _substantia nigra pars reticulata_ (SNr) and globus pallidus internus segment (GPi) (these two output areas are functionally identical for the present purposes). Because all of the major neurons in the BG are inhibitory (unlike the cortex, where the principal neurons are excitatory), these two pathways end up having opposing effects, a fact which has driven much of the theorizing about BG function.
+One of the most salient features of the BG circuitry, illustrated in the context of the anatomy of the BG within the rodent brain in [[#figure_bg-rat]], is that it has two distinct pathways from the striatum to the output areas of the _substantia nigra pars reticulata_ (SNr) and globus pallidus internus segment (GPi). These two output areas are functionally identical for the present purposes, and there is also extensive output via the ventral pallidum and a GP area associated with the [[lateral habenula]] that are specific to the ventral/medial portions of the system, see [[#ventral pallidum]]. Because all of the major neurons in the BG are inhibitory (unlike the cortex, where the principal neurons are excitatory), these two pathways end up having opposing effects, a fact which has driven much of the theorizing about BG function.
 
 {id="figure_bg-gating" style="height:20em"}
 ![Classical model of BG direct and indirect pathway function, where the direct pathway inhibits the BG output nuclei (GPi, SNr), thus disinhibiting its downstream targets such as the thalamus (i.e., a net "Go" permissive effect). The indirect pathway adds one more step, into the otherwise tonically active GPe neurons, so that when it is activated, it inhibits this GPe inhibition, and thus makes the output nuclei more active, increasing or maintaining inhibition on the downstream targets (i.e., a net "No" or inhibitory effect). The plots adjacent to each step of the pathway illustrate the activity of neurons over time, for the Go case, where the direct pathway neurons are strongly activated and the indirect pathways are not so much. Dopamine drives consistent learning and modulation of the direct and indirect pathways via D1 (Go) vs. D2 (No) receptors, such that bursts of dopamine facilitate the Go pathway and inhibit No, while the opposite holds for dips in dopamine.](media/fig_bg_gating_circuit.png)
@@ -99,7 +99,7 @@ Although there were earlier indications of inaccuracies and omissions in the cla
 {id="figure_pcore-bio" style="height:25em"}
 ![PCore model of the basal ganglia, which is centered around the multiple projections into and out of the GPe neurons that affect every other part of the BG circuitry, putting the GPe Pallidum at the core of its function. The GPeAk (arkypallidal) neurons receive from the direct pathway striatal neurons (dSPN), while the prototypical (GPePr) neurons receive from the indirect pathway, as in the classical model (hence the name). Because GPeAk projects inhibition back up to the striatum, it must be inhibited in order to disinhibit the SPN neurons, which is accomplished by the direct pathway inputs. The iSPN neurons can also get some relief by inhibiting the GPeAk in cases where they are more active, and are directly inhibiting the dSPNs (but not the other way around). The hyperdirect pathway into the STN drives initial "brakes" on the system preventing premature responding. The numbers below each nucleus indicate the rough number of neurons in each hemisphere in a rat (Oorschot, 1996).](media/fig_pcore_v2_pr_ak.png)
 
-Our implementation of this new circuitry is summarized in [[#figure_pcore-bio]], showing two of the main subtypes of GPe neurons: _GPeAk_ are the _arkypallidal_ GPe neurons, which express the molecular markers NPAS1 and FOXP2, while the GPePr are the _prototypical_ GPe neurons that have a connectivity pattern similar to the GPe in the classical model, and express PV (parvalbumin, as discussed in [[inhibition]]) and KCNG4. As shown in the figure, roughly 45% of the GPe neurons are prototypical, while 18% are arkypallidal, with another 12% projecting to the SNc dopamine area (similar to [[#striosome]] neurons in the striatum, which we discuss below). The remaining neurons constitute a more heterogenous group, which we ignore for the time being.
+Our implementation of this new circuitry is summarized in [[#figure_pcore-bio]], showing two of the main subtypes of GPe neurons: _GPeAk_ are the _arkypallidal_ GPe neurons, which express the molecular markers NPAS1 and FOXP2, while the GPePr are the _prototypical_ GPe neurons that have a connectivity pattern similar to the GPe in the classical model, and express PV (parvalbumin, as discussed in [[inhibition]]) and KCNG4. As shown in the figure, roughly 45% of the GPe neurons are prototypical, while 18% are arkypallidal, with another 12% projecting to the SNc dopamine area (similar to [[#striosomes]] neurons in the striatum, which we discuss below). The remaining neurons constitute a more heterogenous group, which we ignore for the time being.
 
 The striatum remains largely as in the classical model, with the one new wrinkle that the lateral inhibition among the SPN neurons is strongly asymmetric, with iSPNs inhibiting dSPNs but not the other way around ([[@TavernaIlijicSurmeier08]]), which is compatible with the remainder of the dynamics from the GPe.
 
@@ -152,6 +152,8 @@ This ability for the direct and indirect pathways to interact through their conv
 ![Results of optogenetic selective activation of iSPN (a) or STN (b) neurons. Activating ISPNs inhibited GPePr ("Proto") neurons, while disinhibiting GPeAk ("Arky") neurons. Activating the STN much more strongly activated GPePr vs GPeAk neurons, consistent with a stronger projection to GPePr.](media/fig_ketzef_etal_21_ispn_stn_stim.png)
 
 These dynamics are consistent with various recorded patterns of neural activity, for example in a recent optogenetic stimulation experiment ([[@KetzefSilberberg21]]) that selectively activated iSPN neurons or STN neurons ([[#figure_ketzef-etal]]). A number of other studies report consistent data on the effects of GPeAk activation and inhibition of motor action ([[@MalletSchmidtLeventhalEtAl16]]; [[@GlajchKelverHegemanEtAl16]]; [[@PamukcuCuiXeniasEtAl20]]; [[@GuSchmidtBerke20]]; [[@TachibanaKitaChikenEtAl08]]; [[@DodsonLarvinDuffellEtAl15]]).
+
+From an implementational perspective, GPe neurons are simulated using the same [[Axon]] spiking [[neuron]] model, except that their tonic activity is simulated by providing a tonic excitatory conductance.
 
 ### Functional benefits of PCore
 
@@ -236,6 +238,37 @@ There are a number of studies showing that indeed the influence of the BG over t
 
 In summary, the main ascending contribution of the BG to cortical function is to drive learning, via its influence over the thalamus. This is a critical component of our overall PCore motor control model, as explored in the [[BG dorsal simulation]].
 
+## Ventral pallidum
+
+{id="figure_vp-conns" style="height:30em"}
+![Connectivity of the ventral pallidum (VP), which has a diverse set of cell types with multiple different neurotransmitters as shown, and sends outputs to all the major motivational / affective / neuromodulatory brain areas. NAcc = nucleus accumbens (ventomedial striatum); BLA = basolateral amygdala; LH = lateral hypothalamus; VTA = ventral tegmental area (dopamine); MD = mediodorsal thalamus, which then projects extensively to ventral and medial prefrontal cortex (v/mPFC); LHb = lateral habenula; DR = dorsal raphe (serotonin). Figure from Root et al., 2015.](media/fig_bg_striosomes_grillner_etal_20.png)
+
+A major output pathway of the ventral and medial areas of the BG is the ventral pallidum, which can be thought of as a ventral version of the globus pallidus, which sends outputs to all the major [[emotion]]al  brain areas ([[#figure_vp-conns]] from [[@RootMelendezZaborszkyEtAl15]]), including the MD thalamus that projects extensively to the ventral and medial areas of the [[prefrontal cortex]], the [[amygdala]], [[dopamine]] (VTA), [[serotonin]] (dorsal raphe), and the [[hypothalamus]].
+
+
+## Striosomes
+
+{id="figure_striosomes-out" style="height:20em"}
+![Direct and indirect pathway outputs from the striosomes versus those from the matrix. Direct pathway projections inhibit dopamine neurons in the SNc, while indirect pathway neurons project to a region of the globus pallidus that has excitatory projections to the lateral habenula (LHb), which is exclusively capable of driving dips in dopamine firing. Figure from Grillner et al., 2020.](media/fig_bg_striosomes_grillner_etal_20.png)
+
+The direct and indirect pathway SPN neurons in the dorsolateral striatum that have been the primary focus to this point are located in anatomical groups known as _matrisomes_ (aka _matrix_), which comprises roughly 80% of the neurons in striatum. Interspersed among these neurons in the dorsal portion of the striatum are little islands of cells containing another class of SPNs called _striosomes_ (aka _patch_) ([[@GraybielRagsdale78]]; [[@Gerfen92]]). These neurons have both direct and indirect types ([[#figure_striosomes-out]]), with the direct pathway projecting to the  SNc dopamine neurons that send dopamine back up to the striatum, and the indirect pathway projecting to the lateral [[habenula]], which is exclusively capable of driving phasic dips in dopamine firing (see [[PVLV]]). Thus, these neurons are in a position to regulate the dopamine neuromodulation of the striatum on a relatively topographically-organized basis ([[@JoelWeiner00]]).
+
+The striosomes, even those located in dorsolateral motor areas, receive input preferentially from the ventral and medial goal-driven brain areas (PL, IL, ACC) and not from motor cortex ([[@BerendseGalis-DeGraafGroenewegen92]]; [[@Gerfen89]])
+
+PF tends to avoid striosomes!  [[@MandelbaumTarandaHaynesEtAl19]]
+
+More about PL input -- read Graybiel paper.
+
+Plan: vspatch pools per stripe, get PF modulated training, discount DA per stripe (for weight increases only, not dips!?) -- key question: VSPatch only learns from DA at outcome -- that is well after differential engagement of stripe. How do these guys get the stripe? just have accumulation of PF activity to get credit factor at time of reward?
+
+[[@FriedmanHommaGibbEtAl15]] shows that PL projections to dorsomedial striatum (ALM / dlPFC motor planning area) activate inhibitory interneurons in striosomes, which then inhibit striosomes, during high-conflict cases where cost-benefit ratio is high. Inhibiting this PL projection led to an increase in high-reward choices specifically in the high-cost, high-reward case. Activating PL had opposite effects. Activating ACC lead to increase in higher-reward preference across the board.
+
+## CINs
+
+Another important cell type within the striatum are the cholinergic interneurons (CINs), which were previously called the tonically-active neurons (TANs) due to this notable distinguishing characteristic relative to the generally quiescent SPNs. As discussed in [[Rubicon]] and [[PVLV]], the [[ACh]] (acetylcholine) system is critical for modulating the excitability and learning of many brain areas, including the BG via the CINs.
+
+<!--- TODO: pauses, disinhibition etc. -->
+
 ## PCore learning: trace and credit assignment
 
 With the above understanding of the functional role and dynamics of the BG circuit, we can now introduce the learning mechanisms used in the PCore model. First, because the dorsolateral and ventromedial parts of the BG have different functions and modes of activity, they also have different learning rules. Currently, learning only takes place in the striatal neurons, but future work will explore learning mechanisms in other parts of the circuit, which also receive dopamine innervation and have different dopamine receptors.
@@ -272,7 +305,9 @@ With the definition of the trace in [[#eq_vs-tr]], this is partially a _three fa
 
 ### Dorsolateral learning
 
-The DLS learning rule is similar to the VMS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafascicular (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-bg-loops]] ([[@FosterBarryKorobkovaEtAl21]]). These connections from the PF are distal and have a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]), suggesting a largely modulatory role, which is consistent with a credit assignment role.
+The DLS learning rule is similar to the VMS one, except instead of using ACh as an additional neuromodulatory factor, it uses a gating-based credit assignment factor that is computed based on closed-loop projections from the parafascicular (PF) nucleus of the intralaminar thalamic nuclei, which sends extensive excitatory feedback into the striatum, as shown in [[#figure-bg-loops]] ([[@FosterBarryKorobkovaEtAl21]]). These connections from the PF are distal, target dendritic shafts instead of spines ([[@SmithRajuPareEtAl04]]) and have a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]), suggesting a largely modulatory role, which is consistent with a credit assignment role. They also project preferentially to direct pathway neurons ([[@SidibeSmith96]]).
+
+<!--- TODO: PF projects to STN, discrete and temporally tuned [[@MatsumotoMinamimotoGraybielEtAl01]] -->
 
 {id="eq_dls-tr" title="DLS Trace"}
 $$
@@ -283,12 +318,6 @@ The $\rm{PF}_0$ factor is a low baseline level (0.005) to allow slow learning in
 
 <!--- * also see about using it to drive striasome-like effect -- basically same thing right?? -->
 <!--- * play with bgdorsal params for this -->
-
-## Striosomes
-
-Another important feature of the BG circuitry is the presence of an additional neuron type in the striatum that has connectivity into the SNc dopamine neurons that send dopamine back up to the striatum, thereby providing the system with the ability to regulate its own dopamine input on a relatively topographically-organized basis ([[@JoelWeiner00]]).
-
-Plan: vspatch pools per stripe, get PF modulated training, discount DA per stripe (for weight increases only, not dips!?)
 
 ## Summary
 
