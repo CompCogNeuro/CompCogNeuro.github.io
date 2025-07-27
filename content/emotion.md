@@ -3,7 +3,7 @@ Categories = ["Rubicon", "Neuroscience", "Cognition"]
 bibfile = "ccnlab.json"
 +++
 
-[This page covers needs, drives, motivation, and affect in addition to emotion]
+[This page covers needs, drives, motivation, and affect in relation to emotion]
 
 **Emotion** is something everyone experiences but it remains somewhat difficult to define precisely. From the computational and neuroscience perspective taken here, we can provide a more precise definition:
 
