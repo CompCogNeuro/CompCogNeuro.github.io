@@ -17,9 +17,9 @@ There is extensive evidence showing that the dorsolateral BG encodes detailed mo
 
 At a neural level, the SPNs (spiny projection neurons; also called medium spiny neurons, MSNs) in the striatum receive the strongest [[dopamine]] inputs of any area in the brain, and likewise have the greatest ability to rapidly clear dopamine from the synapse after it has been released. This allows these neurons to learn from rapid _phasic_ changes in dopamine, i.e., _bursts_ and _dips_ relative to the baseline _tonic_ firing level, in a manner consistent with the core principles of [[reinforcement learning]] (RL; [[@MarkowitzGillisJayEtAl23]]; [[@HowardLiGeddesEtAl17]]; [[@NairGutierrez-ArenasErikssonEtAl15]]; [[@ShenFlajoletGreengardEtAl08]]; [[@Frank05]]; [[@HoukAdamsBarto95]]; [[@Barto95]]).
 
-Thus, the dorsolateral striatum is widely believed to be the neural substrate for the _actor_ component of the brain's reinforcement learning system, where reward prediction error (RPE) signals from the dopamine _critic_ system train the BG actor to improve motor actions to increase overall reward (see [[reinforcement learning#figure_actor-critic]] in the RL page). 
+Thus, the dorsolateral striatum is widely believed to be the neural substrate for the _actor_ component of the brain's reinforcement learning system, where reward prediction error (RPE) signals from the dopamine _critic_ system train the BG actor to improve motor actions to increase overall reward (see [[reinforcement learning#figure_actor-critic]] in the RL page). As discussed in the RL page, the most important computational challenge in RL is to find efficient parallel forms of [[search]], to avoid the [[curse of dimensionality]] in complex, real-world environments with large motor action repertories. Detailed aspects of the BG circuitry provide parallel solutions in online motor control and learning.
 
-However, in animals with more neocortex, especially in primates and humans, the BG also works intimately in concert with the cortex to organize behavior, by way of its extensive connections into the thalamus. These thalamic projections can provide two functions: direct modulation of cortical activity, which occurs in a very broad manner (which we term **gating**), and more fine-grained training of cortical learning through the same type of thalamic-driven [[predictive learning]] signals used in the [[Axon]] [[error-driven learning]] model.
+In animals with more neocortex, especially in primates and humans, the BG also works intimately in concert with the cortex to organize behavior, by way of its extensive connections into the thalamus. These thalamic projections can provide two functions: direct modulation of cortical activity, which occurs in a very broad manner (which we term **gating**), and more fine-grained training of cortical learning through the same type of thalamic-driven [[predictive learning]] signals used in the [[Axon]] [[error-driven learning]] model.
 
 Thalamic gating is a central mechanism in the [[Rubicon]] framework, for locking in the active maintenance of distributed goal representations across various regions of the prefrontal cortex, driven by the more medial and ventral areas shown in [[#figure_bg-rat-nhp]].
 
@@ -67,7 +67,7 @@ In summary, an opponent, competitive dynamic between Go and No pathways does _no
 
 ## Parallel action selection and online motor control
 
-The action selection framework is often construed in terms of a strongly serial, discrete conception of motor action, where a single discrete action is performed at a given time. However, at the level of the muscles that actually drive motor action, it is actually a highly parallel "symphony" of activity that is in constant motion. Thus, to the extent that the dorsolateral BG is involved in motor control at the level of muscles, it makes more sense to think of the BG as a conductor of this symphony, providing dynamic, bidirectional modulation of each of the different muscles in order to better coordinate their activity, to accomplish desired motor outcomes.
+The action selection framework is often construed in terms of a strongly serial, discrete conception of motor action, where a single discrete action is performed at a given time. However, at the level of the muscles that actually drive motor action, it is actually a highly parallel "symphony" of activity that is in constant motion, with graded contributions. This parallel, graded form of processing is synergistic with the efficient [[search]] through motor control space, as noted at the outset. Thus, to the extent that the dorsolateral BG is involved in motor control at the level of muscles, it makes more sense to think of the BG as a conductor of this symphony, providing dynamic, bidirectional modulation of each of the different muscles in order to better coordinate their activity, to accomplish desired motor outcomes.
 
 Under this more dynamic, parallel scenario, the Go vs. No pathways are not discretely and sequentially picking one out of many possible actions, but rather the dynamic balance between Go and No determines the extent to which each muscle or muscle group is selectively disinhibited at any given point in time, in parallel. If there is more Go than No, that pathway will be disinhibited and allowed to act more strongly, while a greater No than Go balance with tend to inhibit the pathway and prevent it from interfering with other muscle activity that should proceed. To return to the puppet-master analogy used above, the strings by which a puppet is controlled need to have bidirectional control: you can't operate a puppet in zero gravity! In the neural domain, the dynamic Go vs. No competition gives you this bidirectional control.
 
@@ -80,9 +80,7 @@ As we review in detail below, recordings of the activity of neurons in the BG ou
 {id="figure_bg-loops" style="height:40em"}
 ![Parallel loops through the BG circuit in the mouse, supporting a highly parallel search process for learning to control the motor and other brain areas interconnected with the BG. The SNr (Nigra) output integrates related striatal signals, presumably around specific motor effectors (muscle groups), with their data showing strong convergence from direct and indirect pathways onto the same SNr neurons. The parafasicular nuclei (PF, part of the intralaminar thalamus) provides an important credit assignment feedback signal to the striatum in the PCore model. From Foster et al., 2021.](media/fig_bg_loops_foster_etal_21.png)
 
-Furthermore, detailed anatomical pathway tracing through all of the circuits of the BG, and into and out of the cortex ([[#figure_bg-loops]]; [[@FosterBarryKorobkovaEtAl21]]), shows a remarkably topographic set of parallel loops through the BG, consistent with earlier reports ([[@AlexanderDeLongStrick86]]; [[@Haber03]]). The SNr output integrates related higher-dimensional striatal inputs to produce a continuously-valued, motor-specific signal reflecting the individual "votes" across all of these related neurons. See [[#ventral pallidum]] for other pathways specific to the ventromedial BG.
-
-Computationally, this parallel, graded modulation of action is much more efficient from a learning and [[search]] perspective than a serial, discrete selection process: incremental graded changes in modulation can be explored in parallel to optimize overall behavior, whereas a strictly discrete, serial process suffers from the [[curse of dimensionality]] as the space of actions and situations grows.
+Furthermore, detailed anatomical pathway tracing through all of the circuits of the BG, and into and out of the cortex ([[#figure_bg-loops]]; [[@FosterBarryKorobkovaEtAl21]]), shows a remarkably topographic set of parallel loops through the BG, consistent with earlier reports ([[@AlexanderDeLongStrick86]]; [[@Haber03]]). The SNr output integrates related higher-dimensional striatal inputs to produce a continuously-valued, motor-specific signal reflecting the individual "votes" across all of these related neurons. See [[#compartmental organization]] below for further details on these parallel pathways, and [[#ventral pallidum]] for other pathways specific to the ventromedial BG.
 
 While the relatively low-dimensional, parallel, graded BG output signals make sense from the descending motor control perspective, how does this kind of signal work in the context of ascending projections through the thalamus and back up to the neocortex, where there are many more millions of neurons? And how does the BG output coordinate with the direct descending projections from cortical motor areas into the same midbrain and spinal motor areas?
 
@@ -238,23 +236,6 @@ In summary, the main ascending contribution of the BG to cortical function is to
 
 The following sections describe additional elements of the BG system, which contribute important functionality, particularly for learning.
 
-## Parafascicular feedback loops
-
-As shown in [[#figure_bg-loops]], the output signals from the BG in the SNr/GPi feed back into the striatum via the parafascicular (PF) nucleus of the thalamus ([[@FosterBarryKorobkovaEtAl21]]; [[@FallonHughesSeverinoEtAl23]]; [[@MandelbaumTarandaHaynesEtAl19]]; [[@AllowaySmithWatson14]]). In primates, part of this circuit is called centromedian (CM), but we will use PF as a general term for this feedback connectivity. This pathway provides roughly as much synaptic input as the cortical inputs, so it is an important part of the overall BG circuit. In addition to getting significant input from the BG outputs, PF neurons receive inputs from associated areas of cortex and the superior colliculus. 
-
-<!--- TODO: PF projects to STN, discrete and temporally tuned [[@MatsumotoMinamimotoGraybielEtAl01]] -->
-<!--- They also project preferentially to direct pathway neurons ([[@SidibeSmith96]]). -->
-
-There are several functional implications of this pathway, which are captured in the PCore dorsal striatum model:
-
-* PF neurons project directly to SPNs in the matrix (but not [[#striosomes]] discussed below), and synapse on distal regions of the dendrite, targeting shafts instead of spines ([[@SmithRajuPareEtAl04]]), with a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]). These properties, along with their broad connectivity pattern, suggests a modulatory role on SPNs, potentially allowing salient sensory inputs to upregulate relevant motor areas.
-
-* PF also provides the major source of glutamatergic input to the cholinergic interneurons ([[#CINs]]), which then drive broad [[acetylcholine]] (ACh) neuromodulation of the surrounding neurons within a functionally related region of striatum (e.g., associated with a given output muscle or effector in DLS). In the PCore learning rules, this modulation is critical for establishing a [[credit assignment]] trace associated with the activity of a broader region of striatum, particularly in the [[#striosomes]] which can thus access the integrated output of the corresponding matrix neurons as reflected in the SNr/GPi output.
-
-* PF projections into DLS specifically activate inhibitory interneurons, potentially providing an additional termination inhibition that keeps the SPN firing restricted to a narrow time window.
-
-<!--- TODO: implement latter -->
-
 ## Ventral pallidum
 
 {id="figure_vp-conns" style="height:20em"}
@@ -268,9 +249,49 @@ Given the fundamental importance of these ventromedial pathways for survival-rel
 
 One difference from the dorsolateral striatum is that ventromedial striatal neurons have no clear anatomical distinction between patch (striosomes, discussed next) and matrix, so these different functions are anatomically intermixed. We ascribe the critic RPE functionality to the patch neurons, while the goal-selection gating decision is associated with the matrix projections through to the MD thalamus, as discussed further in [[prefrontal cortex]] and [[PVLV]].
 
-## Striosomes
+## Compartmental organization
 
-The direct and indirect pathway SPN neurons in the dorsolateral striatum that have been the primary focus to this point are located in anatomical groups known as _matrisomes_ (aka _matrix_), which comprises roughly 85% of the neurons in striatum. Interspersed among these neurons in the dorsal portion of the striatum are  patches of cells containing another class of SPNs called _striosomes_ (aka _patch_) ([[@GraybielRagsdale78]]; [[@Gerfen92]]).
+The dorsal regions of the BG have a collection of important additional properties that support parallel [[search]] in action selection and learning, particularly with respect to the [[credit assignment]] problem associated with parallel, graded activation of many different elements at the same time. [[#figure_bg-loops]] shows that the BG is organized in terms of topographic, convergent input of different sensory-motor inputs to the dorsal striatum, with the SNr/GPi outputs integrating the contributions of many striatal Go vs. No votes to produce an overall graded motor control signal as discussed above.
+
+Superimposed on this topography are different additional types of neurons that coordinate learning across the different individual SPN neurons that contribute to a common motor output signal. These neurons provide a credit assignment signal specialized to the actual contribution and activity of this motor pathway, in relation to phasic [[dopamine]] _critic_ (reward prediction error) signals that ultimately arise from behavioral actions. This specialized credit assignment is essential for assigning more precise credit and blame, and thus greatly speeding the parallel search process relative to an alternative where only purely global, undifferentiated critic signals are applied to all neurons in proportion to their individual activity.
+
+{id="figure_compartments" style="height:25em"}
+![Compartmental organization of dorsal BG, showing striosome patches vs. surrounding matrix, and the cholinergic interneurons (ChI, aka CINs) that are typically found on the borders of patches. Dopamine axons broadly innervate these regions. Figure from Brimblecombe & Cragg, 2017.](media/fig_bg_compartments_dls_brimblecombe_cragg_17.png)
+
+[[#figure_compartments]] shows these elements, which include:
+
+* **Patch**es of **striosomes** that are clustered together in the dorsal striatum ([[@GraybielRagsdale78]]; [[@Gerfen92]]), surrounded by the **matrix** neurons that have been the focus of the discussion so far. These patch neurons have distinct projections that provide bidirectional control over the firing of dopamine neurons in the SNc, which then project back up to these same anatomical regions ([[@Stephenson-JonesKardamakisRobertsonEtAl13]]). The connectivity of these patch neurons is similar to those in the ventromedial striatum via the ventral pallidum as discussed above, and provides a remarkable fit for the requirements of a localized critic system providing specialized dopamine signals based on the activity of the local group.
+
+* **CINs** are cholinergic interneurons that receive strong inputs from the parafascicular (PF) feedback loops and drive volume conduction of [[acetylcholine]] to the surrounding patch and matrix cells, providing the primary mechanism for the integrated motor output signal to modulate learning and activity across a given functional region.
+
+We discuss each of these components, starting with a further consideration of the nature of the PF feedback signal that provides the source for the credit assignment computations.
+
+### Parafascicular feedback loops
+
+As shown in [[#figure_bg-loops]], the output signals from the BG in the SNr/GPi feed back into the striatum via the parafascicular (PF) nucleus of the thalamus ([[@FosterBarryKorobkovaEtAl21]]; [[@FallonHughesSeverinoEtAl23]]; [[@MandelbaumTarandaHaynesEtAl19]]; [[@AllowaySmithWatson14]]). In primates, part of this circuit is called the centromedian (CM) nucleus, but we will use PF as a general term for this feedback connectivity. This pathway provides roughly as much total synaptic input to the striatum as the cortical inputs, so it is an important part of the overall BG circuit. In addition to getting significant input from the BG outputs, PF neurons receive inputs from associated areas of cortex and the superior colliculus (SC). Thus, the inhibitory BG output can modulate these excitatory inputs to provide a graded overall motor-control signal.
+
+<!--- TODO: PF projects to STN, discrete and temporally tuned [[@MatsumotoMinamimotoGraybielEtAl01]] -->
+<!--- They also project preferentially to direct pathway neurons ([[@SidibeSmith96]]). -->
+
+There functional implications of this pathway that are captured in the PCore dorsal striatum model include:
+
+* PF neurons project directly to SPNs in the matrix, but critically not to the striosomes, and synapse on distal regions of the dendrite, targeting shafts instead of spines ([[@SmithRajuPareEtAl04]]), with a high ratio of NMDA to AMPA receptors ([[@EllenderHarwoodKosilloEtAl13]]). These properties, along with their broad connectivity pattern, suggests a modulatory role on SPNs, potentially allowing salient sensory inputs from the SC to upregulate relevant motor areas.
+
+* PF also provides the major source of glutamatergic input to the CINs, as discussed below.
+
+* PF projections into DLS specifically activate inhibitory interneurons in the matrix, potentially providing an additional termination inhibition that keeps the SPN firing restricted to a narrow time window.
+
+<!--- TODO: implement latter -->
+
+### CINs
+
+The cholinergic interneurons (CINs) were previously called the tonically-active neurons (TANs) due to the fact that they fired continuously, in contrast to the generally quiescent SPNs. As discussed in [[Rubicon]] and [[PVLV]], the [[acetylcholine]] (ACh) system is critical for modulating the excitability and learning of many brain areas, including the BG via the CINs. Also, as noted above, the CINs receive significant input from the parafascicular feedback loops conveying BG SNr/GPi output back into the striatum.
+
+CINs are spaced fairly widely and preferentially located at the border between the striosome and matrix cells, where they are thought to provide a bridge between these two sets of striatal neurons ([[@GonzalesSmith15]]; [[@PragerPlotkin19]]). They are most concentrated in dorsal areas, and are relatively rare in the ventral areas ([[@AbudukeyoumuHernandez-FloresGarcia-MunozEtAl19]]), consistent with the idea that they are most important for modulating the parallel motor learning process. In ventral goal-learning areas, the centralized LDT ACh signal is more important, as discussed in [[acetylcholine]].
+
+Because CINs are tonically active, their phasic influence is through a stereotypic pattern of brief activity followed by a relatively long pause, and then rebound. This pattern facilitates synaptic plasticity in SPNs ([[@NairGutierrez-ArenasErikssonEtAl15]]; [[@DoigMagillApicellaEtAl14]]; [[@GoldbergReynolds11]];  [[@CrittendenLaceyWengEtAl17]]), and can directly stimulate dopamine release as well ([[@AbudukeyoumuHernandez-FloresGarcia-MunozEtAl19]]; [[@GoldbergReynolds11]]). Thus, CINs are ideally situated to provide a credit-assignment modulatory signal for learning in the striosomes (and matrix), based on feedback signals from the PF and other inputs.
+
+### Striosomes
 
 {id="figure_striosomes-out" style="height:25em"}
 ![Direct and indirect pathway outputs from the striosomes versus those from the matrix. Direct pathway projections inhibit dopamine neurons in the SNc, while indirect pathway neurons project to a region of the globus pallidus that has excitatory projections to the lateral habenula (LHb), which is exclusively capable of driving dips in dopamine firing. Figure from Grillner et al., 2020.](media/fig_bg_striosomes_grillner_etal_20.png)
@@ -278,23 +299,23 @@ The direct and indirect pathway SPN neurons in the dorsolateral striatum that ha
 {id="figure_gph" style="height:25em"}
 ![The globus pallidus habenula (GPh) pathway involves projections from striosomes to a subset of GPi / entopeduncular (EP) neurons that express glutamate in addition to GABA, and project to the lateral habenula. This is a critical pathway by which the striosomes can modulate dopamine firing. Figure from Stephenson-Jones et al., 2013.](media/fig_bg_gph_stephenson-jones_etal_13.png)
 
-These patch neurons have both direct and indirect types ([[#figure_striosomes-out]]), with the direct pathway projecting to the SNc dopamine neurons that send dopamine back up to the striatum (which they directly inhibit; [[@EvansTwedellZhuEtAl20]]; [[@NadelPawelkoScottEtAl21]]; [[@OkunomiyaWatanabeBannoEtAl25]]; [[@DongWangSullivanEtAl25]]), and the indirect pathway projecting to the [[lateral habenula]] via the GPh (habenula-projecting globus pallidus; [[#figure_gph]]; [[@Stephenson-JonesKardamakisRobertsonEtAl13]]; [[@WallaceSaundersHuangEtAl17]]), which is exclusively capable of driving phasic dips in dopamine firing (see [[PVLV]]). Thus, these neurons are in a position to regulate the dopamine neuromodulation of the striatum on a relatively topographically-organized basis ([[@JoelWeiner00]]).
+The patch neurons in striosomes have both direct and indirect types ([[#figure_striosomes-out]]), with the direct pathway projecting to the SNc dopamine neurons that send dopamine back up to the striatum (which they directly inhibit; [[@EvansTwedellZhuEtAl20]]; [[@NadelPawelkoScottEtAl21]]; [[@OkunomiyaWatanabeBannoEtAl25]]; [[@DongWangSullivanEtAl25]]), and the indirect pathway projecting to the [[lateral habenula]] via the GPh (habenula-projecting globus pallidus; [[#figure_gph]]; [[@Stephenson-JonesKardamakisRobertsonEtAl13]]; [[@WallaceSaundersHuangEtAl17]]). The lateral habenula (LHb) is exclusively capable of driving phasic dips in dopamine firing (see [[PVLV]]). Thus, these neurons are in a position to regulate the dopamine neuromodulation of the striatum on a relatively topographically-organized basis ([[@JoelWeiner00]]).
 
-Overall, the striosomal input and output connectivity is similar to that of neurons in the ventromedial striatum, with strong similarities with the ventral pallidum outputs as discussed above. The striosomes, even those located in dorsolateral motor areas, receive input preferentially from the ventral and medial goal-driven brain areas (PL, IL, ACC) and not from motor cortex ([[@BerendseGalis-DeGraafGroenewegen92]]; [[@Gerfen89]]).
+Overall, the striosomal input and output connectivity is similar to that of neurons in the ventromedial striatum, with strong similarities with the ventral pallidum outputs as discussed above. The striosomes, even those located in dorsolateral motor areas, receive input preferentially from the ventral and medial goal-driven brain areas (PL, IL, ACC) and not from motor cortex ([[@BerendseGalis-DeGraafGroenewegen92]]; [[@Gerfen89]]). Thus, as noted above, the striosomes are ideally configured to provide a localized critic signal for a functional region of BG.
 
-Thus, a plausible computational role for striosomes is to provide a _localized critic_ similar to what the patch neurons in the VMS do, but somehow specializing the critic signal specifically for the local surrounding matrix neurons, which receive the SNc modulated dopamine signals affected by their neighboring striosomes. The key question is: how do the striosomes customize their signal relative to the global critic signal driven by the VMS?
+We hypothesize that the cholinergic input from the CINs, driven by PF feedback inputs, provides a signal to specialize the critic learning in a given striosome based on the overall BG output. The complex dynamical  properties of CINs, along with their various other inputs, could potentially support an additional filtering of these feedback signals, to further focus the patch-based localized critic learning.
 
-From a computational perspective, the most logical basis for striosomal critic learning would be to condition the RPE computation on the actual contributions of the local matrix neurons to the final outcome, in order to restrict the [[credit assignment]] to only target striatal neurons that actually made a contribution. But how can striosome neurons get inputs indicating when the local matrix neurons make a contribution? The source of this signal is best conveyed by the [[#parafascicular feedback loops]], sending an excitatory input to corresponding areas of the striatum reflecting the final BG output ([[#figure_bg-loops]]). These PF loops provide the predominant input to the cholinergic interneurons ([[#CINs]]), which then provide cholinergic modulation of the surrounding areas, including striosomes.
+There are two important further constraints on patch learning. First, despite the broad similarities, there is a very important difference in the dorsal patch vs. ventral striatum connectivity: in ventral striatum, the positive reward expectation drives _both_ direct shunting inhibition on dopamine neurons (to _cancel_ any reward bursts that might otherwise occur), and the LHb-based dipping (when an expected reward does not occur, and there is a "disappointment" registered).
 
-[[@FriedmanHommaGibbEtAl15]] shows that PL projections to dorsomedial striatum (ALM / dlPFC motor planning area) activate inhibitory interneurons in striosomes, which then inhibit striosomes, during high-conflict cases where cost-benefit ratio is high. Inhibiting this PL projection led to an increase in high-reward choices specifically in the high-cost, high-reward case. Activating PL had opposite effects. Activating ACC lead to increase in higher-reward preference across the board.
+However, the dorsal patch neurons, by virtue of the D1 vs D2 modulation, would compute a different function. D1 neurons experience LTP and increase firing from dopamine bursts, so they represent the positive reward expectation. According to the patch connectivity, this means they would shunt dopamine firing according to these positive expectations, but not drive actual phasic dips. The D2 patch neurons represent negative expectations, and can thus drive dips directly in response to these negative expectations.
 
-## CINs
+Furthermore, there is a question as to the timing of these patch-driven signals. Do they provide a more immediate form of feedback signal, prior to the final outcome, based on immediate patch modulations? If so, then there is no actual positive reward value to compare against. One possibility is that there is an automatic dopamine release anytime a PF-driven area is activated, and it is the job of the striosomes to either shunt this based on a history of positive outcomes, or turn it into a dip if there is a learned expectation of negative outcomes.
 
-Another important cell type within the striatum are the cholinergic interneurons (CINs), which were previously called the tonically-active neurons (TANs) due to this notable distinguishing characteristic relative to the generally quiescent SPNs. As discussed in [[Rubicon]] and [[PVLV]], the [[acetylcholine]] system is critical for modulating the excitability and learning of many brain areas, including the BG via the CINs. Also, as noted above, the CINs receive significant input from the parafascicular feedback loops conveying BG SNr/GPi output back into the striatum.
+Also, because the SNc also receives the driving inputs associated with the global critic signal, which is purely represented in the VTA (see [[PVLV]] for details), the striosome inputs represent a _modulation_ or "edit" of that global signal, but do not need to recapitulate the global RPE component. In the simplest form, the patch D1 (direct pathway) neurons could learn a CIN-modulated factor representing the extent to which activity in this region is associated with dopamine bursts, while D2 (indirect pathway) neurons learn CIN-modulated dopamine dips. 
 
-CINs are spaced fairly widely and preferentially located at the border between the striosome and matrix cells, where they are thought to provide a bridge between these two sets of striatal neurons ([[@GonzalesSmith15]]). From a computational perspective, we can think of them as applying to a functionally coherent subset of striatal neurons, e.g., those coding for a specific effector pathway in DLS.
 
-The primary mode of firing in the CINs is a stereotypic pattern of brief activity followed by a pause and then rebound. This pattern typically facilitates synaptic plasticity in SPNs ([[@NairGutierrez-ArenasErikssonEtAl15]]).
+
+<!--- TODO: explore, report back.. -->
 
 
 ## PCore learning: trace and credit assignment
@@ -333,7 +354,7 @@ With the definition of the trace in [[#eq_vs-tr]], this is partially a _three fa
 
 ### Dorsolateral learning
 
-The DLS learning rule is similar to the VMS one, with a slightly different formulation of the ACh neuromodulatory factor that in this case now reflects the overall output pathway activation over a topographically and functionally-associated defined region of striatum, as conveyed via the [[#parafascicular feedback loops]] to the [[#CINs]]. 
+The DLS learning rule is similar to the VMS one, with a slightly different formulation of the ACh neuromodulatory factor that in this case now reflects the overall output pathway activation over a topographically and functionally-associated defined region of striatum, as conveyed via the [[#parafascicular feedback loops]] to the [[#CINs]], as discussed above.
 
 {id="eq_dls-tr" title="DLS Trace"}
 $$
@@ -342,7 +363,7 @@ $$
 
 The $\rm{ACh}_0$ factor is a low baseline level (0.005) to allow slow learning in non-gated pathways. Also note that the delta learning is outside of the PF modulation, to allow error gradient learning to always operate. The same dopamine-modulated weight change equation ([[#eq_vms-dwt]]) is used for DLS as well.
 
-<!--- TODO: path not taken!?  no reversal of sign based on gating? -->
+<!--- TODO: path not taken!?  yes, in RLRate! -->
 
 <!--- * also see about using it to drive striasome-like effect -- basically same thing right?? -->
 <!--- * play with bgdorsal params for this -->

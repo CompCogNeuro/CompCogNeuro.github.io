@@ -4,6 +4,8 @@
 
 <p id="AbdiMalletMohamedEtAl15">Abdi, A., Mallet, N., Mohamed, F.Y., Sharott, A., Dodson, P.D., Nakamura, K.C., Suri, S., Avery, S.V., Larvin, J.T., Garas, F.N., Garas, S.N., Vinciati, F., Morin, S., Bezard, E., Baufreton, J., & Magill, P.J. (2015). Prototypic and arkypallidal neurons in the dopamine-intact external globus pallidus. Journal of Neuroscience, 35, 6667-6688. https://www.jneurosci.org/content/35/17/6667 http://doi.org/10.1523/JNEUROSCI.4662-14.2015</p>
 
+<p id="AbudukeyoumuHernandez-FloresGarcia-MunozEtAl19">Abudukeyoumu, N., Hernandez-Flores, T., Garcia-Munoz, M., & Arbuthnott, G.W. (2019). Cholinergic modulation of striatal microcircuits. European Journal of Neuroscience, 49, 604-622. https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.13949 http://doi.org/10.1111/ejn.13949</p>
+
 <p id="AckleyHintonSejnowski85">Ackley, D.H., Hinton, G.E., & Sejnowski, T.J. (1985). A learning algorithm for Boltzmann machines. Cognitive Science, 9, 147-169. </p>
 
 <p id="AdelmanMaylieSah12">Adelman, J.P., Maylie, J., & Sah, P. (2012). Small-conductance Ca2+-activated K+ channels: form and function. Annual Review of Physiology, 74, 245-269.  http://doi.org/10.1146/annurev-physiol-020911-153336</p>
@@ -27,6 +29,8 @@
 <p id="AllowaySmithWatson14">Alloway, K.D., Smith, J.B., & Watson, G.D.R. (2014). Thalamostriatal projections from the medial posterior and parafascicular nuclei have distinct topographic and physiologic properties. Journal of Neurophysiology, 111, 36-50. https://journals.physiology.org/doi/full/10.1152/jn.00399.2013 http://doi.org/10.1152/jn.00399.2013</p>
 
 <p id="Almeida87">Almeida, L.B. (1987). A Learning Rule for Asynchronous Perceptrons with Feedback in a Combinatorial Environment. In M. Caudil, & C. Butler (Eds.), Proceedings of the IEEE First International Conference on Neural Networks San Diego, CA (pp. 609-618). </p>
+
+<p id="AnanthRajebhosaleKimEtAl23">Ananth, M.R., Rajebhosale, P., Kim, R., Talmage, D.A., & Role, L.W. (2023). Basal forebrain cholinergic signalling: development, connectivity and roles in cognition. Nature Reviews Neuroscience, 1-19. https://www.nature.com/articles/s41583-023-00677-x http://doi.org/10.1038/s41583-023-00677-x</p>
 
 <p id="AndersonLebiere98">Anderson, J.R., & Lebiere, C. (1998). The Atomic Components of Thought (1 ed). Lawrence Erlbaum Associated, Publishers. </p>
 
@@ -188,6 +192,8 @@
 
 <p id="CritcherHuberHoEtAl09">Critcher, C.R., Huber, M., Ho, A.K., & Koleva, S.P. (2009). Political Orientation and Ideological Inconsistencies: (Dis)comfort with Value Tradeoffs. Social Justice Research, 22, 181-205. https://doi.org/10.1007/s11211-009-0096-1 http://doi.org/10.1007/s11211-009-0096-1</p>
 
+<p id="CrittendenLaceyWengEtAl17">Crittenden, J.R., Lacey, C.J., Weng, F., Garrison, C.E., Gibson, D.J., Lin, Y., & Graybiel, A.M. (2017). Striatal Cholinergic Interneurons Modulate Spike-Timing in Striosomes and Matrix by an Amphetamine-Sensitive Mechanism. Frontiers in Neuroanatomy, 11, https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00020/full http://doi.org/10.3389/fnana.2017.00020</p>
+
 <p id="CuiDuChangEtAl21">Cui, Q., Du, X., Chang, I.Y.M., Pamukcu, A., Lilascharoen, V., Berceau, B.L., García, D., Hong, D., Chon, U., Narayanan, A., Kim, Y., Lim, B.K., & Chan, C.S. (2021). Striatal direct pathway targets Npas1+ pallidal neurons. Journal of Neuroscience, 41, 3966-3987. https://www.jneurosci.org/content/41/18/3966 http://doi.org/10.1523/JNEUROSCI.2306-20.2021</p>
 
 <p id="CuiJunJinEtAl13">Cui, G., Jun, S.B., Jin, X., Pham, M.D., Vogel, S.S., Lovinger, D.M., & Costa, R.M. (2013). Concurrent activation of striatal direct and indirect pathways during action initiation. Nature, 494, http://www.ncbi.nlm.nih.gov/pubmed/23354054</p>
@@ -225,6 +231,8 @@
 <p id="DoiFanGoldEtAl20">Doi, T., Fan, Y., Gold, J.I., & Ding, L. (2020). The caudate nucleus contributes causally to decisions that balance reward and uncertain visual information. eLife, 9, e56694. https://elifesciences.org/articles/56694 http://doi.org/10.7554/eLife.56694</p>
 
 <p id="DoiKurodaMichikawaEtAl05">Doi, T., Kuroda, S., Michikawa, T., & Kawato, M. (2005). Inositol 1,4,5-trisphosphate-dependent Ca2+ threshold dynamics detect spike timing in cerebellar purkinje cells. Journal of Neuroscience, 25, 950-961. https://www.jneurosci.org/content/25/4/950 http://doi.org/10.1523/JNEUROSCI.2727-04.2005</p>
+
+<p id="DoigMagillApicellaEtAl14">Doig, N.M., Magill, P.J., Apicella, P., Bolam, J.P., & Sharott, A. (2014). Cortical and Thalamic Excitation Mediate the Multiphasic Responses of Striatal Cholinergic Interneurons to Motivationally Salient Stimuli. Journal of Neuroscience, 34, 3101-3117. https://www.jneurosci.org/content/34/8/3101 http://doi.org/10.1523/JNEUROSCI.4627-13.2014</p>
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
 
@@ -352,6 +360,8 @@
 
 <p id="GoldShadlen02">Gold, J.I., & Shadlen, M.N. (2002). Banburismus and the brain: decoding the relationship between sensory stimuli, decisions, and reward. Neuron, 36, 299-308. http://www.ncbi.nlm.nih.gov/pubmed/12383783</p>
 
+<p id="GoldbergReynolds11">Goldberg, J.A., & Reynolds, J.N.J. (2011). Spontaneous firing and evoked pauses in the tonically active cholinergic interneurons of the striatum. Neuroscience, 198, 27-43. http://www.sciencedirect.com/science/article/pii/S0306452211010256 http://doi.org/10.1016/j.neuroscience.2011.08.067</p>
+
 <p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
 
 <p id="Gollwitzer12">Gollwitzer, P.M. (2012). Mindset theory of action phases. In Handbook of theories of social psychology, Vol. 1 (pp. 526-545). Sage Publications Ltd.  http://doi.org/10.4135/9781446249215.n26</p>
@@ -401,6 +411,8 @@
 <p id="HafnerLillicrapNorouziEtAl22">Hafner, D., Lillicrap, T., Norouzi, M., & Ba, J. (2022). Mastering Atari with Discrete World Models. http://arxiv.org/abs/2010.02193 http://doi.org/10.48550/arXiv.2010.02193</p>
 
 <p id="HallworthWilsonBevan03">Hallworth, N.E., Wilson, C.J., & Bevan, M.D. (2003). Apamin-Sensitive Small Conductance Calcium-Activated Potassium Channels, through their Selective Coupling to Voltage-Gated Calcium Channels, Are Critical Determinants of the Precision, Pace, and Pattern of Action Potential Generation in Rat Subthalamic Nucleus Neurons In Vitro. Journal of Neuroscience, 23, 7525-7542. http://www.jneurosci.org/content/23/20/7525 http://doi.org/10.1523/JNEUROSCI.23-20-07525.2003</p>
+
+<p id="HangyaRanadeLorencEtAl15">Hangya, B., Ranade, S.P., Lorenc, M., & Kepecs, A. (2015). Central cholinergic neurons are rapidly recruited by reinforcement feedback. Cell, 162, 1155-1168. https://www.sciencedirect.com/science/article/pii/S0092867415009733 http://doi.org/10.1016/j.cell.2015.07.057</p>
 
 <p id="HarrisShepherd15">Harris, K.D., & Shepherd, G.M.G. (2015). The neocortical circuit: themes and variations. Nature Neuroscience, 18(2), 170-181. http://www.nature.com/articles/nn.3917 http://doi.org/10.1038/nn.3917</p>
 
@@ -571,6 +583,8 @@
 <p id="LarkumZhuSakmann99">Larkum, M.E., Zhu, J.J., & Sakmann, B. (1999). A new cellular mechanism for coupling inputs arriving at different cortical layers. Nature, 398, 338-341. https://www.nature.com/articles/18686 http://doi.org/10.1038/18686</p>
 
 <p id="Larsson13">Larsson, H.P. (2013). What Determines the Kinetics of the Slow Afterhyperpolarization (sAHP) in Neurons? Biophysical Journal, 104, 281-283. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3552283/ http://doi.org/10.1016/j.bpj.2012.11.3832</p>
+
+<p id="LaszlovszkySchlingloffHegedusEtAl20">Laszlovszky, T., Schlingloff, D., Hegedüs, P., Freund, T.F., Gulyás, A., Kepecs, A., & Hangya, B. (2020). Distinct synchronization, cortical coupling and behavioral function of two basal forebrain cholinergic neuron types. Nature Neuroscience, 23, 992-1003. https://www.nature.com/articles/s41593-020-0648-0 http://doi.org/10.1038/s41593-020-0648-0</p>
 
 <p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
 
@@ -799,6 +813,8 @@
 <p id="PosnerWalkerFriedrichEtAl84">Posner, M.I., Walker, J.A., Friedrich, F.J., & Rafal, R.D. (1984). Effects of Parietal Lobe Injury on Covert Orienting of Visual Attention. Journal of Neuroscience, 4, 1863-1874. </p>
 
 <p id="PougetBeckMaEtAl13">Pouget, A., Beck, J.M., Ma, W.J., & Latham, P.E. (2013). Probabilistic brains: knowns and unknowns. Nature Neuroscience, 16, 1170-1178.  http://doi.org/10.1038/nn.3495</p>
+
+<p id="PragerPlotkin19">Prager, E.M., & Plotkin, J.L. (2019). Compartmental function and modulation of the striatum. Journal of Neuroscience Research, jnr.24522. https://onlinelibrary.wiley.com/doi/10.1002/jnr.24522 http://doi.org/10.1002/jnr.24522</p>
 
 <p id="PressFlanneryTeukolskyEtAl88">Press, W.H., Flannery, B.P., Teukolsky, S.A., & Vetterling, W.T. (1988). Numerical Recipies In C: The Art of Scientific Computing. Cambridge University Press. </p>
 
