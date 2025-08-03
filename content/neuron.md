@@ -474,7 +474,7 @@ The other main feature of the AdEx model is [[adaptation]] which makes it harder
 | Excitatory $E_e$           |   0 mV  |
 | Inhibition $E_i$           | -90 mV  |
 | Spiking threshold $\Theta$ | -50 mV  |
-| Exp Slope $\Delta_T$       | 2 mv    |
+| Exp Slope $\Delta_T$       | 2 mV    |
 
 ## Other channels
 

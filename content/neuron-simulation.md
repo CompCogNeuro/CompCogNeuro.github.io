@@ -31,7 +31,7 @@ The [[#sim_neuron:Test Cycle Plot/Act]] value plots the rate-code activation val
 
 Why would the rate of spiking increase, when we are only injecting a constant amount of excitation and inhibition?
 
-* Click on [[#sim_neuron:Test Cycle Plot/Gnmda]] to see the overall NMDA channel conductance (see [[neuron channels#NMDA]] for details), which is steadily increasing over time. This channel has slower dynamics that result [[stable activation]] patterns, and you can see that in the plot. This is what is driving the increase in firing rate over time. You can see the total excitatory conductance that includes this NMDA contribution by clicking on [[#sim_neuron:Test Cycle Plot/Ge]].
+* Click on [[#sim_neuron:Test Cycle Plot/Gnmda]] to see the overall NMDA channel conductance (see [[neuron channels#NMDA]] for details), which is steadily increasing over time. This channel has slower dynamics that result in [[stable activation]] patterns, and you can see that in the plot. This is what is driving the increase in firing rate over time. You can see the total excitatory conductance that includes this NMDA contribution by clicking on [[#sim_neuron:Test Cycle Plot/Ge]].
 
 * To test the impact of NMDA, set the [[#sim_neuron:NmdaGe]] value to 0 instead of the default of 0.006, and then do [[#sim_neuron:Init]] (to clear the plot) and [[#sim_neuron:Run Cycles]] again.
 
@@ -55,7 +55,7 @@ Now that things are simpler, we can drill down and understand the basic excitato
 
 * Turn on [[#sim_neuron:Test Cycle Plot/Ge]] = total excitatory input conductance to the neuron, which is generally a function of the number of open excitatory synaptic input channels at any given point in time (`Ge(t)`) and the overall strength of these input channels, which is given by `Gbar E`.  In this simple model, `Ge(t)` goes from 0 prior to cycle 10, to .75 from 10-160, and back to 0 thereafter.
 
-The [[#sim_neuron:Ge]] parameter is set to 0.15 -- why are we getting 0.75 in the plot? The reason is that we're injecting 0.15 of _raw_ new synapse-level conductance that is supposed to be coming from AMPA channels. However, these AMPA channels stay open for 5 ms, i.e., 5 time steps, so they effectively accumulate 5x this per-step input, and indeed $5 x 0.15 = 0.75$.
+The [[#sim_neuron:Ge]] parameter is set to 0.15 -- why are we getting 0.75 in the plot? The reason is that we're injecting 0.15 of _raw_ new synapse-level conductance that is supposed to be coming from AMPA channels. However, these AMPA channels stay open for 5 ms, i.e., 5 time steps, so they effectively accumulate 5x this per-step input, and indeed $5 * 0.15 = 0.75$.
 
 {id="question_gi"}
 > Now you should be able to explain the value of [[#sim_neuron:Test Cycle Plot/Gi]] in the plot, in relation to the [[#sim_neuron:Gi]] parameter of 0.1 (hint: the decay time constant for GABA-A inhibitory channels is 7 ms).
@@ -71,7 +71,7 @@ From the tug-of-war model, you should expect that increasing the amount of excit
 
 This intuitive behavior is the essence of what you need to understand about how the neuron operates. 
 
-* Increase the [[#sim_neuron:Ge]] excitation from 0.15 to 0.16 (and then do Init and Run to see the effects). Then observe the effects of increasing [[#sim_neuron:Gi]] inhibition from 0.1 to 0.11. Go further and increase inhibition to 0.012.
+* Increase the [[#sim_neuron:Ge]] excitation from 0.15 to 0.16 (and then do Init and Run to see the effects). Then observe the effects of increasing [[#sim_neuron:Gi]] inhibition from 0.1 to 0.11. Go further and increase inhibition to 0.12.
 
 {id="question_ge-gi"}
 > Describe the qualitative effects on the rate of neural spiking of increasing Ge from 0.15 to 0.16, and then increasing Gi 0.1 to 0.11.
@@ -81,7 +81,7 @@ This intuitive behavior is the essence of what you need to understand about how 
 
 ### Driving / Reversal Potentials
 
-* Set Ge back to .15 and Gi to .1, then set [[#sim_neuron:ErevE]] to -1 instead of 0, and Run. Surprisingly, this small change prevents the neuron from spiking, by reducing the driving potential of excitation. Likewise, lowering [[#sim_neuron:ErevI]] from -90 to -92 is sufficient to eliminate spiking.
+* Set Ge back to .15 and Gi to .1, then set [[#sim_neuron:ErevE]] to -2 instead of 0, and Run. Surprisingly, this small change prevents the neuron from spiking, by reducing the driving potential of excitation. Likewise, lowering [[#sim_neuron:ErevI]] from -90 to -92 is sufficient to eliminate spiking.
 
 ## Noise
 
