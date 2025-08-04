@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 TODO: convert sim to axon; currently only available in Leabra:
 
-Open the [cats-dogs](https://compcogneuro.org/sims/ch3/necker_cube/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
+Open the [necker-cube](https://compcogneuro.org/sims/ch3/necker_cube/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
 
 {id="figure_necker-cube"}
 ![The Necker Cube](media/fig_necker_cube.png)
