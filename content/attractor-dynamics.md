@@ -10,7 +10,7 @@ The overall process of converging on a good internal representation given a nois
 
 This is the key idea behind an attractor: many different inputs all get sucked into the same final state. If the attractor dynamic is successful, then this final state should be the correct [[categorization]] of the input pattern. Probably the best subjective experience of this attractor dynamic is when viewing an [Autostereogram](http://en.wikipedia.org/wiki/Autostereogram) (wikipedia link) --- you just stare at this random-looking pattern with your eyes crossed, until slowly your brain starts to fall into the 3D attractor, and the image slowly emerges. The underlying image contains many individual matches of the random patterns between the two eyes at different lateral offsets --- these are the constraints in the multiple constraint satisfaction problem that eventually work together to cause the 3D image to appear --- this 3D image is the one that best satisfies all those constraints.
 
-{id="figure_dalmation" style="height:20em"}
+{id="figure_dalmatian" style="height:20em"}
 ![A well-known example of an image that is highly ambiguous, but we can figure out what is going on if an appropriate high-level cue is provided, e.g., "Dalmatian". This process of top-down knowledge helping resolve bottom-up ambiguity is a great example of bidirectional processing.](media/fig_dalmatian.png)
 
 There are many different instances where bidirectional excitatory dynamics are evident:
@@ -25,7 +25,7 @@ There are many different instances where bidirectional excitatory dynamics are e
 
 There is a mathematical way to capture something like the vertical axis in the attractor ([[#figure_attractor]]), which in the physical terms of a gravity well is _potential energy_. Perhaps not surprisingly, this measure is called **energy** and it was developed by a physicist named John Hopfield. He showed that local updating of unit activation states ends up reducing a global energy measure, much in the same way that local motion of the coin in the gravity well reduces its overall potential energy ([[@Hopfield82]]; [[@Hopfield84]]).
 
-Another physicist, Paul Smolensky, developed an alternative framework with the sign reversed, where local updating of unit activation states _increases global Harmony_ [[@Smolensky86]]. That sounds nicer, doesn't it? We don't actually need these equations to run our models, and the basic intuition for what they tell us is captured by the notion of an attractor, but the equations are developed below for those who might be interested.
+Another physicist, Paul Smolensky, developed an alternative framework with the sign reversed, where local updating of unit activation states _increases global Harmony_ ([[@Smolensky86]]). That sounds nicer, doesn't it? We don't actually need these equations to run our models, and the basic intuition for what they tell us is captured by the notion of an attractor, but the equations are developed below for those who might be interested.
 
 The Hopfield energy equation is:
 
