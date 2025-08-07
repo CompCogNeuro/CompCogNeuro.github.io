@@ -386,13 +386,19 @@ The active factor ([[#eq_dls-tr-pf]]) captures the shunting inhibition effect of
 
 The off factor ([[#eq_dls-tr-off]]) does not do discounting but rather drives a net DA signal between both pathways reflecting the difference of D1 - D2 with a minus sign applied, which drives exploratory learning toward pools that were not engaged this time around, but still had a higher positive reward association, which will end up being positive if the end result is worse than expected (because the wrong actions were in fact selected). 
 
-This logic is admittedly rather complex and hard to follow, but every part of the above equations has been extensively tested in the [[dorsal BGg simulation]], where the addition of these patch-based modulatory signals makes a significant contribution to being able to learn longer action sequences with more possible actions.
+This logic is somewhat complex, but every part of the above equations has been extensively tested in the [[BG dorsal simulation]], where the addition of these patch-based modulatory signals makes a significant contribution to being able to learn longer action sequences with more possible actions.
 
 ## Summary
 
-Befitting its role at the heart of the brain, with its fingers on every major button, the basal ganglia is a complex system with many moving parts, and a considerable degree of functional specialization across different areas, from ventromedial to dorsolateral. Nevertheless, each of these different areas shares the same core circuit, and we have found that the same PCore model performs well for the different computational functions associated with these different areas.
+Befitting its role at the heart of the brain, with its fingers on every major button, the basal ganglia is a complex system with many moving parts, and a considerable degree of functional specialization across different areas, from ventromedial to dorsolateral. Nevertheless, each of these different areas shares the same core circuit, and we have found that the same "core" PCore model performs well for the different computational functions associated with these different areas.
 
 As illustrated by the characteristic response properties of neurons in the ventromedial striatum (VMS) ([[#figure_vs-maze]]), this area of the BG circuit is critical for the goal selection process (as described by the [[Rubicon]] model) and for processing the subsequent outcome of the goal-engaged episode. Interestingly, this goal-selection process performs much of the work involved in action selection, in a proactive manner, so that the motor-related processing in the DLS can focus on a more dynamic, online modulation of moment-by-moment action execution within the context of a larger plan.
 
 There is also evidence that different species have different balances of BG vs. cortical influence on motor control, with primates and humans having a much stronger degree of cortical influence over motor control, while rodents and other species with less cortical development are more driven by the BG. Thus, the impact of the BG on [[prefrontal cortex]] is likely to be more important for primates, and that page is strongly recommended to get a more complete picture of the broader BG / PFC system.
+
+## Simulations
+
+* [[BG ventral simulation]] is the simpler of the two basic BG models, and is the best way to understand the basic dynamics of the PCore model. It simulates the [[Rubicon]] goal-selection process in ventromedial striatum and associated BG circuits through the [[#ventral pallidum]], based on cortical input indicating the relative costs vs benefits of selecting a given goal.
+
+* [[BG dorsal simulation]] explores the dynamic motor control process supported by the dorsolateral striatum and associated BG circuits, in a simple motor sequencing task where the correct motor sequence is rewarded and others are not.
 
