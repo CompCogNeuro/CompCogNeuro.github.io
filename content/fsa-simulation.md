@@ -1,7 +1,6 @@
 +++
 Categories = ["Learning", "Simulations"]
-title = "FSA simulation"
-name = "FSA simulation"
+Name = "FSA simulation"
 bibfile = "ccnlab.json"
 +++
 

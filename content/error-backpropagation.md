@@ -29,7 +29,7 @@ $$
 \eta_j = \sum x_i w_{ij}
 $$
 
-$\eta_j$ is the linear _net input_ to hidden unit unit $j$, computed as the dot product of sending activity $x_i$ times the synaptic weight values (see [[linear algebra]] for an illustration, and [[neuron#Computing input conductances]] for biological context).
+$\eta_j$ is the linear _net input_ to hidden unit $j$, computed as the dot product of sending activity $x_i$ times the synaptic weight values (see [[linear algebra]] for an illustration, and [[neuron#Computing input conductances]] for biological context).
 
 The unit _activity_ (representing something like the expected rate of neural spiking in biological terms) is then a function of this net input:
 

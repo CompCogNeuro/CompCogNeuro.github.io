@@ -1,5 +1,4 @@
 +++
-Title = "Intro Book"
 Name = "Intro Book"
 Categories = ["Axon", "Textbooks"]
 +++

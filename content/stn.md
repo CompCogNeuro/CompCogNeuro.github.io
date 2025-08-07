@@ -1,6 +1,5 @@
 +++
 Categories = ["Rubicon", "Neuroscience"]
-Title = "STN"
 Name = "STN"
 bibfile = "ccnlab.json"
 +++

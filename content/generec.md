@@ -1,6 +1,5 @@
 +++
-title = "GeneRec"
-name = "GeneRec"
+Name = "GeneRec"
 Categories = ["Learning", "Axon", "Computation"]
 bibfile = "ccnlab.json"
 +++
