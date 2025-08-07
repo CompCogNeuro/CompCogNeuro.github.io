@@ -100,5 +100,8 @@ The core material on which this framework is based has been around for 25 years 
 
 However, these new AI models also include many mechanisms that are _not_ consistent with the underlying biology, and the performance-based goals for these models are often at odds with the more purely scientific goals of understanding how the brain works. In any case, we attempt to learn as much from the success of these models as possible, while remaining focused on the overall scientific mission of understanding how the brain actually works.
 
-## CCN pages
+## Links
+
+Next in [[Intro Book]]: [[Neuron]]
+
 

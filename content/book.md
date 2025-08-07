@@ -1,5 +1,5 @@
 +++
-Categories = ["Leabra", "Textbooks", "Computational Cognitive Neuroscience"]
+Categories = ["Leabra", "Textbooks"]
 +++
 
 ## Computational Cognitive Neuroscience

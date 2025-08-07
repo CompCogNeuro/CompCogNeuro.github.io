@@ -1,6 +1,6 @@
 +++
-Title = "CCN Intro"
-Name = "CCN Intro"
+Title = "Intro Book"
+Name = "Intro Book"
 Categories = ["Axon", "Textbooks"]
 +++
 

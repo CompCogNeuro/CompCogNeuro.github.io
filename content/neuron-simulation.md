@@ -95,5 +95,10 @@ You should observe that the timing of the spikes varies significantly across the
 
 Thus, even a relatively modest amount of noise can produce significant differences in spike timing, due to the nonlinear positive feedback loops involved in neural spiking. If you increase the Noise conductance level further, you can get even more uniform (i.e., highly variable) distributions of spike timings across runs.
 
+## Links
+
+Next in [[Intro Book]]: [[Detector simulation]]
+
 </div>
+
 

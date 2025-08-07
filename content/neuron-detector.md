@@ -32,3 +32,7 @@ Computationally, the weights determine what a neuron is detecting. A strong weig
 
 In short, _everything you know, every cherished memory in your brain, is encoded as a pattern of synaptic weights!_  This detection process supports [[categorization]] and also, in linear algebra terms, the _projection_ of high-dimensional input spaces along specific _dimensions_ or _bases_ or _axes_ (all synonyms for our purposes). Thus, this detection process is truly the fundamental engine of neural computation, and can be described in many different ways that all amount to the same essential process we deconstruct here.
 
+## Links
+
+Next in [[Intro Book]]: [[Neuron]]
+

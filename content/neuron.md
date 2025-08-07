@@ -496,5 +496,7 @@ There are several additional in-depth pages providing more details about biologi
 
 * [[Neuron bayesian|Neuron as a Bayesian optimal detector]]: shows how the equilibrium membrane potential represents a Bayesian optimal way of integrating the different inputs to the neuron.
 
+## Links
 
+Next in [[Intro Book]]: [[Neuron Detector]]
 
