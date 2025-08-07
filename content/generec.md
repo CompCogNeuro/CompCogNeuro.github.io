@@ -37,7 +37,7 @@ $$
 \Delta w = x^- \delta \approx x^- \left(y^+ - y^- \right)
 $$
 
-The central intuition conveyed in [[#figure_generec-bp]] is that the $\delta$ value in backpropagation (top panel) for the hidden unit consists of two separate net-input like sum factors, one with the output units at their target activations $t_k$, and the other with the outputs with their "prediction" activations $o_k$. These same factors are present naturally in a bidirectionally-connected network receiving top-down projections from the output layer.
+The central intuition conveyed in [[#figure_generec-bp]] is that the $\delta$ value in backpropagation (top panel) for the hidden unit consists of two separate net-input like sum factors, one with the output units at their target activations $t_k$, and the other with the outputs with their "prediction" activations $o_k$. These same factors are present naturally in a bidirectionally connected network receiving top-down projections from the output layer.
 
 The hidden neuron is _also_ receiving bottom-up input from the Input layer, but these are constant, so when we subtract the plus $-$ minus phase activations, these cancel out. As an extra bonus, subtracting the two activation states implicitly computes the derivative of the activation function, which is an important component of the $\delta$ equation.
 
@@ -142,5 +142,5 @@ $$
 \delta_j = \left( \sum_k t_k w_k - \sum_k z_k w_k \right) y' \approx y_j^+ - y_j^-
 $$
 
-An important practical advantage of using the difference in activation states in [[#eq_bp-sep]] is that it implicitly computes the derivative of the activation function, which avoids the need for an explicit equation for this derivative. This is critical when you consider the complexity of the biologically-based activation functions used in Leabra and Axon ([[neuron]]) operating in the context of extensive pooled inhibition.
+An important practical advantage of using the difference in activation states in [[#eq_bp-sep]] is that it implicitly computes the derivative of the activation function, which avoids the need for an explicit equation for this derivative. This is critical when you consider the complexity of the biologically based activation functions used in Leabra and Axon ([[neuron]]) operating in the context of extensive pooled inhibition.
 
