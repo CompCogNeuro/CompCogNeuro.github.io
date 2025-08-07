@@ -43,7 +43,7 @@ However, given the small-world connectivity dynamics of the neocortex, where eac
 
 Therefore, this unrolling approach cannot capture the full extent of a bidirectionally-connected neocortex. Nevertheless, it is likely that the [[transformer]] architecture that powers [[large language models]] is capturing some key elements of this bidirectional dynamic in the cortex.
 
-Another critical difference for the relevance of bidirectional connectivity in [[conscious awareness]] is that the unrolling approach operates across _different neurons_ for each iteration, whereas the biological case is "re-using" the same neurons over time. Given that our subjective conscious state is effectively what it feels like to be this big bidirectionally connected network, it would presumably be quite different if this dynamic was instead happening across a bunch of different neural populations, instead of a smaller set of mutually-interacting ones.
+Another critical difference for the relevance of bidirectional connectivity in [[conscious awareness]] is that the unrolling approach operates across _different neurons_ for each iteration, whereas the biological case is "re-using" the same neurons over time. Given that our subjective conscious state is effectively what it feels like to be this big bidirectionally connected network, it would presumably be quite different if this dynamic was instead happening across a bunch of different neural populations, instead of a smaller set of mutually interacting ones.
 
 ## Simulations
 
