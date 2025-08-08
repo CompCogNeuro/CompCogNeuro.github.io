@@ -12,11 +12,13 @@ If you want more background information and the underlying code, the simulations
 
 ## Usage
 
-Each simulation has a `README` button, which directs your browser to open the corresponding `README.md` file on github.  This contains full step-by-step instructions for running the model, and questions to answer for classroom usage of the models.  See your syllabus etc for more info.
+Each simulation has full step-by-step instructions on the right side of the window, which tell you how to run the model and contain questions to answer for class usage (see your syllabus for more info). You can answer the questions inside of the simulations by using the provided text boxes. These text boxes automatically save to the browser to prevent loss of work. Once you have answered all of the questions, you can click the "Copy answers" button at the top of the instructions. Then, make a new Google doc and [paste from Markdown](https://support.google.com/docs/answer/12014036) ("Enable Markdown" in Tools > Preferences and then right-click and "Paste from Markdown"). You can download this Google doc as a PDF and submit it for your class.
 
-You can use standard `Ctrl+` and `Ctrl-` key sequences to zoom the display to the desired scale, and the Cogent Core settings window has more display options such as light/dark mode (this can be accessed through right click / two finger click / control click).
+The instructions contain special links that you can click on to highlight elements in the user interface. For example, if there is a link to "Test Cycle Plot", you can click on it and it will highlight the button for Test Cycle Plot to help you follow the instructions.
 
-The main actions for running are in the `Toolbar` at the top, while the parameters of most relevance to the model are in the `Control panel` on the left.  Different output displays are selectable in the `Tabbed views` on the right of the window.
+You can use standard `Ctrl+` and `Ctrl-` key sequences to zoom the display to the desired scale, and the Cogent Core settings window has more display options such as light/dark mode (this can be accessed through right click / two finger click / control click and then "Settings").
+
+The main actions for running are in the toolbar at the top, while the parameters of most relevance to the model are in the control panel on the left. Different output displays are selectable in the tabbed views in the middle of the window.
 
 The [Go Emergent Wiki](https://github.com/emer/emergent/wiki/Home) contains various help pages for using things like the `NetView` that displays the network.
 
