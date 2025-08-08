@@ -26,7 +26,7 @@ var icon string
 
 func main() {
 	core.AppIcon = icon
-	b := core.NewBody("CompCogNeuro")
+	b := core.NewBody("Computational Cognitive Neuroscience")
 	ct := content.NewContent(b).SetContent(econtent)
 	refs, err := csl.OpenFS(econtent, "citedrefs.json")
 	if err == nil {
