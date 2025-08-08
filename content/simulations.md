@@ -6,9 +6,9 @@ We recommend that you run the simulation exercises associated with this book on 
 
 **IMPORTANT:** This currently only fully works on recent versions of Chrome on macOS and Windows, so if you are on Linux, please see the alternative instructions at the bottom of this page.
 
-All bug reports relating to the simulations should be filed in the [issue tracker](https://github.com/CompCogNeuro/sims/issues).
+All bug reports relating to the simulations should be filed in the [issue tracker](https://github.com/compcogneuro/sims/issues).
 
-If you want more background information and the underlying code, the simulations are implemented with the Go version of the [emergent](https://github.com/emer/emergent) framework in the [sims](https://github.com/CompCogNeuro/sims) repository using [Cogent Core](https://cogentcore.org/core). This website is also built with Cogent Core.
+If you want more background information and the underlying code, the simulations are implemented with the Go version of the [emergent](https://github.com/emer/emergent) framework in the [sims](https://github.com/compcogneuro/sims) repository using [Cogent Core](https://cogentcore.org/core). This website is also built with Cogent Core.
 
 ## Usage
 
@@ -109,7 +109,7 @@ Note: no sims for chapter 5
 To run the sims locally on your computer on any platform, you must first follow the [Cogent Core setup instructions](https://www.cogentcore.org/core/setup/install). Then, you can clone the sims repository and run sims using `core run`:
 
 ```sh
-git clone https://github.com/CompCogNeuro/sims
+git clone https://github.com/compcogneuro/sims
 cd sims/ch2/neuron # or any other sim
 core run
 ```
@@ -118,4 +118,4 @@ You can also use `core run web` to run a sim on the web, which does not require 
 
 ### Prebuilt executables
 
-We will provide updated prebuilt versions of the sims soon. You can see old prebuilt versions in the [releases](https://github.com/CompCogNeuro/sims/releases), which are not recommended. The even older [C++ emergent (cemer)](https://github.com/emer/cemer) sims project files are available here: [cecn_8_5_2.zip](https://github.com/CompCogNeuro/sims/releases/download/v1.2.2/cecn_8_5_2.zip) (no longer updated or supported; recommend transitioning to new ones).
+We will provide updated prebuilt versions of the sims soon. You can see old prebuilt versions in the [releases](https://github.com/compcogneuro/sims/releases), which are not recommended. The even older [C++ emergent (cemer)](https://github.com/emer/cemer) sims project files are available here: [cecn_8_5_2.zip](https://github.com/compcogneuro/sims/releases/download/v1.2.2/cecn_8_5_2.zip) (no longer updated or supported; recommend transitioning to new ones).

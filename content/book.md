@@ -8,21 +8,21 @@ This is an open and free textbook based on the [[Leabra]] framework, which has b
 
 This book is available for download in a variety of formats:
 
-* [PDF](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.pdf) --- This version has the best formatting.
+* [PDF](https://github.com/compcogneuro/book/releases/latest/download/ccnbook_ed5.pdf) --- This version has the best formatting.
 
-* [ePub](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.epub) --- You can download this file and email it to yourself at your [Amazon Kindle account](https://www.amazon.com/gp/sendtokindle/email) to get it on your Kindle. You can also open it in the macOS Books app.
+* [ePub](https://github.com/compcogneuro/book/releases/latest/download/ccnbook_ed5.epub) --- You can download this file and email it to yourself at your [Amazon Kindle account](https://www.amazon.com/gp/sendtokindle/email) to get it on your Kindle. You can also open it in the macOS Books app.
 
 * [Amazon](https://www.amazon.com/dp/B0DFWMZYWJ) --- You can pay to get the book on your Kindle or as a paperback version in color. These options are priced as low as possible.
 
-* [HTML](https://github.com/CompCogNeuro/book/releases/latest/download/ccnbook_ed5.html) --- This does not display all of the math correctly, so you should use one of the other formats above for Chapters 2 and 4.
+* [HTML](https://github.com/compcogneuro/book/releases/latest/download/ccnbook_ed5.html) --- This does not display all of the math correctly, so you should use one of the other formats above for Chapters 2 and 4.
 
 ## Copyright
 
-This is an open source textbook, available on [GitHub](https://github.com/CompCogNeuro/book).
+This is an open source textbook, available on [GitHub](https://github.com/compcogneuro/book).
 
 Copyright © 2024 Randall C. O'Reilly, Yuko Munakata, Michael J. Frank, Thomas E. Hazy, and Contributors
 
-All rights reserved. Licensed under [CC-BY-4.0](https://github.com/CompCogNeuro/book/blob/main/LICENSE).
+All rights reserved. Licensed under [CC-BY-4.0](https://github.com/compcogneuro/book/blob/main/LICENSE).
 
 It is written in markdown and converted into end-user formats using [Cogent Author](https://github.com/cogentcore/cogent/tree/main/author).
 
