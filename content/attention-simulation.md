@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 TODO: convert sim to axon; currently only available in Leabra:
 
-Open the [attn](https://compcogneuro.org/sims/ch6/attn/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
+Open the [attn](https://sims.compcogneuro.org/ch6/attn/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
 
 The model is based on [[@^CohenRomeroFarahEtAl94]] with several improvements in terms of its overall biologically based structure and the scope of data which it can explain.
 

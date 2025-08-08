@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 TODO: convert sim to axon; currently only available in Leabra:
 
-Open the [faces](https://compcogneuro.org/sims/ch3/faces/) simulation in [CCN Sims](https://compcogneuro.org/simulations) (Part I only) for an exploration of how face images can be categorized in different ways (emotion, gender, identity), each of which emphasizes some aspect of the input stimuli and collapses across others.
+Open the [faces](https://sims.compcogneuro.org/ch3/faces/) simulation in [CCN Sims](https://compcogneuro.org/simulations) (Part I only) for an exploration of how face images can be categorized in different ways (emotion, gender, identity), each of which emphasizes some aspect of the input stimuli and collapses across others.
 
 This project explores how sensory inputs (in this case simple cartoon faces) can be categorized in multiple different ways, to extract the relevant information and collapse across the irrelevant. It allows you to explore both bottom-up processing from face image to categories, and top-down processing from category values to face images (mental imagery), including the ability to dynamically iterate both bottom-up and top-down to cleanup partial inputs (partially occluded face images).
 

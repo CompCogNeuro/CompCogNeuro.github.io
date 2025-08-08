@@ -5,7 +5,7 @@ bibfile = "ccnlab.json"
 
 TODO: convert sim to axon; currently only available in Leabra:
 
-Open the [cats-dogs](https://compcogneuro.org/sims/ch3/cats_dogs/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
+Open the [cats-dogs](https://sims.compcogneuro.org/ch3/cats_dogs/) simulation in [CCN Sims](https://compcogneuro.org/simulations).
 
 This project explores a simple **semantic network** intended to represent a (very small) set of relationships among different features used to represent a set of entities in the world.  In our case, we represent some features of cats and dogs: their color, size, favorite food, and favorite toy. The network contains information about a number of individual cats and dogs, and is able to use this information to make *generalizations* about what cats and dogs in general have in common, and what is unique about them. It can also tell you about the *consistency* of a given feature with either cats or dogs -- this is where the harmony function can be useful in assessing the total constraint satisfaction level of the network with a particular configuration of feature inputs. The network can also be used to perform *pattern completion* as a way of retrieving information about a particular individual or individuals. Thus, this simple network summarizes many of the topics covered in this chapter.
 
