@@ -106,7 +106,7 @@ Note: no sims for chapter 5
 
 ### Build from source
 
-To run the sims locally on your computer on any platform, you must first follow the [Cogent Core setup instructions](https://www.cogentcore.org/core/setup/install). Then, you can clone the sims repository and run sims using `core run`:
+To run the sims locally on your computer on any platform, you must first follow the [Cogent Core install instructions](https://www.cogentcore.org/core/install). Then, you can clone the sims repository and run sims using `core run`:
 
 ```sh
 git clone https://github.com/compcogneuro/sims
@@ -119,3 +119,7 @@ You can also use `core run web` to run a sim on the web, which does not require 
 ### Prebuilt executables
 
 We will provide updated prebuilt versions of the sims soon. You can see old prebuilt versions in the [releases](https://github.com/compcogneuro/sims/releases), which are not recommended. The even older [C++ emergent (cemer)](https://github.com/emer/cemer) sims project files are available here: [cecn_8_5_2.zip](https://github.com/compcogneuro/sims/releases/download/v1.2.2/cecn_8_5_2.zip) (no longer updated or supported; recommend transitioning to new ones).
+
+### Axon sims
+
+New versions of the sims are being developed using [[axon]] as linked below, but these are not currently ready for class usage.
