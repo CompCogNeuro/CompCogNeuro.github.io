@@ -3,11 +3,10 @@
 package yaegisims
 
 import (
+	"github.com/compcogneuro/web/sims/urakubo"
 	"go/constant"
 	"go/token"
 	"reflect"
-
-	"github.com/compcogneuro/web/sims/urakubo"
 )
 
 func init() {

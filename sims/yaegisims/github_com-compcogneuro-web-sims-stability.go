@@ -3,15 +3,15 @@
 package yaegisims
 
 import (
-	"reflect"
-
 	"github.com/compcogneuro/web/sims/stability"
+	"reflect"
 )
 
 func init() {
 	Symbols["github.com/compcogneuro/web/sims/stability/stability"] = map[string]reflect.Value{
 		// function, constant and variable definitions
 		"Cycle":            reflect.ValueOf(stability.Cycle),
+		"Embed":            reflect.ValueOf(stability.Embed),
 		"Epoch":            reflect.ValueOf(stability.Epoch),
 		"LayByNm":          reflect.ValueOf(stability.LayByNm),
 		"LayNm":            reflect.ValueOf(stability.LayNm),
