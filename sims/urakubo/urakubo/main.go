@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/urakubo"
+	"github.com/compcogneuro/web/sims/urakubo"
 	"github.com/emer/emergent/v2/egui"
 )
 

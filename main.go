@@ -7,7 +7,7 @@ import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/text/csl"
 	_ "cogentcore.org/core/text/tex" // include this to get math
-	_ "github.com/CompCogNeuro/CompCogNeuro.github.io/sims/yaegisims"
+	_ "github.com/compcogneuro/web/sims/yaegisims"
 )
 
 // NOTE: you must make a symbolic link to the zotero CCNLab CSL file as ccnlab.json

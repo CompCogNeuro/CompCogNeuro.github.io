@@ -1,4 +1,4 @@
-module github.com/CompCogNeuro/CompCogNeuro.github.io
+module github.com/compcogneuro/web
 
 go 1.23.4
 

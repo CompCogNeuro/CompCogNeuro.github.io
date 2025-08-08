@@ -2,7 +2,7 @@
 
 command extract {
     for _, pkg := range args {
-        yaegi extract {"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/"+pkg}
+        yaegi extract {"github.com/compcogneuro/web/sims/"+pkg}
     }
 }
 

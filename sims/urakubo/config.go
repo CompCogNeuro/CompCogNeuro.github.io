@@ -79,6 +79,6 @@ type Config struct {
 func (cfg *Config) Defaults() {
 	cfg.Name = "Urakubo"
 	cfg.Title = "Axon urakubo test"
-	cfg.URL = "https://github.com/CompCogNeuro/CompCogNeuro.github.io/blob/main/sims/urakubo/README.md"
+	cfg.URL = "https://github.com/compcogneuro/web/blob/main/sims/urakubo/README.md"
 	cfg.Doc = "This simulation replicates the Urakubo et al, 2008 detailed model of spike-driven learning, including intracellular Ca-driven signaling, involving CaMKII, CaN, PKA, PP1."
 }

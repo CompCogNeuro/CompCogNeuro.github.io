@@ -1,4 +1,4 @@
-This is an open source text and simulation repository, available on [GitHub](https://github.com/CompCogNeuro/CompCogNeuro.github.io).
+This is an open source text and simulation repository, available on [GitHub](https://github.com/compcogneuro/web).
 
 Copyright © 2025 Randall C. O'Reilly and Contributors. All rights reserved.
 
@@ -6,7 +6,7 @@ Text content is licensed under CC BY 4.0, while simulation code is licensed unde
 
 ## CC-BY-4.0
 
-See [LICENSE-CC](https://github.com/CompCogNeuro/CompCogNeuro.github.io/blob/main/LICENSE-CC).
+See [LICENSE-CC](https://github.com/compcogneuro/web/blob/main/LICENSE-CC).
 
 ## BSD 3-Clause License
 

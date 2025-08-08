@@ -87,6 +87,6 @@ type Config struct {
 func (cfg *Config) Defaults() {
 	cfg.Name = "Stability"
 	cfg.Title = "Axon stability test"
-	cfg.URL = "https://github.com/CompCogNeuro/CompCogNeuro.github.io/blob/main/sims/stability/README.md"
+	cfg.URL = "https://github.com/compcogneuro/web/blob/main/sims/stability/README.md"
 	cfg.Doc = "This simulation simply presents an input pattern and allows observation of the resulting stability of the network response, while varying the strength of the NMDA and GABA-B channel conductances, to test for their contributions in producing a stable activity pattern."
 }

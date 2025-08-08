@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/CompCogNeuro/CompCogNeuro.github.io/sims/stability"
+	"github.com/compcogneuro/web/sims/stability"
 	"github.com/emer/emergent/v2/egui"
 )
 

@@ -16,6 +16,6 @@ The following have contributed to this project:
 
 Contributions are welcome! These are good mechanisms to start contributing:
 
-* [GitHub discussions](https://github.com/CompCogNeuro/CompCogNeuro.github.io/discussions) forum
-* [GitHub issues](https://github.com/CompCogNeuro/CompCogNeuro.github.io/issues)
+* [GitHub discussions](https://github.com/compcogneuro/web/discussions) forum
+* [GitHub issues](https://github.com/compcogneuro/web/issues)
 * Fork the GitHub repository, make edits to the markdown content files, and file a pull request
