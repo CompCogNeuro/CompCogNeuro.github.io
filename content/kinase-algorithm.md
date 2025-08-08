@@ -25,7 +25,7 @@ At a big-picture level, the two central ideas behind the kinase algorithm are:
 
 This strategy leverages biophysically constrained mechanisms where they are well-established, while adopting a more abstracted computationally motivated approach to the complexities of the subsequent biochemical processes, which are not yet sufficiently specified to support a more bottom-up approach. The overall mechanism behind the [[temporal derivative]] is supported by the general properties of the CaMKII and DAPK1 kinases and related mechanisms, as described in [[synaptic plasticity]], and by the initial empirical results of [[Jiang et al 2025]].
 
-However, at a pragmatic implementational level, it would be very expensive to compute the Ca++ influx based on the NMDA and VGCC biophysical equations for each synapse individually, given that synapses greatly outnumber neurons (e.g., $N^2$ in a fully-connected model), Therefore, we instead break out the computation into two subcomponents:
+However, at a pragmatic implementational level, it would be very expensive to compute the Ca++ influx based on the NMDA and VGCC biophysical equations for each synapse individually, given that synapses greatly outnumber neurons (e.g., $N^2$ in a fully connected model), Therefore, we instead break out the computation into two subcomponents:
 
 * A shared dendrite-level Ca++ value that reflects the overall dendritic membrane potential and the contributions of backpropagating action potentials from the receiving neuron on the NMDA and VGCC channels.
 
@@ -45,17 +45,17 @@ $$
 \Delta w \propto \delta x 
 $$
 
-In the kinase algorithm, the _Error_ factor is computed from the dendrite-level Ca++, and the synapse-specific multiplier provides the _Credit_ assignment. The computational-level properties of these two factors are overall consistent with the backpropagation versions, but also have important differences that are beneficial for the discrete spiking nature of the Axon framework, and also help reduce the _vanishing gradient_ problem in deep networks. Thus, although this separation into these two distinct factors is motivated by computational cost considerations, it nevertheless provides a useful basis for understanding the functional properties of the putative biologically-based learning mechanism driven by NMDA and VGCC Ca++ influx.
+In the kinase algorithm, the _Error_ factor is computed from the dendrite-level Ca++, and the synapse-specific multiplier provides the _Credit_ assignment. The computational-level properties of these two factors are overall consistent with the backpropagation versions, but also have important differences that are beneficial for the discrete spiking nature of the Axon framework, and also help reduce the _vanishing gradient_ problem in deep networks. Thus, although this separation into these two distinct factors is motivated by computational cost considerations, it nevertheless provides a useful basis for understanding the functional properties of the putative biologically based learning mechanism driven by NMDA and VGCC Ca++ influx.
 
 Due to the continuous-time nature of the Axon model, which simulates neural dynamics at the 1 ms per cycle timescale, it takes roughly 200 cycles for each "trial" of processing to unfold, corresponding to a [[theta cycle]]. The kinase algorithm provides an account of how information accumulates to drive effective learning based on the statistics of pre and postsynaptic spiking over this 200 ms window.
 
-In the [[predictive learning]] framework typically used, this time window encompasses an iteration of prediction (minus phase) followed by an outcome (plus phase), and then learning occurs at the end of the plus phase. The specific events that could trigger this learning in a biologically-realistic manner are described below. Aside from this temporal discretization of the learning process (and external dynamics of the environment), all of the other equations in Axon operate continuously over time, providing a real-time model of actual neural processing.
+In the [[predictive learning]] framework typically used, this time window encompasses an iteration of prediction (minus phase) followed by an outcome (plus phase), and then learning occurs at the end of the plus phase. The specific events that could trigger this learning in a biologically realistic manner are described below. Aside from this temporal discretization of the learning process (and external dynamics of the environment), all of the other equations in Axon operate continuously over time, providing a real-time model of actual neural processing.
 
 There are also longer timescale synaptic processes included in the kinase algorithm, which significantly improve the stability of learning over time, detailed below ([[#Stabilization and rescaling mechanisms]]). These processes are motivated by a range of neuroscience mechanisms, including those operating during sleep.
 
 ## Error gradient via dendritic Ca++
 
-The overall Ca++ influx across all the dendrites of a simulated neuron is computed using the biophysically-based [[neuron channels#NMDA]] conductance model described in [[neuron channels]], and a simple spike-driven approximation to the VGCC conductance. The NMDA contribution starts with the conductance:
+The overall Ca++ influx across all the dendrites of a simulated neuron is computed using the biophysically based [[neuron channels#NMDA]] conductance model described in [[neuron channels]], and a simple spike-driven approximation to the VGCC conductance. The NMDA contribution starts with the conductance:
 
 {id="eq_nmda_g" title="NMDA voltage-gated conductance"}
 $$
@@ -141,7 +141,7 @@ As noted above, this learning rule is applied after 200 ms of iterative updating
 
 Note that because we are only using the difference between these factors, they are relatively robust to various missing components that would provide a constant offset contribution, such as a more detailed accounting of the Ca++ buffering dynamics. Also, while the direct cascading of CaD on top of CaP captures some of the temporal dynamics of CaMKII activation at Thr286 (which promotes potentiation) versus Thr305/306 (which promotes depression; [[@CookBuonaratiCoultrapEtAl21]]), there are also independent pathways modulating DAPK1 activity, but they are more indirect than the direct binding of CaM to activate CaMKII, and thus likely to be slower overall, which is the critical functional property.
 
-Historically, the above cascaded exponential integration equations were originally developed for the [[Leabra]] XCAL learning rule (_temporally-eXtended Continuous Attractor Learning_; [[@OReillyMunakataFrankEtAl12]]), with some inspiration from biophysical cascades, but without as clear of an understanding of their direct mapping onto the CaMKII and DAPK1 kinase substrates.
+Historically, the above cascaded exponential integration equations were originally developed for the [[Leabra]] XCAL learning rule (_temporally eXtended Continuous Attractor Learning_; [[@OReillyMunakataFrankEtAl12]]), with some inspiration from biophysical cascades, but without as clear of an understanding of their direct mapping onto the CaMKII and DAPK1 kinase substrates.
 
 ### Computational properties of the kinase error gradient
 
@@ -198,7 +198,7 @@ At a computational level, the fact that this credit assignment factor is the pro
 
 ### Neuron-level linear approximation version
 
-The synapse-specific _SR(t)_ value in [[#eq_trace-syn]] and its exponential integrations, though very simple, are still very computationally-expensive to compute because the number of synapses is much greater than the number of neurons. Therefore, in practice we compute these values using a set of linear regression coefficients based on a vector of binned _CaSyn_ values at the neuron level, with each bin holding the average CaSyn value over a period of 10 ms, which provides sufficient resolution to compute the necessary pre-post firing correlations.
+The synapse-specific _SR(t)_ value in [[#eq_trace-syn]] and its exponential integrations, though very simple, are still very computationally expensive to compute because the number of synapses is much greater than the number of neurons. Therefore, in practice we compute these values using a set of linear regression coefficients based on a vector of binned _CaSyn_ values at the neuron level, with each bin holding the average CaSyn value over a period of 10 ms, which provides sufficient resolution to compute the necessary pre-post firing correlations.
 
 At the point of learning, which occurs once at the end of a [[theta cycle]] of 200 ms typically, the values in each bin are multiplied for the sender * receiver at each synapse, and then the linear regression coefficients over these bin products are applied to directly compute the effective CaP and CaD time integral value that would otherwise be computed according to the above equations. These coefficients were trained using a combination of ridge and lasso regression based on 100 random Poisson spike trains per condition of a full combinatorial (outer product) sweep of minus and plus phase firing rates sampled in 10 hz increments from 0 -- 120 hz for the pre and post neuron (12 * 12 * 12 * 12 = 20,736 frequency combinations * 100 trials = 2,073,600 total trials). The resulting coefficients have $r^2$ values of 0.991 and 0.996 for CaP and CaD respectively (i.e,. they account for that proportion of the variance in the data). Thus, this method provides a highly accurate and significantly more performant way of computing these values at the synaptic level. See [kinase/linear](https://github.com/emer/axon/tree/main/kinase/linear) for details. 
 
@@ -216,7 +216,7 @@ This rule was implemented and tested extensively, and it worked well across a wi
 
 ## Stabilization and rescaling mechanisms
 
-A collection of biologically-motivated mechanisms are used to provide a stronger "backbone" or "spine" for the otherwise somewhat "squishy" learning that emerges from the above error-driven learning mechanisms, serving to stabilize learning over longer time scales, and prevent parasitic positive feedback loops that otherwise plague these bidirectionally-connected networks. These positive feedback loops emerge because the networks tend to settle into stable attractor states due to the bidirectional, generally symmetric connectivity, and there is a tendency for a few such states to get broader and broader, capturing more and more of the "representational space".
+A collection of biologically motivated mechanisms are used to provide a stronger "backbone" or "spine" for the otherwise somewhat "squishy" learning that emerges from the above error-driven learning mechanisms, serving to stabilize learning over longer time scales, and prevent parasitic positive feedback loops that otherwise plague these bidirectionally connected networks. These positive feedback loops emerge because the networks tend to settle into stable attractor states due to the bidirectional, generally symmetric connectivity, and there is a tendency for a few such states to get broader and broader, capturing more and more of the "representational space".
 
 The credit assignment process, which is based on activation, contributes to this "rich get richer" dynamic where the most active neurons experience the greatest weight changes. We colloquially refer to this as the "hog unit" problem, where a small number of units start to hog the representational space, and it represents a major practical barrier to effective learning if not managed properly. Metaphorically, it akin to corruption and extreme wealth inequality in the political or economic world: it reduces the overall efficiency of the system and can lead to significant breakdowns if it gets too severe.
 
@@ -224,11 +224,11 @@ Note that this problem does not arise in the vast majority of purely feedforward
 
 Continuing the above metaphor, various forms of equalizing taxation and wealth redistribution are required to level the playing field in these models. The set of stabilizing, anti-hog mechanisms in Axon include:
 
-* **SWt:** structural, slowly-adapting weights. In addition to the usual learning weights driven by the above equations, we introduce a slowly-adapting, multiplicative weight value that represents the biophysical properties of the dendritic spine -- the SWts "literally" give the model a spine!
+* **SWt:** structural, slowly adapting weights. In addition to the usual learning weights driven by the above equations, we introduce a slowly adapting, multiplicative weight value that represents the biophysical properties of the dendritic spine -- the SWts "literally" give the model a spine!
 
-    As reviewed in [[synaptic plasticity]] spines are structural complexes where all the synaptic machinery is organized, and they slowly grow and shrink via genetically-controlled, activity-dependent protein remodeling processes, primarily involving the _actin_ fibers also found in muscles. A significant amount of spine remodeling takes place during sleep, so the SWt updating represents a simple model of sleep effects.
+    As reviewed in [[synaptic plasticity]] spines are structural complexes where all the synaptic machinery is organized, and they slowly grow and shrink via genetically controlled, activity-dependent protein remodeling processes, primarily involving the _actin_ fibers also found in muscles. A significant amount of spine remodeling takes place during sleep, so the SWt updating represents a simple model of sleep effects.
 
-    The SWt is multiplicative in the sense that larger vs. smaller spines provide more or less room for the AMPA receptors that constitute the adaptive weight value. The net effect is that the more rapid trial-by-trial weight changes are constrained by this more slowly-adapting multiplicative factor, preventing more extreme changes. Furthermore, the SWt values are constrained by a zero-sum dynamic relative to the set of receiving connections into a given neuron, preventing the neuron from increasing _all_ of its weights higher and hogging the space. The SWt is also initialized with all of the randomness associated with the initial weights, and preserving this source of random variation, preventing weights from becoming too self-similar.
+    The SWt is multiplicative in the sense that larger vs. smaller spines provide more or less room for the AMPA receptors that constitute the adaptive weight value. The net effect is that the more rapid trial-by-trial weight changes are constrained by this more slowly adapting multiplicative factor, preventing more extreme changes. Furthermore, the SWt values are constrained by a zero-sum dynamic relative to the set of receiving connections into a given neuron, preventing the neuron from increasing _all_ of its weights higher and hogging the space. The SWt is also initialized with all of the randomness associated with the initial weights, and preserving this source of random variation, preventing weights from becoming too self-similar.
 
 * **Homeostatic activity levels:** There is extensive evidence from Gina Turrigiano and collaborators, among others, that synapses are homeostatically rescaled to maintain target levels of overall activity, which vary across individual neurons [[@TorradoPachecoBottorffGaoEtAl21]. We simulate this process at the same slower timescale as updating the SWts (likewise associated with sleep), which are also involved in the rescaling process. The target activity levels can also slowly adapt over time, similar to an adaptive bias weight that absorbs the "DC" component of the learning signal ([[@Schraudolph98]]]], but this adaptation is typically subject to a zero-sum constraint, so any increase in activity in one neuron must be compensated for by reductions elsewhere.
 
@@ -236,7 +236,7 @@ Continuing the above metaphor, various forms of equalizing taxation and wealth r
 
 * **Soft bounding and contrast enhancement:** The strength of any given synaptic connection is strongly bounded, unlike the weights in most [[abstract neural network]] models.  We use a standard exponential-approach "soft bounding" dynamic (increases are multiplied by $1-w$; decreases by $w$). In addition, as developed in the [[Leabra]] model, it is useful to add a _contrast enhancement_ mechanism to counteract the compressive effects of this soft bounding, so that effective weights span the full range of weight values.
 
-* **Zero-sum weight changes:** In some cases it can also be useful to constrain the faster error-driven weight changes to be zero-sum, which is supported by an optional parameter. This zero-sum logic was nicely articulated by [[@^Schraudolph98]], and is implemented in the widely-used ResNet models.
+* **Zero-sum weight changes:** In some cases it can also be useful to constrain the faster error-driven weight changes to be zero-sum, which is supported by an optional parameter. This zero-sum logic was nicely articulated by [[@^Schraudolph98]], and is implemented in the widely used ResNet models.
 
 * **Sigmoidal activation derivative and noise suppression:** An important general learning principle is to focus learning changes on a smaller subset of neurons that are most likely to be particularly _sensitive_ to the current learning context (stimulus, nature of the errors, etc), so that the changes will have the maximum impact while minimizing changes to neurons that are already committed to other contexts, to reduce interference effects. Interestingly, this is the effect of multiplying by the derivative of a sigmoidal activation function in error backpropagation ($y' = y (1-y)$ for the standard logistic function). This concentrates learning on the most sensitive neurons with activations around .5, while those that are already strongly committed to being on or off learn less.
 
@@ -328,7 +328,7 @@ $$
 \rm{LWt} \mathrel{+}= \epsilon (\rm{TrgAvg} - \rm{AvgPct})
 $$
 
-Where $\epsilon$ is a learning rate factor (`SynScaleRate`) that defaults to 0.005 but is lower in larger, more slowly-learning models (0.0002).
+Where $\epsilon$ is a learning rate factor (`SynScaleRate`) that defaults to 0.005 but is lower in larger, more slowly learning models (0.0002).
 
 Over the course of learning, this target value is updated by the neuron-wise error gradient values, subject to a zero-sum constraint:
 
@@ -356,7 +356,7 @@ where $\rm{CaD}^*$ is a normalized version of CaD relative to the layer max. The
 
 ## Eligibility trace
 
-There is considerable evidence for temporal eligibility traces in learning under various conditions, as reviewed in [[synaptic plasticity]]. From a computational perspective, [[@^BellecScherrSubramoneyEtAl20]] derived a trace equation that provides a biologically-plausible way of approximating the computationally-powerful backprop-through-time (BPTT) algorithm ([[@Werbos90]]), involving a chain of _local_ partial derivatives computed with respect to the neuron itself:
+There is considerable evidence for temporal eligibility traces in learning under various conditions, as reviewed in [[synaptic plasticity]]. From a computational perspective, [[@^BellecScherrSubramoneyEtAl20]] derived a trace equation that provides a biologically plausible way of approximating the computationally powerful backprop-through-time (BPTT) algorithm ([[@Werbos90]]), involving a chain of _local_ partial derivatives computed with respect to the neuron itself:
 
 {id="eq_etrace-bptt" title="Self derivatives"}
 $$
