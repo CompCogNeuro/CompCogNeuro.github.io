@@ -4,7 +4,7 @@ Categories = ["Axon"]
 bibfile = "ccnlab.json"
 +++
 
-**Computational Cognitive Neuroscience** is the title of the [[book]] based on the [[Leabra]] framework, and it represents an attempt to identify the specific goals of the work presented on this `CompCogNeuro.org` website. Specifically, the goal is to develop a computationally tractable and effective ([[computation|"computational"]]), cognitively accurate ([[cognition|"cognitive"]]), and neurobiologically accurate ([[neuroscience|"neuroscience"]]) model of the mammalian brain.
+**Computational Cognitive Neuroscience** is the title of the [[book]] based on the [[Leabra]] framework, and it represents an attempt to identify the specific goals of the work presented on this `compcogneuro.org` website. Specifically, the goal is to develop a computationally tractable and effective ([[computation|"computational"]]), cognitively accurate ([[cognition|"cognitive"]]), and neurobiologically accurate ([[neuroscience|"neuroscience"]]) model of the mammalian brain.
 
 Each of these aspects is given significant weight in constraining the approach, such that we seek a "golden middle" approach that satisfies each of these factors, while avoiding over-focus on any individual one at the expense of the other. Thus, there are certainly more computationally efficient [[artificial neural network]] models, and more neurobiologically detailed models, and simpler models of cognition that might use Bayesian equations to provide a normative account of behavior. But the [[Axon]] model may well represent the best simultaneous satisfaction of all three of these constraints.
 
