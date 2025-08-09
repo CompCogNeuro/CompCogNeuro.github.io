@@ -7,7 +7,7 @@ require (
 	cogentcore.org/lab v0.1.3-0.20250807190249-488f5902d68d
 	github.com/cogentcore/yaegi v0.0.0-20250622201820-b7838bdd95eb
 	github.com/emer/axon/v2 v2.0.0-dev0.2.55
-	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250804171546-85b6ef7a8688
+	github.com/emer/emergent/v2 v2.0.0-dev0.1.7.0.20250809000107-fd8ccb2cfca1
 )
 
 require (
