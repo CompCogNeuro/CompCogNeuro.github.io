@@ -1,3 +1,7 @@
+// Copyright (c) 2025, The CCN Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
 package main
 
 import (
@@ -7,6 +11,7 @@ import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/text/csl"
 	_ "cogentcore.org/core/text/tex" // include this to get math
+	"cogentcore.org/core/tree"
 	_ "github.com/compcogneuro/web/sims/yaegisims"
 )
 
@@ -23,6 +28,11 @@ var econtent embed.FS
 
 //go:embed icon.svg
 var icon string
+
+// sims is a map of sim names to functions that embed a sim GUI.
+// This is only set on non-generatehtml platforms so that xyz does
+// not interfere with html generation.
+var sims map[string]func(tree.Node)
 
 func main() {
 	core.AppIcon = icon
