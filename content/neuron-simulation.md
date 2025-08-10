@@ -3,11 +3,8 @@ Categories = ["Activation", "Simulations"]
 bibfile = "ccnlab.json"
 +++
 
-{id="sim_neuron" collapsed="true"}
-```Goal
-// see https://github.com/emer/axon/tree/main/sims/neuron for source code
-neuron.Embed(b)
-```
+{id="sim_neuron"}
+<ccn-sim sim="neuron">
 
 <div>
 

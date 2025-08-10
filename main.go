@@ -6,9 +6,12 @@ package main
 
 import (
 	"embed"
+	"fmt"
 
+	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/content"
 	"cogentcore.org/core/core"
+	"cogentcore.org/core/htmlcore"
 	"cogentcore.org/core/text/csl"
 	_ "cogentcore.org/core/text/tex" // include this to get math
 	"cogentcore.org/core/tree"
@@ -42,8 +45,27 @@ func main() {
 	if err == nil {
 		ct.References = csl.NewKeyList(refs)
 	}
+
+	ct.Context.ElementHandlers["ccn-sim"] = simHandler
+
 	b.AddTopBar(func(bar *core.Frame) {
 		core.NewToolbar(bar).Maker(ct.MakeToolbar)
 	})
 	b.RunMainWindow()
+}
+
+func simHandler(ctx *htmlcore.Context) bool {
+	if sims == nil {
+		return true // for generatehtml
+	}
+
+	name := htmlcore.GetAttr(ctx.Node, "sim")
+	fn := sims[name]
+	if fn == nil {
+		errors.Log(fmt.Errorf("sim %q not found", name))
+		return true
+	}
+
+	fn(ctx.BlockParent)
+	return true
 }
