@@ -11,8 +11,8 @@ You can read the following pages in order to obtain a sensible progression of in
 
 1. Overview of the field and approach: [[Computational Cognitive Neuroscience]].
 2. Neurons and what they do: [[neuron]], [[neuron detector]], [[neuron simulation]], [[detector simulation]].
-3. Networks of neurons: [[neocortex]], [[categorization]], [[bidirectional connectivity]], [[inhibition]].
-4. Learning: [[synaptic plasticity]], [[temporal derivative]], [[kinase algorithm]], [[predictive learning]].
+3. [[Network]]s of neurons: [[neocortex]], [[categorization]], [[bidirectional connectivity]], [[inhibition]].
+4. [[Learning]]: [[synaptic plasticity]], [[temporal derivative]], [[kinase algorithm]], [[predictive learning]].
 5. Brain structure
 6. Perception
 7. Memory

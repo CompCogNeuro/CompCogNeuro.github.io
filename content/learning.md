@@ -1,8 +1,27 @@
-+++
-Categories = ["Computation", "Neuroscience"]
-+++
+**Learning** is the result of changes in synaptic connection weights. This fundamental hypothesis is foundational to [[abstract neural network]] models, and is a natural consequence of the presence of chemical synapses as the primary mechanism of communication between [[neuron]]s. Thus, everything you know and remember is encoded in the patterns of synaptic weights among your neurons!
 
-**Learning** is the process of changing the synaptic [[weights]] between [[neuron]]s in the [[abstract neural network]] framework. The biological processes involved are known as [[synaptic plasticity]].
+At a more abstract [[computation]]al level, learning is the process of [[search]] through the space of all possible representations for those that enable the necessary computations to be performed. The size of this representational space is subject to the [[curse of dimensionality]] due to exponential combinatorial explosion as the complexity of the representational space increases (i.e., as a function of the number of neurons and synapses). Therefore, it is essential that the learning process operates in a way that can search through representational space in a _parallel_ manner, exploring many possible directions of change simultaneously.
+
+This seemingly magical parallel search process arises naturally from _stochastic_, _gradient-based_ learning mechanisms such as [[error-backpropagation]], which effectively searches in a graded, incremental manner through huge, high-dimensional spaces by computing the partial derivatives associated with synaptic weight changes. By iteratively accumulating these graded weight changes, the algorithm efficiently finds a search path through even very high-dimensional representational spaces, such as those in [[large language models]] (LLMs) having billions of weight parameters.
+
+Thus, from a computational perspective, [[error-driven learning]] is now firmly established as the only known mechanism powerful enough to train something as complex and high-dimensional as the human brain, with its roughly 50 billion neurons and 500 trillion synaptic connections.
+
+However, from a [[neuroscience]] perspective, the basic mechanisms of [[synaptic plasticity]] have long been understood in terms of [[Hebbian learning]], which is a simple associative learning principle that has no clear computational basis for organizing networks of neurons to perform arbitrary computations. Instead, it only performs a version of [[principal components analysis]], which can be useful, but is woefully insufficient for explaining everything that the mammalian brain can do.
+
+Fortunately, it is possible to reconcile the computational imperative for error backpropagation with known synaptic plasticity mechanisms through the principle of the [[temporal derivative]], which naturally computes the error gradient at the heart of error backpropagation, as shown by the [[GeneRec]] algorithm. This algorithm uses [[bidirectional connectivity]] to communicate temporal derivatives throughout the network, allowing error signals arising anywhere to drive learning everywhere.
+
+Biologically, a temporal derivative can be computed through the competition between two chemical processes with different time constants, and current [[synaptic plasticity]] research shows that the direction of synaptic weight change is determined by a competition between a faster process controlled by the _CaMKII_ kinase, versus a slower process controlled by the _DAPK1_ kinase. Initial empirical support for this mechanism is reported in [[Jiang et al 2025]], in electrophysiological measurements of synaptic plasticity in a rodent preparation.
+
+The temporal-derivative based form of error-driven learning naturally supports [[predictive learning]], as the difference over time of network activity states representing the prediction followed by the outcome. This provides an ecologically-valid source of the error signals necessary for driving error-driven learning, and this same form of predictive learning is what drives LLMs, so we know it is capable of driving the formation of powerful [[cognitive]] representations.
+
+In summary, the [[kinase algorithm]] used in [[Axon]] is a fully biologically, ecologically, and cognitively plausible form of the computationally powerful error backpropagation algorithm, which can perform efficient parallel search through reprsentational space to enable large, complex neural networks to accomplish arbitrary tasks.
+
+Finally, the phenomenon of [[conscious awareness]], which is widely believed to depend on the same bidirectional connectivity that is necessary for this biologically-plausible form of error-driven learning, also provides some insight into the nature of the learning process. Specifically, our subjective conscious awareness is "what it feels like" to be a human brain. In other words, there is a direct mapping from the physical properties of the brain to the subjective experiences we feel.
+
+When we encounter an outcome that doesn't match our expectations, we have a corresponding subjective experience of that outcome as a state of awareness in our brains, e.g., "Oh, I thought you were going to say "pizza", not "spaghetti" as your favorite Italian food".
+
+However, a peculiar property of the standard [[error-backpropagation]] algorithm is that it does _not_ represent the outcome as a state of activity across the neurons in the network. Instead, the outcome is only a kind of "virtual" error gradient signal that is computed and propagated entirely separately from the activity states of the neurons. It is precisely this virtual nature of the error gradient that led [[@^Crick89]] and many others to conclude that error backpropagation is biologically implausible.
+
+By contrast, according to the bidirectionally-connected, temporal-derivative model of error-driven learning (i.e., the [[GeneRec]] algorithm), the very same set of neurons is always representing the current state of "experience" in the network, transitioning over time from a state corresponding to the expectation ("pizza") to a state corresponding to the outcome ("spaghetti"). The temporal-derivative mechanism effectively just computes the difference between these two activity states in order to drive error-driven learning. Thus, this mechanism seems to provide a much better fit with the nature of our subjective experience as a network of neurons, in addition to making much more sense biologically.
 
 ## Learning pages
-
