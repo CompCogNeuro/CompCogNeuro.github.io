@@ -46,6 +46,8 @@
 
 <p id="Baars02">Baars, B.J. (2002). The conscious access hypothesis: origins and recent evidence. Trends in cognitive sciences, 6, 47-52. http://www.ncbi.nlm.nih.gov/pubmed/11849615</p>
 
+<p id="BaddeleyHitch74">Baddeley, A.D., & Hitch, G.J. (1974). Working memory. In G. Bower (Ed.), The Psychology of Learning and Motivation (pp. 47-89). Academic Press. </p>
+
 <p id="BaldiHornik89">Baldi, P., & Hornik, K. (1989). Neural networks and principlal components analysis: Learning from examples without local minima. Neural Networks, 2, 53-58. </p>
 
 <p id="BalleineDickinson98">Balleine, B.W., & Dickinson, A. (1998). Goal-directed instrumental action: contingency and incentive learning and their cortical substrates. Neuropharmacology, 37, 407–419. http://www.ncbi.nlm.nih.gov/pubmed/9704982</p>
@@ -268,6 +270,10 @@
 
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
 
+<p id="EkmanDavidson94">Ekman, P., & Davidson, R.J. (Eds.) (1994). The nature of emotion. Oxford. </p>
+
+<p id="EkmanFriesen75">Ekman, P., & Friesen, W. (1975). Pictures of facial affect. Consulting Psychologists Press. </p>
+
 <p id="ElhageNandaOlssonEtAl21">Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., & Conerly, T. (2021). A mathematical framework for transformer circuits. Transformer Circuits Thread, 1, 12. </p>
 
 <p id="EllenderHarwoodKosilloEtAl13">Ellender, T.J., Harwood, J., Kosillo, P., Capogna, M., & Bolam, J.P. (2013). Heterogeneous properties of central lateral and parafascicular thalamic synapses in the striatum. The Journal of Physiology, 591, 257–272. http://www.ncbi.nlm.nih.gov/pubmed/23109111</p>
@@ -362,7 +368,7 @@
 
 <p id="GoldbergReynolds11">Goldberg, J.A., & Reynolds, J.N.J. (2011). Spontaneous firing and evoked pauses in the tonically active cholinergic interneurons of the striatum. Neuroscience, 198, 27-43. http://www.sciencedirect.com/science/article/pii/S0306452211010256 http://doi.org/10.1016/j.neuroscience.2011.08.067</p>
 
-<p id="Goldman-Rakic95">Goldman-Rakic, ..S. (1995). Architecture of the prefrontal cortex and the central executive. Annals of the New York Academy of Sciences, 769, 71-84. http://www.ncbi.nlm.nih.gov/pubmed/8595045</p>
+<p id="Goldman-Rakic95a">Goldman-Rakic, P.S. (1995). Cellular basis of working memory. Neuron, 14, 477-485. http://www.ncbi.nlm.nih.gov/pubmed/7695894</p>
 
 <p id="Gollwitzer12">Gollwitzer, P.M. (2012). Mindset theory of action phases. In Handbook of theories of social psychology, Vol. 1 (pp. 526-545). Sage Publications Ltd.  http://doi.org/10.4135/9781446249215.n26</p>
 
@@ -385,6 +391,8 @@
 <p id="GrillnerRobertson16">Grillner, S., & Robertson, B. (2016). The Basal Ganglia Over 500 Million Years. Current Biology, 26, R1088-R1100. http://www.sciencedirect.com/science/article/pii/S0960982216306807 http://doi.org/10.1016/j.cub.2016.06.041</p>
 
 <p id="GrillnerRobertsonKotaleski20">Grillner, S., Robertson, B., & Kotaleski, J.H. (2020). Basal Ganglia—A Motion Perspective. In Comprehensive Physiology (pp. 1241-1275). John Wiley & Sons, Ltd. https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.c190045 http://doi.org/10.1002/cphy.c190045</p>
+
+<p id="GroenewegenBerendseWoltersEtAl90">Groenewegen, H.J., Berendse, H.W., Wolters, J.G., & Lohman, A.H. (1990). The anatomical relationship of the prefrontal cortex with the striatopallidal system, the thalamus and the amygdala: Evidence for a parallel organization. In H. Uylings, C. Van Eden, J. De Bruin, .. Corner, & M. Feenstra (Eds.), Progress in Brain Research (1st ed., pp. 95-116; discussion 116-118). http://www.ncbi.nlm.nih.gov/pubmed/2094917</p>
 
 <p id="GuSchmidtBerke20">Gu, B., Schmidt, R., & Berke, J.D. (2020). Globus pallidus dynamics reveal covert strategies for behavioral inhibition. eLife, 9, e57215. https://elifesciences.org/articles/57215 http://doi.org/10.7554/eLife.57215</p>
 
@@ -422,6 +430,8 @@
 
 <p id="HaxbyGobbiniFureyEtAl01">Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293, 2425-2429. http://www.ncbi.nlm.nih.gov/pubmed/11577229</p>
 
+<p id="HazyFrankOReilly06">Hazy, T.E., Frank, M.J., & O'Reilly, R.C. (2006). Banishing the homunculus: Making working memory work. Neuroscience, 139, 105-118. http://www.ncbi.nlm.nih.gov/pubmed/16343792</p>
+
 <p id="HazyFrankOReilly10">Hazy, T.E., Frank, M.J., & O'Reilly, R.C. (2010). Neural mechanisms of acquired phasic dopamine responses in learning. Neuroscience and Biobehavioral Reviews, 34, 701-720. http://www.ncbi.nlm.nih.gov/pubmed/19944716</p>
 
 <p id="HeHuertasHongEtAl15">He, K., Huertas, M., Hong, S.Z., Tie, X., Hell, J.W., Shouval, H., & Kirkwood, A. (2015). Distinct eligibility traces for LTP and LTD in cortical synapses. Neuron, 88, 528-538. https://www.sciencedirect.com/science/article/pii/S0896627315008260 http://doi.org/10.1016/j.neuron.2015.09.037</p>
@@ -447,6 +457,8 @@
 <p id="HintonSejnowski83">Hinton, G.E., & Sejnowski, T.J. (1983). Optimal perceptual inference. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. </p>
 
 <p id="HintonSejnowski86">Hinton, G.E., & Sejnowski, T.J. (1986). Learning and Relearning in Boltzmann Machines. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
+
+<p id="HobsonPace-Schott02">Hobson, J.A., & Pace-Schott, E.F. (2002). The cognitive neuroscience of sleep: neuronal systems, consciousness and learning. Nature Reviews Neuroscience, 3(9), 679-693. http://www.nature.com/articles/nrn915 http://doi.org/10.1038/nrn915</p>
 
 <p id="HodgkinHuxley52">Hodgkin, A.L., & Huxley, A.F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117, 500-544. https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764 http://doi.org/10.1113/jphysiol.1952.sp004764</p>
 
@@ -588,6 +600,8 @@
 
 <p id="LeCunBengioHinton15">LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521, 436-444. http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html http://doi.org/10.1038/nature14539</p>
 
+<p id="LeDoux00">LeDoux, J. (2000). Cognitive-Emotional Interactions: Listen to the brain. In R.D. Lane, & L. Nadel (Eds.), Cognitive neuroscience of emotion (pp. 129-156). Oxford Univ. Press. </p>
+
 <p id="LevySteward79">Levy, W.B., & Steward, O. (1979). Synapses as associative memory elements in the hippocampal formation. Brain research, 175, 233-245. http://www.ncbi.nlm.nih.gov/pubmed/487154</p>
 
 <p id="LiMaYangEtAl17">Li, W., Ma, L., Yang, G., & Gan, W. (2017). REM sleep selectively prunes and maintains new synapses in development and learning. Nature Neuroscience, 20(3), 427-437. http://www.nature.com/articles/nn.4479 http://doi.org/10.1038/nn.4479</p>
@@ -663,6 +677,8 @@
 <p id="Mink96">Mink, J.W. (1996). The basal ganglia: Focused selection and inhibition of competing motor programs. Progress in Neurobiology, 50, 381-425. http://www.ncbi.nlm.nih.gov/pubmed/9004351</p>
 
 <p id="MinskyPapert69">Minsky, M., & Papert, S.A. (1969). Perceptrons. MIT Press. </p>
+
+<p id="MiyakeShah99">Miyake, A., & Shah, P. (Eds.) (1999). Models of Working Memory: Mechanisms of Active Maintenance and Executive Control. Cambridge University Press. </p>
 
 <p id="MnihKavukcuogluSilverEtAl15">Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.A., Veness, J., Bellemare, M.G., Graves, A., Riedmiller, M., Fidjeland, A.K., Ostrovski, G., Petersen, S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra, D., Legg, S., & Hassabis, D. (2015). Human-level control through deep reinforcement learning. Nature, 518, 529–533. http://www.ncbi.nlm.nih.gov/pubmed/25719670</p>
 
@@ -841,6 +857,8 @@
 <p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
 
 <p id="RichWallis16">Rich, E.L., & Wallis, J.D. (2016). Decoding subjective decisions from orbitofrontal cortex. Nature Neuroscience, 19, 973-980. http://www.nature.com/neuro/journal/v19/n7/full/nn.4320.html?WT.ec_id=NEURO-201607&spMailingID=51711028&spUserID=MTc2NjQ4NzIwMwS2&spJobID=944051338&spReportId=OTQ0MDUxMzM4S0 http://doi.org/10.1038/nn.4320</p>
+
+<p id="RobertsClarke19">Roberts, A.C., & Clarke, H.F. (2019). Why we need nonhuman primates to study the role of ventromedial prefrontal cortex in the regulation of threat- and reward-elicited responses. Proceedings of the National Academy of Sciences, 116, 26297-26304. https://www.pnas.org/doi/10.1073/pnas.1902288116 http://doi.org/10.1073/pnas.1902288116</p>
 
 <p id="RogersMcClelland04">Rogers, T.T., & McClelland, J.L. (2004). Semantic Cognition: A Parallel Distributed Processing Approach. MIT Press. </p>
 

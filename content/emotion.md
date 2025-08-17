@@ -5,13 +5,31 @@ bibfile = "ccnlab.json"
 
 [This page covers needs, drives, motivation, and affect in relation to emotion]
 
-**Emotion** is something everyone experiences but it remains somewhat difficult to define precisely. From the computational and neuroscience perspective taken here, we can provide a more precise definition:
+**Emotion** is something everyone experiences but it remains somewhat difficult to define precisely, in part because of our strong subjective experiences ([[@EkmanDavidson94]]; [[@LeDoux00]]). From the computational and neuroscience perspective taken here, we can provide a more precise definition:
 
-> Emotion reflects the activity of midbrain and brainstem systems that have been shaped by evolution to guide the behavior of the organism in adaptive ways to satisfy its **needs** in relation to its external and internal state. These brain systems are anchored by the hypothalamus and associated nuclei that directly sense the internal body state (interoception), many of which are conveyed by the vagus nerve via the medulla oblongota. The [[amygdala]] makes connections between sensory inputs processed by the cortex (visual, auditory) and underlying body states. Important changes in body state are signalled by neuromodulators such as [[dopamine]] and [[serotonin]] that are driven by these systems, and have widespread effects on the entire brain. There are many layers of control, integration, and modulation of these systems, including the ventral and medial [[basal ganglia]] via the ventral pallidum, the [[lateral habenula]], and ventral and medial [[prefrontal cortex]] areas.
+> Emotion reflects the activity of midbrain and brainstem systems that have been shaped by evolution to guide the behavior of the organism in adaptive ways to satisfy its **needs** in relation to the external and internal state. Most emotional states involve midbrain **neuromodulatory systems** such as [[dopamine]] and [[serotonin]] that broadcast signals reflecting important changes in body state and have widespread effects on the entire brain.
 
-In other words, emotion by this definition is the domain of the [[limbic system]], and computationally is related to [[reinforcement learning]] (RL). However, RL typically only deals with a very limited scope of "emotion", as captured in a single scalar reward value. The [[Rubicon]] framework encompasses a broader range of states and the relationship between needs / drives and the current internal state, including goals and **motivational** state.
+These brain systems are largely synonymous with the [[limbic system]], and are anchored by the **hypothalamus**, **periaqueductal gray**, **parabrachial area**, and associated nuclei that directly sense the internal body state (interoception), which is conveyed in part by the vagus nerve via the medulla oblongota.
 
-The term **affect** typically encompasses a broader scope than emotion, but we use them essentially interchangably here, under the above definition.
+Multiple layers of additional processing and control over the brainstem systems have been added and elaborated over the course of brain evolution, including:
+
+* The [[amygdala]], which makes connections between sensory inputs processed by the cortex (visual, auditory) and underlying body states.
+
+* Ventral and medial [[basal ganglia]] (e.g., the nucleus accumbens) including the ventral pallidum output pathway that interconnects widely with the midbrain areas.
+
+* The [[lateral habenula]], which integrates a wide range of sensory inputs to determine when to "give up", according to the [[Rubicon]] framework.
+
+* Ventral and medial [[prefrontal cortex]] areas, that receive and send extensive connections to all of the other emotion-processing areas, providing a higher level of integration and control that is the focus of the [[Rubicon]] framework.
+
+* Ventral [[hippocampus]], which is also extensively interconnected with all of these areas, and provides the ability to rapidly encode emotional states associated with distinct events in time and space.
+
+Psychologically based accounts have struggled with attempts to categorize the number and nature of emotional states, and to delineate boundaries between emotion and cognition ([[@EkmanDavidson94]]; [[@LeDoux00]]). By contrast, the Rubicon framework is based on the idea that the goal-driven, motivational aspect of emotional states is essential for driving the learning and cognitive control that shapes all cognitive functions.
+
+Computationally, much of this falls within the domain of [[reinforcement learning]] (RL). However, RL typically only deals with a very limited scope of "emotion", as captured in a single scalar reward value, whereas the Rubicon framework encompasses a broader range of states and the relationship between needs / drives and the current internal state, including goals and **motivational** state.
+
+The term **affect** typically encompasses a broader scope than emotion, but we use them essentially interchangably here, under the above definition. Likewise, the psychological distinction between **mood** and emotion is not a primary concern in our framework, where the relevant internal states can extend across a range of different timescales.
+
+## Categorizing emotion
 
 {id="figure_valence-arousal" style="height:25em"}
 ![Valence (positive vs. negative) vs. arousal (high vs. low activation) in the 2D _circumplex_ model of emotion.](media/fig_emotion_valence_arousal.png)
@@ -40,7 +58,10 @@ From a computational perspective, we can define each of these needs as having a 
 
 ## Social needs
 
-Like many other species, humans are strongly social animals, and we depend on others to survive and thrive. There is a strong correlation between brain size and size of social networks in primates ([[@Dunbar92]]; [[@Dunbar16]]), suggesting that we owe our big brains to being highly social animals: it takes careful thought and planning to navigate the complexities of the social world. Furthermore, [[@^Tomasello01]] argues that humans have a unique drive to share that is not evident in even our closest primate relatives (e.g., chimpanzees). This sharing instinct is what drives the pervasive nature of our cultural evolution, where we acquire much of our knowledge from the accumulated wisdom of those who have come before us.
+Like many other species, humans are strongly social animals, and we depend on others to survive and thrive. There is a strong correlation between brain size and size of social networks in primates ([[@Dunbar92]]; [[@Dunbar16]]), suggesting that we owe our big brains to being highly social animals: it takes careful thought and planning to navigate the complexities of the social world.
 
-<!--- ## Universality of emotions -->
-<!--- TODO: faces -->
+Furthermore, [[@^Tomasello01]] argues that humans have a unique drive to share that is not evident in even our closest primate relatives (e.g., chimpanzees). This sharing instinct is what drives the pervasive nature of our cultural evolution, where we acquire much of our knowledge from the accumulated wisdom of those who have come before us.
+
+A major function of emotion is to communicate and share our internal states with others, so they can help us satisfy our needs as well. This is nicely conveyed in the movie _Inside Out_ with respect to the important role of sadness. Considerable work has identified a set of facial expressions that are universally recognized across cultures ([[@EkmanFriesen75]]): anger, disgust, fear, happiness, sadness and surprise. Note that this small set is not thought to be exhaustive, and not all emotional states are communicated: the ones on this list are those that are clearly useful to communicate.
+
+
