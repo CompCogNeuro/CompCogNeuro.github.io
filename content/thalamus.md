@@ -8,3 +8,15 @@ From an evolutionary, comparative perspective, the thalamus consistently provide
 
 <!--- TODO: reunions and hippocampus, etc. -->
 
+
+## Functional organization of the thalamus
+
+Rovo et al. -- put this in pfc, not here.
+
+connectivity of different thalmic areas.
+
+broader connectivity of BG loops etc.
+
+{id="figure_thal-rovo" style="height:40em"}
+![Different types of thalamic drivers in the primate thalamus, which provides key insight into functions of these thalamic areas and the cortical areas they interconnectd with. From Rovo et al., 2012.](media/fig_rovo_ulbert_ascady_12.png)
+

@@ -3,7 +3,7 @@ Categories = ["Rubicon", "Neuroscience"]
 bibfile = "ccnlab.json"
 +++
 
-The **prefrontal cortex** (PFC) is the main co-conspirator with the [[basal ganglia]] in guiding much of an organism's overall behavior. It is anatomically the anterior portion of the **frontal** [[neocortex]], where the posterior frontal cortex has primary and secondary motor areas with neurons that project down to the spinal cord and can directly drive motor actions. The PFC provides direct _top-down_ projections to these motor frontal areas, along with extensive connections into posterior cortical areas, to guide behavior and cognition at a "higher level".
+The **prefrontal cortex** (PFC) is the main co-conspirator with the [[basal ganglia]] in guiding much of an organism's overall behavior. It is [[anatomy|anatomically]] the anterior portion of the **frontal** [[neocortex]], where the posterior frontal cortex has primary and secondary motor areas with neurons that project down to the spinal cord and can directly drive motor actions. The PFC provides direct _top-down_ projections to these motor frontal areas, along with extensive connections into posterior cortical areas, to guide behavior and cognition at a "higher level".
 
 This role for the PFC is referred to as **executive function**, by analogy to an executive in a company ([[@MillerCohen01]]). However, this has the risk of infinite regress by invoking the full unexplained cognitive abilities of an intact human brain in the role of this PFC executive. When making autonomous computational models of the brain, we can't get away with this _homunculus_ ("little person") living in the PFC ([[@HazyFrankOReilly06]])! Thus, our challenge is to understand how the open-ended [[artificial intelligence|general intelligence]] that is unique to humans emerges from the biological systems that are largely similar to those in other primates and other mammals to varying degrees.
 
@@ -49,19 +49,55 @@ We can infer from this evolutionary trajectory that the goal-driven PFC areas do
 
 [[#figure_pfc-fun]] provides an elaborated version of the primate PFC, assigning more fine-grained functional labels based on the connectivity with subcortical areas described by [[@^OngurPrice00]]. These subcortical areas, which have relatively well-defined and circumscribed neural response properties that are under strong evolutionary control, can then anchor the learning in these corresponding PFC areas to represent the relevant information needed for control over survival relevant factors, as discussed in [[emotion]].
 
+### Neural coding data
 
-### Functional organization of the thalamus
+There is a wealth of neural recording data across multiple species that is generally consistent with the above functional anatomy of ventral and medial PFC areas. However, much of the data in animals is from individual neuron recordings, which inevitably shows that neurons across all of these different PFC areas exhibit some sensitivity to the functional variables that are ascribed to specific areas in the above framework (e.g., [[@KennerleyBehrensWallis11]] and references therein).
 
-Rovo et al. -- put this in pfc, not here.
+This _mixed selectivity_ of individual neural coding is ubiquitous as discussed in [[distributed representations]], which also explains why _representational similarity analysis_ (RSA) is the best tool to understand the distinctive encoding properties of a given brain area.
 
-connectivity of different thalmic areas.
+{id="figure_hunt-rsa" style="height:40em"}
+![Representational similiarity analysis of OFC (top), DLPFC (middle), and ACC (bottom) population activity in a decision-making task with options on the left or right varying in magnitude and probability (Hunt et al, 2018). OFC neurons clearly encode stimulus identity and the value of the stimulus that the monkey was currently attending, while the other areas do not as shown in the bar graphs under each target regressor. DLPFC selectively encodes spatial attention, while both DLPFC and ACC encode the spatial value, consistent with the response action plan. ACC encodes the correct accept / reject decision based on integrating the total utility of the options. Each of these results is consistent with the functional anatomy shown in prior figures.](media/fig_ofc_acc_dlpfc_rsa_hunt_et_al_18.png)
 
-broader connectivity of BG loops etc.
+Fortunately, [[@^HuntMalalasekeradeBerkerEtAl18]] performed an RSA analysis of dlPFC, ACC, and OFC areas in a decision-making task, and found remarkable support for the functional specializations of these areas as shown in [[#figure_hunt-rsa]]. Specifically, OFC neurons encoded both the stimlus identity and reward value of the stimulus that the monkey was currently attending, consistent with representing the value of the outcome. DLPFC neurons instead encoded the left / right choice action that must be made (in advance of making it, i.e., an action plan), and, along with the ACC, the overall value of these action choices. Finally, the ACC represented the final accept / reject decision that integrates all of the variables.
 
-{id="figure_thal-rovo" style="height:40em"}
-![Different types of thalamic drivers in the primate thalamus, which provides key insight into functions of these thalamic areas and the cortical areas they interconnectd with. From Rovo et al., 2012.](media/fig_rovo_ulbert_ascady_12.png)
+Consistent with the parallel [[constraint satisfaction]] process operating via the [[bidirectional connectivity]] among these areas, these neural responses emerged in parallel across areas. Thus, even though each area is specialized to encode a specific aspect of the overall goal, they all work together to converge on a plan that satisfies the constraints from each.
+
+Similar dynamics were observed in OFC by [[@^RichWallis16]] as the monkeys considered different options, consistent with the requirement that a single option is considered at any given point in time. This is necessary to avoid [[binding problems]] in the constraint satisfaction process ([[@HerdKruegerNairEtAl21]]).
+
+## Mechanisms of active maintenance
+
+{id="figure_pfc-maint-lamina" style="height:30em"}
+![Detailed mapping of a standard occulomotor delayed response task onto patterns of neural activity across different lamina within the dlPFC. Superficial layer (II) neurons receive bottom-up sensory inputs encoding the cued location for a delayed visual saccade, in this case, the red light at 90 degrees to the left of the central yellow fixation point. Specialized deep layer III neurons with extensive lateral recurrent connectivity, expressing both NMDA and GABA-B channels, provide the reverberant attractor dynamics to sustain the cue location over the delay period, during which time the animal must maintain central fixation. When the fixation cross dissappears, the animal is allowed to respond, and deep layer V output neurons drive the motor response, to saccade to the previously-cued target location. Figure adapted from Arnsten et al., (2012)](media/fig_arnsten_et_al_12_fig1.png)
+
+[[#figure_pfc-maint-lamina]] from [[@^ArnstenWangPaspalas12]] shows a widely-accepted framework for how the bidirectional excitatory connections sustain neural activity encoding the cue location within a standard oculomotor delayed response task. Specifically, a specialized population of deep layer 3 pyramidal neurons within the PFC has been identified, which has extensive lateral, mutually excitatory (recurrent) connectivity and a high concentration of NMDA receptors ([[@KritzerGoldman-Rakic95]]; [[@WangMarkramGoodmanEtAl06]]).
+
+This pattern of connectivity has undergone a prominent evolutionary expansion in primates ([[@Elston03]]; [[@WangYangWangEtAl13]]), and several studies have shown that NMDA receptor blockade impairs working memory performance in multiple species ([[@KrystalAbi-SaabPerryEtAl05]]; [[@MoghaddamAdams98]]; [[@RobertsShafferSeymourEtAl10]]; [[@WangYangWangEtAl13]]).
+
+The laminar specialization shown in [[#figure_pfc-maint-lamina]] is consistent with standard patterns of [[neocortex]] connectivity, where inputs activate superficial layers directly and indirectly via layer 4. The subcortical output from the PFC arises from the deep layers, with the large layer 5b output neurons providing direct motor-level output (i.e., their axons constitute the pyramidal tract projections to the spinal cord). These layer 5b neurons also project to the basal ganglia and other subcortical targets.
+
+In addition to driving output responses, the layer 5b output neurons also transmit both sensory input and sustained active maintenance signals, as revealed by the unambiguous recording of all of these firing patterns in identified layer 5b neurons ([[@SommerWurtz00]]). This can arise from different patterns of projections from layer 2 and 3 neurons into layer 5b, and can be computationally useful in enabling all aspects of the PFC activity to be available to subcortical systems.
+
+## Systems-level dynamics
+
+The dynamics of activity within the PFC are subject to strong influence from extensive projections from the [[thalamus]], which are in turn subject to inputs from a range of other brain areas, including the [[basal ganglia]] and the [[cerebellum]], along with other neuromodulatory inputs. The PFC in turn sends extensive projections into these and other areas. Here we review data on these systems-level interactions.
+
+First, the extensive bidirectional excitatory connectivity between the thalamus and PFC has led many to develop computational models where these thalamocortical loops play a critical role in active maintenance, and in the dynamic control of when the information is updated versus maintained in PFC ([[@DomineyArbib92]]; [[@DomineyArbibJoseph95]]; [[@BeiserHouk98]]; [[@FrankLoughryOReilly01]]; [[@OReillyFrank06]]; [[@AshbyEllValentinEtAl05]]).
+
+For example, the [[PBWM]] model (prefrontal-cortex basal ganglia working-memory) [[@OReillyFrank06]]) draws a direct connection between the computational insights from the widely-used [[LSTM]] model (long short-term memory; [[@HochreiterSchmidhuber97]]) and these thalamocortical circuits and their disinhibitory control via the basal ganglia.
+
+The LSTM model demonstrates the computational power of a system with dynamic multiplicative _gating_ control over when information updates maintained working memory representations in PFC (and when this information is output to control behavior). The disinhibitory (modulatory) influence of the basal ganglia on thalamocortical loops produces effectively this same kind of gating function, and the PBWM model demonstrated how phasic [[dopamine]] signals could train this gating functionality in a biologically-plausible manner.
+
+{id="figure_alm-thal-loop" style="height:25em"}
+![Summary of thalamocortical loops between the anterior lateral motor area (ALM), which is the rodent analogue of dlPFC, and ventromedial thalamus (VM), based on detailed analysis by Guo et al., (2018).](media/fig_guo_etal_2018_alm_pt_ct_loops.png)
+
+Recent experimental data has provided strong support for this gating-like influence of the thalamus over PFC active maintenance. First, [[@^GuoYamawakiSvobodaEtAl18]] used many advanced neuroscience tools to determine the precise nature of the thalamocortical loops between layer 5b PT (pyramidal tract) neurons in area ALM (rodent dlPFC) and the VM (ventromedial) thalamic nucleus, as shown in [[#figure_alm-thal-loops]]. VM also projects to primary motor cortex (M1), but the specific neurons that receive inputs from the PFC PT neurons also send back up to ALM, not M1, forming a closed excitatory loop that could be important for sustaining active neural firing.
+
+Consistent with these thalamocortical loops, multiple studies have shown that the thalamus indeed plays a critical role in shaping the dynamics of PFC activity in a task-relevant context ([[@InagakiChenRidderEtAl22]]; [[@DacreColliganClarkeEtAl21]]; others..)
 
 
+## Specialized thalamic gating
+
+* different patterns of connectivity for MD -> goal areas, vs motor area VA, VL -- refer to Rovo et al covered in [[thalamus]].
 
 {id="figure_md-pfc" style="height:30em"}
 ![Connectivity for different regions of the MD thalamus in rats. From Kuramoto et al., 2017.](media/fig_md_pfc_kuramoto_etal_17.png)
@@ -72,6 +108,5 @@ broader connectivity of BG loops etc.
 [[@FriedmanHommaGibbEtAl15]] test cost-benefit conflicts in rats, find selective effects in PL and projection to striosomes in [[basal ganglia]]. Also show that ACC encodes cost information and projects more to matrix.
 
 
-## Mechanisms of active maintenance
 
 

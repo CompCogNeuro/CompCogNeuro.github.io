@@ -40,6 +40,10 @@
 
 <p id="ArieliSterkinGrinvaldEtAl96">Arieli, A., Sterkin, A., Grinvald, A., & Aertsen, A. (1996). Dynamics of ongoing activity: Explanation of the large variability in evoked cortical responses. Science, 273, 1868-1871. http://www.ncbi.nlm.nih.gov/pubmed/8791593</p>
 
+<p id="ArnstenWangPaspalas12">Arnsten, A.F.T., Wang, M.J., & Paspalas, C.D. (2012). Neuromodulation of thought: flexibilities and vulnerabilities in prefrontal cortical network synapses. Neuron, 76, 223-239. http://www.sciencedirect.com/science/article/pii/S0896627312008045 http://doi.org/10.1016/j.neuron.2012.08.038</p>
+
+<p id="AshbyEllValentinEtAl05">Ashby, F.G., Ell, S.W., Valentin, V.V., & Casale, M.B. (2005). FROST: A distributed neurocomputational model of working memory maintenance. Journal of Cognitive Neuroscience, 17, 1728-1743. https://doi.org/10.1162/089892905774589271 http://doi.org/10.1162/089892905774589271</p>
+
 <p id="Aston-JonesCohen05">Aston-Jones, G., & Cohen, J.D. (2005). An integrative theory of locus coeruleus-norepinephrine function: adaptive gain and optimal performance. Annual Review of Neuroscience, 28, 403-450. http://www.ncbi.nlm.nih.gov/pubmed/16022602</p>
 
 <p id="AtallahMcCoolHoweEtAl14">Atallah, H.E., McCool, A.D., Howe, M.W., & Graybiel, A.M. (2014). Neurons in the ventral striatum exhibit cell-type specific representations of outcome during learning. Neuron, </p>
@@ -75,6 +79,8 @@
 <p id="Bednar12">Bednar, J.A. (2012). Building a mechanistic model of the development and function of the primary visual cortex. Journal of physiology, Paris, 106, http://www.ncbi.nlm.nih.gov/pubmed/22343520</p>
 
 <p id="BednarMiikkulainen03">Bednar, J.A., & Miikkulainen, R. (2003). Self-organization of spatiotemporal receptive fields and laterally connected direction and orientation maps. Neurocomputing, 52, 473-480. http://www.sciencedirect.com/science/article/pii/S092523120200735X http://doi.org/10.1016/S0925-2312(02)00735-X</p>
+
+<p id="BeiserHouk98">Beiser, D.G., & Houk, J.C. (1998). Model of cortical-basal ganglionic processing: Encoding the serial order of sensory events. Journal of Neurophysiology, 79, 3168-3188. http://www.ncbi.nlm.nih.gov/pubmed/9636117</p>
 
 <p id="BellecScherrSubramoneyEtAl20">Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1), 3625. https://www.nature.com/articles/s41467-020-17236-y http://doi.org/10.1038/s41467-020-17236-y</p>
 
@@ -202,6 +208,8 @@
 
 <p id="CutsuridisPoirazi15">Cutsuridis, V., & Poirazi, P. (2015). A computational study on how theta modulated inhibition can account for the long temporal windows in the entorhinal–hippocampal loop. Neurobiology of Learning and Memory, 120, 69-83. https://www.sciencedirect.com/science/article/pii/S1074742715000234 http://doi.org/10.1016/j.nlm.2015.02.002</p>
 
+<p id="DacreColliganClarkeEtAl21">Dacre, J., Colligan, M., Clarke, T., Ammer, J.J., Schiemann, J., Chamosa-Pino, V., Claudi, F., Harston, J.A., Eleftheriou, C., Pakan, J.M.P., Huang, C., Hantman, A.W., Rochefort, N.L., & Duguid, I. (2021). A cerebellar-thalamocortical pathway drives behavioral context-dependent movement initiation. Neuron, 109, 2326-2338.e8. https://www.sciencedirect.com/science/article/pii/S0896627321003561 http://doi.org/10.1016/j.neuron.2021.05.016</p>
+
 <p id="DawNivDayan05">Daw, N.D., Niv, Y., & Dayan, P. (2005). Uncertainty-based competition between prefrontal and dorsolateral striatal systems for behavioral control. Nature Neuroscience, 8, 1704-1711. http://www.ncbi.nlm.nih.gov/pubmed/16286932</p>
 
 <p id="DayanHintonNealEtAl95">Dayan, P., Hinton, G.E., Neal, R.N., & Zemel, R.S. (1995). The {Helmholtz} machine. Neural Computation, 7, 889-904. </p>
@@ -237,6 +245,10 @@
 <p id="DoigMagillApicellaEtAl14">Doig, N.M., Magill, P.J., Apicella, P., Bolam, J.P., & Sharott, A. (2014). Cortical and Thalamic Excitation Mediate the Multiphasic Responses of Striatal Cholinergic Interneurons to Motivationally Salient Stimuli. Journal of Neuroscience, 34, 3101-3117. https://www.jneurosci.org/content/34/8/3101 http://doi.org/10.1523/JNEUROSCI.4627-13.2014</p>
 
 <p id="Dolphin18">Dolphin, A.C. (2018). Voltage-gated calcium channels: Their discovery, function and importance as drug targets. Brain and Neuroscience Advances, 2, 2398212818794805. https://doi.org/10.1177/2398212818794805 http://doi.org/10.1177/2398212818794805</p>
+
+<p id="DomineyArbib92">Dominey, P.F., & Arbib, M.A. (1992). Cortico-subcortical model for generation of spatially accurate sequential saccades. Cerebral Cortex, 2, 153-175. </p>
+
+<p id="DomineyArbibJoseph95">Dominey, P.F., Arbib, M., & Joseph, J. (1995). A Model of Corticostriatal Plasticity for Learning Oculomotor Associations and Sequences. Journal of Cognitive Neuroscience, 7, 311-336. </p>
 
 <p id="DongWangSullivanEtAl25">Dong, J., Wang, L., Sullivan, B.T., Sun, L., Martinez Smith, V.M., Chang, L., Ding, J., Le, W., Gerfen, C.R., & Cai, H. (2025). Molecularly distinct striatonigral neuron subtypes differentially regulate locomotion. Nature Communications, 16, 2710. https://www.nature.com/articles/s41467-025-58007-x http://doi.org/10.1038/s41467-025-58007-x</p>
 
@@ -274,7 +286,7 @@
 
 <p id="EkmanFriesen75">Ekman, P., & Friesen, W. (1975). Pictures of facial affect. Consulting Psychologists Press. </p>
 
-<p id="ElhageNandaOlssonEtAl21">Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., & Conerly, T. (2021). A mathematical framework for transformer circuits. Transformer Circuits Thread, 1, 12. </p>
+<p id="ElhageNandaOlssonEtAl21">Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., & Conerly, T. (2021). A mathematical framework for transformer circuits. Transformer Circuits Thread, 1, 12. https://transformer-circuits.pub/2021/framework/index.html</p>
 
 <p id="EllenderHarwoodKosilloEtAl13">Ellender, T.J., Harwood, J., Kosillo, P., Capogna, M., & Bolam, J.P. (2013). Heterogeneous properties of central lateral and parafascicular thalamic synapses in the striatum. The Journal of Physiology, 591, 257–272. http://www.ncbi.nlm.nih.gov/pubmed/23109111</p>
 
@@ -283,6 +295,8 @@
 <p id="Elman93">Elman, J.L. (1993). Learning and development in neural networks: the importance of starting small. Cognition, 48, 71-99. http://www.ncbi.nlm.nih.gov/pubmed/8403835</p>
 
 <p id="ElmanBatesKarmiloff-SmithEtAl96">Elman, J.L., Bates, E., Karmiloff-Smith, A., Johnson, M., Parisi, D., & Plunkett, K. (1996). Rethinking Innateness: A Connectionist Perspective on Development. MIT Press. </p>
+
+<p id="Elston03">Elston, G.N. (2003). Cortex, cognition and the cell: new insights into the pyramidal neuron and prefrontal function. Cerebral Cortex, 13, 1124-1138. http://www.ncbi.nlm.nih.gov/pubmed/14576205</p>
 
 <p id="EvansTwedellZhuEtAl20">Evans, R.C., Twedell, E.L., Zhu, M., Ascencio, J., Zhang, R., & Khaliq, Z.M. (2020). Functional dissection of basal ganglia inhibitory inputs onto substantia nigra dopaminergic neurons. Cell Reports, 32, 108156. https://www.sciencedirect.com/science/article/pii/S2211124720311451 http://doi.org/10.1016/j.celrep.2020.108156</p>
 
@@ -306,7 +320,7 @@
 
 <p id="FosterBarryKorobkovaEtAl21">Foster, N.N., Barry, J., Korobkova, L., Garcia, L., Gao, L., Becerra, M., Sherafat, Y., Peng, B., Li, X., Choi, J., Gou, L., Zingg, B., Azam, S., Lo, D., Khanjani, N., Zhang, B., Stanis, J., Bowman, I., Cotter, K., Cao, C., Yamashita, S., Tugangui, A., Li, A., Jiang, T., Jia, X., Feng, Z., Aquino, S., Mun, H., Zhu, M., Santarelli, A., Benavidez, N.L., Song, M., Dan, G., Fayzullina, M., Ustrell, S., Boesen, T., Johnson, D.L., Xu, H., Bienkowski, M.S., Yang, X.W., Gong, H., Levine, M.S., Wickersham, I., Luo, Q., Hahn, J.D., Lim, B.K., Zhang, L.I., Cepeda, C., Hintiryan, H., & Dong, H. (2021). The mouse cortico–basal ganglia–thalamic network. Nature, 598(7879), 188-194. https://www.nature.com/articles/s41586-021-03993-3 http://doi.org/10.1038/s41586-021-03993-3</p>
 
-<p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How Spike Generation Mechanisms Determine the Neuronal Response to Fluctuating Inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
+<p id="Fourcaud-TrocmeHanselVreeswijkEtAl03">Fourcaud-Trocmé, N., Hansel, D., Vreeswijk, C., & Brunel, N. (2003). How spike generation mechanisms determine the neuronal response to fluctuating inputs. Journal of Neuroscience, 23, 11628-11640. https://www.jneurosci.org/content/23/37/11628 http://doi.org/10.1523/JNEUROSCI.23-37-11628.2003</p>
 
 <p id="Frank05">Frank, M.J. (2005). When and when not to use your subthalamic nucleus: Lessons from a computational model of the basal ganglia. In A.K. Seth, T.J. Prescott, & J.J. Bryson (Eds.), Modelling Natural Action Selection: Proceedings of an International Workshop (pp. 53-60). AISB. </p>
 
@@ -334,7 +348,7 @@
 
 <p id="FujitaFukaiKitano12">Fujita, T., Fukai, T., & Kitano, K. (2012). Influences of membrane properties on phase response curve and synchronization stability in a model globus pallidus neuron. Journal of Computational Neuroscience, 32, 539-553.  http://doi.org/10.1007/s10827-011-0368-2</p>
 
-<p id="FunahashiBruceGoldman-Rakic89">Funahashi, S., Bruce, C.J., & Goldman-Rakic, P.S. (1989). Mnemonic coding of visual space in the monkey's dorsolateral prefrontal cortex. Journal of Neurophysiology, 61, 331-349. http://www.ncbi.nlm.nih.gov/pubmed/2918358</p>
+<p id="FusiMillerRigotti16">Fusi, S., Miller, E.K., & Rigotti, M. (2016). Why neurons mix: high dimensionality for higher cognition. Current Opinion in Neurobiology, 37, 66-74. http://www.sciencedirect.com/science/article/pii/S0959438816000118 http://doi.org/10.1016/j.conb.2016.01.010</p>
 
 <p id="FusterAlexander71">Fuster, J.M., & Alexander, G.E. (1971). Neuron activity related to short-term memory. Science, 173, 652-654. </p>
 
@@ -353,6 +367,8 @@
 <p id="Gerfen89">Gerfen, C.R. (1989). The neostriatal mosaic: Striatal patch-matrix organization is related to cortical lamination. Science, 246, 385-358. http://www.ncbi.nlm.nih.gov/pubmed/2799392</p>
 
 <p id="Gerfen92">Gerfen, C.R. (1992). The neostriatal mosaic: Multiple levels of compartmental organization in the basal ganglia. Annual Review of Neuroscience, 15, 285-320. http://www.ncbi.nlm.nih.gov/pubmed/1575444</p>
+
+<p id="GersSchmidhuberCummins00">Gers, F.A., Schmidhuber, J., & Cummins, F. (2000). Learning to forget: Continual prediction with LSTM. In Neural Computation (pp. 2451-2471). http://www.ncbi.nlm.nih.gov/pubmed/11032042</p>
 
 <p id="GershmanBeck17">Gershman, S.J., & Beck, J.M. (2017). Complex Probabilistic Inference. In Computational Models of Brain and Behavior (pp. 453-466). John Wiley & Sons, Ltd. https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119159193.ch33 http://doi.org/10.1002/9781119159193.ch33</p>
 
@@ -460,6 +476,8 @@
 
 <p id="HobsonPace-Schott02">Hobson, J.A., & Pace-Schott, E.F. (2002). The cognitive neuroscience of sleep: neuronal systems, consciousness and learning. Nature Reviews Neuroscience, 3(9), 679-693. http://www.nature.com/articles/nrn915 http://doi.org/10.1038/nrn915</p>
 
+<p id="HochreiterSchmidhuber97">Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory. Neural Computation, 9, 1735-1780. </p>
+
 <p id="HodgkinHuxley52">Hodgkin, A.L., & Huxley, A.F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117, 500-544. https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1952.sp004764 http://doi.org/10.1113/jphysiol.1952.sp004764</p>
 
 <p id="HoffmanMageeColbertEtAl97">Hoffman, D.A., Magee, J.C., Colbert, C.M., & Johnston, D. (1997). K+ channel regulation of signal propagation in dendrites of hippocampal pyramidal neurons. Nature, 387, 869-875. https://www.nature.com/articles/43119 http://doi.org/10.1038/43119</p>
@@ -496,9 +514,13 @@
 
 <p id="HuntMalalasekeraBerkerEtAl17">Hunt, L.T., Malalasekera, W.M.N., Berker, A.O., Miranda, B., Farmer, S.F., Behrens, T.E.J., & Kennerley, S.W. (2017). Triple dissociation of attention and decision computations across prefrontal cortex. bioRxiv, 171173. https://www.biorxiv.org/content/early/2017/08/01/171173 http://doi.org/10.1101/171173</p>
 
+<p id="HuntMalalasekeradeBerkerEtAl18">Hunt, L.T., Malalasekera, W.M.N., Berker, A.O., Miranda, B., Farmer, S.F., Behrens, T.E.J., & Kennerley, S.W. (2018). Triple dissociation of attention and decision computations across prefrontal cortex. Nature Neuroscience, 21, 1471-1481. https://www.nature.com/articles/s41593-018-0239-5 http://doi.org/10.1038/s41593-018-0239-5</p>
+
 <p id="Hyvarinen13">Hyvärinen, A. (2013). Independent component analysis: recent advances. Philosophical transactions. Series A, Mathematical, physical, and engineering sciences, 371, 20110534. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538438/ http://doi.org/10.1098/rsta.2011.0534</p>
 
 <p id="IacobucciPopescu24">Iacobucci, G.J., & Popescu, G.K. (2024). Calcium- and calmodulin-dependent inhibition of NMDA receptor currents. Biophysical Journal, 123, 277-293. https://www.cell.com/biophysj/abstract/S0006-3495(23)04156-5 http://doi.org/10.1016/j.bpj.2023.12.018</p>
+
+<p id="InagakiChenRidderEtAl22">Inagaki, H.K., Chen, S., Ridder, M.C., Sah, P., Li, N., Yang, Z., Hasanbegovic, H., Gao, Z., Gerfen, C.R., & Svoboda, K. (2022). A midbrain-thalamus-cortex circuit reorganizes cortical dynamics to initiate movement. Cell, 185, 1065-1081.e23. https://www.sciencedirect.com/science/article/pii/S0092867422001465 http://doi.org/10.1016/j.cell.2022.02.006</p>
 
 <p id="InaseBufordAnderson96">Inase, M., Buford, J.A., & Anderson, M.E. (1996). Changes in the control of arm position, movement, and thalamic discharge during local inactivation in the globus pallidus of the monkey. Journal of Neurophysiology, 75, 1087-1104. https://www.physiology.org/doi/abs/10.1152/jn.1996.75.3.1087 http://doi.org/10.1152/jn.1996.75.3.1087</p>
 
@@ -570,9 +592,15 @@
 
 <p id="KravitzFreezeParkerEtAl10">Kravitz, A., Freeze, B., Parker, P., Kay, K., Thwin, M., Deisseroth, K., & Kreitzer, A. (2010). Regulation of {P}arkinsonian motor behaviours by optogenetic control of basal ganglia circuitry. Nature, 466, 622–626. http://www.nature.com/nature/journal/vaop/ncurrent/full/nature09159.html</p>
 
+<p id="KriegeskorteMurBandettini08">Kriegeskorte, N., Mur, M., & Bandettini, P. (2008). Representational similarity analysis – connecting the branches of systems neuroscience. Frontiers in Systems Neuroscience, 2, http://www.ncbi.nlm.nih.gov/pubmed/19104670</p>
+
+<p id="KritzerGoldman-Rakic95">Kritzer, M.F., & Goldman-Rakic, P.S. (1995). Intrinsic circuit organization of the major layers and sublayers of the dorsolateral prefrontal cortex in the rhesus monkey. Journal of Comparative Neurology, 359, 131-143. http://www.ncbi.nlm.nih.gov/pubmed/8557842</p>
+
 <p id="KrizhevskySutskeverHinton12">Krizhevsky, A., Sutskever, I., & Hinton, G.E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In F. Pereira, C.J.C. Burges, L. Bottou, & K.Q. Weinberger (Eds.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc. http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</p>
 
 <p id="KrotovHopfield21">Krotov, D., & Hopfield, J. (2021). Large Associative Memory Problem in Neurobiology and Machine Learning. http://arxiv.org/abs/2008.06996 http://doi.org/10.48550/arXiv.2008.06996</p>
+
+<p id="KrystalAbi-SaabPerryEtAl05">Krystal, J.H., Abi-Saab, W., Perry, E., D’Souza, D.C., Liu, N., Gueorguieva, R., McDougall, L., Hunsberger, T., Belger, A., Levine, L., & Breier, A. (2005). Preliminary evidence of attenuation of the disruptive effects of the NMDA glutamate receptor antagonist, ketamine, on working memory by pretreatment with the group II metabotropic glutamate receptor agonist, LY354740, in healthy human subjects. Psychopharmacology, 179, 303-309. https://doi.org/10.1007/s00213-004-1982-8 http://doi.org/10.1007/s00213-004-1982-8</p>
 
 <p id="KrystalAnticevicYangEtAl17">Krystal, J.H., Anticevic, A., Yang, G.J., Dragoi, G., Driesen, N.R., Wang, X., & Murray, J.D. (2017). Impaired Tuning of Neural Ensembles and the Pathophysiology of Schizophrenia: A Translational and Computational Neuroscience Perspective. Biological Psychiatry, 81, 874-885. https://www.sciencedirect.com/science/article/pii/S0006322317300367 http://doi.org/10.1016/j.biopsych.2017.01.004</p>
 
@@ -625,6 +653,8 @@
 <p id="Lisman94">Lisman, J. (1994). The CaM kinase II hypothesis for the storage of synaptic memory. Trends in Neurosciences, 17, 406-412.  http://doi.org/10.1016/0166-2236(94)90014-0</p>
 
 <p id="LismanFellousWang99">Lisman, J.E., Fellous, J.M., & Wang, X.J. (1999). A role for {NMDA}-receptor channels in working memory. Nature Neuroscience, 1, 273-275. http://www.ncbi.nlm.nih.gov/pubmed/10195158</p>
+
+<p id="MacLean52">MacLean, P.D. (1952). Some psychiatric implications of physiological studies on frontotemporal portion of limbic system (Visceral brain) Electroencephalography and Clinical Neurophysiology, 4, 407-418. https://www.sciencedirect.com/science/article/pii/0013469452900734 http://doi.org/10.1016/0013-4694(52)90073-4</p>
 
 <p id="MagillSharottBevanEtAl04">Magill, P.J., Sharott, A., Bevan, M.D., Brown, P., & Bolam, J.P. (2004). Synchronous unit activity and local field potentials evoked in the subthalamic nucleus by cortical stimulation. Journal of Neurophysiology, 92, 700-714. http://www.ncbi.nlm.nih.gov/pubmed/15044518</p>
 
@@ -683,6 +713,8 @@
 <p id="MnihKavukcuogluSilverEtAl15">Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.A., Veness, J., Bellemare, M.G., Graves, A., Riedmiller, M., Fidjeland, A.K., Ostrovski, G., Petersen, S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra, D., Legg, S., & Hassabis, D. (2015). Human-level control through deep reinforcement learning. Nature, 518, 529–533. http://www.ncbi.nlm.nih.gov/pubmed/25719670</p>
 
 <p id="MoerlandBroekensJonker21">Moerland, T.M., Broekens, J., & Jonker, C.M. (2021). Model-based reinforcement learning: A survey. arXiv:2006.16712 [cs, stat], http://arxiv.org/abs/2006.16712</p>
+
+<p id="MoghaddamAdams98">Moghaddam, B., & Adams, B.W. (1998). Reversal of phencyclidine effects by a group II metabotropic glutamate receptor agonist in rats. Science, 281, 1349-1352. https://science.sciencemag.org/content/281/5381/1349 http://doi.org/10.1126/science.281.5381.1349</p>
 
 <p id="MollickHazyKruegerEtAl20">Mollick, J.A., Hazy, T.E., Krueger, K.A., Nair, A., Mackie, P., Herd, S.A., & O'Reilly, R.C. (2020). A systems-neuroscience model of phasic dopamine. Psychological Review, 127, 972-1021.  http://doi.org/10.1037/rev0000199</p>
 
@@ -860,6 +892,8 @@
 
 <p id="RobertsClarke19">Roberts, A.C., & Clarke, H.F. (2019). Why we need nonhuman primates to study the role of ventromedial prefrontal cortex in the regulation of threat- and reward-elicited responses. Proceedings of the National Academy of Sciences, 116, 26297-26304. https://www.pnas.org/doi/10.1073/pnas.1902288116 http://doi.org/10.1073/pnas.1902288116</p>
 
+<p id="RobertsShafferSeymourEtAl10">Roberts, B.M., Shaffer, C.L., Seymour, P.A., Schmidt, C.J., Williams, G.V., & Castner, S.A. (2010). Glycine transporter inhibition reverses ketamine-induced working memory deficits. NeuroReport, 21, 390–394. https://journals.lww.com/neuroreport/Fulltext/2010/03310/Glycine_transporter_inhibition_reverses.15.aspx http://doi.org/10.1097/WNR.0b013e3283381a4e</p>
+
 <p id="RogersMcClelland04">Rogers, T.T., & McClelland, J.L. (2004). Semantic Cognition: A Parallel Distributed Processing Approach. MIT Press. </p>
 
 <p id="RootMelendezZaborszkyEtAl15">Root, D.H., Melendez, R.I., Zaborszky, L., & Napier, T.C. (2015). The ventral pallidum: Subregion-specific functional anatomy and roles in motivated behaviors. Progress in Neurobiology, 130, 29-70. https://www.sciencedirect.com/science/article/pii/S0301008215000271 http://doi.org/10.1016/j.pneurobio.2015.03.005</p>
@@ -916,6 +950,8 @@
 
 <p id="Schmidhuber15a">Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. http://www.sciencedirect.com/science/article/pii/S0893608014002135 http://doi.org/10.1016/j.neunet.2014.09.003</p>
 
+<p id="SchmidhuberGersEck02">Schmidhuber, J., Gers, F., & Eck, D. (2002). Learning nonregular languages: A comparison of simple recurrent networks and LSTM. Neural Computation, 14, 2039-2042. http://www.ncbi.nlm.nih.gov/pubmed/12184841</p>
+
 <p id="Schneider-MizellBodorBrittainEtAl25">Schneider-Mizell, C.M., Bodor, A.L., Brittain, D., Buchanan, J., Bumbarger, D.J., Elabbady, L., Gamlin, C., Kapner, D., Kinn, S., Mahalingam, G., Seshamani, S., Suckow, S., Takeno, M., Torres, R., Yin, W., Dorkenwald, S., Bae, J.A., Castro, M.A., Halageri, A., Jia, Z., Jordan, C., Kemnitz, N., Lee, K., Li, K., Lu, R., Macrina, T., Mitchell, E., Mondal, S.S., Mu, S., Nehoran, B., Popovych, S., Silversmith, W., Turner, N.L., Wong, W., Wu, J., Reimer, J., Tolias, A.S., Seung, H.S., Reid, R.C., Collman, F., & Costa, N.M. (2025). Inhibitory specificity from a connectomic census of mouse visual cortex. Nature, 640, 448-458. https://www.nature.com/articles/s41586-024-07780-8 http://doi.org/10.1038/s41586-024-07780-8</p>
 
 <p id="SchneiderShiffrin77">Schneider, W., & Shiffrin, R.M. (1977). Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention. Psychological Review, 84, 1-66. </p>
@@ -965,6 +1001,8 @@
 <p id="SmithRajuPareEtAl04">Smith, Y., Raju, D.V., Pare, J., & Sidibe, M. (2004). The thalamostriatal system: a highly specific network of the basal ganglia circuitry. Trends in Neurosciences, 27, 520-527. http://www.ncbi.nlm.nih.gov/pubmed/15331233</p>
 
 <p id="Smolensky86">Smolensky, P. (1986). Information Processing in Dynamical Systems: Foundations of Harmony Theory. In D.E. Rumelhart, J.L. McClelland, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 1: Foundations (pp. 282-317). MIT Press. </p>
+
+<p id="SommerWurtz00">Sommer, M.A., & Wurtz, R.H. (2000). Composition and topographic organization of signals sent from the frontal eye field to the superior colliculus. Journal of Neurophysiology, 83, 1979–2001. http://www.ncbi.nlm.nih.gov/pubmed/10758109</p>
 
 <p id="Spear00">Spear, L.P. (2000). The adolescent brain and age-related behavioral manifestations. Neuroscience & Biobehavioral Reviews, 24, 417-463. https://www.sciencedirect.com/science/article/pii/S0149763400000142 http://doi.org/10.1016/S0149-7634(00)00014-2</p>
 
@@ -1067,6 +1105,10 @@
 <p id="Wallen-MackenzieDumasPapathanouEtAl20">Wallén-Mackenzie, �., Dumas, S., Papathanou, M., Martis Thiele, M.M., Vlcek, B., König, N., & Björklund, �.K. (2020). Spatio-molecular domains identified in the mouse subthalamic nucleus and neighboring glutamatergic and GABAergic brain structures. Communications Biology, 3, 338. https://www.nature.com/articles/s42003-020-1028-8 http://doi.org/10.1038/s42003-020-1028-8</p>
 
 <p id="WangLiuHaditschEtAl03">Wang, J., Liu, S.H., Haditsch, U., Tu, W.H., Cochrane, K., Ahmadian, G., Tran, L., Paw, J., Wang, Y.T., & Mansuy, I. (2003). Interaction of Calcineurin and Type-A GABA Receptor gamma2 Subunits Produces Long-Term Depression at CA1 Inhibitory Synapses. Journal of Neuroscience, 23, 826-836. </p>
+
+<p id="WangMarkramGoodmanEtAl06">Wang, Y., Markram, H., Goodman, P.H., Berger, T.K., Ma, J., & Goldman-Rakic, P.S. (2006). Heterogeneity in the pyramidal network of the medial prefrontal cortex. Nature Neuroscience, 9, 534-542.  http://doi.org/10.1038/nn1670</p>
+
+<p id="WangYangWangEtAl13">Wang, M., Yang, Y., Wang, C., Gamo, N.J., Jin, L.E., Mazer, J.A., Morrison, J.H., Wang, X., & Arnsten, A.F.T. (2013). NMDA receptors subserve persistent neuronal firing during working memory in dorsolateral prefrontal cortex. Neuron, 77, 736-749. http://www.sciencedirect.com/science/article/pii/S089662731300038X http://doi.org/10.1016/j.neuron.2012.12.032</p>
 
 <p id="WarstadtBowman22">Warstadt, A., & Bowman, S.R. (2022). What Artificial Neural Networks Can Tell Us about Human Language Acquisition. In Algebraic Structures in Natural Language. CRC Press. </p>
 

@@ -1,15 +1,17 @@
 +++
-Categories = ["Activation", "Computation", "Cognition"]
+Categories = ["Activation", "Computation", "Cognition", "Neuroscience"]
 bibfile = "ccnlab.json"
 +++
 
-<!--- TODO: combinatorial codes, mixed selectivity, Fusi et al -->
+**Distributed representations** are simply the population of many individual [[neuron detector]]s, each of which is detecting something different. The aggregate pattern of output activity ("detection alarms") across this population of detectors can encode a wealth of information in _parallel_, without having to decide on a specific individual feature that is most relevant at the present moment.
 
-In addition to the process of mental [[categorization]] being somewhat difficult to define precisely, it is also highly **polymorphous**: any given input can be categorized in many different ways at the same time. There is no such thing as _the_ appropriate level of categorization for any given thing. A chair can also be _furniture,_ _art,_ _trash,_ _firewood,_ _doorstopper,_ _plastic_ and any number of other such things. Both the amorphous and polymorphous nature of categories are nicely accommodated by the properties of **distributed representations**.
+Thus, distributed representations are a key part of the overall strategy to combat the [[curse of dimensionality]] in the universal computational process of [[search]]. Also see the discussion of [[combinatorial vs conjunctive]] representations for additional dimensions along which distributed representations can vary, and the computational implications thereof.
 
-Distributed representations are simply the population of many individual [[neuron detector]]s, each of which is detecting something different. The aggregate pattern of output activity ("detection alarms") across this population of detectors can capture the amorphousness of a mental category, because it isn't just one single discrete factor that goes into it. There are many factors, each of which plays a role.
+In the context of mental [[categorization]] to provide more abstract and efficient ways of representing behaviorally-relevant information, distributed representations can capture the amorphousness of a mental category, because it isn't just one single discrete factor that goes into it. There are many factors, each of which plays a role.
 
-Chairs have seating surfaces, and sometimes have a backrest, and typically have a chair-like shape, but their shapes can also be highly variable and strange. They are often made of wood or plastic or metal, but can also be made of cardboard or even glass. All of these different factors can be captured by the whole population of neurons firing away to encode these and many other features (e.g., including surrounding context, history of actions and activities involving the object in question).
+In other words, categorization is highly **polymorphous**: any given input can be categorized in many different ways at the same time. There is no such thing as _the_ appropriate level of categorization for any given thing. A chair can also be _furniture,_ _art,_ _trash,_ _firewood,_ _doorstopper,_ _plastic_ and any number of other such things.
+
+Chairs have seating surfaces, and sometimes have a backrest, and typically have a chair-like shape, but their shapes can also be highly variable and strange. They are often made of wood or plastic or metal, but can also be made of cardboard or even glass. All of these different factors can be captured by the whole distributed population of neurons firing away to encode these and many other features (e.g., including surrounding context, history of actions and activities involving the object in question).
 
 The same goes for the polymorphous nature of categories. One set of neurons may be detecting chair-like aspects of a chair, while others are activating based on all the different things that it might represent (material, broader categories, appearance, style etc). All of these different possible meanings of the chair input can be active _simultaneously_, which is well captured by a distributed representation with neurons detecting all these different categories at the same time.
 
@@ -43,6 +45,24 @@ Critically, this accuracy level does not go down appreciably when you exclude th
 [[#figure_coarse-coding]] illustrates an important specific case of a distributed representation known as **coarse coding**. This is not actually different from what we've described above, but the particular example of how the eye uses only 3 photoreceptors to capture the entire visible spectrum of light is a particularly good example of the power of distributed representations. Each individual frequency of light is uniquely encoded in terms of the _relative balance_ of graded activity across the different detectors.
 
 For example, a color between red and green (e.g., a particular shade of yellow) is encoded as partial activity of the red and green units, with the relative strength of red vs. green determining how much it looks more orange vs. chartreuse. In summary, coarse coding is very important for efficiently encoding information using relatively few neurons.
+
+### Coarse coding in high-dimensional spaces
+
+When coarse coding is applied to high-dimensional spaces instead of a single linear dimension such as the frequency of light, the result is that individual neurons exhibit a pattern of **mixed selectivity** across many different dimensions ([[@FusiMillerRigotti16]]). For example, in the context of visual inputs, a given neuron might show selectivity to some aspects of color, shape, shading, curvature, depth, and motion (and random subsets thereof).
+
+Mixed selectivity is a natural consequence of the extensive interconnectivity among neurons in the brain, so that any given neuron receives direct and indirect inputs from other neurons that have some degree of response to the relevant dimensions, and given its synaptic weights, it is thus likely to respond in somewhat complex and hard-to-describe ways as stimuli vary across these different dimensions.
+
+This kind of neural responding is also ubiquitous in [[abstract neural network]] models, which start out with randomized initial weights, and retain a surprising amount of this randomness over the course of learning.
+
+For example, even though neurons in primary visual cortex are known to have strong responses to relatively simple dimensions of visual input, such as orientation of edges, you can nevertheless find neurons that respond to just about any other behaviorally-relevant factor in this area too.
+
+One critical lesson from this is that:
+
+> any functional analysis based on the response properties of individual neurons should be regarded with a great deal of suspicion!
+
+Instead, the resounding message from the perspective of distributed representations is that only _population-level_ analysis that takes into account the responses across many neurons in a given area can provide an accurate picture of what that  area is really representing. For example, _representational similarity analysis_ (RSA) provides a useful framework for comparing how similar the overall pattern of neural activity is for different types of inputs ([[@KriegeskorteMurBandettini08]]).
+
+Interestingly, the use of _decoder_ models to analyze neural population activity is actually subject to many of the concerns as the analysis of individual neurons. This is because the diversity of neural responding within a given area generally allows a decoder trained to detect a particular pattern to perform above chance, even when the overall similarity structure of neural coding in a given area is not strongly aligned with that pattern.
 
 ## Localist representations
 

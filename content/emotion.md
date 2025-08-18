@@ -9,7 +9,7 @@ bibfile = "ccnlab.json"
 
 > Emotion reflects the activity of midbrain and brainstem systems that have been shaped by evolution to guide the behavior of the organism in adaptive ways to satisfy its **needs** in relation to the external and internal state. Most emotional states involve midbrain **neuromodulatory systems** such as [[dopamine]] and [[serotonin]] that broadcast signals reflecting important changes in body state and have widespread effects on the entire brain.
 
-These brain systems are largely synonymous with the [[limbic system]], and are anchored by the **hypothalamus**, **periaqueductal gray**, **parabrachial area**, and associated nuclei that directly sense the internal body state (interoception), which is conveyed in part by the vagus nerve via the medulla oblongota.
+These brain systems overlap with many elements of the [[limbic system]], and are anchored by the **hypothalamus**, **periaqueductal gray**, **parabrachial area**, and associated nuclei that directly sense the internal body state (interoception), which is conveyed in part by the vagus nerve via the medulla oblongota.
 
 Multiple layers of additional processing and control over the brainstem systems have been added and elaborated over the course of brain evolution, including:
 
@@ -63,5 +63,4 @@ Like many other species, humans are strongly social animals, and we depend on ot
 Furthermore, [[@^Tomasello01]] argues that humans have a unique drive to share that is not evident in even our closest primate relatives (e.g., chimpanzees). This sharing instinct is what drives the pervasive nature of our cultural evolution, where we acquire much of our knowledge from the accumulated wisdom of those who have come before us.
 
 A major function of emotion is to communicate and share our internal states with others, so they can help us satisfy our needs as well. This is nicely conveyed in the movie _Inside Out_ with respect to the important role of sadness. Considerable work has identified a set of facial expressions that are universally recognized across cultures ([[@EkmanFriesen75]]): anger, disgust, fear, happiness, sadness and surprise. Note that this small set is not thought to be exhaustive, and not all emotional states are communicated: the ones on this list are those that are clearly useful to communicate.
-
 
