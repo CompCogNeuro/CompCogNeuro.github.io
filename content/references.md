@@ -14,6 +14,8 @@
 
 <p id="Aizi23">Aizi, R. (2023). How does GPT-3 spend its 175B parameters? https://www.lesswrong.com/posts/3duR8CrvcHywrnhLo/how-does-gpt-3-spend-its-175b-parameters</p>
 
+<p id="AkhlaghpourWiskerkeChoiEtAl16">Akhlaghpour, H., Wiskerke, J., Choi, J.Y., Taliaferro, J.P., Au, J., & Witten, I.B. (2016). Dissociated sequential activity and stimulus encoding in the dorsomedial striatum during spatial working memory. eLife, 5, e19507. https://doi.org/10.7554/eLife.19507 http://doi.org/10.7554/eLife.19507</p>
+
 <p id="AlbinYoungPenney89">Albin, R.L., Young, A.B., & Penney, J.B. (1989). The functional anatomy of basal ganglia disorders. Trends in Neurosciences, 12, 366-375. </p>
 
 <p id="AlbrechtFettermanFogelmanEtAl22">Albrecht, J., Fetterman, A.J., Fogelman, B., Kitanidis, E., Wróblewski, B., Seo, N., Rosenthal, M., Knutins, M., Polizzi, Z., Simon, J.B., & Qiu, K. (2022). Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds. http://arxiv.org/abs/2210.13417 http://doi.org/10.48550/arXiv.2210.13417</p>
@@ -116,7 +118,11 @@
 
 <p id="BogaczMoraudAbdiEtAl16">Bogacz, R., Moraud, E.M., Abdi, A., Magill, P.J., & Baufreton, J. (2016). Properties of Neurons in External Globus Pallidus Can Support Optimal Action Selection. PLOS Computational Biology, 12, e1005004. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005004 http://doi.org/10.1371/journal.pcbi.1005004</p>
 
+<p id="BolkanStujenskeParnaudeauEtAl17">Bolkan, S.S., Stujenske, J.M., Parnaudeau, S., Spellman, T.J., Rauffenbart, C., Abbas, A.I., Harris, A.Z., Gordon, J.A., & Kellendonk, C. (2017). Thalamic projections sustain prefrontal activity during working memory maintenance. Nature Neuroscience, 20, 987-996. https://www.nature.com/articles/nn.4568 http://doi.org/10.1038/nn.4568</p>
+
 <p id="Borst10">Borst, J.G.G. (2010). The low synaptic release probability in vivo. Trends in Neurosciences, 33, 259-266. http://www.sciencedirect.com/science/article/pii/S0166223610000457 http://doi.org/10.1016/j.tins.2010.03.003</p>
+
+<p id="Bosch-BoujuHylandParr-Brownlie13">Bosch-Bouju, C., Hyland, B.I., & Parr-Brownlie, L.C. (2013). Motor thalamus integration of cortical, cerebellar and basal ganglia information: implications for normal and parkinsonian conditions. Frontiers in Computational Neuroscience, 7, https://www.frontiersin.org/articles/10.3389/fncom.2013.00163/full http://doi.org/10.3389/fncom.2013.00163</p>
 
 <p id="BoschCastroSaneyoshiEtAl14">Bosch, M., Castro, J., Saneyoshi, T., Matsuno, H., Sur, M., & Hayashi, Y. (2014). Structural and Molecular Remodeling of Dendritic Spine Substructures during Long-Term Potentiation. Neuron, 82, 444-459. https://www.cell.com/neuron/abstract/S0896-6273(14)00251-7 http://doi.org/10.1016/j.neuron.2014.03.021</p>
 
@@ -280,6 +286,8 @@
 
 <p id="EcoffetHuizingaLehmanEtAl21">Ecoffet, A., Huizinga, J., Lehman, J., Stanley, K.O., & Clune, J. (2021). First return, then explore. Nature, 590, 580-586. https://www.nature.com/articles/s41586-020-03157-9 http://doi.org/10.1038/s41586-020-03157-9</p>
 
+<p id="EconomoViswanathanTasicEtAl18">Economo, M.N., Viswanathan, S., Tasic, B., Bas, E., Winnubst, J., Menon, V., Graybuck, L.T., Nguyen, T.N., Smith, K.A., Yao, Z., Wang, L., Gerfen, C.R., Chandrashekar, J., Zeng, H., Looger, L.L., & Svoboda, K. (2018). Distinct descending motor cortex pathways and their roles in movement. Nature, 563(7729), 79-84. https://www.nature.com/articles/s41586-018-0642-9 http://doi.org/10.1038/s41586-018-0642-9</p>
+
 <p id="Edelman87">Edelman, G. (1987). Neural Darwinism. Basic Books. </p>
 
 <p id="EkmanDavidson94">Ekman, P., & Davidson, R.J. (Eds.) (1994). The nature of emotion. Oxford. </p>
@@ -376,7 +384,11 @@
 
 <p id="GibsonBeierleinConnors99">Gibson, J.R., Beierlein, M., & Connors, B.W. (1999). Two networks of electrically coupled inhibitory neurons in neocortex. Nature, 402, 75-79. https://www.nature.com/articles/47035 http://doi.org/10.1038/47035</p>
 
+<p id="GiguereGoldman-Rakic88">Giguere, M., & Goldman‐Rakic, P.S. (1988). Mediodorsal nucleus: Areal, laminar, and tangential distribution of afferents and efferents in the frontal lobe of rhesus monkeys. Journal of Comparative Neurology, 277, 195-213. http://onlinelibrary.wiley.com/doi/abs/10.1002/cne.902770204 http://doi.org/10.1002/cne.902770204</p>
+
 <p id="GilliesWillshaw06">Gillies, A., & Willshaw, D. (2006). Membrane Channel Interactions Underlying Rat Subthalamic Projection Neuron Rhythmic and Bursting Activity. Journal of Neurophysiology, 95, 2352-2365. http://journals.physiology.org/doi/full/10.1152/jn.00525.2005 http://doi.org/10.1152/jn.00525.2005</p>
+
+<p id="GilmartinBalderstonHelmstetter14">Gilmartin, M.R., Balderston, N.L., & Helmstetter, F.J. (2014). Prefrontal cortical regulation of fear learning. Trends in Neurosciences, 37, 455-464. https://www.sciencedirect.com/science/article/pii/S0166223614000794 http://doi.org/10.1016/j.tins.2014.05.004</p>
 
 <p id="GlajchKelverHegemanEtAl16">Glajch, K.E., Kelver, D.A., Hegeman, D.J., Cui, Q., Xenias, H.S., Augustine, E.C., Hernández, V.M., Verma, N., Huang, T.Y., Luo, M., Justice, N.J., & Chan, C.S. (2016). Npas1+ pallidal neurons target striatal projection neurons. Journal of Neuroscience, 36, 5472-5488. https://www.jneurosci.org/content/36/20/5472 http://doi.org/10.1523/JNEUROSCI.1720-15.2016</p>
 
@@ -417,6 +429,8 @@
 <p id="GulleyKuwajimaMayhillEtAl99">Gulley, J.M., Kuwajima, M., Mayhill, E., & Rebec, G.V. (1999). Behavior-related changes in the activity of substantia nigra pars reticulata neurons in freely moving rats. Brain Research, 845, 68-76. https://www.sciencedirect.com/science/article/pii/S0006899399019320 http://doi.org/10.1016/S0006-8993(99)01932-0</p>
 
 <p id="GunayEdgertonJaeger08">Günay, C., Edgerton, J.R., & Jaeger, D. (2008). Channel Density Distributions Explain Spiking Variability in the Globus Pallidus: A Combined Physiology and Computer Simulation Database Approach. Journal of Neuroscience, 28, 7476-7491. https://www.jneurosci.org/content/28/30/7476 http://doi.org/10.1523/JNEUROSCI.4198-07.2008</p>
+
+<p id="GuoLiHuberEtAl14">Guo, Z.V., Li, N., Huber, D., Ophir, E., Gutnisky, D., Ting, J.T., Feng, G., & Svoboda, K. (2014). Flow of cortical activity underlying a tactile decision in mice. Neuron, 81, 179-194. http://www.sciencedirect.com/science/article/pii/S0896627313009240 http://doi.org/10.1016/j.neuron.2013.10.020</p>
 
 <p id="GuoYamawakiSvobodaEtAl18">Guo, K., Yamawaki, N., Svoboda, K., & Shepherd, G.M.G. (2018). Anterolateral motor cortex connects with a medial subdivision of ventromedial thalamus through cell type-specific circuits, forming an excitatory thalamo-cortico-thalamic loop via layer 1 apical tuft dendrites of layer 5b pyramidal tract type neurons. Journal of Neuroscience, 38, 8787-8797. https://www.jneurosci.org/content/38/41/8787 http://doi.org/10.1523/JNEUROSCI.1333-18.2018</p>
 
@@ -610,6 +624,8 @@
 
 <p id="KupchikPrasad21">Kupchik, Y.M., & Prasad, A.A. (2021). Ventral pallidum cellular and pathway specificity in drug seeking. Neuroscience & Biobehavioral Reviews, 131, 373-386. https://www.sciencedirect.com/science/article/pii/S0149763421003894 http://doi.org/10.1016/j.neubiorev.2021.09.007</p>
 
+<p id="KuramotoPanFurutaEtAl17">Kuramoto, E., Pan, S., Furuta, T., Tanaka, Y.R., Iwai, H., Yamanaka, A., Ohno, S., Kaneko, T., Goto, T., & Hioki, H. (2017). Individual mediodorsal thalamic neurons project to multiple areas of the rat prefrontal cortex: A single neuron-tracing study using virus vectors. Journal of Comparative Neurology, 525, 166-185. https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.24054 http://doi.org/10.1002/cne.24054</p>
+
 <p id="KurodaSchweighoferKawato01">Kuroda, S., Schweighofer, N., & Kawato, M. (2001). Exploration of signal transduction pathways in cerebellar long-term depression by kinetic simulation. Journal of Neuroscience, 21, 5693-5702. https://www.jneurosci.org/content/21/15/5693 http://doi.org/10.1523/JNEUROSCI.21-15-05693.2001</p>
 
 <p id="LakeBaroni17">Lake, B.M., & Baroni, M. (2017). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. arXiv:1711.00350 [cs], http://arxiv.org/abs/1711.00350</p>
@@ -691,6 +707,8 @@
 <p id="McClellandHillRudolphEtAl20">McClelland, J.L., Hill, F., Rudolph, M., Baldridge, J., & Schütze, H. (2020). Placing language in an integrated understanding system: Next steps toward human-level performance in neural language models. Proceedings of the National Academy of Sciences, 117, 25966-25974. http://www.pnas.org/content/117/42/25966 http://doi.org/10.1073/pnas.1910416117</p>
 
 <p id="McClellandRumelhart86">McClelland, J.L., & Rumelhart, D.E. (1986). A Distributed Model of Human Learning and Memory. In J.L. McClelland, D.E. Rumelhart, & P.R. Group (Eds.), Parallel Distributed Processing. Volume 2: Psychological and Biological Models (pp. 170-215). MIT Press. </p>
+
+<p id="McFarlandHaber02">McFarland, N.R., & Haber, S.N. (2002). Thalamic relay nuclei of the basal ganglia form both reciprocal and nonreciprocal cortical connections, linking multiple frontal cortical areas. The Journal of Neuroscience, 22, 8117-8132. http://www.ncbi.nlm.nih.gov/pubmed/12223566</p>
 
 <p id="McGrathRussinPavlickEtAl24">McGrath, S.W., Russin, J., Pavlick, E., & Feiman, R. (2024). How Can Deep Neural Networks Inform Theory in Psychological Science? Current Directions in Psychological Science, 33, 325-333.  http://doi.org/10.1177/09637214241268098</p>
 
@@ -832,6 +850,8 @@
 
 <p id="ParkCoddingtonDudman20">Park, J., Coddington, L.T., & Dudman, J.T. (2020). Basal ganglia circuits for action specification. Annual Review of Neuroscience, 43, 485-507.  http://doi.org/10.1146/annurev-neuro-070918-050452</p>
 
+<p id="ParnaudeauBolkanKellendonk18">Parnaudeau, S., Bolkan, S.S., & Kellendonk, C. (2018). The mediodorsal thalamus: An essential partner of the prefrontal cortex for cognition. Biological Psychiatry, 83, 648-656. http://www.sciencedirect.com/science/article/pii/S0006322317321935 http://doi.org/10.1016/j.biopsych.2017.11.008</p>
+
 <p id="PateriaSubagdjaTanEtAl21">Pateria, S., Subagdja, B., Tan, A., & Quek, C. (2021). Hierarchical Reinforcement Learning: A Comprehensive Survey. ACM Comput. Surv., 54, 109:1–109:35. https://dl.acm.org/doi/10.1145/3453160 http://doi.org/10.1145/3453160</p>
 
 <p id="PauliHazyOReilly12">Pauli, W.M., Hazy, T.E., & O'Reilly, R.C. (2012). Expectancy, ambiguity, and behavioral flexibility: separable and complementary roles of the orbital frontal cortex and amygdala in processing reward expectancies. Journal of Cognitive Neuroscience, 24, 351-366. http://www.ncbi.nlm.nih.gov/pubmed/22004047</p>
@@ -889,6 +909,8 @@
 <p id="ReymannFrey07">Reymann, K.G., & Frey, J.U. (2007). The late maintenance of hippocampal LTP: Requirements, phases, ‘synaptic tagging’, ‘late-associativity’ and implications. Neuropharmacology, 52, 24-40. https://www.sciencedirect.com/science/article/pii/S0028390806002401 http://doi.org/10.1016/j.neuropharm.2006.07.026</p>
 
 <p id="RichWallis16">Rich, E.L., & Wallis, J.D. (2016). Decoding subjective decisions from orbitofrontal cortex. Nature Neuroscience, 19, 973-980. http://www.nature.com/neuro/journal/v19/n7/full/nn.4320.html?WT.ec_id=NEURO-201607&spMailingID=51711028&spUserID=MTc2NjQ4NzIwMwS2&spJobID=944051338&spReportId=OTQ0MDUxMzM4S0 http://doi.org/10.1038/nn.4320</p>
+
+<p id="RikhyeGilraHalassa18">Rikhye, R.V., Gilra, A., & Halassa, M.M. (2018). Thalamic regulation of switching between cortical representations enables cognitive flexibility. Nature Neuroscience, 21(12), 1753-1763. http://www.nature.com/articles/s41593-018-0269-z http://doi.org/10.1038/s41593-018-0269-z</p>
 
 <p id="RobertsClarke19">Roberts, A.C., & Clarke, H.F. (2019). Why we need nonhuman primates to study the role of ventromedial prefrontal cortex in the regulation of threat- and reward-elicited responses. Proceedings of the National Academy of Sciences, 116, 26297-26304. https://www.pnas.org/doi/10.1073/pnas.1902288116 http://doi.org/10.1073/pnas.1902288116</p>
 
@@ -952,6 +974,8 @@
 
 <p id="SchmidhuberGersEck02">Schmidhuber, J., Gers, F., & Eck, D. (2002). Learning nonregular languages: A comparison of simple recurrent networks and LSTM. Neural Computation, 14, 2039-2042. http://www.ncbi.nlm.nih.gov/pubmed/12184841</p>
 
+<p id="SchmittWimmerNakajimaEtAl17">Schmitt, L.I., Wimmer, R.D., Nakajima, M., Happ, M., Mofakham, S., & Halassa, M.M. (2017). Thalamic amplification of cortical connectivity sustains attentional control. Nature, 545, 219-223. https://www.nature.com/articles/nature22073 http://doi.org/10.1038/nature22073</p>
+
 <p id="Schneider-MizellBodorBrittainEtAl25">Schneider-Mizell, C.M., Bodor, A.L., Brittain, D., Buchanan, J., Bumbarger, D.J., Elabbady, L., Gamlin, C., Kapner, D., Kinn, S., Mahalingam, G., Seshamani, S., Suckow, S., Takeno, M., Torres, R., Yin, W., Dorkenwald, S., Bae, J.A., Castro, M.A., Halageri, A., Jia, Z., Jordan, C., Kemnitz, N., Lee, K., Li, K., Lu, R., Macrina, T., Mitchell, E., Mondal, S.S., Mu, S., Nehoran, B., Popovych, S., Silversmith, W., Turner, N.L., Wong, W., Wu, J., Reimer, J., Tolias, A.S., Seung, H.S., Reid, R.C., Collman, F., & Costa, N.M. (2025). Inhibitory specificity from a connectomic census of mouse visual cortex. Nature, 640, 448-458. https://www.nature.com/articles/s41586-024-07780-8 http://doi.org/10.1038/s41586-024-07780-8</p>
 
 <p id="SchneiderShiffrin77">Schneider, W., & Shiffrin, R.M. (1977). Controlled and Automatic Human Information Processing: I. Detection, Search, and Attention. Psychological Review, 84, 1-66. </p>
@@ -1006,9 +1030,13 @@
 
 <p id="Spear00">Spear, L.P. (2000). The adolescent brain and age-related behavioral manifestations. Neuroscience & Biobehavioral Reviews, 24, 417-463. https://www.sciencedirect.com/science/article/pii/S0149763400000142 http://doi.org/10.1016/S0149-7634(00)00014-2</p>
 
+<p id="SpellmanRigottiAhmariEtAl15">Spellman, T., Rigotti, M., Ahmari, S.E., Fusi, S., Gogos, J.A., & Gordon, J.A. (2015). Hippocampal–prefrontal input supports spatial encoding in working memory. Nature, 522(7556), 309-314. https://www.nature.com/articles/nature14445 http://doi.org/10.1038/nature14445</p>
+
 <p id="Spruston08">Spruston, N. (2008). Pyramidal neurons: dendritic structure and synaptic integration. Nature Reviews. Neuroscience, 9, 201–221. http://www.ncbi.nlm.nih.gov/pubmed/18270515</p>
 
 <p id="Stephenson-JonesKardamakisRobertsonEtAl13">Stephenson-Jones, M., Kardamakis, A.A., Robertson, B., & Grillner, S. (2013). Independent circuits in the basal ganglia for the evaluation and selection of actions. Proceedings of the National Academy of Sciences of the USA, Early edition, 1-10. http://www.ncbi.nlm.nih.gov/pubmed/24003130</p>
+
+<p id="StokesBest90">Stokes, K.A., & Best, P.J. (1990). Mediodorsal thalamic lesions impair “Reference” and “working” memory in rats. Physiology & Behavior, 47, 471-476. https://www.sciencedirect.com/science/article/pii/003193849090111G http://doi.org/10.1016/0031-9384(90)90111-G</p>
 
 <p id="Stone60">Stone, M. (1960). Models for Choice-Reaction Time. Psychometrika, 25, 251-260. https://www.cambridge.org/core/journals/psychometrika/article/abs/models-for-choicereaction-time/4BA8E902DBAD412CCF9B193F80FECF0E http://doi.org/10.1007/BF02289729</p>
 
@@ -1108,6 +1136,8 @@
 
 <p id="WangMarkramGoodmanEtAl06">Wang, Y., Markram, H., Goodman, P.H., Berger, T.K., Ma, J., & Goldman-Rakic, P.S. (2006). Heterogeneity in the pyramidal network of the medial prefrontal cortex. Nature Neuroscience, 9, 534-542.  http://doi.org/10.1038/nn1670</p>
 
+<p id="WangStradtmanWangEtAl08">Wang, H., Stradtman, G.G., Wang, X., & Gao, W. (2008). A specialized NMDA receptor function in layer 5 recurrent microcircuitry of the adult rat prefrontal cortex. Proceedings of the National Academy of Sciences, 105, 16791-16796. https://www.pnas.org/content/105/43/16791 http://doi.org/10.1073/pnas.0804318105</p>
+
 <p id="WangYangWangEtAl13">Wang, M., Yang, Y., Wang, C., Gamo, N.J., Jin, L.E., Mazer, J.A., Morrison, J.H., Wang, X., & Arnsten, A.F.T. (2013). NMDA receptors subserve persistent neuronal firing during working memory in dorsolateral prefrontal cortex. Neuron, 77, 736-749. http://www.sciencedirect.com/science/article/pii/S089662731300038X http://doi.org/10.1016/j.neuron.2012.12.032</p>
 
 <p id="WarstadtBowman22">Warstadt, A., & Bowman, S.R. (2022). What Artificial Neural Networks Can Tell Us about Human Language Acquisition. In Algebraic Structures in Natural Language. CRC Press. </p>
@@ -1123,6 +1153,8 @@
 <p id="WhittingtonBogacz17">Whittington, J.C.R., & Bogacz, R. (2017). An approximation of the error backpropagation algorithm in a predictive coding network with local hebbian synaptic plasticity. Neural Computation, 29, 1229-1262. https://doi.org/10.1162/NECO_a_00949 http://doi.org/10.1162/NECO_a_00949</p>
 
 <p id="WidrowHoff60">Widrow, B., & Hoff, M.E. (1960). Adaptive Switching Circuits. In Institute of Radio Engineers, Western Electronic Show and Convention, Convention Record, Part 4 (pp. 96-104). </p>
+
+<p id="WilhelmSychFominsEtAl23">Wilhelm, M., Sych, Y., Fomins, A., Alatorre Warren, J.L., Lewis, C., Serratosa Capdevila, L., Boehringer, R., Amadei, E.A., Grewe, B., O’Connor, E.C., Hall, B.J., & Helmchen, F. (2023). Striatum-projecting prefrontal cortex neurons support working memory maintenance. Nature Communications, 14, 7016. https://www.nature.com/articles/s41467-023-42777-3 http://doi.org/10.1038/s41467-023-42777-3</p>
 
 <p id="Wolfe10">Wolfe, J.M. (2010). Visual search. Current Biology, 20, R346-R349. http://www.sciencedirect.com/science/article/pii/S0960982210001594 http://doi.org/10.1016/j.cub.2010.02.016</p>
 

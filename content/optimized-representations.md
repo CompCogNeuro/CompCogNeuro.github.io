@@ -3,7 +3,7 @@ Categories = ["Computation", "Activation", "Axon"]
 bibfile = "ccnlab.json"
 +++
 
-The use of **optimized representations** means that the system computes dynamically updated novel representations based on [[constraint satisfaction]] and/or [[error backpropagation#backpropagation to activations]] as the basis for processing inputs and driving cognition and behavior. The use of [[bidirectional connectivity]] in [[Axon]] automatically generates optimized representations, where the [[GeneRec]] analysis shows that the activity states automatically compute the _error gradient_ in the activation states of neurons.
+The use of **optimized representations** means that the system computes dynamically updated novel [[representation]]s based on [[constraint satisfaction]] and/or [[error backpropagation#backpropagation to activations]] as the basis for processing inputs and driving cognition and behavior. The use of [[bidirectional connectivity]] in [[Axon]] automatically generates optimized representations, where the [[GeneRec]] analysis shows that the activity states automatically compute the _error gradient_ in the activation states of neurons.
 
 There is a tradeoff in computation expended for generating these optimized representations on each trial, versus optimizing the number of trials for learning, using a much faster mode of per-trial processing, such as the standard single-iteration feedforward pass in a standard [[abstract neural network]]. Given the biologically-realistic approach taken in the [[Axon]] model, which uses bidirectional connectivity to perform [[error-driven learning]], these models are effectively committed to at least around 200 iterations worth of constraint-satisfaction processing per trial.
 
